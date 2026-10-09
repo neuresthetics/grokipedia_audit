@@ -323,3 +323,5 @@ Files added since the Files table above:
 | `flagged_pro/sti_dependence/` | What-if check: medical survivors that rest on the HIV/STI claim |
 | `flagged_pro/cancer_dependence/` | What-if check: medical survivors that rest on the cancer claim |
 | `flagged_pro/whatif_total/` | Total what-if: the whole male pro side, already flagged, invalidated under the premises, or left |
+
+**Everything in one file:** [FULL_RECORD.md](FULL_RECORD.md), the author's position followed by every step and chart 01–11, copied verbatim from the files above by `scripts/build_full_record.py`.
