@@ -1,0 +1,668 @@
+item,tag,note,tagged_by,tagged_at
+h0001,X,infection rates (not STI-specific) and sexual function data,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0002,X,safety/minimal risk view,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0003,X,UTI benefit,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0004,X,hygiene point remains without HIV/STI part,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0005,X,complication rates and severity comparison,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0006,X,"unspecified health advantages, cannot tell from context",sti-tagger-1,2026-10-08T22:38:30-07:00
+h0007,X,comparative complication/tissue-loss severity,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0008,X,"comparative consequences, no STI benefit relied on",sti-tagger-1,2026-10-08T22:38:30-07:00
+h0009,X,complication rate point remains without HIV part,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0010,H,benefits outweigh risks; preceding sentence names only HIV benefit,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0011,X,nerve/sexual function comparison,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0012,X,infections listed next include UTIs,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0013,H,,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0014,X,UTI and penile cancer remain,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0015,X,'these benefits' include UTI/penile cancer; HIV-setting recommendation is only part,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0016,X,,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0017,X,,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0018,X,sexual function data,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0019,X,complication rates comparison,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0020,X,low morbidity point remains,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0021,X,harm comparison,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0022,X,UTI and penile cancer remain,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0023,X,lower risk point remains without HIV part,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0024,H,,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0025,X,hemorrhage risk/safety,sti-tagger-1,2026-10-08T22:38:30-07:00
+h0026,X,hemorrhage safety,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0027,X,anaesthesia complications,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0028,X,procedure invasiveness/pain,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0029,X,complication data,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0030,X,UTI,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0031,X,UTI,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0032,X,UTI benefit persistence,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0033,H,,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0034,H,,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0035,H,,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0036,X,penile cancer (rule 3),sti-tagger-1,2026-10-08T22:38:36-07:00
+h0037,X,penile cancer,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0038,X,phimosis/balanitis,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0039,X,balanitis,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0040,X,UTI and dermatologic benefits remain,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0041,X,sexual function/sensitivity evidence,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0042,X,"benefits unspecified; following AAP sentence includes UTI, penile cancer; cannot tell from prior two",sti-tagger-1,2026-10-08T22:38:36-07:00
+h0043,X,UTI and penile cancer remain,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0044,X,balanitis point remains without HIV part,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0045,X,benefits unspecified; cannot tell from prior two sentences,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0046,X,penile cancer and UTI,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0047,H,,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0048,X,anaesthesia/complications,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0049,X,phimosis/anaesthesia,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0050,X,pain,sti-tagger-1,2026-10-08T22:38:36-07:00
+h0051,X,pain,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0052,X,pain management,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0053,X,pain/outcomes,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0054,X,sensitivity,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0055,X,complication rates,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0056,X,complication rates,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0057,X,complication rates,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0058,X,safety: disputes SIDS risk finding,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0059,X,safety: disputes SIDS risk finding,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0060,X,safety: disputes ASD/ADHD risk finding,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0061,X,safety: disputes ASD/ADHD risk finding,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0062,X,safety: no ASD association,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0063,X,meatal stenosis risk low,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0064,X,meatal stenosis mostly mild,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0065,X,UTI,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0066,X,UTI,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0067,X,UTI,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0068,X,UTI mechanism,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0069,X,UTI,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0070,X,balanitis,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0071,X,hygiene,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0072,X,balanitis,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0073,X,inflammatory dermatoses,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0074,X,UTI protective association,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0075,H,,sti-tagger-1,2026-10-08T22:38:43-07:00
+h0076,H,HIV trials,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0077,H,WHO/CDC recommendation for HIV prevention,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0078,H,,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0079,H,HPV and partner cervical cancer (rule 3),sti-tagger-1,2026-10-08T22:38:45-07:00
+h0080,H,,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0081,H,HIV mechanism (rule 4),sti-tagger-1,2026-10-08T22:38:45-07:00
+h0082,X,penile cancer,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0083,X,phimosis,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0084,X,paraphimosis,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0085,X,balanoposthitis/penile cancer,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0086,X,sexual function,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0087,X,sexual satisfaction,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0088,X,ejaculatory control,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0089,X,sexual function/sensitivity,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0090,X,sensitivity testing,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0091,X,sensitivity,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0092,X,sensitivity,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0093,X,sexual function,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0094,X,sexual function,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0095,X,sexual function/healing,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0096,X,no harm to penile growth,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0097,X,disputes sexual-harm study,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0098,X,disputes sexual-harm study,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0099,X,sexual function,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0100,H,,sti-tagger-1,2026-10-08T22:38:45-07:00
+h0101,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0102,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0103,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0104,H,"genital ulcers as HIV cofactor, partner transmission",sti-tagger-1,2026-10-08T22:38:49-07:00
+h0105,H,cost-effectiveness of averting HIV infections,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0106,H,VMMC programmes preventing infections,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0107,X,adverse events (rule 5),sti-tagger-1,2026-10-08T22:38:49-07:00
+h0108,H,no risk compensation supports HIV programme effect,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0109,H,net morbidity reductions in high-HIV-burden contexts,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0110,N,"1855 history of syphilis argument, not relied on now",sti-tagger-1,2026-10-08T22:38:49-07:00
+h0111,N,1870s history of Sayre's claims,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0112,N,history of Sayre's case reports,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0113,N,history of how practice entered US pediatrics,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0114,N,Victorian history of hygiene rationale,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0115,X,UTI point remains,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0116,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0117,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0118,X,"hygiene, balanitis, phimosis",sti-tagger-1,2026-10-08T22:38:49-07:00
+h0119,X,UTI,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0120,X,refers to hygiene/UTI advantages,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0121,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0122,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0123,X,penile cancer,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0124,X,protections include UTI/penile cancer; complications,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0125,H,,sti-tagger-1,2026-10-08T22:38:49-07:00
+h0126,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0127,X,UTI and penile cancer remain,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0128,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0129,H,HIV prevention programmes,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0130,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0131,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0132,X,complexity/pain of later procedure remains without HIV part,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0133,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0134,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0135,X,UTI and penile cancer remain,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0136,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0137,X,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0138,X,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0139,X,sexual function,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0140,X,ejaculation control,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0141,X,sexual pleasure evidence,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0142,X,psychological harm evidence,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0143,X,psychological harm evidence,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0144,X,psychological harm evidence,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0145,X,"risk-benefit; nearby benefits listed in section include UTI and penile cancer, prior two are about harm; unclear",sti-tagger-1,2026-10-08T22:38:53-07:00
+h0146,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0147,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0148,H,,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0149,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0150,H,defends HIV trial findings,sti-tagger-1,2026-10-08T22:38:53-07:00
+h0151,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0152,H,trials halted for HIV protective effect,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0153,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0154,H,no behavioural disinhibition supports HIV effect,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0155,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0156,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0157,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0158,H,no risk compensation supports HIV role,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0159,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0160,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0161,H,HIV in MSM context,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0162,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0163,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0164,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0165,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0166,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0167,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0168,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0169,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0170,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0171,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0172,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0173,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0174,H,,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0175,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:55-07:00
+h0176,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0177,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0178,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0179,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0180,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0181,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0182,H,HIV mechanism,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0183,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0184,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0185,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0186,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0187,X,complication-rate point remains without HIV targeting (rule 5),sti-tagger-1,2026-10-08T22:38:59-07:00
+h0188,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0189,H,cost per HIV infection averted,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0190,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0191,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0192,H,cost-effectiveness via averted HIV infections,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0193,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0194,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0195,H,early observation of lower HIV rates offered as support,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0196,H,HIV mechanism hypothesis,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0197,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0198,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0199,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0200,H,,sti-tagger-1,2026-10-08T22:38:59-07:00
+h0201,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0202,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0203,X,adverse-event point remains (rule 1/5),sti-tagger-1,2026-10-08T22:39:03-07:00
+h0204,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0205,X,adverse events,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0206,X,"mainly HIV, but low surgical complication point remains (rule 1)",sti-tagger-1,2026-10-08T22:39:03-07:00
+h0207,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0208,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0209,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0210,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0211,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0212,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0213,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0214,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0215,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0216,H,defends HIV trial outcomes,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0217,H,defends HIV trial outcomes,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0218,H,defends HIV trial design,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0219,H,no risk compensation supports HIV effect,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0220,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0221,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0222,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0223,H,,sti-tagger-1,2026-10-08T22:39:03-07:00
+h0224,H,no risk compensation; defends HIV protection holding in practice,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0225,H,risk compensation rebuttal for HIV programme,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0226,H,RCT HIV acquisition reduction,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0227,H,sustained HIV efficacy,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0228,H,defends HIV trial validity,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0229,H,risk compensation rebuttal supporting HIV protection,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0230,H,declining HIV incidence with programmes,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0231,H,HIV infections averted,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0232,H,HIV infections prevented,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0233,H,HIV infections averted incl. partners,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0234,H,HIV infections prevented,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0235,H,HIV infections averted,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0236,H,HIV infections prevented,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0237,H,cost-effectiveness for HIV prevention,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0238,H,cost per DALY via HIV averted,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0239,H,cost vs other HIV prevention,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0240,H,cost per HIV infection averted,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0241,H,savings from reduced HIV care,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0242,H,sustained HIV prevention impact,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0243,H,"HIV infections averted, savings",sti-tagger-2,2026-10-08T22:38:26-07:00
+h0244,H,savings from HIV protection over decades,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0245,X,UTI point remains without the STI part,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0246,X,UTI benefit remains,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0247,X,benefits unnamed; prior sentences don't specify; cannot tell,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0248,H,VMMC for HIV transmission,sti-tagger-2,2026-10-08T22:38:26-07:00
+h0249,X,penile cancer and UTI remain without HIV,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0250,X,UTI benefit remains,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0251,H,point is RACP downplayed HIV prevention benefit,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0252,H,HIV risk reduction,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0253,X,UTI and penile cancer remain,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0254,X,UTI,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0255,X,UTI,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0256,X,UTI,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0257,X,penile cancer,sti-tagger-2,2026-10-08T22:38:28-07:00
+h0258,X,"penile cancer (rule 3), HPV only a partial mechanism",sti-tagger-2,2026-10-08T22:38:28-07:00
+h0259,X,penile cancer,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0260,H,HIV RCTs,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0261,H,HIV infections averted,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0262,H,HPV and HSV-2,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0263,H,HPV and HSV-2,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0264,X,balanitis and phimosis,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0265,X,hygiene mechanism for balanitis/phimosis benefits,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0266,X,complication rates,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0267,X,sexual function,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0268,X,pain and anaesthesia,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0269,X,procedure safety by age,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0270,X,adverse event rates,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0271,H,HIV RCTs,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0272,H,HIV incidence declines,sti-tagger-2,2026-10-08T22:38:31-07:00
+h0273,H,HIV protective association,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0274,H,HIV and STI incidence,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0275,H,HIV prevalence disparity,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0276,X,sensitivity: rebuts nerve-ending count,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0277,X,sensitivity: nerve-ending count critique,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0278,X,sensitivity: nerve-ending estimate,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0279,X,sensitivity: glans nerves intact,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0280,X,sexual sensitivity/pleasure data,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0281,X,sexual function data,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0282,X,"sexual outcomes, phimosis",sti-tagger-2,2026-10-08T22:38:35-07:00
+h0283,X,sensory loss claim,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0284,X,infection risks generic; following context is UTI,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0285,X,complication rates,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0286,X,procedure safety,sti-tagger-2,2026-10-08T22:38:35-07:00
+h0287,X,bacterial colonization/hygiene leading to UTI,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0288,X,UTI,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0289,H,HIV RCTs and mechanism,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0290,X,sexual function,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0291,X,sexual function,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0292,X,sexual function/sensitivity,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0293,X,complication rates,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0294,X,UTI point remains without STI part,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0295,X,rebuts harm claims as anecdotal; not about STI,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0296,X,UTI and penile cancer remain,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0297,H,WHO HIV endorsement,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0298,X,unnamed benefits; prior sentences include UTI and penile cancer,sti-tagger-2,2026-10-08T22:38:38-07:00
+h0299,X,sexual function,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0300,X,"VMMC safety, rule 5",sti-tagger-2,2026-10-08T22:38:41-07:00
+h0301,X,rebuts autism harm claim; not STI,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0302,H,VMMC endorsed on HIV RCTs,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0303,X,procedure safety,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0304,H,HIV risk reduction,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0305,H,HIV RCTs,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0306,H,HIV RCT results,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0307,H,HIV trial efficacy,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0308,H,HIV trials,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0309,H,HIV causal evidence and policy,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0310,H,HIV infections averted,sti-tagger-2,2026-10-08T22:38:41-07:00
+h0311,H,point is net HIV preventive impact despite complications,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0312,X,"procedure safety, rule 5",sti-tagger-2,2026-10-08T22:38:45-07:00
+h0313,X,"task-shifting safety, rule 5",sti-tagger-2,2026-10-08T22:38:45-07:00
+h0314,X,safety point remains with HIV part removed (rule 1),sti-tagger-2,2026-10-08T22:38:45-07:00
+h0315,H,cost-effectiveness of HIV programme,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0316,H,HIV RCTs,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0317,H,HIV trial result,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0318,H,HIV trial results,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0319,H,HIV causal mechanism,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0320,H,HIV field effectiveness,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0321,H,HIV prevalence association,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0322,H,HIV incidence drop,sti-tagger-2,2026-10-08T22:38:45-07:00
+h0323,H,HIV infections averted,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0324,H,sustained HIV protection,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0325,H,cost-effectiveness via HIV incidence,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0326,H,other STIs,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0327,H,HSV-2 and HPV,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0328,H,STI mechanism,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0329,H,"partner HPV/cervical cancer, rule 3",sti-tagger-2,2026-10-08T22:38:48-07:00
+h0330,H,"cervical cancer in partners, rule 3",sti-tagger-2,2026-10-08T22:38:48-07:00
+h0331,X,balanitis and phimosis,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0332,X,penile cancer,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0333,X,UTI,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0334,X,cancer (penile) and other advantages remain without STI/HIV,sti-tagger-2,2026-10-08T22:38:48-07:00
+h0335,X,adverse event rates,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0336,X,adverse event rates,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0337,X,safety vs traditional remains without HIV part (rule 1),sti-tagger-2,2026-10-08T22:38:52-07:00
+h0338,X,safety advantage over traditional remains without HIV part (rule 1),sti-tagger-2,2026-10-08T22:38:52-07:00
+h0339,H,rebuttal rests on HIV RCTs,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0340,H,HIV infections averted,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0341,H,rebuttal rests on HIV mechanism,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0342,H,HIV prevention strategy,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0343,H,HIV and STI protection,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0344,X,UTI,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0345,X,complication rates,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0346,X,post-operative satisfaction/healing,sti-tagger-2,2026-10-08T22:38:52-07:00
+h0347,X,UTI and penile cancer remain without HIV/STI part,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0348,X,complication rates,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0349,X,"complication rates, anaesthesia",sti-tagger-2,2026-10-08T22:38:54-07:00
+h0350,X,UTI,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0351,X,UTI mechanism,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0352,X,UTI,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0353,X,penile cancer,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0354,X,"penile cancer mechanism, rule 3",sti-tagger-2,2026-10-08T22:38:54-07:00
+h0355,H,HIV RCTs,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0356,H,HIV mechanism,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0357,H,HPV and HSV-2,sti-tagger-2,2026-10-08T22:38:54-07:00
+h0358,X,"phimosis, balanitis",sti-tagger-2,2026-10-08T22:38:54-07:00
+h0359,X,UTI and cancer remain without STI part,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0360,X,UTI remains without STI part,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0361,H,VMMC on HIV trials,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0362,X,complication rates,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0363,X,sexual function,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0364,X,sexual function,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0365,X,rebuts autism/trauma harm claim; not STI,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0366,X,sexual function risk low,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0367,X,UTI remains without STD part,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0368,H,HIV RCTs,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0369,H,HIV infections prevented,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0370,X,UTI,sti-tagger-2,2026-10-08T22:38:57-07:00
+h0371,X,complication rates,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0372,X,benefits include cancers and non-STI infections,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0373,X,sexual function,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0374,X,"unnamed benefits; prior context includes infections and cancers, not STI-only",sti-tagger-2,2026-10-08T22:39:01-07:00
+h0375,N,"historical account of 20th-century hygiene advocacy, not relied on as support",sti-tagger-2,2026-10-08T22:39:01-07:00
+h0376,X,hygiene point remains without HIV part,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0377,X,UTI remains without HIV part,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0378,X,complication rates,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0379,X,complication rates,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0380,X,UTI,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0381,X,UTI mechanism,sti-tagger-2,2026-10-08T22:39:01-07:00
+h0382,X,"penile cancer, rule 3",sti-tagger-2,2026-10-08T22:39:01-07:00
+h0383,X,penile cancer,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0384,X,penile cancer via phimosis/balanitis,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0385,X,phimosis and balanitis,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0386,X,phimosis and balanitis,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0387,H,HPV and HSV-2,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0388,H,HPV,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0389,H,HSV-2,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0390,H,"borderline: ""sustained preventive benefits"" refers to HPV/HSV-2 in prior two sentences (rule 2); sexual-function clause only says no offset",sti-tagger-2,2026-10-08T22:39:05-07:00
+h0391,X,sexual function,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0392,X,complication rates,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0393,X,procedure safety,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0394,X,sexual function,sti-tagger-2,2026-10-08T22:39:05-07:00
+h0395,X,unnamed benefits; prior two sentences name none; cannot tell (next sentence lists UTI and penile cancer),sti-tagger-2,2026-10-08T22:39:08-07:00
+h0396,X,UTI and penile cancer remain without STI part,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0397,X,complication rates,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0398,X,phimosis and balanitis,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0399,X,UTI and penile cancer remain,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0400,X,sexual function,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0401,X,adverse events and pain,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0402,H,HIV RCTs,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0403,X,"UTI, balanitis, penile cancer",sti-tagger-2,2026-10-08T22:39:08-07:00
+h0404,X,"unnamed benefits; prior context is hygiene and infection prevention, not STI-only",sti-tagger-2,2026-10-08T22:39:08-07:00
+h0405,X,unnamed benefits; prior context includes UTI alongside STIs,sti-tagger-2,2026-10-08T22:39:08-07:00
+h0406,X,"""other infections"" unspecified, may include non-STI; cannot tell, so X",sti-tagger-2,2026-10-08T22:39:08-07:00
+h0407,H,WHO/UNAIDS HIV prevention,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0408,X,"AUA benefits unnamed; prior sentences are about WHO's HIV stance, not AUA; next sentence names phimosis/balanitis",sti-tagger-2,2026-10-08T22:39:14-07:00
+h0409,X,phimosis and balanitis,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0410,X,UTI remains without HIV part,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0411,X,penile cancer remains without STI part,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0412,X,unnamed net gains; prior context includes penile cancer,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0413,H,HIV infections averted,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0414,H,HIV cost-effectiveness,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0415,X,mixed mechanism; bacterial colonization (UTI/hygiene) remains without viral part,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0416,X,UTI remains without STI part,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0417,X,UTI,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0418,H,HIV RCTs,sti-tagger-2,2026-10-08T22:39:14-07:00
+h0419,H,HPV and HSV-2,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0420,X,"penile cancer, rule 3",sti-tagger-2,2026-10-08T22:39:19-07:00
+h0421,H,"cervical cancer via HPV, rule 3",sti-tagger-2,2026-10-08T22:39:19-07:00
+h0422,H,VMMC cost savings in HIV-endemic settings,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0423,X,UTI and balanitis,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0424,X,balanitis,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0425,X,bacterial mechanism for UTI/balanitis,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0426,H,"HPV herd effects, cervical cancer",sti-tagger-2,2026-10-08T22:39:19-07:00
+h0427,H,HPV in men and partners,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0428,H,HPV transmission chains,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0429,X,savings on UTI and inflammatory treatments,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0430,X,cost-effectiveness refers to UTI/inflammatory savings,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0431,X,lifelong protection against infections from infancy (UTI context),sti-tagger-2,2026-10-08T22:39:19-07:00
+h0432,X,complication rates,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0433,X,sexual function,sti-tagger-2,2026-10-08T22:39:19-07:00
+h0434,X,pain/psychological harm rebuttal,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0435,X,"pain sensitization, not STI",sti-tagger-2,2026-10-08T22:39:26-07:00
+h0436,X,psychological effects,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0437,X,rebuts trauma claims,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0438,X,satisfaction/psychological outcomes,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0439,X,complication rates,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0440,X,complication rates by age,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0441,N,uptake/prevalence statistics; no medical benefit relied on,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0442,X,"speed, anaesthesia and cost point remains without HIV-setting part",sti-tagger-2,2026-10-08T22:39:26-07:00
+h0443,X,UTI remains without HIV part,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0444,X,complications and regret in adults,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0445,X,UTI and complication risk,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0446,H,lifetime HIV risk reduction in high-HIV contexts,sti-tagger-2,2026-10-08T22:39:26-07:00
+h0447,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0448,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0449,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0450,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0451,H,mechanism for HIV entry (rule 4),sti-tagger-3,2026-10-08T22:38:30-07:00
+h0452,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0453,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0454,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0455,H,programme justified by HIV infections prevented,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0456,H,cost savings come from averted HIV treatment,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0457,H,cost-effectiveness tied to HIV incidence,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0458,X,"utility unnamed; next sentence includes balanitis, a non-STI benefit (rule 2 by analogy)",sti-tagger-3,2026-10-08T22:38:30-07:00
+h0459,X,balanitis and low morbidity remain without the HIV/HPV part,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0460,H,WHO endorsement rests on high-HIV-prevalence prevention,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0461,X,complication rates point remains (rule 5),sti-tagger-3,2026-10-08T22:38:30-07:00
+h0462,X,UTI point remains,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0463,X,AAP benefits include UTI and others per preceding context,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0464,X,UTI,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0465,X,penile cancer remains without the HPV/cervical part,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0466,H,,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0467,X,UTI and cancer remain,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0468,X,sexual function data,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0469,X,psychological safety data,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0470,X,"critique of harm-survey methods, non-STI",sti-tagger-3,2026-10-08T22:38:30-07:00
+h0471,X,mental health safety data,sti-tagger-3,2026-10-08T22:38:30-07:00
+h0472,X,"psychological harm evidence, non-STI",sti-tagger-3,2026-10-08T22:38:34-07:00
+h0473,X,net benefits unnamed; following context includes UTIs and penile cancer,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0474,H,,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0475,H,"HPV, cervical cancer via HPV, HSV-2",sti-tagger-3,2026-10-08T22:38:34-07:00
+h0476,X,UTI,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0477,X,penile cancer,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0478,X,"complication rates, UTI and phimosis remain",sti-tagger-3,2026-10-08T22:38:34-07:00
+h0479,N,"description of FGC types, no MC benefit relied on",sti-tagger-3,2026-10-08T22:38:34-07:00
+h0480,X,complication-rate comparison (rule 5),sti-tagger-3,2026-10-08T22:38:34-07:00
+h0481,X,lower morbidity comparison remains without HIV part,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0482,X,UTI and penile cancer remain,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0483,X,nerve-ending/sensitivity data,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0484,X,sexual sensitivity and function data,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0485,X,inflammatory penile conditions,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0486,X,UTI,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0487,X,UTI,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0488,X,penile cancer (rule 3),sti-tagger-3,2026-10-08T22:38:34-07:00
+h0489,X,penile cancer point; HPV offered as cause of cancer,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0490,X,procedure safety,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0491,X,UTI,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0492,X,UTI,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0493,H,,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0494,H,,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0495,H,HPV and HSV-2,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0496,X,penile cancer,sti-tagger-3,2026-10-08T22:38:34-07:00
+h0497,X,penile cancer mechanism; inflammation part remains,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0498,H,cervical cancer via HPV (rule 3),sti-tagger-3,2026-10-08T22:38:40-07:00
+h0499,X,"balanitis, posthitis",sti-tagger-3,2026-10-08T22:38:40-07:00
+h0500,X,"phimosis, paraphimosis",sti-tagger-3,2026-10-08T22:38:40-07:00
+h0501,X,refers to balanitis/phimosis benefits just named,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0502,X,safety,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0503,X,safety,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0504,X,safety,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0505,X,"general benefits and minimal risks, not STI-specific",sti-tagger-3,2026-10-08T22:38:40-07:00
+h0506,X,UTI and penile cancer remain,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0507,X,complication rates,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0508,X,complication rates,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0509,X,sexual function evidence quality,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0510,X,sexual function data,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0511,X,nerve density data,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0512,X,low harm profile remains without preventive effects,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0513,X,AAP/CDC net benefits include non-STI benefits,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0514,X,safety,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0515,X,general summary of preceding non-STI critiques,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0516,X,AAP benefits include UTI and penile cancer (next sentence),sti-tagger-3,2026-10-08T22:38:40-07:00
+h0517,X,UTI and penile cancer remain,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0518,X,sexual function data,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0519,N,"statement of limitation on opponents' anecdotal claims, no benefit relied on",sti-tagger-3,2026-10-08T22:38:40-07:00
+h0520,H,,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0521,H,HIV-prevention scale-up,sti-tagger-3,2026-10-08T22:38:40-07:00
+h0522,X,UTI,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0523,X,safety,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0524,X,sexual function data,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0525,X,low complication rates,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0526,X,UTI point remains,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0527,H,countervailing data named is HIV trials only,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0528,X,sexual function data,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0529,H,benefit named is HIV only,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0530,H,health advantages unnamed; preceding sentence names HIV only (rule 2),sti-tagger-3,2026-10-08T22:38:43-07:00
+h0531,X,"UTI, phimosis, balanitis",sti-tagger-3,2026-10-08T22:38:43-07:00
+h0532,X,"inflammatory conditions, penile cancer",sti-tagger-3,2026-10-08T22:38:43-07:00
+h0533,H,HPV and HSV-2,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0534,H,,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0535,H,,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0536,H,,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0537,H,,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0538,H,,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0539,H,WHO endorsement for HIV prevention,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0540,H,mechanism for HIV entry (rule 4),sti-tagger-3,2026-10-08T22:38:43-07:00
+h0541,X,UTI and penile cancer remain,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0542,X,UTI remains,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0543,X,penile cancer remains,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0544,H,"HIV strategy integration, viral entry",sti-tagger-3,2026-10-08T22:38:43-07:00
+h0545,X,sexual function,sti-tagger-3,2026-10-08T22:38:43-07:00
+h0546,X,"hygiene, discomfort",sti-tagger-3,2026-10-08T22:38:43-07:00
+h0547,X,benefits unnamed; following sentences include UTI and penile cancer,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0548,H,,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0549,H,HIV mechanism (rule 4),sti-tagger-3,2026-10-08T22:38:48-07:00
+h0550,X,UTI,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0551,X,penile cancer (rule 3),sti-tagger-3,2026-10-08T22:38:48-07:00
+h0552,H,"HSV-2, HPV, syphilis",sti-tagger-3,2026-10-08T22:38:48-07:00
+h0553,H,partner HPV and cervical cancer (rule 3),sti-tagger-3,2026-10-08T22:38:48-07:00
+h0554,X,"UTI, penile cancer, balanitis remain",sti-tagger-3,2026-10-08T22:38:48-07:00
+h0555,X,UTI and cancer remain,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0556,N,anatomy/technique description,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0557,N,"description of FGC, no MC benefit relied on",sti-tagger-3,2026-10-08T22:38:48-07:00
+h0558,N,FGC classification description,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0559,X,UTI and penile cancer remain,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0560,N,"FGC harms described, no MC benefit relied on",sti-tagger-3,2026-10-08T22:38:48-07:00
+h0561,X,harm-benefit profile; prior context includes UTI and penile cancer,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0562,H,,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0563,H,,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0564,X,complication-rate data,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0565,X,complication-rate data,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0566,X,complication causation,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0567,X,complication-rate data,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0568,X,complication-rate data,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0569,X,UTI remains alongside STDs,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0570,X,complication rates,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0571,N,technique description,sti-tagger-3,2026-10-08T22:38:48-07:00
+h0572,X,infection rates / procedure safety,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0573,X,UTI,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0574,X,UTI,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0575,H,,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0576,H,HPV and HSV-2,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0577,H,HPV susceptibility (STI),sti-tagger-3,2026-10-08T22:38:51-07:00
+h0578,X,penile cancer,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0579,X,UTI and cancer remain,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0580,X,complication rates,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0581,X,complication rates,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0582,X,procedure risks/healing,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0583,X,UTI,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0584,X,complication mitigation,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0585,X,"infection/adhesion prevention, anaesthesia",sti-tagger-3,2026-10-08T22:38:51-07:00
+h0586,X,adverse event rates,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0587,X,complication rates,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0588,X,paraphimosis,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0589,X,paraphimosis treatment,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0590,X,paraphimosis,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0591,X,paraphimosis,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0592,X,paraphimosis/phimosis,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0593,X,"paraphimosis, penile carcinoma",sti-tagger-3,2026-10-08T22:38:51-07:00
+h0594,X,balanitis,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0595,X,UTI,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0596,X,phimosis treatment,sti-tagger-3,2026-10-08T22:38:51-07:00
+h0597,X,postoperative pain,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0598,X,recurrent infections and healing in diabetics (phimosis context),sti-tagger-3,2026-10-08T22:38:54-07:00
+h0599,X,phimosis treatment,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0600,X,phimosis outcomes,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0601,X,phimosis epidemiology,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0602,X,phimosis epidemiology,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0603,X,phimosis morbidity,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0604,X,phimosis morbidity,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0605,X,phimosis treatment,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0606,X,phimosis treatment,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0607,X,"paraphimosis, balanoposthitis, UTI",sti-tagger-3,2026-10-08T22:38:54-07:00
+h0608,H,HIV programme and trials,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0609,H,HIV infections averted,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0610,H,HIV mechanism (rule 4),sti-tagger-3,2026-10-08T22:38:54-07:00
+h0611,H,,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0612,H,HIV infections averted,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0613,H,HIV infections averted by VMMC coverage,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0614,X,"redundant prepuce complications, non-STI context",sti-tagger-3,2026-10-08T22:38:54-07:00
+h0615,X,balanoposthitis,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0616,X,penile cancer,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0617,X,"balanoposthitis, inflammation",sti-tagger-3,2026-10-08T22:38:54-07:00
+h0618,X,UTI,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0619,H,,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0620,H,HPV and HSV-2,sti-tagger-3,2026-10-08T22:38:54-07:00
+h0621,X,penile cancer (rule 3),sti-tagger-3,2026-10-08T22:38:54-07:00
+h0622,X,"phimosis, balanoposthitis",sti-tagger-3,2026-10-08T22:38:58-07:00
+h0623,X,sexual function data,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0624,X,"benefits unnamed; preceding context includes UTI, phimosis, penile cancer",sti-tagger-3,2026-10-08T22:38:58-07:00
+h0625,X,net benefit unnamed; context includes UTI and other non-STI conditions,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0626,X,complication rates,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0627,X,functional outcomes,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0628,X,complication rates,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0629,X,complication rates,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0630,X,delayed complications,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0631,X,complication rate,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0632,X,procedure safety,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0633,X,complication incident rates,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0634,X,UTI and low complication rates remain,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0635,X,"""these benefits"" include UTI per preceding sentence",sti-tagger-3,2026-10-08T22:38:58-07:00
+h0636,X,UTI,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0637,X,UTI,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0638,X,UTI mechanism,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0639,X,penile cancer,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0640,X,penile cancer (rule 3),sti-tagger-3,2026-10-08T22:38:58-07:00
+h0641,X,penile cancer mechanism (smegma),sti-tagger-3,2026-10-08T22:38:58-07:00
+h0642,H,,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0643,H,,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0644,H,"HIV, HPV, HSV-2",sti-tagger-3,2026-10-08T22:38:58-07:00
+h0645,H,HIV absolute risk reduction,sti-tagger-3,2026-10-08T22:38:58-07:00
+h0646,X,"phimosis, balanitis",sti-tagger-3,2026-10-08T22:38:58-07:00
+h0647,X,balanitis,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0648,X,phimosis,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0649,X,"""these benefits"" follow balanitis/phimosis sentences; non-STI benefits included",sti-tagger-3,2026-10-08T22:39:01-07:00
+h0650,X,UTI remains,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0651,X,complication rates,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0652,X,complication rates,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0653,X,sexual function,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0654,X,sexual function data,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0655,X,sensitivity/keratinization data,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0656,X,pain and anaesthesia,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0657,X,risk/safety summary,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0658,X,"AAP benefits unnamed; preceding sentences are on risks, cannot tell (rule 2 default)",sti-tagger-3,2026-10-08T22:39:01-07:00
+h0659,X,UTI remains,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0660,H,HIV and other STIs only,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0661,H,,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0662,X,balanitis and phimosis,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0663,X,sexual function data,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0664,X,mental health data,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0665,X,"""certain infections"" unspecified, cannot tell if STI-only; FGM complication contrast remains",sti-tagger-3,2026-10-08T22:39:01-07:00
+h0666,X,sexual function data,sti-tagger-3,2026-10-08T22:39:01-07:00
+h0667,H,WHO endorsement on HIV trials,sti-tagger-3,2026-10-08T22:39:01-07:00

@@ -1,0 +1,190 @@
+{
+ "scope": "medical (M) surviving male pro arguments, prefiltered to a cancer/HPV/cervical keyword in the sentence or the two sentences on either side",
+ "what_if": true,
+ "medical_sentences": 667,
+ "surviving_pro_sentences": 883,
+ "prefiltered": 210,
+ "prefiltered_self_keyword": 60,
+ "by_type": {
+  "C": {
+   "name": "Rests on the cancer-prevention claim",
+   "count": 35,
+   "share_of_prefiltered": 0.166667
+  },
+  "K": {
+   "name": "Rests on a non-cancer claim",
+   "count": 174,
+   "share_of_prefiltered": 0.828571
+  },
+  "N": {
+   "name": "Mentions cancer, not relied on as a benefit",
+   "count": 1,
+   "share_of_prefiltered": 0.004762
+  }
+ },
+ "C_and_H": 8,
+ "C_not_H": 27,
+ "H": 254,
+ "hiv_sti_or_cancer": 281,
+ "hiv_sti_or_cancer_share_of_medical": 0.421289,
+ "hiv_sti_or_cancer_share_of_surviving_pro": 0.318233,
+ "remaining_medical": 386,
+ "keyword_matched_model": 0.804762,
+ "keyword_matched_count": 169,
+ "tagged_by": {
+  "cancer-tagger-1": 105,
+  "cancer-tagger-2": 105
+ },
+ "by_tagger": {
+  "cancer-tagger-1": {
+   "range": "p0001-p0105",
+   "sentences": 105,
+   "counts": {
+    "C": 15,
+    "K": 89,
+    "N": 1
+   }
+  },
+  "cancer-tagger-2": {
+   "range": "p0106-p0210",
+   "sentences": 105,
+   "counts": {
+    "C": 20,
+    "K": 85,
+    "N": 0
+   }
+  }
+ },
+ "top_articles": [
+  {
+   "article": "ethics-of-circumcision",
+   "title": "Ethics of circumcision",
+   "prefiltered": 38,
+   "counts": {
+    "C": 8,
+    "K": 30,
+    "N": 0
+   }
+  },
+  {
+   "article": "foreskin",
+   "title": "Foreskin",
+   "prefiltered": 20,
+   "counts": {
+    "C": 5,
+    "K": 15,
+    "N": 0
+   }
+  },
+  {
+   "article": "circumcision-controversies",
+   "title": "Circumcision controversies",
+   "prefiltered": 16,
+   "counts": {
+    "C": 3,
+    "K": 12,
+    "N": 1
+   }
+  },
+  {
+   "article": "circumcision-in-africa",
+   "title": "Circumcision in Africa",
+   "prefiltered": 10,
+   "counts": {
+    "C": 3,
+    "K": 7,
+    "N": 0
+   }
+  },
+  {
+   "article": "views-on-circumcision",
+   "title": "Views on circumcision",
+   "prefiltered": 10,
+   "counts": {
+    "C": 3,
+    "K": 7,
+    "N": 0
+   }
+  },
+  {
+   "article": "circumcision",
+   "title": "Circumcision",
+   "prefiltered": 26,
+   "counts": {
+    "C": 2,
+    "K": 24,
+    "N": 0
+   }
+  },
+  {
+   "article": "circumcision-surgical-procedure",
+   "title": "Circumcision surgical procedure",
+   "prefiltered": 17,
+   "counts": {
+    "C": 2,
+    "K": 15,
+    "N": 0
+   }
+  },
+  {
+   "article": "khitan-circumcision",
+   "title": "_Khitan_ (circumcision)",
+   "prefiltered": 12,
+   "counts": {
+    "C": 2,
+    "K": 10,
+    "N": 0
+   }
+  }
+ ],
+ "examples": {
+  "C": [
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0215",
+    "text": "Circumcision performed in childhood or adolescence substantially lowers the incidence of invasive penile cancer, a rare malignancy linked primarily to chronic inflammation and HPV persistence under the foreskin.",
+    "note": ""
+   },
+   {
+    "article": "circumcision",
+    "sentence_id": "s0183",
+    "text": "Penile cancer is rare (about 1 in 100,000 in developed countries) and mostly affects uncircumcised males, with near-zero rates in populations with universal neonatal circumcision, such as Israel (0.1–0.3 per 100,000). [108]",
+    "note": ""
+   },
+   {
+    "article": "circumcision-controversies",
+    "sentence_id": "s0040",
+    "text": "Penile cancer, though rare (incidence ~1 in 100,000 in developed countries), shows substantially lower rates in circumcised populations, particularly when performed in childhood or adolescence.",
+    "note": ""
+   }
+  ],
+  "K": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0196",
+    "text": "Scientific studies have identified several health benefits associated with male circumcision, particularly in reducing the risk of certain infections.",
+    "note": "general infection-benefit intro; infections point stands without cancer"
+   },
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0211",
+    "text": "Randomized controlled trials (RCTs) in sub-Saharan Africa have demonstrated that male circumcision reduces the risk of heterosexual HIV acquisition by 50-60% in men.",
+    "note": "HIV"
+   },
+   {
+    "article": "circumcision",
+    "sentence_id": "s0162",
+    "text": "The World Health Organization and Centers for Disease Control and Prevention recommend it as an additional strategy in high-prevalence areas, with over 27 million procedures since 2007. [2] [91]",
+    "note": "HIV recommendation"
+   }
+  ],
+  "N": [
+   {
+    "article": "circumcision-controversies",
+    "sentence_id": "s0209",
+    "text": "These films, released in the late 2000s and 2010s, contributed to broader media discussions on consent and harm, though empirical support for long-term claims often relies on anecdotal evidence rather than large-scale controlled studies.",
+    "note": "about evidence quality of anti documentaries, not a cancer-prevention point"
+   }
+  ]
+ }
+}

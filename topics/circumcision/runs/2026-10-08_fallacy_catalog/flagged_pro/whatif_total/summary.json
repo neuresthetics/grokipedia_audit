@@ -1,0 +1,61 @@
+{
+  "scope": "male circumcision pro arguments (step 5 survival scoring), 971",
+  "what_if": "Premises taken as true for this count only: (1) no protection against HIV or other STDs; (2) STD rates are higher in circumcising countries; (3) cancer prevention is not a valid reason. Not a finding that the premises are true.",
+  "pro_total": 971,
+  "groups": {
+    "already_flagged": {
+      "count": 88,
+      "share_of_pro": 0.090628
+    },
+    "whatif_hiv_sti": {
+      "count": 254,
+      "share_of_pro": 0.261586
+    },
+    "whatif_cancer_only": {
+      "count": 27,
+      "share_of_pro": 0.027806
+    },
+    "medical_other": {
+      "count": 386,
+      "share_of_pro": 0.397528
+    },
+    "ethics_law": {
+      "count": 72,
+      "share_of_pro": 0.07415
+    },
+    "religion_culture": {
+      "count": 105,
+      "share_of_pro": 0.108136
+    },
+    "other": {
+      "count": 39,
+      "share_of_pro": 0.040165
+    }
+  },
+  "already_flagged_first_lost_at": {
+    "pass2": 22,
+    "step5": 61,
+    "pass3": 5
+  },
+  "invalidated_under_what_if": 281,
+  "already_flagged_or_what_if": 369,
+  "not_invalidated": 602,
+  "non_medical_survivors": 216,
+  "non_medical_keyword_hits": 14,
+  "non_medical_keyword_hits_by_tag": {
+    "O": 7,
+    "E": 7
+  },
+  "non_medical_model_check": {
+    "checked": 14,
+    "Y": 2,
+    "N": 12,
+    "Y_items": [
+      "circumcision-in-africa s0279",
+      "circumcision-in-africa s0287"
+    ],
+    "by": [
+      "check-1"
+    ]
+  }
+}

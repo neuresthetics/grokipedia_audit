@@ -1,0 +1,211 @@
+item,tag,note,tagged_by,tagged_at
+p0001,K,general infection-benefit intro; infections point stands without cancer,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0002,K,HIV,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0003,K,UTI/HPV/HSV-2 points remain without penile cancer,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0004,K,"""these benefits"" include HIV, UTI etc.; recommendation is HIV-driven",cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0005,K,complication rates,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0006,K,UTI and STI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0007,K,HIV,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0008,K,HIV trials,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0009,K,"HPV as infection, no cancer point",cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0010,C,,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0011,C,,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0012,K,phimosis/balanitis,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0013,K,phimosis/balanitis,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0014,K,"generic preventive benefits, include non-cancer ones",cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0015,K,UTI and HIV/STI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0016,K,"HIV, balanitis",cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0017,K,UTI point remains without cancer,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0018,K,HIV,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0019,K,HIV recommendation,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0020,K,HSV-2/HPV as infections,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0021,K,HPV prevalence/transmission point remains; cervical cancer is a hedged add-on (borderline C),cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0022,C,,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0023,K,phimosis,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0024,K,paraphimosis,cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0025,K,balanoposthitis reduction is a benefit in itself; cancer link is secondary (borderline C),cancer-tagger-1,2026-10-08T22:41:24-07:00
+p0026,K,sexual function,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0027,K,HIV,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0028,K,HIV infections averted,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0029,K,"HPV/HSV-2 as infections, no cancer point",cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0030,K,genital ulcers/HIV,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0031,K,UTI,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0032,K,hygiene/UTI advantages,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0033,K,HIV,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0034,K,HSV-2/HPV as infections,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0035,C,,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0036,K,"""these protections"" include HIV, STI, UTI",cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0037,K,UTI and STI/HIV points remain without cancer,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0038,K,"HIV, HSV-2, HPV as infections",cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0039,K,HIV,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0040,K,HIV trials,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0041,K,UTI and STI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0042,K,HIV-driven WHO recommendation,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0043,K,complication rates,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0044,K,HIV mechanism,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0045,K,HIV mechanism,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0046,K,HIV mechanism,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0047,K,HIV mechanism,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0048,K,HIV and UTI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0049,K,UTI and HIV points remain without cancer,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0050,K,UTI,cancer-tagger-1,2026-10-08T22:41:30-07:00
+p0051,K,UTI,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0052,C,,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0053,C,,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0054,C,"""the risk"" refers to penile cancer",cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0055,K,HIV,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0056,K,HIV,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0057,K,HPV/HSV-2 acquisition as infections,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0058,K,HPV/HSV-2 infections,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0059,K,balanitis/phimosis,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0060,K,"""these benefits"" are HPV/HSV-2/balanitis/phimosis",cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0061,N,"about evidence quality of anti documentaries, not a cancer-prevention point",cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0062,K,UTI and HIV points remain without cancer,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0063,K,HIV,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0064,K,generic medical benefits incl. non-cancer ones,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0065,K,HIV cost-effectiveness,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0066,K,STIs,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0067,K,HSV-2/HPV as infections; cancer point is in the next sentence,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0068,K,STI mechanism,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0069,C,HPV reduction offered for cervical cancer in partners (rule 2),cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0070,C,,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0071,K,balanitis/phimosis,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0072,C,,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0073,K,UTI,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0074,K,STI and HIV points remain without cancer,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0075,K,UTI and HIV/STI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:39-07:00
+p0076,K,complication rates,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0077,K,UTI,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0078,K,UTI,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0079,C,,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0080,C,mechanism offered for penile cancer outcome (rule 4),cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0081,K,HIV,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0082,K,HIV,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0083,K,HPV/HSV-2 as infections,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0084,K,phimosis/balanitis/paraphimosis,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0085,K,UTI and STI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0086,K,UTI/STI,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0087,K,UTI,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0088,K,complication rates,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0089,K,infection protections remain without cancers,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0090,K,sexual function,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0091,K,"generic preventive benefits, include non-cancer ones",cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0092,K,UTI and HIV,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0093,K,UTI,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0094,C,,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0095,C,penile cancer incidence,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0096,C,"""this reduction"" is penile cancer; phimosis/balanitis offered as cancer mechanism",cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0097,K,phimosis/balanitis,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0098,K,phimosis/balanitis,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0099,K,STIs,cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0100,K,"HPV as infection, no cancer point",cancer-tagger-1,2026-10-08T22:41:44-07:00
+p0101,K,HSV-2,cancer-tagger-1,2026-10-08T22:41:48-07:00
+p0102,K,"generic preventive benefits, incl. STIs; sexual function",cancer-tagger-1,2026-10-08T22:41:48-07:00
+p0103,K,"generic benefits that include UTI, HIV",cancer-tagger-1,2026-10-08T22:41:48-07:00
+p0104,K,UTI and HIV/STI points remain without cancer,cancer-tagger-1,2026-10-08T22:41:48-07:00
+p0105,K,complication rates,cancer-tagger-1,2026-10-08T22:41:48-07:00
+p0106,K,"phimosis, balanitis, inflammatory conditions; no cancer named",cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0107,K,UTI and STI points remain without cancer,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0108,K,sexual function,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0109,K,HIV,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0110,K,UTI and balanitis remain without cancer,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0111,K,HIV and UTI,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0112,K,STI point remains without cancer part,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0113,K,unnamed net preventive gains; cannot tell cancer-only,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0114,K,UTI,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0115,K,HIV,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0116,K,"HPV/HSV-2 as infections, no cancer point",cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0117,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0118,C,cervical cancer in partners,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0119,K,"infection treatment costs, HIV settings",cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0120,K,balanitis,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0121,K,"infections, UTI/balanitis",cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0122,C,HPV herd effect offered as averting cervical cancer,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0123,C,partner HPV data supporting prior cervical cancer herd point,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0124,C,preventive impact of the HPV/cervical cancer herd effect,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0125,K,costs of UTI and inflammatory treatment,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0126,K,sexual function,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0127,K,"harm/utility contrast; utility points include UTI, HIV",cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0128,K,"HIV, HPV, balanitis",cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0129,K,WHO HIV endorsement,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0130,K,UTI,cancer-tagger-2,2026-10-08T22:41:28-07:00
+p0131,C,penile cancer and partner cervical cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0132,K,HIV,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0133,K,UTI and STI remain without cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0134,K,"unnamed net benefits; following sentences name HIV, UTI etc.",cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0135,K,HIV,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0136,K,HSV-2 point remains without the HPV/cervical cancer part,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0137,K,UTI,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0138,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0139,K,"UTI, STI, phimosis",cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0140,K,reported view; UTI and STI remain,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0141,K,UTI,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0142,K,UTI,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0143,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0144,C,penile cancer and oncogenic HPV,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0145,K,HIV,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0146,K,HIV,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0147,K,HPV/HSV-2 as infections,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0148,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0149,C,mechanism for penile cancer reduction,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0150,C,partner cervical cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0151,K,"balanitis, posthitis",cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0152,K,phimosis,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0153,K,"general benefits, not cancer-only",cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0154,K,UTI and HIV remain without cancer,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0155,K,complication rates,cancer-tagger-2,2026-10-08T22:41:32-07:00
+p0156,K,complication rates of delay,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0157,K,"general evidence critique, no cancer point",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0158,K,"AAP benefits; named benefits include UTI, HIV",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0159,K,UTI and STI remain without cancer,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0160,K,UTI,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0161,K,complication rates,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0162,K,"UTI, phimosis, balanitis",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0163,K,inflammatory conditions remain without cancer,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0164,K,HPV/HSV-2 as infections,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0165,K,HIV,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0166,K,HIV mechanism,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0167,K,"UTI, HPV/HSV-2 infection remain without cancer",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0168,K,"HIV, STI, UTI",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0169,K,HIV point remains without cancer part,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0170,K,HIV,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0171,K,sexual function,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0172,K,HIV mechanism,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0173,K,UTI,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0174,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0175,K,"HSV-2, HPV, syphilis as infections",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0176,C,partner cervical cancer via HPV,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0177,K,"HIV/STI, UTI, balanitis remain",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0178,K,HIV and UTI remain without cancer,cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0179,K,"FGC anatomical contrast, no cancer point",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0180,K,"FGC classification contrast, no cancer point",cancer-tagger-2,2026-10-08T22:41:39-07:00
+p0181,K,"HIV, UTI, herpes remain without cancer",cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0182,K,"FGC harm contrast, no cancer point",cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0183,K,HIV,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0184,K,HPV/HSV-2 as infections,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0185,K,STI-susceptibility mechanism remains without the cancer link,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0186,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0187,K,UTI and STI remain without cancer,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0188,K,complication rates,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0189,K,complication rates,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0190,K,paraphimosis/phimosis,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0191,K,paraphimosis point remains without carcinoma part,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0192,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0193,K,UTI,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0194,K,HIV,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0195,K,HPV/HSV-2 as infections,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0196,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0197,K,"phimosis, balanoposthitis",cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0198,K,sexual function,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0199,K,AAP benefits; not cancer-only,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0200,K,"""certain conditions"" unnamed; context includes HIV; cannot tell cancer-only",cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0201,K,UTI,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0202,K,UTI mechanism,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0203,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0204,C,penile cancer,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0205,C,mechanism for carcinogenesis prevention,cancer-tagger-2,2026-10-08T22:41:45-07:00
+p0206,K,HIV,cancer-tagger-2,2026-10-08T22:41:49-07:00
+p0207,K,HIV,cancer-tagger-2,2026-10-08T22:41:49-07:00
+p0208,K,"HIV, HPV/HSV-2 as infections",cancer-tagger-2,2026-10-08T22:41:49-07:00
+p0209,K,HIV,cancer-tagger-2,2026-10-08T22:41:49-07:00
+p0210,K,"phimosis, balanitis",cancer-tagger-2,2026-10-08T22:41:49-07:00

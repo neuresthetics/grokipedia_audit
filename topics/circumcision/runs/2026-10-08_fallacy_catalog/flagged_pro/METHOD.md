@@ -203,3 +203,61 @@ python3 tools/make_charts_2026_10_08.py
 ## Columns of flagged_pro.csv
 
 `article`, `sentence_id` (as in step 5), `topic_group` (always male here), `points_left` (0–2), `reviewers` (R1|R2|R3, those that flagged it), `primary_family`, `families` (every family named), `primary_tie_broken` (yes/no), `entries` (reviewer: entry_id, one per mapped flag), `entry_names`, `text` (verbatim sentence).
+
+## What-if checks: do the medical arguments rest on the HIV/STI or cancer claims?
+
+Folders: [`sti_dependence/`](sti_dependence/) and [`cancer_dependence/`](cancer_dependence/). Write-ups: [sti_dependence/STI_DEPENDENCE.md](sti_dependence/STI_DEPENDENCE.md), [cancer_dependence/CANCER_DEPENDENCE.md](cancer_dependence/CANCER_DEPENDENCE.md). Charts: `docs/img/circumcision/2026-10-08/09_sti_dependence.png`, `10_what_if_removed.png`.
+
+**What-if, not a finding.** Each pass asks how many medical arguments would lose their point if one claim were set aside. A tag means "depends on the claim", not that the claim is wrong. This audit did not check the HIV/STI claim or the cancer claim. Penile cancer is rare in absolute terms, but how much a rare benefit should weigh is a question this audit does not settle.
+
+**HIV/STI pass.** Scope: all 667 sentences tagged M (medical or scientific data) in `topic_tags/`; no keyword prefilter. Tags: H (the point rests on protection against HIV or another sexually transmitted infection, including partner or community transmission), X (rests on a non-STI medical claim), N (medical in form, no benefit relied on; note required). A sentence combining HIV/STI with another benefit is H only if no medical point is left without the HIV/STI part. Instructions: [sti_dependence/SIDEIDEA_PROMPT.md](sti_dependence/SIDEIDEA_PROMPT.md). Recall limit: arguments tagged E, R or O in `topic_tags/` were not checked, even if they mention HIV.
+
+**Cancer pass.** Scope: the same 667, prefiltered to the 210 whose own text or the two prose sentences on either side name cancer, carcinoma, malignancy, tumour, neoplasia, HPV, papillomavirus or cervical (82 name a keyword themselves). Tags: C (rests on a cancer-prevention claim: penile cancer, or cervical cancer in partners via HPV), K (rests on a non-cancer claim), N (mentions cancer, not relied on as a benefit; note required). A sentence combining cancer with another benefit is C only if no point is left without the cancer part. Instructions: [cancer_dependence/CANCER_PROMPT.md](cancer_dependence/CANCER_PROMPT.md). Recall limit: a sentence that relies on cancer through "these benefits" is caught only if a keyword sits inside the window; the other 457 medical sentences count as not resting on cancer.
+
+**Who tagged.** HIV/STI: three AI model sessions (h0001–h0223, h0224–h0446, h0447–h0667). Cancer: two AI model sessions (p0001–p0105, p0106–p0210). All ran from a conversation that already knew the earlier results of this audit, so the tagging is **not blind**. Each was told not to open earlier tags, flags or scores, or to search the web. Answers were recorded through the queue scripts (file lock, validation).
+
+**Results.**
+
+| Pass | Tag | Count | Share |
+|---|---|---|---|
+| HIV/STI (667) | H | 254 | 38.1% |
+| | X | 399 | 59.8% |
+| | N | 14 | 2.1% |
+| Cancer (210 prefiltered) | C | 35 | 16.7% |
+| | K | 174 | 82.9% |
+| | N | 1 | 0.5% |
+
+8 of the 35 C sentences are also H. Medical arguments resting on the HIV/STI claim or the cancer claim: 254 + 27 = **281**, 42.1% of the 667 medical arguments and 31.8% of all 883 surviving pro arguments. The other 386 medical arguments rest on neither.
+
+**Cross-checks** (regex, no model). Naming HIV or an STI matched the H tag for 81.3% of the 667. Naming cancer matched the C tag for 80.5% of the 210.
+
+**Limits.** AI-tagged, not by a person, and not blind. One tag per sentence. HIV/STI tagger shares differ a lot (49%, 39% and 26% H), partly because ranges follow article order (circumcision-and-hiv falls in the first range) and partly, perhaps, from tagger habits. The cancer prefilter can miss sentences, as stated above. The idea for these passes came from two posts on X that cite no study (see the walkthrough); this audit takes no position on them.
+
+Rebuild from the repo root (the tagging itself is the model step and is not rerun):
+
+```
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/sti_dependence/scripts/build_sti_dependence.py
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/cancer_dependence/scripts/build_cancer_dependence.py
+python3 tools/make_charts_2026_10_08.py
+```
+
+## Total what-if: how much of the pro side is left?
+
+Folder: [`whatif_total/`](whatif_total/). Write-up: [whatif_total/TOTAL_WHATIF.md](whatif_total/TOTAL_WHATIF.md). Chart: `docs/img/circumcision/2026-10-08/11_pro_side_invalidated.png`.
+
+**Question.** Jason asked how much of the pro side is invalidated if three premises are taken as true: (1) no protection against HIV or other STDs; (2) STD rates are higher in circumcising countries; (3) cancer prevention is not a valid reason. What-if, not a finding. Premise 1 contradicts the three randomized trials the articles cite (Auvert 2005, Bailey 2007, Gray 2007), which the `circumcision-and-hiv` article says later Cochrane reviews rated at low risk of bias; this audit did not check either side, so the result holds only if the premises hold. Premise 2 is not counted separately: any argument resting on HIV/STI protection is already set aside under premise 1.
+
+**Counting.** All 971 male pro arguments from step 5, each in one group only, in this order: already flagged (lost 1+ point at step 5, pass 2 or pass 3, from `recheck/points_by_pass.csv`); tagged M and H (HIV/STI); tagged M and C (cancer only); otherwise not invalidated, split by topic tag. Earlier results are not changed. `scripts/build_whatif_total.py` writes `summary.json` and `TOTAL_WHATIF.md`.
+
+**Result.** Already flagged 88 (9.1%; first lost a point at step 5: 61, pass 2: 22, pass 3: 5). What-if 281 (28.9%; HIV/STI 254, cancer only 27). Not invalidated 602 (62.0%; other medical 386, religion or culture 105, ethics or law 72, other 39).
+
+**Non-medical recall check.** The 216 E, R and O survivors were never put through the HIV/STI or cancer passes. A word-bounded keyword check finds 14 (6.5%) that name HIV, an STI or cancer: a rough upper bound, since naming a term is not resting on it. Because that is under 60, one AI model session checked them with a written prompt ([`whatif_total/keyword_check/CHECK_PROMPT.md`](whatif_total/keyword_check/CHECK_PROMPT.md)); the session ran from a conversation that already knew the earlier results, so it is not blind. It found 2 that rest on the HIV claim (both in `circumcision-in-africa`). They are reported separately, not added; adding them would make the what-if group 283 (29.1%). Non-medical sentences that lean on these claims without naming them are not found.
+
+**Keyword regex note.** The HIV/STI keyword regex used in `sti_dependence/` lacks a closing word boundary, so it also matches words such as "stigma" and "stipulated". This page uses a word-bounded version. Rerun on the 667, the fixed version moves the HIV/STI cross-check from 81.3% to 81.4% matched; the earlier figure is left as committed.
+
+Rebuild from the repo root:
+
+```
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/whatif_total/scripts/build_whatif_total.py
+python3 tools/make_charts_2026_10_08.py
+```

@@ -1,0 +1,205 @@
+{
+ "scope": "sentences tagged M (medical or scientific data) in topic_tags: male circumcision pro arguments with all 3 points after pass 3",
+ "sentences": 667,
+ "what_if": true,
+ "by_type": {
+  "H": {
+   "name": "Rests on the HIV/STI protection claim",
+   "count": 254,
+   "share": 0.38081
+  },
+  "X": {
+   "name": "Rests on a non-STI medical claim",
+   "count": 399,
+   "share": 0.598201
+  },
+  "N": {
+   "name": "Medical in form, no benefit claim relied on",
+   "count": 14,
+   "share": 0.02099
+  }
+ },
+ "keyword_names_hiv_sti": 287,
+ "keyword_matched_model": 0.812594,
+ "keyword_matched_count": 542,
+ "keyword_yes_but_not_H": 79,
+ "keyword_no_but_H": 46,
+ "tagged_by": {
+  "sti-tagger-1": 223,
+  "sti-tagger-2": 223,
+  "sti-tagger-3": 221
+ },
+ "by_tagger": {
+  "sti-tagger-1": {
+   "range": "h0001-h0223",
+   "sentences": 223,
+   "counts": {
+    "H": 110,
+    "X": 108,
+    "N": 5
+   }
+  },
+  "sti-tagger-2": {
+   "range": "h0224-h0446",
+   "sentences": 223,
+   "counts": {
+    "H": 87,
+    "X": 134,
+    "N": 2
+   }
+  },
+  "sti-tagger-3": {
+   "range": "h0447-h0667",
+   "sentences": 221,
+   "counts": {
+    "H": 57,
+    "X": 157,
+    "N": 7
+   }
+  }
+ },
+ "top_articles": [
+  {
+   "article": "circumcision",
+   "title": "Circumcision",
+   "medical": 99,
+   "counts": {
+    "H": 30,
+    "X": 64,
+    "N": 5
+   }
+  },
+  {
+   "article": "circumcision-and-hiv",
+   "title": "Circumcision and HIV",
+   "medical": 99,
+   "counts": {
+    "H": 95,
+    "X": 4,
+    "N": 0
+   }
+  },
+  {
+   "article": "ethics-of-circumcision",
+   "title": "Ethics of circumcision",
+   "medical": 87,
+   "counts": {
+    "H": 28,
+    "X": 58,
+    "N": 1
+   }
+  },
+  {
+   "article": "circumcision-controversies",
+   "title": "Circumcision controversies",
+   "medical": 49,
+   "counts": {
+    "H": 11,
+    "X": 38,
+    "N": 0
+   }
+  },
+  {
+   "article": "circumcision-in-africa",
+   "title": "Circumcision in Africa",
+   "medical": 40,
+   "counts": {
+    "H": 28,
+    "X": 12,
+    "N": 0
+   }
+  },
+  {
+   "article": "foreskin",
+   "title": "Foreskin",
+   "medical": 37,
+   "counts": {
+    "H": 4,
+    "X": 33,
+    "N": 0
+   }
+  },
+  {
+   "article": "views-on-circumcision",
+   "title": "Views on circumcision",
+   "medical": 34,
+   "counts": {
+    "H": 7,
+    "X": 27,
+    "N": 0
+   }
+  },
+  {
+   "article": "circumcision-surgical-procedure",
+   "title": "Circumcision surgical procedure",
+   "medical": 28,
+   "counts": {
+    "H": 6,
+    "X": 22,
+    "N": 0
+   }
+  }
+ ],
+ "examples": {
+  "H": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0197",
+    "text": "Randomized controlled trials in Africa demonstrated that voluntary medical male circumcision reduces the risk of heterosexual HIV acquisition in men by approximately 60%. [3]",
+    "note": ""
+   },
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0211",
+    "text": "Randomized controlled trials (RCTs) in sub-Saharan Africa have demonstrated that male circumcision reduces the risk of heterosexual HIV acquisition by 50-60% in men.",
+    "note": ""
+   },
+   {
+    "article": "circumcision",
+    "sentence_id": "s0160",
+    "text": "Three randomized controlled trials in sub-Saharan Africa (2005–2007) showed voluntary medical male circumcision reduces HIV acquisition risk in heterosexual men by approximately 60%. [87] [88] [89]",
+    "note": ""
+   }
+  ],
+  "X": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0042",
+    "text": "The symposia positioned genital cutting as a form of bodily violation akin to mutilation, drawing parallels between male and female practices despite differing prevalence and severity in empirical data on outcomes like infection rates or sexual function.",
+    "note": "infection rates (not STI-specific) and sexual function data"
+   },
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0130",
+    "text": "This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates.",
+    "note": "anaesthesia complications"
+   },
+   {
+    "article": "circumcision",
+    "sentence_id": "s0059",
+    "text": "For older children and adults, local infiltration or DPNB is standard, with sedation or general anesthesia for anxiety or complexity; trained providers keep complications below 1%. [12]",
+    "note": "anaesthesia/complications"
+   }
+  ],
+  "N": [
+   {
+    "article": "circumcision",
+    "sentence_id": "s0256",
+    "text": "In the United States, orthopedic surgeon Lewis Sayre advanced the practice in the 1870s by associating uncircumcised foreskins with \"reflex neurosis\"—irritation allegedly causing spinal issues, paralysis, epilepsy, and leg weakness. [152]",
+    "note": "1870s history of Sayre's claims"
+   },
+   {
+    "article": "khitan-circumcision",
+    "sentence_id": "s0201",
+    "text": "Khitan, the Islamic practice of male circumcision, surgically excises the foreskin covering the glans penis, preserving the organ's primary erectile and urinary functions while removing a non-vital cutaneous layer. [13]",
+    "note": "anatomy/technique description"
+   },
+   {
+    "article": "mohel",
+    "sentence_id": "s0100",
+    "text": "The entire operation, leveraging the infant's physiological resilience, typically lasts under one minute from incision to completion, emphasizing the mohel's training in both surgical asepsis and ritual exactitude.",
+    "note": "technique description"
+   }
+  ]
+ }
+}

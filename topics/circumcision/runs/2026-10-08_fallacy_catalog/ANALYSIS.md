@@ -202,3 +202,35 @@ A simple keyword count lands in the same range (628 medical) and matched the mod
 - **The reading was strict.** Arguments the article only reports, section headings and loaded wording were not flagged. An article can read as one-sided and still have few flags.
 - **Side is a judgement call** about which side one faulty step helps. It is not a verdict on the whole article.
 - **Snapshot date.** All text is from 2026-10-01. The live pages may have changed.
+
+## What-if: how many medical arguments rest on the HIV/STI or cancer claims?
+
+![How many of the medical arguments rest on the HIV/STI claim: 254 of 667, what-if count](../../../../docs/img/circumcision/2026-10-08/09_sti_dependence.png)
+
+![How many medical arguments rest on the HIV/STI or cancer claims: 281 of 667, what-if count](../../../../docs/img/circumcision/2026-10-08/10_what_if_removed.png)
+
+Two what-if passes asked which of the 667 medical arguments would lose their point if a claim were set aside. A tag means "depends on the claim", not that the claim is wrong; this audit did not check either claim.
+
+- **HIV/STI:** 254 of 667 (38.1%) rest on protection against HIV or other sexually transmitted infections. Most of the rest, 399 (59.8%), rest on other medical claims such as UTIs, phimosis, safety or sexual function data.
+- **Cancer:** 35 rest on cancer prevention (penile cancer, or cervical cancer via HPV); 8 of these also rest on HIV/STI. Only the 210 sentences with a cancer, HPV or cervical keyword within two sentences were tagged, so this can miss some.
+- **Together:** 281 of 667 medical arguments (42.1%), or 31.8% of all 883 surviving pro arguments. The other 386 medical arguments rest on neither claim.
+
+These are AI tags from 5 sessions in two passes, not a person's, and not blind. Penile cancer is rare in absolute terms, but how much that should weigh is not settled here. Details: [STI_DEPENDENCE.md](flagged_pro/sti_dependence/STI_DEPENDENCE.md), [CANCER_DEPENDENCE.md](flagged_pro/cancer_dependence/CANCER_DEPENDENCE.md).
+
+## What-if: how much of the pro side is left under Jason's premises?
+
+![What-if: how much of the pro side is left: 369 of 971 flagged or set aside](../../../../docs/img/circumcision/2026-10-08/11_pro_side_invalidated.png)
+
+Taking three premises as true (no HIV or STD protection; higher STD rates in circumcising countries; cancer prevention not a valid reason), and counting each of the 971 male pro arguments once:
+
+- **Already flagged by the audit:** 88 (9.1%).
+- **Set aside under the what-if:** 281 (28.9%): 254 resting on the HIV/STI claim and 27 on the cancer claim only.
+- **Not invalidated:** 602 (62.0%): 386 medical arguments resting on other claims (such as UTIs, phimosis, hygiene, safety or sexual function), 105 religion or culture, 72 ethics or law, 39 other.
+
+So about two in five pro arguments are flagged or set aside, and about three in five are left. The ethics, law and religion arguments were not tagged for HIV/STI or cancer. Of them, 14 name HIV, an STI or cancer (a rough upper bound); one AI model check found 2 that rest on the HIV claim, reported but not added.
+
+This is a what-if, not a finding. Premise 1 contradicts the three randomized trials the articles cite (Auvert 2005, Bailey 2007, Gray 2007), which the `circumcision-and-hiv` article says later Cochrane reviews rated at low risk of bias; this audit did not check either side, so the result holds only if the premises hold. Details: [TOTAL_WHATIF.md](flagged_pro/whatif_total/TOTAL_WHATIF.md).
+
+## Note on chart 11 (appended)
+
+Chart 11 was redrawn so a reader sees the what-if at a glance. Its title is now "If these three things are true, 38% of the pro side is invalidated", and it lists the three premises in a box: (1) circumcision does not protect against HIV or other STIs; (2) STI rates are highest in circumcising countries (adds no separate count beyond 1); (3) cancer prevention is not a valid reason (penile cancer is rare, and prevention-by-removal proves too much). Premises are assumed, not tested here. Earlier text that calls it "What-if: how much of the pro side is left" refers to the same chart. The numbers are unchanged: 88 already flagged, 281 invalidated under the premises, 602 left.

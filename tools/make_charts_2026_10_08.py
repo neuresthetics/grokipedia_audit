@@ -619,3 +619,220 @@ else:
                f"Keyword ballpark (regex, no model) matched the model's tag for {100 * tt['keyword_same_as_model']:.0f}% "
                "of sentences. Method: topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/topic_tags/TAGS.md"],
          "08_what_survivors_rely_on.png")
+
+
+# ============================================================= 9. HIV/STI dependence of the medical survivors (what-if)
+sd_path = RUN / "flagged_pro/sti_dependence/summary.json"
+if not sd_path.exists():
+    print("\n[9] skipped: flagged_pro/sti_dependence/summary.json not built yet (tags not all in)")
+else:
+    print("\n[9] Medical surviving pro arguments: rest on the HIV/STI claim? (what-if count)")
+    sd = json.load(open(sd_path))
+    SD_ROWS = [("H", "Rests on the\nHIV/STI claim"), ("X", "Rests on another\nmedical claim"),
+               ("N", "No benefit\nclaim relied on")]
+    nsd = sd["sentences"]
+    for k, _ in SD_ROWS:
+        d = sd["by_type"][k]
+        print(f"  {k}: {d['count']} ({100 * d['share']:.1f}%)")
+
+    def icon9(fig, kind, x, y, h, color):
+        W, H = fig.get_size_inches()
+        a = fig.add_axes([x, y, h * H / W, h]); a.set_xlim(0, 1); a.set_ylim(0, 1); a.axis("off")
+        if kind == "H":    # virus: circle with spikes
+            import math
+            for j in range(8):
+                ang = j * math.pi / 4
+                a.add_line(Line2D([0.5 + 0.28 * math.cos(ang), 0.5 + 0.44 * math.cos(ang)],
+                                  [0.5 + 0.28 * math.sin(ang), 0.5 + 0.44 * math.sin(ang)], color=color, linewidth=2.2))
+                a.add_patch(Circle((0.5 + 0.46 * math.cos(ang), 0.5 + 0.46 * math.sin(ang)), 0.05, color=color))
+            a.add_patch(Circle((0.5, 0.5), 0.29, color=color))
+        elif kind == "X":  # medical cross
+            a.add_patch(Rectangle((0.36, 0.08), 0.28, 0.84, color=color))
+            a.add_patch(Rectangle((0.08, 0.36), 0.84, 0.28, color=color))
+        else:              # page with lines
+            a.add_patch(FancyBboxPatch((0.18, 0.06), 0.64, 0.88, boxstyle="round,pad=0,rounding_size=0.06", color=color))
+            for yy in (0.28, 0.44, 0.6, 0.76):
+                a.add_line(Line2D([0.3, 0.7], [yy, yy], color="white", linewidth=1.8))
+
+    fig, ax = plt.subplots(figsize=(W_IN, 9.2))
+    for i, (k, lab) in enumerate(SD_ROWS):
+        d = sd["by_type"][k]
+        v = 100 * d["share"]
+        ax.barh(i, v, height=0.6, color=COLOR["pro"], zorder=2)
+        ax.text(v + 0.8, i, f"{d['count']}  ({v:.0f}%)", va="center", ha="left", fontsize=15,
+                fontweight="bold", color=INK)
+    ax.set_yticks(range(len(SD_ROWS)), [lab for _, lab in SD_ROWS], fontsize=15)
+    ax.set_ylim(len(SD_ROWS) - 0.4, -0.6)
+    top9 = max(100 * sd["by_type"][k]["share"] for k, _ in SD_ROWS)
+    xmax9 = min(100, 10 * (int(top9 // 10) + 2))
+    st9 = 10 if xmax9 <= 60 else 20
+    ax.set_xlim(0, xmax9)
+    ax.set_xticks(range(0, xmax9 + 1, st9), [f"{v}%" for v in range(0, xmax9 + 1, st9)])
+    ax.set_title("Male circumcision articles\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
+    ax.text(0, 1.0, f"{nsd} medical pro arguments that kept all 3 points, one tag each", transform=ax.transAxes,
+            va="bottom", fontsize=13, color=MUTED)
+    ax.set_xlabel("share of medical surviving pro arguments", fontsize=13)
+    ax.spines["bottom"].set_color(SOFT)
+    fig.subplots_adjust(left=0.25, right=0.95, top=0.72, bottom=0.29)
+    pos = ax.get_position()
+    ylo, yhi = ax.get_ylim()
+    for i, (k, _) in enumerate(SD_ROWS):
+        yc = pos.y0 + pos.height * (ylo - i) / (ylo - yhi)
+        icon9(fig, k, 0.085, yc - 0.03, 0.06, MUTED)
+    hd = sd["by_type"]["H"]
+    head(fig, "How many of the medical arguments rest on the HIV/STI claim?",
+         f"What-if count: {hd['count']} of {nsd} ({100 * hd['share']:.0f}%) would lose their medical point if the "
+         "HIV/STI claim were set aside. A tag is not a finding that the claim is true or false.")
+    nses = len(sd["by_tagger"])
+    foot(fig, [f"AI-tagged by {nses} session{'s' if nses != 1 else ''}, not a person. Not blind: run from a conversation "
+               "that already knew the earlier results. What-if count, not a finding; this audit did not check the HIV/STI claim.",
+               f"Keyword check (names HIV or an STI, regex, no model) matched the H tag for "
+               f"{100 * sd['keyword_matched_model']:.0f}% of sentences.",
+               "Method: topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/sti_dependence/STI_DEPENDENCE.md"],
+         "09_sti_dependence.png")
+
+
+# ============================================================= 10. what-if: medical arguments resting on HIV/STI or cancer
+cd_path = RUN / "flagged_pro/cancer_dependence/summary.json"
+if not cd_path.exists():
+    print("\n[10] skipped: flagged_pro/cancer_dependence/summary.json not built yet (tags not all in)")
+else:
+    print("\n[10] What-if: medical surviving pro arguments resting on the HIV/STI or cancer claims")
+    cdj = json.load(open(cd_path))
+    nm = cdj["medical_sentences"]
+    SEG = [("Rests on the HIV/STI claim", cdj["H"], COLOR["pro"]),
+           ("Rests on the cancer claim only", cdj["C_not_H"], "#A86F00"),
+           ("Remaining medical arguments", cdj["remaining_medical"], "#F5D9A0")]
+    assert sum(v for _, v, _ in SEG) == nm
+    for lab, v, _ in SEG:
+        print(f"  {lab}: {v} ({100 * v / nm:.1f}%)")
+    fig, ax = plt.subplots(figsize=(W_IN, 8.4))
+    left = 0
+    for i, (lab, v, col) in enumerate(SEG):
+        w = 100 * v / nm
+        ax.barh(0, w, left=left, height=0.5, color=col, zorder=2, edgecolor="white", linewidth=2)
+        # label above (odd) or below (even) the bar, at the segment's middle, so narrow segments still read
+        y = -0.42 if i != 1 else 0.42
+        ax.text(left + w / 2, y, f"{lab}\n{v}  ({w:.0f}%)", ha="center", va="bottom" if i != 1 else "top",
+                fontsize=14, fontweight="bold", color=INK, linespacing=1.3)
+        left += w
+    ax.set_yticks([])
+    ax.set_ylim(1.0, -1.0)
+    ax.set_xlim(0, 100)
+    ax.set_xticks(range(0, 101, 25), [f"{v}%" for v in range(0, 101, 25)])
+    ax.set_title("Male circumcision articles\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
+    ax.text(0, 1.0, f"{nm} medical pro arguments that kept all 3 points", transform=ax.transAxes, va="bottom",
+            fontsize=13, color=MUTED)
+    ax.set_xlabel("share of medical surviving pro arguments", fontsize=13)
+    ax.spines["bottom"].set_color(SOFT)
+    fig.subplots_adjust(left=0.06, right=0.95, top=0.70, bottom=0.27)
+    comb = cdj["hiv_sti_or_cancer"]
+    head(fig, "How many medical arguments rest on the HIV/STI or cancer claims?",
+         f"What-if count: {comb} of {nm} ({100 * comb / nm:.0f}%) would lose their point if both claims were set aside. "
+         "A tag is not a finding that a claim is wrong.")
+    nses10 = len(set(json.load(open(RUN / "flagged_pro/sti_dependence/summary.json"))["by_tagger"])) + len(cdj["by_tagger"])
+    foot(fig, [f"AI-tagged by {nses10} sessions in two passes (HIV/STI, then cancer), not a person. Not blind: run from a "
+               "conversation that already knew the earlier results. What-if count, not a finding.",
+               f"Cancer pass covers only the {cdj['prefiltered']} sentences with a cancer, HPV or cervical keyword within "
+               "two sentences, so it may miss some. Cancer only = tagged cancer and not HIV/STI.",
+               "Method: topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/cancer_dependence/CANCER_DEPENDENCE.md"],
+         "10_what_if_removed.png")
+
+
+# ============================================================= 11. total what-if: how much of the pro side is left
+wt_path = RUN / "flagged_pro/whatif_total/summary.json"
+if not wt_path.exists():
+    print("\n[11] skipped: flagged_pro/whatif_total/summary.json not built yet")
+else:
+    import math
+    print("\n[11] Total what-if: if the three premises are true, how much of the male pro side is invalidated?")
+    wt = json.load(open(wt_path))
+    N11 = wt["pro_total"]
+    g = {k: v["count"] for k, v in wt["groups"].items()}
+    flagged, inval, left_n = g["already_flagged"], wt["invalidated_under_what_if"], wt["not_invalidated"]
+    gone = flagged + inval
+    assert gone + left_n == N11
+    pg, pl = round(100 * gone / N11), round(100 * left_n / N11)
+    print(f"  already flagged {flagged}, invalidated {inval}, together {gone} ({100 * gone / N11:.1f}%), "
+          f"left {left_n} ({100 * left_n / N11:.1f}%)")
+    LEFTC = "#C9DCEB"
+
+    fig = plt.figure(figsize=(W_IN, 10.0))
+    FW, FH = fig.get_size_inches()
+
+    def icon11(kind, x, y, h, color):
+        a = fig.add_axes([x, y, h * FH / FW, h]); a.set_xlim(0, 1); a.set_ylim(0, 1); a.axis("off")
+        if kind == "virus":
+            for j in range(8):
+                ang = j * math.pi / 4
+                a.add_line(Line2D([0.5 + 0.28 * math.cos(ang), 0.5 + 0.44 * math.cos(ang)],
+                                  [0.5 + 0.28 * math.sin(ang), 0.5 + 0.44 * math.sin(ang)], color=color, linewidth=2.2))
+                a.add_patch(Circle((0.5 + 0.46 * math.cos(ang), 0.5 + 0.46 * math.sin(ang)), 0.05, color=color))
+            a.add_patch(Circle((0.5, 0.5), 0.29, color=color))
+        elif kind == "globe":
+            a.add_patch(Circle((0.5, 0.5), 0.44, fill=False, ec=color, lw=2.4))
+            a.add_line(Line2D([0.06, 0.94], [0.5, 0.5], color=color, lw=1.8))
+            a.add_patch(matplotlib.patches.Ellipse((0.5, 0.5), 0.42, 0.88, fill=False, ec=color, lw=1.8))
+        else:  # ribbon-free 'no' sign over a cross: cancer prevention not counted as a reason
+            a.add_patch(Rectangle((0.38, 0.14), 0.24, 0.72, color=color))
+            a.add_patch(Rectangle((0.14, 0.38), 0.72, 0.24, color=color))
+            a.add_patch(Circle((0.5, 0.5), 0.46, fill=False, ec=COLOR["anti"], lw=2.6))
+            a.add_line(Line2D([0.18, 0.82], [0.82, 0.18], color=COLOR["anti"], lw=2.6))
+
+    head(fig, f"If these three things are true, {pg}% of the pro side is invalidated",
+         f"All {N11} pro arguments in the Grokipedia male circumcision articles. Premises are assumed, not tested here.")
+
+    # premises box
+    bx, by, bw, bh = 0.04, 0.585, 0.92, 0.245
+    fig.patches.append(FancyBboxPatch((bx, by), bw, bh, boxstyle="round,pad=0,rounding_size=0.012",
+                                      transform=fig.transFigure, fc="#F6F8FA", ec=SOFT, lw=1.2, zorder=-5))
+    fig.text(bx + 0.015, by + bh - 0.022, "IF THESE ARE TRUE", ha="left",
+             va="top", fontsize=13, fontweight="bold", color=MUTED)
+    PREM = [("virus", "1.  Circumcision does not protect against HIV or other STIs", ""),
+            ("globe", "2.  STI rates are highest in circumcising countries",
+             "adds no separate count beyond premise 1"),
+            ("nocross", "3.  Cancer prevention is not a valid reason",
+             "penile cancer is rare, and prevention-by-removal proves too much")]
+    for k, (ic, txt, note) in enumerate(PREM):
+        yy = by + bh - 0.085 - k * 0.062
+        icon11(ic, bx + 0.02, yy - 0.022, 0.045, MUTED)
+        fig.text(bx + 0.06, yy, txt, ha="left", va="center", fontsize=16, fontweight="bold", color=INK)
+        if note:
+            t = fig.text(bx + 0.06, yy, txt, ha="left", va="center", fontsize=16, fontweight="bold", alpha=0)
+            ext = t.get_window_extent(renderer=fig.canvas.get_renderer())
+            fig.text(fig.transFigure.inverted().transform((ext.x1, 0))[0] + 0.01, yy, f"({note})", ha="left",
+                     va="center", fontsize=13.5, color=MUTED)
+
+    # big numbers
+    fig.text(0.04, 0.505, f"{pg}%", ha="left", va="top", fontsize=54, fontweight="bold", color=COLOR["pro"])
+    fig.text(0.155, 0.478, f"invalidated or already flagged\n{gone} of {N11} pro arguments", ha="left",
+             va="center", fontsize=15, color=INK, linespacing=1.35)
+    fig.text(0.96, 0.505, f"{pl}%", ha="right", va="top", fontsize=54, fontweight="bold", color="#5B8DB8")
+    fig.text(0.845, 0.478, f"left standing\n{left_n} of {N11}", ha="right", va="center", fontsize=15,
+             color=INK, linespacing=1.35)
+
+    # bar
+    ax = fig.add_axes([0.04, 0.24, 0.92, 0.15])
+    SEG = [(f"Already flagged\nby this audit", flagged, "#8A8A8A"),
+           (f"Invalidated by the premises\n(rest on HIV/STI or cancer)", inval, COLOR["pro"]),
+           ("Left standing\n(other medical, religion, ethics, other)", left_n, LEFTC)]
+    x0 = 0
+    for lab, v, col in SEG:
+        w = 100 * v / N11
+        ax.barh(0, w, left=x0, height=0.62, color=col, edgecolor="white", linewidth=2)
+        ax.text(x0 + w / 2, 0, f"{v}", ha="center", va="center", fontsize=17, fontweight="bold",
+                color="white" if col != LEFTC else INK)
+        ax.text(x0 + w / 2, -0.45, f"{lab}  ·  {w:.0f}%", ha="center", va="top", fontsize=12.5, color=INK,
+                linespacing=1.25)
+        x0 += w
+    ax.set_xlim(0, 100); ax.set_ylim(-1.35, 0.4); ax.axis("off")
+    ax.plot([0.3, 0.3, 100 * gone / N11 - 0.3, 100 * gone / N11 - 0.3], [0.36, 0.42, 0.42, 0.36], color=COLOR["pro"],
+            lw=2, clip_on=False)
+
+    foot(fig, ["What-if layered on the audit: earlier results unchanged; each argument counted once (already flagged "
+               "first, then HIV/STI, then cancer). AI-tagged, not a person. Not blind.",
+               "Not a finding that the premises are true: premise 1 contradicts the trials the articles cite. "
+               f"Non-medical arguments were not tagged for HIV/STI or cancer ({wt['non_medical_model_check']['Y']} of "
+               f"{wt['non_medical_keyword_hits']} keyword hits rest on HIV; not added).",
+               "Method: topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/whatif_total/TOTAL_WHATIF.md"],
+         "11_pro_side_invalidated.png")

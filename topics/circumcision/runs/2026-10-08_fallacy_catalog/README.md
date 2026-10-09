@@ -301,3 +301,25 @@ Folder: [`flagged_pro/`](flagged_pro/). This step covers the male circumcision a
 - Data: `flagged_pro/recheck/findings.csv`, `flagged_pro/recheck/points_by_pass.csv`, `flagged_pro/recheck/summary.json`.
 
 **What the surviving pro arguments rely on.** The 883 pro arguments with all 3 points after pass 3 were each tagged with one type: medical or scientific data 667 (75.5%), religion, culture or tradition 105 (11.9%), ethics, rights or law 72 (8.2%), other or mixed 39 (4.4%). Tagged by an AI model in 4 separate sessions, not a person; not blind (run from a conversation that already knew the earlier results); one type per sentence, so mixed sentences are forced into one type. A keyword ballpark matched the model's tag for 82.4% of sentences. See [`flagged_pro/topic_tags/TAGS.md`](flagged_pro/topic_tags/TAGS.md) and [flagged_pro/METHOD.md](flagged_pro/METHOD.md#what-the-surviving-pro-arguments-rely-on-topic-tags). Chart: `docs/img/circumcision/2026-10-08/08_what_survivors_rely_on.png`.
+
+**What-if checks: HIV/STI and cancer.** Two more tagging passes asked how many of the 667 medical surviving pro arguments would lose their point if a claim were set aside. A tag means "depends on the claim", not that the claim is wrong; this audit did not check either claim.
+
+- **HIV/STI** (all 667, no keyword prefilter): 254 (38.1%) rest on protection against HIV or other STIs, 399 (59.8%) on another medical claim, 14 (2.1%) on no benefit claim. Three AI model sessions.
+- **Cancer** (prefiltered to the 210 with a cancer, HPV or cervical keyword within two sentences; a sentence relying on cancer only through "these benefits" outside that window is missed): 35 rest on cancer prevention, 8 of them also on HIV/STI. Two AI model sessions.
+- **Combined:** 281 of 667 medical arguments (42.1%), or 31.8% of all 883 surviving pro arguments, rest on the HIV/STI or cancer claims.
+- AI-tagged by sessions that already knew the earlier results, so not blind. See [`flagged_pro/sti_dependence/STI_DEPENDENCE.md`](flagged_pro/sti_dependence/STI_DEPENDENCE.md), [`flagged_pro/cancer_dependence/CANCER_DEPENDENCE.md`](flagged_pro/cancer_dependence/CANCER_DEPENDENCE.md) and [flagged_pro/METHOD.md](flagged_pro/METHOD.md#what-if-checks-do-the-medical-arguments-rest-on-the-hivsti-or-cancer-claims). Charts: `docs/img/circumcision/2026-10-08/09_sti_dependence.png`, `10_what_if_removed.png`.
+
+**Total what-if: how much of the pro side is left.** Taking Jason's three premises as true (no HIV or STD protection; higher STD rates in circumcising countries; cancer prevention not a valid reason), the 971 male pro arguments split, each counted once, into: already flagged by the audit 88 (9.1%); set aside under the what-if 281 (28.9%: HIV/STI 254, cancer only 27); not invalidated 602 (62.0%: other medical 386, religion or culture 105, ethics or law 72, other 39). The non-medical arguments were not tagged for HIV/STI or cancer; 14 name such a term, and one AI model check found 2 that rest on the HIV claim (reported, not added). What-if, not a finding: premise 1 contradicts the three randomized trials the articles cite (Auvert 2005, Bailey 2007, Gray 2007), which the `circumcision-and-hiv` article says later Cochrane reviews rated at low risk of bias; this audit did not check either side, so the result holds only if the premises hold. See [`flagged_pro/whatif_total/TOTAL_WHATIF.md`](flagged_pro/whatif_total/TOTAL_WHATIF.md). Chart: `docs/img/circumcision/2026-10-08/11_pro_side_invalidated.png`.
+
+## Walkthrough and new files (appended)
+
+**Every step in order, with its chart:** [WALKTHROUGH.md](WALKTHROUGH.md).
+
+Files added since the Files table above:
+
+| File | What it is |
+|---|---|
+| `WALKTHROUGH.md` | Every step of the run in order, with who did it, the key number, the chart and links to each method |
+| `flagged_pro/sti_dependence/` | What-if check: medical survivors that rest on the HIV/STI claim |
+| `flagged_pro/cancer_dependence/` | What-if check: medical survivors that rest on the cancer claim |
+| `flagged_pro/whatif_total/` | Total what-if: the whole male pro side, already flagged, invalidated under the premises, or left |
