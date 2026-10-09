@@ -19,3 +19,5 @@ There are no current results for this topic yet. The articles will be rechecked 
 ## Older files
 
 The `runs/`, `code_counts/` and `articles/<slug>/analyses/` folders hold scans made in October 2026 with substance_lens, a custom framework that has since been retired. They are kept as a record, but their flag counts and charts are not current findings and shouldn't be quoted. They will be replaced or removed as the topic is rebuilt.
+
+Also in `background/`: [authors_position.md](background/authors_position.md), the author's own position (2026-10-08). It is his view, not an audit result.
