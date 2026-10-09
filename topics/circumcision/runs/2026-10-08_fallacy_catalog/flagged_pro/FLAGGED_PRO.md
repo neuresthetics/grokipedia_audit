@@ -235,6 +235,16 @@ Verbatim from the 2026-10-01 snapshots, checked by script. Citation markers are 
 
 **This audit's wording** (not from the catalog): Name a rival cause running at the same time and ask how it was ruled out. The second quote names one itself (antiretroviral therapy expansion) and states, without showing how, that the decline is independent of it. A trend that moves with a programme is a reason to test for cause, not proof of it.
 
+## Second layer: surviving pro arguments that depend on these
+
+Each of the 951 pro argument sentences in the male circumcision articles that kept at least 1 point was checked for whether its reasoning uses one of the flagged sentences above as a premise (builds on it, refers back to it, or relies on the same flagged claim). Each distinct flagged sentence it depends on costs it 1 point, down to 0. Dependence was judged by an AI model, not a person, on 490 pairs picked by a cheap pre-filter, so the count is a lower bound.
+
+- **25 of 951** survivors lost 1 point; none lost more. 19 of the 61 flagged sentences were relied on, all within their own article.
+- Male pro points left, 3/2/1/0: 910/26/15/20 before, 888/47/14/22 after.
+- Anti arguments were not rechecked (only 4 were flagged).
+
+Chains with verbatim quotes, files and limits: [dependency/DEPENDENCIES.md](dependency/DEPENDENCIES.md). Method: [METHOD.md](METHOD.md#second-layer-dependence-on-flagged-priors). Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.
+
 ## Files
 
 - [flagged_pro.csv](flagged_pro.csv): every flagged pro sentence, with group, points left, reviewers, primary family, all families, catalog entries and the verbatim text.

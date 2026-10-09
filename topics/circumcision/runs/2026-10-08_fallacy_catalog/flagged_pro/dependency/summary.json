@@ -1,0 +1,148 @@
+{
+ "scope": "male circumcision articles, pro argument sentences",
+ "candidates": 490,
+ "judged": 490,
+ "judged_yes": 25,
+ "candidates_by_prefilter": {
+  "W": 241,
+  "K": 262
+ },
+ "candidates_window_only": 228,
+ "candidates_key_only": 249,
+ "candidates_cross_article": 164,
+ "yes_by_link_type": {
+  "same_article": 25
+ },
+ "survivors": 951,
+ "survivors_with_a_candidate": 344,
+ "survivors_dinged": 25,
+ "flagged_survivors_dinged": 3,
+ "points_lost": {
+  "0": 926,
+  "1": 25,
+  "2": 0,
+  "3": 0
+ },
+ "priors_per_survivor": {
+  "0": 926,
+  "1": 25
+ },
+ "total_points_before": 2797,
+ "total_points_after": 2772,
+ "male_pro_points_left_before": {
+  "3": 910,
+  "2": 26,
+  "1": 15,
+  "0": 20
+ },
+ "male_pro_points_left_after": {
+  "3": 888,
+  "2": 47,
+  "1": 14,
+  "0": 22
+ },
+ "male_anti_points_left_unchanged": {
+  "3": 724,
+  "2": 2,
+  "1": 2,
+  "0": 0
+ },
+ "priors_relied_on": 19,
+ "top_priors": [
+  {
+   "article": "circumcision-and-hiv",
+   "sentence_id": "s0232",
+   "dependents": 2
+  },
+  {
+   "article": "circumcision-controversies",
+   "sentence_id": "s0073",
+   "dependents": 2
+  },
+  {
+   "article": "circumcision-controversies",
+   "sentence_id": "s0122",
+   "dependents": 2
+  },
+  {
+   "article": "circumcision-controversies",
+   "sentence_id": "s0126",
+   "dependents": 2
+  },
+  {
+   "article": "cultural-views-on-circumcision-aesthetics",
+   "sentence_id": "s0124",
+   "dependents": 2
+  },
+  {
+   "article": "ethics-of-circumcision",
+   "sentence_id": "s0106",
+   "dependents": 2
+  },
+  {
+   "article": "ashley-montagu-resolution",
+   "sentence_id": "s0176",
+   "dependents": 1
+  },
+  {
+   "article": "circumcision",
+   "sentence_id": "s0180",
+   "dependents": 1
+  },
+  {
+   "article": "circumcision-controversies",
+   "sentence_id": "s0101",
+   "dependents": 1
+  },
+  {
+   "article": "circumcision-in-africa",
+   "sentence_id": "s0282",
+   "dependents": 1
+  },
+  {
+   "article": "circumcision-in-africa",
+   "sentence_id": "s0285",
+   "dependents": 1
+  },
+  {
+   "article": "ethics-of-circumcision",
+   "sentence_id": "s0100",
+   "dependents": 1
+  },
+  {
+   "article": "ethics-of-circumcision",
+   "sentence_id": "s0110",
+   "dependents": 1
+  },
+  {
+   "article": "ethics-of-circumcision",
+   "sentence_id": "s0214",
+   "dependents": 1
+  },
+  {
+   "article": "ethics-of-circumcision",
+   "sentence_id": "s0242",
+   "dependents": 1
+  },
+  {
+   "article": "foreskin",
+   "sentence_id": "s0166",
+   "dependents": 1
+  },
+  {
+   "article": "ulwaluko",
+   "sentence_id": "s0130",
+   "dependents": 1
+  },
+  {
+   "article": "ulwaluko",
+   "sentence_id": "s0147",
+   "dependents": 1
+  },
+  {
+   "article": "views-on-circumcision",
+   "sentence_id": "s0126",
+   "dependents": 1
+  }
+ ]
+}

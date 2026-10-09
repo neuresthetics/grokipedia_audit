@@ -75,6 +75,7 @@ catalog_entries_v0.6.1.json (from fallacy_catalog fallacies.json @ 2a56493) ─�
 ../../../articles/<slug>/snapshots/2026-10-01.txt (verbatim check) ─┘
         └──► scripts/build_flagged_pro.py ──► flagged_pro.csv, summary.json, FLAGGED_PRO.md
 flagged_pro.csv ──► tools/make_charts_2026_10_08.py ──► docs/img/circumcision/2026-10-08/06_flagged_pro_types.png
+flagged_pro.csv + dependency/ (second layer, below) ──► dependency/scripts/build_dependency.py ──► 07_pro_after_priors.png
 ```
 
 From the repo root (Python 3; the chart also needs matplotlib):
@@ -85,6 +86,55 @@ python3 tools/make_charts_2026_10_08.py
 ```
 
 Deterministic: same inputs, same outputs.
+
+## Second layer: dependence on flagged priors
+
+Folder: [`dependency/`](dependency/). Write-up: [dependency/DEPENDENCIES.md](dependency/DEPENDENCIES.md).
+
+**Question.** For each **survivor** (a male pro argument sentence with at least 1 point left in step 5: 951 sentences, 910 with 3 points, 26 with 2, 15 with 1), does its reasoning use one of the 61 flagged pro sentences above (the **priors**) as a premise?
+
+**Rule.** A survivor loses 1 point for each distinct prior it depends on, down to 0. It depends on a prior if it builds on the prior's claim ("therefore", "thus"), refers back to it ("this", "these benefits", "as noted"), or relies on the same specific flagged claim. Topic overlap alone does not count. The full instructions are in [dependency/DEP_PROMPT.md](dependency/DEP_PROMPT.md).
+
+**Pre-filter** (`dependency/scripts/dep_candidates.py`, deterministic, no model). Only pairs it finds are judged. A pair is a candidate if:
+
+- **W (window):** same article, and the survivor sits from 2 sentences before to 8 sentences after the prior.
+- **K (claim key):** the survivor matches the keyword patterns of a claim key, and a prior carries that key ([dependency/prior_claims.csv](dependency/prior_claims.csv); 16 keys over 44 priors, assigned by a model from the flag reasons; 17 priors have no key because their claim is specific to one passage). The survivor is paired with the nearest earlier prior with that key in the same article, else the nearest later one there, else the key's one representative prior (fewest points left, then article and sentence order). So a claim repeated across articles costs a survivor at most 1 point for that claim.
+
+Result: 490 pairs (228 W only, 249 K only, 13 both; 164 cross-article), covering 344 of the 951 survivors.
+
+**Recall limit.** The other 607 survivors were not judged against any prior. A survivor is missed if it relies on a flagged claim from outside the window and its wording does not match the keyword patterns, or if the prior it relies on has no claim key and sits outside the window. So the counts here are a lower bound on dependence, not a full count.
+
+**Judging.** One model session ("model-1") judged all 490 pairs from the survivor, the sentence before it, and each prior's text and first flag reason. It did not open the score files. Each answer is Y or N; every Y has a one-line reason. Answers are in `dependency/work/judgments.csv` (resumable through `dependency/scripts/dep_queue.py`, which records answers under a file lock). Link type is set by the script: `same_article` when both sentences are in one article, else `same_claim`.
+
+**Judgment calls** (written into DEP_PROMPT.md):
+
+- A reported position ("The AAP concluded…", "Proponents argue…", "Critics contend…", "have been characterized as…") is N: the article is not adopting it as a premise.
+- A survivor that is a premise *for* the prior (it comes before and feeds it) is N, unless it states the flagged claim itself.
+- A survivor that is itself flagged is N when the only link is that it makes the same flagged claim: its own flag already cost it a point. It can still depend on a different prior by building on it or referring back to it (3 such cases).
+- Sharing a general conclusion ("benefits outweigh risks") is N; only the specific flagged step counts.
+- Uncertain is N. For example `c0410` (an article applying the adult trial result to khitan) was first recorded as Y and changed to N on re-reading. The file keeps the final answer only.
+
+**Result.** 25 of the 490 pairs were judged Y, all in the same article as their prior (no cross-article same-claim link was judged Y). 25 survivors lost 1 point each; none depended on more than one prior. 19 of the 61 priors are relied on. Male pro points left, 3/2/1/0: 910/26/15/20 before, 888/47/14/22 after. See [dependency/summary.json](dependency/summary.json).
+
+**Limits.**
+
+- Each dependency is a **model's judgment, not a person's**, by one session with no second judge. Pairs near the line could go either way.
+- **Flags are leads, not verdicts.** Losing a point here means the survivor rests on a step a reviewer flagged, not that it is wrong.
+- The three reviewers were **not blind** (see above), so the set of priors carries that limit too.
+- **Anti arguments were not checked** for dependence on flagged anti arguments: only 4 anti sentences in the male circumcision articles were flagged.
+- Recall limit of the pre-filter, as stated above.
+
+**Files.** `dependency/dependencies.csv` (one row per Y: candidate, survivor, prior, link_type, prefilter, reason, judged_by), `dependency/survivors_after_priors.csv` (all 951 survivors: points_before, n_priors, points_after, points_lost, flagged_itself, priors), `dependency/summary.json`, `dependency/DEPENDENCIES.md` (results, most relied-on priors, and every chain with verbatim quotes checked against the snapshots), `dependency/work/candidates.csv`, `dependency/work/judgments.csv`.
+
+Rebuild from the repo root (the judging itself is the model step and is not rerun):
+
+```
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/dependency/scripts/dep_candidates.py
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/dependency/scripts/build_dependency.py
+python3 tools/make_charts_2026_10_08.py
+```
+
+Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.
 
 ## Columns of flagged_pro.csv
 

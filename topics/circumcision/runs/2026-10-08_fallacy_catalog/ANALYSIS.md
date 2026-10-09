@@ -161,6 +161,19 @@ Step 6 covers the male circumcision articles only. It looks at the 61 pro argume
 
 The quotes, the catalog's definitions and the counter for each family are in [flagged_pro/FLAGGED_PRO.md](flagged_pro/FLAGGED_PRO.md). Flags are leads, not verdicts, and a flagged step can still lead to a true conclusion.
 
+## Flagged pro arguments: did the survivors lean on them?
+
+![Did surviving pro arguments lean on the flagged ones: male pro argument sentences by points left, before and after the dependence check, with anti for reference](../../../../docs/img/circumcision/2026-10-08/07_pro_after_priors.png)
+
+The second layer of step 6 asks whether the pro arguments that survived step 5 used any of the 61 flagged ones as a premise. Each one they depend on costs 1 point.
+
+- **A few did.** 25 of 951 survivors lost 1 point; none depended on more than one flagged argument. Male pro arguments with all 3 points went from 910 to 888.
+- **The links were local.** Every dependency judged was within the same article, and 18 of 25 sit within two sentences of the flagged one: "This effect", "These actions", "Similar mechanisms", or a conclusion like "Overall, the absence of verifiable risk compensation…" drawn from a flagged step just before it.
+- **Most relied on** (2 dependents each): the no-risk-compensation inference in circumcision-and-hiv, the claim that falling HIV incidence after programmes began shows causation, the heel-prick analogy in ethics-of-circumcision, and three others.
+- **Repeated claims in other articles did not add points.** 164 cross-article pairs were judged and none was judged a dependency. Where a claim recurs in another article (for example adult HIV trial results applied to infants), the sentence there was judged to report a position or stand on its own evidence, or it is flagged itself (26 of the 164 pairs) and already lost its point in step 5.
+
+This is a model's judgment on pairs picked by a cheap pre-filter, so it is a lower bound. Anti arguments were not rechecked (only 4 were flagged). Chains with quotes: [flagged_pro/dependency/DEPENDENCIES.md](flagged_pro/dependency/DEPENDENCIES.md).
+
 ## What this does and doesn't show
 
 - **It does not show which side is right.** A cleaner-argued side is not thereby correct. It only looks at how these articles argue: where their own reasoning has gaps, and which side those gaps help. It is not a measure of whether circumcision is good or bad.

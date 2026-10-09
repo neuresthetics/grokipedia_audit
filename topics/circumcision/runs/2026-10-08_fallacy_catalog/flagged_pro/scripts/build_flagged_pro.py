@@ -262,6 +262,24 @@ def write_md(S, rows, by, E):
             L.append(f"- {link(e, E)}. Required: \"{key}\" Legitimate look-alike (what would answer the flag): "
                      f"\"{look}\"")
         L += ["", f"**This audit's wording** (not from the catalog): {COUNTERS[k]['audit']}", ""]
+    dep = OUT / "dependency" / "summary.json"
+    if dep.exists():  # second layer (dependency/scripts/build_dependency.py)
+        D = json.load(open(dep))
+        b, a = D["male_pro_points_left_before"], D["male_pro_points_left_after"]
+        L += ["## Second layer: surviving pro arguments that depend on these", "",
+              f"Each of the {D['survivors']} pro argument sentences in the male circumcision articles that kept at least "
+              "1 point was checked for whether its reasoning uses one of the flagged sentences above as a premise "
+              "(builds on it, refers back to it, or relies on the same flagged claim). Each distinct flagged sentence "
+              "it depends on costs it 1 point, down to 0. Dependence was judged by an AI model, not a person, on "
+              f"{D['judged']} pairs picked by a cheap pre-filter, so the count is a lower bound.", "",
+              f"- **{D['survivors_dinged']} of {D['survivors']}** survivors lost 1 point; none lost more. "
+              f"{D['priors_relied_on']} of the 61 flagged sentences were relied on, all within their own article.",
+              "- Male pro points left, 3/2/1/0: " + "/".join(str(b[k]) for k in "3210") + " before, "
+              + "/".join(str(a[k]) for k in "3210") + " after.",
+              "- Anti arguments were not rechecked (only 4 were flagged).", "",
+              "Chains with verbatim quotes, files and limits: [dependency/DEPENDENCIES.md](dependency/DEPENDENCIES.md). "
+              "Method: [METHOD.md](METHOD.md#second-layer-dependence-on-flagged-priors). "
+              "Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.", ""]
     L += ["## Files", "",
           "- [flagged_pro.csv](flagged_pro.csv): every flagged pro sentence, with group, points left, reviewers, "
           "primary family, all families, catalog entries and the verbatim text.",

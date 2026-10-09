@@ -36,6 +36,7 @@ Writes PNGs to docs/img/circumcision/2026-10-08/ and prints every number it draw
 Every flag is an AI reader's judgment: a lead to check, not a verdict.
 """
 import csv
+import json
 import re
 import sys
 from collections import Counter
@@ -463,3 +464,57 @@ foot(fig, ["Families are fallacy_catalog's own categories. Where reviewers named
            "Sides labeled by an AI model, not a person. Method and limits: "
            "topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/METHOD.md"],
      "06_flagged_pro_types.png")
+
+
+# ============================================================= 7. pro points left after the prior check
+print("\n[7] Male pro points left before vs after the dependence-on-flagged-priors check (step 6, second layer)")
+dep = json.load(open(RUN / "flagged_pro/dependency/summary.json"))
+pb = {int(k): v for k, v in dep["male_pro_points_left_before"].items()}
+pa = {int(k): v for k, v in dep["male_pro_points_left_after"].items()}
+assert pb == sv["male", "pro"]["pts"], "before must match step 5"
+assert sum(pa.values()) == sum(pb.values())
+an = sv["male", "anti"]["pts"]
+BARS = [("Pro, step 5", pb, "pro"), ("Pro, after prior check", pa, "pro"), ("Anti, not rechecked", an, "anti")]
+for lab, d, _ in BARS:
+    print(f"  {lab}: 3/2/1/0 = " + "/".join(str(d[k]) for k in (3, 2, 1, 0)))
+
+fig, ax = plt.subplots(figsize=(W_IN, 8.4))
+for i, (lab, d, side) in enumerate(BARS):
+    n = sum(d.values()); left = 0
+    for k in (3, 2, 1, 0):
+        w = 100 * d[k] / n
+        if w:
+            ax.barh(i, w, left=left, height=0.5, color=COLOR[side] if k == 3 else LOST[k], zorder=2)
+        left += w
+    ax.text(2, i, f"{100 * d[3] / n:.1f}% kept all 3 points", va="center", ha="left",
+            fontsize=14, fontweight="bold", color="white", zorder=3)
+    ax.text(101.5, i, f"{100 * (n - d[3]) / n:.1f}%\nbelow 3", va="center", ha="left", fontsize=13,
+            fontweight="bold", color=INK, linespacing=1.1)
+    ax.text(0, i + 0.42, f"{n:,} arguments:  {d[3]:,} kept 3  ·  {d[2]} kept 2  ·  {d[1]} kept 1  ·  {d[0]} kept 0",
+            va="center", ha="left", fontsize=12, color=MUTED)
+ax.set_yticks(range(len(BARS)), [b[0].replace(", ", ",\n") for b in BARS], fontsize=14)
+for t, b in zip(ax.get_yticklabels(), BARS):
+    t.set_color(COLOR[b[2]]); t.set_fontweight("bold")
+ax.set_ylim(len(BARS) - 0.25, -0.55)
+ax.set_xlim(0, 115)
+ax.set_xticks(range(0, 101, 25), [f"{v}%" for v in range(0, 101, 25)])
+ax.set_title("Male circumcision articles\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
+ax.text(0, 1.0, f"{dep['survivors_dinged']} of {dep['survivors']} surviving pro arguments lost 1 point; "
+        f"none lost more", transform=ax.transAxes, va="bottom", fontsize=13, color=MUTED)
+ax.set_xlabel("share of that side's argument sentences", fontsize=13)
+ax.spines["bottom"].set_color(SOFT)
+fig.subplots_adjust(left=0.20, right=0.97, top=0.68, bottom=0.23)
+fig.legend(handles=[Patch(color=COLOR["pro"], label="3 points left (pro)"),
+                    Patch(color=COLOR["anti"], label="3 points left (anti)"),
+                    Patch(color=LOST[2], label="2 left"), Patch(color=LOST[1], label="1 left"),
+                    Patch(color=LOST[0], label="0 left")],
+           loc="upper left", bbox_to_anchor=(0.075, 0.835), ncol=5, frameon=False, fontsize=13.5,
+           handlelength=1.4, columnspacing=2.0)
+head(fig, "Did surviving pro arguments lean on the flagged ones?",
+     f"A few did: {dep['survivors_dinged']} of {dep['survivors']} lost a point for building on a flagged "
+     f"pro argument. Male circumcision articles only.")
+foot(fig, ["−1 point for each distinct flagged pro argument a survivor was judged to depend on (floor 0). "
+           "Dependence judged by an AI model, not a person; flags are leads, not verdicts.",
+           "Anti arguments were not rechecked (only 4 were flagged). Method and limits: "
+           "topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/METHOD.md"],
+     "07_pro_after_priors.png")

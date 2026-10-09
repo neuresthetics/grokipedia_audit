@@ -8,7 +8,7 @@
 - **Checklist:** [neuresthetics/fallacy_catalog](https://github.com/neuresthetics/fallacy_catalog) v0.6.1, commit `2a56493a3931018e9143bc7235f152f5cc5b459e`, used with its METHOD.md.
 - **Model judging:** Three separate AI agents each read all 58 articles and wrote their own flags. Reviewers 2 and 3 were told not to open the other reviewers' files until their own were saved, and each reports it did not, but their instructions came from a conversation that had already discussed earlier results (Reviewer 2: Reviewer 1's totals, top articles and fallacy types; Reviewer 3: counts and example quotes from Reviewers 1 and 2), so they were not blind. Reviewer 1 is the only fully uninfluenced read. (See "Second reviewer and overlap" and "Third reviewer and three-way overlap".)
 - **Survival scoring (step 5 of this benchmark):** after the reasoning check, every sentence was labeled pro, anti or not an argument by an AI model, and each argument was scored 3 points minus 1 for each reviewer that flagged it. See "What survived" below and [survival/METHOD.md](survival/METHOD.md).
-- **Flagged pro arguments (step 6 of this benchmark, male circumcision articles only):** the 61 pro arguments in the male circumcision articles that lost at least one point are sorted by fallacy family, the catalog's own categories, with mechanics, verbatim quotes and counters. FGM articles are not part of this step. See "Flagged pro arguments" below and [flagged_pro/METHOD.md](flagged_pro/METHOD.md).
+- **Flagged pro arguments (step 6 of this benchmark, male circumcision articles only):** the 61 pro arguments in the male circumcision articles that lost at least one point are sorted by fallacy family, the catalog's own categories, with mechanics, verbatim quotes and counters. A second layer takes 1 point from each surviving pro argument for each flagged one it depends on. FGM articles are not part of this step. See "Flagged pro arguments" below and [flagged_pro/METHOD.md](flagged_pro/METHOD.md).
 - **Date:** 2026-10-08.
 
 Every article was read in full, in 174 chunks. For a passage to be flagged, it had to be the article's own reasoning, read in its strongest form. It also had to meet every required condition of the most specific catalog entry, and the reviewer ruled out that entry's look-alikes. Arguments the article only reports are not flagged.
@@ -24,7 +24,7 @@ A separate script counted citations per article. It uses only the saved snapshot
 | File | What it is |
 |---|---|
 | `ANALYSIS.md` | Plain-language analysis of the three reviews, with charts (drawn by `tools/make_charts_2026_10_08.py`) |
-| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters (see "Flagged pro arguments" below) |
+| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters; `dependency/` holds the second layer, survivors that depend on them (see "Flagged pro arguments" below) |
 | `survival/` | What survived: argument sentences scored 3 minus the number of reviewers that flagged them (see "What survived" below) |
 | `flags.csv` | One row per flag. Columns: `slug`, `quote` (exact text), `entry_id`, `entry_name`, `reason`, `favors` (pro / anti / neutral), `confidence`, `verdict` |
 | `citation_stats.csv` | Citation counts per article (column meanings in `scripts/citation_stats.py`) |
@@ -271,3 +271,15 @@ Folder: [`flagged_pro/`](flagged_pro/). This step covers the male circumcision a
 - [`flagged_pro/METHOD.md`](flagged_pro/METHOD.md): scope, rollup and primary-family rules, quote checks, how the counters were sourced, limits and how to rebuild.
 - Data: `flagged_pro/flagged_pro.csv`, `flagged_pro/summary.json`, `flagged_pro/catalog_entries_v0.6.1.json`. Script: `flagged_pro/scripts/build_flagged_pro.py`.
 - Chart: `docs/img/circumcision/2026-10-08/06_flagged_pro_types.png`.
+
+**Second layer: survivors that depend on a flagged pro argument.** Each of the 951 male pro argument sentences that kept at least 1 point was checked for whether its reasoning uses one of the 61 flagged ones as a premise (builds on it, refers back to it, or relies on the same flagged claim). Each distinct flagged argument it depends on costs it 1 point, down to 0. A cheap pre-filter picked 490 pairs (nearby in the same article, or sharing a claim keyword); an AI model judged each one, so this is a model's judgment and a lower bound.
+
+| Male pro points left | 3 | 2 | 1 | 0 |
+|---|---|---|---|---|
+| Step 5 | 910 | 26 | 15 | 20 |
+| After this check | 888 | 47 | 14 | 22 |
+
+- 25 of 951 survivors lost 1 point; none lost more. They lean on 19 of the 61 flagged arguments, all in the same article.
+- Anti arguments were not rechecked: only 4 anti sentences in the male circumcision articles were flagged.
+- [`flagged_pro/dependency/DEPENDENCIES.md`](flagged_pro/dependency/DEPENDENCIES.md): the most relied-on flagged arguments and every chain, with verbatim quotes. Method, pre-filter, recall limit and judgment calls: [flagged_pro/METHOD.md](flagged_pro/METHOD.md#second-layer-dependence-on-flagged-priors).
+- Data: `flagged_pro/dependency/dependencies.csv`, `flagged_pro/dependency/survivors_after_priors.csv`, `flagged_pro/dependency/summary.json`. Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.
