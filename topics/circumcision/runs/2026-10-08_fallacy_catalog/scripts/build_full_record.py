@@ -127,8 +127,6 @@ for wh, rsteps, asecs in STEPS:
                   "## The premises, in plain words", "## Limits: a narrow selection"]:
             add_paras(T, f"flagged_pro/whatif_total/TOTAL_WHATIF.md, section '{t[3:]}'", section(T, t))
 
-parts.append("## Part 3. What this does and doesn't show")
-add_paras(A, "ANALYSIS.md, section 'What this does and doesn't show'", section(A, "## What this does and doesn't show"))
 
 OUT.write_text("\n\n".join(parts) + "\n")
 

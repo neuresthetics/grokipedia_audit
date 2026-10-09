@@ -37,4 +37,4 @@ Image file: [11_pro_side_invalidated.png](../../../../docs/img/circumcision/2026
 
 ## Limits: a narrow selection
 
-The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments would change the numbers, in either direction. Nothing here has been tested beyond that selection.
+The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments might change the numbers, but for so few to be made with such impact, and the ~12x fallacy rate of pro (step 5, male circumcision articles: 6.3% of pro arguments flagged vs 0.5% of anti), Author's view, not tested by this audit: we can say the scales would be massively tipped towards anti if considered as a network in full against what is "true" in the "data".

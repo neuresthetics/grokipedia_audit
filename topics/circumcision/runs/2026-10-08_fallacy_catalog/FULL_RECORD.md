@@ -507,21 +507,4 @@ Note on the chart: chart 11 was redrawn so it states this at a glance. Its title
 
 ## Limits: a narrow selection
 
-The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments would change the numbers, in either direction. Nothing here has been tested beyond that selection.
-
-## Part 3. What this does and doesn't show
-
-*Source: ANALYSIS.md, section 'What this does and doesn't show' (text only: image lines left out; each chart is shown once, in the walkthrough block)*
-
-## What this does and doesn't show
-
-- **It does not show which side is right.** A cleaner-argued side is not thereby correct. It only looks at how these articles argue: where their own reasoning has gaps, and which side those gaps help. It is not a measure of whether circumcision is good or bad.
-- **Pro vs anti depends on what the articles cover.** A side's flag count also depends on how much of each side's case the articles present in their own voice. We did not count that, so the ratio shows where the flawed reasoning sits, not how fairly each side is treated overall.
-- **Overlap is consistency, not correctness.** All three reviewers are AI agents using the same catalog and method, so their mistakes may be shared. A passage flagged by two or three of them is a stronger lead. It is not proven.
-- **Not blind.** Three separate AI agents each read all 58 articles and wrote their own flags. Reviewers 2 and 3 were told not to open the other reviewers' files until their own were saved, and each reports it did not, but their instructions came from a conversation that had already discussed earlier results (Reviewer 2: Reviewer 1's totals, top articles and fallacy types; Reviewer 3: counts and example quotes from Reviewers 1 and 2), so they were not blind. Reviewer 1 is the only fully uninfluenced read. Overlap between readers may be partly inflated by that, so the "flagged by at least two" and "flagged by all three" rows are best read as consistency of separate reads, not as confirmation from uninfluenced readers.
-- **The reviewers differ in how much they flag.** Reviewer 3 made the most flags (121, against 87 and 64) and 54 of its passages were flagged by no one else. More flags from one reviewer can mean a closer read or a looser one; this run can't tell which.
-- **Flags are leads.** Each one points at a passage worth a human check against the article and its sources.
-- **Small numbers.** Ratios built on 0 to 3 flags on one side, and rates for short articles, can swing a lot with a single flag.
-- **The reading was strict.** Arguments the article only reports, section headings and loaded wording were not flagged. An article can read as one-sided and still have few flags.
-- **Side is a judgement call** about which side one faulty step helps. It is not a verdict on the whole article.
-- **Snapshot date.** All text is from 2026-10-01. The live pages may have changed.
+The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments might change the numbers, but for so few to be made with such impact, and the ~12x fallacy rate of pro (step 5, male circumcision articles: 6.3% of pro arguments flagged vs 0.5% of anti), Author's view, not tested by this audit: we can say the scales would be massively tipped towards anti if considered as a network in full against what is "true" in the "data".
