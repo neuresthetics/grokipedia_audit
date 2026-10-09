@@ -1,0 +1,1036 @@
+{
+ "source": "neuresthetics/fallacy_catalog fallacies.json at commit 2a56493a3931018e9143bc7235f152f5cc5b459e (v0.6.1)",
+ "note": "Verbatim fields of every entry cited in this run's three flag files.",
+ "entries": {
+  "ad-hoc-rescue": {
+   "id": "ad-hoc-rescue",
+   "name": "Ad hoc rescue",
+   "category": "informal: presumption",
+   "definition": "Saving a cherished claim from contrary evidence by inventing an explanation that has no support except that it saves the claim.",
+   "required_conditions": [
+    "A claim faces counterevidence.",
+    "An extra assumption is added to explain the evidence away.",
+    "No independent reason for the assumption is given or evident, and it is offered as settling the conflict."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The rescuing assumption has good independent support.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Ad Hoc Rescue\""
+     }
+    }
+   ]
+  },
+  "appeal-to-authority": {
+   "id": "appeal-to-authority",
+   "name": "Appeal to authority (illegitimate)",
+   "category": "informal: relevance",
+   "definition": "Accepting a claim because someone said it when that person is not a genuine expert on the question, the experts disagree, or the authority is being treated as settling the matter regardless of the evidence.",
+   "required_conditions": [
+    "A claim is supported by what some person or body says.",
+    "At least one of: the source is not an expert on this question; experts substantially disagree; the source cannot be trusted to be truthful; or the source is misquoted.",
+    "The authority is treated as settling the matter."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Relying on a genuine expert speaking within their field, where experts broadly agree; most reasoning from authority is of this kind.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Appeal to Authority\""
+     }
+    },
+    {
+     "text": "Citing an authority as one piece of evidence among others.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "appeal-to-motive": {
+   "id": "appeal-to-motive",
+   "name": "Appeal to motive",
+   "category": "informal: relevance",
+   "definition": "Dismissing an argument by questioning why its proponent is making it.",
+   "required_conditions": [
+    "Someone has made an argument, claim or proposal (a rule or policy counts).",
+    "The reply questions why they are making it (their motives).",
+    "The motives are offered as a reason the argument fails."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Motives as a reason to check claims that rest on the person's word.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "appeal-to-the-people": {
+   "id": "appeal-to-the-people",
+   "name": "Appeal to the people",
+   "category": "informal: relevance",
+   "definition": "Arguing that a claim is true, or a practice right, simply because many or most people believe or do it.",
+   "required_conditions": [
+    "A claim is supported by the fact that many or most people believe or do it.",
+    "Popularity is treated as strong or decisive evidence of truth or rightness.",
+    "The claim is not itself about what people believe or prefer."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Agreement among people who have studied the question, offered as evidence.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Bandwagon\""
+     }
+    },
+    {
+     "text": "The question is about conventions, tastes or what is popular.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Popular belief is some evidence that a claim is true; the fallacy is overestimating how much.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Appeal to the People\""
+     }
+    }
+   ]
+  },
+  "appeal-to-tradition": {
+   "id": "appeal-to-tradition",
+   "name": "Appeal to tradition",
+   "category": "informal: relevance",
+   "definition": "Arguing that a practice or belief is right because it has long been held or done.",
+   "required_conditions": [
+    "A practice or belief is supported by its long history.",
+    "Its age is treated as sufficient reason, with no account of why it works or is right."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A long record can be some evidence that a practice works; the error is treating age as enough.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Traditional Wisdom\""
+     }
+    },
+    {
+     "text": "If the step also calls the practice natural or what we are 'built for', report appeal to nature and note tradition.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "argument-from-ignorance": {
+   "id": "argument-from-ignorance",
+   "name": "Argument from ignorance",
+   "category": "informal: weak induction",
+   "definition": "Treating a lack of disproof as proof, or a lack of proof as disproof.",
+   "required_conditions": [
+    "A claim has not been proven false (or true).",
+    "It is concluded to be true (or false) on that basis.",
+    "Nothing in the context shows a thorough search was made where evidence would be expected if the claim were true."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A thorough search was done and a proof would have been found if it existed.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Appeal to Ignorance\""
+     }
+    },
+    {
+     "text": "A procedural default or burden rule established independently of this argument (a law, regulation, a null hypothesis or a house rule set beforehand), with the conclusion kept to a decision about what to do rather than asserting that the claim is false. It does not apply if an established standard exists and points the other way.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "A precautionary decision under uncertainty, stated as a decision, with the costs of being wrong either way weighed.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "argument-from-silence": {
+   "id": "argument-from-silence",
+   "name": "Argument from silence",
+   "category": "informal: weak induction",
+   "definition": "Drawing a conclusion from the absence of a statement or record, when that absence has other likely explanations.",
+   "required_conditions": [
+    "A source does not mention something.",
+    "It is concluded that the thing did not happen or the author did not know of it.",
+    "There is no strong reason to expect the source would have mentioned it."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The source would very likely have mentioned it if it were so.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "base-rate-fallacy": {
+   "id": "base-rate-fallacy",
+   "name": "Base-rate fallacy",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Judging a probability from specific evidence (such as a test result) while ignoring how common the thing is to begin with.",
+   "required_conditions": [
+    "A probability about a specific case is estimated from specific evidence such as a test result or description.",
+    "The base rate (how common the thing is overall) is relevant and is known or knowable.",
+    "The estimate ignores or badly underweights that base rate."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The base rate is unknown and the speaker says so.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "The specific evidence is so strong that the base rate makes little difference, and this is shown.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If 'the chance of this evidence if innocent' is presented as the chance of innocence, use prosecutor's fallacy.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "begging-the-question": {
+   "id": "begging-the-question",
+   "name": "Begging the question",
+   "category": "informal: presumption",
+   "definition": "Supporting a conclusion with a premise that is only acceptable to someone who already accepts the conclusion, so the argument gives no independent reason. Includes arguing in a circle, where the conclusion reappears, openly or reworded, among the premises.",
+   "required_conditions": [
+    "A conclusion is argued for.",
+    "A premise asserts the conclusion, or something the audience could only accept if they already accepted the conclusion.",
+    "The premise is not independently supported."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A premise that can be defended independently of the conclusion is reasonable to use.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Begging the Question\""
+     }
+    },
+    {
+     "text": "Proper recursive definitions are not circular reasoning.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Circular Reasoning\""
+     }
+    },
+    {
+     "text": "A valid deductive argument always 'contains' its conclusion in its premises; that alone is not this fallacy.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Begging the Question\""
+     }
+    },
+    {
+     "text": "A very large circle of claims (like a dictionary's definitions) can be informative and is not considered fallacious.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Circular Reasoning\""
+     }
+    }
+   ]
+  },
+  "bulverism": {
+   "id": "bulverism",
+   "name": "Bulverism",
+   "category": "informal: relevance",
+   "definition": "Assuming a view is wrong and then explaining why the other person holds it (their bias, psychology or upbringing) instead of showing that it is wrong.",
+   "required_conditions": [
+    "A view is assumed to be wrong without showing it.",
+    "The reply explains the view by the holder's psychology, bias or upbringing.",
+    "The explanation is offered in place of showing that the view is wrong."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Explaining why someone holds a view after the view has been shown to be wrong on independent grounds.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "cherry-picking": {
+   "id": "cherry-picking",
+   "name": "Cherry-picking",
+   "category": "informal: weak induction",
+   "definition": "Drawing a conclusion from a selected part of the evidence while the rest of it, which is stated or plainly known, points the other way or weakens it and goes unanswered. Unlike suppressed evidence, the contrary evidence is in plain view.",
+   "required_conditions": [
+    "The arguer selects a subset of the available or stated data. This includes choosing a measurement period while the arguer's own stated record extends beyond it.",
+    "The rest of the data, stated or plainly known, points the other way or dilutes the subset; or a comparative claim is made with no comparison figure while the chosen window excludes stated history.",
+    "The conclusion rests on the subset, and the rest gets no answer."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The subset is singled out for a stated, independent reason (for example, a subgroup named before the data came in).",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Highlighting the strongest examples while acknowledging and answering the rest.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If the contrary evidence is absent from the text, use suppressed evidence instead.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "circumstantial-ad-hominem": {
+   "id": "circumstantial-ad-hominem",
+   "name": "Circumstantial ad hominem",
+   "category": "informal: relevance",
+   "definition": "Arguing that a claim is false, or a proposal should be rejected, because of the arguer's circumstances, such as what they stand to gain, rather than on the merits.",
+   "required_conditions": [
+    "Someone has made a claim or proposal.",
+    "The reply points to the person's circumstances, such as a stake in the outcome.",
+    "The circumstances are used to declare the claim false or ignorable, or to refuse to examine its evidence."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A stake in the outcome is a fair reason to check the claim more carefully or seek independent verification.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Genetic\""
+     }
+    },
+    {
+     "text": "Where the claim rests only on the person's word, their interests bear on how much to trust it.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Bare distrust of a report that has its own evidence, without declaring it false: record possible issue, settled by whether the evidence gets examined.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "cum-hoc": {
+   "id": "cum-hoc",
+   "name": "Cum hoc ergo propter hoc",
+   "category": "informal: causal",
+   "definition": "Concluding that because two things occur together, one causes the other.",
+   "required_conditions": [
+    "Two things are shown to occur together (a correlation).",
+    "One is concluded to cause the other.",
+    "At least one plausible alternative (chance, a third factor, the reverse direction) is left open, and the causal claim is stated as established rather than as a hypothesis to test."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Correlations are often good evidence of causation when alternatives are addressed.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Post Hoc\""
+     }
+    },
+    {
+     "text": "A correlation can support a causal conclusion once coincidence, a confounding cause and the reverse direction have been ruled out.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "Fallacy Files",
+      "title": "The Fallacy Files (Gary N. Curtis)",
+      "url": "https://www.fallacyfiles.org/cumhocfa.html",
+      "locator": "entry \"Cum Hoc, Ergo Propter Hoc\""
+     }
+    },
+    {
+     "text": "A correlation plus a comparison group or a known mechanism, offered as grounds to investigate.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If the argument does address causes but misses an obvious third factor, use ignoring a common cause.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "double-standard": {
+   "id": "double-standard",
+   "name": "Double standard",
+   "category": "informal: presumption",
+   "definition": "Judging two relevantly similar people or cases by different standards.",
+   "required_conditions": [
+    "Two cases are judged by different standards.",
+    "The same standard should apply because they are alike in the relevant respects.",
+    "The conclusion relies on the difference."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The cases differ in a relevant way, so different standards are justified.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Double Standard\""
+     }
+    },
+    {
+     "text": "If the speaker exempts their own case from a rule, use special pleading instead.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Asking that a stated test be applied consistently is legitimate, unless it is used to dismiss the original criticism.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "ecological-fallacy": {
+   "id": "ecological-fallacy",
+   "name": "Ecological fallacy",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Drawing conclusions about individuals from statistics about the groups they belong to.",
+   "required_conditions": [
+    "Data are about groups (regions, populations).",
+    "A conclusion is drawn about individuals within them.",
+    "The group-level pattern is taken to establish the same pattern for individuals (or a particular person) without individual-level data."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Group data are used only as a clue, with individual-level data to confirm.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Group figures do not prove an individual-level link, but they don't disprove one either.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "false-analogy": {
+   "id": "false-analogy",
+   "name": "False analogy",
+   "category": "informal: weak induction",
+   "definition": "Arguing that because two things are alike in some ways they are alike in another way, when the similarities are not relevant to that point or the differences matter more.",
+   "required_conditions": [
+    "Two things are compared.",
+    "A conclusion about one is drawn from the other.",
+    "They differ in a respect relevant to the conclusion (state it)."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "An analogy where the shared features are the ones that matter to the conclusion.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "An analogy used to illustrate, not to argue.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If the source case is an exception (a special population or special circumstances) and the conclusion is a rule for ordinary cases or for everyone, use converse accident.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "false-cause": {
+   "id": "false-cause",
+   "name": "False cause",
+   "category": "informal: causal",
+   "definition": "Concluding that one thing causes another when the only support is that they occur together or in sequence, or when an obvious alternative explanation (a common cause, reversed direction, or chance) has not been ruled out.",
+   "required_conditions": [
+    "A causal conclusion is drawn.",
+    "The only support is that the two occur together or in sequence, or an obvious alternative (a common cause, the reverse direction, chance) is left open.",
+    "No more specific causal entry (post hoc, correlation, common cause, reverse causation, single cause, regression) fits."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A tentative causal hypothesis offered for testing.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "false-dilemma": {
+   "id": "false-dilemma",
+   "name": "False dilemma",
+   "category": "informal: presumption",
+   "definition": "Presenting too few options, often just two, as the only ones, when others exist.",
+   "required_conditions": [
+    "A choice is presented between options as though they were the only ones; or an action is described as amounting to one bad outcome, implying that the only alternative is the speaker's option; or the conclusion relies on an unstated two-way split, signalled by 'must' after one option is eliminated.",
+    "At least one further reasonable option exists (name it).",
+    "The conclusion relies on eliminating the stated options."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The options really are exhaustive (a true dichotomy), or the speaker names the main options without claiming they are the only ones.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "far-fetched-hypothesis": {
+   "id": "far-fetched-hypothesis",
+   "name": "Far-fetched hypothesis",
+   "category": "informal: presumption",
+   "definition": "Offering a bizarre explanation as the correct one without first ruling out simpler, more likely explanations.",
+   "required_conditions": [
+    "An explanation is offered for something.",
+    "It is improbable (bizarre or extraordinary).",
+    "Simpler, more likely explanations have not been ruled out."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "An unusual explanation offered after likelier ones have been ruled out.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Suggesting an unusual explanation as something to test.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "genetic-fallacy": {
+   "id": "genetic-fallacy",
+   "name": "Genetic fallacy",
+   "category": "informal: relevance",
+   "definition": "Judging a claim or practice good or bad by where it came from rather than by its present merits.",
+   "required_conditions": [
+    "The origin of a claim, idea or practice is pointed out (including a person's family or background).",
+    "The origin is offered as a reason to accept or reject it.",
+    "The origin is irrelevant to its present merits."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Origins are relevant when assessing the reliability of a source or asking for independent verification.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Genetic\""
+     }
+    }
+   ]
+  },
+  "guilt-by-association": {
+   "id": "guilt-by-association",
+   "name": "Guilt by association",
+   "category": "informal: relevance",
+   "definition": "Judging a claim or person by the company they keep or the groups they're linked to, rather than on the merits.",
+   "required_conditions": [
+    "A person or claim is linked to a group, person or idea that the audience dislikes.",
+    "The link is offered as a reason to reject the claim or condemn the person.",
+    "No evidence is given that the association bears on the specific claim."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The association is real evidence about the specific claim or about a witness's reliability.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Showing that someone actually shares the specific commitment being criticised.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "hasty-generalization": {
+   "id": "hasty-generalization",
+   "name": "Hasty generalization",
+   "category": "informal: weak induction",
+   "definition": "Drawing a general conclusion from too few cases to support it.",
+   "required_conditions": [
+    "A general conclusion about a group is drawn.",
+    "The evidence is a sample of the group.",
+    "The sample is too small, or the conclusion is too sweeping, for the evidence."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A small sample can suffice when the population is known to be uniform in the relevant respect.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "A tentative conclusion stated with appropriate caution.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Do not also tag converse accident or secundum quid for the same step.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "A small sample with a large, consistent effect, used for a reversible or low-stakes decision.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If the doubt is about how the sample was chosen rather than its size, use unrepresentative sample.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "inconsistency": {
+   "id": "inconsistency",
+   "name": "Inconsistency",
+   "category": "informal: presumption",
+   "definition": "Relying on two or more claims that cannot all be true, as if all of them supported the conclusion, without noticing the conflict.",
+   "required_conditions": [
+    "Two or more claims are relied on in the argument.",
+    "They cannot all be true together (show the clash).",
+    "No more specific entry (kettle logic, special pleading, double standard) fits."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A change of mind that is acknowledged.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Apparent conflicts that disappear on a fair reading (different times, respects or senses).",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Deriving a contradiction on purpose, to reject an assumption (reduction to absurdity), is not this.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "irrelevant-conclusion": {
+   "id": "irrelevant-conclusion",
+   "name": "Irrelevant conclusion",
+   "category": "informal: relevance",
+   "definition": "Offering an argument that may be fine in itself but supports a different conclusion from the one at issue.",
+   "required_conditions": [
+    "An argument is offered on a stated issue.",
+    "The argument supports a different conclusion.",
+    "That different conclusion is presented as settling the issue."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Evidence relevant to a related question (such as leniency rather than guilt), offered for that question.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Irrelevant Conclusion\""
+     }
+    }
+   ]
+  },
+  "mcnamara-fallacy": {
+   "id": "mcnamara-fallacy",
+   "name": "McNamara fallacy",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Deciding only on what can easily be measured and treating what can't be measured as unimportant or nonexistent.",
+   "required_conditions": [
+    "A decision or judgement is based on measured quantities.",
+    "Something important to the goal is not captured by those measures.",
+    "It is ignored or dismissed because it is hard to measure."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The measured thing is the thing that matters.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "no-true-scotsman": {
+   "id": "no-true-scotsman",
+   "name": "No true Scotsman",
+   "category": "informal: presumption",
+   "definition": "Protecting a generalization from a counterexample by redefining the group so that the counterexample doesn't count.",
+   "required_conditions": [
+    "A general claim about a group is made.",
+    "A counterexample is offered.",
+    "The counterexample is excluded by redefining the group on the spot, with no independent criterion."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Excluding a case using a criterion stated beforehand or independently justified.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Applying a criterion that is part of what the word means (someone who eats meat is not a vegan). A criterion that the speaker's own earlier claim did not depend on cannot be used this way.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "non-sequitur": {
+   "id": "non-sequitur",
+   "name": "Non sequitur",
+   "category": "informal: relevance",
+   "definition": "A conclusion that doesn't follow from the reasons given, because they are irrelevant to it or far too weak.",
+   "required_conditions": [
+    "A conclusion is drawn from stated reasons.",
+    "The reasons are irrelevant to it or extremely weak (state the missing link).",
+    "No more specific named entry describes the defect."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "An invalid argument that still has real inductive strength (for example, affirming the consequent with good evidence) is not a non sequitur.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Non Sequitur\""
+     }
+    },
+    {
+     "text": "An enthymeme whose unstated premise is obvious and acceptable.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If the step has a named invalid form, or you can show a same-form counterexample, use that entry or formal fallacy; do not tag both.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "nut-picking": {
+   "id": "nut-picking",
+   "name": "Nut-picking",
+   "category": "informal: weak induction",
+   "definition": "Finding the most extreme or fringe members of an opposing group and presenting them as typical of the whole group.",
+   "required_conditions": [
+    "Statements by a group's most extreme members are cited.",
+    "They are presented as representing the whole group."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Examples that are shown to be typical.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "observational-interpretation": {
+   "id": "observational-interpretation",
+   "name": "Observational interpretation fallacy",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Reading an association found in an observational study as proof of cause and effect.",
+   "required_conditions": [
+    "The evidence is an association from an observational study (not a controlled experiment).",
+    "A causal conclusion is drawn.",
+    "Confounders or reverse causation are not adequately addressed, and the causal claim is stated as established."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The association is reported as a link to be tested, or confounders are carefully controlled.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Partial adjustment for confounders with a hedged causal claim: record possible issue and name the alternative left unaddressed.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "over-extrapolation": {
+   "id": "over-extrapolation",
+   "name": "Over-extrapolation",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Extending a trend far beyond the range of data that support it, as if it would continue indefinitely.",
+   "required_conditions": [
+    "A trend is observed over some range.",
+    "It is extended far beyond that range.",
+    "No reason is given to think the trend continues there."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Short-range forecasts with stated uncertainty, or extrapolation backed by a model of why the trend continues.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "persuasive-definition": {
+   "id": "persuasive-definition",
+   "name": "Persuasive definition",
+   "category": "informal: ambiguity and language",
+   "definition": "Winning an argument by getting others to accept a slanted definition of a key term that builds in the desired conclusion.",
+   "required_conditions": [
+    "A term is defined, or its use is narrowed or stretched, in a way that differs from its ordinary meaning.",
+    "The definition builds in a contested evaluation or conclusion.",
+    "The definition is presented as neutral, and the argument depends on it."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A stipulated technical definition that is announced and used consistently.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Arguing openly for a revised definition.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "poisoning-the-well": {
+   "id": "poisoning-the-well",
+   "name": "Poisoning the well",
+   "category": "informal: relevance",
+   "definition": "Discrediting a person in advance, before they speak, so that anything they say will be dismissed.",
+   "required_conditions": [
+    "Before a person speaks or presents a case, negative information about them is offered.",
+    "The information is presented so that whatever they say will be discounted.",
+    "It is irrelevant to the merits of what they will argue, or is used to dismiss it wholesale."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Disclosing a documented conflict of interest relevant to testimony, while still weighing the argument on its merits.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "post-hoc": {
+   "id": "post-hoc",
+   "name": "Post hoc ergo propter hoc",
+   "category": "informal: causal",
+   "definition": "Concluding that because B happened after A, A caused B.",
+   "required_conditions": [
+    "One event followed another.",
+    "The first is concluded to have caused the second.",
+    "The order in time is the main or only evidence offered."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Sequence is some evidence of cause; the fallacy is the hasty leap, not considering timing.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Post Hoc\""
+     }
+    },
+    {
+     "text": "Timing plus a known mechanism or controlled comparison.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "red-herring": {
+   "id": "red-herring",
+   "name": "Red herring",
+   "category": "informal: relevance",
+   "definition": "Bringing in an irrelevant topic to divert attention from the issue under discussion.",
+   "required_conditions": [
+    "An issue is under discussion.",
+    "A different topic is introduced.",
+    "The new topic does not bear on the issue and draws attention away from it."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "A related point that is shown to bear on the issue.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Arguing that another issue must be settled first, when that dependence is real.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Avoiding the Issue\""
+     }
+    },
+    {
+     "text": "Merely asserting that another question must be settled first does not count; the dependence must be shown.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Asking that a stated test be applied consistently is legitimate, unless it is used to dismiss the original criticism.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "relative-privation": {
+   "id": "relative-privation",
+   "name": "Relative privation",
+   "category": "informal: relevance",
+   "definition": "Dismissing a problem or complaint because worse problems exist elsewhere.",
+   "required_conditions": [
+    "A problem or complaint is raised.",
+    "Worse problems elsewhere are cited.",
+    "This is offered as a reason to dismiss or ignore the problem raised."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Comparing problems when the actual question is how to rank priorities.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "relative-risk-framing": {
+   "id": "relative-risk-framing",
+   "name": "Relative-risk framing (absolute risk left out)",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Presenting a change in risk only as a relative figure ('halves the risk', '50% more likely') when the absolute change is small, so the effect seems larger or more important than it is.",
+   "required_conditions": [
+    "A relative change in risk is reported.",
+    "The absolute change is small, whether stated or left out.",
+    "The conclusion relies on the relative figure."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Both the relative and the absolute figures are given and weighed.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "The outcome is common, so the relative change is also large in absolute terms, and this is stated or plainly known.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "secundum-quid": {
+   "id": "secundum-quid",
+   "name": "Secundum quid",
+   "category": "informal: presumption",
+   "definition": "Aristotle's fallacy of treating something true only in a certain respect, or with a qualification, as if it were true without qualification.",
+   "required_conditions": [
+    "A claim is true only in some respect, at some time or with some qualification.",
+    "It is used as if it were true without qualification.",
+    "The conclusion relies on dropping the qualification."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The qualification does not affect the conclusion.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "A rule applied to a genuine exception is accident; too few cases is hasty generalization.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "straw-man": {
+   "id": "straw-man",
+   "name": "Straw man",
+   "category": "informal: relevance",
+   "definition": "Misrepresenting someone's position as a weaker or more extreme version and then attacking that version instead of what they actually hold.",
+   "required_conditions": [
+    "The opponent's position is restated or summarised.",
+    "The restatement differs materially from what they said or meant (show the original wording or a reliable summary of it; without it, at most possible issue).",
+    "The argument attacks the restatement.",
+    "The attack is presented as refuting the opponent's actual position."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Restating a view in words its holder would accept.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Drawing out a consequence the opponent is actually committed to.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Rebutting a version of the view that someone really holds, while saying whose version it is.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Describing the opponent's position in an established but contested usage they would recognise (for example, calling slower growth a 'cut'): possible issue, unless the opponent explicitly rejected that description, in which case it can be flagged.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "suppressed-evidence": {
+   "id": "suppressed-evidence",
+   "name": "Suppressed evidence",
+   "category": "informal: weak induction",
+   "definition": "Leaving out evidence that is significant and would weaken the conclusion, when the arguer had it or should have had it, and presenting the case as if it were complete.",
+   "required_conditions": [
+    "An argument presents evidence for a conclusion.",
+    "Relevant, significant evidence against it is omitted (identify it).",
+    "The arguer knew or should have known of it."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The omitted evidence is not significant, or the arguer could not have known it.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Suppressed Evidence\""
+     }
+    },
+    {
+     "text": "An openly one-sided brief in an adversarial setting where the other side presents its case.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "A short case that does not claim to be complete.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "If the contrary evidence is stated in the passage (or plainly known) and simply ignored, use cherry-picking.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "tu-quoque": {
+   "id": "tu-quoque",
+   "name": "Tu quoque",
+   "category": "informal: relevance",
+   "definition": "Dismissing a claim or criticism because the person making it doesn't live up to it themselves.",
+   "required_conditions": [
+    "Someone makes a claim or criticism.",
+    "The reply points out that they do not act consistently with it, and the inconsistency concerns the same claim or the principle directly behind it. (If it is looser, such as being overweight while urging someone to quit smoking, use ad hominem.)",
+    "This is offered as a reason the claim or criticism is false or can be dismissed."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "Finding that a speaker is a hypocrite gives reason to be suspicious of their reasoning, but not enough reason to discount it.",
+     "caveat_source": "source",
+     "source": {
+      "ref": "IEP",
+      "title": "Internet Encyclopedia of Philosophy, \"Fallacies\" (Bradley Dowden)",
+      "url": "https://iep.utm.edu/fallacy/",
+      "locator": "section 6, \"Partial List of Fallacies\", entry \"Tu Quoque\""
+     }
+    },
+    {
+     "text": "If the reply targets the person's sincerity or fitness for a role, that is this look-alike; if it targets the message or policy, flag.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "'What about X?' that changes the subject to a third party is not this; consider red herring.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "'Whataboutism' is not a reliable alias: only the 'you do it too, so your point fails' form is this fallacy.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  },
+  "unrepresentative-sample": {
+   "id": "unrepresentative-sample",
+   "name": "Unrepresentative sample",
+   "category": "informal: statistical and probabilistic",
+   "definition": "Generalizing about a population from a sample that was gathered in a way likely to differ from that population. Self-selection, where people choose whether to take part, is a common cause.",
+   "required_conditions": [
+    "A conclusion about a population is drawn from a sample.",
+    "The way the sample was gathered is likely to make it differ from the population (for example, people chose to take part).",
+    "The difference bears on the conclusion."
+   ],
+   "legitimate_lookalikes": [
+    {
+     "text": "The sample is limited but the conclusion is limited to match.",
+     "caveat_source": "catalog wording"
+    },
+    {
+     "text": "Biased-looking samples that have been weighted or checked against the population.",
+     "caveat_source": "catalog wording"
+    }
+   ]
+  }
+ }
+}

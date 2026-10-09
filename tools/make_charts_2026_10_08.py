@@ -27,6 +27,11 @@ Chart 5 (what survived) also reads runs/2026-10-08_fallacy_catalog/survival/surv
 argument sentence (pro or anti), with points_left = 3 minus the number of reviewers whose flag overlaps it
 (built by survival/scripts/build_survival.py; method in survival/METHOD.md).
 
+Chart 6 (flagged pro types) reads runs/2026-10-08_fallacy_catalog/flagged_pro/flagged_pro.csv: one row per pro
+argument sentence in the male circumcision articles (FGM articles are not part of step 6) with fewer than 3 points
+left, with its primary fallacy family (the catalog's own category;
+built by flagged_pro/scripts/build_flagged_pro.py; method in flagged_pro/METHOD.md).
+
 Writes PNGs to docs/img/circumcision/2026-10-08/ and prints every number it draws.
 Every flag is an AI reader's judgment: a lead to check, not a verdict.
 """
@@ -409,3 +414,52 @@ foot(fig, ["Each argument sentence starts with 3 points and loses 1 for each of 
            "Sides labeled by an AI model (9 separate sessions, split by article), not a person. "
            "Method and limits: topics/circumcision/runs/2026-10-08_fallacy_catalog/survival/METHOD.md"],
      "05_what_survived.png")
+
+
+# ============================================================= 6. flagged pro arguments by type
+print("\n[6] Flagged pro arguments by fallacy family (male circumcision articles only; primary family)")
+fp = read("flagged_pro/flagged_pro.csv")
+assert {r["topic_group"] for r in fp} == {"male"}, "step 6 covers male circumcision articles only"
+FAMS = [("relevance", "Off-point reasons", "relevance"),
+        ("presumption", "Unearned or clashing premises", "presumption"),
+        ("weak_induction", "Thin or ill-fitting evidence", "weak induction"),
+        ("statistics", "Stretched numbers", "statistical and probabilistic"),
+        ("causal", "Shaky cause and effect", "causal")]
+fcnt = Counter(r["primary_family"] for r in fp)
+nfp = len(fp)
+assert sum(fcnt.values()) == nfp
+print(f"  {nfp} flagged pro sentences; " + ", ".join(f"{k} {fcnt.get(k, 0)}" for k, _, _ in FAMS))
+
+fig, ax = plt.subplots(figsize=(W_IN, 8.4))
+for i, (k, label, cat) in enumerate(FAMS):
+    v = 100 * fcnt.get(k, 0) / nfp
+    ax.barh(i, v, height=0.6, color=COLOR["pro"], zorder=2)
+    ax.text(v + 0.8, i, f"{fcnt.get(k, 0)}  ({v:.0f}%)", va="center", ha="left", fontsize=15,
+            fontweight="bold", color=INK)
+ax.set_yticks(range(len(FAMS)), [f"{lab}\n" for _, lab, _ in FAMS], fontsize=15)
+for i, (_, _, cat) in enumerate(FAMS):
+    ax.text(-0.012, i + 0.2, f"catalog: {cat}", transform=ax.get_yaxis_transform(), ha="right", va="center",
+            fontsize=11.5, color=MUTED)
+ax.set_ylim(len(FAMS) - 0.4, -0.6)
+ax.set_xlim(0, 60)
+ax.set_xticks(range(0, 51, 10), [f"{v}%" for v in range(0, 51, 10)])
+ax.set_title("Male circumcision articles\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
+ax.text(0, 1.0, f"{nfp} flagged pro argument sentences, one family each", transform=ax.transAxes,
+        va="bottom", fontsize=13, color=MUTED)
+ax.set_xlabel("share of flagged pro arguments", fontsize=13)
+ax.spines["bottom"].set_color(SOFT)
+fig.subplots_adjust(left=0.25, right=0.95, top=0.70, bottom=0.23)
+fig.text(0.04, 0.815, "Pro argument sentences flagged by at least one of three AI readers, sorted by the kind of "
+         "flaw named.", ha="left", va="center", fontsize=12.5, color=MUTED)
+for k, name in enumerate(REV):
+    fig_robot(fig, 0.86 + k * 0.032, 0.795, 0.042, BOTS[name])
+mr = 100 * fcnt["relevance"] / nfp
+mp = 100 * fcnt["presumption"] / nfp
+head(fig, "What kinds of flawed reasoning did the flagged pro arguments use?",
+     f"Most often a reason that doesn't bear on the point ({mr:.0f}%), then unearned or clashing premises "
+     f"({mp:.0f}%). Male circumcision articles only.")
+foot(fig, ["Families are fallacy_catalog's own categories. Where reviewers named different families, the one named by "
+           "the most reviewers counts. FGM articles are not part of this step.",
+           "Sides labeled by an AI model, not a person. Method and limits: "
+           "topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/METHOD.md"],
+     "06_flagged_pro_types.png")

@@ -8,6 +8,7 @@
 - **Checklist:** [neuresthetics/fallacy_catalog](https://github.com/neuresthetics/fallacy_catalog) v0.6.1, commit `2a56493a3931018e9143bc7235f152f5cc5b459e`, used with its METHOD.md.
 - **Model judging:** Three separate AI agents each read all 58 articles and wrote their own flags. Reviewers 2 and 3 were told not to open the other reviewers' files until their own were saved, and each reports it did not, but their instructions came from a conversation that had already discussed earlier results (Reviewer 2: Reviewer 1's totals, top articles and fallacy types; Reviewer 3: counts and example quotes from Reviewers 1 and 2), so they were not blind. Reviewer 1 is the only fully uninfluenced read. (See "Second reviewer and overlap" and "Third reviewer and three-way overlap".)
 - **Survival scoring (step 5 of this benchmark):** after the reasoning check, every sentence was labeled pro, anti or not an argument by an AI model, and each argument was scored 3 points minus 1 for each reviewer that flagged it. See "What survived" below and [survival/METHOD.md](survival/METHOD.md).
+- **Flagged pro arguments (step 6 of this benchmark, male circumcision articles only):** the 61 pro arguments in the male circumcision articles that lost at least one point are sorted by fallacy family, the catalog's own categories, with mechanics, verbatim quotes and counters. FGM articles are not part of this step. See "Flagged pro arguments" below and [flagged_pro/METHOD.md](flagged_pro/METHOD.md).
 - **Date:** 2026-10-08.
 
 Every article was read in full, in 174 chunks. For a passage to be flagged, it had to be the article's own reasoning, read in its strongest form. It also had to meet every required condition of the most specific catalog entry, and the reviewer ruled out that entry's look-alikes. Arguments the article only reports are not flagged.
@@ -23,6 +24,7 @@ A separate script counted citations per article. It uses only the saved snapshot
 | File | What it is |
 |---|---|
 | `ANALYSIS.md` | Plain-language analysis of the three reviews, with charts (drawn by `tools/make_charts_2026_10_08.py`) |
+| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters (see "Flagged pro arguments" below) |
 | `survival/` | What survived: argument sentences scored 3 minus the number of reviewers that flagged them (see "What survived" below) |
 | `flags.csv` | One row per flag. Columns: `slug`, `quote` (exact text), `entry_id`, `entry_name`, `reason`, `favors` (pro / anti / neutral), `confidence`, `verdict` |
 | `citation_stats.csv` | Citation counts per article (column meanings in `scripts/citation_stats.py`) |
@@ -252,3 +254,20 @@ Headline, share of argument sentences no reviewer flagged:
 | FGM | 96.7% of 301 | 97.7% of 616 |
 
 In the FGM articles, the order of the two sides flips when flagged claims about laws and campaigns are counted as arguments. See METHOD.md, section 7.
+
+## Flagged pro arguments (step 6, male circumcision articles only)
+
+Folder: [`flagged_pro/`](flagged_pro/). This step covers the male circumcision articles only; FGM articles are not part of it. It takes the 61 pro argument sentences there with fewer than 3 points left in step 5. It sorts them by the fallacy_catalog v0.6.1 entries the reviewers cited, rolled up to the catalog's own categories. Each sentence gets one primary family (the one the most reviewers named), so the shares add to 100%.
+
+| Family (catalog category) | Flagged pro sentences |
+|---|---|
+| Off-point reasons (relevance) | 28 (46%) |
+| Unearned or clashing premises (presumption) | 20 (33%) |
+| Thin or ill-fitting evidence (weak induction) | 9 (15%) |
+| Stretched numbers (statistical and probabilistic) | 2 (3%) |
+| Shaky cause and effect (causal) | 2 (3%) |
+
+- [`flagged_pro/FLAGGED_PRO.md`](flagged_pro/FLAGGED_PRO.md): for each family, how the move works (with the catalog's definitions and links), verbatim quotes, and the counter. Counters quote the catalog's required conditions and legitimate look-alikes; any added reply is marked as this audit's wording.
+- [`flagged_pro/METHOD.md`](flagged_pro/METHOD.md): scope, rollup and primary-family rules, quote checks, how the counters were sourced, limits and how to rebuild.
+- Data: `flagged_pro/flagged_pro.csv`, `flagged_pro/summary.json`, `flagged_pro/catalog_entries_v0.6.1.json`. Script: `flagged_pro/scripts/build_flagged_pro.py`.
+- Chart: `docs/img/circumcision/2026-10-08/06_flagged_pro_types.png`.

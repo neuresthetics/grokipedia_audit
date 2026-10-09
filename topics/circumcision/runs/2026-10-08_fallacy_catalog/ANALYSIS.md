@@ -148,6 +148,19 @@ The headline above counts flaws. This chart asks the reverse question: of the se
 
 Survival means "not flagged", not "true". All 13,199 sentences were labeled by an AI model, not a person, in 9 separate sessions split by article, and no session checked another's work. The male circumcision gap holds under every check. The lists, the method, the limits and a consistency check by labeler are in [`survival/`](survival/): [SURVIVORS.md](survival/SURVIVORS.md) and [METHOD.md](survival/METHOD.md).
 
+## Flagged pro arguments: what kinds of flawed reasoning?
+
+![What kinds of flawed reasoning did the flagged pro arguments use: share of flagged pro argument sentences in the male circumcision articles by fallacy family](../../../../docs/img/circumcision/2026-10-08/06_flagged_pro_types.png)
+
+Step 6 covers the male circumcision articles only. It looks at the 61 pro arguments there that lost at least one point and sorts each by the kind of flaw the reviewers named, using fallacy_catalog's own categories.
+
+- **Most common: a reason that doesn't bear on the point** (28, 46%). Examples are answering a consent objection with satisfaction surveys, answering lasting-pain evidence with quick healing, or explaining critics' views by their supposed bias.
+- **Next: unearned or clashing premises** (20, 33%). Often the article contradicts itself, for example calling the procedure "near-painless" after saying pain relief falls short. Or it applies a stricter test to the other side's evidence than to its own.
+- **Thin or ill-fitting evidence** (9, 15%) is mostly false analogies (5 of 9), such as comparisons with heel-prick blood tests or vaccines.
+- Stretched numbers and shaky cause and effect are each primary for 2 sentences.
+
+The quotes, the catalog's definitions and the counter for each family are in [flagged_pro/FLAGGED_PRO.md](flagged_pro/FLAGGED_PRO.md). Flags are leads, not verdicts, and a flagged step can still lead to a true conclusion.
+
 ## What this does and doesn't show
 
 - **It does not show which side is right.** A cleaner-argued side is not thereby correct. It only looks at how these articles argue: where their own reasoning has gaps, and which side those gaps help. It is not a measure of whether circumcision is good or bad.

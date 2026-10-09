@@ -1,0 +1,87 @@
+{
+ "scope": {
+  "group": "male circumcision articles only",
+  "sentences": 61,
+  "points_left": {
+   "2": 26,
+   "1": 15,
+   "0": 20
+  }
+ },
+ "families": {
+  "relevance": {
+   "primary": 28,
+   "primary_share": 0.459,
+   "any": 28,
+   "any_share": 0.459,
+   "entries": {
+    "non-sequitur": 10,
+    "straw-man": 6,
+    "irrelevant-conclusion": 5,
+    "appeal-to-tradition": 3,
+    "genetic-fallacy": 2,
+    "appeal-to-authority": 1,
+    "appeal-to-motive": 1,
+    "appeal-to-the-people": 1,
+    "bulverism": 1,
+    "circumstantial-ad-hominem": 1,
+    "guilt-by-association": 1,
+    "poisoning-the-well": 1,
+    "red-herring": 1,
+    "relative-privation": 1
+   }
+  },
+  "presumption": {
+   "primary": 20,
+   "primary_share": 0.3279,
+   "any": 22,
+   "any_share": 0.3607,
+   "entries": {
+    "inconsistency": 9,
+    "secundum-quid": 7,
+    "double-standard": 5,
+    "begging-the-question": 1,
+    "far-fetched-hypothesis": 1,
+    "no-true-scotsman": 1
+   }
+  },
+  "weak_induction": {
+   "primary": 9,
+   "primary_share": 0.1475,
+   "any": 9,
+   "any_share": 0.1475,
+   "entries": {
+    "false-analogy": 5,
+    "argument-from-ignorance": 1,
+    "argument-from-silence": 1,
+    "cherry-picking": 1,
+    "nut-picking": 1,
+    "suppressed-evidence": 1
+   }
+  },
+  "statistics": {
+   "primary": 2,
+   "primary_share": 0.0328,
+   "any": 7,
+   "any_share": 0.1148,
+   "entries": {
+    "over-extrapolation": 5,
+    "mcnamara-fallacy": 1,
+    "relative-risk-framing": 1
+   }
+  },
+  "causal": {
+   "primary": 2,
+   "primary_share": 0.0328,
+   "any": 3,
+   "any_share": 0.0492,
+   "entries": {
+    "cum-hoc": 2,
+    "false-cause": 1,
+    "post-hoc": 1
+   }
+  }
+ },
+ "multi_family_sentences": 7,
+ "primary_ties_broken": 5
+}
