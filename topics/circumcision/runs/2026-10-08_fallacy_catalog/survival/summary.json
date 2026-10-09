@@ -1,0 +1,287 @@
+{
+  "sentences": 13199,
+  "by_group": {
+    "male": {
+      "sentences": 8778,
+      "articles": 39,
+      "pro": {
+        "n": 971,
+        "points": {
+          "3": 910,
+          "2": 26,
+          "1": 15,
+          "0": 20
+        },
+        "untouched_share": 0.937178166838311,
+        "by_method": {
+          "model": 971
+        }
+      },
+      "anti": {
+        "n": 728,
+        "points": {
+          "3": 724,
+          "2": 2,
+          "1": 2,
+          "0": 0
+        },
+        "untouched_share": 0.9945054945054945,
+        "by_method": {
+          "model": 728
+        }
+      }
+    },
+    "FGM": {
+      "sentences": 4421,
+      "articles": 19,
+      "pro": {
+        "n": 301,
+        "points": {
+          "3": 291,
+          "2": 5,
+          "1": 1,
+          "0": 4
+        },
+        "untouched_share": 0.9667774086378738,
+        "by_method": {
+          "model": 301
+        }
+      },
+      "anti": {
+        "n": 616,
+        "points": {
+          "3": 602,
+          "2": 9,
+          "1": 4,
+          "0": 1
+        },
+        "untouched_share": 0.9772727272727273,
+        "by_method": {
+          "model": 616
+        }
+      }
+    }
+  },
+  "inventory": 2616,
+  "label_method": {
+    "model": 2616
+  },
+  "rule_side_counts": {
+    "male/anti": 1029,
+    "male/none": 6643,
+    "male/mixed": 417,
+    "male/pro": 689,
+    "FGM/none": 3088,
+    "FGM/anti": 726,
+    "FGM/pro": 324,
+    "FGM/mixed": 283
+  },
+  "model_side_counts": {
+    "anti": 1344,
+    "not_argument": 10583,
+    "pro": 1272
+  },
+  "flags": {
+    "total": 272,
+    "by_reviewer": {
+      "r1": 87,
+      "r2": 64,
+      "r3": 121
+    }
+  },
+  "flag_sentence_pairs": 274,
+  "flags_on_argument": 160,
+  "flags_only_on_non_argument": 112,
+  "flags_spanning_2plus_sentences": 2,
+  "conflicts": {
+    "total": 77,
+    "by_type": {
+      "flag says anti, inventory says not an argument (not scored)": 51,
+      "flag says pro, inventory says not an argument (not scored)": 18,
+      "flag says pro, inventory says anti": 4,
+      "neutral flag on an anti sentence": 2,
+      "neutral flag on a pro sentence": 2
+    },
+    "on_scored_sentences": 8,
+    "flags_involved": 77
+  },
+  "non_argument_flags_by_favors": {
+    "neutral": 44,
+    "anti": 50,
+    "pro": 18
+  },
+  "flagged_sentences_dropped_as_non_argument": 74,
+  "rules_vs_model": {
+    "n": 13199,
+    "same_label": 9787,
+    "table": {
+      "rule anti / model anti": 615,
+      "rule anti / model none": 957,
+      "rule anti / model pro": 183,
+      "rule mixed / model anti": 250,
+      "rule mixed / model none": 270,
+      "rule mixed / model pro": 180,
+      "rule none / model anti": 392,
+      "rule none / model none": 8801,
+      "rule none / model pro": 538,
+      "rule pro / model anti": 87,
+      "rule pro / model none": 555,
+      "rule pro / model pro": 371
+    }
+  },
+  "v1_vs_model": {
+    "n": 957,
+    "same_label": 834
+  },
+  "by_labeler": {
+    "labeler-1": {
+      "articles": 8,
+      "sentences": 1687,
+      "pro": 0.0966,
+      "anti": 0.0937,
+      "not_argument": 0.8097,
+      "rule_cue_share": 0.2407,
+      "same_as_rules": 0.7582,
+      "flagged_sentences": 17,
+      "flagged_labeled_argument": 10
+    },
+    "labeler-2": {
+      "articles": 5,
+      "sentences": 1352,
+      "pro": 0.1191,
+      "anti": 0.0851,
+      "not_argument": 0.7959,
+      "rule_cue_share": 0.3484,
+      "same_as_rules": 0.6797,
+      "flagged_sentences": 23,
+      "flagged_labeled_argument": 14
+    },
+    "labeler-3": {
+      "articles": 6,
+      "sentences": 1400,
+      "pro": 0.1729,
+      "anti": 0.1071,
+      "not_argument": 0.72,
+      "rule_cue_share": 0.2643,
+      "same_as_rules": 0.7064,
+      "flagged_sentences": 14,
+      "flagged_labeled_argument": 9
+    },
+    "labeler-4": {
+      "articles": 5,
+      "sentences": 1326,
+      "pro": 0.0867,
+      "anti": 0.1538,
+      "not_argument": 0.7594,
+      "rule_cue_share": 0.2489,
+      "same_as_rules": 0.7255,
+      "flagged_sentences": 22,
+      "flagged_labeled_argument": 12
+    },
+    "labeler-5": {
+      "articles": 8,
+      "sentences": 1688,
+      "pro": 0.0539,
+      "anti": 0.1149,
+      "not_argument": 0.8312,
+      "rule_cue_share": 0.2773,
+      "same_as_rules": 0.7595,
+      "flagged_sentences": 12,
+      "flagged_labeled_argument": 4
+    },
+    "labeler-6": {
+      "articles": 7,
+      "sentences": 1645,
+      "pro": 0.0523,
+      "anti": 0.062,
+      "not_argument": 0.8857,
+      "rule_cue_share": 0.2255,
+      "same_as_rules": 0.7812,
+      "flagged_sentences": 14,
+      "flagged_labeled_argument": 3
+    },
+    "labeler-7": {
+      "articles": 6,
+      "sentences": 1488,
+      "pro": 0.1532,
+      "anti": 0.1001,
+      "not_argument": 0.7466,
+      "rule_cue_share": 0.297,
+      "same_as_rules": 0.7023,
+      "flagged_sentences": 38,
+      "flagged_labeled_argument": 28
+    },
+    "labeler-8": {
+      "articles": 7,
+      "sentences": 1630,
+      "pro": 0.0761,
+      "anti": 0.1067,
+      "not_argument": 0.8172,
+      "rule_cue_share": 0.2534,
+      "same_as_rules": 0.7644,
+      "flagged_sentences": 13,
+      "flagged_labeled_argument": 7
+    },
+    "labeler-9": {
+      "articles": 7,
+      "sentences": 983,
+      "pro": 0.0631,
+      "anti": 0.0997,
+      "not_argument": 0.8372,
+      "rule_cue_share": 0.2004,
+      "same_as_rules": 0.7935,
+      "flagged_sentences": 10,
+      "flagged_labeled_argument": 2
+    }
+  },
+  "if_dropped_flagged_sentences_counted": {
+    "male": {
+      "pro": {
+        "added": 8,
+        "n": 979,
+        "points": {
+          "3": 910,
+          "2": 29,
+          "1": 17,
+          "0": 23
+        },
+        "untouched_share": 0.9295
+      },
+      "anti": {
+        "added": 7,
+        "n": 735,
+        "points": {
+          "3": 724,
+          "2": 6,
+          "1": 5,
+          "0": 0
+        },
+        "untouched_share": 0.985
+      }
+    },
+    "FGM": {
+      "pro": {
+        "added": 5,
+        "n": 306,
+        "points": {
+          "3": 291,
+          "2": 9,
+          "1": 2,
+          "0": 4
+        },
+        "untouched_share": 0.951
+      },
+      "anti": {
+        "added": 30,
+        "n": 646,
+        "points": {
+          "3": 602,
+          "2": 26,
+          "1": 11,
+          "0": 7
+        },
+        "untouched_share": 0.9319
+      }
+    }
+  }
+}

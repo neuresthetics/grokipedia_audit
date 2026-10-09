@@ -23,6 +23,10 @@ all other articles are in the male circumcision group (matches the run README).
 Cleaner-argued rule (headline chart): a side gets a check only if the other side has at least 2x as many
 flags (same sentences, so the same ratio per 100 sentences) and at least 5 flags.
 
+Chart 5 (what survived) also reads runs/2026-10-08_fallacy_catalog/survival/survival_scores.csv: one row per
+argument sentence (pro or anti), with points_left = 3 minus the number of reviewers whose flag overlaps it
+(built by survival/scripts/build_survival.py; method in survival/METHOD.md).
+
 Writes PNGs to docs/img/circumcision/2026-10-08/ and prints every number it draws.
 Every flag is an AI reader's judgment: a lead to check, not a verdict.
 """
@@ -336,3 +340,72 @@ head(fig, "How often the readers flagged the same passage",
 foot(fig, ["Overlap shows consistency of separate reads, not that a flag is right; it may be inflated "
            "because later readers' instructions mentioned earlier results."],
      "04_reader_overlap.png")
+
+# ============================================================= 5. what survived
+print("\n[5] What survived: argument sentences by points left (3 = no reviewer flagged it)")
+surv = read("survival/survival_scores.csv")
+LOST = {2: "#8C959F", 1: "#57606A", 0: "#1F2328"}
+SG = [("Male circumcision articles", "male"), ("FGM articles", "FGM")]
+sv = {}
+for title, g in SG:
+    for side in ("pro", "anti"):
+        rows = [r for r in surv if r["topic_group"] == g and r["side"] == side]
+        c = Counter(int(r["points_left"]) for r in rows)
+        sv[g, side] = dict(n=len(rows), pts={k: c.get(k, 0) for k in (3, 2, 1, 0)})
+        d = sv[g, side]
+        print(f"  {title} {side}: {d['n']} arguments; points left 3/2/1/0 = "
+              + "/".join(str(d["pts"][k]) for k in (3, 2, 1, 0)) + f"; untouched {100 * d['pts'][3] / d['n']:.1f}%")
+
+
+def lost_pct(g, side):
+    d = sv[g, side]
+    return 100 * (d["n"] - d["pts"][3]) / d["n"]
+
+
+fig, axes = plt.subplots(1, 2, figsize=(W_IN, 8.8))
+for ax, (title, g) in zip(axes, SG):
+    for i, side in enumerate(("pro", "anti")):
+        d = sv[g, side]
+        left = 0
+        for k in (3, 2, 1, 0):
+            w = 100 * d["pts"][k] / d["n"]
+            if w:
+                ax.barh(i, w, left=left, height=0.5, color=COLOR[side] if k == 3 else LOST[k], zorder=2)
+            left += w
+        ax.text(2, i, f"{100 * d['pts'][3] / d['n']:.1f}% kept all 3 points", va="center", ha="left",
+                fontsize=14, fontweight="bold", color="white", zorder=3)
+        ax.text(101.5, i, f"{lost_pct(g, side):.1f}%\nflagged", va="center", ha="left", fontsize=13,
+                fontweight="bold", color=INK, linespacing=1.1)
+        ax.text(0, i + 0.42, f"{d['n']:,} {side} arguments:  {d['pts'][3]:,} kept 3  ·  {d['pts'][2]} kept 2  ·  "
+                f"{d['pts'][1]} kept 1  ·  {d['pts'][0]} kept 0", va="center", ha="left", fontsize=12, color=MUTED)
+    ax.set_yticks([0, 1], ["Pro", "Anti"], fontsize=15)
+    for t, side in zip(ax.get_yticklabels(), ("pro", "anti")):
+        t.set_color(COLOR[side]); t.set_fontweight("bold")
+    ax.set_ylim(1.75, -0.55)
+    ax.set_xlim(0, 115)
+    ax.set_xticks(range(0, 101, 25), [f"{v}%" for v in range(0, 101, 25)])
+    ax.set_title(f"{title}\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
+    ax.text(0, 1.0, f"{sum(sv[g, s]['n'] for s in ('pro', 'anti')):,} argument sentences",
+            transform=ax.transAxes, va="bottom", fontsize=13, color=MUTED)
+    ax.set_xlabel("share of that side's argument sentences", fontsize=13)
+    ax.spines["bottom"].set_color(SOFT)
+fig.subplots_adjust(left=0.08, right=0.97, top=0.68, bottom=0.24, wspace=0.18)
+fig.legend(handles=[Patch(color=COLOR["pro"], label="3 points left (pro)"),
+                    Patch(color=COLOR["anti"], label="3 points left (anti)"),
+                    Patch(color=LOST[2], label="2 left"), Patch(color=LOST[1], label="1 left"),
+                    Patch(color=LOST[0], label="0 left")],
+           loc="upper left", bbox_to_anchor=(0.075, 0.835), ncol=5, frameon=False, fontsize=13.5,
+           handlelength=1.4, columnspacing=2.0)
+fig.text(0.735, 0.81, "−1 point per reader flag:", ha="right", va="center", fontsize=12.5, color=MUTED)
+for k, name in enumerate(REV):
+    fig_robot(fig, 0.742 + k * 0.032, 0.79, 0.042, BOTS[name])
+lm, la = lost_pct("male", "pro"), lost_pct("male", "anti")
+fm, fa = lost_pct("FGM", "pro"), lost_pct("FGM", "anti")
+head(fig, "How much of each side's argument survived the fallacy check?",
+     f"Male circumcision articles: {lm:.1f}% of pro arguments were flagged vs {la:.1f}% of anti. "
+     f"FGM articles: close, {fm:.1f}% pro vs {fa:.1f}% anti.")
+foot(fig, ["Each argument sentence starts with 3 points and loses 1 for each of three AI readers that flagged it. "
+           "Kept 3 = not flagged, not proven true.",
+           "Sides labeled by an AI model (9 separate sessions, split by article), not a person. "
+           "Method and limits: topics/circumcision/runs/2026-10-08_fallacy_catalog/survival/METHOD.md"],
+     "05_what_survived.png")

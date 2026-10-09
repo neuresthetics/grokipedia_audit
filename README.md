@@ -12,6 +12,7 @@ Each audit is done by a general-purpose AI agent that follows plain written inst
 2. **Claim and source.** For each claim, quote what the article says, then quote what the cited source actually says.
 3. **Verdict.** Mark the claim *supported*, *miscited* (the source exists but doesn't say this), *unsupported* (the source contradicts it or gives nothing to check) or *uncited*. The article, the source and the judgment are kept as three separate things.
 4. **Reasoning check.** Where an article argues rather than reports, its arguments are checked against [fallacy_catalog](https://github.com/neuresthetics/fallacy_catalog), a plain, sourced list of known logical fallacies. A flag is a lead for a reader to follow up, not a verdict.
+5. **Survival scoring.** An AI model labels every sentence *pro*, *anti* or *not an argument*. Each argument starts with 3 points and loses 1 for each reviewer that flagged it. The result shows what share of each side's arguments went unflagged; unflagged means not flagged, not proven true. See the circumcision benchmark's [method](topics/circumcision/runs/2026-10-08_fallacy_catalog/survival/METHOD.md).
 
 Every finding records the date and the model that made the judgment. Nothing is presented as a human expert's ruling, and citations or quotes are never filled in from memory.
 

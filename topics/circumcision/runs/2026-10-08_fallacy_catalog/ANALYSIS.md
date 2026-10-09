@@ -137,6 +137,17 @@ Quoted exactly from `overlap_3way.csv` (Reviewer 1's quote). The notes paraphras
 - **Two broken source lists.** female-genital-mutilation lists 3 sources but uses markers up to [76] (153 markers point past the list). views-on-circumcision lists 2 sources but uses markers up to [114] (139 markers past the list). The saved sources for these two don't match the text, so their citation counts are unreliable.
 - Sentence splitting is rule-based, so these shares are approximate.
 
+## What survived: how much of each side's argument was never flagged?
+
+![How much of each side's argument survived the fallacy check: share of pro and anti argument sentences with 3, 2, 1 and 0 points left, in male circumcision and FGM articles](../../../../docs/img/circumcision/2026-10-08/05_what_survived.png)
+
+The headline above counts flaws. This chart asks the reverse question: of the sentences that argue for or against the practice, how many did no reviewer flag? Each argument sentence starts with 3 points and loses 1 point for each reviewer whose flag overlaps it.
+
+- **Male circumcision articles:** 6.3% of pro argument sentences were flagged by at least one reviewer (61 of 971), against 0.5% of anti ones (4 of 728). 20 pro sentences lost all 3 points; no anti sentence did.
+- **FGM articles:** the two sides are close: 3.3% of pro (10 of 301) and 2.3% of anti (14 of 616). If flagged claims about whether laws or campaigns worked are counted as arguments, the order flips, so this group has no clear winner.
+
+Survival means "not flagged", not "true". All 13,199 sentences were labeled by an AI model, not a person, in 9 separate sessions split by article, and no session checked another's work. The male circumcision gap holds under every check. The lists, the method, the limits and a consistency check by labeler are in [`survival/`](survival/): [SURVIVORS.md](survival/SURVIVORS.md) and [METHOD.md](survival/METHOD.md).
+
 ## What this does and doesn't show
 
 - **It does not show which side is right.** A cleaner-argued side is not thereby correct. It only looks at how these articles argue: where their own reasoning has gaps, and which side those gaps help. It is not a measure of whether circumcision is good or bad.

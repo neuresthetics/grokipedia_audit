@@ -7,6 +7,7 @@
 - **Input:** the 58 article snapshots already saved in this repo (`articles/<slug>/snapshots/2026-10-01.txt`). Nothing was fetched again.
 - **Checklist:** [neuresthetics/fallacy_catalog](https://github.com/neuresthetics/fallacy_catalog) v0.6.1, commit `2a56493a3931018e9143bc7235f152f5cc5b459e`, used with its METHOD.md.
 - **Model judging:** Three separate AI agents each read all 58 articles and wrote their own flags. Reviewers 2 and 3 were told not to open the other reviewers' files until their own were saved, and each reports it did not, but their instructions came from a conversation that had already discussed earlier results (Reviewer 2: Reviewer 1's totals, top articles and fallacy types; Reviewer 3: counts and example quotes from Reviewers 1 and 2), so they were not blind. Reviewer 1 is the only fully uninfluenced read. (See "Second reviewer and overlap" and "Third reviewer and three-way overlap".)
+- **Survival scoring (step 5 of this benchmark):** after the reasoning check, every sentence was labeled pro, anti or not an argument by an AI model, and each argument was scored 3 points minus 1 for each reviewer that flagged it. See "What survived" below and [survival/METHOD.md](survival/METHOD.md).
 - **Date:** 2026-10-08.
 
 Every article was read in full, in 174 chunks. For a passage to be flagged, it had to be the article's own reasoning, read in its strongest form. It also had to meet every required condition of the most specific catalog entry, and the reviewer ruled out that entry's look-alikes. Arguments the article only reports are not flagged.
@@ -22,6 +23,7 @@ A separate script counted citations per article. It uses only the saved snapshot
 | File | What it is |
 |---|---|
 | `ANALYSIS.md` | Plain-language analysis of the three reviews, with charts (drawn by `tools/make_charts_2026_10_08.py`) |
+| `survival/` | What survived: argument sentences scored 3 minus the number of reviewers that flagged them (see "What survived" below) |
 | `flags.csv` | One row per flag. Columns: `slug`, `quote` (exact text), `entry_id`, `entry_name`, `reason`, `favors` (pro / anti / neutral), `confidence`, `verdict` |
 | `citation_stats.csv` | Citation counts per article (column meanings in `scripts/citation_stats.py`) |
 | `scripts/split_units.py` | Splits a snapshot into headings, paragraphs, table rows and sentences |
@@ -230,3 +232,23 @@ A third reviewer then read all 58 snapshots. It used the same catalog commit and
   - Overlap measures consistency between the reviewers. It does not show that a flag is correct. Flags are leads.
   - Fewer flaws on one side means that side is argued more cleanly in these articles, not that its conclusion is right.
   - The third reviewer's task description came from a conversation that had already discussed the earlier results (some counts and example quotes). It was told to disregard them and reports that it did not open any of the earlier files, but it was not blind. Identical quotes are common because reviewers tend to quote the same clause: 44 of Reviewer 3's 57 matches with Reviewer 1 use word-for-word the same quote (77%), close to the 32 of 41 (78%) between Reviewers 1 and 2 (Reviewers 2 and 3: 26 of 43, 60%). Reviewer 2's instructions also mentioned earlier results, so this comparison cannot show whether that influence raised the overlap.
+
+## What survived (argument survival scoring)
+
+Folder: [`survival/`](survival/). Every prose sentence that argues for or against the practice starts with 3 points and loses 1 point for each reviewer whose flag quote overlaps it. The overlap test is the same one `scripts/compare_reviewers.py` uses: same article, overlapping character span.
+
+All 13,199 sentences were labeled pro, anti or not an argument by an AI model, not a person. The labeling ran in 9 separate model sessions split by article, following [`survival/LABEL_PROMPT.md`](survival/LABEL_PROMPT.md). The labelers never saw the reviewer flags. Survival means "not flagged", not "true".
+
+- [`survival/SURVIVORS.md`](survival/SURVIVORS.md): summary counts, plus the arguments left with 2, 1 or 0 points, verbatim, with their article and the catalog entries that hit them. The untouched (3-point) arguments are in `survival/SURVIVORS_3_points_<side>_<group>.md`.
+- [`survival/METHOD.md`](survival/METHOD.md): labeling, matching, scoring, conflict handling, a consistency check by labeler, limits and how to rebuild.
+- Data: `survival/labels/model_labels.csv`, `survival/sentence_labels.csv`, `survival/argument_inventory.csv`, `survival/survival_scores.csv`, `survival/flag_sentence_map.csv`, `survival/conflicts.csv`, `survival/summary.json`. Scripts are in `survival/scripts/`.
+- Chart: `docs/img/circumcision/2026-10-08/05_what_survived.png`.
+
+Headline, share of argument sentences no reviewer flagged:
+
+| Articles | Pro | Anti |
+|---|---|---|
+| Male circumcision | 93.7% of 971 | 99.5% of 728 |
+| FGM | 96.7% of 301 | 97.7% of 616 |
+
+In the FGM articles, the order of the two sides flips when flagged claims about laws and campaigns are counted as arguments. See METHOD.md, section 7.
