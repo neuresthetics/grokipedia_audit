@@ -203,6 +203,8 @@ A simple keyword count lands in the same range (628 medical) and matched the mod
 - **Side is a judgement call** about which side one faulty step helps. It is not a verdict on the whole article.
 - **Snapshot date.** All text is from 2026-10-01. The live pages may have changed.
 
+Note: this section is the assistant's subjective interpretation of the results, not a measured result or a finding of this audit.
+
 ## What-if: how many medical arguments rest on the HIV/STI or cancer claims?
 
 ![How many of the medical arguments rest on the HIV/STI claim: 254 of 667, what-if count](../../../../docs/img/circumcision/2026-10-08/09_sti_dependence.png)
