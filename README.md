@@ -18,7 +18,7 @@ Every finding records the date and the model that made the judgment. Nothing is 
 
 ## Why it's built this way
 
-An audit only helps if people can check it. Plain steps, quoted sources and standard fallacy names let anyone repeat the check and get the same answer. The goal is to make AI-written reference pages more trustworthy, not to argue for a position on any topic.
+An audit only helps if people can check it. Plain steps, quoted sources and standard fallacy names let anyone repeat the check and compare results. The goal is to make AI-written reference pages more trustworthy, not to argue for a position on any topic.
 
 ## Layout
 
