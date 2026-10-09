@@ -157,3 +157,12 @@ Note on the chart: chart 11 was redrawn so it states this at a glance. Its title
 """
 open(HERE / "TOTAL_WHATIF.md", "w").write(md)
 print(json.dumps(S, indent=2))
+
+# appended 2026-10-08: keep the "Limits: a narrow selection" section at the end of TOTAL_WHATIF.md on rebuild
+LIMITS = """
+## Limits: a narrow selection
+
+The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments would change the numbers, in either direction. Nothing here has been tested beyond that selection.
+"""
+with open(HERE / "TOTAL_WHATIF.md", "a") as fh:
+    fh.write(LIMITS)

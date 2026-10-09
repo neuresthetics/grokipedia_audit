@@ -34,3 +34,7 @@ Image file: [11_pro_side_invalidated.png](../../../../docs/img/circumcision/2026
 
 - Every step of the run, with its chart: [WALKTHROUGH.md](WALKTHROUGH.md)
 - Method and counting rules for this result: [TOTAL_WHATIF.md](flagged_pro/whatif_total/TOTAL_WHATIF.md)
+
+## Limits: a narrow selection
+
+The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments would change the numbers, in either direction. Nothing here has been tested beyond that selection.

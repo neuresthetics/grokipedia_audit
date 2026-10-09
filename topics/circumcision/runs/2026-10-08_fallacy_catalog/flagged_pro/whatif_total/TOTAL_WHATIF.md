@@ -71,3 +71,7 @@ If these three things are true, 38% of the pro side is invalidated (369 of 971: 
 3. **Cancer prevention is not a valid reason** (penile cancer is rare, and prevention-by-removal proves too much).
 
 Note on the chart: chart 11 was redrawn so it states this at a glance. Its title is now "If these three things are true, 38% of the pro side is invalidated", and the premises are shown in a box on the chart. Alt text above that reads "What-if: how much of the pro side is left?" refers to the same chart.
+
+## Limits: a narrow selection
+
+The percentage comes from a narrow selection of arguments: the claims in two X posts, plus one point about cancer, applied to the pro arguments in 39 male circumcision Grokipedia articles. It is a what-if count. Applying more premises or arguments would change the numbers, in either direction. Nothing here has been tested beyond that selection.
