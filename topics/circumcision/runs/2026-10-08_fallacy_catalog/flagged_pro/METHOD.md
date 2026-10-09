@@ -177,6 +177,29 @@ python3 tools/make_charts_2026_10_08.py
 
 Outputs: `recheck/findings.csv` (every line, with quote, entry, reason, whether it counted, earlier points lost, checker), `recheck/points_by_pass.csv` (all 971 male pro sentences: points at step 5, after pass 2, after pass 3), `recheck/summary.json`, `recheck/RECHECK.md`. Chart 07 shows step 5, after pass 2 and after pass 3, with anti for reference.
 
+## What the surviving pro arguments rely on (topic tags)
+
+Folder: [`topic_tags/`](topic_tags/). Write-up: [topic_tags/TAGS.md](topic_tags/TAGS.md). Chart: `docs/img/circumcision/2026-10-08/08_what_survivors_rely_on.png`.
+
+**Question.** Of the pro arguments that kept all 3 points after pass 3, how many rest on medical data? Scope: the 883 male circumcision pro argument sentences with 3 points in `recheck/points_by_pass.csv`.
+
+**Tags.** Each sentence gets exactly one type for what it relies on to make its point: M (medical or scientific data), E (ethics, rights or law), R (religion, culture or tradition) or O (other, mixed or framing). Definitions, tie-break rules and invented examples: [topic_tags/TAG_PROMPT.md](topic_tags/TAG_PROMPT.md). The queue (`topic_tags/work/queue.csv`, `scripts/tag_queue.py`) showed each sentence with its article title, section and two sentences on each side, and no points or flags. Answers were validated and recorded under a file lock.
+
+**Who tagged.** Four separate AI model sessions, one per range: tagger-1 t0001–t0221, tagger-2 t0222–t0442, tagger-3 t0443–t0663, tagger-4 t0664–t0883. They ran from a conversation that already knew the earlier results of this audit, so the tagging is **not blind**. Tagger-4 read `work/tags.csv` (which held the other taggers' answers) after it had finished and recorded its own range, so its own answers were already recorded when it saw the others. This is noted for transparency.
+
+**Result.** M 667 (75.5%), R 105 (11.9%), E 72 (8.2%), O 39 (4.4%).
+
+**Cross-check.** `build_topic_tags.py` also tags every sentence by keyword counts (a regex per type; most hits wins; none or a tie gives O). It is a rough ballpark with no model: M 628, R 112, E 49, O 94. The keyword tag matched the model's tag for 82.4% of sentences.
+
+**Limits.** Model judgment, not a person's, not blind. One type per sentence, so sentences that mix two kinds of support are forced into one type. Ranges follow article order, so differences between taggers mix article content with tagger habits. Scope is male circumcision pro arguments with all 3 points after pass 3 only. A tag says what an argument rests on, not whether it is right.
+
+Rebuild from the repo root (the tagging itself is the model step and is not rerun):
+
+```
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/topic_tags/scripts/build_topic_tags.py
+python3 tools/make_charts_2026_10_08.py
+```
+
 ## Columns of flagged_pro.csv
 
 `article`, `sentence_id` (as in step 5), `topic_group` (always male here), `points_left` (0–2), `reviewers` (R1|R2|R3, those that flagged it), `primary_family`, `families` (every family named), `primary_tie_broken` (yes/no), `entries` (reviewer: entry_id, one per mapped flag), `entry_names`, `text` (verbatim sentence).

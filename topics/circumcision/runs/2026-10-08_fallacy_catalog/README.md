@@ -24,7 +24,7 @@ A separate script counted citations per article. It uses only the saved snapshot
 | File | What it is |
 |---|---|
 | `ANALYSIS.md` | Plain-language analysis of the three reviews, with charts (drawn by `tools/make_charts_2026_10_08.py`) |
-| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters; `dependency/` holds the second layer, survivors that depend on them; `recheck/` holds pass 3, a fresh recheck of the remaining pro arguments (see "Flagged pro arguments" below) |
+| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters; `dependency/` holds the second layer, survivors that depend on them; `recheck/` holds pass 3, a fresh recheck of the remaining pro arguments; `topic_tags/` tags what the surviving pro arguments rely on (see "Flagged pro arguments" below) |
 | `survival/` | What survived: argument sentences scored 3 minus the number of reviewers that flagged them (see "What survived" below) |
 | `flags.csv` | One row per flag. Columns: `slug`, `quote` (exact text), `entry_id`, `entry_name`, `reason`, `favors` (pro / anti / neutral), `confidence`, `verdict` |
 | `citation_stats.csv` | Citation counts per article (column meanings in `scripts/citation_stats.py`) |
@@ -299,3 +299,5 @@ Folder: [`flagged_pro/`](flagged_pro/). This step covers the male circumcision a
 - 3 of the 8 had already lost a point for what reads as the same flaw under another name or through pass 2; the rule does not merge them (see METHOD.md).
 - [`flagged_pro/recheck/RECHECK.md`](flagged_pro/recheck/RECHECK.md): every counted flag with its verbatim quote and reason. Prompt: [`flagged_pro/recheck/RECHECK_PROMPT.md`](flagged_pro/recheck/RECHECK_PROMPT.md). Method and limits: [flagged_pro/METHOD.md](flagged_pro/METHOD.md#pass-3-fresh-recheck-of-the-remaining-pro-arguments).
 - Data: `flagged_pro/recheck/findings.csv`, `flagged_pro/recheck/points_by_pass.csv`, `flagged_pro/recheck/summary.json`.
+
+**What the surviving pro arguments rely on.** The 883 pro arguments with all 3 points after pass 3 were each tagged with one type: medical or scientific data 667 (75.5%), religion, culture or tradition 105 (11.9%), ethics, rights or law 72 (8.2%), other or mixed 39 (4.4%). Tagged by an AI model in 4 separate sessions, not a person; not blind (run from a conversation that already knew the earlier results); one type per sentence, so mixed sentences are forced into one type. A keyword ballpark matched the model's tag for 82.4% of sentences. See [`flagged_pro/topic_tags/TAGS.md`](flagged_pro/topic_tags/TAGS.md) and [flagged_pro/METHOD.md](flagged_pro/METHOD.md#what-the-surviving-pro-arguments-rely-on-topic-tags). Chart: `docs/img/circumcision/2026-10-08/08_what_survivors_rely_on.png`.

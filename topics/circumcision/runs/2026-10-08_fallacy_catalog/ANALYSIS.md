@@ -182,6 +182,14 @@ Pass 3 then checked the 949 remaining pro arguments again, fresh, against the ca
 
 **Pro only.** Anti arguments were checked only in step 5. They were not put through pass 2 or pass 3, so comparing pro and anti after pass 3 is tilted against pro. These are AI model judgments, five sessions, not blind. Quotes: [flagged_pro/recheck/RECHECK.md](flagged_pro/recheck/RECHECK.md).
 
+## What do the surviving pro arguments rely on?
+
+![What do the surviving pro arguments rely on: 883 male circumcision pro arguments with all 3 points after pass 3, by type of support](../../../../docs/img/circumcision/2026-10-08/08_what_survivors_rely_on.png)
+
+Ballpark: about three in four. Of the 883 pro arguments that kept all 3 points after pass 3, 667 (75.5%) rest on medical or scientific data: trial results, rates, risks and benefits, mechanisms or clinical guidance. Religion, culture or tradition comes next with 105 (11.9%), then ethics, rights or law with 72 (8.2%) and other or mixed with 39 (4.4%).
+
+A simple keyword count lands in the same range (628 medical) and matched the model's tag for 82.4% of sentences. These are AI model tags from 4 separate sessions, not a person's, and not blind. Each sentence gets one type, so mixed sentences are forced into one. A tag says what an argument rests on, not whether it is right. Details: [flagged_pro/topic_tags/TAGS.md](flagged_pro/topic_tags/TAGS.md).
+
 ## What this does and doesn't show
 
 - **It does not show which side is right.** A cleaner-argued side is not thereby correct. It only looks at how these articles argue: where their own reasoning has gaps, and which side those gaps help. It is not a measure of whether circumcision is good or bad.

@@ -1,0 +1,242 @@
+{
+ "scope": "male circumcision pro argument sentences with all 3 points after pass 3",
+ "sentences": 883,
+ "by_type": {
+  "M": {
+   "name": "Medical or scientific data",
+   "count": 667,
+   "share": 0.7554
+  },
+  "E": {
+   "name": "Ethics, rights or law",
+   "count": 72,
+   "share": 0.0815
+  },
+  "R": {
+   "name": "Religion, culture or tradition",
+   "count": 105,
+   "share": 0.1189
+  },
+  "O": {
+   "name": "Other, mixed or framing",
+   "count": 39,
+   "share": 0.0442
+  }
+ },
+ "keyword_ballpark": {
+  "M": 628,
+  "E": 49,
+  "R": 112,
+  "O": 94
+ },
+ "keyword_same_as_model": 0.824462,
+ "keyword_same_as_model_count": 728,
+ "tagged_by": {
+  "tagger-1": 221,
+  "tagger-2": 221,
+  "tagger-3": 221,
+  "tagger-4": 220
+ },
+ "types": {
+  "M": [
+   {
+    "article": "circumcision",
+    "title": "Circumcision",
+    "count": 99
+   },
+   {
+    "article": "circumcision-and-hiv",
+    "title": "Circumcision and HIV",
+    "count": 99
+   },
+   {
+    "article": "ethics-of-circumcision",
+    "title": "Ethics of circumcision",
+    "count": 87
+   },
+   {
+    "article": "circumcision-controversies",
+    "title": "Circumcision controversies",
+    "count": 49
+   },
+   {
+    "article": "circumcision-in-africa",
+    "title": "Circumcision in Africa",
+    "count": 40
+   }
+  ],
+  "E": [
+   {
+    "article": "circumcision-and-law",
+    "title": "Circumcision and law",
+    "count": 12
+   },
+   {
+    "article": "views-on-circumcision",
+    "title": "Views on circumcision",
+    "count": 10
+   },
+   {
+    "article": "ethics-of-circumcision",
+    "title": "Ethics of circumcision",
+    "count": 8
+   },
+   {
+    "article": "forced-circumcision",
+    "title": "Forced circumcision",
+    "count": 7
+   },
+   {
+    "article": "religion-and-circumcision",
+    "title": "Religion and circumcision",
+    "count": 7
+   }
+  ],
+  "R": [
+   {
+    "article": "ulwaluko",
+    "title": "Ulwaluko",
+    "count": 18
+   },
+   {
+    "article": "brit-shalom-naming-ceremony",
+    "title": "Brit shalom (naming ceremony)",
+    "count": 14
+   },
+   {
+    "article": "brit-milah",
+    "title": "Brit milah",
+    "count": 12
+   },
+   {
+    "article": "circumcision-controversy-in-early-christianity",
+    "title": "Circumcision controversy in early Christianity",
+    "count": 10
+   },
+   {
+    "article": "cultural-views-on-circumcision-aesthetics",
+    "title": "Cultural views on circumcision aesthetics",
+    "count": 10
+   }
+  ],
+  "O": [
+   {
+    "article": "cultural-views-on-circumcision-aesthetics",
+    "title": "Cultural views on circumcision aesthetics",
+    "count": 10
+   },
+   {
+    "article": "mohel",
+    "title": "Mohel",
+    "count": 6
+   },
+   {
+    "article": "ashley-montagu-resolution",
+    "title": "Ashley Montagu Resolution",
+    "count": 5
+   },
+   {
+    "article": "circumcision",
+    "title": "Circumcision",
+    "count": 4
+   },
+   {
+    "article": "circumcision-in-africa",
+    "title": "Circumcision in Africa",
+    "count": 3
+   }
+  ]
+ },
+ "examples": {
+  "M": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0042",
+    "text": "The symposia positioned genital cutting as a form of bodily violation akin to mutilation, drawing parallels between male and female practices despite differing prevalence and severity in empirical data on outcomes like infection rates or sexual function."
+   },
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0130",
+    "text": "This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates."
+   }
+  ],
+  "E": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0147",
+    "text": "Amnesty International, while active on female genital mutilation since the 1990s, has not equated it with male circumcision in policy statements, highlighting divergent institutional priorities despite the resolution's broader scope."
+   },
+   {
+    "article": "circumcision",
+    "sentence_id": "s0413",
+    "text": "Proponents argue that parental proxy consent is sufficient, allowing decisions in the child's best interest based on cultural, religious, or preventive health grounds until maturity."
+   }
+  ],
+  "R": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0211",
+    "text": "Critics of the Ashley Montagu Resolution contend that equating male circumcision with female genital mutilation overlooks entrenched cultural practices where male circumcision functions as a non-harmful rite of passage promoting social cohesion and identity."
+   },
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0091",
+    "text": "Maimonides (Guide for the Perplexed 3:49) gives two reasons: primarily, circumcision moderates excessive lust without harming procreative function, directing sexuality toward holiness (marriage, continuity)."
+   }
+  ],
+  "O": [
+   {
+    "article": "ashley-montagu-resolution",
+    "sentence_id": "s0166",
+    "text": "The resolution's policy influence was constrained by its origins in niche symposia and reliance on ethical rather than empirical consensus, with critics noting insufficient engagement from sovereign states practicing ritual circumcision. [35]"
+   },
+   {
+    "article": "brit-milah",
+    "sentence_id": "s0256",
+    "text": "Proponents argue this ritual instills communal identity and ethical formation from birth, with parental authority extending to irreversible acts that secure the child's religious inheritance, akin to other parental decisions in child-rearing."
+   }
+  ]
+ },
+ "by_tagger": {
+  "tagger-1": {
+   "range": "t0001-t0221",
+   "sentences": 221,
+   "counts": {
+    "M": 167,
+    "E": 12,
+    "R": 31,
+    "O": 11
+   }
+  },
+  "tagger-2": {
+   "range": "t0222-t0442",
+   "sentences": 221,
+   "counts": {
+    "M": 181,
+    "E": 17,
+    "R": 19,
+    "O": 4
+   }
+  },
+  "tagger-3": {
+   "range": "t0443-t0663",
+   "sentences": 221,
+   "counts": {
+    "M": 171,
+    "E": 16,
+    "R": 22,
+    "O": 12
+   }
+  },
+  "tagger-4": {
+   "range": "t0664-t0883",
+   "sentences": 220,
+   "counts": {
+    "M": 148,
+    "E": 27,
+    "R": 33,
+    "O": 12
+   }
+  }
+ }
+}

@@ -538,3 +538,84 @@ foot(fig, [l1,
             "Anti arguments were not rechecked (pro only, by design). ") + "Method and limits: "
            "topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/METHOD.md"],
      "07_pro_after_priors.png")
+
+
+# ============================================================= 8. what the surviving pro arguments rely on
+tt_path = RUN / "flagged_pro/topic_tags/summary.json"
+if not tt_path.exists():
+    print("\n[8] skipped: flagged_pro/topic_tags/summary.json not built yet (tags not all in)")
+else:
+    print("\n[8] What the surviving pro arguments rely on (male circumcision articles, all 3 points after pass 3)")
+    tt = json.load(open(tt_path))
+    TT_ROWS = [("M", "Medical or\nscientific data"), ("E", "Ethics, rights\nor law"),
+               ("R", "Religion, culture\nor tradition"), ("O", "Other, mixed\nor framing")]
+    ntt = tt["sentences"]
+    for k, _ in TT_ROWS:
+        d = tt["by_type"][k]
+        print(f"  {k} {d['name']}: {d['count']} ({100 * d['share']:.1f}%)")
+
+    def icon(fig, kind, x, y, h, color):
+        """Small vector icon in figure coordinates, (x, y) lower left, h = height as a fraction of figure height."""
+        W, H = fig.get_size_inches()
+        a = fig.add_axes([x, y, h * H / W, h]); a.set_xlim(0, 1); a.set_ylim(0, 1); a.axis("off")
+        if kind == "M":    # medical cross
+            a.add_patch(Rectangle((0.36, 0.08), 0.28, 0.84, color=color))
+            a.add_patch(Rectangle((0.08, 0.36), 0.84, 0.28, color=color))
+        elif kind == "E":  # scales
+            lw = 3
+            a.add_line(Line2D([0.5, 0.5], [0.1, 0.88], color=color, linewidth=lw))
+            a.add_line(Line2D([0.12, 0.88], [0.78, 0.78], color=color, linewidth=lw))
+            a.add_line(Line2D([0.3, 0.7], [0.08, 0.08], color=color, linewidth=lw))
+            for cx in (0.18, 0.82):
+                a.add_line(Line2D([cx, cx - 0.13], [0.78, 0.42], color=color, linewidth=1.5))
+                a.add_line(Line2D([cx, cx + 0.13], [0.78, 0.42], color=color, linewidth=1.5))
+                a.add_patch(FancyBboxPatch((cx - 0.16, 0.34), 0.32, 0.08, boxstyle="round,pad=0,rounding_size=0.04",
+                                           color=color))
+        elif kind == "R":  # open book
+            a.add_patch(FancyBboxPatch((0.04, 0.18), 0.43, 0.62, boxstyle="round,pad=0,rounding_size=0.05", color=color))
+            a.add_patch(FancyBboxPatch((0.53, 0.18), 0.43, 0.62, boxstyle="round,pad=0,rounding_size=0.05", color=color))
+            for yy in (0.36, 0.5, 0.64):
+                a.add_line(Line2D([0.12, 0.4], [yy, yy], color="white", linewidth=1.5))
+                a.add_line(Line2D([0.6, 0.88], [yy, yy], color="white", linewidth=1.5))
+        else:              # three dots
+            for cx in (0.18, 0.5, 0.82):
+                a.add_patch(Circle((cx, 0.5), 0.12, color=color))
+
+    fig, ax = plt.subplots(figsize=(W_IN, 8.8))
+    for i, (k, lab) in enumerate(TT_ROWS):
+        d = tt["by_type"][k]
+        v = 100 * d["share"]
+        ax.barh(i, v, height=0.6, color=COLOR["pro"], zorder=2)
+        ax.text(v + 0.8, i, f"{d['count']}  ({v:.0f}%)", va="center", ha="left", fontsize=15,
+                fontweight="bold", color=INK)
+    ax.set_yticks(range(len(TT_ROWS)), [lab for _, lab in TT_ROWS], fontsize=15)
+    ax.set_ylim(len(TT_ROWS) - 0.4, -0.6)
+    top = max(100 * tt["by_type"][k]["share"] for k, _ in TT_ROWS)
+    xmax = min(100, 10 * (int(top // 10) + 2))
+    ax.set_xlim(0, xmax)
+    ax.set_xticks(range(0, xmax + 1, 10 if xmax <= 60 else 20), [f"{v}%" for v in range(0, xmax + 1, 10 if xmax <= 60 else 20)])
+    ax.set_title("Male circumcision articles\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
+    ax.text(0, 1.0, f"{ntt} pro argument sentences that kept all 3 points, one type each", transform=ax.transAxes,
+            va="bottom", fontsize=13, color=MUTED)
+    ax.set_xlabel("share of surviving pro arguments", fontsize=13)
+    ax.spines["bottom"].set_color(SOFT)
+    fig.subplots_adjust(left=0.25, right=0.95, top=0.71, bottom=0.26)
+    pos = ax.get_position()
+    ylo, yhi = ax.get_ylim()
+    for i, (k, _) in enumerate(TT_ROWS):
+        yc = pos.y0 + pos.height * (ylo - i) / (ylo - yhi)
+        icon(fig, k, 0.085, yc - 0.03, 0.06, MUTED)
+    m = tt["by_type"]["M"]
+    rest = max(("E", "R", "O"), key=lambda k: tt["by_type"][k]["count"])
+    head(fig, "What do the surviving pro arguments rely on?",
+         f"Mostly medical data: {m['count']} of {ntt} ({100 * m['share']:.0f}%) rest on trial results, rates, risks or "
+         f"mechanisms. Next: {tt['by_type'][rest]['name'].lower()} ({100 * tt['by_type'][rest]['share']:.0f}%)."
+         if m["count"] == max(tt["by_type"][k]["count"] for k, _ in TT_ROWS) else
+         f"Medical data: {m['count']} of {ntt} ({100 * m['share']:.0f}%). Male circumcision articles only.")
+    foot(fig, ["Male circumcision pro arguments with all 3 points after pass 3 only. One type per sentence, so mixed "
+               "sentences are forced into one type. A tag is not a judgment of truth.",
+               f"Tagged by an AI model in {len(tt['by_tagger'])} separate sessions, not a person. Not blind: run from a "
+               "conversation that already knew the earlier results.",
+               f"Keyword ballpark (regex, no model) matched the model's tag for {100 * tt['keyword_same_as_model']:.0f}% "
+               "of sentences. Method: topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/topic_tags/TAGS.md"],
+         "08_what_survivors_rely_on.png")

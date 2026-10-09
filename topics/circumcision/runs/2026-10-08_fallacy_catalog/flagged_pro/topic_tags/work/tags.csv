@@ -1,0 +1,884 @@
+item,tag,note,tagged_by,tagged_at
+t0001,M,contrast rests on empirical outcome data,tagger-1,2026-10-08T22:23:42-07:00
+t0002,M,AAP risk-benefit view,tagger-1,2026-10-08T22:23:42-07:00
+t0003,O,credibility framing of symposium,tagger-1,2026-10-08T22:23:42-07:00
+t0004,E,institutional policy stance,tagger-1,2026-10-08T22:23:42-07:00
+t0005,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0006,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0007,M,severity and complication disparities,tagger-1,2026-10-08T22:23:42-07:00
+t0008,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0009,O,framing about policy reach,tagger-1,2026-10-08T22:23:42-07:00
+t0010,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0011,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0012,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0013,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0014,E,,tagger-1,2026-10-08T22:23:42-07:00
+t0015,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0016,E,policy risk to eradication campaigns,tagger-1,2026-10-08T22:23:42-07:00
+t0017,O,summary framing,tagger-1,2026-10-08T22:23:42-07:00
+t0018,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0019,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0020,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0021,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0022,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0023,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0024,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0025,M,,tagger-1,2026-10-08T22:23:42-07:00
+t0026,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0027,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0028,R,"rite of passage, social cohesion",tagger-1,2026-10-08T22:23:47-07:00
+t0029,O,cultural rite and HIV data about equally,tagger-1,2026-10-08T22:23:47-07:00
+t0030,O,history/status mixed with trauma and complication comparison,tagger-1,2026-10-08T22:23:47-07:00
+t0031,R,,tagger-1,2026-10-08T22:23:47-07:00
+t0032,R,,tagger-1,2026-10-08T22:23:47-07:00
+t0033,R,,tagger-1,2026-10-08T22:23:47-07:00
+t0034,E,faith freedoms under rights frameworks carry the rejection,tagger-1,2026-10-08T22:23:47-07:00
+t0035,E,,tagger-1,2026-10-08T22:23:47-07:00
+t0036,M,rule 2: net health benefits carry it,tagger-1,2026-10-08T22:23:47-07:00
+t0037,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0038,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0039,M,clotting physiology,tagger-1,2026-10-08T22:23:47-07:00
+t0040,M,safety rests on physiology,tagger-1,2026-10-08T22:23:47-07:00
+t0041,R,religious rationale,tagger-1,2026-10-08T22:23:47-07:00
+t0042,R,,tagger-1,2026-10-08T22:23:47-07:00
+t0043,R,,tagger-1,2026-10-08T22:23:47-07:00
+t0044,R,,tagger-1,2026-10-08T22:23:47-07:00
+t0045,R,traditional procedure practice,tagger-1,2026-10-08T22:23:47-07:00
+t0046,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0047,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0048,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0049,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0050,M,,tagger-1,2026-10-08T22:23:47-07:00
+t0051,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0052,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0053,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0054,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0055,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0056,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0057,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0058,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0059,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0060,R,,tagger-1,2026-10-08T22:23:52-07:00
+t0061,O,communal identity and parental authority equally,tagger-1,2026-10-08T22:23:52-07:00
+t0062,E,,tagger-1,2026-10-08T22:23:52-07:00
+t0063,M,contests harm evidence,tagger-1,2026-10-08T22:23:52-07:00
+t0064,R,,tagger-1,2026-10-08T22:23:52-07:00
+t0065,E,"religious freedom, regulatory overreach",tagger-1,2026-10-08T22:23:52-07:00
+t0066,R,,tagger-1,2026-10-08T22:23:52-07:00
+t0067,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0068,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0069,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0070,M,,tagger-1,2026-10-08T22:23:52-07:00
+t0071,R,,tagger-1,2026-10-08T22:23:52-07:00
+t0072,R,,tagger-1,2026-10-08T22:23:52-07:00
+t0073,E,court ruling and religious freedom,tagger-1,2026-10-08T22:23:52-07:00
+t0074,R,community continuity,tagger-1,2026-10-08T22:23:52-07:00
+t0075,R,,tagger-1,2026-10-08T22:23:52-07:00
+t0076,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0077,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0078,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0079,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0080,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0081,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0082,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0083,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0084,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0085,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0086,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0087,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0088,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0089,O,parental rights and covenantal continuity about equally,tagger-1,2026-10-08T22:23:55-07:00
+t0090,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0091,R,,tagger-1,2026-10-08T22:23:55-07:00
+t0092,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0093,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0094,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0095,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0096,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0097,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0098,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0099,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0100,M,,tagger-1,2026-10-08T22:23:55-07:00
+t0101,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0102,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0103,M,study-design critique,tagger-1,2026-10-08T22:23:57-07:00
+t0104,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0105,O,"publisher credibility, not data",tagger-1,2026-10-08T22:23:57-07:00
+t0106,O,"publisher credibility, not data",tagger-1,2026-10-08T22:23:57-07:00
+t0107,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0108,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0109,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0110,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0111,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0112,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0113,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0114,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0115,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0116,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0117,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0118,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0119,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0120,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0121,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0122,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0123,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0124,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0125,M,,tagger-1,2026-10-08T22:23:57-07:00
+t0126,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0127,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0128,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0129,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0130,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0131,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0132,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0133,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0134,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0135,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0136,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0137,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0138,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0139,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0140,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0141,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0142,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0143,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0144,M,study-limitations critique,tagger-1,2026-10-08T22:23:59-07:00
+t0145,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0146,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0147,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0148,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0149,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0150,M,,tagger-1,2026-10-08T22:23:59-07:00
+t0151,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0152,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0153,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0154,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0155,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0156,M,rule 2: evidence carries it over consent concern,tagger-1,2026-10-08T22:24:02-07:00
+t0157,M,historical medical claim (rule 4),tagger-1,2026-10-08T22:24:02-07:00
+t0158,M,historical medical claim (rule 4),tagger-1,2026-10-08T22:24:02-07:00
+t0159,M,historical case reports,tagger-1,2026-10-08T22:24:02-07:00
+t0160,M,historical medical prophylaxis rationale,tagger-1,2026-10-08T22:24:02-07:00
+t0161,M,historical hygiene/germ rationale,tagger-1,2026-10-08T22:24:02-07:00
+t0162,O,"moral anti-masturbation rationale, not data",tagger-1,2026-10-08T22:24:02-07:00
+t0163,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0164,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0165,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0166,R,,tagger-1,2026-10-08T22:24:02-07:00
+t0167,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0168,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0169,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0170,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0171,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0172,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0173,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0174,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0175,M,,tagger-1,2026-10-08T22:24:02-07:00
+t0176,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0177,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0178,M,public health program access,tagger-1,2026-10-08T22:24:06-07:00
+t0179,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0180,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0181,E,parental proxy consent,tagger-1,2026-10-08T22:24:06-07:00
+t0182,M,rule 2: complexity and forgone benefit carry it,tagger-1,2026-10-08T22:24:06-07:00
+t0183,E,,tagger-1,2026-10-08T22:24:06-07:00
+t0184,E,,tagger-1,2026-10-08T22:24:06-07:00
+t0185,E,parental decision and consent over state intervention,tagger-1,2026-10-08T22:24:06-07:00
+t0186,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0187,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0188,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0189,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0190,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0191,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0192,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0193,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0194,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0195,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0196,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0197,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0198,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0199,O,parental proxy and low risk about equally,tagger-1,2026-10-08T22:24:06-07:00
+t0200,M,,tagger-1,2026-10-08T22:24:06-07:00
+t0201,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0202,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0203,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0204,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0205,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0206,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0207,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0208,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0209,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0210,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0211,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0212,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0213,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0214,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0215,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0216,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0217,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0218,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0219,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0220,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0221,M,,tagger-1,2026-10-08T22:24:08-07:00
+t0222,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0223,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0224,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0225,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0226,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0227,M,ecological correlation,tagger-2,2026-10-08T22:23:50-07:00
+t0228,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0229,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0230,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0231,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0232,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0233,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0234,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0235,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0236,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0237,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0238,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0239,M,WHO evidence-based recommendation,tagger-2,2026-10-08T22:23:50-07:00
+t0240,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0241,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0242,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0243,M,cost-effectiveness,tagger-2,2026-10-08T22:23:50-07:00
+t0244,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0245,M,,tagger-2,2026-10-08T22:23:50-07:00
+t0246,M,cost-effectiveness,tagger-2,2026-10-08T22:23:50-07:00
+t0247,M,cost per infection averted,tagger-2,2026-10-08T22:23:53-07:00
+t0248,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0249,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0250,M,biological hypothesis,tagger-2,2026-10-08T22:23:53-07:00
+t0251,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0252,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0253,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0254,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0255,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0256,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0257,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0258,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0259,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0260,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0261,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0262,M,programme scale toward infection aversion,tagger-2,2026-10-08T22:23:53-07:00
+t0263,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0264,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0265,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0266,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0267,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0268,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0269,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0270,M,trial methodology defence,tagger-2,2026-10-08T22:23:53-07:00
+t0271,M,,tagger-2,2026-10-08T22:23:53-07:00
+t0272,M,trial methodology defence,tagger-2,2026-10-08T22:23:57-07:00
+t0273,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0274,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0275,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0276,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0277,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0278,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0279,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0280,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0281,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0282,M,rests on trial design,tagger-2,2026-10-08T22:23:57-07:00
+t0283,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0284,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0285,E,voluntary adult consent carries the ethical defence; some complication data,tagger-2,2026-10-08T22:23:57-07:00
+t0286,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0287,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0288,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0289,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0290,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0291,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0292,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0293,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0294,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0295,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0296,M,,tagger-2,2026-10-08T22:23:57-07:00
+t0297,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0298,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0299,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0300,M,AAP evidence weighing,tagger-2,2026-10-08T22:24:03-07:00
+t0301,E,UN treaty body view,tagger-2,2026-10-08T22:24:03-07:00
+t0302,E,,tagger-2,2026-10-08T22:24:03-07:00
+t0303,E,religious freedom and parental rights under ICCPR,tagger-2,2026-10-08T22:24:03-07:00
+t0304,M,medical benefits carry the distinction from FGM,tagger-2,2026-10-08T22:24:03-07:00
+t0305,E,political/discrimination objection,tagger-2,2026-10-08T22:24:03-07:00
+t0306,E,,tagger-2,2026-10-08T22:24:03-07:00
+t0307,E,,tagger-2,2026-10-08T22:24:03-07:00
+t0308,E,religious freedom vs court ruling,tagger-2,2026-10-08T22:24:03-07:00
+t0309,E,religious freedom and parental rights,tagger-2,2026-10-08T22:24:03-07:00
+t0310,R,continuity of religious practice,tagger-2,2026-10-08T22:24:03-07:00
+t0311,M,AAP benefits outweigh risks,tagger-2,2026-10-08T22:24:03-07:00
+t0312,O,legal status framed as benign and culturally essential,tagger-2,2026-10-08T22:24:03-07:00
+t0313,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0314,E,Parham parental authority,tagger-2,2026-10-08T22:24:03-07:00
+t0315,E,legal precedent; AAP mentioned as backing,tagger-2,2026-10-08T22:24:03-07:00
+t0316,E,,tagger-2,2026-10-08T22:24:03-07:00
+t0317,M,AAP benefit data,tagger-2,2026-10-08T22:24:03-07:00
+t0318,E,legal deference to parental intent,tagger-2,2026-10-08T22:24:03-07:00
+t0319,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0320,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0321,M,,tagger-2,2026-10-08T22:24:03-07:00
+t0322,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0323,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0324,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0325,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0326,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0327,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0328,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0329,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0330,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0331,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0332,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0333,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0334,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0335,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0336,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0337,M,pain mitigation,tagger-2,2026-10-08T22:24:06-07:00
+t0338,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0339,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0340,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0341,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0342,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0343,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0344,M,,tagger-2,2026-10-08T22:24:06-07:00
+t0345,M,provenance of nerve-count claim,tagger-2,2026-10-08T22:24:06-07:00
+t0346,M,measurement critique,tagger-2,2026-10-08T22:24:06-07:00
+t0347,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0348,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0349,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0350,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0351,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0352,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0353,E,parental authority and legal frameworks,tagger-2,2026-10-08T22:24:12-07:00
+t0354,R,cultural cohesion and stigma,tagger-2,2026-10-08T22:24:12-07:00
+t0355,R,"transmission of cultural practices, social norms",tagger-2,2026-10-08T22:24:12-07:00
+t0356,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0357,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0358,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0359,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0360,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0361,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0362,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0363,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0364,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0365,R,,tagger-2,2026-10-08T22:24:12-07:00
+t0366,M,complication rates of ritual procedure,tagger-2,2026-10-08T22:24:12-07:00
+t0367,R,,tagger-2,2026-10-08T22:24:12-07:00
+t0368,R,emblem of group identity; complication data secondary,tagger-2,2026-10-08T22:24:12-07:00
+t0369,M,rests on parents' familiarity with preventive evidence,tagger-2,2026-10-08T22:24:12-07:00
+t0370,M,evidence-quality critique,tagger-2,2026-10-08T22:24:12-07:00
+t0371,M,,tagger-2,2026-10-08T22:24:12-07:00
+t0372,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0373,M,AUA position on benefits and risks,tagger-2,2026-10-08T22:24:16-07:00
+t0374,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0375,E,parental informed consent over bans,tagger-2,2026-10-08T22:24:16-07:00
+t0376,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0377,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0378,M,no causal autism link,tagger-2,2026-10-08T22:24:16-07:00
+t0379,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0380,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0381,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0382,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0383,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0384,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0385,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0386,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0387,R,,tagger-2,2026-10-08T22:24:16-07:00
+t0388,R,purity norms,tagger-2,2026-10-08T22:24:16-07:00
+t0389,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0390,R,fitrah and religious conformity,tagger-2,2026-10-08T22:24:16-07:00
+t0391,M,adverse event outcomes in regulated facilities,tagger-2,2026-10-08T22:24:16-07:00
+t0392,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0393,R,religious requirement; complication note secondary,tagger-2,2026-10-08T22:24:16-07:00
+t0394,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0395,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0396,M,,tagger-2,2026-10-08T22:24:16-07:00
+t0397,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0398,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0399,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0400,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0401,M,surgical safety protocols,tagger-2,2026-10-08T22:24:19-07:00
+t0402,M,task-shifting safety outcomes,tagger-2,2026-10-08T22:24:19-07:00
+t0403,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0404,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0405,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0406,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0407,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0408,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0409,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0410,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0411,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0412,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0413,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0414,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0415,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0416,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0417,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0418,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0419,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0420,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0421,M,,tagger-2,2026-10-08T22:24:19-07:00
+t0422,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0423,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0424,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0425,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0426,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0427,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0428,E,assent and parental consent affirm voluntariness,tagger-2,2026-10-08T22:24:25-07:00
+t0429,M,RCT evidence against opponents,tagger-2,2026-10-08T22:24:25-07:00
+t0430,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0431,M,evidence quality and mechanisms,tagger-2,2026-10-08T22:24:25-07:00
+t0432,O,ethnocentrism charge plus differing epidemiology,tagger-2,2026-10-08T22:24:25-07:00
+t0433,O,acceptance surveys mixing health benefit and tradition,tagger-2,2026-10-08T22:24:25-07:00
+t0434,E,voluntary informed consent rebuts experimentation claim; some outcome data,tagger-2,2026-10-08T22:24:25-07:00
+t0435,O,"verifiable HIV data weighed against autonomy, framed as community agency",tagger-2,2026-10-08T22:24:25-07:00
+t0436,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0437,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0438,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0439,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0440,M,satisfaction rates,tagger-2,2026-10-08T22:24:25-07:00
+t0441,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0442,M,,tagger-2,2026-10-08T22:24:25-07:00
+t0443,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0444,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0445,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0446,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0447,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0448,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0449,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0450,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0451,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0452,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0453,M,medical body position on evidence,tagger-3,2026-10-08T22:23:46-07:00
+t0454,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0455,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0456,E,legal/medical standards on parental proxy decision,tagger-3,2026-10-08T22:23:46-07:00
+t0457,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0458,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0459,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0460,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0461,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0462,M,proxy authority justified by health benefits (rule 2),tagger-3,2026-10-08T22:23:46-07:00
+t0463,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0464,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0465,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0466,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0467,M,,tagger-3,2026-10-08T22:23:46-07:00
+t0468,M,,tagger-3,2026-10-08T22:23:50-07:00
+t0469,M,medical body weighing benefits/risks,tagger-3,2026-10-08T22:23:50-07:00
+t0470,R,cultural reluctance context,tagger-3,2026-10-08T22:23:50-07:00
+t0471,O,partner preference,tagger-3,2026-10-08T22:23:50-07:00
+t0472,R,hadith/fitrah,tagger-3,2026-10-08T22:23:50-07:00
+t0473,R,,tagger-3,2026-10-08T22:23:50-07:00
+t0474,R,cultural preference norm,tagger-3,2026-10-08T22:23:50-07:00
+t0475,R,normalization history,tagger-3,2026-10-08T22:23:50-07:00
+t0476,R,societal conformity,tagger-3,2026-10-08T22:23:50-07:00
+t0477,O,aesthetic preference survey,tagger-3,2026-10-08T22:23:50-07:00
+t0478,O,partner preference,tagger-3,2026-10-08T22:23:50-07:00
+t0479,R,cultural normalization,tagger-3,2026-10-08T22:23:50-07:00
+t0480,R,fitrah religious framing,tagger-3,2026-10-08T22:23:50-07:00
+t0481,R,,tagger-3,2026-10-08T22:23:50-07:00
+t0482,R,"social norms, conformity",tagger-3,2026-10-08T22:23:50-07:00
+t0483,R,,tagger-3,2026-10-08T22:23:50-07:00
+t0484,M,hygiene argument in medical discourse,tagger-3,2026-10-08T22:23:50-07:00
+t0485,O,visual tidiness,tagger-3,2026-10-08T22:23:50-07:00
+t0486,M,VMMC HIV prevention,tagger-3,2026-10-08T22:23:50-07:00
+t0487,O,hygiene/visual framing,tagger-3,2026-10-08T22:23:50-07:00
+t0488,O,partner preference,tagger-3,2026-10-08T22:23:50-07:00
+t0489,O,partner preference,tagger-3,2026-10-08T22:23:50-07:00
+t0490,O,,tagger-3,2026-10-08T22:23:50-07:00
+t0491,O,,tagger-3,2026-10-08T22:23:50-07:00
+t0492,O,,tagger-3,2026-10-08T22:23:50-07:00
+t0493,M,benefits vs risks carry proxy conclusion (rule 2),tagger-3,2026-10-08T22:23:53-07:00
+t0494,M,complication rates (rule 1),tagger-3,2026-10-08T22:23:53-07:00
+t0495,M,complication rates (rule 1),tagger-3,2026-10-08T22:23:53-07:00
+t0496,O,"moral/psychological masturbation deterrent, mixed",tagger-3,2026-10-08T22:23:53-07:00
+t0497,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0498,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0499,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0500,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0501,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0502,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0503,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0504,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0505,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0506,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0507,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0508,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0509,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0510,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0511,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0512,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0513,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0514,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0515,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0516,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0517,M,,tagger-3,2026-10-08T22:23:53-07:00
+t0518,E,ethical asymmetry with FGM analogy,tagger-3,2026-10-08T22:23:57-07:00
+t0519,E,fiduciary duty / pediatric proxy consent,tagger-3,2026-10-08T22:23:57-07:00
+t0520,E,proxy rights framework,tagger-3,2026-10-08T22:23:57-07:00
+t0521,E,best interest criterion,tagger-3,2026-10-08T22:23:57-07:00
+t0522,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0523,E,parental rights to transmit traditions,tagger-3,2026-10-08T22:23:57-07:00
+t0524,E,parental discretion endorsed,tagger-3,2026-10-08T22:23:57-07:00
+t0525,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0526,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0527,M,medical body on evidence,tagger-3,2026-10-08T22:23:57-07:00
+t0528,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0529,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0530,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0531,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0532,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0533,M,critics cite RCT evidence,tagger-3,2026-10-08T22:23:57-07:00
+t0534,M,epidemiological data rebuttal,tagger-3,2026-10-08T22:23:57-07:00
+t0535,M,net preventive gains carry proxy (rule 2),tagger-3,2026-10-08T22:23:57-07:00
+t0536,O,equal parts risk-benefit data and parental-rights reasoning,tagger-3,2026-10-08T22:23:57-07:00
+t0537,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0538,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0539,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0540,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0541,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0542,M,,tagger-3,2026-10-08T22:23:57-07:00
+t0543,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0544,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0545,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0546,M,cost-effectiveness,tagger-3,2026-10-08T22:23:59-07:00
+t0547,R,,tagger-3,2026-10-08T22:23:59-07:00
+t0548,R,,tagger-3,2026-10-08T22:23:59-07:00
+t0549,R,,tagger-3,2026-10-08T22:23:59-07:00
+t0550,R,,tagger-3,2026-10-08T22:23:59-07:00
+t0551,R,stigma/social norms (rule 5),tagger-3,2026-10-08T22:23:59-07:00
+t0552,R,norms and stigma (rule 5),tagger-3,2026-10-08T22:23:59-07:00
+t0553,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0554,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0555,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0556,M,herd effects (rule 5),tagger-3,2026-10-08T22:23:59-07:00
+t0557,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0558,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0559,M,cost-effectiveness,tagger-3,2026-10-08T22:23:59-07:00
+t0560,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0561,M,equity point rests on health access and protection,tagger-3,2026-10-08T22:23:59-07:00
+t0562,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0563,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0564,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0565,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0566,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0567,M,,tagger-3,2026-10-08T22:23:59-07:00
+t0568,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0569,M,cohort data on adverse events,tagger-3,2026-10-08T22:24:04-07:00
+t0570,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0571,M,uptake statistics,tagger-3,2026-10-08T22:24:04-07:00
+t0572,M,feasibility and cost,tagger-3,2026-10-08T22:24:04-07:00
+t0573,M,uptake data and benefits outweigh autonomy point,tagger-3,2026-10-08T22:24:04-07:00
+t0574,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0575,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0576,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0577,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0578,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0579,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0580,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0581,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0582,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0583,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0584,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0585,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0586,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0587,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0588,E,"interpretation of rights convention (rule 3), though cites data",tagger-3,2026-10-08T22:24:04-07:00
+t0589,M,rests on differing empirical harm/utility profiles,tagger-3,2026-10-08T22:24:04-07:00
+t0590,M,,tagger-3,2026-10-08T22:24:04-07:00
+t0591,M,WHO public health position,tagger-3,2026-10-08T22:24:04-07:00
+t0592,E,rights interpretation framing,tagger-3,2026-10-08T22:24:04-07:00
+t0593,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0594,M,health benefits education,tagger-3,2026-10-08T22:24:08-07:00
+t0595,M,AAP benefit-risk carries parental choice (rule 2),tagger-3,2026-10-08T22:24:08-07:00
+t0596,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0597,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0598,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0599,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0600,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0601,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0602,M,survey methodology critique,tagger-3,2026-10-08T22:24:08-07:00
+t0603,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0604,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0605,E,"parental rights, religious freedom under ICCPR",tagger-3,2026-10-08T22:24:08-07:00
+t0606,E,UN committee interpretation,tagger-3,2026-10-08T22:24:08-07:00
+t0607,E,discrimination/rights objection,tagger-3,2026-10-08T22:24:08-07:00
+t0608,E,"communal rights, parental authority",tagger-3,2026-10-08T22:24:08-07:00
+t0609,E,"minority rights, religious freedom, proxy decision",tagger-3,2026-10-08T22:24:08-07:00
+t0610,R,"tradition, identity, cohesion carry the point",tagger-3,2026-10-08T22:24:08-07:00
+t0611,M,rule 2,tagger-3,2026-10-08T22:24:08-07:00
+t0612,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0613,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0614,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0615,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0616,M,,tagger-3,2026-10-08T22:24:08-07:00
+t0617,E,proxy consent analogy to vaccination,tagger-3,2026-10-08T22:24:08-07:00
+t0618,R,,tagger-3,2026-10-08T22:24:11-07:00
+t0619,R,,tagger-3,2026-10-08T22:24:11-07:00
+t0620,R,,tagger-3,2026-10-08T22:24:11-07:00
+t0621,E,religious liberty and parental rights under law carry it,tagger-3,2026-10-08T22:24:11-07:00
+t0622,R,,tagger-3,2026-10-08T22:24:11-07:00
+t0623,M,harm severity comparison,tagger-3,2026-10-08T22:24:11-07:00
+t0624,M,complication comparison,tagger-3,2026-10-08T22:24:11-07:00
+t0625,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0626,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0627,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0628,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0629,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0630,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0631,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0632,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0633,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0634,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0635,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0636,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0637,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0638,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0639,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0640,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0641,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0642,M,,tagger-3,2026-10-08T22:24:11-07:00
+t0643,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0644,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0645,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0646,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0647,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0648,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0649,M,evidence quality critique,tagger-3,2026-10-08T22:24:14-07:00
+t0650,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0651,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0652,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0653,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0654,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0655,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0656,M,FGM distinction rests on benefit/harm data,tagger-3,2026-10-08T22:24:14-07:00
+t0657,M,net-benefit data carry parental decision (rule 2),tagger-3,2026-10-08T22:24:14-07:00
+t0658,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0659,M,evidence vs advocacy framing,tagger-3,2026-10-08T22:24:14-07:00
+t0660,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0661,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0662,M,,tagger-3,2026-10-08T22:24:14-07:00
+t0663,M,anecdote vs clinical data,tagger-3,2026-10-08T22:24:14-07:00
+t0664,O,"framing about the comic's selective use of evidence, no data given",tagger-4,2026-10-08T22:24:01-07:00
+t0665,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0666,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0667,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0668,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0669,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0670,E,ballot ban framed as burdening religious practice; policy/rights point,tagger-4,2026-10-08T22:24:01-07:00
+t0671,M,low complication rates carry the point,tagger-4,2026-10-08T22:24:01-07:00
+t0672,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0673,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0674,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0675,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0676,M,health advantages over autonomy; data carry the point (rule 2),tagger-4,2026-10-08T22:24:01-07:00
+t0677,R,religious allegorical defence,tagger-4,2026-10-08T22:24:01-07:00
+t0678,R,religious jurisprudence and prophetic example,tagger-4,2026-10-08T22:24:01-07:00
+t0679,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0680,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0681,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0682,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0683,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0684,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0685,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0686,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0687,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0688,M,,tagger-4,2026-10-08T22:24:01-07:00
+t0689,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0690,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0691,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0692,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0693,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0694,O,religious emulation and medical evidence about equally,tagger-4,2026-10-08T22:24:07-07:00
+t0695,M,comfort and hygiene reasoning carries the timing advice,tagger-4,2026-10-08T22:24:07-07:00
+t0696,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0697,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0698,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0699,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0700,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0701,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0702,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0703,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0704,M,,tagger-4,2026-10-08T22:24:07-07:00
+t0705,E,parental authority over child's welfare carries the point,tagger-4,2026-10-08T22:24:07-07:00
+t0706,R,religious law and divine trust justify proxy consent,tagger-4,2026-10-08T22:24:07-07:00
+t0707,R,"religious obligation and fitrah, communal acceptance",tagger-4,2026-10-08T22:24:07-07:00
+t0708,E,,tagger-4,2026-10-08T22:24:07-07:00
+t0709,E,UNCRC best-interests and cultural rights framing,tagger-4,2026-10-08T22:24:07-07:00
+t0710,E,,tagger-4,2026-10-08T22:24:07-07:00
+t0711,M,anatomical/functional description,tagger-4,2026-10-08T22:24:07-07:00
+t0712,M,anatomical contrast,tagger-4,2026-10-08T22:24:07-07:00
+t0713,M,anatomical contrast,tagger-4,2026-10-08T22:24:07-07:00
+t0714,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0715,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0716,R,religious and cultural motivations contrasted,tagger-4,2026-10-08T22:24:13-07:00
+t0717,M,legal tolerance rests on medical harm-benefit consensus (rule 2),tagger-4,2026-10-08T22:24:13-07:00
+t0718,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0719,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0720,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0721,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0722,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0723,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0724,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0725,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0726,R,history of the mohel role and halakhic expertise,tagger-4,2026-10-08T22:24:13-07:00
+t0727,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0728,O,covenantal symbolism and clinical outcomes equally,tagger-4,2026-10-08T22:24:13-07:00
+t0729,O,ritual compliance and minimal trauma equally,tagger-4,2026-10-08T22:24:13-07:00
+t0730,M,brevity and surgical asepsis carry the point,tagger-4,2026-10-08T22:24:13-07:00
+t0731,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0732,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0733,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0734,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0735,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0736,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0737,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0738,M,,tagger-4,2026-10-08T22:24:13-07:00
+t0739,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0740,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0741,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0742,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0743,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0744,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0745,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0746,O,rabbinic safety claims and ritual efficacy about equally,tagger-4,2026-10-08T22:24:19-07:00
+t0747,R,"rabbinic consensus, religious observance over risk",tagger-4,2026-10-08T22:24:19-07:00
+t0748,E,First Amendment challenge,tagger-4,2026-10-08T22:24:19-07:00
+t0749,E,legal response to court ruling,tagger-4,2026-10-08T22:24:19-07:00
+t0750,O,media coverage framing,tagger-4,2026-10-08T22:24:19-07:00
+t0751,O,"media framing, no clear support type",tagger-4,2026-10-08T22:24:19-07:00
+t0752,O,"criticism of advocacy imagery, framing",tagger-4,2026-10-08T22:24:19-07:00
+t0753,R,communal reverence and covenantal identity carry the point,tagger-4,2026-10-08T22:24:19-07:00
+t0754,M,complication data carry the point,tagger-4,2026-10-08T22:24:19-07:00
+t0755,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0756,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0757,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0758,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0759,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0760,M,,tagger-4,2026-10-08T22:24:19-07:00
+t0761,R,,tagger-4,2026-10-08T22:24:19-07:00
+t0762,R,,tagger-4,2026-10-08T22:24:19-07:00
+t0763,R,,tagger-4,2026-10-08T22:24:19-07:00
+t0764,R,communal tradition implies proxy consent,tagger-4,2026-10-08T22:24:23-07:00
+t0765,E,indigenous self-determination against prohibition,tagger-4,2026-10-08T22:24:23-07:00
+t0766,E,legal bans weighed against cultural rights,tagger-4,2026-10-08T22:24:23-07:00
+t0767,O,aesthetic and personal preference reasons,tagger-4,2026-10-08T22:24:23-07:00
+t0768,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0769,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0770,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0771,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0772,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0773,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0774,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0775,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0776,M,"epidemiology, religion only as cause of prevalence",tagger-4,2026-10-08T22:24:23-07:00
+t0777,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0778,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0779,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0780,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0781,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0782,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0783,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0784,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0785,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0786,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0787,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0788,M,,tagger-4,2026-10-08T22:24:23-07:00
+t0789,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0790,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0791,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0792,E,parental proxy authority and UNCRC,tagger-4,2026-10-08T22:24:28-07:00
+t0793,E,best-interest standard and parental prerogative,tagger-4,2026-10-08T22:24:28-07:00
+t0794,E,religious freedom under Basic Law,tagger-4,2026-10-08T22:24:28-07:00
+t0795,E,constitutional and ECHR religious freedom,tagger-4,2026-10-08T22:24:28-07:00
+t0796,E,"legal standing, no ruling against it",tagger-4,2026-10-08T22:24:28-07:00
+t0797,E,ECHR and court ruling (rule 3),tagger-4,2026-10-08T22:24:28-07:00
+t0798,E,Council of Europe resolutions deferring to national law (rule 3),tagger-4,2026-10-08T22:24:28-07:00
+t0799,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0800,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0801,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0802,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0803,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0804,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0805,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0806,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0807,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0808,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0809,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0810,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0811,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0812,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0813,M,,tagger-4,2026-10-08T22:24:28-07:00
+t0814,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0815,E,voluntariness and legal right of refusal carry the point,tagger-4,2026-10-08T22:24:35-07:00
+t0816,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0817,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0818,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0819,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0820,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0821,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0822,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0823,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0824,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0825,M,lower incident rates under oversight,tagger-4,2026-10-08T22:24:35-07:00
+t0826,R,cultural transmission defence,tagger-4,2026-10-08T22:24:35-07:00
+t0827,R,customary communal authority and ancestral rites over health safeguards,tagger-4,2026-10-08T22:24:35-07:00
+t0828,R,ancestral precedents over statutory norms,tagger-4,2026-10-08T22:24:35-07:00
+t0829,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0830,R,social exclusion norms (rule 5),tagger-4,2026-10-08T22:24:35-07:00
+t0831,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0832,O,cultural preservation and safety reform about equally,tagger-4,2026-10-08T22:24:35-07:00
+t0833,R,,tagger-4,2026-10-08T22:24:35-07:00
+t0834,R,identity formation benefits,tagger-4,2026-10-08T22:24:35-07:00
+t0835,M,,tagger-4,2026-10-08T22:24:35-07:00
+t0836,M,,tagger-4,2026-10-08T22:24:35-07:00
+t0837,O,"cleanliness and aesthetic perception, mixed",tagger-4,2026-10-08T22:24:35-07:00
+t0838,M,,tagger-4,2026-10-08T22:24:35-07:00
+t0839,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0840,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0841,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0842,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0843,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0844,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0845,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0846,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0847,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0848,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0849,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0850,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0851,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0852,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0853,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0854,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0855,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0856,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0857,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0858,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0859,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0860,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0861,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0862,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0863,M,,tagger-4,2026-10-08T22:24:38-07:00
+t0864,M,medical body position based on evidence (rule 3),tagger-4,2026-10-08T22:24:45-07:00
+t0865,M,,tagger-4,2026-10-08T22:24:45-07:00
+t0866,M,,tagger-4,2026-10-08T22:24:45-07:00
+t0867,M,ethical asymmetry rests on health data (rule 2),tagger-4,2026-10-08T22:24:45-07:00
+t0868,E,parental prerogative carries the point; data cited in support,tagger-4,2026-10-08T22:24:45-07:00
+t0869,E,parents' right to decide,tagger-4,2026-10-08T22:24:45-07:00
+t0870,R,,tagger-4,2026-10-08T22:24:45-07:00
+t0871,R,,tagger-4,2026-10-08T22:24:45-07:00
+t0872,R,,tagger-4,2026-10-08T22:24:45-07:00
+t0873,E,parental proxy decision-making,tagger-4,2026-10-08T22:24:45-07:00
+t0874,E,familial liberty against individual absolutism,tagger-4,2026-10-08T22:24:45-07:00
+t0875,E,religious freedom under Basic Law,tagger-4,2026-10-08T22:24:45-07:00
+t0876,E,absence of adverse court rulings,tagger-4,2026-10-08T22:24:45-07:00
+t0877,E,informed parental choice,tagger-4,2026-10-08T22:24:45-07:00
+t0878,E,"legal challenge, parental authority and religious exemption",tagger-4,2026-10-08T22:24:45-07:00
+t0879,E,parental rights to weigh factors,tagger-4,2026-10-08T22:24:45-07:00
+t0880,E,family autonomy against restrictions,tagger-4,2026-10-08T22:24:45-07:00
+t0881,M,,tagger-4,2026-10-08T22:24:45-07:00
+t0882,M,,tagger-4,2026-10-08T22:24:45-07:00
+t0883,O,"characterisation of the movement, framing",tagger-4,2026-10-08T22:24:45-07:00
