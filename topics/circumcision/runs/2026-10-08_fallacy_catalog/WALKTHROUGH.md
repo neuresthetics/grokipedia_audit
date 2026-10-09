@@ -105,3 +105,5 @@ Details: [flagged_pro/whatif_total/TOTAL_WHATIF.md](flagged_pro/whatif_total/TOT
 ## Note on chart 11 (appended)
 
 Chart 11 was redrawn so a reader sees the what-if at a glance. Its title is now "If these three things are true, 38% of the pro side is invalidated", and it lists the three premises in a box: (1) circumcision does not protect against HIV or other STIs; (2) STI rates are highest in circumcising countries (adds no separate count beyond 1); (3) cancer prevention is not a valid reason (penile cancer is rare, and prevention-by-removal proves too much). Premises are assumed, not tested here. Earlier text that calls it "What-if: how much of the pro side is left" refers to the same chart. The numbers are unchanged: 88 already flagged, 281 invalidated under the premises, 602 left.
+
+**Step 10, how to read the 38%:** the headline 38% (369 of 971) includes the 88 arguments the audit had already flagged; the premises alone account for 281 (29%).
