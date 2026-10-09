@@ -161,9 +161,9 @@ Step 6 covers the male circumcision articles only. It looks at the 61 pro argume
 
 The quotes, the catalog's definitions and the counter for each family are in [flagged_pro/FLAGGED_PRO.md](flagged_pro/FLAGGED_PRO.md). Flags are leads, not verdicts, and a flagged step can still lead to a true conclusion.
 
-## Flagged pro arguments: did the survivors lean on them?
+## Flagged pro arguments: did the survivors lean on them, and do they hold up?
 
-![Did surviving pro arguments lean on the flagged ones: male pro argument sentences by points left, before and after the dependence check, with anti for reference](../../../../docs/img/circumcision/2026-10-08/07_pro_after_priors.png)
+![Do the surviving pro arguments hold up: male pro argument sentences by points left at step 5, after the dependence check (pass 2) and after a fresh recheck (pass 3), with anti for reference](../../../../docs/img/circumcision/2026-10-08/07_pro_after_priors.png)
 
 The second layer of step 6 asks whether the pro arguments that survived step 5 used any of the 61 flagged ones as a premise. Each one they depend on costs 1 point.
 
@@ -173,6 +173,14 @@ The second layer of step 6 asks whether the pro arguments that survived step 5 u
 - **Repeated claims in other articles did not add points.** 164 cross-article pairs were judged and none was judged a dependency. Where a claim recurs in another article (for example adult HIV trial results applied to infants), the sentence there was judged to report a position or stand on its own evidence, or it is flagged itself (26 of the 164 pairs) and already lost its point in step 5.
 
 This is a model's judgment on pairs picked by a cheap pre-filter, so it is a lower bound. Anti arguments were not rechecked (only 4 were flagged). Chains with quotes: [flagged_pro/dependency/DEPENDENCIES.md](flagged_pro/dependency/DEPENDENCIES.md).
+
+Pass 3 then checked the 949 remaining pro arguments again, fresh, against the catalog.
+
+- **Most held up.** 8 lost a point: 5 of the 888 still at full points, and 3 that had already lost one. 883 of 971 pro arguments (90.9%) end with all 3 points, against 93.7% after step 5. Anti, which was not rechecked, stood at 99.5% after step 5.
+- **The new flags repeat known moves.** Three false analogies (proxy consent compared with vaccination and ear piercing, the "mutilation" label answered with ear piercing, heel lancing), three red herrings (outcome data such as complication rates offered against a consent objection), and two secundum quid (adult African HIV trial results stated for infant decisions).
+- 39 possible issues were recorded and cost nothing. 3 of the 8 dings fall on sentences already marked down for what reads as the same flaw under another name; without them the full-points count is unchanged.
+
+**Pro only.** Anti arguments were checked only in step 5. They were not put through pass 2 or pass 3, so comparing pro and anti after pass 3 is tilted against pro. These are AI model judgments, five sessions, not blind. Quotes: [flagged_pro/recheck/RECHECK.md](flagged_pro/recheck/RECHECK.md).
 
 ## What this does and doesn't show
 

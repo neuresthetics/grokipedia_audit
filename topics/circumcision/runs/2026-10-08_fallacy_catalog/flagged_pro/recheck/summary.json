@@ -1,0 +1,64 @@
+{
+ "complete": true,
+ "items": 949,
+ "checked": 949,
+ "unchecked": 0,
+ "tier_A_checked": 888,
+ "tier_A": 888,
+ "lines": {
+  "no_issue": 900,
+  "possible_issue": 39,
+  "flag": 12
+ },
+ "flags_counted": 8,
+ "sentences_dinged": 8,
+ "tier_A_dinged": 5,
+ "points_lost": {
+  "0": 941,
+  "1": 8,
+  "2": 0,
+  "3": 0
+ },
+ "male_pro_points_left_step5": {
+  "3": 910,
+  "2": 26,
+  "1": 15,
+  "0": 20
+ },
+ "male_pro_points_left_after_pass2": {
+  "3": 888,
+  "2": 47,
+  "1": 14,
+  "0": 22
+ },
+ "male_pro_points_left_after_pass3": {
+  "3": 883,
+  "2": 50,
+  "1": 15,
+  "0": 23
+ },
+ "dinged_with_earlier_ding": [
+  "circumcision-and-law s0102",
+  "ethics-of-circumcision s0107",
+  "views-on-circumcision s0098"
+ ],
+ "male_pro_points_left_after_pass3_without_those": {
+  "3": 883,
+  "2": 52,
+  "1": 14,
+  "0": 22
+ },
+ "flags_not_counted_same_entry_as_step5": 4,
+ "entries_counted": {
+  "false-analogy": 3,
+  "red-herring": 3,
+  "secundum-quid": 2
+ },
+ "checked_by": {
+  "checker-1": 190,
+  "checker-2": 190,
+  "checker-3": 190,
+  "checker-4": 190,
+  "checker-5": 189
+ }
+}

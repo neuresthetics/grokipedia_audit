@@ -1,0 +1,952 @@
+item,tier,article,sentence_id,verdict,entry_id,quote,reason,counted,earlier_dings,checked_by
+r0001,A,ashley-montagu-resolution,s0042,no_issue,,,,no,,checker-1
+r0002,A,ashley-montagu-resolution,s0046,no_issue,,,,no,,checker-1
+r0003,A,ashley-montagu-resolution,s0067,no_issue,,,,no,,checker-1
+r0004,A,ashley-montagu-resolution,s0147,no_issue,,,,no,,checker-1
+r0005,A,ashley-montagu-resolution,s0153,no_issue,,,,no,,checker-1
+r0006,A,ashley-montagu-resolution,s0155,no_issue,,,,no,,checker-1
+r0007,A,ashley-montagu-resolution,s0156,no_issue,,,,no,,checker-1
+r0008,A,ashley-montagu-resolution,s0163,no_issue,,,,no,,checker-1
+r0009,A,ashley-montagu-resolution,s0166,no_issue,,,,no,,checker-1
+r0010,A,ashley-montagu-resolution,s0177,possible_issue,cherry-picking,female genital mutilation (FGM) Types II-III often entail greater tissue loss and complications like vesicovaginal fistulae,"Rebuts the resolution's equation by citing only the most severe FGM types while the article elsewhere lists four WHO types; settled by whether milder types (I, IV) also differ from MC as claimed. Possible, not flag: the selection may be illustrative.",no,,checker-1
+r0011,A,ashley-montagu-resolution,s0183,no_issue,,,,no,,checker-1
+r0012,A,ashley-montagu-resolution,s0185,no_issue,,,,no,,checker-1
+r0013,A,ashley-montagu-resolution,s0186,no_issue,,,,no,,checker-1
+r0014,A,ashley-montagu-resolution,s0188,no_issue,,,,no,,checker-1
+r0015,A,ashley-montagu-resolution,s0189,no_issue,,,,no,,checker-1
+r0016,A,ashley-montagu-resolution,s0193,no_issue,,,,no,,checker-1
+r0017,A,ashley-montagu-resolution,s0194,no_issue,,,,no,,checker-1
+r0018,A,ashley-montagu-resolution,s0196,no_issue,,,,no,,checker-1
+r0019,A,ashley-montagu-resolution,s0197,no_issue,,,,no,,checker-1
+r0020,A,ashley-montagu-resolution,s0198,possible_issue,relative-risk-framing,with relative risk reductions ranging from 30% to 60% for these conditions,"Benefits for rare outcomes (infant UTI, penile cancer) given only as relative reductions; condition 2 (small absolute change) is outside the text here; settled by the absolute risks, which this passage does not give.",no,,checker-1
+r0021,A,ashley-montagu-resolution,s0199,no_issue,,,,no,,checker-1
+r0022,A,ashley-montagu-resolution,s0201,no_issue,,,,no,,checker-1
+r0023,A,ashley-montagu-resolution,s0202,no_issue,,,,no,,checker-1
+r0024,A,ashley-montagu-resolution,s0203,no_issue,,,,no,,checker-1
+r0025,A,ashley-montagu-resolution,s0207,no_issue,,,,no,,checker-1
+r0026,A,ashley-montagu-resolution,s0208,no_issue,,,,no,,checker-1
+r0027,A,ashley-montagu-resolution,s0209,no_issue,,,,no,,checker-1
+r0028,A,ashley-montagu-resolution,s0211,no_issue,,,,no,,checker-1
+r0029,A,ashley-montagu-resolution,s0212,no_issue,,,,no,,checker-1
+r0030,A,ashley-montagu-resolution,s0213,no_issue,,,,no,,checker-1
+r0031,A,ashley-montagu-resolution,s0215,no_issue,,,,no,,checker-1
+r0032,A,ashley-montagu-resolution,s0216,no_issue,,,,no,,checker-1
+r0033,A,ashley-montagu-resolution,s0217,no_issue,,,,no,,checker-1
+r0034,A,ashley-montagu-resolution,s0218,no_issue,,,,no,,checker-1
+r0035,A,ashley-montagu-resolution,s0220,no_issue,,,,no,,checker-1
+r0036,A,ashley-montagu-resolution,s0222,no_issue,,,,no,,checker-1
+r0037,A,ashley-montagu-resolution,s0242,no_issue,,,,no,,checker-1
+r0038,A,ashley-montagu-resolution,s0244,no_issue,,,,no,,checker-1
+r0039,A,brit-milah,s0019,no_issue,,,,no,,checker-1
+r0040,A,brit-milah,s0020,no_issue,,,,no,,checker-1
+r0041,A,brit-milah,s0044,no_issue,,,,no,,checker-1
+r0042,A,brit-milah,s0076,no_issue,,,,no,,checker-1
+r0043,A,brit-milah,s0077,no_issue,,,,no,,checker-1
+r0044,A,brit-milah,s0091,no_issue,,,,no,,checker-1
+r0045,A,brit-milah,s0129,no_issue,,,,no,,checker-1
+r0046,A,brit-milah,s0130,possible_issue,cherry-picking,"This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates",Presents only the anesthesia side of the trade-off as a benefit of forgoing it; the plainly known cost (pain of cutting without anesthesia) is not weighed here; settled by whether the passage weighs procedural pain.,no,,checker-1
+r0047,A,brit-milah,s0167,no_issue,,,,no,,checker-1
+r0048,A,brit-milah,s0174,no_issue,,,,no,,checker-1
+r0049,A,brit-milah,s0207,no_issue,,,,no,,checker-1
+r0050,A,brit-milah,s0208,possible_issue,relative-risk-framing,circumcision conferring approximately 90% protection,"Benefit given only as relative figures (10-fold, 90%) for an uncommon outcome; absolute risk not given in this passage (outside-text condition 2); settled by stating the ~1% vs ~0.1% absolute figures.",no,,checker-1
+r0051,A,brit-milah,s0209,no_issue,,,,no,,checker-1
+r0052,A,brit-milah,s0211,possible_issue,secundum-quid,Randomized controlled trials (RCTs) in sub-Saharan Africa have demonstrated that male circumcision reduces the risk of heterosexual HIV acquisition by 50-60% in men,Adult African trial result listed among benefits of neonatal brit milah; sentence keeps 'in men' so the qualifier is not clearly dropped; settled by whether the section treats it as a benefit of infant circumcision.,no,,checker-1
+r0053,A,brit-milah,s0212,no_issue,,,,no,,checker-1
+r0054,A,brit-milah,s0213,no_issue,,,,no,,checker-1
+r0055,A,brit-milah,s0215,no_issue,,,,no,,checker-1
+r0056,A,brit-milah,s0216,no_issue,,,,no,,checker-1
+r0057,A,brit-milah,s0218,no_issue,,,,no,,checker-1
+r0058,A,brit-milah,s0219,no_issue,,,,no,,checker-1
+r0059,A,brit-milah,s0220,no_issue,,,,no,,checker-1
+r0060,A,brit-milah,s0255,no_issue,,,,no,,checker-1
+r0061,A,brit-milah,s0256,no_issue,,,,no,,checker-1
+r0062,A,brit-milah,s0264,no_issue,,,,no,,checker-1
+r0063,A,brit-milah,s0271,no_issue,,,,no,,checker-1
+r0064,A,brit-milah,s0283,no_issue,,,,no,,checker-1
+r0065,A,brit-milah,s0285,no_issue,,,,no,,checker-1
+r0066,A,brit-milah,s0286,no_issue,,,,no,,checker-1
+r0067,A,brit-milah,s0289,no_issue,,,,no,,checker-1
+r0068,A,brit-milah,s0290,no_issue,,,,no,,checker-1
+r0069,A,brit-milah,s0291,no_issue,,,,no,,checker-1
+r0070,A,brit-milah,s0316,no_issue,,,,no,,checker-1
+r0071,A,brit-milah,s0330,no_issue,,,,no,,checker-1
+r0072,A,brit-milah,s0331,no_issue,,,,no,,checker-1
+r0073,A,brit-milah,s0334,no_issue,,,,no,,checker-1
+r0074,A,brit-milah,s0335,no_issue,,,,no,,checker-1
+r0075,A,brit-milah,s0339,no_issue,,,,no,,checker-1
+r0076,A,brit-shalom-naming-ceremony,s0030,no_issue,,,,no,,checker-1
+r0077,A,brit-shalom-naming-ceremony,s0032,no_issue,,,,no,,checker-1
+r0078,A,brit-shalom-naming-ceremony,s0037,no_issue,,,,no,,checker-1
+r0079,A,brit-shalom-naming-ceremony,s0038,no_issue,,,,no,,checker-1
+r0080,A,brit-shalom-naming-ceremony,s0040,no_issue,,,,no,,checker-1
+r0081,A,brit-shalom-naming-ceremony,s0092,no_issue,,,,no,,checker-1
+r0082,A,brit-shalom-naming-ceremony,s0093,no_issue,,,,no,,checker-1
+r0083,A,brit-shalom-naming-ceremony,s0095,no_issue,,,,no,,checker-1
+r0084,A,brit-shalom-naming-ceremony,s0096,no_issue,,,,no,,checker-1
+r0085,A,brit-shalom-naming-ceremony,s0098,no_issue,,,,no,,checker-1
+r0086,A,brit-shalom-naming-ceremony,s0099,no_issue,,,,no,,checker-1
+r0087,A,brit-shalom-naming-ceremony,s0100,no_issue,,,,no,,checker-1
+r0088,A,brit-shalom-naming-ceremony,s0103,no_issue,,,,no,,checker-1
+r0089,A,brit-shalom-naming-ceremony,s0108,no_issue,,,,no,,checker-1
+r0090,A,brit-shalom-naming-ceremony,s0119,no_issue,,,,no,,checker-1
+r0091,A,brit-shalom-naming-ceremony,s0120,no_issue,,,,no,,checker-1
+r0092,A,circumcision,s0038,no_issue,,,,no,,checker-1
+r0093,A,circumcision,s0059,no_issue,,,,no,,checker-1
+r0094,A,circumcision,s0063,no_issue,,,,no,,checker-1
+r0095,A,circumcision,s0064,no_issue,,,,no,,checker-1
+r0096,A,circumcision,s0067,no_issue,,,,no,,checker-1
+r0097,A,circumcision,s0070,no_issue,,,,no,,checker-1
+r0098,A,circumcision,s0074,no_issue,,,,no,,checker-1
+r0099,A,circumcision,s0077,no_issue,,,,no,,checker-1
+r0100,A,circumcision,s0081,no_issue,,,,no,,checker-1
+r0101,A,circumcision,s0082,possible_issue,observational-interpretation,rates underscore that infancy is the lowest-risk period for the procedure,"Age-band adverse-event rates read as showing infancy itself is lowest risk; older-age procedures are more often therapeutic (the next sentence notes higher therapeutic rates), a confounder not addressed; settled by indication-adjusted rates.",no,,checker-1
+r0102,A,circumcision,s0083,no_issue,,,,no,,checker-1
+r0103,A,circumcision,s0114,no_issue,,,,no,,checker-1
+r0104,A,circumcision,s0115,no_issue,,,,no,,checker-1
+r0105,A,circumcision,s0116,no_issue,,,,no,,checker-1
+r0106,A,circumcision,s0117,no_issue,,,,no,,checker-1
+r0107,A,circumcision,s0125,no_issue,,,,no,,checker-1
+r0108,A,circumcision,s0126,no_issue,,,,no,,checker-1
+r0109,A,circumcision,s0127,no_issue,,,,no,,checker-1
+r0110,A,circumcision,s0132,no_issue,,,,no,,checker-1
+r0111,A,circumcision,s0140,no_issue,,,,no,,checker-1
+r0112,A,circumcision,s0142,no_issue,,,,no,,checker-1
+r0113,A,circumcision,s0143,no_issue,,,,no,,checker-1
+r0114,A,circumcision,s0144,no_issue,,,,no,,checker-1
+r0115,A,circumcision,s0145,no_issue,,,,no,,checker-1
+r0116,A,circumcision,s0146,no_issue,,,,no,,checker-1
+r0117,A,circumcision,s0148,no_issue,,,,no,,checker-1
+r0118,A,circumcision,s0150,no_issue,,,,no,,checker-1
+r0119,A,circumcision,s0151,no_issue,,,,no,,checker-1
+r0120,A,circumcision,s0152,no_issue,,,,no,,checker-1
+r0121,A,circumcision,s0158,no_issue,,,,no,,checker-1
+r0122,A,circumcision,s0160,no_issue,,,,no,,checker-1
+r0123,A,circumcision,s0161,no_issue,,,,no,,checker-1
+r0124,A,circumcision,s0162,no_issue,,,,no,,checker-1
+r0125,A,circumcision,s0165,no_issue,,,,no,,checker-1
+r0126,A,circumcision,s0166,no_issue,,,,no,,checker-1
+r0127,A,circumcision,s0171,no_issue,,,,no,,checker-1
+r0128,A,circumcision,s0172,no_issue,,,,no,,checker-1
+r0129,A,circumcision,s0183,no_issue,,,,no,,checker-1
+r0130,A,circumcision,s0186,no_issue,,,,no,,checker-1
+r0131,A,circumcision,s0187,no_issue,,,,no,,checker-1
+r0132,A,circumcision,s0188,no_issue,,,,no,,checker-1
+r0133,A,circumcision,s0191,no_issue,,,,no,,checker-1
+r0134,A,circumcision,s0192,no_issue,,,,no,,checker-1
+r0135,A,circumcision,s0193,no_issue,,,,no,,checker-1
+r0136,A,circumcision,s0194,possible_issue,hasty-generalization,"Neonatal and infant circumcision yields no differences in sexual arousal, orgasm intensity, or overall satisfaction","Sweeping no-difference claim, with QST 'confirming', resting on small studies (the key one named has 62 men); settled by the size and number of studies behind [115][116].",no,,checker-1
+r0137,A,circumcision,s0195,no_issue,,,,no,,checker-1
+r0138,A,circumcision,s0196,no_issue,,,,no,,checker-1
+r0139,A,circumcision,s0197,no_issue,,,,no,,checker-1
+r0140,A,circumcision,s0198,no_issue,,,,no,,checker-1
+r0141,A,circumcision,s0203,possible_issue,cherry-picking,"Adult circumcision may cause minor sensitivity decreases, but outcomes are mixed, showing no impairment in erectile function or satisfaction","Directly after a stated study with 63% masturbatory difficulty and 48% decreased pleasure, the summary calls decreases 'minor' and reports no impairment in satisfaction without answering those figures; hedged by 'may' and 'mixed', so possible issue.",no,,checker-1
+r0142,A,circumcision,s0204,no_issue,,,,no,,checker-1
+r0143,A,circumcision,s0205,no_issue,,,,no,,checker-1
+r0144,A,circumcision,s0209,no_issue,,,,no,,checker-1
+r0145,A,circumcision,s0210,no_issue,,,,no,,checker-1
+r0146,A,circumcision,s0211,no_issue,,,,no,,checker-1
+r0147,A,circumcision,s0212,no_issue,,,,no,,checker-1
+r0148,A,circumcision,s0213,no_issue,,,,no,,checker-1
+r0149,A,circumcision,s0214,no_issue,,,,no,,checker-1
+r0150,A,circumcision,s0216,no_issue,,,,no,,checker-1
+r0151,A,circumcision,s0217,no_issue,,,,no,,checker-1
+r0152,A,circumcision,s0220,no_issue,,,,no,,checker-1
+r0153,A,circumcision,s0221,no_issue,,,,no,,checker-1
+r0154,A,circumcision,s0222,no_issue,,,,no,,checker-1
+r0155,A,circumcision,s0223,no_issue,,,,no,,checker-1
+r0156,A,circumcision,s0226,no_issue,,,,no,,checker-1
+r0157,A,circumcision,s0253,no_issue,,,,no,,checker-1
+r0158,A,circumcision,s0256,no_issue,,,,no,,checker-1
+r0159,A,circumcision,s0257,no_issue,,,,no,,checker-1
+r0160,A,circumcision,s0258,no_issue,,,,no,,checker-1
+r0161,A,circumcision,s0262,no_issue,,,,no,,checker-1
+r0162,A,circumcision,s0263,no_issue,,,,no,,checker-1
+r0163,A,circumcision,s0275,no_issue,,,,no,,checker-1
+r0164,A,circumcision,s0278,no_issue,,,,no,,checker-1
+r0165,A,circumcision,s0279,no_issue,,,,no,,checker-1
+r0166,A,circumcision,s0290,no_issue,,,,no,,checker-1
+r0167,A,circumcision,s0323,no_issue,,,,no,,checker-1
+r0168,A,circumcision,s0324,no_issue,,,,no,,checker-1
+r0169,A,circumcision,s0325,no_issue,,,,no,,checker-1
+r0170,A,circumcision,s0328,no_issue,,,,no,,checker-1
+r0171,A,circumcision,s0329,no_issue,,,,no,,checker-1
+r0172,A,circumcision,s0331,no_issue,,,,no,,checker-1
+r0173,A,circumcision,s0332,no_issue,,,,no,,checker-1
+r0174,A,circumcision,s0363,no_issue,,,,no,,checker-1
+r0175,A,circumcision,s0364,no_issue,,,,no,,checker-1
+r0176,A,circumcision,s0369,no_issue,,,,no,,checker-1
+r0177,A,circumcision,s0370,no_issue,,,,no,,checker-1
+r0178,A,circumcision,s0387,no_issue,,,,no,,checker-1
+r0179,A,circumcision,s0388,no_issue,,,,no,,checker-1
+r0180,A,circumcision,s0402,no_issue,,,,no,,checker-1
+r0181,A,circumcision,s0413,no_issue,,,,no,,checker-1
+r0182,A,circumcision,s0414,no_issue,,,,no,,checker-1
+r0183,A,circumcision,s0422,no_issue,,,,no,,checker-1
+r0184,A,circumcision,s0423,no_issue,,,,no,,checker-1
+r0185,A,circumcision,s0424,no_issue,,,,no,,checker-1
+r0186,A,circumcision,s0439,no_issue,,,,no,,checker-1
+r0187,A,circumcision,s0440,no_issue,,,,no,,checker-1
+r0188,A,circumcision,s0441,no_issue,,,,no,,checker-1
+r0189,A,circumcision,s0442,no_issue,,,,no,,checker-1
+r0190,A,circumcision,s0444,no_issue,,,,no,,checker-1
+r0191,A,circumcision,s0446,no_issue,,,,no,,checker-2
+r0192,A,circumcision,s0448,no_issue,,,,no,,checker-2
+r0193,A,circumcision,s0449,no_issue,,,,no,,checker-2
+r0194,A,circumcision,s0450,no_issue,,,,no,,checker-2
+r0195,A,circumcision,s0452,no_issue,,,,no,,checker-2
+r0196,A,circumcision,s0453,no_issue,,,,no,,checker-2
+r0197,A,circumcision,s0454,no_issue,,,,no,,checker-2
+r0198,A,circumcision,s0457,possible_issue,secundum-quid,"These findings indicate a positive risk-benefit ratio for neonatal circumcision in medical settings, especially in high-infection areas","The 'high-infection areas' benefit for neonates rests on the adult African HIV trials cited at the start of the section; the qualification (adult, heterosexual exposure) is partly kept by 'benefits lessen in low-prevalence ones', so whether it is dropped depends on how much the neonatal claim relies on the adult HIV figures versus the infant UTI and complication data.",no,,checker-2
+r0199,A,circumcision,s0458,no_issue,,,,no,,checker-2
+r0200,A,circumcision-and-hiv,s0001,no_issue,,,,no,,checker-2
+r0201,A,circumcision-and-hiv,s0002,no_issue,,,,no,,checker-2
+r0202,A,circumcision-and-hiv,s0003,no_issue,,,,no,,checker-2
+r0203,A,circumcision-and-hiv,s0005,no_issue,,,,no,,checker-2
+r0204,A,circumcision-and-hiv,s0007,no_issue,,,,no,,checker-2
+r0205,A,circumcision-and-hiv,s0008,no_issue,,,,no,,checker-2
+r0206,A,circumcision-and-hiv,s0012,no_issue,,,,no,,checker-2
+r0207,A,circumcision-and-hiv,s0015,no_issue,,,,no,,checker-2
+r0208,A,circumcision-and-hiv,s0016,no_issue,,,,no,,checker-2
+r0209,A,circumcision-and-hiv,s0019,no_issue,,,,no,,checker-2
+r0210,A,circumcision-and-hiv,s0020,no_issue,,,,no,,checker-2
+r0211,A,circumcision-and-hiv,s0023,no_issue,,,,no,,checker-2
+r0212,A,circumcision-and-hiv,s0024,no_issue,,,,no,,checker-2
+r0213,A,circumcision-and-hiv,s0026,no_issue,,,,no,,checker-2
+r0214,A,circumcision-and-hiv,s0027,no_issue,,,,no,,checker-2
+r0215,A,circumcision-and-hiv,s0033,no_issue,,,,no,,checker-2
+r0216,A,circumcision-and-hiv,s0034,no_issue,,,,no,,checker-2
+r0217,A,circumcision-and-hiv,s0035,no_issue,,,,no,,checker-2
+r0218,A,circumcision-and-hiv,s0039,no_issue,,,,no,,checker-2
+r0219,A,circumcision-and-hiv,s0042,no_issue,,,,no,,checker-2
+r0220,A,circumcision-and-hiv,s0043,no_issue,,,,no,,checker-2
+r0221,A,circumcision-and-hiv,s0044,no_issue,,,,no,,checker-2
+r0222,A,circumcision-and-hiv,s0047,no_issue,,,,no,,checker-2
+r0223,A,circumcision-and-hiv,s0048,no_issue,,,,no,,checker-2
+r0224,A,circumcision-and-hiv,s0049,no_issue,,,,no,,checker-2
+r0225,A,circumcision-and-hiv,s0053,no_issue,,,,no,,checker-2
+r0226,A,circumcision-and-hiv,s0056,no_issue,,,,no,,checker-2
+r0227,A,circumcision-and-hiv,s0058,no_issue,,,,no,,checker-2
+r0228,A,circumcision-and-hiv,s0066,no_issue,,,,no,,checker-2
+r0229,A,circumcision-and-hiv,s0074,no_issue,,,,no,,checker-2
+r0230,A,circumcision-and-hiv,s0076,no_issue,,,,no,,checker-2
+r0231,A,circumcision-and-hiv,s0077,no_issue,,,,no,,checker-2
+r0232,A,circumcision-and-hiv,s0084,no_issue,,,,no,,checker-2
+r0233,A,circumcision-and-hiv,s0085,no_issue,,,,no,,checker-2
+r0234,A,circumcision-and-hiv,s0086,no_issue,,,,no,,checker-2
+r0235,A,circumcision-and-hiv,s0088,no_issue,,,,no,,checker-2
+r0236,A,circumcision-and-hiv,s0090,no_issue,,,,no,,checker-2
+r0237,A,circumcision-and-hiv,s0091,no_issue,,,,no,,checker-2
+r0238,A,circumcision-and-hiv,s0093,no_issue,,,,no,,checker-2
+r0239,A,circumcision-and-hiv,s0095,no_issue,,,,no,,checker-2
+r0240,A,circumcision-and-hiv,s0096,no_issue,,,,no,,checker-2
+r0241,A,circumcision-and-hiv,s0098,no_issue,,,,no,,checker-2
+r0242,A,circumcision-and-hiv,s0099,no_issue,,,,no,,checker-2
+r0243,A,circumcision-and-hiv,s0103,no_issue,,,,no,,checker-2
+r0244,A,circumcision-and-hiv,s0128,no_issue,,,,no,,checker-2
+r0245,A,circumcision-and-hiv,s0131,no_issue,,,,no,,checker-2
+r0246,A,circumcision-and-hiv,s0137,no_issue,,,,no,,checker-2
+r0247,A,circumcision-and-hiv,s0138,no_issue,,,,no,,checker-2
+r0248,A,circumcision-and-hiv,s0139,no_issue,,,,no,,checker-2
+r0249,A,circumcision-and-hiv,s0147,no_issue,,,,no,,checker-2
+r0250,A,circumcision-and-hiv,s0148,no_issue,,,,no,,checker-2
+r0251,A,circumcision-and-hiv,s0151,no_issue,,,,no,,checker-2
+r0252,A,circumcision-and-hiv,s0152,no_issue,,,,no,,checker-2
+r0253,A,circumcision-and-hiv,s0154,no_issue,,,,no,,checker-2
+r0254,A,circumcision-and-hiv,s0155,no_issue,,,,no,,checker-2
+r0255,A,circumcision-and-hiv,s0156,no_issue,,,,no,,checker-2
+r0256,A,circumcision-and-hiv,s0159,no_issue,,,,no,,checker-2
+r0257,A,circumcision-and-hiv,s0160,no_issue,,,,no,,checker-2
+r0258,A,circumcision-and-hiv,s0164,no_issue,,,,no,,checker-2
+r0259,A,circumcision-and-hiv,s0165,no_issue,,,,no,,checker-2
+r0260,A,circumcision-and-hiv,s0167,no_issue,,,,no,,checker-2
+r0261,A,circumcision-and-hiv,s0170,no_issue,,,,no,,checker-2
+r0262,A,circumcision-and-hiv,s0175,no_issue,,,,no,,checker-2
+r0263,A,circumcision-and-hiv,s0177,no_issue,,,,no,,checker-2
+r0264,A,circumcision-and-hiv,s0178,no_issue,,,,no,,checker-2
+r0265,A,circumcision-and-hiv,s0179,no_issue,,,,no,,checker-2
+r0266,A,circumcision-and-hiv,s0182,no_issue,,,,no,,checker-2
+r0267,A,circumcision-and-hiv,s0183,no_issue,,,,no,,checker-2
+r0268,A,circumcision-and-hiv,s0186,no_issue,,,,no,,checker-2
+r0269,A,circumcision-and-hiv,s0189,no_issue,,,,no,,checker-2
+r0270,A,circumcision-and-hiv,s0191,no_issue,,,,no,,checker-2
+r0271,A,circumcision-and-hiv,s0194,no_issue,,,,no,,checker-2
+r0272,A,circumcision-and-hiv,s0200,no_issue,,,,no,,checker-2
+r0273,A,circumcision-and-hiv,s0224,no_issue,,,,no,,checker-2
+r0274,A,circumcision-and-hiv,s0225,no_issue,,,,no,,checker-2
+r0275,A,circumcision-and-hiv,s0226,no_issue,,,,no,,checker-2
+r0276,A,circumcision-and-hiv,s0227,no_issue,,,,no,,checker-2
+r0277,A,circumcision-and-hiv,s0229,no_issue,,,,no,,checker-2
+r0278,A,circumcision-and-hiv,s0230,no_issue,,,,no,,checker-2
+r0279,A,circumcision-and-hiv,s0231,no_issue,,,,no,,checker-2
+r0280,A,circumcision-and-hiv,s0245,no_issue,,,,no,,checker-2
+r0281,A,circumcision-and-hiv,s0246,no_issue,,,,no,,checker-2
+r0282,A,circumcision-and-hiv,s0247,possible_issue,loaded-label,Methodological critiques are dismissed as denialism,"'Denialism' builds in that the critiques deny settled fact and stands in for answering them (the rigorous-design reason does not address early stopping or unblinding raised in s0190-s0193); but the passive voice in a rebuttals section may only report defenders' view, so whether this is the article's own voice settles it.",no,,checker-2
+r0283,A,circumcision-and-hiv,s0249,no_issue,,,,no,,checker-2
+r0284,A,circumcision-and-hiv,s0250,no_issue,,,,no,,checker-2
+r0285,A,circumcision-and-hiv,s0251,no_issue,,,,no,,checker-2
+r0286,A,circumcision-and-hiv,s0256,no_issue,,,,no,,checker-2
+r0287,A,circumcision-and-hiv,s0259,no_issue,,,,no,,checker-2
+r0288,A,circumcision-and-hiv,s0260,no_issue,,,,no,,checker-2
+r0289,A,circumcision-and-hiv,s0261,no_issue,,,,no,,checker-2
+r0290,A,circumcision-and-hiv,s0263,no_issue,,,,no,,checker-2
+r0291,A,circumcision-and-hiv,s0264,no_issue,,,,no,,checker-2
+r0292,A,circumcision-and-hiv,s0268,no_issue,,,,no,,checker-2
+r0293,A,circumcision-and-hiv,s0269,no_issue,,,,no,,checker-2
+r0294,A,circumcision-and-hiv,s0272,no_issue,,,,no,,checker-2
+r0295,A,circumcision-and-hiv,s0273,no_issue,,,,no,,checker-2
+r0296,A,circumcision-and-hiv,s0274,no_issue,,,,no,,checker-2
+r0297,A,circumcision-and-hiv,s0276,no_issue,,,,no,,checker-2
+r0298,A,circumcision-and-hiv,s0277,no_issue,,,,no,,checker-2
+r0299,A,circumcision-and-hiv,s0278,no_issue,,,,no,,checker-2
+r0300,A,circumcision-and-law,s0003,no_issue,,,,no,,checker-2
+r0301,A,circumcision-and-law,s0066,no_issue,,,,no,,checker-2
+r0302,A,circumcision-and-law,s0067,no_issue,,,,no,,checker-2
+r0303,A,circumcision-and-law,s0070,no_issue,,,,no,,checker-2
+r0304,A,circumcision-and-law,s0077,no_issue,,,,no,,checker-2
+r0305,A,circumcision-and-law,s0078,no_issue,,,,no,,checker-2
+r0306,A,circumcision-and-law,s0083,no_issue,,,,no,,checker-2
+r0307,A,circumcision-and-law,s0095,no_issue,,,,no,,checker-2
+r0308,A,circumcision-and-law,s0117,no_issue,,,,no,,checker-2
+r0309,A,circumcision-and-law,s0131,no_issue,,,,no,,checker-2
+r0310,A,circumcision-and-law,s0132,no_issue,,,,no,,checker-2
+r0311,A,circumcision-and-law,s0205,no_issue,,,,no,,checker-2
+r0312,A,circumcision-and-law,s0261,no_issue,,,,no,,checker-2
+r0313,A,circumcision-and-law,s0327,no_issue,,,,no,,checker-2
+r0314,A,circumcision-and-law,s0336,no_issue,,,,no,,checker-2
+r0315,A,circumcision-and-law,s0346,no_issue,,,,no,,checker-2
+r0316,A,circumcision-and-law,s0355,no_issue,,,,no,,checker-2
+r0317,A,circumcision-and-law,s0376,no_issue,,,,no,,checker-2
+r0318,A,circumcision-and-law,s0385,possible_issue,secundum-quid,"where parental intent aligns with prevailing medical literature showing modest aggregate benefits (e.g., CDC estimates of 1 in 100 HIV risk reduction in high-prevalence settings), courts avoid overriding decisions absent acute harm","The article's own explanation of US child-circumcision rulings leans on an HIV benefit that the sentence itself limits to high-prevalence settings, carrying it into a low-prevalence US child case; the qualification is named rather than dropped, so it turns on whether the example is doing the justifying work or is only illustrative.",no,,checker-2
+r0319,A,circumcision-and-law,s0394,no_issue,,,,no,,checker-2
+r0320,A,circumcision-and-law,s0397,no_issue,,,,no,,checker-2
+r0321,A,circumcision-and-law,s0398,no_issue,,,,no,,checker-2
+r0322,A,circumcision-controversies,s0002,no_issue,,,,no,,checker-2
+r0323,A,circumcision-controversies,s0036,no_issue,,,,no,,checker-2
+r0324,A,circumcision-controversies,s0037,no_issue,,,,no,,checker-2
+r0325,A,circumcision-controversies,s0038,no_issue,,,,no,,checker-2
+r0326,A,circumcision-controversies,s0040,no_issue,,,,no,,checker-2
+r0327,A,circumcision-controversies,s0041,no_issue,,,,no,,checker-2
+r0328,A,circumcision-controversies,s0042,possible_issue,exaggeration,Neonatal circumcision nearly eliminates the risk in high-prevalence settings,"The preceding sentence gives an odds ratio of 0.33 (about a two-thirds reduction) for neonatal or youth circumcision, and 'nearly eliminates' overstates that; it stays possible because 'in high-prevalence settings' may refer to other data, and whether a later step relies on the stronger wording is not shown.",no,,checker-2
+r0329,A,circumcision-controversies,s0044,no_issue,,,,no,,checker-2
+r0330,A,circumcision-controversies,s0045,no_issue,,,,no,,checker-2
+r0331,A,circumcision-controversies,s0046,no_issue,,,,no,,checker-2
+r0332,A,circumcision-controversies,s0047,no_issue,,,,no,,checker-2
+r0333,A,circumcision-controversies,s0049,no_issue,,,,no,,checker-2
+r0334,A,circumcision-controversies,s0050,no_issue,,,,no,,checker-2
+r0335,A,circumcision-controversies,s0053,no_issue,,,,no,,checker-2
+r0336,A,circumcision-controversies,s0057,no_issue,,,,no,,checker-2
+r0337,A,circumcision-controversies,s0061,no_issue,,,,no,,checker-2
+r0338,A,circumcision-controversies,s0062,no_issue,,,,no,,checker-2
+r0339,A,circumcision-controversies,s0063,no_issue,,,,no,,checker-2
+r0340,A,circumcision-controversies,s0065,no_issue,,,,no,,checker-2
+r0341,A,circumcision-controversies,s0066,no_issue,,,,no,,checker-2
+r0342,A,circumcision-controversies,s0067,no_issue,,,,no,,checker-2
+r0343,A,circumcision-controversies,s0070,no_issue,,,,no,,checker-2
+r0344,A,circumcision-controversies,s0072,no_issue,,,,no,,checker-2
+r0345,A,circumcision-controversies,s0086,no_issue,,,,no,,checker-2
+r0346,A,circumcision-controversies,s0087,no_issue,,,,no,,checker-2
+r0347,A,circumcision-controversies,s0088,no_issue,,,,no,,checker-2
+r0348,A,circumcision-controversies,s0089,no_issue,,,,no,,checker-2
+r0349,A,circumcision-controversies,s0090,no_issue,,,,no,,checker-2
+r0350,A,circumcision-controversies,s0091,no_issue,,,,no,,checker-2
+r0351,A,circumcision-controversies,s0092,no_issue,,,,no,,checker-2
+r0352,A,circumcision-controversies,s0093,no_issue,,,,no,,checker-2
+r0353,A,circumcision-controversies,s0097,flag,red-herring,"These claims, while highlighting procedural similarities, apply to infant contexts where long-term sensory or psychological harms are alleged but lack uniform empirical validation across cohorts","In the article's own voice this answers the equivalence argument, which the previous sentence states as a consent claim ('degree of tissue removal or cultural valence should not eclipse the principle of consent'), by turning to whether harms are empirically validated; harm evidence does not bear on the stated consent principle and draws attention from it. Not a shown dependence (look-alike), and not straw man since the claim is restated fairly.",yes,,checker-2
+r0354,A,circumcision-controversies,s0100,no_issue,,,,no,,checker-2
+r0355,A,circumcision-controversies,s0104,flag,secundum-quid,"Randomized trials demonstrate that male circumcision decreases heterosexual HIV acquisition by 53-60% and lowers transmission risks for herpes simplex virus type 2 and human papillomavirus, thereby protecting uncircumcised partners and reducing overall community STI prevalence","The trial results hold for adult men in high-prevalence African heterosexual epidemics; here they are stated without that qualification inside a paragraph whose conclusion (s0103, s0105) is that societal utility justifies parents' proxy choice for infants, so the conclusion relies on dropping the adult and high-prevalence qualification. The qualification does affect the conclusion, so the look-alike does not apply.",yes,,checker-2
+r0356,A,circumcision-controversies,s0109,no_issue,,,,no,,checker-2
+r0357,A,circumcision-controversies,s0110,no_issue,,,,no,,checker-2
+r0358,A,circumcision-controversies,s0112,no_issue,,,,no,,checker-2
+r0359,A,circumcision-controversies,s0113,no_issue,,,,no,,checker-2
+r0360,A,circumcision-controversies,s0114,no_issue,,,,no,,checker-2
+r0361,A,circumcision-controversies,s0115,no_issue,,,,no,,checker-2
+r0362,A,circumcision-controversies,s0116,no_issue,,,,no,,checker-2
+r0363,A,circumcision-controversies,s0117,no_issue,,,,no,,checker-2
+r0364,A,circumcision-controversies,s0124,no_issue,,,,no,,checker-2
+r0365,A,circumcision-controversies,s0125,no_issue,,,,no,,checker-2
+r0366,A,circumcision-controversies,s0127,no_issue,,,,no,,checker-2
+r0367,A,circumcision-controversies,s0156,no_issue,,,,no,,checker-2
+r0368,A,circumcision-controversies,s0157,no_issue,,,,no,,checker-2
+r0369,A,circumcision-controversies,s0161,no_issue,,,,no,,checker-2
+r0370,A,circumcision-controversies,s0165,possible_issue,non-sequitur,empirically supported by low adverse outcomes in supervised ritual contexts,"Low complication rates are offered as empirical support for circumcision's role as 'an enduring emblem of fidelity and group resilience', but complication rates bear on safety, not on that symbolic and communal role; possible only because a charitable reading may take the clause as separate support for continuing the practice rather than for the role itself.",no,,checker-2
+r0371,A,circumcision-controversies,s0192,no_issue,,,,no,,checker-2
+r0372,A,circumcision-controversies,s0209,no_issue,,,,no,,checker-2
+r0373,A,circumcision-controversies,s0211,no_issue,,,,no,,checker-2
+r0374,A,circumcision-controversies,s0212,no_issue,,,,no,,checker-2
+r0375,A,circumcision-controversies,s0213,no_issue,,,,no,,checker-2
+r0376,A,circumcision-controversies,s0215,no_issue,,,,no,,checker-2
+r0377,A,circumcision-controversies,s0216,no_issue,,,,no,,checker-2
+r0378,A,circumcision-controversies,s0219,no_issue,,,,no,,checker-2
+r0379,A,circumcision-controversies,s0223,no_issue,,,,no,,checker-2
+r0380,A,circumcision-controversies,s0229,no_issue,,,,no,,checker-2
+r0381,A,circumcision-controversy-in-early-christianity,s0070,no_issue,,,,no,,checker-3
+r0382,A,circumcision-controversy-in-early-christianity,s0071,no_issue,,,,no,,checker-3
+r0383,A,circumcision-controversy-in-early-christianity,s0075,no_issue,,,,no,,checker-3
+r0384,A,circumcision-controversy-in-early-christianity,s0076,no_issue,,,,no,,checker-3
+r0385,A,circumcision-controversy-in-early-christianity,s0077,no_issue,,,,no,,checker-3
+r0386,A,circumcision-controversy-in-early-christianity,s0079,no_issue,,,,no,,checker-3
+r0387,A,circumcision-controversy-in-early-christianity,s0080,no_issue,,,,no,,checker-3
+r0388,A,circumcision-controversy-in-early-christianity,s0081,no_issue,,,,no,,checker-3
+r0389,A,circumcision-controversy-in-early-christianity,s0117,no_issue,,,,no,,checker-3
+r0390,A,circumcision-controversy-in-early-christianity,s0145,no_issue,,,,no,,checker-3
+r0391,A,circumcision-in-africa,s0005,no_issue,,,,no,,checker-3
+r0392,A,circumcision-in-africa,s0030,no_issue,,,,no,,checker-3
+r0393,A,circumcision-in-africa,s0039,no_issue,,,,no,,checker-3
+r0394,A,circumcision-in-africa,s0138,no_issue,,,,no,,checker-3
+r0395,A,circumcision-in-africa,s0150,no_issue,,,,no,,checker-3
+r0396,A,circumcision-in-africa,s0151,no_issue,,,,no,,checker-3
+r0397,A,circumcision-in-africa,s0169,no_issue,,,,no,,checker-3
+r0398,A,circumcision-in-africa,s0170,no_issue,,,,no,,checker-3
+r0399,A,circumcision-in-africa,s0171,no_issue,,,,no,,checker-3
+r0400,A,circumcision-in-africa,s0172,no_issue,,,,no,,checker-3
+r0401,A,circumcision-in-africa,s0175,no_issue,,,,no,,checker-3
+r0402,A,circumcision-in-africa,s0179,no_issue,,,,no,,checker-3
+r0403,A,circumcision-in-africa,s0183,no_issue,,,,no,,checker-3
+r0404,A,circumcision-in-africa,s0187,no_issue,,,,no,,checker-3
+r0405,A,circumcision-in-africa,s0194,no_issue,,,,no,,checker-3
+r0406,A,circumcision-in-africa,s0205,no_issue,,,,no,,checker-3
+r0407,A,circumcision-in-africa,s0209,no_issue,,,,no,,checker-3
+r0408,A,circumcision-in-africa,s0210,no_issue,,,,no,,checker-3
+r0409,A,circumcision-in-africa,s0211,no_issue,,,,no,,checker-3
+r0410,A,circumcision-in-africa,s0212,no_issue,,,,no,,checker-3
+r0411,A,circumcision-in-africa,s0214,no_issue,,,,no,,checker-3
+r0412,A,circumcision-in-africa,s0215,no_issue,,,,no,,checker-3
+r0413,A,circumcision-in-africa,s0216,no_issue,,,,no,,checker-3
+r0414,A,circumcision-in-africa,s0217,no_issue,,,,no,,checker-3
+r0415,A,circumcision-in-africa,s0220,no_issue,,,,no,,checker-3
+r0416,A,circumcision-in-africa,s0221,no_issue,,,,no,,checker-3
+r0417,A,circumcision-in-africa,s0223,no_issue,,,,no,,checker-3
+r0418,A,circumcision-in-africa,s0224,no_issue,,,,no,,checker-3
+r0419,A,circumcision-in-africa,s0225,no_issue,,,,no,,checker-3
+r0420,A,circumcision-in-africa,s0227,no_issue,,,,no,,checker-3
+r0421,A,circumcision-in-africa,s0228,no_issue,,,,no,,checker-3
+r0422,A,circumcision-in-africa,s0229,no_issue,,,,no,,checker-3
+r0423,A,circumcision-in-africa,s0231,no_issue,,,,no,,checker-3
+r0424,A,circumcision-in-africa,s0232,no_issue,,,,no,,checker-3
+r0425,A,circumcision-in-africa,s0233,no_issue,,,,no,,checker-3
+r0426,A,circumcision-in-africa,s0237,no_issue,,,,no,,checker-3
+r0427,A,circumcision-in-africa,s0240,no_issue,,,,no,,checker-3
+r0428,A,circumcision-in-africa,s0253,no_issue,,,,no,,checker-3
+r0429,A,circumcision-in-africa,s0256,no_issue,,,,no,,checker-3
+r0430,A,circumcision-in-africa,s0267,no_issue,,,,no,,checker-3
+r0431,A,circumcision-in-africa,s0275,no_issue,,,,no,,checker-3
+r0432,A,circumcision-in-africa,s0276,no_issue,,,,no,,checker-3
+r0433,A,circumcision-in-africa,s0277,no_issue,,,,no,,checker-3
+r0434,A,circumcision-in-africa,s0279,no_issue,,,,no,,checker-3
+r0435,A,circumcision-in-africa,s0280,no_issue,,,,no,,checker-3
+r0436,A,circumcision-in-africa,s0281,no_issue,,,,no,,checker-3
+r0437,A,circumcision-in-africa,s0287,no_issue,,,,no,,checker-3
+r0438,A,circumcision-in-brunei,s0049,no_issue,,,,no,,checker-3
+r0439,A,circumcision-in-brunei,s0050,possible_issue,secundum-quid,This approach adapts global evidence to Brunei's context,"Step: WHO/African-trial efficacy (~60%, high-prevalence adult heterosexual setting) is carried to Brunei and said to be 'potentially amplifying protective effects'; the qualification (high HIV prevalence) is dropped, but the text never states Brunei's HIV prevalence and the claim is hedged ('potentially'); settled if Brunei's HIV prevalence is low, as the WHO recommendation is limited to high-prevalence generalized epidemics.",no,,checker-3
+r0440,A,circumcision-in-brunei,s0052,no_issue,,,,no,,checker-3
+r0441,A,circumcision-in-brunei,s0053,no_issue,,,,no,,checker-3
+r0442,A,circumcision-in-china,s0060,no_issue,,,,no,,checker-3
+r0443,A,circumcision-surgical-procedure,s0004,no_issue,,,,no,,checker-3
+r0444,A,circumcision-surgical-procedure,s0005,no_issue,,,,no,,checker-3
+r0445,A,circumcision-surgical-procedure,s0020,no_issue,,,,no,,checker-3
+r0446,A,circumcision-surgical-procedure,s0034,no_issue,,,,no,,checker-3
+r0447,A,circumcision-surgical-procedure,s0035,no_issue,,,,no,,checker-3
+r0448,A,circumcision-surgical-procedure,s0036,no_issue,,,,no,,checker-3
+r0449,A,circumcision-surgical-procedure,s0038,no_issue,,,,no,,checker-3
+r0450,A,circumcision-surgical-procedure,s0039,no_issue,,,,no,,checker-3
+r0451,A,circumcision-surgical-procedure,s0041,no_issue,,,,no,,checker-3
+r0452,A,circumcision-surgical-procedure,s0042,no_issue,,,,no,,checker-3
+r0453,A,circumcision-surgical-procedure,s0043,no_issue,,,,no,,checker-3
+r0454,A,circumcision-surgical-procedure,s0045,no_issue,,,,no,,checker-3
+r0455,A,circumcision-surgical-procedure,s0046,no_issue,,,,no,,checker-3
+r0456,A,circumcision-surgical-procedure,s0047,no_issue,,,,no,,checker-3
+r0457,A,circumcision-surgical-procedure,s0063,no_issue,,,,no,,checker-3
+r0458,A,circumcision-surgical-procedure,s0092,no_issue,,,,no,,checker-3
+r0459,A,circumcision-surgical-procedure,s0264,no_issue,,,,no,,checker-3
+r0460,A,circumcision-surgical-procedure,s0270,no_issue,,,,no,,checker-3
+r0461,A,circumcision-surgical-procedure,s0271,no_issue,,,,no,,checker-3
+r0462,A,circumcision-surgical-procedure,s0278,possible_issue,nut-picking,"Claims of psychological trauma, such as links to autism spectrum disorder via stress hormone accumulation, lack empirical support","Step: the whole class of psychological-trauma claims is dismissed using only the autism/glucocorticoid link as its example; if that link is a fringe claim presented as typical, both conditions are met, but the text does not show it is the most extreme version or that other trauma claims were addressed; settled by whether more typical trauma claims (e.g. pain-response studies) are answered elsewhere in the article.",no,,checker-3
+r0463,A,circumcision-surgical-procedure,s0282,no_issue,,,,no,,checker-3
+r0464,A,circumcision-surgical-procedure,s0309,no_issue,,,,no,,checker-3
+r0465,A,circumcision-surgical-procedure,s0321,no_issue,,,,no,,checker-3
+r0466,A,circumcision-surgical-procedure,s0322,no_issue,,,,no,,checker-3
+r0467,A,circumcision-surgical-procedure,s0325,no_issue,,,,no,,checker-3
+r0468,A,circumcision-surgical-procedure,s0329,no_issue,,,,no,,checker-3
+r0469,A,circumcision-surgical-procedure,s0330,no_issue,,,,no,,checker-3
+r0470,A,circumcision-surgical-procedure,s0331,no_issue,,,,no,,checker-3
+r0471,A,circumcision-surgical-procedure,s0333,no_issue,,,,no,,checker-3
+r0472,A,cost-of-circumcision-surgery-in-chaozhou,s0026,no_issue,,,,no,,checker-3
+r0473,A,cultural-views-on-circumcision-aesthetics,s0003,no_issue,,,,no,,checker-3
+r0474,A,cultural-views-on-circumcision-aesthetics,s0020,no_issue,,,,no,,checker-3
+r0475,A,cultural-views-on-circumcision-aesthetics,s0021,no_issue,,,,no,,checker-3
+r0476,A,cultural-views-on-circumcision-aesthetics,s0030,no_issue,,,,no,,checker-3
+r0477,A,cultural-views-on-circumcision-aesthetics,s0031,no_issue,,,,no,,checker-3
+r0478,A,cultural-views-on-circumcision-aesthetics,s0032,no_issue,,,,no,,checker-3
+r0479,A,cultural-views-on-circumcision-aesthetics,s0034,no_issue,,,,no,,checker-3
+r0480,A,cultural-views-on-circumcision-aesthetics,s0035,no_issue,,,,no,,checker-3
+r0481,A,cultural-views-on-circumcision-aesthetics,s0036,no_issue,,,,no,,checker-3
+r0482,A,cultural-views-on-circumcision-aesthetics,s0049,no_issue,,,,no,,checker-3
+r0483,A,cultural-views-on-circumcision-aesthetics,s0050,no_issue,,,,no,,checker-3
+r0484,A,cultural-views-on-circumcision-aesthetics,s0055,no_issue,,,,no,,checker-3
+r0485,A,cultural-views-on-circumcision-aesthetics,s0086,no_issue,,,,no,,checker-3
+r0486,A,cultural-views-on-circumcision-aesthetics,s0099,no_issue,,,,no,,checker-3
+r0487,A,cultural-views-on-circumcision-aesthetics,s0100,no_issue,,,,no,,checker-3
+r0488,A,cultural-views-on-circumcision-aesthetics,s0102,no_issue,,,,no,,checker-3
+r0489,A,cultural-views-on-circumcision-aesthetics,s0103,no_issue,,,,no,,checker-3
+r0490,A,cultural-views-on-circumcision-aesthetics,s0105,no_issue,,,,no,,checker-3
+r0491,A,cultural-views-on-circumcision-aesthetics,s0106,no_issue,,,,no,,checker-3
+r0492,A,cultural-views-on-circumcision-aesthetics,s0117,no_issue,,,,no,,checker-3
+r0493,A,cultural-views-on-circumcision-aesthetics,s0121,no_issue,,,,no,,checker-3
+r0494,A,cultural-views-on-circumcision-aesthetics,s0122,no_issue,,,,no,,checker-3
+r0495,A,ethics-of-circumcision,s0004,no_issue,,,,no,,checker-3
+r0496,A,ethics-of-circumcision,s0014,no_issue,,,,no,,checker-3
+r0497,A,ethics-of-circumcision,s0018,no_issue,,,,no,,checker-3
+r0498,A,ethics-of-circumcision,s0027,no_issue,,,,no,,checker-3
+r0499,A,ethics-of-circumcision,s0038,no_issue,,,,no,,checker-3
+r0500,A,ethics-of-circumcision,s0040,no_issue,,,,no,,checker-3
+r0501,A,ethics-of-circumcision,s0042,no_issue,,,,no,,checker-3
+r0502,A,ethics-of-circumcision,s0043,no_issue,,,,no,,checker-3
+r0503,A,ethics-of-circumcision,s0044,no_issue,,,,no,,checker-3
+r0504,A,ethics-of-circumcision,s0046,no_issue,,,,no,,checker-3
+r0505,A,ethics-of-circumcision,s0047,no_issue,,,,no,,checker-3
+r0506,A,ethics-of-circumcision,s0049,no_issue,,,,no,,checker-3
+r0507,A,ethics-of-circumcision,s0050,no_issue,,,,no,,checker-3
+r0508,A,ethics-of-circumcision,s0051,no_issue,,,,no,,checker-3
+r0509,A,ethics-of-circumcision,s0053,no_issue,,,,no,,checker-3
+r0510,A,ethics-of-circumcision,s0054,no_issue,,,,no,,checker-3
+r0511,A,ethics-of-circumcision,s0060,no_issue,,,,no,,checker-3
+r0512,A,ethics-of-circumcision,s0061,no_issue,,,,no,,checker-3
+r0513,A,ethics-of-circumcision,s0064,no_issue,,,,no,,checker-3
+r0514,A,ethics-of-circumcision,s0067,no_issue,,,,no,,checker-3
+r0515,A,ethics-of-circumcision,s0068,no_issue,,,,no,,checker-3
+r0516,A,ethics-of-circumcision,s0069,no_issue,,,,no,,checker-3
+r0517,A,ethics-of-circumcision,s0071,no_issue,,,,no,,checker-3
+r0518,A,ethics-of-circumcision,s0073,no_issue,,,,no,,checker-3
+r0519,A,ethics-of-circumcision,s0075,no_issue,,,,no,,checker-3
+r0520,A,ethics-of-circumcision,s0085,no_issue,,,,no,,checker-3
+r0521,A,ethics-of-circumcision,s0087,no_issue,,,,no,,checker-3
+r0522,A,ethics-of-circumcision,s0088,no_issue,,,,no,,checker-3
+r0523,A,ethics-of-circumcision,s0094,possible_issue,persuasive-definition,The best interest criterion in pediatric ethics demands an evidence-based evaluation of lifetime health outcomes over transient or unsubstantiated concerns,"Step: 'best interest' is stated, as if neutral, to rank lifetime health outcomes over 'transient or unsubstantiated concerns', which pre-sorts the procedure's pain and critics' objections out of the weighing that follows; conditions 2-3 are met in the text, but whether this departs from the ordinary bioethics meaning of best interest is not shown in the article; settled by the standard formulation of the best-interest standard (whether it includes pain and bodily integrity).",no,,checker-3
+r0524,A,ethics-of-circumcision,s0095,flag,secundum-quid,"Randomized controlled trials in Africa, extrapolated by the CDC, indicate that male circumcision confers a 50-60% reduction in heterosexual HIV acquisition risk","Step (in the infant best-interest section): adult heterosexual trial results from high-prevalence African settings are stated without that qualification and used to yield 'net preventive benefits that persist into adulthood' for infant proxy decisions; the conclusion depends on dropping the adult/high-prevalence qualification; look-alike (qualification doesn't affect conclusion) ruled out since the effect size depends on setting, per the working rule.",yes,,checker-3
+r0525,A,ethics-of-circumcision,s0096,no_issue,,,,no,,checker-3
+r0526,A,ethics-of-circumcision,s0098,no_issue,,,,no,,checker-3
+r0527,A,ethics-of-circumcision,s0099,no_issue,,,,no,,checker-3
+r0528,A,ethics-of-circumcision,s0103,no_issue,,,,no,,checker-3
+r0529,A,ethics-of-circumcision,s0104,no_issue,,,,no,,checker-3
+r0530,A,ethics-of-circumcision,s0113,no_issue,,,,no,,checker-3
+r0531,A,ethics-of-circumcision,s0117,no_issue,,,,no,,checker-3
+r0532,A,ethics-of-circumcision,s0118,no_issue,,,,no,,checker-3
+r0533,A,ethics-of-circumcision,s0120,no_issue,,,,no,,checker-3
+r0534,A,ethics-of-circumcision,s0123,no_issue,,,,no,,checker-3
+r0535,A,ethics-of-circumcision,s0124,no_issue,,,,no,,checker-3
+r0536,A,ethics-of-circumcision,s0127,no_issue,,,,no,,checker-3
+r0537,A,ethics-of-circumcision,s0130,no_issue,,,,no,,checker-3
+r0538,A,ethics-of-circumcision,s0133,no_issue,,,,no,,checker-3
+r0539,A,ethics-of-circumcision,s0136,no_issue,,,,no,,checker-3
+r0540,A,ethics-of-circumcision,s0143,no_issue,,,,no,,checker-3
+r0541,A,ethics-of-circumcision,s0144,no_issue,,,,no,,checker-3
+r0542,A,ethics-of-circumcision,s0147,no_issue,,,,no,,checker-3
+r0543,A,ethics-of-circumcision,s0148,no_issue,,,,no,,checker-3
+r0544,A,ethics-of-circumcision,s0149,no_issue,,,,no,,checker-3
+r0545,A,ethics-of-circumcision,s0151,no_issue,,,,no,,checker-3
+r0546,A,ethics-of-circumcision,s0152,no_issue,,,,no,,checker-3
+r0547,A,ethics-of-circumcision,s0153,no_issue,,,,no,,checker-3
+r0548,A,ethics-of-circumcision,s0155,no_issue,,,,no,,checker-3
+r0549,A,ethics-of-circumcision,s0156,no_issue,,,,no,,checker-3
+r0550,A,ethics-of-circumcision,s0158,no_issue,,,,no,,checker-3
+r0551,A,ethics-of-circumcision,s0159,no_issue,,,,no,,checker-3
+r0552,A,ethics-of-circumcision,s0160,no_issue,,,,no,,checker-3
+r0553,A,ethics-of-circumcision,s0161,no_issue,,,,no,,checker-3
+r0554,A,ethics-of-circumcision,s0162,no_issue,,,,no,,checker-3
+r0555,A,ethics-of-circumcision,s0163,no_issue,,,,no,,checker-3
+r0556,A,ethics-of-circumcision,s0170,no_issue,,,,no,,checker-3
+r0557,A,ethics-of-circumcision,s0171,no_issue,,,,no,,checker-3
+r0558,A,ethics-of-circumcision,s0172,no_issue,,,,no,,checker-3
+r0559,A,ethics-of-circumcision,s0174,no_issue,,,,no,,checker-3
+r0560,A,ethics-of-circumcision,s0175,no_issue,,,,no,,checker-3
+r0561,A,ethics-of-circumcision,s0176,no_issue,,,,no,,checker-3
+r0562,A,ethics-of-circumcision,s0178,no_issue,,,,no,,checker-3
+r0563,A,ethics-of-circumcision,s0179,no_issue,,,,no,,checker-3
+r0564,A,ethics-of-circumcision,s0181,no_issue,,,,no,,checker-3
+r0565,A,ethics-of-circumcision,s0182,no_issue,,,,no,,checker-3
+r0566,A,ethics-of-circumcision,s0200,no_issue,,,,no,,checker-3
+r0567,A,ethics-of-circumcision,s0207,no_issue,,,,no,,checker-3
+r0568,A,ethics-of-circumcision,s0208,no_issue,,,,no,,checker-3
+r0569,A,ethics-of-circumcision,s0210,no_issue,,,,no,,checker-3
+r0570,A,ethics-of-circumcision,s0211,no_issue,,,,no,,checker-3
+r0571,A,ethics-of-circumcision,s0212,no_issue,,,,no,,checker-4
+r0572,A,ethics-of-circumcision,s0233,no_issue,,,,no,,checker-4
+r0573,A,ethics-of-circumcision,s0237,no_issue,,,,no,,checker-4
+r0574,A,ethics-of-circumcision,s0238,no_issue,,,,no,,checker-4
+r0575,A,ethics-of-circumcision,s0239,no_issue,,,,no,,checker-4
+r0576,A,ethics-of-circumcision,s0241,possible_issue,irrelevant-conclusion,"however, empirical data reveal low voluntary uptake, suggesting many uncircumcised males forgo the procedure despite established preventive benefits","Offered as a reply to the autonomy case for adult timing, but low adult uptake shows only that adults often decline, not that adults cannot weigh risks themselves; possible issue because the reply may be meant only as a cost of delay (a related question), not as refuting autonomy.",no,,checker-4
+r0577,A,ethics-of-circumcision,s0243,no_issue,,,,no,,checker-4
+r0578,A,ethics-of-circumcision,s0245,no_issue,,,,no,,checker-4
+r0579,A,ethics-of-circumcision,s0246,no_issue,,,,no,,checker-4
+r0580,A,ethics-of-circumcision,s0248,no_issue,,,,no,,checker-4
+r0581,A,ethics-of-circumcision,s0249,no_issue,,,,no,,checker-4
+r0582,A,ethics-of-circumcision,s0250,no_issue,,,,no,,checker-4
+r0583,A,ethics-of-circumcision,s0251,no_issue,,,,no,,checker-4
+r0584,A,ethics-of-circumcision,s0252,no_issue,,,,no,,checker-4
+r0585,A,ethics-of-circumcision,s0254,no_issue,,,,no,,checker-4
+r0586,A,ethics-of-circumcision,s0255,no_issue,,,,no,,checker-4
+r0587,A,ethics-of-circumcision,s0259,no_issue,,,,no,,checker-4
+r0588,A,ethics-of-circumcision,s0264,no_issue,,,,no,,checker-4
+r0589,A,ethics-of-circumcision,s0267,no_issue,,,,no,,checker-4
+r0590,A,ethics-of-circumcision,s0268,no_issue,,,,no,,checker-4
+r0591,A,ethics-of-circumcision,s0301,no_issue,,,,no,,checker-4
+r0592,A,ethics-of-circumcision,s0304,no_issue,,,,no,,checker-4
+r0593,A,ethics-of-circumcision,s0306,possible_issue,secundum-quid,"Male circumcision, by contrast, yields documented protective effects, including a 50-60% reduction in heterosexual HIV acquisition per three randomized controlled trials in Africa","In a child-rights comparison with FGM/C, adult heterosexual African trial results are offered as a general benefit of male circumcision including neonatal; possible issue because the sentence keeps ""in Africa""/""heterosexual"" and the next sentence limits endorsement to high-prevalence settings, so it is unclear the conclusion drops the qualification.",no,,checker-4
+r0594,A,ethics-of-circumcision,s0307,no_issue,,,,no,,checker-4
+r0595,A,ethics-of-circumcision,s0309,no_issue,,,,no,,checker-4
+r0596,A,ethics-of-circumcision,s0310,possible_issue,red-herring,Absolutist claims equating male circumcision to mutilation overlook data showing complication rates below 0.5% in hospital settings,"The ""mutilation"" charge concerns removal of healthy tissue without consent; low complication rates answer a different question (surgical safety). Possible issue because harm rates partly bear on the charge, and the opponents' actual wording is not given.",no,,checker-4
+r0597,A,ethics-of-circumcision,s0317,no_issue,,,,no,,checker-4
+r0598,A,ethics-of-circumcision,s0318,no_issue,,,,no,,checker-4
+r0599,A,forced-circumcision,s0173,no_issue,,,,no,,checker-4
+r0600,A,forced-circumcision,s0175,no_issue,,,,no,,checker-4
+r0601,A,forced-circumcision,s0177,no_issue,,,,no,,checker-4
+r0602,A,forced-circumcision,s0179,no_issue,,,,no,,checker-4
+r0603,A,forced-circumcision,s0185,no_issue,,,,no,,checker-4
+r0604,A,forced-circumcision,s0191,no_issue,,,,no,,checker-4
+r0605,A,forced-circumcision,s0199,no_issue,,,,no,,checker-4
+r0606,A,forced-circumcision,s0200,no_issue,,,,no,,checker-4
+r0607,A,forced-circumcision,s0201,no_issue,,,,no,,checker-4
+r0608,A,forced-circumcision,s0205,no_issue,,,,no,,checker-4
+r0609,A,forced-circumcision,s0209,no_issue,,,,no,,checker-4
+r0610,A,forced-circumcision,s0213,no_issue,,,,no,,checker-4
+r0611,A,forced-circumcision,s0235,no_issue,,,,no,,checker-4
+r0612,A,forced-circumcision,s0237,no_issue,,,,no,,checker-4
+r0613,A,forced-circumcision,s0238,no_issue,,,,no,,checker-4
+r0614,A,forced-circumcision,s0259,no_issue,,,,no,,checker-4
+r0615,A,forced-circumcision,s0260,no_issue,,,,no,,checker-4
+r0616,A,forced-circumcision,s0261,no_issue,,,,no,,checker-4
+r0617,A,forced-circumcision,s0263,no_issue,,,,no,,checker-4
+r0618,A,forced-circumcision,s0264,no_issue,,,,no,,checker-4
+r0619,A,forced-circumcision,s0265,no_issue,,,,no,,checker-4
+r0620,A,forced-circumcision,s0266,no_issue,,,,no,,checker-4
+r0621,A,forced-circumcision,s0267,no_issue,,,,no,,checker-4
+r0622,A,forced-circumcision,s0268,no_issue,,,,no,,checker-4
+r0623,A,forced-circumcision,s0269,no_issue,,,,no,,checker-4
+r0624,A,forced-circumcision,s0270,no_issue,,,,no,,checker-4
+r0625,A,forced-circumcision,s0271,no_issue,,,,no,,checker-4
+r0626,A,forced-circumcision,s0274,no_issue,,,,no,,checker-4
+r0627,A,forced-circumcision,s0275,no_issue,,,,no,,checker-4
+r0628,A,forced-circumcision,s0278,no_issue,,,,no,,checker-4
+r0629,A,foreskin,s0009,no_issue,,,,no,,checker-4
+r0630,A,foreskin,s0077,no_issue,,,,no,,checker-4
+r0631,A,foreskin,s0080,no_issue,,,,no,,checker-4
+r0632,A,foreskin,s0157,no_issue,,,,no,,checker-4
+r0633,A,foreskin,s0160,no_issue,,,,no,,checker-4
+r0634,A,foreskin,s0161,no_issue,,,,no,,checker-4
+r0635,A,foreskin,s0163,no_issue,,,,no,,checker-4
+r0636,A,foreskin,s0164,no_issue,,,,no,,checker-4
+r0637,A,foreskin,s0176,no_issue,,,,no,,checker-4
+r0638,A,foreskin,s0183,no_issue,,,,no,,checker-4
+r0639,A,foreskin,s0185,no_issue,,,,no,,checker-4
+r0640,A,foreskin,s0187,no_issue,,,,no,,checker-4
+r0641,A,foreskin,s0188,no_issue,,,,no,,checker-4
+r0642,A,foreskin,s0189,no_issue,,,,no,,checker-4
+r0643,A,foreskin,s0191,no_issue,,,,no,,checker-4
+r0644,A,foreskin,s0192,no_issue,,,,no,,checker-4
+r0645,A,foreskin,s0193,no_issue,,,,no,,checker-4
+r0646,A,foreskin,s0195,no_issue,,,,no,,checker-4
+r0647,A,foreskin,s0196,no_issue,,,,no,,checker-4
+r0648,A,foreskin,s0197,no_issue,,,,no,,checker-4
+r0649,A,foreskin,s0203,no_issue,,,,no,,checker-4
+r0650,A,foreskin,s0204,no_issue,,,,no,,checker-4
+r0651,A,foreskin,s0209,no_issue,,,,no,,checker-4
+r0652,A,foreskin,s0268,no_issue,,,,no,,checker-4
+r0653,A,foreskin,s0269,no_issue,,,,no,,checker-4
+r0654,A,foreskin,s0270,no_issue,,,,no,,checker-4
+r0655,A,foreskin,s0271,no_issue,,,,no,,checker-4
+r0656,A,foreskin,s0273,no_issue,,,,no,,checker-4
+r0657,A,foreskin,s0274,no_issue,,,,no,,checker-4
+r0658,A,foreskin,s0275,no_issue,,,,no,,checker-4
+r0659,A,foreskin,s0277,no_issue,,,,no,,checker-4
+r0660,A,foreskin,s0278,no_issue,,,,no,,checker-4
+r0661,A,foreskin,s0279,no_issue,,,,no,,checker-4
+r0662,A,foreskin,s0280,possible_issue,appeal-to-authority,"These evaluations, drawn from peer-reviewed analyses, underscore a pattern where advocacy prioritizes absolutist positions over causal evidence from prospective trials","In its own voice the article turns the critics' evaluations (Morris and colleagues, reported just before) into an established ""pattern""; possible issue because whether these critics are partisan or broadly accepted, and whether other experts disagree about advocacy's evidence use, is not settled by the text.",no,,checker-4
+r0663,A,foreskin,s0282,no_issue,,,,no,,checker-4
+r0664,A,foreskin,s0283,no_issue,,,,no,,checker-4
+r0665,A,foreskin,s0289,possible_issue,red-herring,"countering claims of foreskin-specific erogenous loss, as glans keratinization does not demonstrably impair overall penile sensation in controlled studies","The claim answered is loss of sensation from the removed foreskin tissue itself; the reply addresses glans keratinization and overall function instead. Possible issue because overall function data partly bears on whether that loss matters, as the next sentence concedes.",no,,checker-4
+r0666,A,foreskin-man,s0075,no_issue,,,,no,,checker-4
+r0667,A,foreskin-man,s0082,no_issue,,,,no,,checker-4
+r0668,A,foreskin-man,s0084,no_issue,,,,no,,checker-4
+r0669,A,foreskin-man,s0085,no_issue,,,,no,,checker-4
+r0670,A,foreskin-man,s0088,no_issue,,,,no,,checker-4
+r0671,A,foreskin-man,s0092,no_issue,,,,no,,checker-4
+r0672,A,foreskin-man,s0096,no_issue,,,,no,,checker-4
+r0673,A,foreskin-man,s0106,no_issue,,,,no,,checker-4
+r0674,A,foreskin-man,s0119,no_issue,,,,no,,checker-4
+r0675,A,foreskin-man,s0120,no_issue,,,,no,,checker-4
+r0676,A,foreskin-man,s0125,no_issue,,,,no,,checker-4
+r0677,A,foreskin-restoration,s0011,no_issue,,,,no,,checker-4
+r0678,A,foreskin-restoration,s0267,no_issue,,,,no,,checker-4
+r0679,A,foreskin-restoration,s0268,no_issue,,,,no,,checker-4
+r0680,A,history-of-circumcision,s0071,no_issue,,,,no,,checker-4
+r0681,A,history-of-circumcision,s0110,no_issue,,,,no,,checker-4
+r0682,A,history-of-circumcision,s0177,no_issue,,,,no,,checker-4
+r0683,A,history-of-circumcision,s0178,no_issue,,,,no,,checker-4
+r0684,A,history-of-circumcision,s0179,no_issue,,,,no,,checker-4
+r0685,A,history-of-circumcision,s0182,no_issue,,,,no,,checker-4
+r0686,A,history-of-circumcision,s0190,no_issue,,,,no,,checker-4
+r0687,A,history-of-circumcision,s0191,no_issue,,,,no,,checker-4
+r0688,A,history-of-circumcision,s0192,no_issue,,,,no,,checker-4
+r0689,A,history-of-circumcision,s0193,no_issue,,,,no,,checker-4
+r0690,A,history-of-circumcision,s0195,no_issue,,,,no,,checker-4
+r0691,A,history-of-circumcision,s0197,no_issue,,,,no,,checker-4
+r0692,A,history-of-circumcision,s0199,no_issue,,,,no,,checker-4
+r0693,A,history-of-circumcision,s0200,no_issue,,,,no,,checker-4
+r0694,A,history-of-circumcision,s0201,no_issue,,,,no,,checker-4
+r0695,A,history-of-circumcision,s0204,no_issue,,,,no,,checker-4
+r0696,A,khitan-circumcision,s0007,no_issue,,,,no,,checker-4
+r0697,A,khitan-circumcision,s0081,no_issue,,,,no,,checker-4
+r0698,A,khitan-circumcision,s0126,no_issue,,,,no,,checker-4
+r0699,A,khitan-circumcision,s0146,no_issue,,,,no,,checker-4
+r0700,A,khitan-circumcision,s0147,no_issue,,,,no,,checker-4
+r0701,A,khitan-circumcision,s0148,no_issue,,,,no,,checker-4
+r0702,A,khitan-circumcision,s0150,no_issue,,,,no,,checker-4
+r0703,A,khitan-circumcision,s0151,no_issue,,,,no,,checker-4
+r0704,A,khitan-circumcision,s0153,no_issue,,,,no,,checker-4
+r0705,A,khitan-circumcision,s0154,no_issue,,,,no,,checker-4
+r0706,A,khitan-circumcision,s0156,no_issue,,,,no,,checker-4
+r0707,A,khitan-circumcision,s0157,no_issue,,,,no,,checker-4
+r0708,A,khitan-circumcision,s0180,no_issue,,,,no,,checker-4
+r0709,A,khitan-circumcision,s0181,no_issue,,,,no,,checker-4
+r0710,A,khitan-circumcision,s0182,no_issue,,,,no,,checker-4
+r0711,A,khitan-circumcision,s0185,no_issue,,,,no,,checker-4
+r0712,A,khitan-circumcision,s0198,no_issue,,,,no,,checker-4
+r0713,A,khitan-circumcision,s0199,no_issue,,,,no,,checker-4
+r0714,A,khitan-circumcision,s0201,no_issue,,,,no,,checker-4
+r0715,A,khitan-circumcision,s0202,no_issue,,,,no,,checker-4
+r0716,A,khitan-circumcision,s0203,no_issue,,,,no,,checker-4
+r0717,A,khitan-circumcision,s0205,possible_issue,secundum-quid,"randomized controlled trials demonstrate that male circumcision, including khitan when performed medically, reduces heterosexual HIV acquisition by approximately 60%","Adult heterosexual trial results from high-prevalence Africa are stated without that qualification and extended to khitan generally (largely childhood, many low-prevalence settings); possible issue because the step's conclusion (khitan differs from FGC in health outcomes) may not depend on the dropped qualification, since FGC is said to have no benefits at all.",no,,checker-4
+r0718,A,khitan-circumcision,s0206,no_issue,,,,no,,checker-4
+r0719,A,khitan-circumcision,s0209,no_issue,,,,no,,checker-4
+r0720,A,khitan-circumcision,s0210,no_issue,,,,no,,checker-4
+r0721,A,khitan-circumcision,s0229,no_issue,,,,no,,checker-4
+r0722,A,khitan-circumcision,s0230,no_issue,,,,no,,checker-4
+r0723,A,meatal-stenosis,s0004,no_issue,,,,no,,checker-4
+r0724,A,meatal-stenosis,s0151,no_issue,,,,no,,checker-4
+r0725,A,meatal-stenosis,s0158,no_issue,,,,no,,checker-4
+r0726,A,meatal-stenosis,s0165,no_issue,,,,no,,checker-4
+r0727,A,meatal-stenosis,s0166,no_issue,,,,no,,checker-4
+r0728,A,meatal-stenosis,s0167,no_issue,,,,no,,checker-4
+r0729,A,mohel,s0004,no_issue,,,,no,,checker-4
+r0730,A,mohel,s0016,no_issue,,,,no,,checker-4
+r0731,A,mohel,s0068,no_issue,,,,no,,checker-4
+r0732,A,mohel,s0084,no_issue,,,,no,,checker-4
+r0733,A,mohel,s0100,no_issue,,,,no,,checker-4
+r0734,A,mohel,s0116,no_issue,,,,no,,checker-4
+r0735,A,mohel,s0118,no_issue,,,,no,,checker-4
+r0736,A,mohel,s0119,no_issue,,,,no,,checker-4
+r0737,A,mohel,s0121,possible_issue,secundum-quid,Three randomized controlled trials conducted in Africa between 2005 and 2007 demonstrated that male circumcision reduces heterosexual HIV acquisition by 51% to 60%,"Under ""Evidence-Based Benefits of Ritual Circumcision"" (infant brit milah), adult high-prevalence African trial results are offered as a benefit of the ritual; the sentence itself keeps ""in Africa"" and ""heterosexual"", and the explicit extension to neonatal circumcision comes in the next sentence, so possible issue for this sentence.",no,,checker-4
+r0738,A,mohel,s0124,no_issue,,,,no,,checker-4
+r0739,A,mohel,s0125,no_issue,,,,no,,checker-4
+r0740,A,mohel,s0127,no_issue,,,,no,,checker-4
+r0741,A,mohel,s0128,no_issue,,,,no,,checker-4
+r0742,A,mohel,s0130,no_issue,,,,no,,checker-4
+r0743,A,mohel,s0131,no_issue,,,,no,,checker-4
+r0744,A,mohel,s0134,no_issue,,,,no,,checker-4
+r0745,A,mohel,s0136,no_issue,,,,no,,checker-4
+r0746,A,mohel,s0138,no_issue,,,,no,,checker-4
+r0747,A,mohel,s0139,no_issue,,,,no,,checker-4
+r0748,A,mohel,s0140,possible_issue,observational-interpretation,"mandatory reporting and hygiene protocols have sustained low adverse event rates, demonstrating that standardized training and prompt intervention—such as cauterization for bleeding—effectively minimize both acute and long-term risks","A causal effect of training and protocols on acute and long-term risks is stated as demonstrated from low reported rates in one setting, with no comparison group; possible issue because hygiene and prompt care reducing acute complications is a well-known mechanism, though the long-term claim would need follow-up data comparing settings with and without these protocols.",no,,checker-4
+r0749,A,mohel,s0158,no_issue,,,,no,,checker-4
+r0750,A,mohel,s0159,no_issue,,,,no,,checker-4
+r0751,A,mohel,s0172,no_issue,,,,no,,checker-4
+r0752,A,mohel,s0182,no_issue,,,,no,,checker-4
+r0753,A,mohel,s0224,no_issue,,,,no,,checker-4
+r0754,A,mohel,s0225,no_issue,,,,no,,checker-4
+r0755,A,mohel,s0226,no_issue,,,,no,,checker-4
+r0756,A,mohel,s0229,no_issue,,,,no,,checker-4
+r0757,A,mohel,s0230,no_issue,,,,no,,checker-4
+r0758,A,paraphimosis,s0112,no_issue,,,,no,,checker-4
+r0759,A,paraphimosis,s0173,no_issue,,,,no,,checker-4
+r0760,A,paraphimosis,s0174,no_issue,,,,no,,checker-4
+r0761,A,paraphimosis,s0181,no_issue,,,,no,,checker-5
+r0762,A,paraphimosis,s0203,no_issue,,,,no,,checker-5
+r0763,A,paraphimosis,s0204,no_issue,,,,no,,checker-5
+r0764,A,penile-subincision,s0092,no_issue,,,,no,,checker-5
+r0765,A,penile-subincision,s0094,no_issue,,,,no,,checker-5
+r0766,A,penile-subincision,s0096,no_issue,,,,no,,checker-5
+r0767,A,penile-subincision,s0116,no_issue,,,,no,,checker-5
+r0768,A,penile-subincision,s0123,no_issue,,,,no,,checker-5
+r0769,A,penile-subincision,s0129,no_issue,,,,no,,checker-5
+r0770,A,penile-subincision,s0139,no_issue,,,,no,,checker-5
+r0771,A,phimosis,s0075,no_issue,,,,no,,checker-5
+r0772,A,phimosis,s0142,no_issue,,,,no,,checker-5
+r0773,A,phimosis,s0155,no_issue,,,,no,,checker-5
+r0774,A,phimosis,s0156,no_issue,,,,no,,checker-5
+r0775,A,phimosis,s0206,no_issue,,,,no,,checker-5
+r0776,A,phimosis,s0209,no_issue,,,,no,,checker-5
+r0777,A,phimosis,s0246,no_issue,,,,no,,checker-5
+r0778,A,phimosis,s0261,no_issue,,,,no,,checker-5
+r0779,A,phimosis,s0262,no_issue,,,,no,,checker-5
+r0780,A,phimosis,s0266,no_issue,,,,no,,checker-5
+r0781,A,phimosis,s0272,no_issue,,,,no,,checker-5
+r0782,A,phimosis,s0274,no_issue,,,,no,,checker-5
+r0783,A,phimosis,s0276,no_issue,,,,no,,checker-5
+r0784,A,phimosis,s0287,no_issue,,,,no,,checker-5
+r0785,A,prevalence-of-circumcision,s0053,no_issue,,,,no,,checker-5
+r0786,A,prevalence-of-circumcision,s0054,no_issue,,,,no,,checker-5
+r0787,A,prevalence-of-circumcision,s0057,no_issue,,,,no,,checker-5
+r0788,A,prevalence-of-circumcision,s0090,no_issue,,,,no,,checker-5
+r0789,A,prevalence-of-circumcision,s0095,no_issue,,,,no,,checker-5
+r0790,A,prevalence-of-circumcision,s0098,no_issue,,,,no,,checker-5
+r0791,A,redundant-prepuce,s0096,no_issue,,,,no,,checker-5
+r0792,A,redundant-prepuce,s0101,no_issue,,,,no,,checker-5
+r0793,A,redundant-prepuce,s0106,no_issue,,,,no,,checker-5
+r0794,A,redundant-prepuce,s0163,no_issue,,,,no,,checker-5
+r0795,A,religion-and-circumcision,s0187,no_issue,,,,no,,checker-5
+r0796,A,religion-and-circumcision,s0188,no_issue,,,,no,,checker-5
+r0797,A,religion-and-circumcision,s0199,no_issue,,,,no,,checker-5
+r0798,A,religion-and-circumcision,s0203,no_issue,,,,no,,checker-5
+r0799,A,religion-and-circumcision,s0208,no_issue,,,,no,,checker-5
+r0800,A,religion-and-circumcision,s0210,no_issue,,,,no,,checker-5
+r0801,A,religion-and-circumcision,s0211,no_issue,,,,no,,checker-5
+r0802,A,religion-and-circumcision,s0214,no_issue,,,,no,,checker-5
+r0803,A,religion-and-circumcision,s0216,no_issue,,,,no,,checker-5
+r0804,A,religion-and-circumcision,s0217,no_issue,,,,no,,checker-5
+r0805,A,religion-and-circumcision,s0218,no_issue,,,,no,,checker-5
+r0806,A,religion-and-circumcision,s0219,no_issue,,,,no,,checker-5
+r0807,A,religion-and-circumcision,s0223,no_issue,,,,no,,checker-5
+r0808,A,religion-and-circumcision,s0225,no_issue,,,,no,,checker-5
+r0809,A,religion-and-circumcision,s0227,possible_issue,cherry-picking,risk-benefit analyses suggest net positives exceeding 100:1 for certain conditions over a lifetime,"Own-voice rebuttal answers a general critique (benefits overstated relative to risks for neonatal procedures) with a ratio limited to ""certain conditions""; whether this selects favourable conditions depends on whether the overall risk-benefit estimate differs, which the text does not give.",no,,checker-5
+r0810,A,stapler-circumcision,s0005,no_issue,,,,no,,checker-5
+r0811,A,stapler-circumcision,s0104,no_issue,,,,no,,checker-5
+r0812,A,stapler-circumcision,s0127,no_issue,,,,no,,checker-5
+r0813,A,stapler-circumcision,s0139,no_issue,,,,no,,checker-5
+r0814,A,stapler-circumcision,s0145,no_issue,,,,no,,checker-5
+r0815,A,stapler-circumcision,s0209,no_issue,,,,no,,checker-5
+r0816,A,stapler-circumcision,s0211,possible_issue,hasty-generalization,These early studies on stapler devices established the technique's feasibility and safety,"The only study described is 62 adult patients with a 4.8% complication rate, offered as having ""established"" safety; settled by how many and how large the other early studies were, which the passage does not say.",no,,checker-5
+r0817,A,ulwaluko,s0040,no_issue,,,,no,,checker-5
+r0818,A,ulwaluko,s0050,no_issue,,,,no,,checker-5
+r0819,A,ulwaluko,s0081,no_issue,,,,no,,checker-5
+r0820,A,ulwaluko,s0083,no_issue,,,,no,,checker-5
+r0821,A,ulwaluko,s0099,no_issue,,,,no,,checker-5
+r0822,A,ulwaluko,s0100,no_issue,,,,no,,checker-5
+r0823,A,ulwaluko,s0102,no_issue,,,,no,,checker-5
+r0824,A,ulwaluko,s0103,no_issue,,,,no,,checker-5
+r0825,A,ulwaluko,s0109,no_issue,,,,no,,checker-5
+r0826,A,ulwaluko,s0110,no_issue,,,,no,,checker-5
+r0827,A,ulwaluko,s0122,no_issue,,,,no,,checker-5
+r0828,A,ulwaluko,s0144,no_issue,,,,no,,checker-5
+r0829,A,ulwaluko,s0153,no_issue,,,,no,,checker-5
+r0830,A,ulwaluko,s0176,no_issue,,,,no,,checker-5
+r0831,A,ulwaluko,s0177,no_issue,,,,no,,checker-5
+r0832,A,ulwaluko,s0181,no_issue,,,,no,,checker-5
+r0833,A,ulwaluko,s0182,no_issue,,,,no,,checker-5
+r0834,A,ulwaluko,s0183,no_issue,,,,no,,checker-5
+r0835,A,ulwaluko,s0185,no_issue,,,,no,,checker-5
+r0836,A,ulwaluko,s0189,no_issue,,,,no,,checker-5
+r0837,A,ulwaluko,s0207,no_issue,,,,no,,checker-5
+r0838,A,views-on-circumcision,s0003,no_issue,,,,no,,checker-5
+r0839,A,views-on-circumcision,s0005,no_issue,,,,no,,checker-5
+r0840,A,views-on-circumcision,s0066,no_issue,,,,no,,checker-5
+r0841,A,views-on-circumcision,s0069,no_issue,,,,no,,checker-5
+r0842,A,views-on-circumcision,s0070,no_issue,,,,no,,checker-5
+r0843,A,views-on-circumcision,s0071,no_issue,,,,no,,checker-5
+r0844,A,views-on-circumcision,s0073,no_issue,,,,no,,checker-5
+r0845,A,views-on-circumcision,s0074,no_issue,,,,no,,checker-5
+r0846,A,views-on-circumcision,s0075,no_issue,,,,no,,checker-5
+r0847,A,views-on-circumcision,s0077,no_issue,,,,no,,checker-5
+r0848,A,views-on-circumcision,s0078,no_issue,,,,no,,checker-5
+r0849,A,views-on-circumcision,s0079,no_issue,,,,no,,checker-5
+r0850,A,views-on-circumcision,s0080,no_issue,,,,no,,checker-5
+r0851,A,views-on-circumcision,s0082,no_issue,,,,no,,checker-5
+r0852,A,views-on-circumcision,s0083,no_issue,,,,no,,checker-5
+r0853,A,views-on-circumcision,s0084,no_issue,,,,no,,checker-5
+r0854,A,views-on-circumcision,s0086,no_issue,,,,no,,checker-5
+r0855,A,views-on-circumcision,s0087,no_issue,,,,no,,checker-5
+r0856,A,views-on-circumcision,s0089,no_issue,,,,no,,checker-5
+r0857,A,views-on-circumcision,s0090,no_issue,,,,no,,checker-5
+r0858,A,views-on-circumcision,s0093,no_issue,,,,no,,checker-5
+r0859,A,views-on-circumcision,s0094,no_issue,,,,no,,checker-5
+r0860,A,views-on-circumcision,s0095,no_issue,,,,no,,checker-5
+r0861,A,views-on-circumcision,s0097,no_issue,,,,no,,checker-5
+r0862,A,views-on-circumcision,s0099,no_issue,,,,no,,checker-5
+r0863,A,views-on-circumcision,s0101,no_issue,,,,no,,checker-5
+r0864,A,views-on-circumcision,s0102,no_issue,,,,no,,checker-5
+r0865,A,views-on-circumcision,s0104,no_issue,,,,no,,checker-5
+r0866,A,views-on-circumcision,s0105,no_issue,,,,no,,checker-5
+r0867,A,views-on-circumcision,s0113,no_issue,,,,no,,checker-5
+r0868,A,views-on-circumcision,s0119,no_issue,,,,no,,checker-5
+r0869,A,views-on-circumcision,s0121,no_issue,,,,no,,checker-5
+r0870,A,views-on-circumcision,s0122,no_issue,,,,no,,checker-5
+r0871,A,views-on-circumcision,s0123,flag,false-analogy,parental proxy consent is a established legal norm for interventions like vaccinations or ear piercings in minors,"Own-voice step: proxy consent is accepted for vaccinations and ear piercing, so the stance against non-therapeutic circumcision is undermined; the objection being answered (s0118, s0120) rests on irreversible surgical removal of tissue without necessity, and vaccination is not surgery and ear piercing removes no tissue, so the cases differ in the respect the conclusion turns on; not mere illustration, since ""undermining"" draws the conclusion.",yes,,checker-5
+r0872,A,views-on-circumcision,s0127,no_issue,,,,no,,checker-5
+r0873,A,views-on-circumcision,s0129,no_issue,,,,no,,checker-5
+r0874,A,views-on-circumcision,s0131,no_issue,,,,no,,checker-5
+r0875,A,views-on-circumcision,s0132,no_issue,,,,no,,checker-5
+r0876,A,views-on-circumcision,s0133,no_issue,,,,no,,checker-5
+r0877,A,views-on-circumcision,s0135,no_issue,,,,no,,checker-5
+r0878,A,views-on-circumcision,s0136,flag,false-analogy,"equating a low-risk, benefit-accruing intervention—comparable to routine ear piercing in some cultures—with non-therapeutic harm","Own-voice rebuttal of the ""mutilation"" label draws on likeness to ear piercing; the label turns on irreversible surgical removal of tissue, which ear piercing does not involve (common knowledge), so the cases differ in the respect relevant to the conclusion; the comparison carries the rebuttal rather than illustrating it.",yes,,checker-5
+r0878,A,views-on-circumcision,s0136,possible_issue,slippery-slope,a bulwark against overreach that could parallel compelled reversals of other childhood norms,"Restricting circumcision is said to risk a chain toward compelled reversal of other childhood norms with no link given; hedged with ""could"" and the steps would need new decisions, so settled by whether any binding mechanism linking a circumcision rule to other norms is shown.",no,,checker-5
+r0879,A,views-on-circumcision,s0137,no_issue,,,,no,,checker-5
+r0880,A,views-on-circumcision,s0155,no_issue,,,,no,,checker-5
+r0881,A,views-on-circumcision,s0168,no_issue,,,,no,,checker-5
+r0882,A,views-on-circumcision,s0171,no_issue,,,,no,,checker-5
+r0883,A,views-on-circumcision,s0172,no_issue,,,,no,,checker-5
+r0884,A,views-on-circumcision,s0178,no_issue,,,,no,,checker-5
+r0885,A,views-on-circumcision,s0179,no_issue,,,,no,,checker-5
+r0886,A,views-on-circumcision,s0188,no_issue,,,,no,,checker-5
+r0887,A,views-on-circumcision,s0190,no_issue,,,,no,,checker-5
+r0888,A,views-on-circumcision,s0191,no_issue,,,,no,,checker-5
+r0889,B,ashley-montagu-resolution,s0009,no_issue,,,,no,pass 2: depends on ashley-montagu-resolution s0176,checker-5
+r0890,B,ashley-montagu-resolution,s0176,flag,secundum-quid,"the resolution's categorical condemnation overlooked systematic reviews documenting net health benefits for neonatal male circumcision, including 50-60% reductions in heterosexual HIV acquisition","Own-voice criticism treats the 50-60% figure, which comes from adult heterosexual trials in high-prevalence settings (as the article states elsewhere), as a documented benefit of neonatal circumcision generally; the limiting conditions (adult, high-prevalence, heterosexual) are dropped though they bear on the conclusion; not a mere illustration.",no,step 5: over-extrapolation; step 5: secundum-quid,checker-5
+r0891,B,ashley-montagu-resolution,s0204,no_issue,,,,no,step 5: suppressed-evidence,checker-5
+r0892,B,brit-milah,s0293,possible_issue,straw-man,These positions counter activist claims of net harm by prioritizing randomized and cohort data over anecdotal or ideological critiques,"Own-voice sentence sums up opposing critiques as anecdotal or ideological and treats them as answered; whether this misstates what critics hold depends on their actual arguments, which this passage does not quote.",no,step 5: straw-man,checker-5
+r0893,B,circumcision,s0180,no_issue,,,,no,step 5: double-standard,checker-5
+r0894,B,circumcision,s0181,no_issue,,,,no,pass 2: depends on circumcision s0180,checker-5
+r0895,B,circumcision,s0333,no_issue,,,,no,step 5: appeal-to-authority; step 5: inconsistency,checker-5
+r0896,B,circumcision-and-hiv,s0232,no_issue,,,,no,step 5: non-sequitur,checker-5
+r0897,B,circumcision-and-hiv,s0233,no_issue,,,,no,pass 2: depends on circumcision-and-hiv s0232,checker-5
+r0898,B,circumcision-and-hiv,s0234,no_issue,,,,no,pass 2: depends on circumcision-and-hiv s0232,checker-5
+r0899,B,circumcision-and-hiv,s0252,no_issue,,,,no,step 5: straw-man,checker-5
+r0900,B,circumcision-and-law,s0007,no_issue,,,,no,step 5: poisoning-the-well,checker-5
+r0901,B,circumcision-and-law,s0102,flag,red-herring,despite empirical data showing low complication rates (under 1% for trained providers) and no long-term functional deficits in peer-reviewed studies,"Own-voice ""despite"" sets complication and function data against an objection framed as a violation of autonomy; the autonomy objection does not rest on complication rates, and the sentence does not show how the data bears on consent, so the new topic draws attention from the issue raised.",yes,step 5: irrelevant-conclusion,checker-5
+r0902,B,circumcision-controversies,s0059,no_issue,,,,no,pass 2: depends on circumcision-controversies s0126,checker-5
+r0903,B,circumcision-controversies,s0085,no_issue,,,,no,step 5: non-sequitur,checker-5
+r0904,B,circumcision-controversies,s0099,no_issue,,,,no,pass 2: depends on circumcision-controversies s0101,checker-5
+r0905,B,circumcision-controversies,s0101,no_issue,,,,no,step 5: false-analogy,checker-5
+r0906,B,circumcision-controversies,s0103,possible_issue,secundum-quid,"Societal utility further bolsters parental discretion in circumcision, as the procedure contributes to population-level reductions in sexually transmitted infections",Population-level STI reductions (supported in the next sentence by adult heterosexual HIV trials) are used to bolster parental discretion over infant circumcision generally; settled by whether such population reductions are shown for neonatal circumcision in the low-prevalence settings the discretion claim covers.,no,step 5: false-analogy,checker-5
+r0907,B,circumcision-controversies,s0105,flag,secundum-quid,"These effects extend to broader public health gains, including decreased healthcare burdens from preventable infections, justifying proxy interventions where net benefits accrue to dependents and society despite the child's inability to consent","""These effects"" are the adult heterosexual HIV/STI trial results of the previous sentence; they are used without that qualification to justify proxy (infant) interventions, and the conclusion relies on dropping the adult, high-prevalence qualifier.",no,step 5: secundum-quid,checker-5
+r0908,B,circumcision-controversies,s0120,no_issue,,,,no,pass 2: depends on circumcision-controversies s0122,checker-5
+r0909,B,circumcision-controversies,s0121,no_issue,,,,no,pass 2: depends on circumcision-controversies s0122,checker-5
+r0910,B,circumcision-controversies,s0122,no_issue,,,,no,step 5: far-fetched-hypothesis,checker-5
+r0911,B,circumcision-controversies,s0126,no_issue,,,,no,step 5: double-standard,checker-5
+r0912,B,circumcision-controversies,s0128,possible_issue,mcnamara-fallacy,"Prioritizing observable utilities over subjective proxies, the procedure's net causal effect favors reduced disease transmission over unsubstantiated pleasure deficits","The judgement weighs measured disease outcomes and sets aside sensitivity reports as ""subjective proxies""; a flag needs that sexual experience is important and not captured by the satisfaction measures cited just before, which the text does not settle.",no,step 5: mcnamara-fallacy; pass 2: depends on circumcision-controversies s0126,checker-5
+r0913,B,circumcision-controversies,s0225,no_issue,,,,no,pass 2: depends on circumcision-controversies s0073,checker-5
+r0914,B,circumcision-controversies,s0226,no_issue,,,,no,pass 2: depends on circumcision-controversies s0073,checker-5
+r0915,B,circumcision-in-africa,s0282,no_issue,,,,no,step 5: genetic-fallacy,checker-5
+r0916,B,circumcision-in-africa,s0284,possible_issue,tu-quoque,"selective cultural relativism and misinformation tactics by anti-circumcision activists, who aggressively oppose male procedures while supporting interventions against female genital mutilation","Activists' position is discredited by an alleged inconsistency, but opposing both male and female procedures is not inconsistent with the principle they state; settled by showing which stated principle the activists apply selectively.",no,pass 2: depends on circumcision-in-africa s0282,checker-5
+r0917,B,circumcision-in-africa,s0285,no_issue,,,,no,step 5: nut-picking,checker-5
+r0918,B,cultural-views-on-circumcision-aesthetics,s0124,no_issue,,,,no,step 5: inconsistency,checker-5
+r0919,B,cultural-views-on-circumcision-aesthetics,s0125,no_issue,,,,no,pass 2: depends on cultural-views-on-circumcision-aesthetics s0124,checker-5
+r0920,B,cultural-views-on-circumcision-aesthetics,s0126,no_issue,,,,no,pass 2: depends on cultural-views-on-circumcision-aesthetics s0124,checker-5
+r0921,B,ethics-of-circumcision,s0024,possible_issue,appeal-to-tradition,"historical continuity in experienced communal hands suggests adaptive safety mechanisms, such as herbal antiseptics, enabling generational persistence","Own-voice step sets the practice's long continuity against the noted elevated risks and infers safety mechanisms from it; hedged with ""suggests"", and a long record can be some evidence, so settled by whether any evidence beyond persistence is given that the traditional mechanisms actually lower risk.",no,step 5: appeal-to-tradition,checker-5
+r0922,B,ethics-of-circumcision,s0072,no_issue,,,,no,step 5: inconsistency,checker-5
+r0923,B,ethics-of-circumcision,s0076,no_issue,,,,no,step 5: double-standard,checker-5
+r0924,B,ethics-of-circumcision,s0100,possible_issue,red-herring,"This framework privileges verifiable causal benefits—such as infection risk mitigation—over hypothetical future regrets, which surveys indicate affect a minority of parents regardless of choice","The future-regret concern in a consent debate is the child's, but the evidence offered is parents' regret; settled by whether ""future regrets"" here was meant as parental regret, in which case the survey bears on it.",no,step 5: straw-man,checker-5
+r0925,B,ethics-of-circumcision,s0105,no_issue,,,,no,step 5: over-extrapolation; step 5: secundum-quid,checker-5
+r0926,B,ethics-of-circumcision,s0107,flag,false-analogy,"Pain scores from observational studies equate heel lancing (mean 2.2-4.0 on validated scales) with unanesthetized circumcision, but both are ethically endorsed when net utility prevails","Own-voice step: heel lancing is accepted despite similar pain, so circumcision is too; the cases differ in respects relevant to the ethical conclusion (heel lancing is a diagnostic needle prick that removes no tissue and screens for conditions like PKU that cause disability, as the prior sentence says, while circumcision is irreversible tissue removal), and the comparison carries the conclusion rather than illustrating it.",yes,pass 2: depends on ethics-of-circumcision s0106,checker-5
+r0927,B,ethics-of-circumcision,s0108,possible_issue,false-analogy,Labeling circumcision non-therapeutic overlooks its analogous preventive ontology,"Carries the heel-prick/newborn-screening analogy forward to reject the ""non-therapeutic"" label; settled by whether the preventive benefit cited (a modeled 16% lifetime HIV reduction) is comparable to what screening averts, which the text does not show.",no,pass 2: depends on ethics-of-circumcision s0106,checker-5
+r0928,B,ethics-of-circumcision,s0110,no_issue,,,,no,step 5: straw-man,checker-5
+r0929,B,ethics-of-circumcision,s0111,no_issue,,,,no,pass 2: depends on ethics-of-circumcision s0110,checker-5
+r0930,B,ethics-of-circumcision,s0164,no_issue,,,,no,step 5: non-sequitur,checker-5
+r0931,B,ethics-of-circumcision,s0168,flag,genetic-fallacy,"This environmental causality underscores how cultural persistence can embody practical responses to historical exigencies, validating continuity","A hypothesised origin as a hygiene adaptation in arid, water-scarce settings (stated just before as ""may have originated"", ""potentially"") is offered as validating continuation of the practice today; that origin does not bear on present merits where the exigency no longer applies, and the hedged hypothesis is restated as ""causality"".",no,step 5: appeal-to-tradition; step 5: genetic-fallacy,checker-5
+r0931,B,ethics-of-circumcision,s0168,possible_issue,argument-from-ignorance,validating continuity where no overriding harm is empirically demonstrated,"Continuation is treated as validated because overriding harm has not been shown; settled by whether a thorough search for such harm is shown, or whether this is meant as a stated procedural default rather than a conclusion of no harm.",no,step 5: appeal-to-tradition; step 5: genetic-fallacy,checker-5
+r0932,B,ethics-of-circumcision,s0214,no_issue,,,,no,step 5: relative-privation,checker-5
+r0933,B,ethics-of-circumcision,s0215,no_issue,,,,no,pass 2: depends on ethics-of-circumcision s0214,checker-5
+r0934,B,ethics-of-circumcision,s0242,no_issue,,,,no,step 5: double-standard,checker-5
+r0935,B,ethics-of-circumcision,s0311,possible_issue,secundum-quid,grounded in randomized trial outcomes rather than speculative autonomy projections,"Infant parental prerogative is said to rest on randomized trial outcomes; the only randomized trials in this article's evidence are adult heterosexual HIV trials in high-prevalence settings, so settled by which trial outcomes are meant and whether they apply to infants generally.",no,pass 2: depends on ethics-of-circumcision s0100,checker-5
+r0936,B,foreskin,s0166,no_issue,,,,no,step 5: inconsistency,checker-5
+r0937,B,foreskin,s0167,no_issue,,,,no,pass 2: depends on foreskin s0166,checker-5
+r0938,B,khitan-circumcision,s0006,possible_issue,secundum-quid,"heterosexual HIV acquisition by up to 60% in high-prevalence areas, with benefits outweighing rare complications like bleeding or adhesions when performed neonatally under sterile conditions","The adult, high-prevalence HIV effect is listed among the benefits that outweigh risks for neonatal circumcision; the qualifier is kept for the HIV figure but not for the net-benefit conclusion, so settled by whether the net-benefit judgement holds without the HIV benefit outside high-prevalence settings.",no,step 5: secundum-quid,checker-5
+r0939,B,khitan-circumcision,s0207,no_issue,,,,no,step 5: cherry-picking,checker-5
+r0940,B,phimosis,s0265,no_issue,,,,no,step 5: inconsistency,checker-5
+r0941,B,ulwaluko,s0085,no_issue,,,,no,step 5: irrelevant-conclusion,checker-5
+r0942,B,ulwaluko,s0130,no_issue,,,,no,step 5: over-extrapolation,checker-5
+r0943,B,ulwaluko,s0131,no_issue,,,,no,pass 2: depends on ulwaluko s0130,checker-5
+r0944,B,ulwaluko,s0154,no_issue,,,,no,pass 2: depends on ulwaluko s0147,checker-5
+r0945,B,views-on-circumcision,s0091,possible_issue,false-analogy,"lower than the mortality risk associated with common pediatric surgeries like appendectomy, which exceeds 1% in infants under one year","Elective circumcision of healthy infants is set against appendectomy mortality, which is surgery on infants already ill with appendicitis, to show relative safety; the difference in underlying illness bears on mortality, but the sentence's main claim stands on its own figure, so settled by whether the comparison is meant as support or only as context.",no,step 5: false-analogy,checker-5
+r0946,B,views-on-circumcision,s0098,flag,red-herring,undermining exaggerated characterizations of the procedure as inherently mutilative,"Own-voice step uses low complication rates to undermine the ""inherently mutilative"" characterization; that charge rests on cutting away healthy tissue without consent, not on complication rates, and the sentence does not show how complication data bears on it, so the topic shifts from the issue raised.",yes,step 5: irrelevant-conclusion; step 5: non-sequitur,checker-5
+r0947,B,views-on-circumcision,s0126,no_issue,,,,no,step 5: irrelevant-conclusion,checker-5
+r0948,B,views-on-circumcision,s0128,possible_issue,appeal-to-authority,a threshold not met given medical consensus on net benefits,"The threshold for intervention is said to be unmet because of a medical consensus on net benefits, while the same article reports European bodies (e.g., the Danish Medical Association) urging an end to non-therapeutic infant circumcision, so experts disagree; possible rather than flag because the sentence sits in the section setting out proponents' case and may be reporting their view.",no,pass 2: depends on views-on-circumcision s0126,checker-5
+r0949,B,views-on-circumcision,s0184,flag,secundum-quid,whereas voluntary medical male circumcision (VMMC) demonstrates empirical benefits such as reduced heterosexual HIV acquisition,"The analogy being rebutted concerns non-therapeutic circumcision of minors (next sentence: bans on circumcision of minors), but the benefit cited is from voluntary adult programmes in high-prevalence settings; the rebuttal relies on dropping the adult, voluntary, high-prevalence qualification.",no,step 5: red-herring; step 5: secundum-quid,checker-5

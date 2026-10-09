@@ -245,6 +245,16 @@ Each of the 951 pro argument sentences in the male circumcision articles that ke
 
 Chains with verbatim quotes, files and limits: [dependency/DEPENDENCIES.md](dependency/DEPENDENCIES.md). Method: [METHOD.md](METHOD.md#second-layer-dependence-on-flagged-priors). Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.
 
+## Pass 3: do the remaining pro arguments hold up?
+
+All 949 male pro argument sentences with at least 1 point after the second layer were checked again, fresh, against the catalog, the same way the reviewers flagged. Each distinct entry flagged costs 1 point. Five AI model sessions did the checking; they were told not to open the earlier flags or scores but ran from a conversation that knew earlier results, so this is not blind.
+
+- **8** sentences lost 1 point (5 of the 888 still at 3 points). Entries: false-analogy 3, red-herring 3, secundum-quid 2. 39 possible issues were recorded and cost nothing.
+- Male pro points left, 3/2/1/0: 883/50/15/23 after pass 3 (90.9% at full points).
+- **Pro only.** Anti arguments were checked only in step 5. They were not put through pass 2 or pass 3, so comparing pro and anti after pass 3 is tilted against pro.
+
+Quotes, reasons and limits: [recheck/RECHECK.md](recheck/RECHECK.md). Method: [METHOD.md](METHOD.md#pass-3-fresh-recheck-of-the-remaining-pro-arguments).
+
 ## Files
 
 - [flagged_pro.csv](flagged_pro.csv): every flagged pro sentence, with group, points left, reviewers, primary family, all families, catalog entries and the verbatim text.

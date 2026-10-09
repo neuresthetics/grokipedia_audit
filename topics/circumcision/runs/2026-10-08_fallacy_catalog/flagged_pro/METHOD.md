@@ -136,6 +136,47 @@ python3 tools/make_charts_2026_10_08.py
 
 Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.
 
+
+## Pass 3: fresh recheck of the remaining pro arguments
+
+Folder: [`recheck/`](recheck/). Write-up: [recheck/RECHECK.md](recheck/RECHECK.md).
+
+**Question.** Do the pro arguments that are left hold up? (Pass 1 is step 5's three reviewers; pass 2 is the dependence check above.) Every male pro argument sentence with at least 1 point after pass 2 is checked again, fresh, against fallacy_catalog v0.6.1 (commit `2a56493`), the same way the three reviewers flagged: the catalog's METHOD.md steps (a) to (g) and the reviewers' working rules (own voice only, reported views are no issue, factual slips are not fallacies, text-detectable entries only). Instructions: [recheck/RECHECK_PROMPT.md](recheck/RECHECK_PROMPT.md).
+
+**Scope and order.** 949 sentences (`recheck/work/queue.csv`, deterministic): tier A, r0001–r0888, the 888 still at 3 points after pass 2, checked first; tier B, r0889–r0949, the 61 at 2 or 1 points (47 and 14).
+
+**What the checker sees.** The sentence, its section headings, the three sentences before it and the one after it, and the article snapshot if it wants more. It does not see the earlier flags, the scores or the pass-2 results, and the queue output shows no points. The tier is visible only through the item number.
+
+**Recording.** One line per finding: verdict (`flag`, `possible_issue` or `no_issue`), catalog entry id, the exact quoted words and a one-line reason. `recheck/scripts/recheck_queue.py` rejects quotes that are not an exact substring of the sentence and ids that are not text-detectable catalog entries (`recheck/catalog_ids_v0.6.1.json`). It is resumable, safe for parallel checkers (file lock), and `batches K` splits what is left into id ranges.
+
+**Scoring.** Each distinct entry with verdict `flag` costs 1 point, starting from the points after pass 2, floor 0. `possible_issue` is recorded and costs nothing. In tier B, an entry that a step-5 reviewer already flagged on the same sentence is not counted again.
+
+**Who checked.** Five model sessions (checker-1 to checker-5), 189–190 items each, all 949 items. They ran from a conversation that already knew the earlier results. Each was told not to open the flag files, scores or pass-2 results, but because of where they started, this pass is **not blind**. The checkers shared the box's /tmp folder, and one helper file there was overwritten by another session. Answers were recorded only through `recheck_queue.py`, which validates each line against the queue, the sentence and the catalog, so the overwrite did not affect the recorded answers.
+
+**Result.** Lines recorded: 12 flag, 39 possible issue, 900 no issue. 4 flags were not counted (tier B, same entry a step-5 reviewer had already flagged). 8 sentences lost 1 point each: 5 of the 888 still at 3 points and 3 of the 61 in tier B. Entries counted: false analogy 3, red herring 3, secundum quid 2.
+
+| Male pro points left | 3 | 2 | 1 | 0 | All 3 points |
+|---|---|---|---|---|---|
+| Step 5 | 910 | 26 | 15 | 20 | 93.7% |
+| After pass 2 | 888 | 47 | 14 | 22 | 91.5% |
+| After pass 3 | 883 | 50 | 15 | 23 | 90.9% |
+| Anti, step 5 (not rechecked) | 724 | 2 | 2 | 0 | 99.5% |
+
+**Pro only.** Anti arguments were checked only in step 5. They were not put through pass 2 or pass 3, so comparing pro and anti after pass 3 is tilted against pro.
+
+The 3 tier-B dings all fall on sentences that had already lost a point for what reads as the same flaw: circumcision-and-law s0102 and views-on-circumcision s0098 were flagged as irrelevant conclusion in step 5 and as red herring here, and ethics-of-circumcision s0107 lost a point in pass 2 for depending on the heel-prick analogy and is flagged here as false analogy for the same analogy. The rule as written does not merge these. Without them pass 3 would end at 883/52/14/22, and the count at full points would not change.
+
+**Limits.** Model judgment, not a person's. A fresh check by one model is a different read from the three reviewers', so a new flag can reflect reader variation as much as a missed flaw. Tier B checkers could guess that those sentences lost points before (the item range). Synonym entries (for example secundum quid and over-extrapolation) are not merged when applying the tier-B rule. Flags are leads, not verdicts. Anti arguments are not rechecked.
+
+Rebuild from the repo root (the checking itself is the model step and is not rerun):
+
+```
+python3 topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/recheck/scripts/build_recheck.py
+python3 tools/make_charts_2026_10_08.py
+```
+
+Outputs: `recheck/findings.csv` (every line, with quote, entry, reason, whether it counted, earlier points lost, checker), `recheck/points_by_pass.csv` (all 971 male pro sentences: points at step 5, after pass 2, after pass 3), `recheck/summary.json`, `recheck/RECHECK.md`. Chart 07 shows step 5, after pass 2 and after pass 3, with anti for reference.
+
 ## Columns of flagged_pro.csv
 
 `article`, `sentence_id` (as in step 5), `topic_group` (always male here), `points_left` (0–2), `reviewers` (R1|R2|R3, those that flagged it), `primary_family`, `families` (every family named), `primary_tie_broken` (yes/no), `entries` (reviewer: entry_id, one per mapped flag), `entry_names`, `text` (verbatim sentence).

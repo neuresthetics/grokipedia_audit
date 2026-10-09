@@ -475,10 +475,17 @@ assert pb == sv["male", "pro"]["pts"], "before must match step 5"
 assert sum(pa.values()) == sum(pb.values())
 an = sv["male", "anti"]["pts"]
 BARS = [("Pro, step 5", pb, "pro"), ("Pro, after prior check", pa, "pro"), ("Anti, not rechecked", an, "anti")]
+rc_path = RUN / "flagged_pro/recheck/summary.json"
+rc = json.load(open(rc_path)) if rc_path.exists() else None
+if rc and rc["complete"]:  # pass 3: fresh recheck of the remaining pro arguments
+    p3 = {int(k): v for k, v in rc["male_pro_points_left_after_pass3"].items()}
+    assert {int(k): v for k, v in rc["male_pro_points_left_after_pass2"].items()} == pa
+    BARS = [("Pro, step 5", pb, "pro"), ("Pro, after pass 2", pa, "pro"), ("Pro, after pass 3", p3, "pro"),
+            ("Anti, not rechecked", an, "anti")]
 for lab, d, _ in BARS:
     print(f"  {lab}: 3/2/1/0 = " + "/".join(str(d[k]) for k in (3, 2, 1, 0)))
 
-fig, ax = plt.subplots(figsize=(W_IN, 8.4))
+fig, ax = plt.subplots(figsize=(W_IN, 8.4 if len(BARS) == 3 else 9.6))
 for i, (lab, d, side) in enumerate(BARS):
     n = sum(d.values()); left = 0
     for k in (3, 2, 1, 0):
@@ -499,8 +506,11 @@ ax.set_ylim(len(BARS) - 0.25, -0.55)
 ax.set_xlim(0, 115)
 ax.set_xticks(range(0, 101, 25), [f"{v}%" for v in range(0, 101, 25)])
 ax.set_title("Male circumcision articles\n", loc="left", fontsize=17, fontweight="bold", color=INK, pad=4)
-ax.text(0, 1.0, f"{dep['survivors_dinged']} of {dep['survivors']} surviving pro arguments lost 1 point; "
-        f"none lost more", transform=ax.transAxes, va="bottom", fontsize=13, color=MUTED)
+sub7 = (f"{dep['survivors_dinged']} of {dep['survivors']} surviving pro arguments lost 1 point; none lost more"
+        if len(BARS) == 3 else
+        f"Pass 2: {dep['survivors_dinged']} lost a point for depending on a flagged argument. "
+        f"Pass 3: {rc['sentences_dinged']} lost points in a fresh recheck of {rc['items']}")
+ax.text(0, 1.0, sub7, transform=ax.transAxes, va="bottom", fontsize=13, color=MUTED)
 ax.set_xlabel("share of that side's argument sentences", fontsize=13)
 ax.spines["bottom"].set_color(SOFT)
 fig.subplots_adjust(left=0.20, right=0.97, top=0.68, bottom=0.23)
@@ -510,11 +520,21 @@ fig.legend(handles=[Patch(color=COLOR["pro"], label="3 points left (pro)"),
                     Patch(color=LOST[0], label="0 left")],
            loc="upper left", bbox_to_anchor=(0.075, 0.835), ncol=5, frameon=False, fontsize=13.5,
            handlelength=1.4, columnspacing=2.0)
-head(fig, "Did surviving pro arguments lean on the flagged ones?",
-     f"A few did: {dep['survivors_dinged']} of {dep['survivors']} lost a point for building on a flagged "
-     f"pro argument. Male circumcision articles only.")
-foot(fig, ["−1 point for each distinct flagged pro argument a survivor was judged to depend on (floor 0). "
-           "Dependence judged by an AI model, not a person; flags are leads, not verdicts.",
-           "Anti arguments were not rechecked (only 4 were flagged). Method and limits: "
+if len(BARS) == 3:
+    head(fig, "Did surviving pro arguments lean on the flagged ones?",
+         f"A few did: {dep['survivors_dinged']} of {dep['survivors']} lost a point for building on a flagged "
+         f"pro argument. Male circumcision articles only.")
+    l1 = ("−1 point for each distinct flagged pro argument a survivor was judged to depend on (floor 0). "
+          "Dependence judged by an AI model, not a person; flags are leads, not verdicts.")
+else:
+    s3 = 100 * p3[3] / sum(p3.values())
+    head(fig, "Do the surviving pro arguments hold up?",
+         f"After a dependence check (pass 2) and a fresh fallacy recheck (pass 3), {s3:.1f}% of pro arguments "
+         f"keep all 3 points. Male circumcision articles only.")
+    l1 = ("Pass 2: −1 per flagged pro argument a survivor depends on. Pass 3: −1 per catalog fallacy flagged in a "
+          "fresh recheck (floor 0). AI model judgments, not a person's.")
+foot(fig, [l1,
+           ("Anti arguments were not rechecked (only 4 were flagged). " if len(BARS) == 3 else
+            "Anti arguments were not rechecked (pro only, by design). ") + "Method and limits: "
            "topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/METHOD.md"],
      "07_pro_after_priors.png")

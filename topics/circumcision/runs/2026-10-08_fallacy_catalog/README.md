@@ -8,7 +8,7 @@
 - **Checklist:** [neuresthetics/fallacy_catalog](https://github.com/neuresthetics/fallacy_catalog) v0.6.1, commit `2a56493a3931018e9143bc7235f152f5cc5b459e`, used with its METHOD.md.
 - **Model judging:** Three separate AI agents each read all 58 articles and wrote their own flags. Reviewers 2 and 3 were told not to open the other reviewers' files until their own were saved, and each reports it did not, but their instructions came from a conversation that had already discussed earlier results (Reviewer 2: Reviewer 1's totals, top articles and fallacy types; Reviewer 3: counts and example quotes from Reviewers 1 and 2), so they were not blind. Reviewer 1 is the only fully uninfluenced read. (See "Second reviewer and overlap" and "Third reviewer and three-way overlap".)
 - **Survival scoring (step 5 of this benchmark):** after the reasoning check, every sentence was labeled pro, anti or not an argument by an AI model, and each argument was scored 3 points minus 1 for each reviewer that flagged it. See "What survived" below and [survival/METHOD.md](survival/METHOD.md).
-- **Flagged pro arguments (step 6 of this benchmark, male circumcision articles only):** the 61 pro arguments in the male circumcision articles that lost at least one point are sorted by fallacy family, the catalog's own categories, with mechanics, verbatim quotes and counters. A second layer takes 1 point from each surviving pro argument for each flagged one it depends on. FGM articles are not part of this step. See "Flagged pro arguments" below and [flagged_pro/METHOD.md](flagged_pro/METHOD.md).
+- **Flagged pro arguments (step 6 of this benchmark, male circumcision articles only):** the 61 pro arguments in the male circumcision articles that lost at least one point are sorted by fallacy family, the catalog's own categories, with mechanics, verbatim quotes and counters. A second layer takes 1 point from each surviving pro argument for each flagged one it depends on, and a third pass rechecks the remaining pro arguments against the catalog. FGM articles are not part of this step. See "Flagged pro arguments" below and [flagged_pro/METHOD.md](flagged_pro/METHOD.md).
 - **Date:** 2026-10-08.
 
 Every article was read in full, in 174 chunks. For a passage to be flagged, it had to be the article's own reasoning, read in its strongest form. It also had to meet every required condition of the most specific catalog entry, and the reviewer ruled out that entry's look-alikes. Arguments the article only reports are not flagged.
@@ -24,7 +24,7 @@ A separate script counted citations per article. It uses only the saved snapshot
 | File | What it is |
 |---|---|
 | `ANALYSIS.md` | Plain-language analysis of the three reviews, with charts (drawn by `tools/make_charts_2026_10_08.py`) |
-| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters; `dependency/` holds the second layer, survivors that depend on them (see "Flagged pro arguments" below) |
+| `flagged_pro/` | Step 6: the flagged pro arguments in the male circumcision articles by type, with mechanics, quotes and counters; `dependency/` holds the second layer, survivors that depend on them; `recheck/` holds pass 3, a fresh recheck of the remaining pro arguments (see "Flagged pro arguments" below) |
 | `survival/` | What survived: argument sentences scored 3 minus the number of reviewers that flagged them (see "What survived" below) |
 | `flags.csv` | One row per flag. Columns: `slug`, `quote` (exact text), `entry_id`, `entry_name`, `reason`, `favors` (pro / anti / neutral), `confidence`, `verdict` |
 | `citation_stats.csv` | Citation counts per article (column meanings in `scripts/citation_stats.py`) |
@@ -283,3 +283,19 @@ Folder: [`flagged_pro/`](flagged_pro/). This step covers the male circumcision a
 - Anti arguments were not rechecked: only 4 anti sentences in the male circumcision articles were flagged.
 - [`flagged_pro/dependency/DEPENDENCIES.md`](flagged_pro/dependency/DEPENDENCIES.md): the most relied-on flagged arguments and every chain, with verbatim quotes. Method, pre-filter, recall limit and judgment calls: [flagged_pro/METHOD.md](flagged_pro/METHOD.md#second-layer-dependence-on-flagged-priors).
 - Data: `flagged_pro/dependency/dependencies.csv`, `flagged_pro/dependency/survivors_after_priors.csv`, `flagged_pro/dependency/summary.json`. Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.
+
+**Pass 3: do the remaining pro arguments hold up?** All 949 male pro argument sentences with at least 1 point after the second layer were checked again, fresh, against fallacy_catalog v0.6.1, the same way the reviewers flagged. Each distinct entry flagged costs 1 point; a possible issue costs nothing. Five AI model sessions did the checking. Each was told not to open the earlier flags or scores, but they ran from a conversation that knew earlier results, so this is not blind.
+
+| Male pro points left | 3 | 2 | 1 | 0 | All 3 points |
+|---|---|---|---|---|---|
+| Step 5 | 910 | 26 | 15 | 20 | 93.7% |
+| After pass 2 (second layer) | 888 | 47 | 14 | 22 | 91.5% |
+| After pass 3 | 883 | 50 | 15 | 23 | 90.9% |
+| Anti, step 5 (not rechecked) | 724 | 2 | 2 | 0 | 99.5% |
+
+**Pro only.** Anti arguments were checked only in step 5. They were not put through pass 2 or pass 3, so comparing pro and anti after pass 3 is tilted against pro.
+
+- 8 sentences lost 1 point (5 of the 888 still at 3 points): false analogy 3, red herring 3, secundum quid 2. 39 possible issues were recorded.
+- 3 of the 8 had already lost a point for what reads as the same flaw under another name or through pass 2; the rule does not merge them (see METHOD.md).
+- [`flagged_pro/recheck/RECHECK.md`](flagged_pro/recheck/RECHECK.md): every counted flag with its verbatim quote and reason. Prompt: [`flagged_pro/recheck/RECHECK_PROMPT.md`](flagged_pro/recheck/RECHECK_PROMPT.md). Method and limits: [flagged_pro/METHOD.md](flagged_pro/METHOD.md#pass-3-fresh-recheck-of-the-remaining-pro-arguments).
+- Data: `flagged_pro/recheck/findings.csv`, `flagged_pro/recheck/points_by_pass.csv`, `flagged_pro/recheck/summary.json`.

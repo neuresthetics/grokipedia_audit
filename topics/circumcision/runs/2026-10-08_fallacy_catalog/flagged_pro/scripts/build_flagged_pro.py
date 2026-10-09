@@ -280,6 +280,26 @@ def write_md(S, rows, by, E):
               "Chains with verbatim quotes, files and limits: [dependency/DEPENDENCIES.md](dependency/DEPENDENCIES.md). "
               "Method: [METHOD.md](METHOD.md#second-layer-dependence-on-flagged-priors). "
               "Chart: `docs/img/circumcision/2026-10-08/07_pro_after_priors.png`.", ""]
+    rc = OUT / "recheck" / "summary.json"
+    if rc.exists():  # pass 3 (recheck/scripts/build_recheck.py)
+        X = json.load(open(rc))
+        assert X["complete"]
+        p3 = X["male_pro_points_left_after_pass3"]
+        ents = ", ".join(f"{e} {n}" for e, n in X["entries_counted"].items())
+        L += ["## Pass 3: do the remaining pro arguments hold up?", "",
+              f"All {X['items']} male pro argument sentences with at least 1 point after the second layer were checked "
+              "again, fresh, against the catalog, the same way the reviewers flagged. Each distinct entry flagged costs "
+              "1 point. Five AI model sessions did the checking; they were told not to open the earlier flags or "
+              "scores but ran from a conversation that knew earlier results, so this is not blind.", "",
+              f"- **{X['sentences_dinged']}** sentences lost 1 point ({X['tier_A_dinged']} of the {X['tier_A']} still "
+              f"at 3 points). Entries: {ents}. {X['lines'].get('possible_issue', 0)} possible issues were recorded "
+              "and cost nothing.",
+              "- Male pro points left, 3/2/1/0: " + "/".join(str(p3[k]) for k in "3210") + f" after pass 3 "
+              f"({100 * p3['3'] / sum(p3.values()):.1f}% at full points).",
+              "- **Pro only.** Anti arguments were checked only in step 5. They were not put through pass 2 or "
+              "pass 3, so comparing pro and anti after pass 3 is tilted against pro.", "",
+              "Quotes, reasons and limits: [recheck/RECHECK.md](recheck/RECHECK.md). Method: "
+              "[METHOD.md](METHOD.md#pass-3-fresh-recheck-of-the-remaining-pro-arguments).", ""]
     L += ["## Files", "",
           "- [flagged_pro.csv](flagged_pro.csv): every flagged pro sentence, with group, points left, reviewers, "
           "primary family, all families, catalog entries and the verbatim text.",
