@@ -6,7 +6,7 @@ This repo checks Grokipedia articles against the sources they cite. Grokipedia i
 
 ## How it works
 
-Each audit is done by a general-purpose AI agent that follows plain written instructions, with no custom framework, scoring system or private vocabulary. Each article goes through the same steps:
+Each audit is done by a general-purpose AI agent that follows plain written instructions, with no custom framework or private vocabulary. The only score is the simple, documented point count in step 5. Each article goes through the same steps:
 
 1. **Snapshot.** Save the article as it appeared on the day of the audit, because Grokipedia pages change.
 2. **Claim and source.** For each claim, quote what the article says, then quote what the cited source actually says.
