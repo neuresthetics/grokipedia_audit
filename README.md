@@ -1,4 +1,4 @@
-![Grok logo under a magnifying glass](docs/img/header.jpg)
+![Grok logo under a magnifying glass, over a grid of colored dots, one per sentence of the Spinoza audit](docs/img/header.jpg)
 
 # Grokipedia Audit
 
