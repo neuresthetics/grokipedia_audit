@@ -9,3 +9,9 @@ Each folder is one sophistry-scan run over the circumcision articles, named `YYY
 | 3 | [2026-10-02_run3_title24](2026-10-02_run3_title24/README.md) | 24 (title matches) | All units, blind to runs 1 and 2 | 111 (86 / 18 / 7) | `flags.csv`, `coverage.tsv`, comparison with run 2, scripts |
 
 Run 1 read only part of each article, so its totals are not comparable with the full reads.
+
+Added 2026-10-15 (plain method, not substance_lens):
+
+| Run | Folder | Articles | What was read | Main files |
+|---|---|---|---|---|
+| fallacy_catalog benchmark | [2026-10-08_fallacy_catalog](2026-10-08_fallacy_catalog/README.md) | 39 (2026-10-01 snapshots) | All 13,199 sentences labeled; three AI reviewers flagged against fallacy_catalog v0.6.1 | [WALKTHROUGH.md](2026-10-08_fallacy_catalog/WALKTHROUGH.md), `flags.csv`, [FULL_RECORD.md](2026-10-08_fallacy_catalog/FULL_RECORD.md) |

@@ -41,3 +41,8 @@ The Grok logo in the header image is a trademark of xAI, used here only for iden
 Steps added after the list above (appended here, since this repo's commits only append to the end of files).
 
 8. **What-if checks.** The medical arguments from step 7 are tagged by whether their point rests on the HIV/STI protection claim, and (for those near a cancer keyword) on the cancer-prevention claim. About two in five rest on one of the two. A tag means "depends on the claim", not that the claim is wrong; the audit does not check either claim. The tags are AI-tagged, one tag per sentence, and not blind. See the circumcision benchmark's [what-if counts](topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/cancer_dependence/CANCER_DEPENDENCE.md). Added up over all 971 pro arguments, with those premises taken as true, 38% are flagged by the audit or set aside and 62% are left ([total what-if](topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/whatif_total/TOTAL_WHATIF.md)); this is conditional on the premises, the first of which contradicts the trials the articles cite.
+
+## Current runs
+
+- Circumcision: [fallacy_catalog benchmark run, 2026-10-08](topics/circumcision/runs/2026-10-08_fallacy_catalog/README.md) ([walkthrough](topics/circumcision/runs/2026-10-08_fallacy_catalog/WALKTHROUGH.md)).
+- Spinoza: [citation and fact check of Baruch Spinoza, 2026-10-15](topics/spinoza/articles/baruch-spinoza/analyses/2026-10-15/README.md) ([topic update](topics/spinoza/README.md#update-2026-10-15)).

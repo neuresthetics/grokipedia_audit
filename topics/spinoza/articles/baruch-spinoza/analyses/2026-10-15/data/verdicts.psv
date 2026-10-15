@@ -1,0 +1,402 @@
+claim_id|verdict|verdict_intended|ethics_locator|ethics_verdict|reason
+C001|S|S|||[1] Marrama gives birth 24 Nov 1632 Amsterdam, death 21 Feb 1677 The Hague, family from Vidigueira, Portugal.
+C002|S|S|||[2] Kasher gives 27 July 1656 proclamation; [3] NEH quotes "abominable heresies" and calls it the harshest writ of herem.
+C003|M|P|||New marker [5] links to a book on the TTP; the "Spinozism" definition it was added for sits at list #153 (Merriam-Webster), which defines Spinozism as one substance with infinite attributes. [4] (UMN journal) not reachable, so the doctrinal summary is unverified.
+C004|X|P|||[6] Wiley abstract not reachable. Intended [5] (TTP book page) covers the TTP in general; historical-critical method not checked in the fetched text.
+C005|X|X|||[7] fetched page is a Cambridge Companion table of contents only; intended [6] not reachable.
+C006|P|X|||[8] Jewish Encyclopedia mentions love of God as highest quality of reason (Crescas influence) only; nothing on Enlightenment influence. [4] not reachable.
+C007|S|S|||[9] Nadler: born Amsterdam 24 Nov 1632 to Michael de Spinoza and Hannah Deborah Senior. As linked [9] already supports it.
+C008|P|S|||[9] Nadler: first wife Rachel died 1627; Hannah died 1638 when he was five; Nadler does not say the two daughters were the first wife's. Intended [8] JE 1906 says daughters Miriam and Rebekah by first wife (older genealogy; see 2026-10-01 audit C008).
+C009|S|S|||[9] Nadler: married Esther Fernand 1641; she died Oct 1653; Michael died five months later.
+C010|M|S|||Linked [9] (Nadler) has no Espinosa/Leon origin; intended [8] JE: name derived from Espinosa in Leon.
+C011|M|S|||Linked [9] no; intended [8] JE calls Abraham Michael de Spinoza Baruch's grandfather and president in 1639. Modern scholarship (Spinoza Web) treats Abraham as Michael's uncle, not father: lead, see 2026-10-01 C011.
+C012|M|P|||Linked [10] (Cambridge Companion chapter abstract) silent; intended [9] Nadler: Hannah Deborah Senior, recent immigrants from Portugal. Porto and her Amsterdam birth not found in [9].
+C013|U|P|||Phrase "Portuguese Nation" not found in [9],[10],[11]. Intended [9] covers Portuguese-Jewish merchant community and trade.
+C014|M|S|||Linked [10],[11] silent; intended [9] Nadler defines New Christians as descendants of Jews forcibly converted at end of the 15th century.
+C015|M|S|||Intended [9] Nadler: many resided in Antwerp, moved north with the revolt. Linked [10] silent.
+C016|U|U|||Interpretive; no passage in [9],[10],[11] on "commercial acumen with cautious religious observance".
+C017|M|P|||Linked [10] silent. Intended [9] Nadler names Gabriel (Abraham), Miriam, Rebecca and the Houtgracht; Isaac not checked; Nadler is unsure whether Rebecca was Hannah's child.
+C018|M|S|||Intended [9] Nadler: Michael served on the ma'amad (1649) and in leadership roles. Linked [10] silent.
+C019|U|U|||Interpretive; no supporting passage in [11] or [10].
+C020|P|P|||As linked: [12] SEP: "He was the middle son in a prominent family of moderate means"; the mother's death year is not in [12]. // Intended: [11] IEP: "His mother, Hanna, the second of Michael's three wives, died in 1638, just before Spinoza was to turn six"; "middle son" is not in [11].
+C021|U|S|||As linked: Linked [12] SEP mentions only a Portuguese-Jewish family; no Marrano/converso text (0 hits). // Intended: [11] IEP: Marrano parents, emigrated to escape the Inquisition.
+C022|P|P|||[13] Encyclopedia.com and [12] SEP describe an orthodox Sephardic community; "relatively tolerant environment" is general.
+C023|S|S|||[12] SEP: star pupil of Talmud Torah school; [11] IEP same.
+C024|M|S|||Intended [11] IEP lists Hebrew, liturgy, Torah, prophetic writings, rabbinical commentaries. Linked [12] SEP does not list the curriculum.
+C025|M|S|||Linked [14] Spinoza Web page on Michael; intended [13] Encyclopedia.com: never a full-time pupil of Morteira.
+C026|M|S|||Linked [13] Encyclopedia.com passage does not call him a star pupil; intended [12] SEP: "one of the star pupils", "intellectually gifted".
+C027|P|P|||As linked: [13] Encyclopedia.com: influences "especially Descartes, medieval Jewish philosophy, and ancient sources"; "likely occurred later" not supported. // Intended: [12] SEP mentions medieval Jewish rationalism among influences; [11] IEP mentions Maimonides and Gersonides study; "likely occurred later" not supported.
+C028|U|P|||Interpretive; intended [11] IEP mentions Leiden and Cartesian instruction later.
+C029|M|S|||Intended [12] SEP: at seventeen cut short studies to help run the importing business. Linked [13] silent on age.
+C030|P|P|||[3] NEH: family firm imported dried fruit. "Around 1650" not in [3].
+C031|P|P|||[3] NEH says "he and his brother Gabriel" ran the firm from 1654, not half-brother. Rebecca inheritance dispute not found in [3]/[15]. Intended [14] Spinoza Web lists siblings, likely one mother.
+C032|U|U|||[3] NEH does not describe minimal commitment to commerce.
+C033|P|P|||[16] Commentary and [15] discuss heresies in general (immortality); specific list not located as one passage.
+C034|U|U|||No passage in [17]/[16] on Maimonides' Guide influencing the doubts before 1656.
+C035|M|P|||As linked: Linked [18] (Bombardi, excommunication record) and [2] (Kasher) do not mention van den Enden, Latin study or the 1654-56 dates; the right source is [17]. // Intended: [17] Monoskop: van den Ende(n), former Jesuit, Latin and Cartesian philosophy. Dates 1654-56 and "radical egalitarian" not in that passage.
+C036|U|U|||Interpretive projection of the mature system back to 1656 (see 2026-10-01 audit A2); not in [16]/[2].
+C037|S|S|||[3] NEH: ban by the community leadership, 1656, harshest herem.
+C038|M|U|||Linked [19] (biblical criticism article) silent. Intended [18] MTSU handout: public denunciation. NEH [3] says only a Portuguese version is extant; "Hebrew and Portuguese" not supported.
+C039|S|S|||[3] NEH quotes "abominable heresies which he practiced and taught and about his monstrous deeds". "Avoiding public scandal" reason is interpretive.
+C040|P|P|||[2] Kasher discusses possible heresies; "contemporary accounts" (1659 Inquisition reports) not in [2] passage.
+C041|X|U|||[20] OUP chapter not reachable; [21] Hicks silent on da Costa. Da Costa died 1640 after repeated bans; "expulsion in 1640" is not accurate (2026-10-01 C041).
+C042|U|P|||As linked: Linked [22] (JTS webinar page) does not mention radical Cartesians, gentile authorities, Jewish privileges or Calvinist pressure. // Intended: [21] Hicks: community feared losing Dutch tolerance. Linked [22] webinar page thin.
+C043|U|U|||[3] NEH: in 1656 he went to Dutch authorities to be declared an orphan to escape his father's debts, not to claim an inheritance share.
+C044|U|P|||Linked [17] silent; intended [16] Commentary discusses the community's position in the Dutch republic.
+C045|P|P|||[2] Kasher reports Van Til's account of a Spanish treatise, "Apologetics of his Departure from Judaism", and treats TTP chapter XIV as likely incorporating excerpts from it; "no primary document" reasonable; no single passage states the inference.
+C046|U|U|||[3] NEH mentions the rabbis' commitment to immortality, not a Morteira persuasion attempt; "rather than mere youthful rebellion" is an inference not in [3] (2026-10-01 A3).
+C047|X|U|||[23] OUP chapter not reachable; intended [22] JTS webinar page only says he was excommunicated for "abominable heresies"; comparison with da Costa and "threat" framing not supported there.
+C048|S|X|||Linked [24] (Life of Spinoza as an Independent Scholar) covers the break of 27 July 1656 and alternative networks. Intended [23] not reachable.
+C049|M|S|||Linked [25] (Spinozakring book catalogue) silent; intended [24]: the ban severed formal ties and forced reliance on alternative networks.
+C050|P|P|||[11] IEP mentions so-called free-thinking Protestants, dissenters from the dominant Calvinism (0 hits for Collegiant/Mennonite); financial aid not in passage. Intended [10] abstract only.
+C051|S|S|||[24] names Jarig Jelles, Pieter Balling, Simon Joosten de Vries as merchants he may have known. Dates (Balling d. 1664) not checked; [25] gives Balling "(- 1669)": lead.
+C052|S|S|||[26] Klever: Balling's Het licht op den kandelaer; [25] catalogue calls it a Spinozist tract.
+C053|N|N|||No citation. Partly contradicted by [24]: de Vries episode "refused 2000 fl.; accepted pared-down 300/250 fl. annuity" (annuity came via de Vries's will, not negotiated down from an annual 2,000).
+C054|M|P|||As linked: Linked [27] (Guide for the Perplexed PDF) has no mention of Collegiants; the right source is [26]. // Intended: [26] Klever: conversed with a circle of Amsterdam Collegiants dedicated to Cartesianism; Collegiant reading practice detail not checked.
+C055|M|P|||Linked [28] JAMA (lens grinder) does not discuss the circle's drafts; intended [27] (Guide for the Perplexed) lists the Short Treatise in its bibliography only. [17] Monoskop (not cited here) mentions dictation at Rijnsburg.
+C056|M|P|||Linked [18] (MTSU herem handout) silent; intended [17] Monoskop: at Rijnsburg he expounded the Short Treatise to friends. Remonstrant/Quaker influence not found.
+C057|P|P|||[12]/[11] cover leaving the business; IEP: "most likely at this time that he took up lens grinding". Supported in substance.
+C058|S|S|||[29] Boscacci and [28] JAMA describe grinding/polishing lenses for telescopes, microscopes, magnifiers. [30] AJO not reachable.
+C059|U|S|||As linked: Linked [29] (Boscacci) does not describe the work as requiring precision, patience or isolation. // Intended: Intended [28] JAMA: grinding was "quiet, intense, and solitary", "demanding discipline and patience". Linked [29] thin on this.
+C060|P|X|||[31] (kvond blog) argues Spinoza was not a dabbler in optics; reputation among instrument makers not stated in the passage. Intended [30] not reachable.
+C061|M|P|||Linked [32] OUP chapter (The God of Spinoza, metaphysics book) unrelated; intended [31] notes Huygens was his neighbour from 1663.
+C062|U|X|||[33] (Who Was Baruch Spinoza) silent on de Vries; [24] (not cited here): refused 2000 fl., accepted 300/250 fl. annuity; the annuity came after de Vries died in 1667, not "around 1661". Intended [32] is a paywall page, not readable.
+C063|U|U|||No passage in [25] or [24] on rent/furnishings income level; [24] mentions frugality and modesty.
+C064|X|P|||[34] WSJ paywalled (401). Intended [33] names "Serrarius, who sponsored him since his expulsion" - not "Pieter Serrurier"; name looks garbled.
+C065|M|X|||Linked [35] (Spinoza Web, Rijnsburg) silent on glass dust; intended [34] WSJ paywalled. [13] (not cited here) says death "of consumption aggravated by inhaling dust while polishing lenses".
+C066|X|S|||[36] OUP chapter not reachable; intended [35] Spinoza Web: left Amsterdam sometime before 29 July 1661, rented rooms in Rijnsburg.
+C067|X|S|||Intended [35] Spinoza Web: surgeon Herman Dircksz Homan, nowadays Spinozalaan 29. Linked [36] not reachable.
+C068|P|S|||As linked: [12] SEP: "By the time his extant correspondence begins, in 1661, he is living in Rijnsburg, not far from Leiden"; the dates to 1663 are not in [12]; [36] not reachable. // Intended: Intended [35]: resided from [29 July 1661] to late April/July 1663. Linked [12] SEP general; [36] not reachable.
+C069|U|X|||Linked [37] (Voorburg page) does not cover Rijnsburg lens work in the passage; intended [36] not reachable.
+C070|X|S|||Intended [35]: taught Descartes's Principles to his young pupil Johannes Casearius. "Parts 2 and 3" not in passage. Linked [36] not reachable.
+C071|X|S|||Intended [35]: first book early August 1663, Renati Des Cartes Principiorum Philosophiae Pars I et II; Cogitata draft perhaps by July 1662.
+C072|U|X|||As linked: Linked [37] (Spinoza Web, Voorburg page) is about Voorburg, not the Rijnsburg years. // Intended: Linked [37] (Voorburg page) general; intended [36] not reachable.
+C073|M|S|||Intended [11] IEP: first work, Treatise on the Emendation of the Intellect, method for clear and distinct ideas. Linked [12] SEP passage is bibliography.
+C074|M|P|||Intended [11] IEP: Short Treatise begun at Rijnsburg, circulated privately; [35] Spinoza Web names de Vries reading group and Meyer. Linked [12],[36]: bibliography / not reachable.
+C075|U|X|||Linked [37] silent; intended [36] not reachable.
+C076|X|S|||Intended [35] Spinoza Web gives "a total of thirty-four letters" with Oldenburg and indirect contact with Boyle. Linked [36] not reachable. Standard numbering has 28 Spinoza-Oldenburg letters (2026-10-01 C076); article elsewhere (C327) gives 13: internal inconsistency.
+C077|X|S|||Intended [35]: Koerbagh, Meyer, Kerckring, de Volder were students when Spinoza lived in Rijnsburg.
+C078|X|S|||[38] Workers' Liberty bot-walled; intended [37] Spinoza Web: between 21 April and 3 August 1663, house of painter Daniel Harmensz Tydeman, Kerklaan.
+C079|U|U|||[12]/[11] passages do not discuss the motive for the Voorburg move.
+C080|P|P|||[13]/[12] mention his lens grinding and works; Oldenburg/Boyle correspondence not in passage.
+C081|M|P|||Linked [39] Catholic Encyclopedia passage silent on dates; intended [38] bot-walled; [37] Spinoza Web (not cited here) gives stay until early Sept 1669 to mid-Feb 1671.
+C082|U|U|||[13]/[12] passages do not say the Ethics was withheld for "radical monistic theology" during Voorburg.
+C083|P|P|||As linked: [12] SEP: the TTP aims to show that "the freedom to philosophize can" be granted, to "undercut the political power exercised in modern states by religious authorities", and defends "the tolerant, secular, and democratic polity". "Prompted by friends" not found. // Intended: [11] IEP: TTP aimed to divest the clergy of political power, broad liberties. "Prompted by friends" not found.
+C084|X|P|||[40] OUP not reachable. Intended [39] Catholic Encyclopedia: appeared anonymously, synods took measures. Hamburg imprint, 200 pages and 1674 ban not in the passage; [46] (not cited here) has the 1674 ban.
+C085|U|X|||As linked: [41] is cached and readable; it is about the Stille Veerkade lodgings, not the TTP thesis. // Intended: [40] OUP not reachable.
+C086|P|X|||[39] Catholic Encyclopedia general on reception; intended [38] bot-walled.
+C087|P|S|||As linked: [42]: "Spinoza relocated to The Hague, presumably sometime after 5 September 1669"; the end date early 1671 is not in [42]. // Intended: [41] (cached, readable; earlier marked bot wall only because the page is short): "Between early September 1669 and early February 1671, Spinoza rehoused from Voorburg to The Hague".
+C088|U|U|||[44] (OLL book page) and intended [43] do not discuss de Witt/Orangist positioning for the move.
+C089|S|P|||[45] SEP Political Philosophy covers TTP freedom to philosophize and the de Witt context.
+C090|S|P|||[46] (Art of Thinking): ministers forbade booksellers; "in 1674, it was officially banned in the Netherlands". [45] intended covers political context.
+C091|M|S|||Linked [47] (Letter LIII, Fabritius) does not cover the de Witt murder; intended [46]: restrained from going to the site with a placard "Ultimi barbarorum".
+C092|P|S|||As linked: [46] New Yorker: "Spinoza advocated for democratic government because he thought that it was more likely than monarchy or aristocracy to preserve libertas philosophandi"; the TP and its dating are not named in [46]. // Intended: Intended [45] SEP covers the TP's monarchy/aristocracy/democracy sections. "Begun around 1675-1676" and "inferior alternatives" not checked against [45]; TP is usually dated 1675-77.
+C093|P|P|||[45] SEP quotes Ep. 50 on preserving natural right, related; specific "security through rational obedience" not located verbatim.
+C094|M|S|||Linked [48] Britannica passage covers Utrecht trip, not Heidelberg in passage; intended [47] Letter LIII: Fabritius offers the Heidelberg chair "under very liberal conditions".
+C095|U|S|||As linked: Linked [49] (EMLO) describes the Fabricius/Heidelberg offer, not Utrecht or French overtures. // Intended: Intended [48] Britannica: 1673 invited to Utrecht to meet Condé. Rebuffed overtures detail not in passage. Linked [49] EMLO mentions Fabricius letter, not Utrecht.
+C096|P|P|||As linked: [46]: "supporting himself by grinding lenses for microscopes and telescopes" supports the first clause; "Causal realism" is not a term in [46]/[45]. // Intended: [45] SEP discusses Spinoza's realist political method. Channeling passions via institutions is a fair TP reading but not in the passages found.
+C097|N|N|||Uncited. [49] EMLO (cited elsewhere) gives "just eighty-eight" letters; the 50/38 split was not checked.
+C098|N|N|||Uncited. Names are standard correspondents; no check made.
+C099|S|S|||[49] EMLO and [50] Bennett correspondence describe the letters' philosophical and scientific topics and mention the Short Treatise.
+C100|N|N|||Uncited. Ep. 1 (Oldenburg, Aug 1661) is the first letter in the standard numbering; "July 1661" not checked.
+C101|N|N|||Uncited. Ep. 32 (20 Nov 1665) is the worm-in-the-blood letter; Spinoza disputes Descartes' rules of motion, not mechanism (2026-10-01 C101).
+C102|N|N|||Uncited. Nitre experiments were Boyle's (Ep. 6; [50] Bennett has a section heading on Boyle's experiment with nitre), not Huygens's; Ep. 73 is late 1675, not June 1666; [52] (Letter 21/73) does contain "immanent, as the phrase is, not transient".
+C103|P|P|||[52]/[51]/[53] letters cover Oldenburg topics; Oldenburg expressing reservations about atheism not found in these passages (Ep. 71 era). Linked [53] is a Blyenbergh letter.
+C104|N|N|||Uncited. Leibniz-Spinoza letters are Epp. 45-46 (1671, optics); 1676 contact was a visit (2026-10-01 C104).
+C105|U|U|||[51] (Letter 15/32) and intended [50] do not support it; Ep. 69 is to van Velthuysen (1675), not about the infinite intellect for Leibniz (2026-10-01 C105).
+C106|N|N|||Uncited. Blyenbergh questioned the PCP / Cogitata Metaphysica (Ep. 18, 12 Dec 1664), not the Short Treatise.
+C107|N|N|||Uncited. Replies to Blyenbergh are Epp. 19, 21, 23, 27; Ep. 28 and 29 are not to him.
+C108|M|U|||Linked [54] is a Boxel letter. Intended [53] is "LETTER XXXVIII. (XXVII.)" dated "Voorburg, 3rd June, 1665" where Spinoza declines further correspondence: so the end came in June 1665, not March; "Letter 38" is old Elwes numbering of Ep. 27.
+C109|N|N|||Uncited. Boxel exchange opened Sept 1674; Pliny/Suetonius appear in Boxel's letters (not checked here).
+C110|N|N|||Uncited. Boxel letters are Epp. 51-56; Spinoza's replies are 52, 54, 56 (2026-10-01 C110).
+C111|U|S|||As linked: Linked [55] (sacred-texts index) and [51] (Letter 15 to Oldenburg) do not discuss superstition. // Intended: Intended [54] is Letter LV from Boxel (ghosts); linked [55] is the sacred-texts index. General characterisation is fair.
+C112|N|N|||Uncited. Epp. 80-83 (1676) concern deriving variety of bodies from extension; topics named fit Epp. 59-66 better (2026-10-01 C112).
+C113|P|P|||[56] (Wolf, Correspondence) and [55] index are general; reluctance to publish is a common reading, not located verbatim.
+C114|U|P|||As linked: [12] SEP mentions the move "to Voorburg, outside The Hague" and that he died "in 1677, in The Hague"; no 1670 move to The Hague, no lens-grinding. Not supported by the linked source. // Intended: [11] IEP: his move in 1670 "was to The Hague, where he was to live out his remaining years"; "May 1670" not found.
+C115|S|S|||[12] SEP: still at work on the Political Treatise at death, published by friends; [13] similar.
+C116|M|S|||Linked [57] (tuberculosis article) silent; intended [56] Wolf: Spinoza sent "lengthy criticisms on Boyle's experiments".
+C117|P|S|||Intended [57] discusses his tuberculosis ("phthisis"); [58] Edinburgh: lung ailment "exacerbated or even caused by years of inhaling glass dust". "Decline in 1676" not found.
+C118|U|P|||As linked: Linked [9] has no 1677 death (0 hits for 1677/Schuller) and [18] is the herem record. // Intended: Monoskop, the source intended for [18], is [17]: died Feb 1677 "probably of a pulmonary disease, in the presence of his friend Meyer". Article names Schuller; sources found name Meyer. Lead: attending physician disputed in literature.
+C119|P|S|||As linked: [12] SEP: the Political Treatise "was soon published by his friends along with his other unpublished writings"; no will and Meyer are not in [12]. // Intended: [11] IEP: "He left no will, but the manuscripts..."; [12] SEP: published by friends.
+C120|M|U|||Linked [50] irrelevant. Intended [49] EMLO: "buried on 25 February in a rented vault in the Nieuwe Kerk, The Hague, close to the grave of Johan de Witt" - not Grotius.
+C121|U|P|E1D3|PM|As linked: Linked [60] SEP Physical Theory does not give the E1D3 definition. Quote matches Elwes E1D3 word for word. // Intended: [59] IEP general.
+C122|P|P|E1D5|PM|Matches E1D3/E1D5 in substance. [13]/[12] general.
+C123|P|S|E1D6|PX|As linked: [60] SEP Physical Theory: "Spinoza famously holds that there is but one substance—God or nature"; the limitation argument is not in [60]. // Intended: Intended [59] IEP: one substance absolutely infinite. But E1D6 defines God, not substance in general, as "absolutely infinite"; the monism argument runs through E1P5-P14, not limitation. Locator/gloss mismatch.
+C124|P|P|E1P14|PM|Locator right. Elwes E1P14 reads "Besides God no substance can be granted or conceived"; the article's "Except God..." is Curley's wording. [61] gives the argument.
+C125|S|S|E4Pref@God or Nature|PM|[60] SEP and [59] IEP: one substance, God or Nature. "Deus sive Natura" appears in the Latin E4 Preface (Elwes: "God or Nature").
+C126|P|S|E1D6|PM|As linked: [13] Encyclopedia.com: "he defines God as consisting of infinite attributes, each one of which expresses eternal and infinite essence", but places it at "Ethics 1.11", not Definition 6. Content matches; Elwes E1D6 "of which each expresses eternal and infinite essentiality". // Intended: Near-verbatim Elwes E1D6 ("of which each expresses eternal and infinite essentiality"). [12] SEP gives Curley's version.
+C127|P|P|E1App|PM|As linked: [13] Encyclopedia.com: "a denial of the possibility of miracles" and (reporting Luzzatto) "his denial of free will and final causes"; lack of will/intellect not stated. E1 Appendix argues God does not act for ends. // Intended: E1 Appendix argues God does not act for ends; [12] SEP covers transcendent vs immanent. Matches in substance.
+C128|N|N|E1P29S1@natura naturans|PM|Uncited. Elwes E1P29 note: "nature viewed as active (natura naturans), and nature viewed as passive (natura naturata)". Matches.
+C129|N|N|||Uncited "scholars compare" with Daoist ziran; neighbouring cite [61] is an undergraduate essay on a business-services site (2026-10-01 A4).
+C130|P|P|E1App|PM|E1 Appendix rejects final causes; [62] Marxists Ethics text; Daoist comparison only in [61] essay.
+C131|P|S|E1P15|PM|As linked: [61] McLeod: "Those things that are “in” God (or, more precisely, in God's attributes) are what Spinoza calls modes"; "precluding dualistic or pluralistic ontologies" not stated. // Intended: Intended [60] SEP: finite things are modifications of the one substance (Ip14). E1P15: "Whatsoever is, is in God".
+C132|P|S|E1P18|PM|As linked: [13] Encyclopedia.com: "Spinoza argued that all mind and matter were modes of the one key substance"; immanence/immanent cause not stated in [13]. // Intended: Intended [12] SEP: "immanent and sustaining cause". E1P18: God is the indwelling cause of all things.
+C133|P|P|E1App@human figments|PM|As linked: [13] Encyclopedia.com reports "his denial of free will and final causes" (Luzzatto); the Appendix wording is not in [13]. Elwes E1 Appendix: "nature has no particular goal in view, and that final causes are mere human figments". Article's quoted words are another translation (Curley), not Elwes. // Intended: Locator right. Elwes E1 Appendix: "nature has no particular goal in view, and that final causes are mere human figments". Article's quoted words are another translation (Curley), not Elwes.
+C134|P|P|E1P29|PM|E1P29: "Nothing in the universe is contingent". Geometry analogy is E1P17S / E1App, not P29 itself. [59]/[60] general.
+C135|P|P|||[13]/[12] discuss attributes beyond thought and extension; "pantheism" classification discussed elsewhere in [12].
+C136|P|P|||[13]/[12] passages are general; TTP critique of anthropomorphism not located in passage.
+C137|N|N|E1D4|PM|Uncited. Locator right in substance; Elwes E1D4: "that which the intellect perceives as constituting the essence of substance". Quoted words are Curley's, not Elwes.
+C138|P|S|E1D6|PM|As linked: [63] Peterman: "God's infinity is identified as God's having infinite attributes"; "eternal and infinite" essence wording is not in [63]. // Intended: [62] Marxists Ethics (Elwes): attributes "which express eternal and infinite essence". [63] Robinet/Spinoza on extension.
+C139|N|N|E2P1|PM|Uncited. E2P1/E2P2: thought and extension as attributes of God. Matches.
+C140|U|P|E1D5|PM|As linked: Linked [63] (Peterman, Spinoza on Extension) does not give the definition of mode. Elwes E1D5 in substance: "that which exists in, and is conceived through, something other than itself". Quoted words are Curley's. // Intended: Locator E1D5 in substance. Elwes E1D5: "that which exists in, and is conceived through, something other than itself". Quoted words are Curley's.
+C141|N|N|E1P15|PM|Uncited. Matches E1P15/E1P25C.
+C142|N|N|E1P21|PM|Uncited. Infinite modes E1P21-P23; finite modes E1P28. Matches.
+C143|P|P|E1P16|PM|As linked: [63] Peterman (garbled PDF text) refers to the "necessity of God’s nature in infinitely many modes" with Ip16. Elwes E1P16: "From the necessity of the divine nature must follow an infinite number of things in infinite ways". // Intended: E1P16: "From the necessity of the divine nature must follow an infinite number of things in infinite ways". [62] Ethics text.
+C144|N|N|E2P2|PM|Uncited. Elwes E2P2: "Extension is an attribute of God, or God is an extended thing." Verbatim.
+C145|U|S|||As linked: Linked [64] (chapter on Descartes' dualism) has no discussion of the infinite mode of motion and rest. // Intended: Intended [63] (Spinoza on extension): infinite mode of motion and rest assumes extended substance. Linked [64] chapter abstract.
+C146|N|N|||Uncited. General reading, consistent with E1P15.
+C147|N|N|||Uncited. PCP (1663) is an exposition; whether it is a "critique" of Descartes is interpretive.
+C148|N|N|||Uncited. The PCP presents Descartes' system; "revealing inconsistencies" is an interpretive claim with no source.
+C149|P|P|||[65] Two Problems in Spinoza's Theory of Mind and [61] discuss monism vs. interaction; general.
+C150|N|N|||Uncited. Consistent with E1P14 and E2P7S; no source.
+C151|N|N|E2P7S1|PM|Uncited. E2P7 note: thinking and extended substance are "one and the same substance" comprehended under different attributes. Matches.
+C152|N|N|E1P6C1|PM|Uncited. Close to E1P6-P8 and E1P14 in substance; framing of a Spinozan "critique" of Descartes' finite substances not sourced.
+C153|P|P|||[66] Descartes and Spinoza (Rochester) and [67] discuss interaction problems; "divine intervention" framing partly present.
+C154|N|N|E5Pref|PM|Uncited. E5 Preface criticises Descartes' pineal gland account. Matches in substance.
+C155|N|N|E2P7|PM|Uncited. E2P7: "The order and connection of ideas is the same as the order and connection of things." "Parallelism" is a later label, not Spinoza's term.
+C156|P|P|||[65] Della Rocca/Two Problems: denial of interaction, textual basis given; [68] Rhetoric of Geometrical Method general.
+C157|N|N|||Uncited interpretive claim; consistent with E1P10S but no source.
+C158|N|N|E1P10S1|PX|Uncited. "Conceived through themselves" for attributes is E1P10 (and its note), not E1D4/E1D5; E1D5 defines mode as conceived through another. Locator mismatch.
+C159|P|P|||[66] Rochester: "Descartes is wrong to infer from this that they are two independent substances"; [65]; rest is interpretive.
+C160|S|S|E2P40S2|PM|[70] IEP and [69] SEP Epistemology both cover the three kinds. E2P40 note 2 lists opinion/imagination, reason, intuition. Matches.
+C161|P|S|E2P16|PM|Intended [70] IEP: "The mind, in its naturally determined singularity, thinks nothing but its body's affections." Linked [71] (Zabel E2 P32-40) relevant too.
+C162|P|P|E2P41|PM|As linked: [72] Reason and Knowledge: first-kind cognition "can (and often will) be false — indeed, it is “the only cause of falsity” (EIIp41)"; the article's "first two kinds" clause goes beyond this (E2P41: only the first kind is the source of falsity). Lead. // Intended: Partly mismatched: E2P41 says only the first kind is the source of falsity; reason (second kind) is "necessarily true". Article says the first two kinds "often yield inadequate ideas". Lead.
+C163|S|S|E2P40S2|PM|[71] Zabel E2 text and [72] cover first kind from experience and signs. Elwes renders vaga experientia as "the mere suggestions of experience".
+C164|P|P|E2P29C1|PM|[69]/[70] general on inadequate sense ideas; E2P29C "confused and fragmentary". Matches in substance.
+C165|U|U|||No horse example found in [71]/[70]; not in E2P40S2. Appears invented as illustration; low stakes.
+C166|U|P|||As linked: Linked [73] is about the geometric method in general. // Intended: [72] general.
+C167|N|N|||Uncited.
+C168|N|N|E2P49S1|PM|Uncited. E2P49 note distinguishes images, words and ideas. Matches in substance.
+C169|N|N|||Uncited.
+C170|N|N|||Uncited; motive claim with no source.
+C171|S|S|E2P40S2|PM|[72] Reason and Knowledge and [71]: second kind from common notions and adequate ideas of properties. "Principle of contradiction" as a common notion is not Spinoza's example.
+C172|P|P|||[70]/[69] general.
+C173|U|U|E2P40S2@fourth proportional|PX|Spinoza's example in E2P40 note 2 is the fourth proportional (1, 2, 3 -> 6), not 2 + 2 = 4. Elwes: "given, everyone can see that the fourth proportional is six".
+C174|U|S|||As linked: Linked [73] (IEP Geometrical Method) does not discuss reason falling short of singular essences. // Intended: Intended [72]: reason and singular things discussion. Interpretive.
+C175|S|S|E2P40S2|PM|[72] defines scientia intuitiva; [71] Elwes-style text: "proceeds from an adequate idea of the absolute essence of certain attributes of God to the adequate knowledge of the essence of things". Matches.
+C176|P|P|E5P32C1|PM|As linked: [70] IEP Epistemology: "For Spinoza, to intuit God is to love God. The intuition of God is the intellectual love of his essential existence" and "true blessedness is an expression of intellectual love"; transformation of passive affects not shown. // Intended: [69] SEP: intuition is immediate insight "in one glance" (E2p40s2). Link to intellectual love is E5P32C. Matches in substance.
+C177|U|U|E2P40S2|PX|No example about unity or the essence of 4; Spinoza's example is proportionals (E2P40S2).
+C178|U|U|||[72]/[73] general; neither says intuition is the mind's highest freedom or that no method is given.
+C179|P|P|||[74] Bennett Ethics and [73] IEP Geometrical Method; dates 1662-1675 not checked in passage.
+C180|M|S|E1A3|PM|Intended [74] Bennett: D3/D5, A3 "From a given determinate cause the effect follows". Linked [75] Cambridge Lexicon entry general. Matches E1D3/E1A3.
+C181|P|S|||As linked: [12] SEP: "every subsequent proposition can be demonstrated using only what precedes it" and lists definition, scholium and corollary; the roles of corollaries and scholia are not described. // Intended: Intended [11] IEP: definitions, axioms, propositions, scholia like Euclid.
+C182|P|P|||[76] Poetics Today and [75] general.
+C183|M|S|E1P7|PM|Intended [74] Bennett: "it pertains to its nature to exist" (P7). The article's quote is Curley/Bennett-style; Elwes E1P7: "Existence belongs to the nature of substances."
+C184|P|P|||[74] Ethics text; structure of five parts is standard.
+C185|U|P|||As linked: Linked [74] (Bennett's Ethics translation) mentions "Euclid’s demonstration of proposition 7" in passing; nothing on Euclid as the paradigm or on Descartes' Geometry/Meditations. // Intended: [73] IEP Geometrical Method covers Euclid and Descartes; specific Discourse/Meditations claims not checked.
+C186|U|U|||Interpretive; [76]/[75] passages do not support "rejecting Cartesian reliance on clear and distinct ideas" (Spinoza relies on adequate/clear and distinct ideas).
+C187|P|P|E2P7|PM|[12] SEP/[11] IEP: order and connection of ideas same as of things (E2P7). "Critiqued Descartes's method for insufficient rigor" not found.
+C188|P|P|||[74]/[73] discuss adequate ideas; general.
+C189|U|S|||As linked: Linked [77] (Gutenberg Elwes Ethics) states the geometrical form but no claim that proofs mirror ontological necessity. // Intended: [76] Poetics Today abstract: "the deductive structure of the Ethics mirrors the causal necessity by which all of nature follows from God".
+C190|U|U|||Leibniz circularity claim not in [12]/[11] passages; no source found.
+C191|N|N|E2P40S2|PM|Uncited. Elwes E2P40 note 2: "knowledge of the first kind, opinion, or imagination". Matches.
+C192|M|S|E2P16|PM|As linked: Linked [78] SEP psychology has no passage on how imagination arises; the right source is [77]. // Intended: [77] Gutenberg Ethics has E2P16-17; matches in substance.
+C193|U|S|E2P17|PM|As linked: Linked [78] (SEP Psychological Theory) does not quote or discuss IIp17 beyond a passing locator. The quote itself is Elwes E2P17 word for word. // Intended: Quote is Elwes E2P17 word for word (the source text [77] is the Gutenberg Elwes).
+C194|N|N|||Uncited.
+C195|U|S|E2P25|PM|As linked: Linked [78] (SEP Psychological Theory) does not discuss IIp25. The quote itself is Elwes E2P25 verbatim. // Intended: Quote is Elwes E2P25 verbatim ([77]).
+C196|U|S|E2P28|PM|As linked: Linked [78] (SEP Psychological Theory) uses "confused ideas" only in the conatus context (IIIp9), not for imagination. E2P28: ideas of modifications "are not clear and distinct, but confused". // Intended: E2P28: ideas of modifications "are not clear and distinct, but confused". Matches.
+C197|N|N|E2P41|PM|Uncited. Matches E2P41.
+C198|U|S|E2P41|PM|As linked: Linked [78] (SEP Psychological Theory) does not discuss IIp41 or IIp35. Locator right: Elwes E2P41 "Knowledge of the first kind is the only source of falsity"; article's "only cause" is Curley's wording. // Intended: Locator right. Elwes E2P41: "Knowledge of the first kind is the only source of falsity"; article's "only cause" is Curley's wording. E2P35 on privation matches ([77]).
+C199|U|U|E2P35S1@two hundred feet|PX|Sun "two hundred feet" example is in the note to E2P35 (and E4P1S), not E2P17 note. Elwes E2P35 note: "we imagine that it is distant from us about two hundred feet". Example right, locator wrong.
+C200|M|S|E2P18|PM|As linked: Linked [78] does not discuss E2P18; the right source is [77]. // Intended: [77] Gutenberg Ethics has E2P18 (association/memory); matches in substance.
+C201|U|U|E2P3|PX|E2P3 is "In God there is necessarily the idea not only of his essence..."; it is not about passivity. Passivity of inadequate ideas is E3P1/E3P3.
+C202|U|P|E2P40S2|PM|As linked: Linked [78] (SEP Psychological Theory) does not discuss common notions or the kinds of knowledge. Consistent with E2P40-42. // Intended: General; consistent with E2P40-42.
+C203|S|S|E3P6|PM|Locators right. Elwes E3P6: "Everything, in so far as it is in itself, endeavours to persist in its own being." Article's quote is Curley's ([78] SEP gives the same). E3P7 = actual essence. [80] Wikisource URL is malformed (404).
+C204|S|P|||[79] Free Will and Freedom: finite modes and causation; interpretive but supported in substance.
+C205|S|P|E3P9|PM|As linked: [79] IEP Free Will: "When the conatus is conceived as related to both mind and body, Spinoza calls it appetite" (IIIP9S), and affects increase or diminish "our body’s power of acting" (IIIP11). // Intended: [78] SEP: striving of mind (IIIp9). Power of acting framing fits E3P11-12. Matches in substance.
+C206|P|S|E3P9S1@appetite with consciousness|PM|Intended [78] SEP quotes "desire can be defined as appetite together with consciousness of the appetite" (Curley). Elwes E3P9 note: "Desire is appetite with consciousness thereof"; E3 Def. Aff. I explanation repeats it. Locator acceptable; wording is Curley's. [80] Wikisource link malformed.
+C207|P|P|||[79]/[78] general on striving and the rejection of final causes.
+C208|P|P|E3P11S1|PM|As linked: [79] IEP Free Will: "Spinoza describes joy as the passage or transition of the mind from a lesser to a greater perfection or reality, and sadness as the opposite" (IIIP11S); the Proposition 59 active-emotions clause is not shown in [79]. // Intended: E3P11 note defines pleasure/pain as transitions to greater/lesser perfection; active emotions E3P58-59. [78] SEP covers IIIp9s. Matches.
+C209|X|P|E4P18S1@laws of one|PX|[80] malformed URL (404). The quoted phrase is in E4P18 note (Elwes: "virtue is nothing else but action in accordance with the laws of one's own nature"), not E4P37. Locator mismatch.
+C210|S|S|E4P22C1|PM|[79] quotes "The striving to preserve oneself is the first and only foundation of virtue" (Curley). Elwes E4P22 corollary: "The effort for self-preservation is the first and only foundation of virtue." Locator right.
+C211|P|X|||As linked: [81] Perfection, Power and the Passions describes sadness as "an act by which man's power of acting is diminished or restrained" and quotes the E3P11 note on joy and sadness; the full Part III survey is not shown. // Intended: [81] Perfection, Power and the Passions covers affects and power; intended [80] is the malformed Wikisource link.
+C212|U|P|||Linked [82] (review of Kisner) not on this; intended [81] general.
+C213|N|N|E3P6|PM|No citation marker; sentence ends in leaked markup "/Part_3#Proposition_6)" (a broken link to E3P6). Content matches E3P6-P7.
+C214|N|N|E3P11S1|PM|Uncited. E3P11 note: desire, pleasure, pain as primary emotions. Matches.
+C215|P|P|E3DefAff1|PM|[83]/[82] general; Elwes Def. Aff. I: "Desire is the actual essence of man, in so far as it is conceived, as determined to a particular activity by some given modification of itself." Matches.
+C216|X|P|E3P11S1|PM|[84] T&F article not reachable; intended [83] mentions perfection and power of thinking. E3P11 note matches. "Passive transition" is a fair reading (joy can be passive or active).
+C217|X|P|E3P11S1|PM|As C216.
+C218|X|X|E3P13S1|PM|[85] and intended [84] not reachable. E3P13 note: love is pleasure accompanied by the idea of an external cause; hatred is pain with such an idea. Matches.
+C219|S|S|E3D2|PM|[86] SEP Emotions: passion is confused/inadequate, mind not the adequate cause. E3 Def. 2-3 match. [87] ResearchGate not reachable.
+C220|P|X|E3P59S1@waves of the sea|PM|[88] (TheCollector) uses a waves image for modes, not this quote; intended [87] not reachable. The quote is Elwes E3P59 note: "like waves of the sea driven by contrary winds". Primary text match.
+C221|M|P|||Linked [89] (Bennett TTP) and [90] (TTP ch. 14) are about the TTP, not the Ethics' affects; intended [88]/[89] partial. "Their force equals that of adequate ideas" is not Spinoza's claim (E4P7: an affect is removed only by a stronger one).
+C222|U|P|E4P7|PM|Linked [82] silent; intended [81] general. E4P7 (an emotion is only checked by a stronger contrary emotion) matches the last clause.
+C223|M|S|E3DefAff48|PM|Linked [91] is TTP ch. 16 (dead link, archived). Intended [81] mentions "Definitions of the Affects" at end of Ethics III. Elwes lists 48 (I-XLVIII). Matches.
+C224|X|S|E1D7|PM|Linked [80] malformed. Intended source quotes E1D7; [79]: ("that thing is called free which exists from the necessity of its nature alone"). Matches.
+C225|U|S|||As linked: Linked [92] (IEP Political Philosophy) discusses passions in politics but not freedom through adequate ideas. // Intended: Intended [82] review: becoming free through forming adequate ideas. Linked [92] IEP political (general).
+C226|X|S|E5P10|PM|[93] MDPI bot-walled; intended [83] covers striving and reason. E5 matches in substance.
+C227|N|N|E5P32C1|PM|Uncited. Elwes E5P32: "pleasure accompanied by the idea of God as cause"; corollary names it intellectual love. Matches.
+C228|P|P|E5P36|PM|[94] summary site and [79] general. Matches E5P27/P36 in substance.
+C229|U|X|E5P36S1|PM|Linked [95] (archived dbanach page) not on this; intended [85] not reachable. Matches E5P36/E5P42 in substance.
+C230|M|S|E5P29|PM|Linked [96] JSTOR Daily review unrelated; intended [86] SEP Emotions covers active affects through understanding. E5P29-31 matches.
+C231|M|X|E5P10|PM|Linked [97] (Hackett catalogue page) not on this; intended [87] not reachable. Matches E5P10/E5P28 in substance.
+C232|P|P|E5P23|PM|[70]/[71] general. Elwes E5P23: "there remains of it something which is eternal" - the article's claim that the mind persists immortally in the form of its intellectual capacities overstates it; Spinoza denies duration after death (E5P34S). Partial match; lead.
+C233|M|P|||Linked [98] (Short Treatise bibliography) unrelated; intended [88] general.
+C234|M|S|||Linked [99] is the Cambridge Lexicon entry on the TIE. Intended [89] Bennett TTP: prophecy depends on imagination. TTP ch. 1 definition (certain knowledge revealed by God) matches.
+C235|M|S|||Intended [89]: revelation adjusted to fit the prophet's existing opinions (PDF columns are interleaved in the extracted text). Linked [99] unrelated.
+C236|M|S|||Intended [89]: moral certainty from signs/miracles and doctrine.
+C237|M|S|||Intended [89] TTP ch. 2 (temperament of prophets). Linked [99] unrelated.
+C238|M|S|||Intended [89] TTP ch. 1: Moses heard a real voice. Linked [99] unrelated.
+C239|M|S|||Intended [89] TTP ch. 3 contents (gift of prophecy not peculiar to Hebrews); Balaam is in TTP ch. 3.
+C240|M|S|||Intended [89] TTP ch. 1 on Christ perceiving revelations directly.
+C241|N|N|||Uncited.
+C242|N|N|||Uncited; TTP ch. 7 "history of the Hebrew language" is correct (Bennett [89]).
+C243|N|N|||Uncited.
+C244|M|S|||Intended [89] contents and ch. 7 interpretation of Scripture. Linked [99] unrelated.
+C245|M|S|||Intended [89] ch. 7: history of the Hebrew language, circumstances of authors.
+C246|M|P|||Intended [89]; "inconsistencies as signs of multiple human authors" fits TTP ch. 8-9; not in passage.
+C247|M|S|||Intended [89]: obey God by practising justice and loving kindness (charitas).
+C248|M|S|||Intended [89] ch. 7/ch. 5: historical narratives and ceremonies bound Hebrews only while their state lasted.
+C249|M|P|||Intended [89] general.
+C250|M|S|||Intended [89] TTP ch. 8-10 (Ezra as compiler) in Bennett's text.
+C251|N|N|||Uncited. TTP ch. 15 separation of theology and philosophy is correct.
+C252|M|S|||Intended [90] TTP ch. 14 (Wikisource 1862): justice and charity. Linked [100] (TIE Gutenberg) unrelated.
+C253|N|N|||Uncited.
+C254|M|S|||Intended [89]: Scripture concerns only piety, adjusted to readers' level.
+C255|P|S|||As linked: [13] Encyclopedia.com: "the only adequate or clear and distinct ideas humans possess are those related to God, simple ideas, and common notions" and "The intellectual love of God, which arises from intuitive knowledge"; the contrast with religion is not stated here. // Intended: Intended [12] SEP: adequate knowledge and philosophy, not worship, is the key to God.
+C256|M|S|||Intended [45] SEP Political: Spinoza distances himself from those "like Maimonides and Spinoza's friend Ludwig Meyer" who twist Scripture to fit reason.
+C257|M|S|||Intended [89] contents: each governs its own domain. Linked [99] unrelated.
+C258|N|N|||Uncited.
+C259|M|P|||Linked [101] Hackett PCP page unrelated; intended [91] (TTP ch. 16, archived) on reason and self-preservation.
+C260|M|S|||Intended [45] SEP Political on separating faith and reason.
+C261|M|P|||Linked [99] unrelated; intended [89] preface: superstition has caused disorder and wars. "Correlates with" is a modern gloss.
+C262|M|S|||[45] SEP quotes Ep. 50 on natural right equalling power. [46] linked general.
+C263|M|S|||Intended [45] SEP Political quotes Ep. 50: magistrate has no more right over subjects than it has power. Linked [46] silent.
+C264|M|P|||Intended [45]/[92] cover the state's aim of peace and security; linked [46] and [102] (Philosophy Now, atheism) silent.
+C265|U|P|||Linked [102] silent; intended [92] IEP Political lists transfer of powers and the social contract. "Absolute in principle" is TTP 16 language; partly supported.
+C266|S|S|||[46] and intended [92] quote "of all forms of government the most natural, and the most consonant with individual liberty" (TTP ch. 16, cited in [92] as TP:XVI:207).
+C267|P|P|||As linked: [46] New Yorker quotes democracy as "of all forms of government the most natural, and the most consonant with individual liberty" (from the TTP, not the TP); "delegating only the exercise of power" not found. // Intended: [45] SEP covers TP regimes; "delegating only the exercise of power" not located. Note: [46]'s "most natural" quote is from the TTP, not the TP.
+C268|P|P|||As linked: Linked [46] (New Yorker): democracy is "more likely than monarchy or aristocracy to preserve libertas philosophandi"; equality of the natural state not stated. // Intended: [45] general on regime forms.
+C269|M|S|||Intended [45]: councils "sizable so as to reduce the potential for factionalism" (TP 8.1; TP 8.38) and keep private and public interest in balance. Linked [46] silent.
+C270|U|P|||As linked: Linked [46] (New Yorker) does not discuss institutional design independent of rulers' virtue. // Intended: [45] general (institutional recommendations).
+C271|P|S|||As linked: [46] New Yorker: the TTP argues for "allowing every man to think what he likes, and say what he thinks"; reason as a rare private virtue is not stated. // Intended: Intended [45]: freedoms of thought and expression should be protected (TTP). Linked [46] silent.
+C272|U|S|||As linked: Linked [46] (New Yorker) and [102] (Philosophy Now) do not mention councils, checks on power or citizens guided by imagination. // Intended: Intended [45]: peace as "union or harmony of minds" (TP 6.4) from rational affects; [92]: rulers bound to consult public good.
+C273|M|P|||Intended [45] on separating faith and philosophy; linked [46] silent.
+C274|X|U|||[6] Wiley not reachable; intended [5] (TTP book page) does not give 1665-69 or Rieuwertsz in fetched text.
+C275|M|P|||Linked [99] is the TIE lexicon entry. Intended [89] Bennett TTP has chapter list through ch. 20. Twenty chapters is correct; the first-fifteen-theological split is a common split.
+C276|M|P|||Linked [99] unrelated. The quoted line is not in Bennett [89]; [89] says, in interleaved PDF columns, that the peace and piety of the State are threatened not by permitting this freedom but by not permitting it. The quote reads as a paraphrase of the TTP title page presented in quotation marks (2026-10-01 audit: possibly fabricated paraphrase). Lead.
+C277|N|N|||Uncited.
+C278|M|S|||Intended [45]: Scripture as "a repository of simple moral lessons". Linked [46] silent.
+C279|M|S|||Intended [89] TTP ch. 6: nature maintains an unchangeable order; ch. 1-2 prophecy and imagination.
+C280|N|N|||Uncited.
+C281|M|S|||Intended [45]: sovereign authority over external religion; Ep. 50 on power. Linked [46] silent.
+C282|M|P|||Intended [89] ch. 20 and Hebrew polity (ch. 17-19). "Ill-suited to diverse modern states" is a modern gloss.
+C283|M|S|||Intended [89] ch. 20 and ch. 14: piety in justice and charity.
+C284|X|X|||[103] (pantheism paper) unrelated; intended [93] MDPI bot-walled. 1674 ban supported elsewhere ([46]); 1670 bans by synods partly fits [39].
+C285|X|P|||[6] not reachable; intended [5] mentions reception of the TTP generally.
+C286|N|N|||Uncited.
+C287|U|U|||As linked: Linked [60] (SEP Physical Theory) and [75] (Cambridge Lexicon) give no composition dates, Opera Posthuma or reasons for posthumous publication. // Intended: [59] IEP Metaphysics gives only "(1632-1677)"; [74] Bennett translation has no dates. Opera Posthuma 1677 is standard but not shown in these sources; "1661 and 1675" not checked.
+C288|P|S|||As linked: [60] SEP Physical Theory describes the Ethics as treating "the distinctive characteristics and possible blessedness of the human mind"; the work's full aims are not listed. // Intended: [59] IEP Metaphysics lists the five parts and aims; matches.
+C289|N|N|||Uncited. Proposition count is ~259 in Elwes (index found 259 numbered propositions), so "hundreds" is fair.
+C290|X|P|||[104] OUP not reachable; intended [94] summary site on definitions/axioms; [105] (Spinoza, Naturalism and God) general.
+C291|M|S|E2P7|PX|Intended [74] Bennett covers the order-and-connection phrase. But that is Part II Proposition 7, not Part I Proposition 7 (E1P7 is "Existence belongs to the nature of substances"). Elwes E2P7: "The order and connection of ideas is the same as the order and connection of things."
+C292|N|N|||Uncited. Five parts: correct.
+C293|S|S|E1|PM|[60] SEP and [59] IEP. Elwes title "PART I. CONCERNING GOD."; content matches.
+C294|S|S|E2P13|PM|[71]/[70]: three kinds; E2P13 mind as idea of the body. Matches. Title wording mixes translations (Elwes: "On the Nature and Origin of the Mind").
+C295|X|P|E3|PM|[104] not reachable; intended [94] summary general. Content matches E3.
+C296|P|S|E4D8|PM|As linked: Linked [60] quotes the Part IV preface on power of acting being increased or diminished; the Part IV title is not given. E4D1-D2 and E4D8 match in substance. // Intended: [59] IEP lists the part title; E4D1-D2 good/evil and E4D8 virtue as power. Matches in substance.
+C297|X|P|E5P36|PM|[104] not reachable; intended [94] general. "Eternal persistence of the mind's essence" overstates E5P23 slightly. Matches in substance.
+C298|U|P|||As linked: Linked [60] SEP physical theory is about inertia and conatus of bodies, not this claim. // Intended: [59] general.
+C299|U|U|||Linked [106] and [96] have no bans or Leibniz; [94] (not cited here): banned the year after publication. "Leibniz praised its rigor privately" not found.
+C300|U|U|||[60]/[59] passages say nothing about Hegel/Einstein.
+C301|P|S|||As linked: Linked [46] (New Yorker): "All of his work, including the “Ethics,” was left in manuscript form for his friends to print after his death"; the TP and its dates are not named. // Intended: Intended [45] SEP: TP started after 1670, unfinished, posthumous.
+C302|P|S|||As linked: Linked [46] (New Yorker) describes the TTP's freedom defence; the TP side is not in [46]. // Intended: Intended [45]: TTP goals (Ep. 30) vs TP.
+C303|U|P|||As linked: Linked [46] (New Yorker) says the author writes "only for philosophers", but that is about the TTP preface, not the TP; nothing on social contract. // Intended: "Without reliance on social contract theory" is contested; [45] bibliography includes "Spinoza's Social Contract Theory". Lead.
+C304|N|N|||Uncited. Eleven chapters, unfinished: correct.
+C305|U|S|||As linked: Linked [46] (New Yorker) and [102] (Philosophy Now) do not discuss natural right as power or TP chapters 1-4. // Intended: Intended [45]: right coextensive with power (TTP 16.2-4; TP 2.4).
+C306|M|P|||Intended [45] passage is about TTP clergy, not TP ch. 5; general support only.
+C307|U|P|||As linked: Linked [46] (New Yorker) and [102] (Philosophy Now) do not discuss the origin of the state. // Intended: Intended [45]/[92]: harmony of minds from passions; consistent with TP 6.1.
+C308|N|N|||Uncited.
+C309|M|P|||Linked [46] silent. Intended [45] covers regime chapters; TP 6.15ff councils is correct per 2026-10-01 audit.
+C310|M|S|||Intended [45]: decentralized aristocracy modeled on the United Provinces, Spinoza takes it to be superior (TP 9.15).
+C311|P|S|||Intended [45]: model democracy excludes those not sui iuris, women, children, servants (TP 11.2-3). [46] gives the "most natural" quote.
+C312|M|S|||Intended [45]: "civil religion that captures the moral core of religion". TP 8.46 locator correct per 2026-10-01 audit.
+C313|M|U|||Linked [102] unrelated. Intended [92] IEP uses "(TP:XVI:204)" for the "foolish to ask a man to keep his faith" passage, which is TTP ch. 16 (Elwes p. 204); the TP has 11 chapters. The article appears to copy the source's TP/TTP slip. Locator does not exist as given.
+C314|P|P|||[46]/[45] general.
+C315|N|N|||Uncited.
+C316|M|S|||Linked [107] (OUP book review) and [108] (free-will paper) unrelated; intended [97] Hackett contents list TIE, Short Treatise, PCP with Metaphysical Thoughts; [98] Short Treatise lexicon entry.
+C317|N|N|||Uncited.
+C318|N|N|||Uncited.
+C319|M|S|||As linked: Linked [109] and [110] (conatus/freedom papers) are not about the TIE; the right sources are [99]/[100]. // Intended: Intended [99] TIE lexicon entry and [100] Gutenberg TIE text. Linked [109]/[110] (conatus/freedom papers) not on the TIE.
+C320|N|N|||Uncited.
+C321|N|N|||Uncited.
+C322|M|S|||As linked: Linked [108] (Kisner chapter on belief in free will) does not discuss the Short Treatise; the right source is [98]. // Intended: Intended [98] Short Treatise lexicon: abandoned by early 1662 for the Ethics, never published in his lifetime.
+C323|N|N|||Uncited.
+C324|M|U|||Linked [111] unrelated; intended [101] Hackett PCP page does not say "published anonymously". The PCP carried Spinoza's name (2026-10-01 audit).
+C325|N|N|||Uncited. 88 letters matches EMLO [49]; split not checked.
+C326|N|N|||Uncited.
+C327|N|N|||Uncited. Contradicts C076 (34 letters). Standard count: 28 Oldenburg letters, 8 Blyenbergh letters (2026-10-01 audit).
+C328|N|N|||Uncited. Leibniz letters are Epp. 45-46 (1671, optics); not late 1670s.
+C329|U|U|||[50] Bennett correspondence and [49] EMLO general; no passage on a guarded style.
+C330|N|N|||Uncited. Compendium unfinished and in the Opera Posthuma: standard. Cause-of-death clause asserts lens dust "caused" his illness; sources elsewhere say "aggravated" ([13]) or "exacerbated or even caused" ([58]).
+C331|N|N|||Uncited. "The language from which he was expelled" is literally wrong: he was expelled from a congregation, not a language (2026-10-01 A9).
+C332|N|N|||Uncited.
+C333|N|N|||Uncited. "Open project" is in quotation marks with no source.
+C334|X|S|E4Pref@God or Nature|PM|[112] JSTOR (Rescher) bot-walled. Intended [102] Philosophy Now explains natura naturans/naturata. "Deus sive Natura" occurs in the Latin E4 Preface and E4P4 proof (Elwes: "God or Nature").
+C335|P|P|||[113] (Ergo, Leibniz and Spinoza) and [103] (Pantheism or Panentheism) cover the debate in general.
+C336|X|P|||[112] bot-walled; intended [102] general.
+C337|P|P|||[3] NEH covers the 1656 ban and Spinoza's views; Christian authorities banning the TTP by 1674 supported elsewhere ([46]).
+C338|X|X|||[114] JSTOR bot-walled; intended [104] OUP not reachable.
+C339|M|S|||Linked [115] (Lamy's Cartesian refutation) not about the Pantheismusstreit. Intended [105]: Jacobi proclaimed Spinozism equals atheism in the Pantheism Controversy. Goethe not found in [105].
+C340|U|P|||As linked: Linked [112] is a JSTOR challenge page and [113] is a PSR paper; neither gives the theistic reading. // Intended: [103] discusses theistic readings; "non-theistic monotheism" not found.
+C341|M|S|||Linked [116] (Hume Contra Spinoza) is about Hume; intended [106] New Humanist: Spinoza's God immanent, not a providential God.
+C342|X|X|||[117] (Hume and Spinoza review) unrelated; intended [107] OUP not reachable. "Causal realism suggests" is the article's own term, not found in sources (2026-10-01 A1).
+C343|M|P|||Linked [115] (Lamy) unrelated; intended [105] discusses theistic naturalism; Einstein not in passage.
+C344|S|S|E1P29|PM|[13] Encyclopedia.com: every event has a cause; [12] SEP: God, or Nature, acts from necessity. E1P29 matches.
+C345|X|S|E1P29|PM|[80] malformed; intended [79] discusses necessity of what follows from God's attributes. E1P29/E1P33 match.
+C346|P|P|||"Causal realism" again not in sources; [13]/[12] cover modes and necessity.
+C347|N|N|E1App|PM|Uncited. E1 Appendix and E2P35S: men think themselves free because conscious of volitions and ignorant of causes. Matches.
+C348|M|S|E2P48|PM|Linked [118] (philosophy.stackexchange) unrelated. Intended [108] quotes Ep. 58 on being "conscious of their appetite and ignorant of the causes" (cf. E1 Appendix). E2P48 (no absolute or free will) and E2P49C (will and intellect are one and the same) match; "will is merely an appetite of which one is conscious" mixes in E3P9S.
+C349|X|S|E1D7|PM|[80] malformed; intended [79] quotes E1D7. Matches.
+C350|P|P|||[13]/[12] general.
+C351|M|S|E3P6|PM|Linked [119] (Crisis & Critique) general; intended [109]: conatus (IIIP6D; "in suo esse perseverare conatur"). Locator right; quote wording mixes Elwes ("in so far as it is in itself") and Curley ("strives to persevere").
+C352|U|S|E4D8|PM|As linked: Linked [120] (IAS page) has no discussion of virtue, conatus or good and evil. // Intended: Intended [110] Lucero-Montano on conatus/virtue; linked [120] IAS page general. E4D1-D2, E4D8 match.
+C353|U|P|||As linked: Linked [121] (Diderot paper) does not discuss responsibility as a heuristic. // Intended: [111] mentions Oldenburg's objection about rewards and punishments; "heuristic fictions" is interpretive.
+C354|P|P|E5P36|PM|[13]/[12] general. E5P32C-P36 match.
+C355|X|X|||[122] Left Voice general; intended [112] JSTOR (Rescher, Leibniz as a Critic of Spinoza) bot-walled.
+C356|M|P|||As linked: Linked [123] (Essential Scholars, Enlightenment: Spinoza, Montesquieu, Kant) does not mention Leibniz; the right source is [113]. // Intended: [113] Ergo article discusses Leibniz, Spinoza and the PSR; partial.
+C357|X|X|||[124] (Rationalist Philosopher) general; intended [114] JSTOR bot-walled.
+C358|U|P|||Linked [125] silent; intended [115] is about François Lamy's refutation (unity objection to E1P10), not Gerdil. Name may be wrong; lead.
+C359|M|P|||Linked [126] (Times of Israel blog on the ban) unrelated. Intended [116] Hume Contra Spinoza: Hume calls Spinoza "that famous atheist" (T 241). The "constant conjunction" framing is not shown in the passage.
+C360|X|P|||[127] Jewish News not reachable; intended [117] (Hume and Spinoza review) on Hume's causation.
+C361|U|P|||Linked [128] (UW reconsidering Spinoza) unrelated; intended [118] stackexchange answer mentions Humean scrutiny of axioms. Weak source.
+C362|U|U|||[129]/[119] passages do not discuss empiricist objections.
+C363|N|N|||Uncited.
+C364|M|X|||Linked [130] (Engelsberg) and [39] (Catholic Encyclopedia) give no visit date; intended [120] (IAS) passage does not mention the visit; [38] bot-walled. Leibniz visited c. 18-21 Nov 1676, not 4 Nov (2026-10-01 audit).
+C365|N|N|||Uncited.
+C366|M|S|||Linked [131] (Reddit) and [132] (creation lecture) unrelated; intended [121] Crowther: Diderot and Spinoza on virtue; [122]: Spinozism influenced French materialists. Philosophical Thoughts (1746) not checked.
+C367|N|N|||Uncited. Voltaire "famous book so little read" (1772) not found in any source (2026-10-01 audit: unverifiable).
+C368|U|U|||No 1678 papal condemnation in [133]/[134]/[135] or intended [123]/[124]/[125]. [135]: the Ethics was placed on the Catholic Index (date not given). The 1678 ban was by the States of Holland ([49] EMLO: "Sixteen months later, the Opera Posthuma was banned by the States of Holland").
+C369|N|N|||Uncited.
+C370|P|S|||[3] NEH: herem like no other; linked [136] (Einstein poem) unrelated; intended [126]: 27 July 1656, Talmud Torah congregation, "by far the harshest".
+C371|S|S|||[3] NEH and [18] give the "abominable heresies which he practiced and taught and about his monstrous deeds" text; specific heresies "likely" are inference.
+C372|X|X|||[137] (psychotherapy blog) unrelated; intended [127] not reachable. [126]/[128] (not cited here) report 2012 reconsideration with no revocation.
+C373|X|P|||[20] OUP not reachable; intended [19] (TheTorah.com): enmity of Jewish and gentile critics over the TTP.
+C374|X|U|||[138] not reachable; intended [128] does not discuss Mendelssohn in passage.
+C375|N|N|||Uncited generalisation from one Amsterdam congregation to "Orthodox Judaism" (2026-10-01 A6).
+C376|P|P|||[13]/[12] general; Bayle not in passage.
+C377|X|P|||[139] APA PsycNet bot-walled; intended [129] general. 1674 ban supported by [46].
+C378|U|P|||[139] bot-walled; [140] UW page thin; intended [129]/[130] general.
+C379|M|S|||As linked: Linked [141] (Wylie, Envy in Spinoza's Political Science) is about envy, not Christian Spinozists; the right source is [131]. // Intended: Intended [131] Reddit thread: Christian Spinozists see Christ as a Socrates-like figure. Weak source (forum). "Hamann's opponents" not found.
+C380|U|P|||Linked [142] (review of vital republicanism) unrelated; intended [132] (creation lecture) rebuts Spinoza; mainstream theology upholding it as subversive broad.
+C381|X|U|||[143] ResearchGate not reachable; intended [133] UW Stroum on heresy; "confined to liberal or deistic fringes" omits Romantic/idealist reception (2026-10-01 A7).
+C382|N|N|||Uncited.
+C383|M|S|||Linked [144]/[145] unrelated. Intended [134]: Einstein's reply to Rabbi Herbert S. Goldstein: "I believe not in a God who concerns himself with the fate and the doings of mankind, but in Spinoza's God, who reveals himself in the harmony of all that exists." That was a 1929 cable reply, not an interview; the article's wording differs.
+C384|U|U|||[146] and intended [136] do not link conatus to conservation principles.
+C385|N|N|||Uncited.
+C386|P|S|||Intended [137] Robertson: Spinoza's philosophical psychotherapy, cognitive insight. [79]/[78] general. [147] not reachable.
+C387|X|X|||[148]/[149] are about the ban, unrelated; intended [138]/[139] not reachable.
+C388|N|N|||Uncited.
+C389|U|P|||As linked: Linked [46] (New Yorker) and [102] (Philosophy Now) do not discuss potentia, envy or institutional design. // Intended: [45] SEP potentia/potestas; "underpin modern liberal republicanism" is a reception claim not supported in passage (2026-10-01 A5).
+C390|M|P|||Linked [150] (Times of Israel, Melamed ban) and [151] (MDPI special issue page) unrelated; intended [140]/[141] (UW, Envy in Spinoza's Political Science) partly.
+C391|M|P|||Linked [152] (Project Syndicate login wall) unrelated; intended [142] review notes naturalism/determinism tensions.
+C392|M|X|||Linked [153] is now the Merriam-Webster Spinozism entry. Intended [143] ResearchGate 2025 paper not reachable.
+C393|X|S|||[154] does not exist (dangling). Intended [144] Semantic Scholar page on infinite modes. "Causal realism" not found.
+C394|P|P|||[13]/[12] general on the pantheism debate.
+C395|X|S|||[155] dangling. Intended [145] Philosophy News (Aug 11, 2024): "Previously dismissed as a speculative metaphysician, his metaphysical monism has been rehabilitated".
+C396|X|P|||[80] malformed; [156] dangling. Intended [79]/[146] discuss determinism and free will.
+C397|X|X|||[157] dangling; intended [147] ResearchGate not reachable.
+C398|N|N|||Uncited. [126] (cited elsewhere): in winter 2012 the community was asked again to reconsider; [128]: calls "most recently in 2012".
+C399|X|P|||[158],[159] dangling. Intended [148] Lifting the Ban? mentions commissioned reports and the 350th yahrzeit; [149] Schwartz essay on lifting the ban. "2024-2025" dating not confirmed in passages.
+C400|X|S|||[160] dangling. Intended [150] Times of Israel: Rabbi Joseph Serfaty declared Melamed persona non grata; film crew planned to film research in the archives (2021).
+C401|X|P|||[161],[162] dangling. Intended [151] MDPI special issue "Spinoza's Theological-Political Treatise (1670-2020)"; [152] Krauze on illiberalism (login wall). "Blueprints for secular governance" is a modern framing (2026-10-01 A5).

@@ -1,0 +1,829 @@
+locator,line_start,line_end,first_line
+E1,19,20,PART I. CONCERNING GOD.
+E1D1,21,22,"I. By that which is self—caused, I mean that of which the essence involves existence, or that of"
+E1D2,23,26,"II. A thing is called finite after its kind, when it can be limited by another thing of the same"
+E1D3,27,28,"III. By substance, I mean that which is in itself, and is conceived through itself: in other words,"
+E1D4,29,30,"IV. By attribute, I mean that which the intellect perceives as constituting the essence of"
+E1D5,31,33,"V. By mode, I mean the modifications[1] of substance, or that which exists in, and is conceived"
+E1D6,34,38,"VI. By God, I mean a being absolutely infinite—that is, a substance consisting in infinite"
+E1D7,39,42,"VII. That thing is called free, which exists solely by the necessity of its own nature, and of"
+E1D8,43,48,"VIII. By eternity, I mean existence itself, in so far as it is conceived necessarily to follow"
+E1A1,49,48,"I. Everything which exists, exists either in itself or in something else.II. That which cannot be conceived through anything else must be conceived through itse"
+E1A2,49,49,"I. Everything which exists, exists either in itself or in something else.II. That which cannot be conceived through anything else must be conceived through itse"
+E1A3,50,51,"III. From a given definite cause an effect necessarily follows; and, on the other hand, if no"
+E1A4,52,52,IV. The knowledge of an effect depends on and involves the knowledge of a cause.
+E1A5,53,54,"V. Things which have nothing in common cannot be understood, the one by means of the"
+E1A6,55,55,VI. A true idea must correspond with its ideate or object.
+E1A7,56,57,"VII. If a thing can be conceived as non—existing, its essence does not involve existence."
+E1P1,58,58,PROP. I. Substance is by nature prior to its modifications.
+E1P1Dem,59,59,Proof.—This is clear from Deff. iii. and v.
+E1P2,60,60,"PROP. II. Two substances, whose attributes are different, have nothing in common."
+E1P2Dem,61,62,"Proof.—Also evident from Def. iii. For each must exist in itself, and be conceived through"
+E1P3,63,63,PROP. III. Things which have nothing in common cannot be one the cause of the other.
+E1P3Dem,64,65,"Proof.—If they have nothing in common, it follows that one cannot be apprehended by means"
+E1P4,66,67,"PROP. IV. Two or more distinct things are distinguished one from the other, either by the"
+E1P4Dem,68,72,"Proof.—Everything which exists, exists either in itself or in something else (Ax. i.),—that is"
+E1P5,73,74,PROP. V. There cannot exist in the universe two or more substances having the same nature or
+E1P5Dem,75,81,"Proof.—If several distinct substances be granted, they must be distinguished one from the"
+E1P6,82,82,PROP. VI. One substance cannot be produced by another substance.
+E1P6Dem,83,85,Proof.—It is impossible that there should be in the universe two substances with an identical
+E1P6C1,86,92,Corollary.—Hence it follows that a substance cannot be produced by anything external to
+E1P7,93,93,PROP. VII. Existence belongs to the nature of substances.
+E1P7Dem,94,96,"Proof.—Substance cannot be produced by anything external (Corollary, Prop vi.), it must,"
+E1P8,97,97,PROP. VIII. Every substance is necessarily infinite.
+E1P8Dem,98,102,"Proof.—There can only be one substance with an identical attribute, and existence follows"
+E1P8S1,103,105,"Note I.—As finite existence involves a partial negation, and infinite existence is the absolute"
+E1P8S2,106,158,"Note II.—No doubt it will be difficult for those who think about things loosely, and have not"
+E1P9,159,159,"PROP. IX. The more reality or being a thing has, the greater the number of its attributes (Def."
+E1P10,160,160,iv.).PROP. X. Each particular attribute of the one substance must be conceived through itself.
+E1P10Dem,161,162,"Proof.—An attribute is that which the intellect perceives of substance, as constituting its"
+E1P10S1,163,176,"Note—It is thus evident that, though two attributes are, in fact, conceived as distinct—that is,"
+E1P11,177,178,"PROP. XI. God, or substance, consisting of infinite attributes, of which each expresses eternal"
+E1P11Dem,179,212,"Proof.—If this be denied, conceive, if possible, that God does not exist: then his essence does"
+E1P11S1,213,240,"Note.—In this last proof, I have purposely shown God's existence à posteriori, so that the proof"
+E1P12,241,241,PROP. XII. No attribute of substance can be conceived from which it would follow thatsubstance can be divided.
+E1P12Dem,242,251,Proof.—The parts into which substance as thus conceived would be divided either will retain
+E1P13,252,252,PROP. XIII. Substance absolutely infinite is indivisible.
+E1P13Dem,253,256,"Proof.—If it could be divided, the parts into which it was divided would either retain the nature"
+E1P13C1,257,258,"Corollary.—It follows, that no substance, and consequently no extended substance, in so far as"
+E1P13S1,259,261,Note.—The indivisibility of substance may be more easily understood as follows. The nature
+E1P14,262,262,PROP. XIV. Besides God no substance can be granted or conceived.
+E1P14Dem,263,269,"Proof.—As God is a being absolutely infinite, of whom no attribute that expresses the essence"
+E1P14C1,270,272,"Corollary I.—Clearly, therefore: 1. God is one, that is (by Def. vi.) only one substance can be"
+E1P14C2,273,274,Corollary II.—It follows: 2. That extension and thought are either attributes of God or (by Ax.
+E1P15,275,275,"PROP. XV. Whatsoever is, is in God, and without God nothing can be, or be conceived."
+E1P15Dem,276,279,"Proof.—Besides God, no substance is granted or can be conceived (by Prop. xiv.), that is (by"
+E1P15S1,280,367,"Note.—Some assert that God, like a man, consists of body and mind, and is susceptible of"
+E1P16,368,369,PROP. XVI. From the necessity of the divine nature must follow an infinite number of things
+E1P16Dem,370,377,"Proof.—This proposition will be clear to everyone, who remembers that from the given"
+E1P16C1,378,379,"Corollary I.—Hence it follows, that God is the efficient cause of all that can fall within the"
+E1P16C2,380,381,"Corollary II.—It also follows that God is a cause in himself, and not through an accident of his"
+E1P16C3,382,382,"Corollary III.—It follows, thirdly, that God is the absolutely first cause."
+E1P17,383,383,"PROP. XVII. God acts solely by the laws of his own nature, and is not constrained by anyone."
+E1P17Dem,384,389,"Proof.—We have just shown (in Prop. xvi.), that solely from the necessity of the divine nature,"
+E1P17C1,390,391,"Corollary I.—It follows: 1. That there can be no cause which, either extrinsically or"
+E1P17C2,392,394,Corollary II.—It follows: 2. That God is the sole free cause. For God alone exists by the sole
+E1P17S1,395,452,"Note.—Others think that God is a free cause, because he can, as they think, bring it about, that"
+E1P18,453,453,PROP. XVIII. God is the indwelling and not the transient cause of all things.
+E1P18Dem,454,458,"Proof.—All things which are, are in God, and must be conceived through God (by Prop. xv.),"
+E1P19,459,459,"PROP. XIX. God, and all the attributes of God, are eternal."
+E1P19Dem,460,466,"Proof.—God (by Def. vi.) is substance, which (by Prop. xi.) necessarily exists, that is (by Prop."
+E1P19S1,467,471,Note.—This proposition is also evident from the manner in which (in Prop. xi.) I demonstrated
+E1P20,472,472,PROP. XX. The existence of God and his essence are one and the same.
+E1P20Dem,473,477,"Proof.—God (by the last Prop.) and all his attributes are eternal, that is (by Def. viii.) each of"
+E1P20C1,478,478,"Coroll. I.—Hence it follows that God's existence, like his essence, is an eternal truth."
+E1P20C2,479,481,"Coroll. II—Secondly, it follows that God, and all the attributes of God, are unchangeable. For"
+E1P21,482,483,"PROP. XXI. All things which follow from the absolute nature of any attribute of God mustalways exist and be infinite, or, in other words, are eternal and infini"
+E1P21Dem,484,514,"Proof.—Conceive, if it be possible (supposing the proposition to be denied), that something in"
+E1P22,515,517,"PROP. XXII. Whatsoever follows from any attribute of God, in so far as it is modified by a"
+E1P22Dem,518,518,Proof.—The proof of this proposition is similar to that of the preceding one.
+E1P23,519,529,"PROP. XXIII. Every mode, which exists both necessarily and as infinite, must necessarily"
+E1P24,530,530,PROP. XXIV. The essence of things produced by God does not involve existence.
+E1P24Dem,531,532,Proof.—This proposition is evident from Def. i. For that of which the nature (considered in
+E1P24C1,533,538,"Corollary.—Hence it follows that God is not only the cause of things coming into existence,"
+E1P25,539,540,"PROP. XXV. God is the efficient cause not only of the existence of things, but also of their"
+E1P25Dem,541,543,"Proof.—If this be denied, then God is not the cause of the essence of things; and therefore the"
+E1P25S1,544,547,"Note.—This proposition follows more clearly from Prop. xvi. For it is evident thereby that,"
+E1P25C1,548,550,"Corollary.—Individual things are nothing but modifications of the attributes of God, or modes"
+E1P26,551,553,"PROP. XXVI. A thing which is conditioned to act in a particular manner, has necessarily been"
+E1P26Dem,554,558,Proof.—That by which things are said to be conditioned to act in a particular manner is
+E1P27,559,560,"and this, as we have shown is absurd.PROP. XXVII. A thing, which has been conditioned by God to act in a particular way, cannot"
+E1P27Dem,561,561,Proof.—This proposition is evident from the third axiom.
+E1P28,562,567,"PROP. XXVIII. Every individual thing, or everything which is finite and has a conditioned"
+E1P28Dem,568,582,"Proof.—Whatsoever is conditioned to exist and act, has been thus conditioned by God (by"
+E1P28S1,583,593,"Note.—As certain things must be produced immediately by God, namely those things which"
+E1P29,594,595,"PROP. XXIX. Nothing in the universe is contingent, but all things are conditioned to exist and"
+E1P29Dem,596,606,"Proof.—Whatsoever is, is in God (Prop. xv.). But God cannot be called a thing contingent. For"
+E1P29S1,607,617,"Note.—Before going any further, I wish here to explain, what we should understand by nature"
+E1P30,618,619,"PROP. XXX. Intellect, in function (actu) finite, or in function infinite, must comprehend the"
+E1P30Dem,620,625,"Proof.—A true idea must agree with its object (Ax. vi.); in other words (obviously), that which"
+E1P31,626,627,"PROP. XXXI. The intellect in function, whether finite or infinite, as will, desire, love, &c.,"
+E1P31Dem,628,634,"Proof.—By the intellect we do not (obviously) mean absolute thought, but only a certain mode"
+E1P31S1,635,638,"Note.—I do not here, by speaking of intellect in function, admit that there is such a thing as"
+E1P32,639,639,"the act of understanding.PROP. XXXII. Will cannot be called a free cause, but only a necessary cause."
+E1P32Dem,640,648,"Proof.—Will is only a particular mode of thinking, like intellect; therefore (by Prop. xxviii.) no"
+E1P32C1,649,649,"Coroll. I.—Hence it follows, first, that God does not act according to freedom of the will."
+E1P32C2,650,660,"Coroll. II.—It follows, secondly, that will and intellect stand in the same relation to the nature"
+E1P33,661,662,PROP. XXXIII. Things could not have been brought into being by God in any manner or in
+E1P33Dem,663,670,"Proof—All things necessarily follow from the nature of God (Prop. xvi.), and by the nature of"
+E1P33S1,671,682,"Note I.—As I have thus shown, more clearly than the sun at noonday, that there is nothing to"
+E1P33S2,683,746,"Note II.—It clearly follows from what we have said, that things have been brought into being"
+E1P34,747,747,PROP. XXXIV. God's power is identical with his essence.
+E1P34Dem,748,750,Proof.—From the sole necessity of the essence of God it follows that God is the cause of
+E1P35,751,751,"PROP. XXXV. Whatsoever we conceive to be in the power of God, necessarily exists."
+E1P35Dem,752,754,"Proof.—Whatsoever is in God's power, must (by the last Prop.) be comprehended in his"
+E1P36,755,755,PROP. XXXVI. There is no cause from whose nature some effect does not follow.
+E1P36Dem,756,759,Proof.—Whatsoever exists expresses God's nature or essence in a given conditioned manner
+E1App,760,931,APPENDIX:
+E2,932,933,PART II.
+E2Pref,934,940,PREFACE
+E2D1,941,943,DEFINITION I. By body I mean a mode which expresses in a certain determinate manner the
+E2D2,944,947,"DEFINITION II. I consider as belonging to the essence of a thing that, which being given, the"
+E2D3,948,952,"DEFINITION III. By idea, I mean the mental conception which is formed by the mind as a"
+E2D4,953,956,"DEFINITION IV. By an adequate idea, I mean an idea which, in so far as it is considered in"
+E2D5,957,960,DEFINITION V. Duration is the indefinite continuance of existing.
+E2D6,961,964,"DEFINITION VI. Reality and perfection I use as synonymous terms.DEFINITION VII. By particular things, I mean things which are finite and have a conditioned"
+E2A1,965,966,"I. The essence of man does not involve necessary existence, that is, it may, in the order of"
+E2A2,967,967,II. Man thinks.
+E2A3,968,970,"III. Modes of thinking, such as love, desire, or any other of the passions, do not take place,"
+E2A4,971,971,IV. We perceive that a certain body is affected in many ways.
+E2A5,972,974,"V. We feel and perceive no particular things, save bodies and modes of thought."
+E2P1,975,975,"PROP. I. Thought is an attribute of God, or God is a thinking thing."
+E2P1Dem,976,981,"Proof.—Particular thoughts, or this and that thought, are modes which, in a certain conditioned"
+E2P1S1,982,988,"Note.—This proposition is also evident from the fact, that we are able to conceive an infinite"
+E2P2,989,989,"PROP. II. Extension is an attribute of God, or God is an extended thing."
+E2P2Dem,990,990,Proof.—The proof of this proposition is similar to that of the last.
+E2P3,991,991,"PROP. III. In God there is necessarily the idea not only of his essence, but also of all thingswhich necessarily follow from his essence."
+E2P3Dem,992,996,Proof.—God (by the first Prop. of this Part) can think an infinite number of things in infinite
+E2P3S1,997,1013,"Note.—The multitude understand by the power of God the free will of God, and the right over"
+E2P4,1014,1015,"PROP. IV. The idea of God, from which an infinite number of things follow in infinite ways,"
+E2P4Dem,1016,1018,Proof.—Infinite intellect comprehends nothing save the attributes of God and his modifications
+E2P5,1019,1022,"PROP. V. The actual being of ideas owns God as its cause, only in so far as he is considered as"
+E2P5Dem,1023,1031,"Proof.—This proposition is evident from Prop. iii. of this Part. We there drew the conclusion,"
+E2P6,1032,1034,"far as he is considered as a thinking thing, &c. Q.E.D.PROP. VI. The modes of any given attribute are caused by God, in so far as he is considered"
+E2P6Dem,1035,1039,"Proof.—Each attribute is conceived through itself, without any other (Part i., Prop. x.);"
+E2P6C1,1040,1044,"Corollary.—Hence the actual being of things, which are not modes of thought, does not follow"
+E2P7,1045,1046,PROP. VII. The order and connection of ideas is the same as the order and connection of
+E2P7Dem,1047,1048,"Proof.—This proposition is evident from Part i., Ax. iv. For the idea of everything that is"
+E2P7C1,1049,1052,"Corollary.—Hence God's power of thinking is equal to his realized power of action—that is,"
+E2P7S1,1053,1073,"Note.—Before going any further, I wish to recall to mind what has been pointed out above"
+E2P8,1074,1076,"PROP. VIII. The ideas of particular things, or of modes, that do not exist, must be"
+E2P8Dem,1077,1078,Proof.—This proposition is evident from the last; it is understood more clearly from the
+E2P8C1,1079,1084,"Corollary.—Hence, so long as particular things do not exist, except in so far as they are"
+E2P8S1,1085,1095,"Note.—If anyone desires an example to throw more light on this question, I shall, I fear, not be"
+E2P9,1096,1099,"PROP. IX. The idea of an individual thing actually existing is caused by God, not in so far as"
+E2P9Dem,1100,1109,"Proof.—The idea of an individual thing actually existing is an individual mode of thinking,"
+E2P9C1,1110,1116,"Corollary.—Whatsoever takes place in the individual object of any idea, the knowledge thereof"
+E2P10,1117,1119,"PROP. X. The being of substance does not appertain to the essence of man—in other words,"
+E2P10Dem,1120,1123,"Proof.—The being of substance involves necessary existence (Part i., Prop. vii.). If, therefore,"
+E2P10S1,1124,1128,"Note.—This proposition may also be proved from I.v., in which it is shown that there cannot"
+E2P10C1,1129,1133,"Corollary.—Hence it follows, that the essence of man is constituted by certain modifications of"
+E2P10S2,1134,1156,"Note.—Everyone must surely admit, that nothing can be or be conceived without God. All men"
+E2P11,1157,1158,"PROP. XI. The first element, which constitutes the actual being of the human mind, is the idea"
+E2P11Dem,1159,1168,Proof.—The essence of man (by the Coroll. of the last Prop.) is constituted by certain modes of
+E2P11C1,1169,1175,"Corollary.—Hence it follows, that the human mind is part of the infinite intellect of God; thus"
+E2P11S1,1176,1178,"Note.—Here, I doubt not, readers will come to a stand, and will call to mind many things"
+E2P12,1179,1182,"PROP. XII. Whatsoever comes to pass in the object of the idea, which constitutes the human"
+E2P12Dem,1183,1188,"Proof.—Whatsoever comes to pass in the object of any idea, the knowledge thereof is"
+E2P12S1,1189,1190,"Note.—This proposition is also evident, and is more clearly to be understood from II. vii.,"
+E2P13,1191,1192,"PROP. XIII. The object of the idea constituting the human mind is the body, in other words a"
+E2P13Dem,1193,1202,"Proof.—If indeed the body were not the object of the human mind, the ideas of the"
+E2P13S1,1203,1227,"Note.—We thus comprehend, not only that the human mind is united to the body, but also the"
+E2A1,1228,1228,AXIOM I. All bodies are either in motion or at rest.
+E2A2,1229,1320,"AXIOM II. Every body is moved sometimes more slowly, sometimes more quickly."
+E2Post1,1321,1322,"I. The human body is composed of a number of individual parts, of diverse nature, each one of"
+E2Post2,1323,1323,"II. Of the individual parts composing the human body some are fluid, some soft, some hard."
+E2Post3,1324,1325,"III. The individual parts composing the human body, and consequently the human body itself,"
+E2Post4,1326,1327,"IV. The human body stands in need for its preservation of a number of other bodies, by which"
+E2Post5,1328,1330,V. When the fluid part of the human body is determined by an external body to impinge often
+E2Post6,1331,1331,"VI. The human body can move external bodies, and arrange them in a variety of ways."
+E2P14,1332,1333,"PROP. XIV. The human mind is capable of perceiving a great number of things, and is so in"
+E2P14Dem,1334,1336,Proof.—The human body (by Post. iii. and vi.) is affected in very many ways by external
+E2P15,1337,1338,"capable of perceiving a great number of things, and is so in proportion, &c. Q.E.D.PROP. XV. The idea, which constitutes the actual being of the human mind, is "
+E2P15Dem,1339,1341,Proof.—The idea constituting the actual being of the human mind is the idea of the body (II.
+E2P15C1,1342,1343,"Coroll.); therefore (II. vii.), the idea of the human body is composed of these numerous ideas"
+E2P16,1344,1345,"PROP. XVI. The idea of every mode, in which the human body is affected by external bodies,"
+E2P16Dem,1346,1350,"Proof.—All the modes, in which any given body is affected, follow from the nature of the"
+E2P16C1,1351,1352,"Corollary I.—Hence it follows, first, that the human mind perceives the nature of a variety of"
+E2P16C2,1353,1355,"Corollary II.—It follows, secondly, that the ideas, which we have of external bodies, indicate"
+E2P17,1356,1359,PROP. XVII. If the human body is affected in a manner which involves the nature of any
+E2P17Dem,1360,1366,"Proof.—This proposition is self—evident, for so long as the human body continues to be thus"
+E2P17C1,1367,1368,"Corollary.—The mind is able to regard as present external bodies, by which the human body"
+E2P17Dem,1369,1380,"Proof.—When external bodies determine the fluid parts of the human body, so that they often"
+E2P17S1,1381,1403,"Note.—We thus see how it comes about, as is often the case, that we regard as present many"
+E2P18,1404,1406,PROP. XVIII. If the human body has once been affected by two or more bodies at the same
+E2P18Dem,1407,1412,"Proof.—The mind (II. xvii. Coroll.) imagines any given body, because the human body is"
+E2P18S1,1413,1434,Note.—We now clearly see what Memory is. It is simply a certain association of ideas
+E2P19,1435,1436,"PROP. XIX. The human mind has no knowledge of the body, and does not know it to exist,"
+E2P19Dem,1437,1444,"Proof.—The human mind is the very idea or knowledge of the human body (II. xiii.), which"
+E2P19C1,1445,1448,"Coroll.), the human mind does not know the human body. But the ideas of the modifications of"
+E2P20,1449,1451,"PROP. XX. The idea or knowledge of the human mind is also in God, following in God in the"
+E2P20Dem,1452,1458,Proof.—Thought is an attribute of God (II. i.); therefore (II. iii.) there must necessarily be in
+E2P21,1459,1463,PROP. XXI. This idea of the mind is united to the mind in the same way as the mind is united
+E2P21S1,1464,1474,Note.—This proposition is comprehended much more clearly from what we have said in the
+E2P22,1475,1476,"PROP. XXII. The human mind perceives not only the modifications of the body, but also the"
+E2P22Dem,1477,1483,"Proof.—The ideas of the ideas of modifications follow in God in the same manner, and are"
+E2P23,1484,1485,"PROP. XXIII. The mind does not know itself, except in so far as it perceives the ideas of the"
+E2P23Dem,1486,1496,"Proof.—The idea or knowledge of the mind (II. xx.) follows in God in the same manner, and is"
+E2P24,1497,1498,PROP. XXIV. The human mind does not involve an adequate knowledge of the parts
+E2P24Dem,1499,1512,"Proof.—The parts composing the human body do not belong to the essence of that body,"
+E2P25,1513,1514,PROP. XXV. The idea of each modification of the human body does not involve an adequate
+E2P25Dem,1515,1522,Proof.—We have shown that the idea of a modification of the human body involves the nature
+E2P26,1523,1524,"PROP. XXVI. The human mind does not perceive any external body as actually existing,"
+E2P26Dem,1525,1529,"Proof.—If the human body is in no way affected by a given external body, then (II. vii.) neither"
+E2P26C1,1530,1531,"Corollary.—In so far as the human mind imagines an external body, it has not an adequate"
+E2P26Dem,1532,1535,Proof.—When the human mind regards external bodies through the ideas of the modifications
+E2P27,1536,1537,PROP. XXVII. The idea of each modification of the human body does not involve an adequate
+E2P27Dem,1538,1540,Proof.—Every idea of a modification of the human body involves the nature of the human
+E2P28,1541,1542,"PROP. XXVIII. The ideas of the modifications of the human body, in so far as they have"
+E2P28Dem,1543,1551,Proof.—The ideas of the modifications of the human body involve the nature both of the
+E2P28S1,1552,1555,"Note.—The idea which constitutes the nature of the human mind is, in the same manner,"
+E2P29,1556,1557,PROP. XXIX. The idea of the idea of each modification of the human body does not involve
+E2P29Dem,1558,1562,Proof.—The idea of a modification of the human body (II. xxvii.) does not involve an adequate
+E2P29C1,1563,1570,"Corollary.—Hence it follows that the human mind, when it perceives things after the common"
+E2P29S1,1571,1577,"Note.—I say expressly, that the mind has not an adequate but only a confused knowledge of"
+E2P30,1578,1586,"PROP. XXX. We can only have a very inadequate knowledge of the duration of our body.Proof.—The duration of our body does not depend on its essence (II. Ax. i.),"
+E2P30C1,1587,1587,"Coroll.), this knowledge is very inadequate to our mind. Q.E.D."
+E2P31,1588,1589,PROP. XXXI. We can only have a very inadequate knowledge of the duration of particular
+E2P31Dem,1590,1596,"Proof.—Every particular thing, like the human body, must be conditioned by another particular"
+E2P31C1,1597,1600,Corollary.—Hence it follows that all particular things are contingent and perishable. For we
+E2P32,1601,1601,"PROP. XXXII. All ideas, in so far as they are referred to God, are true."
+E2P32Dem,1602,1603,"Proof.—All ideas which are in God agree in every respect with their objects (II. vii. Coroll.),"
+E2P33,1604,1604,"PROP. XXXIII. There is nothing positive in ideas, which causes them to be called false."
+E2P33Dem,1605,1608,"Proof.—If this be denied, conceive, if possible, a positive mode of thinking, which should"
+E2P34,1609,1609,"PROP. XXXIV. Every idea, which in us is absolute or adequate and perfect, is true."
+E2P34Dem,1610,1610,"Proof.—When we say that an idea in us is adequate and perfect, we say, in other words (II. xi."
+E2P34C1,1611,1612,"Coroll.), that the idea is adequate and perfect in God, in so far as he constitutes the essence of"
+E2P35,1613,1614,"PROP. XXXV. Falsity consists in the privation of knowledge, which inadequate, fragmentary,"
+E2P35Dem,1615,1618,"Proof.—There is nothing positive in ideas, which causes them to be called false (II. xxxiii.);but falsity cannot consist in simple privation (for minds, not bod"
+E2P35S1,1619,1633,"Note.—In the note to II. xvii. I explained how error consists in the privation of knowledge, but"
+E2P36,1634,1635,"PROP. XXXVI. Inadequate and confused ideas follow by the same necessity, as adequate or"
+E2P36Dem,1636,1639,"Proof.—All ideas are in God (I. xv.), and in so far as they are referred to God are true (II."
+E2P37,1640,1641,"PROP. XXXVII. That which is common to all (cf. Lemma II., above), and which is equally in"
+E2P37Dem,1642,1645,"Proof.—If this be denied, conceive, if possible, that it constitutes the essence of some"
+E2P38,1646,1647,"PROP. XXXVIII. Those things, which are common to all, and which are equally in a part and"
+E2P38Dem,1648,1656,"Proof.—Let A be something, which is common to all bodies, and which is equally present in"
+E2P38C1,1657,1659,Corollary—Hence it follows that there are certain ideas or notions common to all men; for (by
+E2P39,1660,1662,"PROP. XXXIX. That, which is common to and a property of the human body and such other"
+E2P39Dem,1663,1665,"Proof.—If A be that, which is common to and a property of the human body and external"
+E2P39C1,1666,1673,"Coroll.), both in so far as he has the idea of the human body, and in so far as he has the ideas of"
+E2P39C2,1674,1675,"Corollary.—Hence it follows that the mind is fitted to perceive adequately more things, in"
+E2P40,1676,1677,"PROP. XL. Whatsoever ideas in the mind follow from ideas which are therein adequate, are"
+E2P40Dem,1678,1682,Proof.—This proposition is self—evident. For when we say that an idea in the human mind
+E2P40S1,1683,1725,"Note I.—I have thus set forth the cause of those notions, which are common to all men, and"
+E2P40S2,1726,1749,"Note II.—From all that has been said above it is clear, that we, in many cases, perceive and"
+E2P41,1750,1751,"PROP. XLI. Knowledge of the first kind is the only source of falsity, knowledge of the second"
+E2P41Dem,1752,1755,Proof.—To knowledge of the first kind we have (in the foregoing note) assigned all those
+E2P42,1756,1757,"PROP. XLII. Knowledge of the second and third kinds, not knowledge of the first kind, teaches"
+E2P42Dem,1758,1760,"Proof.—This proposition is self—evident. He, who knows how to distinguish between true and"
+E2P43,1761,1762,"PROP. XLIII. He, who has a true idea, simultaneously knows that he has a true idea, and"
+E2P43Dem,1763,1772,"Proof.—A true idea in us is an idea which is adequate in God, in so far as he is displayed"
+E2P43S1,1773,1797,Note.—I explained in the note to II. xxi. what is meant by the idea of an idea; but we may
+E2P44,1798,1798,"PROP. XLIV. It is not in the nature of reason to regard things as contingent, but as necessary."
+E2P44Dem,1799,1800,"Proof.—It is in the nature of reason to perceive things truly (II. xli.), namely (I. Ax. vi.), as"
+E2P44C1,1801,1802,"Corollary I.—Hence it follows, that it is only through our imagination that we consider things,"
+E2P44S1,1803,1828,"Note.—How this way of looking at things arises, I will briefly explain. We have shown above"
+E2P44C2,1829,1830,Corollary II.—It is in the nature of reason to perceive things under a certain form of eternity
+E2P44Dem,1831,1837,"Proof.—It is in the nature of reason to regard things, not as contingent, but as necessary (II."
+E2P45,1838,1839,"PROP. XLV. Every idea of every body, or of every particular thing actually existing,"
+E2P45Dem,1840,1845,Proof.—The idea of a particular thing actually existing necessarily involves both the existence
+E2P45S1,1846,1853,"Note.—By existence I do not here mean duration—that is, existence in so far as it is conceived"
+E2P46,1854,1855,PROP. XLVI. The knowledge of the eternal and infinite essence of God which every idea
+E2P46Dem,1856,1859,"Proof.—The proof of the last proposition is universal; and whether a thing be considered as apart or a whole, the idea thereof, whether of the whole or of a par"
+E2P47,1860,1861,PROP. XLVII. The human mind has an adequate knowledge of the eternal and infinite essence
+E2P47Dem,1862,1865,"Proof.—The human mind has ideas (II. xxii.), from which (II. xxiii.) it perceives itself and its"
+E2P47S1,1866,1887,"Note.—Hence we see, that the infinite essence and the eternity of God are known to all. Now"
+E2P48,1888,1890,PROP. XLVIII. In the mind there is no absolute or free will; but the mind is determined to wish
+E2P48Dem,1891,1894,"Proof.—The mind is a fixed and definite mode of thought (II. xi.), therefore it cannot be the"
+E2P48S1,1895,1910,"Note.—In the same way it is proved, that there is in the mind no absolute faculty of"
+E2P49,1911,1912,"PROP. XLIX. There is in the mind no volition or affirmation and negation, save that which an"
+E2P49Dem,1913,1926,"Proof.—There is in the mind no absolute faculty of positive or negative volition, but only"
+E2P49C1,1927,1927,Corollary.—Will and understanding are one and the same.
+E2P49Dem,1928,1930,Proof.—Will and understanding are nothing beyond the individual volitions and ideas (II.
+E2P49S1,1931,2081,Note.—We have thus removed the cause which is commonly assigned for error. For we have
+E3,2082,2118,PART III.
+E3D1,2119,2121,"DEFINITIONSI. By an adequate cause, I mean a cause through which its effect can be clearly and distinctly"
+E3D2,2122,2127,"II. I say that we act when anything takes place, either within us or externally to us, whereof we"
+E3D3,2128,2132,"III. By emotion I mean the modifications of the body, whereby the active power of the said"
+E3Post1,2133,2137,"I. The human body can be affected in many ways, whereby its power of activity is increased or"
+E3Post2,2138,2140,"II. The human body can undergo many changes, and, nevertheless, retain the impressions or"
+E3P1,2141,2143,"PROP. I. Our mind is in certain cases active, and in certain cases passive. In so far as it has"
+E3P1Dem,2144,2159,"Proof.—In every human mind there are some adequate ideas, and some ideas that are"
+E3P1C1,2160,2162,"Corollary.—Hence it follows that the mind is more or less liable to be acted upon, in"
+E3P2,2163,2164,"PROP. II. Body cannot determine mind to think, neither can mind determine body to motion or"
+E3P2Dem,2165,2173,"Proof.—All modes of thinking have for their cause God, by virtue of his being a thinking"
+E3P2S1,2174,2264,"Note.—This is made more clear by what was said in the note to II. vii., namely, that mind and"
+E3P3,2265,2266,PROP. III. The activities of the mind arise solely from adequate ideas; the passive states of the
+E3P3Dem,2267,2269,"Proof.—The first element, which constitutes the essence of the mind, is nothing else but the"
+E3P3C1,2270,2274,"Coroll.). Whatsoever therefore follows from the nature of mind, and has mind for its proximate"
+E3P3S1,2275,2280,"Note.—Thus we see, that passive states are not attributed to the mind, except in so far as it"
+E3P4,2281,2285,"PROP. IV. Nothing can be destroyed, except by a cause external to itself.Proof.—This proposition is self—evident, for the definition of anything affirms the ess"
+E3P5,2286,2287,"PROP. V. Things are naturally contrary, that is, cannot exist in the same object, in so far as one"
+E3P5Dem,2288,2290,"Proof.—If they could agree together or co—exist in the same object, there would then be in the"
+E3P6,2291,2291,"PROP. VI. Everything, in so far as it is in itself, endeavours to persist in its own being."
+E3P6Dem,2292,2297,Proof.—Individual things are modes whereby the attributes of God are expressed in a given
+E3P7,2298,2299,"PROP. VII. The endeavour, wherewith everything endeavours to persist in its own being, is"
+E3P7Dem,2300,2305,Proof.—From the given essence of any thing certain consequences necessarily follow (I.
+E3P8,2306,2307,"PROP. VIII. The endeavour, whereby a thing endeavours to persist in its own being, involves"
+E3P8Dem,2308,2313,"Proof.—If it involved a limited time, which should determine the duration of the thing, it"
+E3P9,2314,2316,"PROP. IX. The mind, both in so far as it has clear and distinct ideas, and also in so far as it has"
+E3P9Dem,2317,2320,"Proof.—The essence of the mind is constituted by adequate and inadequate ideas (III. iii.),"
+E3P9S1,2321,2330,"Note.—This endeavour, when referred solely to the mind, is called will, when referred to the"
+E3P10,2331,2332,"PROP. X. An idea, which excludes the existence of our body, cannot be postulated in our mind,"
+E3P10Dem,2333,2339,"Proof.—Whatsoever can destroy our body, cannot be postulated therein (III. v.). Therefore"
+E3P11,2340,2342,"PROP. XI. Whatsoever increases or diminishes, helps or hinders the power of activity in our"
+E3P11Dem,2343,2343,Proof.—This proposition is evident from II. vii. or from II. xiv.
+E3P11S1,2344,2370,"Note.—Thus we see, that the mind can undergo many changes, and can pass sometimes to a"
+E3P12,2371,2372,"PROP. XII. The mind, as far as it can, endeavours to conceive those things, which increase or"
+E3P12Dem,2373,2381,"Proof.—So long as the human body is affected in a mode, which involves the nature of any"
+E3P13,2382,2384,PROP. XIII. When the mind conceives things which diminish or hinder the body's power of
+E3P13Dem,2385,2391,"Proof.—So long as the mind conceives anything of the kind alluded to, the power of the mind"
+E3P13C1,2392,2393,"Corollary.—Hence it follows that the mind shrinks from conceiving those things, which"
+E3P13S1,2394,2398,Note.—From what has been said we may clearly understand the nature of Love and Hate. Love
+E3P14,2399,2400,"matters at more length hereafter.PROP. XIV. If the mind has once been affected by two emotions at the same time, it will,"
+E3P14Dem,2401,2406,"Proof.—If the human body has once been affected by two bodies at once, whenever afterwards"
+E3P15,2407,2407,"PROP. XV. Anything can, accidentally, be the cause of pleasure, pain, or desire."
+E3P15Dem,2408,2416,"Proof.—Let it be granted that the mind is simultaneously affected by two emotions, of which"
+E3P15C1,2417,2418,Corollary.—Simply from the fact that we have regarded a thing with the emotion of pleasure or
+E3P15Dem,2419,2423,"Proof.—For from this fact alone it arises (III. xiv.), that the mind afterwards conceiving the"
+E3P15S1,2424,2431,"Note.—Hence we understand how it may happen, that we love or hate a thing without any"
+E3P16,2432,2435,"PROP. XVI. Simply from the fact that we conceive, that a given object has some point of"
+E3P16Dem,2436,2441,"Proof.—The point of resemblance was in the object (by hypothesis), when we regarded it with"
+E3P17,2442,2444,"PROP. XVII. If we conceive that a thing, which is wont to affect us painfully, has any point of"
+E3P17Dem,2445,2449,"Proof.—The given thing is (by hypothesis) in itself a cause of pain, and (III. xiii. note), in so"
+E3P17S1,2450,2462,"Note.—This disposition of the mind, which arises from two contrary emotions, is called"
+E3P18,2463,2464,PROP. XVIII. A man is as much affected pleasurably or painfully by the image of a thing past
+E3P18Dem,2465,2472,"Proof.—So long as a man is affected by the image of anything, he will regard that thing as"
+E3P18S1,2473,2481,"Note I.—I call a thing past or future, according as we either have been or shall be affected"
+E3P18S2,2482,2491,"Note II.—From what has just been said, we understand what is meant by the terms Hope, Fear,"
+E3P19,2492,2493,PROP. XIX. He who conceives that the object of his love is destroyed will feel pain; if he
+E3P19Dem,2494,2502,"Proof.—The mind, as far as possible, endeavours to conceive those things which increase or"
+E3P20,2503,2503,PROP. XX. He who conceives that the object of his hate is destroyed will also feel pleasure.
+E3P20Dem,2504,2509,"Proof.—The mind (III. xiii.) endeavours to conceive those things, which exclude the existence"
+E3P21,2510,2512,"PROP. XXI. He who conceives, that the object of his love is affected pleasurably or painfully,"
+E3P21Dem,2513,2523,Proof.—The images of things (as we showed in III. xix.) which postulate the existence of the
+E3P22,2524,2526,"PROP. XXII. If we conceive that anything pleasurably affects some object of our love, we shall"
+E3P22Dem,2527,2532,"Proof.—He, who affects pleasurably or painfully the object of our love, affects us also"
+E3P22S1,2533,2541,"Note.—Prop. xxi. explains to us the nature of Pity, which we may define as pain arising from"
+E3P23,2542,2544,"PROP. XXIII. He who conceives, that an object of his hatred is painfully affected, will feelpleasure. Contrariwise, if he thinks that the said object is pleasur"
+E3P23Dem,2545,2552,"Proof.—In so far as an object of hatred is painfully affected, it is destroyed, to an extent"
+E3P23S1,2553,2556,"Note.—This pleasure can scarcely be felt unalloyed, and without any mental conflict. For (as I"
+E3P24,2557,2559,"PROP. XXIV. If we conceive that anyone pleasurably affects an object of our hate, we shall"
+E3P24Dem,2560,2560,"Proof.—This proposition is proved in the same way as III. xxii., which see."
+E3P24S1,2561,2563,"Note.—These and similar emotions of hatred are attributable to envy, which, accordingly, is"
+E3P25,2564,2567,"PROP. XXV. We endeavour to affirm, concerning ourselves, and concerning what we love,"
+E3P25Dem,2568,2570,"Proof.—That, which we conceive to affect an object of our love pleasurably or painfully,"
+E3P25C1,2571,2574,"Coroll.), it endeavours to regard them as present. And, contrariwise (III. xiii.), it endeavours to"
+E3P26,2575,2577,"PROP. XXVI. We endeavour to affirm, concerning that which we hate, everything which we"
+E3P26Dem,2578,2579,"Proof.—This proposition follows from III. xxiii., as the foregoing proposition followed from"
+E3P26S1,2580,2588,"Note.—Thus we see that it may readily happen, that a man may easily think too highly ofhimself, or a loved object, and, contrariwise, too meanly of a hated obje"
+E3P27,2589,2591,"PROP. XXVII. By the very fact that we conceive a thing, which is like ourselves, and which"
+E3P27Dem,2592,2602,"Proof.—The images of things are modifications of the human body, whereof the ideas"
+E3P27S1,2603,2606,"Note I.—This imitation of emotions, when it is referred to pain, is called compassion (cf. III."
+E3P27C1,2607,2610,"Corollary I.—If we conceive that anyone, whom we have hitherto regarded with no emotion,"
+E3P27Dem,2611,2612,Proof.—This is proved from the last proposition in the same manner as III. xxii. is proved from
+E3P27C2,2613,2613,"Corollary II.—We cannot hate a thing which we pity, because its misery affects us painfully."
+E3P27Dem,2614,2615,"Proof.—If we could hate it for this reason, we should rejoice in its pain, which is contrary to"
+E3P27C3,2616,2616,"Corollary III.—We seek to free from misery, as far as we can, a thing which we pity."
+E3P27Dem,2617,2620,"Proof.—That, which painfully affects the object of our pity, affects us also with similar pain"
+E3P27S2,2621,2624,"Note II.—This will or appetite for doing good, which arises from pity of the thing whereon we"
+E3P28,2625,2627,PROP. XXVIII. We endeavour to bring about whatsoever we conceive to conduce to pleasure;
+E3P28Dem,2628,2638,"Proof.—We endeavour, as far as possible, to conceive that which we imagine to conduce to"
+E3P29,2639,2642,PROP. XXIX. We shall also endeavour to do whatsoever we conceive men[6] to regard with
+E3P29Dem,2643,2646,"Proof.—From the fact of imagining, that men love or hate anything, we shall love or hate the"
+E3P29S1,2647,2652,"Note.—This endeavour to do a thing or leave it undone, solely in order to please men, we call"
+E3P30,2653,2661,PROP. XXX. If anyone has done something which he conceives as affecting other men
+E3P30S1,2662,2676,"Note.—As love (III. xiii.) is pleasure accompanied by the idea of an external cause, and hatred"
+E3P31,2677,2680,"PROP. XXXI. If we conceive that anyone loves, desires, or hates anything which we ourselves"
+E3P31Dem,2681,2687,Proof.—From the mere fact of conceiving that anyone loves anything we shall ourselves love
+E3P31C1,2688,2694,"Corollary.—From the foregoing, and also from III. xxviii. it follows that everyone endeavours,"
+E3P31S1,2695,2699,"Note.—This endeavour to bring it about, that our own likes and dislikes should meet with"
+E3P32,2700,2702,"PROP. XXXII. If we conceive that anyone takes delight in something, which only one person"
+E3P32Dem,2703,2706,Proof.—From the mere fact of our conceiving that another person takes delight in a thing (III.
+E3P32S1,2707,2718,"Note.—We thus see that man's nature is generally so constituted, that he takes pity on those"
+E3P33,2719,2720,"PROP. XXXIII. When we love a thing similar to ourselves we endeavour, as far as we can, to"
+E3P33Dem,2721,2725,"Proof.—That which we love we endeavour, as far as we can, to conceive in preference to"
+E3P34,2726,2727,PROP. XXXIV. The greater the emotion with which we conceive a loved object to be affected
+E3P34Dem,2728,2734,"Proof.—We endeavour (III. xxxiii.), as far as we can, to bring about, that what we love should"
+E3P35,2735,2737,"PROP. XXXV. If anyone conceives, that an object of his love joins itself to another with closer"
+E3P35Dem,2738,2748,"Proof.—In proportion as a man thinks, that a loved object is well affected towards him, will be"
+E3P35S1,2749,2763,"Note.—This hatred towards an object of love joined with envy is called Jealousy, which"
+E3P36,2764,2765,"PROP. XXXVI. He who remembers a thing, in which he has once taken delight, desires to"
+E3P36Dem,2766,2770,"Proof.—Everything, which a man has seen in conjunction with the object of his love, will be to"
+E3P36Dem,2771,2774,"Proof.—For, in so far as he finds some circumstance to be missing, he conceives something"
+E3P36S1,2775,2776,"Note.—This pain, in so far as it has reference to the absence of the object of love, is called"
+E3P37,2777,2778,"PROP. XXXVII. Desire arising through pain or pleasure, hatred or love, is greater in"
+E3P37Dem,2779,2791,"Proof.—Pain diminishes or constrains a man's power of activity (III. xi. note), in other words"
+E3P38,2792,2794,"PROP. XXXVIII. If a man has begun to hate an object of his love, so that love is thoroughly"
+E3P38Dem,2795,2806,"Proof.—If a man begins to hate that which he had loved, more of his appetites are put under"
+E3P39,2807,2808,"PROP. XXXIX. He who hates anyone will endeavour to do him an injury, unless he fears that a"
+E3P39Dem,2809,2816,Proof.—To hate a man is (III. xiii. note) to conceive him as a cause of pain; therefore he who
+E3P39S1,2817,2833,"Note.—By good I here mean every kind of pleasure, and all that conduces thereto, especially"
+E3P40,2834,2835,"PROP. XL. He, who conceives himself to be hated by another, and believes that he has given"
+E3P40Dem,2836,2840,"Proof.—He who conceives another as affected with hatred, will thereupon be affected himself"
+E3P40S1,2841,2847,Note.—He who thinks that he has given just cause for hatred will (III. xxx. and note) be
+E3P40C1,2848,2850,"Corollary I.—He who conceives, that one whom he loves hates him, will be a prey to"
+E3P40C2,2851,2853,"Corollary II.—If a man conceives that one, whom he has hitherto regarded without emotion,"
+E3P40Dem,2854,2858,"Proof.—He who conceives, that another hates him, will (by the last proposition) hate his"
+E3P40S2,2859,2860,Note.—The endeavour to injure one whom we hate is called Anger; the endeavour to repay in
+E3P41,2861,2862,"PROP. XLI. If anyone conceives that he is loved by another, and believes that he has given no"
+E3P41Dem,2863,2864,Proof.—This proposition is proved in the same way as the preceding one. See also the note
+E3P41S1,2865,2870,"Note.—If he believes that he has given just cause for the love, he will take pride therein (III."
+E3P41C1,2871,2873,"Corollary.—He who imagines that he is loved by one whom he hates, will be a prey to"
+E3P41S2,2874,2876,"Note.—If hatred be the prevailing emotion, he will endeavour to injure him who loves him;"
+E3P42,2877,2878,PROP. XLII. He who has conferred a benefit on anyone from motives of love or honour will
+E3P42Dem,2879,2885,"Proof.—When a man loves something similar to himself, he endeavours, as far as he can, to"
+E3P43,2886,2886,"PROP. XLIII. Hatred is increased by being reciprocated, and can on the other hand bedestroyed by love."
+E3P43Dem,2887,2895,"Proof.—He who conceives, that an object of his hatred hates him in return, will thereupon feel"
+E3P44,2896,2897,PROP. XLIV. Hatred which is completely vanquished by love passes into love: and love is
+E3P44Dem,2898,2902,Proof.—The proof proceeds in the same way as Prop. xxxviii. of this Part: for he who begins
+E3P44S1,2903,2912,"Note.—Though this be so, no one will endeavour to hate anything, or to be affected with pain,"
+E3P45,2913,2914,"PROP. XLV. If a man conceives, that anyone similar to himself hates anything also similar to"
+E3P45Dem,2915,2919,Proof.—The beloved object feels reciprocal hatred towards him who hates it (III. xl.); therefore
+E3P46,2920,2924,"PROP. XLVI. If a man has been affected pleasurably or painfully by anyone, of a class or"
+E3P47,2925,2926,"Proof.—This is evident from III. xvi.PROP. XLVII. Joy arising from the fact, that anything we hate is destroyed, or suffers other"
+E3P47Dem,2927,2928,Proof.—This is evident from III. xxvii. For in so far as we conceive a thing similar to ourselves
+E3P47S1,2929,2946,Note.—This proposition can also be proved from the Corollary to II. xvii. Whenever we
+E3P48,2947,2950,"PROP. XLVIII. Love or hatred towards, for instance, Peter is destroyed, if the pleasure"
+E3P48Dem,2951,2955,Proof.—This Prop. is evident from the mere definition of love and hatred (III. xiii. note). For
+E3P49,2956,2957,"PROP. XLIX. Love or hatred towards a thing, which we conceive to be free, must, other"
+E3P49Dem,2958,2964,Proof.—A thing which we conceive as free must (I. Def. vii.) be perceived through itself
+E3P49S1,2965,2966,"Note.—Hence it follows, that men, thinking themselves to be free, feel more love or hatredtowards one another than towards anything else: to this consideration "
+E3P50,2967,2967,"PROP. L. Anything whatever can be, accidentally, a cause of hope or fear."
+E3P50Dem,2968,2969,"Proof.—This proposition is proved in the same way as III. xv., which see, together with the"
+E3P50S1,2970,2982,Note.—Things which are accidentally the causes of hope or fear are called good or evil omens.
+E3P51,2983,2984,"PROP. LI. Different men may be differently affected by the same object, and the same man"
+E3P51Dem,2985,2990,Proof.—The human body is affected by external bodies in a variety of ways (II. Post. iii.). Two
+E3P51S1,2991,3013,"Note.—We thus see that it is possible, that what one man loves another may hate, and that"
+E3P52,3014,3016,"PROP. LII. An object which we have formerly seen in conjunction with others, and which we"
+E3P52Dem,3017,3025,"Proof.—As soon as we conceive an object which we have seen in conjunction with others, we"
+E3P52S1,3026,3051,"Note.—This mental modification, or imagination of a particular thing, in so far as it is alone in"
+E3P53,3052,3054,"PROP. LIII. When the mind regards itself and its own power of activity, it feels pleasure: and"
+E3P53Dem,3055,3059,"Proof.—A man does not know himself except through the modifications of his body, and the"
+E3P53C1,3060,3064,"Corollary.—This pleasure is fostered more and more, in proportion as a man conceives himself"
+E3P54,3065,3065,PROP. LIV. The mind endeavours to conceive only such things as assert its power of activity.
+E3P54Dem,3066,3069,Proof.—The endeavour or power of the mind is the actual essence thereof (III. vii.); but the
+E3P55,3070,3070,"PROP. LV. When the mind contemplates its own weakness, it feels pain thereat."
+E3P55Dem,3071,3075,"Proof.—The essence of the mind only affirms that which the mind is, or can do; in other"
+E3P55C1,3076,3077,"Corollary.—This pain is more and more fostered, if a man conceives that he is blamed by"
+E3P55S1,3078,3097,"Note.—This pain, accompanied by the idea of our own weakness, is called humility; the"
+E3P55C2,3098,3098,Corollary.—No one envies the virtue of anyone who is not his equal.
+E3P55Dem,3099,3106,"Proof.—Envy is a species of hatred (III. xxiv. note) or (III. xiii. note) pain, that is (III. xi. note),"
+E3P55S2,3107,3110,"Note.—When, therefore, as we said in the note to III. lii., we venerate a man, through wonder"
+E3P56,3111,3113,"PROP. LVI. There are as many kinds of pleasure, of pain, of desire, and of every emotion"
+E3P56Dem,3114,3135,"Proof.—Pleasure and pain, and consequently the emotions compounded thereof, or derived"
+E3P56S1,3136,3153,"Note.—Among the kinds of emotions, which, by the last proposition, must be very numerous,"
+E3P57,3154,3155,"PROP. LVII. Any emotion of a given individual differs from the emotion of another individual,"
+E3P57Dem,3156,3169,"Proof.—This proposition is evident from Ax. i. (which see after Lemma iii. Prop. xiii., Part II.)."
+E3P57S1,3170,3183,"Note.—Hence it follows, that the emotions of the animals which are called irrational (for after"
+E3P58,3184,3186,"PROP. LVIII. Besides pleasure and desire, which are passivities or passions, there are other"
+E3P58Dem,3187,3194,"Proof.—When the mind conceives itself and its power of activity, it feels pleasure (III. liii.):"
+E3P59,3195,3196,"PROP. LIX. Among all the emotions attributable to the mind as active, there are none which"
+E3P59Dem,3197,3202,"Proof.—All emotions can be referred to desire, pleasure, or pain, as their definitions, already"
+E3P59S1,3203,3237,"Note.—All actions following from emotion, which are attributable to the mind in virtue of its"
+E3DefAff1,3238,3257,"I. Desire is the actual essence of man, in so far as it is conceived, as determined to a particular"
+E3DefAff2,3258,3258,II. Pleasure is the transition of a man from a less to a greater perfection.
+E3DefAff3,3259,3270,III. Pain is the transition of a man from a greater to a less perfection.
+E3DefAff4,3271,3288,"IV. Wonder is the conception (imaginatio) of anything, wherein the mind comes to a stand,"
+E3DefAff5,3289,3293,"V. Contempt is the conception of anything which touches the mind so little, that its presence"
+E3DefAff6,3294,3306,"VI. Love is pleasure, accompanied by the idea of an external cause."
+E3DefAff7,3307,3309,"VII. Hatred is pain, accompanied by the idea of an external cause."
+E3DefAff8,3310,3311,"VIII. Inclination is pleasure, accompanied by the idea of something which is accidentally a"
+E3DefAff9,3312,3313,"IX. Aversion is pain, accompanied by the idea of something which is accidentally the cause of"
+E3DefAff10,3314,3318,X. Devotion is love towards one whom we admire.
+E3DefAff11,3319,3323,"XI. Derision is pleasure arising from our conceiving the presence of a quality, which we"
+E3DefAff12,3324,3324,"XII. Hope is an inconstant pleasure, arising from the idea of something past or future, whereofwe to a certain extent doubt the issue."
+E3DefAff13,3325,3334,"XIII. Fear is an inconstant pain arising from the idea of something past or future, whereof we"
+E3DefAff14,3335,3336,"XIV. Confidence is pleasure arising from the idea of something past or future, wherefrom all"
+E3DefAff15,3337,3348,"XV. Despair is pain arising from the idea of something past or future, wherefrom all cause of"
+E3DefAff16,3349,3350,"XVI. Joy is pleasure accompanied by the idea of something past, which has had an issue"
+E3DefAff17,3351,3352,"XVII. Disappointment is pain accompanied by the idea of something past, which has had an"
+E3DefAff18,3353,3357,"XVIII. Pity is pain accompanied by the idea of evil, which has befallen someone else whom"
+E3DefAff19,3358,3358,XIX. Approval is love towards one who has done good to another.
+E3DefAff20,3359,3363,XX. Indignation is hatred towards one who has done evil to another.
+E3DefAff21,3364,3364,XXI. Partiality is thinking too highly of anyone because of the love we bear him.
+E3DefAff22,3365,3369,XXII. Disparagement is thinking too meanly of anyone because we hate him.
+E3DefAff23,3370,3373,"XXIII. Envy is hatred, in so far as it induces a man to be pained by another's good fortune, and"
+E3DefAff24,3374,3379,"XXIV. Sympathy (misericordia) is love, in so far as it induces a man to feel pleasure at"
+E3DefAff25,3380,3381,XXV. Self—approval is pleasure arising from a man's contemplation of himself and his own
+E3DefAff26,3382,3387,XXVI. Humility is pain arising from a man's contemplation of his own weakness of body or
+E3DefAff27,3388,3400,"XXVII. Repentance is pain accompanied by the idea of some action, which we believe we"
+E3DefAff28,3401,3423,XXVIII. Pride is thinking too highly of one's self from self—love.
+E3DefAff29,3424,3434,XXIX. Self—abasement is thinking too meanly of one's self by reason of pain.
+E3DefAff30,3435,3437,"XXX. Honour[11] is pleasure accompanied by the idea of some action of our own, which we"
+E3DefAff31,3438,3447,"XXXI. Shame is pain accompanied by the idea of some action of our own, which we believe to"
+E3DefAff32,3448,3460,"XXXII. Regret is the desire or appetite to possess something, kept alive by the remembrance of"
+E3DefAff33,3461,3470,"XXXIII. Emulation is the desire of something, engendered in us by our conception that others"
+E3DefAff34,3471,3473,"XXXIV. Thankfulness or Gratitude is the desire or zeal springing from love, whereby we"
+E3DefAff35,3474,3474,XXXV. Benevolence is the desire of benefiting one whom we pity. Cf. III. xxvii. note.
+E3DefAff36,3475,3475,"XXXVI. Anger is the desire, whereby through hatred we are induced to injure one whom wehate, III. xxxix."
+E3DefAff37,3476,3477,"XXXVII. Revenge is the desire whereby we are induced, through mutual hatred, to injure one"
+E3DefAff38,3478,3481,"XXXVIII. Cruelty or savageness is the desire, whereby a man is impelled to injure one whom"
+E3DefAff39,3482,3483,"XXXIX. Timidity is the desire to avoid a greater evil, which we dread, by undergoing a lesser"
+E3DefAff40,3484,3485,"XL. Daring is the desire, whereby a man is set on to do something dangerous which his equals"
+E3DefAff41,3486,3491,"XLI. Cowardice is attributed to one, whose desire is checked by the fear of some danger which"
+E3DefAff42,3492,3501,"XLII. Consternation is attributed to one, whose desire of avoiding evil is checked by"
+E3DefAff43,3502,3503,"XLIII. Courtesy, or deference (Humanitas seu modestia), is the desire of acting in a way that"
+E3DefAff44,3504,3509,XLIV. Ambition is the immoderate desire of power.
+E3DefAff45,3510,3509,"XLV. Luxury is excessive desire, or even love of living sumptuously.XLVI. Intemperance is the excessive desire and love of drinking."
+E3DefAff46,3510,3510,"XLV. Luxury is excessive desire, or even love of living sumptuously.XLVI. Intemperance is the excessive desire and love of drinking."
+E3DefAff47,3511,3511,XLVII. Avarice is the excessive desire and love of riches.
+E3DefAff48,3512,3566,XLVIII. Lust is desire and love in the matter of sexual intercourse.
+E4,3567,3568,PART IV:
+E4Pref,3569,3652,PREFACE
+E4D1,3653,3653,I. By good I mean that which we certainly know to be useful to us.
+E4D2,3654,3656,II. By evil I mean that which we certainly know to be a hindrance to us in the attainment of
+E4D3,3657,3658,"III. Particular things I call contingent in so far as, while regarding their essence only, we find"
+E4D4,3659,3662,"IV. Particular things I call possible in so far as, while regarding the causes whereby they must"
+E4D5,3663,3665,"V. By conflicting emotions I mean those which draw a man in different directions, though they"
+E4D6,3666,3674,"VI. What I mean by emotion felt towards a thing, future, present, and past, I explained in III."
+E4D7,3675,3675,"VII. By an end, for the sake of which we do something, I mean a desire."
+E4D8,3676,3682,"VIII. By virtue (virtus) and power I mean the same thing; that is (III. vii), virtue, in so far as it"
+E4P1,3683,3684,PROP. I. No positive quality possessed by a false idea is removed by the presence of what is
+E4P1Dem,3685,3690,Proof.—Falsity consists solely in the privation of knowledge which inadequate ideas involve
+E4P1S1,3691,3711,Note.—This proposition is more clearly understood from II. xvi. Coroll. ii. For imagination is
+E4P2,3712,3713,"PROP. II. We are only passive, in so far as we are apart of Nature, which cannot be conceived"
+E4P2Dem,3714,3716,"Proof.—We are said to be passive, when something arises in us, whereof we are only a partial"
+E4P3,3717,3718,"PROP. III. The force whereby a man persists in existing is limited, and is infinitely surpassed"
+E4P3Dem,3719,3722,"Proof.—This is evident from the axiom of this part. For, when man is given, there is something"
+E4P4,3723,3725,"PROP. IV. It is impossible, that man should not be a part of Nature, or that he should be"
+E4P4Dem,3726,3747,"Proof.—The power, whereby each particular thing, and consequently man, preserves his being,"
+E4P4C1,3748,3750,"Corollary.—Hence it follows, that man is necessarily always a prey to his passions, that he"
+E4P5,3751,3753,"PROP. V. The power and increase of every passion, and its persistence in existing are not"
+E4P5Dem,3754,3756,Proof.—The essence of a passion cannot be explained through our essence alone (III. Deff. i.
+E4P6,3757,3758,PROP. VI. The force of any passion or emotion can overcome the rest of a man's activities or
+E4P6Dem,3759,3761,Proof.—The force and increase of any passion and its persistence in existing are defined by the
+E4P7,3762,3763,PROP. VII. An emotion can only be controlled or destroyed by another emotion contrary
+E4P7Dem,3764,3776,"Proof.—Emotion, in so far as it is referred to the mind, is an idea, whereby the mind affirms of"
+E4P7C1,3777,3782,"Corollary.—An emotion, in so far as it is referred to the mind, can only be controlled or"
+E4P8,3783,3784,PROP. VIII. The knowledge of good and evil is nothing else but the emotions of pleasure or
+E4P8Dem,3785,3793,"Proof.—We call a thing good or evil, when it is of service or the reverse in preserving our"
+E4P9,3794,3794,"PROP. IX. An emotion, whereof we conceive the cause to be with us at the present time, isstronger than if we did not conceive the cause to be with us."
+E4P9Dem,3795,3801,"Proof.—Imagination or conception is the idea, by which the mind regards a thing as present"
+E4P9S1,3802,3808,Note.—When I said above in III. xviii. that we are affected by the image of what is past or
+E4P9C1,3809,3813,"Corollary.—The image of something past or future, that is, of a thing which we regard as in"
+E4P10,3814,3817,"PROP. X. Towards something future, which we conceive as close at hand, we are affected"
+E4P10Dem,3818,3821,"Proof.—In so far as we conceive a thing as close at hand, or not long passed away, we"
+E4P10C1,3822,3824,"Corollary.—From the remarks made in Def. vi. of this part it follows that, if objects are"
+E4P11,3825,3827,"PROP. XI. An emotion towards that which we conceive as necessary is, when other conditions"
+E4P11Dem,3828,3832,"Proof.—In so far as we conceive a thing to be necessary, we, to that extent, affirm its"
+E4P12,3833,3834,"PROP. XII. An emotion towards a thing, which we know not to exist at the present time, andwhich we conceive as possible, is more intense, other conditions being"
+E4P12Dem,3835,3840,"Proof.—In so far as we conceive a thing as contingent, we are affected by the conception of"
+E4P12C1,3841,3842,"Corollary.—An emotion towards a thing, which we know not to exist in the present, and which"
+E4P12Dem,3843,3849,"Proof.—Emotion towards a thing, which we conceive to exist, is more intense than it would"
+E4P13,3850,3851,"PROP. XIII. Emotion towards a thing contingent, which we know not to exist in the present, is,"
+E4P13Dem,3852,3859,"Proof.—In so far as we conceive a thing as contingent, we are not affected by the image of any"
+E4P14,3860,3861,PROP. XIV. A true knowledge of good and evil cannot check any emotion by virtue of being
+E4P14Dem,3862,3867,"Proof.—An emotion is an idea, whereby the mind affirms of its body a greater or less force of"
+E4P15,3868,3869,PROP. XV. Desire arising from the knowledge of good and bad can be quenched or checked by
+E4P15Dem,3870,3880,"Proof.—From the true knowledge of good and evil, in so far as it is an emotion, necessarily"
+E4P16,3881,3883,"PROP. XVI. Desire arising from the knowledge of good and evil, in so far as such knowledge"
+E4P16Dem,3884,3889,"Proof.—Emotion towards a thing, which we conceive as future, is fainter than emotion towards"
+E4P17,3890,3892,"PROP. XVII. Desire arising from the true knowledge of good and evil, in so far as such"
+E4P17Dem,3893,3893,Proof.—This Prop. is proved in the same way as the last Prop. from IV. xii. Coroll.
+E4P17S1,3894,3906,"Note.—I think I have now shown the reason, why men are moved by opinion more readily"
+E4P18,3907,3914,"PROP. XVIII. Desire arising from pleasure is, other conditions being equal, stronger than"
+E4P18S1,3915,3953,"Note.—In these few remarks I have explained the causes of human infirmity and inconstancy,"
+E4P19,3954,3955,"PROP. XIX. Every man, by the laws of his nature, necessarily desires or shrinks from that"
+E4P19Dem,3956,3960,"Proof.—The knowledge of good and evil is (IV. viii.) the emotion of pleasure or pain, in so far"
+E4P20,3961,3964,"PROP. XX. The more every man endeavours, and is able to seek what is useful to him—in"
+E4P20Dem,3965,3969,"Proof.—Virtue is human power, which is defined solely by man's essence (IV. Def. viii.), that"
+E4P20S1,3970,3982,"Note.—No one, therefore, neglects seeking his own good, or preserving his own being, unless"
+E4P21,3983,3984,"PROP. XXI. No one can desire to be blessed, to act rightly, and to live rightly, without at the"
+E4P21Dem,3985,3988,"Proof.—The proof of this proposition, or rather the proposition itself, is self—evident, and is"
+E4P22,3989,3989,PROP. XXII. No virtue can be conceived as prior to this endeavour to preserve one's ownbeing.
+E4P22Dem,3990,3992,"Proof.—The effort for self—preservation is the essence of a thing (III. vii.); therefore, if any"
+E4P22C1,3993,3994,Corollary.—The effort for self—preservation is the first and only foundation of virtue. For
+E4P23,3995,3997,"PROP. XXIII. Man, in so far as he is determined to a particular action because he has"
+E4P23Dem,3998,4003,"Proof.—In so far as a man is determined to an action through having inadequate ideas, he is"
+E4P24,4004,4006,"PROP. XXIV. To act absolutely in obedience to virtue is in us the same thing as to act, to live,"
+E4P24Dem,4007,4011,Proof.—To act absolutely in obedience to virtue is nothing else but to act according to the laws
+E4P25,4012,4012,PROP. XXV. No one wishes to preserve his being for the sake of anything else.
+E4P25Dem,4013,4018,"Proof.—The endeavour, wherewith everything endeavours to persist in its being, is defined"
+E4P26,4019,4021,PROP. XXVI. Whatsoever we endeavour in obedience to reason is nothing further than to
+E4P26Dem,4022,4032,Proof.—The effort for self—preservation is nothing else but the essence of the thing in
+E4P27,4033,4034,"PROP. XXVII. We know nothing to be certainly good or evil, save such things as really"
+E4P27Dem,4035,4040,"Proof.—The mind, in so far as it reasons, desires nothing beyond understanding, and judges"
+E4P28,4041,4042,"PROP. XXVIII. The mind's highest good is the knowledge of God, and the mind's highest"
+E4P28Dem,4043,4049,"Proof.—The mind is not capable of understanding anything higher than God, that is (I. Def."
+E4P29,4050,4052,"PROP. XXIX. No individual thing, which is entirely different from our own nature, can help or"
+E4P29Dem,4053,4062,"Proof.—The power of every individual thing, and consequently the power of man, whereby he"
+E4P30,4063,4064,PROP. XXX. A thing cannot be bad for us through the quality which it has in common with
+E4P30Dem,4065,4070,"Proof.—We call a thing bad when it is the cause of pain (IV. viii.), that is (by the Def., which"
+E4P31,4071,4071,"PROP. XXXI. In so far as a thing is in harmony with our nature, it is necessarily good."
+E4P31Dem,4072,4077,"Proof.—In so far as a thing is in harmony with our nature, it cannot be bad for it. It will"
+E4P31C1,4078,4085,"Corollary.—Hence it follows, that, in proportion as a thing is in harmony with our nature, so is"
+E4P32,4086,4087,"PROP. XXXII. In so far as men are a prey to passion, they cannot, in that respect, be said to be"
+E4P32Dem,4088,4091,"Proof.—Things, which are said to be in harmony naturally, are understood to agree in power"
+E4P32S1,4092,4098,"Note.—This is also self—evident; for, if we say that white and black only agree in the fact that"
+E4P33,4099,4101,"PROP. XXXIII. Men can differ in nature, in so far as they are assailed by those emotions,"
+E4P33Dem,4102,4107,Proof.—The nature or essence of the emotions cannot be explained solely through our essence
+E4P34,4108,4109,"PROP. XXXIV. In so far as men are assailed by emotions which are passions, they can be"
+E4P34Dem,4110,4118,"Proof.—A man, for instance Peter, can be the cause of Paul's feeling pain, because he (Peter)"
+E4P34S1,4119,4135,"Note.—I said that Paul may hate Peter, because he conceives that Peter possesses something"
+E4P35,4136,4137,"PROP. XXXV. In so far only as men live in obedience to reason, do they always necessarily"
+E4P35Dem,4138,4148,"Proof.—In so far as men are assailed by emotions that are passions, they can be different in"
+E4P35C1,4149,4155,"Corollary I.—There is no individual thing in nature, which is more useful to man, than a man"
+E4P35C2,4156,4162,"Corollary II.—As every man seeks most that which is useful to him, so are men most useful"
+E4P35S1,4163,4174,"Note.—What we have just shown is attested by experience so conspicuously, that it is in the"
+E4P36,4175,4176,"PROP. XXXVI. The highest good of those who follow virtue is common to all, and therefore"
+E4P36Dem,4177,4181,"Proof.—To act virtuously is to act in obedience with reason (IV. xxiv.), and whatsoever we"
+E4P36S1,4182,4189,"Note.—Someone may ask how it would be, if the highest good of those who follow after virtue"
+E4P37,4190,4192,"PROP. XXXVII. The good which every man, who follows after virtue, desires for himself he"
+E4P37Dem,4193,4209,"Proof.—Men, in so far as they live in obedience to reason, are most useful to their fellow men"
+E4P37S1,4210,4240,"Note I.—He who, guided by emotion only, endeavours to cause others to love what he loves"
+E4P37S2,4241,4285,"Note II.—In the Appendix to Part I. I undertook to explain praise and blame, merit and sin,"
+E4P38,4286,4290,"PROP. XXXVIII. Whatsoever disposes the human body, so as to render it capable of being"
+E4P38Dem,4291,4295,Proof.—Whatsoever thus increases the capabilities of the body increases also the mind's
+E4P39,4296,4298,"PROP. XXXIX. Whatsoever brings about the preservation of the proportion of motion and rest,"
+E4P39Dem,4299,4324,Proof.—The human body needs many other bodies for its preservation (II. Post. iv.). But that
+E4P40,4325,4326,"PROP. XL. Whatsoever conduces to man's social life, or causes men to live together in"
+E4P40Dem,4327,4329,Proof.—For whatsoever causes men to live together in harmony also causes them to live
+E4P41,4330,4330,"PROP. XLI. Pleasure in itself is not bad but good: contrariwise, pain in itself is bad."
+E4P41Dem,4331,4333,"Proof.—Pleasure (III. xi. and note) is emotion, whereby the body's power of activity is"
+E4P42,4334,4335,"PROP. XLII. Mirth cannot be excessive, but is always good; contrariwise, Melancholy is"
+E4P42Dem,4336,4342,"Proof.—Mirth (see its Def. in III. xi. note) is pleasure, which, in so far as it is referred to the"
+E4P43,4343,4344,"PROP. XLIII. Stimulation may be excessive and bad; on the other hand, grief may be good, in"
+E4P43Dem,4345,4353,"Proof.—Localized pleasure or stimulation (titillatio) is pleasure, which, in so far as it is"
+E4P44,4354,4354,PROP. XLIV. Love and desire may be excessive.
+E4P44Dem,4355,4360,"Proof.—Love is pleasure, accompanied by the idea of an external cause (Def. of Emotions,"
+E4P44S1,4361,4375,"Note.—Mirth, which I have stated to be good, can be conceived more easily than it can be"
+E4P45,4376,4376,PROP. XLV. Hatred can never be good.
+E4P45Dem,4377,4379,"Proof.—When we hate a man, we endeavour to destroy him (III. xxxix.), that is (IV. xxxvii.),"
+E4P45C1,4380,4381,"Corollary I.—Envy, derision, contempt, anger, revenge, and other emotions attributable to"
+E4P45C2,4382,4384,"Corollary II.—Whatsoever we desire from motives of hatred is base, and in a State unjust. This"
+E4P45S1,4385,4405,Note.—Between derision (which I have in Coroll. I. stated to be bad) and laughter I recognize
+E4P46,4406,4407,"PROP. XLVI. He, who lives under the guidance of reason, endeavours, as far as possible, to"
+E4P46Dem,4408,4413,Proof.—All emotions of hatred are bad (IV. xlv. Coroll. i.); therefore he who lives under the
+E4P46S1,4414,4419,"Note.—He who chooses to avenge wrongs with hatred is assuredly wretched. But he, who"
+E4P47,4420,4420,PROP. XLVII. Emotions of hope and fear cannot be in themselves good.
+E4P47Dem,4421,4424,Proof.—Emotions of hope and fear cannot exist without pain. For fear is pain (Def. of the
+E4P47S1,4425,4430,"Note.—We may add, that these emotions show defective knowledge and an absence of power"
+E4P48,4431,4431,PROP. XLVIII. The emotions of over—esteem and disparagement are always bad.
+E4P48Dem,4432,4433,"Proof.—These emotions (see Def. of the Emotions, xxi. xxii.) are repugnant to reason; and are"
+E4P49,4434,4434,PROP. XLIX. Over—esteem is apt to render its object proud.
+E4P49Dem,4435,4438,"Proof.—If we see that any one rates us too highly, for love's sake, we are apt to become elated"
+E4P50,4439,4439,"PROP. L. Pity, in a man who lives under the guidance of reason, is in itself bad and useless."
+E4P50Dem,4440,4445,"Proof.—Pity (Def. of the Emotions, xviii.) is a pain, and therefore (IV. xli.) is in itself bad. The"
+E4P50S1,4446,4455,"Note.—He who rightly realizes, that all things follow from the necessity of the divine nature,"
+E4P51,4456,4456,"PROP. LI. Approval is not repugnant to reason, but can agree therewith and arise therefrom."
+E4P51Dem,4457,4463,"Proof.—Approval is love towards one who has done good to another (Def. of the Emotions,"
+E4P51S1,4464,4466,"Note.—Indignation as we defined it (Def. of the Emotions, xx.) is necessarily evil (IV. xlv.);"
+E4P52,4467,4468,"PROP. LII. Self—approval may arise from reason, and that which arises from reason is the"
+E4P52Dem,4469,4475,Proof.—Self—approval is pleasure arising from a man's contemplation of himself and his own
+E4P52S1,4476,4480,Note.—Self—approval is in reality the highest object for which we can hope. For (as we
+E4P53,4481,4481,"PROP. LIII. Humility is not a virtue, or does not arise from reason."
+E4P53Dem,4482,4494,Proof.—Humility is pain arising from a man's contemplation of his own infirmities (Def. of the
+E4P54,4495,4496,"PROP. LIV. Repentance is not a virtue, or does not arise from reason; but he who repents of an"
+E4P54Dem,4497,4499,Proof.—The first part of this proposition is proved like the foregoing one. The second part is
+E4P54S1,4500,4507,"Note.—As men seldom live under the guidance of reason, these two emotions, namely,"
+E4P55,4508,4508,PROP. LV. Extreme pride or dejection indicates extreme ignorance of self.
+E4P55Dem,4509,4509,"Proof.—This is evident from Def. of the Emotions, xxviii. and xxix."
+E4P56,4510,4510,PROP. LVI. Extreme pride or dejection indicates extreme infirmity of spirit.
+E4P56Dem,4511,4518,Proof.—The first foundation of virtue is self—preservation (IV. xxii. Coroll.) under the
+E4P56C1,4519,4520,"Corollary.—Hence it most clearly follows, that the proud and the dejected specially fall a prey"
+E4P56S1,4521,4523,Note.—Yet dejection can be more easily corrected than pride; for the latter being a pleasurable
+E4P57,4524,4525,"PROP. LVII. The proud man delights in the company of flatterers and parasites, but hates the"
+E4P57Dem,4526,4530,Proof.—Pride is pleasure arising from a man's over estimation of himself (Def. of the
+E4P57S1,4531,4558,"Note.—It would be too long a task to enumerate here all the evil results of pride, inasmuch as"
+E4P58,4559,4559,"PROP. LVIII. Honour (gloria) is not repugnant to reason, but may arise therefrom."
+E4P58Dem,4560,4561,"Proof.—This is evident from Def. of the Emotions, xxx., and also from the definition of an"
+E4P58S1,4562,4582,"Note—Empty honour, as it is styled, is self—approval, fostered only by the good opinion of"
+E4P59,4583,4584,"PROP. LIX. To all the actions, whereto we are determined by emotion wherein the mind is"
+E4P59Dem,4585,4606,"Proof.—To act rationally, is nothing else (III. iii. and Def. ii.) but to perform those actions,"
+E4P59S1,4607,4617,"Note.—An example will put this point in a clearer light. The action of striking, in so far as it is"
+E4P60,4618,4619,"PROP. LX. Desire arising from a pleasure or pain, that is not attributable to the whole body,"
+E4P60Dem,4620,4627,"Proof.—Let it be assumed, for instance, that A, a part of a body, is so strengthened by some"
+E4P60S1,4628,4631,"Note.—As pleasure is generally (IV. xliv. note) attributed to one part of the body, we generally"
+E4P61,4632,4632,PROP. LXI. Desire which springs from reason cannot be excessive.
+E4P61Dem,4633,4640,"Proof.—Desire (Def. of the Emotions, i.) considered absolutely is the actual essence of man, in"
+E4P62,4641,4642,"PROP. LXII. In so far as the mind conceives a thing under the dictates of reason, it is affected"
+E4P62Dem,4643,4650,"Proof.—Whatsoever the mind conceives under the guidance of reason, it conceives under the"
+E4P62S1,4651,4663,"Note.—If we could possess an adequate knowledge of the duration of things, and could"
+E4P63,4664,4664,"PROP. LXIII. He who is led by fear, and does good in order to escape evil, is not led by reason."
+E4P63Dem,4665,4667,"Proof.—All the emotions which are attributable to the mind as active, or in other words to"
+E4P63S1,4668,4672,"Note.—Superstitions persons, who know better how to rail at vice than how to teach virtue,"
+E4P63C1,4673,4674,"Corollary.—Under desire which springs from reason, we seek good directly, and shun evil"
+E4P63Dem,4675,4679,"Proof.—Desire which springs from reason can only spring from a pleasurable emotion,"
+E4P63S2,4680,4684,Note.—This Corollary may be illustrated by the example of a sick and a healthy man. The sick
+E4P64,4685,4685,PROP. LXIV. The knowledge of evil is an inadequate knowledge.
+E4P64Dem,4686,4690,"Proof.—The knowledge of evil (IV. viii.) is pain, in so far as we are conscious thereof. Now"
+E4P64C1,4691,4692,"Corollary.—Hence it follows that, if the human mind possessed only adequate ideas, it would"
+E4P65,4693,4694,PROP. LXV. Under the guidance of reason we should pursue the greater of two goods and the
+E4P65Dem,4695,4698,Proof.—A good which prevents our enjoyment of a greater good is in reality an evil; for we
+E4P65C1,4699,4701,"Corollary.—We may, under the guidance of reason, pursue the lesser evil as though it were the"
+E4P66,4702,4707,"PROP. LXVI. We may, under the guidance of reason, seek a greater good in the future in"
+E4P66Dem,4708,4713,"Proof.—If the mind could have an adequate knowledge of things future, it would be affected"
+E4P66C1,4714,4717,"Corollary.—We may, under the guidance of reason, seek a lesser evil in the present, because it"
+E4P66S1,4718,4724,Note.—If these statements be compared with what we have pointed out concerning the
+E4P67,4725,4726,PROP. LXVII. A free man thinks of death least of all things; and his wisdom is a meditation
+E4P67Dem,4727,4731,"Proof.—A free man is one who lives under the guidance of reason, who is not led by fear (IV."
+E4P68,4732,4733,"PROP. LXVIII. If men were born free, they would, so long as they remained free, form no"
+E4P68Dem,4734,4750,"Proof.—I call free him who is led solely by reason; he, therefore, who is born free, and who"
+E4P69,4751,4752,"PROP. LXIX. The virtue of a free man is seen to be as great, when it declines dangers, as when"
+E4P69Dem,4753,4758,"Proof.—Emotion can only be checked or removed by an emotion contrary to itself, and"
+E4P69C1,4759,4760,"Corollary.—The free man is as courageous in timely retreat as in combat; or, a free man shows"
+E4P69S1,4761,4762,"Note.—What courage (animositas) is, and what I mean thereby, I explained in III. lix. note. By"
+E4P70,4763,4764,"PROP. LXX. The free man, who lives among the ignorant, strives, as far as he can, to avoid"
+E4P70Dem,4765,4772,Proof.—Everyone judges what is good according to his disposition (III. xxxix. note);
+E4P70S1,4773,4778,"Note.—I say, as far as he can. For though men be ignorant, yet are they men, and in cases of"
+E4P71,4779,4779,PROP. LXXI. Only free men are thoroughly grateful one to another.
+E4P71Dem,4780,4783,"Proof.—Only free men are thoroughly useful one to another, and associated among themselves"
+E4P71S1,4784,4791,"Note.—The goodwill, which men who are led by blind desire have for one another, is"
+E4P72,4792,4792,"PROP. LXXII. The free man never acts fraudulently, but always in good faith."
+E4P72Dem,4793,4798,Proof.—If it be asked: What should a man's conduct be in a case where he could by breaking
+E4P73,4799,4800,"PROP. LXXIII. The man, who is guided by reason, is more free in a State, where he lives"
+E4P73Dem,4801,4806,"Proof.—The man, who is guided by reason, does not obey through fear (IV. lxiii.): but, in so"
+E4P73S1,4807,4822,"Note.—These and similar observations, which we have made on man's true freedom, may be"
+E4App,4823,4993,APPENDIX.
+E5,4994,4995,PART V:
+E5Pref,4996,5076,PREFACE
+E5A1,5077,5078,"AXIOMS.I. If two contrary actions be started in the same subject, a change must necessarily take place,"
+E5A2,5079,5082,"II. The power of an effect is defined by the power of its cause, in so far as its essence is"
+E5P1,5083,5085,"PROP. I. Even as thoughts and the ideas of things are arranged and associated in the mind, so"
+E5P1Dem,5086,5092,Proof.—The order and connection of ideas is the same (II. vii.) as the order and connection of
+E5P2,5093,5095,"PROP. II. If we remove a disturbance of the spirit, or emotion, from the thought of an external"
+E5P2Dem,5096,5099,"Proof.—That, which constitutes the reality of love or hatred, is pleasure or pain, accompanied"
+E5P3,5100,5101,"PROP. III. An emotion, which is a passion, ceases to be a passion, as soon as we form a clear"
+E5P3Dem,5102,5105,"Proof.—An emotion, which is a passion, is a confused idea (by the general Def. of the"
+E5P3C1,5106,5107,"Corollary—An emotion therefore becomes more under our control, and the mind is less"
+E5P4,5108,5109,"PROP. IV. There is no modification of the body, whereof we cannot form some clear and"
+E5P4Dem,5110,5111,Proof.—Properties which are common to all things can only be conceived adequately (II.
+E5P4C1,5112,5115,"Corollary.—Hence it follows that there is no emotion, whereof we cannot form some clear and"
+E5P4S1,5116,5140,"Note.—Seeing that there is nothing which is not followed by an effect (I. xxxvi.), and that we"
+E5P5,5141,5142,"PROP. V. An emotion towards a thing, which we conceive simply, and not as necessary, or as"
+E5P5Dem,5143,5149,"Proof.—An emotion towards a thing, which we conceive to be free, is greater than one towards"
+E5P6,5150,5151,"PROP. VI. The mind has greater power over the emotions and is less subject thereto, in so far"
+E5P6Dem,5152,5154,Proof.—The mind understands all things to be necessary (I. xxix.) and to be determined toexistence and operation by an infinite chain of causes; therefore (by t
+E5P6S1,5155,5164,"Note.—The more this knowledge, that things are necessary, is applied to particular things,"
+E5P7,5165,5166,"PROP. VII. Emotions which are aroused or spring from reason, if we take account of time, are"
+E5P7Dem,5167,5179,"Proof.—We do not regard a thing as absent, by reason of the emotion wherewith we conceive"
+E5P8,5180,5181,PROP. VIII. An emotion is stronger in proportion to the number of simultaneous concurrent
+E5P8Dem,5182,5184,"Proof.—Many simultaneous causes are more powerful than a few (III. vii.): therefore (IV. v.),"
+E5P8S1,5185,5185,Note—This proposition is also evident from V. Ax. ii.
+E5P9,5186,5189,"PROP. IX. An emotion, which is attributable to many and diverse causes which the mind"
+E5P9Dem,5190,5198,"Proof.—An emotion is only bad or hurtful, in so far as it hinders the mind from being able to"
+E5P10,5199,5201,"PROP. X. So long as we are not assailed by emotions contrary to our nature, we have the"
+E5P10Dem,5202,5208,"Proof.—The emotions, which are contrary to our nature, that is (IV. xxx.), which are bad, are"
+E5P10S1,5209,5257,Note.—By this power of rightly arranging and associating the bodily modifications we can
+E5P11,5258,5259,"PROP. XI. In proportion as a mental image is referred to more objects, so is it more frequent,"
+E5P11Dem,5260,5263,"Proof.—In proportion as a mental image or an emotion is referred to more objects, so are there"
+E5P12,5264,5265,PROP. XII. The mental images of things are more easily associated with the images referred to
+E5P12Dem,5266,5271,"Proof.—Things, which we clearly and distinctly understand, are either the common properties"
+E5P13,5272,5272,"PROP. XIII. A mental image is more often vivid, in proportion as it is associated with a greaternumber of other images."
+E5P13Dem,5273,5274,"Proof.—In proportion as an image is associated with a greater number of other images, so (II."
+E5P14,5275,5276,"PROP. XIV. The mind can bring it about, that all bodily modifications or images of things may"
+E5P14Dem,5277,5279,"Proof.—There is no modification of the body, whereof the mind may not form some clear and"
+E5P15,5280,5281,"PROP. XV. He who clearly and distinctly understands himself and his emotions loves God, and"
+E5P15Dem,5282,5285,Proof.—He who clearly and distinctly understands himself and his emotions feels pleasure (III.
+E5P16,5286,5286,PROP. XVI. This love towards God must hold the chief place in the mind.
+E5P16Dem,5287,5288,Proof.—For this love is associated with all the modifications of the body (V. xiv.) and is
+E5P17,5289,5290,"PROP. XVII. God is without passions, neither is he affected by any emotion of pleasure or"
+E5P17Dem,5291,5294,"Proof.—All ideas, in so far as they are referred to God, are true (II. xxxii.), that is (II. Def. iv.)"
+E5P17C1,5295,5297,"Corollary.—Strictly speaking, God does not love or hate anyone. For God (by the foregoing"
+E5P18,5298,5298,PROP. XVIII. No one can hate God.
+E5P18Dem,5299,5302,"Proof.—The idea of God which is in us is adequate and perfect (II. xlvi. xlvii.); wherefore, in"
+E5P18C1,5303,5303,Corollary.—Love towards God cannot be turned into hate.
+E5P18S1,5304,5307,"Note.—It may be objected that, as we understand God as the cause of all things, we by that"
+E5P19,5308,5308,"PROP. XIX. He, who loves God, cannot endeavour that God should love him in return."
+E5P19Dem,5309,5311,"Proof.—For, if a man should so endeavour, he would desire (V. xvii. Coroll.) that God, whom"
+E5P20,5312,5314,PROP. XX. This love towards God cannot be stained by the emotion of envy or jealousy:
+E5P20Dem,5315,5320,Proof.—This love towards God is the highest good which we can seek for under the guidance
+E5P20S1,5321,5370,"Note.—We can in the same way show, that there is no emotion directly contrary to this love,"
+E5P21,5371,5372,"PROP. XXI. The mind can only imagine anything, or remember what is past, while the body"
+E5P21Dem,5373,5378,"Proof.—The mind does not express the actual existence of its body, nor does it imagine the"
+E5P22,5379,5380,"PROP. XXII. Nevertheless in God there is necessarily an idea, which expresses the essence of"
+E5P22Dem,5381,5383,"Proof.—God is the cause, not only of the existence of this or that human body, but also of itsessence (I. xxv.). This essence, therefore, must necessarily be co"
+E5P23,5384,5385,"PROP. XXIII. The human mind cannot be absolutely destroyed with the body, but there"
+E5P23Dem,5386,5394,"Proof.—There is necessarily in God a concept or idea, which expresses the essence of the"
+E5P23S1,5395,5408,"Note.—This idea, which expresses the essence of the body under the form of eternity, is, as we"
+E5P24,5409,5409,"PROP. XXIV. The more we understand particular things, the more do we understand God."
+E5P24Dem,5410,5410,Proof.—This is evident from I. xxv. Coroll.
+E5P25,5411,5412,"PROP. XXV. The highest endeavour of the mind, and the highest virtue is to understand things"
+E5P25Dem,5413,5418,Proof.—The third kind of knowledge proceeds from an adequate idea of certain attributes of
+E5P26,5419,5423,PROP. XXVI. In proportion as the mind is more capable of understanding things by the third
+E5P27,5424,5425,PROP. XXVII. From this third kind of knowledge arises the highest possible mental
+E5P27Dem,5426,5432,"Proof.—The highest virtue of the mind is to know God (IV. xxviii.), or to understand things by"
+E5P28,5433,5434,PROP. XXVIII. The endeavour or desire to know things by the third kind of knowledge cannot
+E5P28Dem,5435,5442,Proof.—This proposition is self—evident. For whatsoever we understand clearly and
+E5P29,5443,5445,"PROP. XXIX. Whatsoever the mind understands under the form of eternity, it does not"
+E5P29Dem,5446,5456,"Proof.—In so far as the mind conceives the present existence of its body, it to that extent"
+E5P29S1,5457,5460,Note.—Things are conceived by us as actual in two ways; either as existing in relation to a
+E5P30,5461,5463,"PROP. XXX. Our mind, in so far as it knows itself and the body under the form of eternity, has"
+E5P30Dem,5464,5469,"Proof.—Eternity is the very essence of God, in so far as this involves necessary existence (I."
+E5P31,5470,5471,"PROP. XXXI. The third kind of knowledge depends on the mind, as its formal cause, in so far"
+E5P31Dem,5472,5479,"Proof.—The mind does not conceive anything under the form of eternity, except in so far as it"
+E5P31S1,5480,5488,"Note.—In proportion, therefore, as a man is more potent in this kind of knowledge, he will be"
+E5P32,5489,5490,"PROP. XXXII. Whatsoever we understand by the third kind of knowledge, we take delight in,"
+E5P32Dem,5491,5493,"Proof.—From this kind of knowledge arises the highest possible mental acquiescence, that is"
+E5P32C1,5494,5498,Corollary.—From the third kind of knowledge necessarily arises the intellectual love of God.
+E5P33,5499,5499,"PROP. XXXIII. The intellectual love of God, which arises from the third kind of knowledge, iseternal."
+E5P33Dem,5500,5501,Proof.—The third kind of knowledge is eternal (V. xxxi. I. Ax. iii.); therefore (by the same
+E5P33S1,5502,5507,"Note.—Although this love towards God has (by the foregoing Prop.) no beginning, it yet"
+E5P34,5508,5509,"PROP. XXXIV. The mind is, only while the body endures, subject to those emotions which are"
+E5P34Dem,5510,5515,Proof.—Imagination is the idea wherewith the mind contemplates a thing as present (II. xvii.
+E5P34C1,5516,5516,Corollary.—Hence it follows that no love save intellectual love is eternal.
+E5P34S1,5517,5519,"Note.—If we look to men's general opinion, we shall see that they are indeed conscious of the"
+E5P35,5520,5520,PROP. XXXV. God loves himself with an infinite intellectual love.
+E5P35Dem,5521,5524,"Proof.—God is absolutely infinite (I. Def. vi.), that is (II. Def. vi.), the nature of God rejoices"
+E5P36,5525,5529,PROP. XXXVI. The intellectual love of the mind towards God is that very love of God
+E5P36Dem,5530,5535,Proof.—This love of the mind must be referred to the activities of the mind (V. xxxii. Coroll.
+E5P36C1,5536,5537,"Corollary.—Hence it follows that God, in so far as he loves himself, loves man, and,consequently, that the love of God towards men, and the intellectual love of"
+E5P36S1,5538,5555,"Note.—From what has been said we clearly understand, wherein our salvation, or blessedness,"
+E5P37,5556,5557,"PROP. XXXVII. There is nothing in nature, which is contrary to this intellectual love, or which"
+E5P37Dem,5558,5563,"Proof.—This intellectual love follows necessarily from the nature of the mind, in so far as the"
+E5P37S1,5564,5565,"Note.—The Axiom of Part IV. has reference to particular things, in so far as they are regarded"
+E5P38,5566,5568,PROP. XXXVIII. In proportion as the mind understands more things by the second and third
+E5P38Dem,5569,5582,"Proof.—The mind's essence consists in knowledge (II. xi.); therefore, in proportion as the mind"
+E5P39,5583,5584,"PROP. XXXIX. He, who possesses a body capable of the greatest number of activities,"
+E5P39Dem,5585,5592,"Proof.—He, who possesses a body capable of the greatest number of activities, is least agitated"
+E5P39S1,5593,5610,"Note.—Since human bodies are capable of the greatest number of activities, there is no doubt"
+E5P40,5611,5612,"PROP. XL. In proportion as each thing possesses more of perfection, so is it more active, and"
+E5P40Dem,5613,5620,"Proof.—In proportion as each thing is more perfect, it possesses more of reality (II. Def. vi.),"
+E5P40S1,5621,5625,"Note.—Such are the doctrines which I had purposed to set forth concerning the mind, in so far"
+E5P41,5626,5628,"PROP. XLI. Even if we did not know that our mind is eternal, we should still consider as of"
+E5P41Dem,5629,5635,"Proof.—The first and only foundation of virtue, or the rule of right living is (IV. xxii. Coroll."
+E5P41S1,5636,5652,Note.—The general belief of the multitude seems to be different. Most people seem to believe
+E5P42,5653,5655,"PROP. XLII. Blessedness is not the reward of virtue, but virtue itself; neither do we rejoice"
+E5P42Dem,5656,5665,"Proof.—Blessedness consists in love towards God (V. xxxvi and note), which love springsfrom the third kind of knowledge (V. xxxii. Coroll.); therefore this love"
+E5P42S1,5666,5997,Note.—I have thus completed all I wished to set forth touching the mind's power over the

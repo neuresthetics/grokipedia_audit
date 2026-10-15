@@ -1,0 +1,136 @@
+n,file,bytes,sha256,via
+1,ref001.txt,43563,e768c6a91e2127395faaa371349fd38e75a9cbd3280af0c8c260aed7203de6f1,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+2,ref002.txt,122527,8333feb2b570ef460df2881a92946e234ae0a30dedaee411d39442a3d2220857,grokaudit fetch
+3,ref003.txt,25283,e9b433986809fc68c1adb4bbb51df6b5a7ed598508878c576220646b1c2d593b,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+4,ref004.txt,334,00639aed54330eb76b8456d4e4636a21df4843e91fd38d839286cb23e1cd2a1c,grokaudit fetch
+5,ref005.txt,24563,3e79ac12ac26d9be2dff8306cd75ded87b93f3117f93e6719367b03f746b34fd,grokaudit fetch
+7,ref007.txt,8649,acf82fb361fde9b970490daa4be429058528b02aa27ac217eb3cae7de8db23bf,grokaudit fetch
+8,ref008.txt,53154,51b4c209d1f840539e0bbb5674120fb077b45fcd572f2cd903bb1b46e55d6b78,grokaudit fetch
+9,ref009.txt,30591,707486311e651f8b9165d93d11175c61db64a011b84bda0705cae0cb0871c1f2,grokaudit fetch
+10,ref010.txt,8292,dec55f07dc0e1447d224ccc81d425265c37b40f36103ab82dcbf18d3b4e9b788,grokaudit fetch
+11,ref011.txt,73389,9a6b6b80a530ab0f2ab48fbddf6a65a4ca2407633ba2bedfaa6417dd0650ea35,grokaudit fetch
+12,ref012.txt,94288,020400f8bd58e1322a0dbf17bd1684e5a7949591089156c3bb79567ec89bf85c,grokaudit fetch
+13,ref013.txt,76996,02ef73813b519b6382ca7295d4f39f8f558b377d33b3f36d0a95f697b3bb1ded,grokaudit fetch
+14,ref014.txt,6963,08e25a88d9d1abd439808eff661fd34e0eb84cf817702d7a7b40aab1662c2e58,grokaudit fetch
+15,ref015.txt,24775,22201497a33a7619680a0e17b944aa80815dd6363b431319550c268e50cf2a66,grokaudit fetch
+16,ref016.txt,37727,44bb2961408831da7fb11190bff121a41d92f07572c42781ddecb630639bb03e,grokaudit fetch
+17,ref017.txt,43935,8b3c8fc90a8944ef6905945c5307d76e776b613fd6838dc7f453af710265c159,grokaudit fetch
+18,ref018.txt,4088,e26ee8eb2dd8a040b63727a2782057143eb31dea47b6f3aeaff1e54dc18f5dc5,grokaudit fetch
+19,ref019.txt,29393,cb395c9df899f7a898954c417120ef42e87aac7c28ab9b1330115fec7a42995c,grokaudit fetch
+21,ref021.txt,5741,45ee4e375b9bc460d19432442b31b2b128d1d9a5de30e08a30511d294bb62316,grokaudit fetch
+22,ref022.txt,8667,fdad21bec159ec8db78a18da188b09a8dc6c8d00c4d7ade5d722b69bcee77fdd,grokaudit fetch
+24,ref024.txt,63180,f84f6510ca83f1cceb5234d37f525e580609d67afa888e5b4396a46bd4bd3244,grokaudit fetch
+25,ref025.txt,306771,8807b80468e0abb7fbfaa0f76e434abc7b0a64e183b83fa8b546e8c74a1d8f41,grokaudit fetch
+26,ref026.txt,125570,031724eaebdaad54799d3356b50c2e6c7bf1018efeb7ac63c128cad20b66bf53,grokaudit fetch
+27,ref027.txt,517092,4f1d947be5c21c124edd6c8eea0ad222019f585102820d1b1e1402f43fb414a7,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+28,ref028.txt,18784,54d3e43406429fb96382eaf9dffa0e2a22a14bda94b230b2597ea9f126a295bd,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+29,ref029.txt,13388,93a475e8a4b767322ae166b3c22b0847aee184c5b47133be014c0004248a254f,grokaudit fetch
+31,ref031.txt,35591,7e308efb39338ecde1af3fc35b70d026faf10c48db5a59f6437e7205484fd887,grokaudit fetch
+32,ref032.txt,60362,9af00cc6b0b0c436b758a39c2209add079d5c746a7756b766aa44580e4d1056a,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+33,ref033.txt,9968,bd8b4ffe729ec56ccafdb7281a8551eb3de36c3b71828542f245bbaada776ac2,grokaudit fetch
+35,ref035.txt,5456,176184572964dcefa212e5cb1c07aca5287e843ed1431a00bb58a91f90ea2d78,grokaudit fetch
+37,ref037.txt,2606,506339548d1f29b1fa481a1bd7c7bdf3f4c0ace754154f8a5ff81c0ba1c6f104,live-curl
+38,ref038.txt,1348,6e8aa983cceaf6343547537b927eb48d8927d8aaa1c43dadb3cf518ac736e111,grokaudit fetch
+39,ref039.txt,27744,a3a1d7c06c7200674d161fbc6d682561ffc188ea3c2c5da0f7f49760ee82f97c,grokaudit fetch
+41,ref041.txt,1086,a1a1acca0ed7c954984397d5821c9b7f1704f392e4fb0148e17c0852b1d04c45,grokaudit fetch
+42,ref042.txt,1320,1aa69a310cbfbff163ca7a754c29c849552dcef3be46c939cb22e076d4963e8e,grokaudit fetch
+43,ref043.txt,3711,1e46ecf6f60cec9a3aa7f08a73aa3b4132fc2f3352809ea2e1f98c19c7e0ec4f,grokaudit fetch
+44,ref044.txt,6542,116dec3cd20426becf260759c876463a3cbb5b5f3eba1b51a2dee4c7eefc7d03,grokaudit fetch
+45,ref045.txt,87728,ed8a59c3981edd9da7d942cbc8048aba1f494fdb7e1a19580c4d4fa707df8f01,grokaudit fetch
+46,ref046.txt,23824,4232fd8d79e2469e3bbd96ee404d4df38d94e40fd112144853f23704ddf9499c,grokaudit fetch
+47,ref047.txt,7669,48ac4c8ea4694c2ac310e6b9b09497e8ce536d169f2a88326d7408625d05f3e1,grokaudit fetch
+48,ref048.txt,14425,b0f9c6ed4389c9a9c7ba0244ce7946c3dc4619318e313fca082b756d560f8871,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+49,ref049.txt,6168,199d3cfd729a3939e1ddcda25dd3b41ee02fc6615be9e6a54062a7c0a18d5eef,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+50,ref050.txt,553035,70f05759f8b20aba912eda5d002094a1c219d163c7072beddb351b2a84708fdc,grokaudit fetch
+51,ref051.txt,8587,7a18bc932d6c2056f4695a66f85082d9e30c3e4bb9f2c46c35f8d41487d76d89,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+52,ref052.txt,3984,73cda34cf22dfce9f29022889f77cca8deb69f145e05a0f980ebf978a703dc97,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+53,ref053.txt,6699,d3d6976a5ce3cae1fa602537ba4ccbc78268649e3b3baac8d740fb8ff62c3c76,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+54,ref054.txt,7265,69af7e029a2a60e488df8b61b2a5d2c6aa8c28fe1d0189e05034292b0451c154,grokaudit fetch
+55,ref055.txt,7938,bc070df3ca1483cc9061e3b0b63ef949dc83ef608ed678b430a854cfaab5ceae,grokaudit fetch
+56,ref056.txt,71151,1998a1607a5f5c3683aa965c0125828885d99e34d5e84a5b1e2929d2de4cd77e,grokaudit fetch
+57,ref057.txt,32275,162e9f41fc9a411500f97dc4346e7c9f1d3a38e9e94dc7af588218b09126ca5d,grokaudit fetch
+58,ref058.txt,11459,cbd3d5d1fdfda66a3e9e263c291f508aebfa47752b9c22ab6a0aab6614fa38a1,grokaudit fetch
+59,ref059.txt,58737,f17980b9297d7ede26930170262bb2b53ba565ad382c4cc61e82c3c5181e6439,grokaudit fetch
+60,ref060.txt,110435,1472e1577d5105f2770f544ff63aaab18373e07d8977e5178720a327edea1240,grokaudit fetch
+61,ref061.txt,25819,2fb4c8cc989f066fe3df32a8ba0a47a8e74a2e595e9ac5859325d2ba84eaaf6d,grokaudit fetch
+62,ref062.txt,502033,293fc1519c3328e92eaf74c5efeb28d49c325ced83a7cb2ed8ab316dbef896b2,grokaudit fetch
+63,ref063.txt,147556,8ad031404f28567d1c59baae34112c525e09a8086329f57b115cb78f2c7af9a5,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+64,ref064.txt,7833,60faf1a3d4d294a6ce01135db31bf3913b9cb62bf14a1d562a332f865bf3b2c7,grokaudit fetch
+65,ref065.txt,118188,59d2157d369de068aeef8437b6083387a30042dc62454bde6cc0aac471e49913,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+66,ref066.txt,82955,e1a3c12c5bf8033949cbd58eb1712301f83055bc2764f5bec90de2786100952d,grokaudit fetch
+67,ref067.txt,12733,7689670ee8c457bfc18819eba6d9186e688f8d6358b141876e91f42fc95293d6,grokaudit fetch
+68,ref068.txt,46409,5b94c6250205aa182e96b59df32f6fcdad1dda0ca9053436371ba24be7eb4952,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+69,ref069.txt,93347,f025962104c310e84a508c45a2413f8ae40b32ac8a9a1d014e8d3c3acfbd7969,grokaudit fetch
+70,ref070.txt,53050,a919c1ab90810eb1b337d0ee6ba2a4f9b748f7a18d429ec613029a93bc9a68aa,grokaudit fetch
+71,ref071.txt,16010,a8308edd0257b60a01b2ba41616535d3319fa3f863993c50dde3083c94da3937,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+72,ref072.txt,46661,4ccfe9597ac90f33aaf3a38417d53d9975f994e39160149493fe89c5459bc23e,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+73,ref073.txt,54494,ed059899608fd0d5416b6c60da57726909c6c9f5a623e2f1d3f98143bc4bf33f,grokaudit fetch
+74,ref074.txt,661934,b9200809562f8bcdb1fadb01abc42647c0bb22549aebcf437a6abf9b1ad8ff4e,grokaudit fetch
+75,ref075.txt,10801,2cb5574441423e6884db93e561ad2de523287d6329cac35368560d62a0deb0d4,grokaudit fetch
+76,ref076.txt,6067,0dda3d94a2fe8a4f214c3d78e78922cc2cd465736ef63a41578887483c8006c1,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+77,ref077.txt,529171,458919c1cd59655ea66be5c216cd01400a941db8189bbc1310667d04b627143d,grokaudit fetch
+78,ref078.txt,68678,9f6a7eab74ad58657425634d9429877e72fc4238982a666c2bdfd9df05eb43e4,grokaudit fetch
+79,ref079.txt,107755,691750bf17a63d92922d078cac6a8eed8f199e2a92816750ffb0d71cd420f15c,grokaudit fetch
+81,ref081.txt,55626,1e622a13b929cf2ec14bbbaf0f7aa5881504f62199c67beaf0e8d1c1ea3e3d89,grokaudit fetch
+82,ref082.txt,18759,110db630d67c9edfd683786eaf455c96ec6f1dd236e7edb3771e56523de0dfb2,grokaudit fetch
+83,ref083.txt,31759,933c7ec5d128dcbacf3d574ec9994ef78f74ae9a39b0c5a4feb7ac3823e98413,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+86,ref086.txt,29804,6c0f13fb08448e836f682df4037b74e8a6583459cd37723f37150eecab247ad6,grokaudit fetch
+88,ref088.txt,9844,7e07fb2b8f9c14136dcbb1ace58ed16818ede51ae305fd0085d5f236d2941f79,grokaudit fetch
+89,ref089.txt,742357,5bbbaceed14cdb35ce8bf7d7899546cbc4cf8bb199d8cf573bd21d0fcdf8715d,grokaudit fetch
+90,ref090.txt,23301,91875d74abe7fe2220ca9d4387215bfd9aa31732d20fe570dd4c21184fe9d7b0,grokaudit fetch
+91,ref091.txt,35636,cb8399f7c1f969a2f68ef82db76001f549abd1958ceaec430ec68d7004180ba0,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+92,ref092.txt,39734,97af2d1add1a83cdeed32299bc8b6c5925192e0dd9dbb5415e962987d73b159f,grokaudit fetch
+94,ref094.txt,5159,0ff8dbdc1fd1a331b3566e88af46b43fbc22bfff1925f09b15617de524d3d3a4,grokaudit fetch
+95,ref095.txt,24228,bb51f9b934c4e480fef5068b7672937eca988ff52c3e7d97aaafea29bd2f1673,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+96,ref096.txt,11206,faef284fa116b8937cd9f960a0c099e8257dd76c60d151b5940b3f53968e2970,grokaudit fetch
+97,ref097.txt,7346,4edc9ed276cfd46e1add0170a2520a09c0c53441b95360610d2cc593b428c41d,grokaudit fetch
+98,ref098.txt,10988,a4a4201ab6451ba301d023248260a5033f2852213af54d154a4abbcd091558a7,grokaudit fetch
+99,ref099.txt,11085,b34ba3972e50314f865a2a8de74cf33ee3f7f4c4811bbb00293f6ab91a274757,grokaudit fetch
+100,ref100.txt,95030,73f37c87070b3fb5f7865aab1fbd82a8b8c64f8b09c2f01d25b474c9f68b884a,grokaudit fetch
+101,ref101.txt,4400,4b59e8974e53dd21c46f87c6df5ae715e645a0b8dff96f7c4371c2715f02865f,grokaudit fetch
+102,ref102.txt,15223,d5433f62990aefb34cab6d168c4ba77e6b28cbf7f98298a6e24a4f2a492eb720,grokaudit fetch
+103,ref103.txt,46606,e86b51a519215f01fb2b612a9e9a00722c44cba46d282ce9c52b885835d754c6,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+105,ref105.txt,128156,19c53677e740d471d1ddcbc53fc2a94476ada6b66408aa9b87170480969ce32e,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+106,ref106.txt,7489,34458b8e3260a04e704c6008615ac552d7a7c76bbc00167b704602c7f07f3c77,grokaudit fetch
+108,ref108.txt,90971,cf0f84bac74610563241e6fc8415864eb4135783df03e39dc62047907c918521,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+109,ref109.txt,23238,b2b748d4d13e6ba6f74492cb0a7fb2b19a252c3b380ac5ff03d05b2f3fdece27,grokaudit fetch
+110,ref110.txt,26363,b10edd74b1191a46931dddc1579305ba6ba2975733b0a95552f1af313c9c29f7,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+111,ref111.txt,29477,41221ac8dd36762b84d153efe20a3248f85c2820e0d857bf42064365368213b7,grokaudit fetch
+112,ref112.txt,315,fb658609c4d97225210657eeb2a726d9f5944371baaf97a80b61af172e170911,grokaudit fetch
+113,ref113.txt,81923,7e9b66012236dd65aa25f5ecffc3fad3faae6bb0eaca831ff53839450a4d3287,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+114,ref114.txt,314,91e266b7969a3b693ef366d891cc94adc8bbc5b3f766f31e57738e66b4aefb4d,grokaudit fetch
+115,ref115.txt,90299,2cee0c5c28e2e250d9b7e0844799d51e150dec7d99d09c61f5c5de3ea762e092,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+116,ref116.txt,6772,dc2ff6863f7035e6e0f0d1e403e37873413ae3cc61e51b0cc26cff0aaf633407,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+117,ref117.txt,33184,44ab7f8a367b7f29195450e866a65b6bea953b0734263c5ae55f0f771d95424f,grokaudit fetch
+118,ref118.txt,12322,d88978ef273bfabd22c22a0932d67ff0fd8cb6d710da5d6593e00c9c9b6cf627,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+119,ref119.txt,72770,a05bd2648571c3d6d3834fb4b3eb5f904c1820171e1abf1ea7828a558c9e793d,grokaudit fetch
+120,ref120.txt,8219,188c5f9d47838273fef6d18d4f5be163bf0448371a2eada2805cfdfa16fbf336,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+121,ref121.txt,22489,7dc3ce607e6b1fef9c081e5db5e1b1153367ebbee05e50f6a2e64ec615e684ad,grokaudit fetch
+122,ref122.txt,31660,b112149dee805c99fa29e36379f0f6b5fd85a9ee2a6c9f4e066fd4902ea76e93,grokaudit fetch
+123,ref123.txt,24040,92b42e5c662fe99ee07ee254a203849fa8d44a5aec2e5b2f955d71b48903272a,grokaudit fetch
+124,ref124.txt,158555,b33892b091ed40d59543cdf84ece6af2041fbb10dd1b25408fa8c7fdb6191e8c,grokaudit fetch
+125,ref125.txt,36963,65ec6461045e0be433055e0516370bf97817d55766a5828ccfb1c7fcb54b25ae,grokaudit fetch
+126,ref126.txt,15749,2cc3b07e80459ca1bfcbe22c36aa466a614ee8366d50af2e7ad33f03fa3ae177,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+128,ref128.txt,8046,932e2bb77ab201d42faede9c4cb3670d76c91f006b5b6a62f69c01338b83a621,grokaudit fetch
+129,ref129.txt,19033,71424b58b78daa5a2ec66714176bea7976619e8390f73206b557d485d182dd4a,grokaudit fetch
+130,ref130.txt,18799,d75cce3f999cda4c6f139e1e5937181c3e4f1d4ff13ad6f7a56819e514594059,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+131,ref131.txt,16599,019457b692822cee49977f804082a06375e1bf090b93f6a0fe4c8b2bd0035bee,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+132,ref132.txt,31581,9fd3dd744cc043a32def9db9e98abf17d69b8222f13e0e0a1c9f5cb808826cc4,grokaudit fetch
+133,ref133.txt,12864,ca5ed9159bea6c7cf9478d7ee42221fa4033a5307f6eba77e632598d39f7aa10,grokaudit fetch
+134,ref134.txt,7825,cc3076699d2b61ce8d09b3659d585997c12a1933cd553559c21b4e743f821425,grokaudit fetch
+135,ref135.txt,14238,c6dfb3b3e4c1dc3a3399ef6a233d7ec43480bb0123a52bdd88026168b6bec54d,grokaudit fetch
+136,ref136.txt,6615,1a0d8cd678be6c91c7a88bf164128e15f571ee4acbb52a2448dc68fc3b265ca5,grokaudit fetch
+137,ref137.txt,50131,054e59f674c0b1e65b4fb7dd636fe1cde4569aaa12d5629f9cca6823850eb85d,grokaudit fetch
+139,ref139.txt,115,c8b97225fb59988783bee2da00f9357986ba5928cfd09314182a8318ada7a6f2,grokaudit fetch
+140,ref140.txt,7225,a8a6fa0c8d6beee1bd78984bd452a1e74dd1888626c144f9edd25d2eaf72ea1b,grokaudit fetch
+141,ref141.txt,563554,2f1a72da06e5ddf65f59f441983d4f91504cd4746f022df09040711a0969caf8,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+142,ref142.txt,11164,facbd16d81e6c236526e7a74c8f61dd1271bd5d6247fe906acbb5d644e4b3020,grokaudit fetch
+144,ref144.txt,8646,a759e47d5e9e6dfed64096e407b3ecccabadd4deda866fcfb8ad2fe042084817,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+145,ref145.txt,3682,084220d9d65ae86e7f06799c2027a489310139da55f55fdd24605b97e7d30b69,grokaudit fetch
+146,ref146.txt,33802,55d5cf9a336f8be351878393ab39aa2346e50f8226f0dfac49c238f7842ebb0f,live-curl
+148,ref148.txt,31349,c9140d80576b54b5a23435ade660858af544b257d2b1fe74b59a8b7b27c05d01,grokaudit fetch
+149,ref149.txt,9231,922f9a7e85c037d4129018c8f847245682c3a851c46ddc2a8654b3a647d8cdb5,grokaudit fetch
+150,ref150.txt,31663,e81c416885a279b7b1497eb96fd6d7999c1472c614029667e8b5559673fac327,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"
+151,ref151.txt,8340,cf7830d724e5634d3bc60c4d6ea45cb9d3e6171f5d5e0fa2b60b9edfeb0af8cb,live-curl
+152,ref152.txt,3845,652803dfa49aea2c1ebf164303b6c8827062035f314f00846994ddd96ff4b21b,grokaudit fetch
+153,ref153.txt,2944,c505a1fcd216d80e61e8398e1d3873c83e53d0d8a8b5269df714a2310e91d0be,"wayback (web.archive.org/web/2026id_/<url>, latest capture)"

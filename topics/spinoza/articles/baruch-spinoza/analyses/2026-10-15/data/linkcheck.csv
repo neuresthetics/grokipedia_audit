@@ -1,0 +1,154 @@
+n,status,verdict,method,content_type,final_url,url,error
+1,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://research.rug.nl/files/71388054/Oberto_Marrama_Spinoza_Type_C.pdf,https://research.rug.nl/files/71388054/Oberto_Marrama_Spinoza_Type_C.pdf,HEAD 403
+2,200,ok,HEAD,text/html,https://www.tau.ac.il/~kasher/pspin.htm,https://www.tau.ac.il/~kasher/pspin.htm,
+3,200,ok,HEAD,text/html; charset=UTF-8,https://www.neh.gov/article/why-spinoza-was-excommunicated,https://www.neh.gov/article/why-spinoza-was-excommunicated,
+4,200,ok,HEAD,text/html; charset=utf-8,https://pubs.lib.umn.edu/index.php/aisthesis/article/view/50/35,https://pubs.lib.umn.edu/index.php/aisthesis/article/view/50/35,
+5,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/spinozas-theologicalpolitical-treatise/F44C8F0EA7402357FDA89BA79FDF3A9E,https://www.cambridge.org/core/books/spinozas-theologicalpolitical-treatise/F44C8F0EA7402357FDA89BA79FDF3A9E,
+6,403,blocked/paywall?,GET,,https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119538349.ch1,https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119538349.ch1,HEAD 403
+7,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/abs/cambridge-companion-to-spinoza/spinozas-contribution-to-biblical-scholarship/21DCD738A57D5E689F78E90ABF96A081,https://www.cambridge.org/core/books/cambridge-companion-to-spinoza/spinozas-contribution-to-biblical-scholarship/21DCD738A57D5E689F78E90ABF96A081,
+8,200,ok,HEAD,text/html; charset=utf-8,https://www.jewishencyclopedia.com/articles/13964-Spinoza-baruch-benedict-de-spinoza,https://www.jewishencyclopedia.com/articles/13964-Spinoza-baruch-benedict-de-spinoza,
+9,200,ok,HEAD,application/pdf,https://assets.cambridge.org/97805218/36203/excerpt/9780521836203_excerpt.pdf,https://assets.cambridge.org/97805218/36203/excerpt/9780521836203_excerpt.pdf,
+10,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/abs/cambridge-companion-to-spinoza/spinozas-life/BB01FADE7D59D6E2A767D8481F875D4A,https://www.cambridge.org/core/books/cambridge-companion-to-spinoza/spinozas-life/BB01FADE7D59D6E2A767D8481F875D4A,
+11,200,ok,HEAD,text/html; charset=UTF-8,https://iep.utm.edu/spinoza/,https://iep.utm.edu/spinoza/,
+12,200,ok,HEAD,text/html,https://plato.stanford.edu/entries/spinoza/,https://plato.stanford.edu/entries/spinoza/,
+13,200,ok,HEAD,text/html; charset=UTF-8,https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/baruch-spinoza,https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/baruch-spinoza,
+14,200,ok,HEAD,text/html; charset=UTF-8,https://spinozaweb.org/people/4,https://spinozaweb.org/people/4,
+15,200,ok,HEAD,text/html; charset=UTF-8,https://philosophynow.org/issues/56/Spinoza_Cursed_be_he_by_day_and_cursed_be_he_by_night,https://philosophynow.org/issues/56/Spinoza_Cursed_be_he_by_day_and_cursed_be_he_by_night,
+16,200,ok,HEAD,text/html; charset=UTF-8,https://www.commentary.org/articles/yirmiahu-yovel/why-spinoza-was-excommunicated/,https://www.commentary.org/articles/yirmiahu-yovel/why-spinoza-was-excommunicated/,
+17,200,ok,HEAD,text/html; charset=UTF-8,https://monoskop.org/Baruch_Spinoza,https://monoskop.org/Baruch_Spinoza,
+18,200,ok,HEAD,application/pdf,https://capone.mtsu.edu/rbombard/RB/PDFs/Excommunication.pdf,https://capone.mtsu.edu/rbombard/RB/PDFs/Excommunication.pdf,
+19,200,ok,HEAD,text/html; charset=utf-8,https://www.thetorah.com/article/spinoza-who-wrote-the-bible-determines-how-we-read-it,https://www.thetorah.com/article/spinoza-who-wrote-the-bible-determines-how-we-read-it,
+20,403,blocked/paywall?,GET,,https://academic.oup.com/book/2301/chapter/142428684,https://academic.oup.com/book/2301/chapter/142428684,HEAD 403
+21,200,ok,HEAD,text/html; charset=UTF-8,https://www.stephenhicks.org/2017/05/14/why-spinoza-was-excommunicated/,https://www.stephenhicks.org/2017/05/14/why-spinoza-was-excommunicated/,
+22,200,ok,HEAD,text/html; charset=UTF-8,https://www.jtsa.edu/torah/intra-jewish-censorship/,https://www.jtsa.edu/torah/intra-jewish-censorship/,
+23,403,blocked/paywall?,GET,,https://academic.oup.com/book/46634/chapter/410072453,https://academic.oup.com/book/46634/chapter/410072453,HEAD 403
+24,200,ok,HEAD,text/html; charset=UTF-8,https://jmurphy.studio/spinoza/,https://justinmurphy.studio/spinoza/,
+25,200,ok,HEAD,text/html; charset=UTF-8,https://spinozakringlier.weebly.com/collectie-mdj.html,https://spinozakringlier.weebly.com/collectie-mdj.html,
+26,200,ok,HEAD,application/pdf,https://kvond.wordpress.com/wp-content/uploads/2008/12/spinozas-life-and-works-by-w-n-a-klever5.pdf,https://kvond.files.wordpress.com/2008/12/spinozas-life-and-works-by-w-n-a-klever5.pdf,
+27,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/RICSBA-2,https://philarchive.org/archive/RICSBA-2,HEAD 403
+28,403,blocked/paywall?,GET,,https://jamanetwork.com/journals/jamaophthalmology/fullarticle/413771,https://jamanetwork.com/journals/jamaophthalmology/fullarticle/413771,HEAD 403
+29,200,ok,HEAD,application/pdf,https://louiseboscacci.net/wp-content/uploads/2016/01/1_louise_boscacci_spinoza_lens_maker_120915_boscaccipublications2015.pdf,https://louiseboscacci.net/wp-content/uploads/2016/01/1_louise_boscacci_spinoza_lens_maker_120915_boscaccipublications2015.pdf,
+30,403,blocked/paywall?,GET,,https://www.ajo.com/article/S0002-9394%2813%2900806-4/fulltext,https://www.ajo.com/article/S0002-9394%2813%2900806-4/fulltext,HEAD 403
+31,200,ok,HEAD,text/html; charset=UTF-8,https://kvond.wordpress.com/2008/07/15/did-the-huygenses-buy-spinozas-lens-polishing-technique/,https://kvond.wordpress.com/2008/07/15/did-the-huygenses-buy-spinozas-lens-polishing-technique/,
+32,403,blocked/paywall?,GET,,https://academic.oup.com/book/32889/chapter/276470306,https://academic.oup.com/book/32889/chapter/276470306,HEAD 403
+33,200,ok,HEAD,text/html; charset=utf-8,https://www.thecollector.com/who-was-baruch-spinoza-philosopher/,https://www.thecollector.com/who-was-baruch-spinoza-philosopher/,
+34,401,blocked/paywall?,HEAD,,https://www.wsj.com/articles/spinoza-a-heretical-and-modern-mind-11602283456,https://www.wsj.com/articles/spinoza-a-heretical-and-modern-mind-11602283456,
+35,200,ok,HEAD,text/html; charset=UTF-8,https://spinozaweb.org/locations/6,https://spinozaweb.org/locations/6,
+36,403,blocked/paywall?,GET,,https://academic.oup.com/book/46634/chapter/410073059,https://academic.oup.com/book/46634/chapter/410073059,HEAD 403
+37,200,ok,HEAD,text/html; charset=UTF-8,https://spinozaweb.org/locations/7,https://spinozaweb.org/locations/7,
+38,200,ok,HEAD,text/html; charset=utf-8,https://workersliberty.org/story/2022-10-18/spinoza-rebels-life,https://workersliberty.org/story/2022-10-18/spinoza-rebels-life,
+39,200,ok,HEAD,text/html,https://www.newadvent.org/cathen/14217a.htm,https://www.newadvent.org/cathen/14217a.htm,
+40,403,blocked/paywall?,GET,,https://academic.oup.com/book/46634/chapter/410073711,https://academic.oup.com/book/46634/chapter/410073711,HEAD 403
+41,200,ok,HEAD,text/html; charset=UTF-8,https://spinozaweb.org/locations/9,https://spinozaweb.org/locations/9,
+42,200,ok,HEAD,text/html; charset=UTF-8,https://spinozaweb.org/locations/8,https://spinozaweb.org/locations/8,
+43,200,ok,HEAD,text/html; charset=UTF-8,https://www.historyofholland.com/spinoza.html,https://www.historyofholland.com/spinoza.html,
+44,200,ok,HEAD,text/html; charset=utf-8,https://oll.libertyfund.org/titles/elwes-the-chief-works-of-benedict-de-spinoza-vol-1,https://oll.libertyfund.org/titles/elwes-the-chief-works-of-benedict-de-spinoza-vol-1,
+45,200,ok,HEAD,text/html,https://plato.stanford.edu/entries/spinoza-political/,https://plato.stanford.edu/entries/spinoza-political/,
+46,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.newyorker.com/magazine/2024/02/12/baruch-spinoza-and-the-art-of-thinking-in-dangerous-times,https://www.newyorker.com/magazine/2024/02/12/baruch-spinoza-and-the-art-of-thinking-in-dangerous-times,
+47,200,ok,HEAD,text/html,https://sacred-texts.com/book/correspondence/letter-liii-from-fabritius,https://sacred-texts.com/phi/spinoza/corr/corr51.htm,
+48,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.britannica.com/biography/Benedict-de-Spinoza/The-period-of-the-Ethics,https://www.britannica.com/biography/Benedict-de-Spinoza/The-period-of-the-Ethics,HEAD 403
+49,,unreachable,GET,,http://emlo-portal.bodleian.ox.ac.uk/collections/?catalogue=baruch-spinoza,http://emlo-portal.bodleian.ox.ac.uk/collections/?catalogue=baruch-spinoza,URLError: <urlopen error timed out>
+50,200,ok,HEAD,application/pdf,https://www.earlymoderntexts.com/assets/pdfs/spinoza1661.pdf,https://www.earlymoderntexts.com/assets/pdfs/spinoza1661.pdf,
+51,404,dead,HEAD,,https://www.faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/let1532.htm,https://www.faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/let1532.htm,
+52,404,dead,HEAD,,https://faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/let2173.htm,https://faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/let2173.htm,
+53,200,ok,HEAD,text/html; charset=utf-8,https://newt.to/benedict.spinoza/mgaUl6Q4Rv/qzVrilfiG8,https://newt.to/benedict.spinoza/mgaUl6Q4Rv/qzVrilfiG8,
+54,200,ok,HEAD,text/html,https://sacred-texts.com/book/correspondence/letter-lv-from-hugo-boxel,https://sacred-texts.com/phi/spinoza/corr/corr53.htm,
+55,200,ok,HEAD,text/html,https://sacred-texts.com/book/correspondence,https://sacred-texts.com/phi/spinoza/corr/index.htm,
+56,200,ok,HEAD,application/pdf,https://api.pageplace.de/preview/DT0400.9780429615344_A37370821/preview-9780429615344_A37370821.pdf,https://api.pageplace.de/preview/DT0400.9780429615344_A37370821/preview-9780429615344_A37370821.pdf,
+57,200,ok,HEAD,text/html; charset=UTF-8,https://kvond.wordpress.com/2008/09/05/spinoza-and-tuberculosis-disease-and-devotion/,https://kvond.wordpress.com/2008/09/05/spinoza-and-tuberculosis-disease-and-devotion/,
+58,200,ok,HEAD,text/html,https://euppublishingblog.com/2018/11/11/5-things-you-never-knew-about-spinoza/,https://euppublishingblog.com/2018/11/11/5-things-you-never-knew-about-spinoza/,
+59,200,ok,HEAD,text/html; charset=UTF-8,https://iep.utm.edu/spinoz-m/,https://iep.utm.edu/spinoz-m/,
+60,200,ok,HEAD,text/html,https://plato.stanford.edu/entries/spinoza-physics/,https://plato.stanford.edu/entries/spinoza-physics/,
+61,200,ok,HEAD,application/pdf,https://ncfbusinesssolutions.wordpress.com/wp-content/uploads/2015/06/comparative-philosophy-sample.pdf,https://ncfbusinesssolutions.files.wordpress.com/2015/06/comparative-philosophy-sample.pdf,
+62,200,ok,HEAD,text/html,https://www.marxists.org/reference/subject/philosophy/works/ne/ethics.htm,https://www.marxists.org/reference/subject/philosophy/works/ne/ethics.htm,
+63,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://quod.lib.umich.edu/cgi/p/pod/dod-idx/spinoza-on-extension.pdf?c=phimp;idno=3521354.0015.014;format=pdf,https://quod.lib.umich.edu/cgi/p/pod/dod-idx/spinoza-on-extension.pdf?c=phimp;idno=3521354.0015.014;format=pdf,HEAD 403
+64,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/abs/cambridge-companion-to-descartes-meditations/descartes-dualism-and-its-relation-to-spinozas-metaphysics/22A4E6AF3C9145AA35D16FA4473B3334,https://www.cambridge.org/core/books/cambridge-companion-to-descartes-meditations/descartes-dualism-and-its-relation-to-spinozas-metaphysics/22A4E6AF3C9145AA35D16FA4473B3334,
+65,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/VANTPI-15,https://philarchive.org/archive/VANTPI-15,HEAD 403
+66,200,ok,HEAD,application/pdf,https://www.rochester.edu/college/faculty/alisonpeterman/Embodiment.pdf,https://www.rochester.edu/college/faculty/alisonpeterman/Embodiment.pdf,
+67,200,ok,HEAD,text/html; charset=utf-8,https://www.thecollector.com/spinoza-mind-body-problem/,https://www.thecollector.com/spinoza-mind-body-problem/,
+68,302,ok,GET,,https://works.hcommons.org/records/bzknm-1ea67/files/06-long-rhetoric-of-geometrical-method.pdf,https://works.hcommons.org/records/bzknm-1ea67/files/06-long-rhetoric-of-geometrical-method.pdf,HEAD 405
+69,200,ok,HEAD,text/html,https://plato.stanford.edu/entries/spinoza-epistemology-mind/,https://plato.stanford.edu/entries/spinoza-epistemology-mind/,
+70,200,ok,HEAD,text/html; charset=UTF-8,https://iep.utm.edu/spino-ep/,https://iep.utm.edu/spino-ep/,
+71,404,dead,HEAD,,https://www.faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/e2e.htm,https://www.faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/e2e.htm,
+72,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/GRERAK-2,https://philarchive.org/archive/GRERAK-2,HEAD 403
+73,200,ok,HEAD,text/html; charset=UTF-8,https://iep.utm.edu/geo-meth/,https://iep.utm.edu/geo-meth/,
+74,200,ok,HEAD,application/pdf,https://www.earlymoderntexts.com/assets/pdfs/spinoza1665.pdf,https://www.earlymoderntexts.com/assets/pdfs/spinoza1665.pdf,
+75,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/abs/cambridge-spinoza-lexicon/geometrical-method/9398330A75DFFA68CBD1FD771DA4A924,https://www.cambridge.org/core/books/cambridge-spinoza-lexicon/geometrical-method/9398330A75DFFA68CBD1FD771DA4A924,
+76,403,blocked/paywall?,GET,,https://read.dukeupress.edu/poetics-today/article/28/3/443/20937/The-Geometrical-Method-in-Spinoza-s-Ethics,https://read.dukeupress.edu/poetics-today/article/28/3/443/20937/The-Geometrical-Method-in-Spinoza-s-Ethics,HEAD 403
+77,200,ok,HEAD,text/html,https://www.gutenberg.org/files/3800/3800-h/3800-h.htm,https://www.gutenberg.org/files/3800/3800-h/3800-h.htm,
+78,200,ok,HEAD,text/html,https://plato.stanford.edu/entries/spinoza-psychological/,https://plato.stanford.edu/entries/spinoza-psychological/,
+79,200,ok,HEAD,text/html; charset=UTF-8,https://iep.utm.edu/spinoza-free-will-determinism/,https://iep.utm.edu/spinoza-free-will-determinism/,
+80,404,dead,HEAD,,https://en.wikisource.org/wiki/Ethics_(Spinoza,https://en.wikisource.org/wiki/Ethics_(Spinoza,
+81,200,ok,GET,application/pdf,https://www.uky.edu/~look/essays/PPP.pdf,https://www.uky.edu/~look/essays/PPP.pdf,
+82,200,ok,HEAD,text/html; charset=utf-8,https://ndpr.nd.edu/reviews/spinoza-on-human-freedom-reason-autonomy-and-the-good-life/,https://ndpr.nd.edu/reviews/spinoza-on-human-freedom-reason-autonomy-and-the-good-life/,
+83,,unreachable,GET,,http://www.quebecoislibre.org/06/060507-2.htm,http://www.quebecoislibre.org/06/060507-2.htm,URLError: <urlopen error timed out>
+84,403,blocked/paywall?,GET,,https://www.tandfonline.com/doi/abs/10.1080/09672559.2022.2136734,https://www.tandfonline.com/doi/abs/10.1080/09672559.2022.2136734,HEAD 403
+85,403,blocked/paywall?,GET,,https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12838,https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/phc3.12838,HEAD 403
+86,200,ok,HEAD,text/html,https://plato.stanford.edu/entries/emotions-17th18th/LD5Spinoza.html,https://plato.stanford.edu/entries/emotions-17th18th/LD5Spinoza.html,
+87,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.researchgate.net/publication/365019103_The_Intellectual_Love_of_God_in_Spinoza,https://www.researchgate.net/publication/365019103_The_Intellectual_Love_of_God_in_Spinoza,HEAD 403
+88,200,ok,HEAD,text/html; charset=utf-8,https://www.thecollector.com/baruch-spinoza-concept-of-freedom/,https://www.thecollector.com/what-was-baruch-spinoza-concept-freedom/,
+89,200,ok,HEAD,application/pdf,https://www.earlymoderntexts.com/assets/pdfs/spinoza1669.pdf,https://www.earlymoderntexts.com/assets/pdfs/spinoza1669.pdf,
+90,200,ok,HEAD,text/html; charset=UTF-8,https://en.wikisource.org/wiki/Theologico-Political_Treatise_1862/Chapter_14,https://en.wikisource.org/wiki/Theologico-Political_Treatise_1862/Chapter_14,
+91,404,dead,HEAD,,https://faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/tpt16.htm,https://faculty.umb.edu/gary_zabel/Courses/Spinoza/Texts/Spinoza/tpt16.htm,
+92,200,ok,HEAD,text/html; charset=UTF-8,https://iep.utm.edu/spin-pol/,https://iep.utm.edu/spin-pol/,
+93,200,ok,HEAD,text/html;charset=utf-8,https://www.mdpi.com/2409-9287/6/3/67,https://www.mdpi.com/2409-9287/6/3/67,
+94,200,ok,HEAD,text/html,https://www.philosophers.world/spinoza/ethics.html,https://www.philosophers.world/spinoza/ethics.html,
+95,,unreachable,GET,,http://dbanach.com/archive/mickelsen/spinozas_method.html,http://dbanach.com/archive/mickelsen/spinozas_method.html,URLError: <urlopen error timed out>
+96,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=UTF-8,https://daily.jstor.org/nice-guy-spinoza-finishes-first/,https://daily.jstor.org/nice-guy-spinoza-finishes-first/,
+97,200,ok,HEAD,text/html; charset=UTF-8,https://hackettpublishing.com/the-complete-works,https://www.hackettpublishing.com/the-complete-works,
+98,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/abs/cambridge-spinoza-lexicon/short-treatise-on-god-man-and-his-wellbeing/524C1FD0D2A30DAA64BBE499D4118D7D,https://www.cambridge.org/core/books/cambridge-spinoza-lexicon/short-treatise-on-god-man-and-his-wellbeing/524C1FD0D2A30DAA64BBE499D4118D7D,
+99,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.cambridge.org/core/books/abs/cambridge-spinoza-lexicon/treatise-on-the-emendation-of-the-intellect/E931822ABFB48CF29805A8E4E18486F8,https://www.cambridge.org/core/books/cambridge-spinoza-lexicon/treatise-on-the-emendation-of-the-intellect/E931822ABFB48CF29805A8E4E18486F8,
+100,200,ok,HEAD,text/html,https://www.gutenberg.org/files/1016/1016-h/1016-h.htm,https://www.gutenberg.org/files/1016/1016-h/1016-h.htm,
+101,200,ok,HEAD,text/html; charset=UTF-8,https://hackettpublishing.com/principles-of-cartesian-philosophy,https://hackettpublishing.com/principles-of-cartesian-philosophy,
+102,200,ok,HEAD,text/html; charset=UTF-8,https://philosophynow.org/issues/151/Was_Spinoza_Actually_An_Atheist,https://philosophynow.org/issues/151/Was_Spinoza_Actually_An_Atheist,
+103,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/PETSMO-2,https://philarchive.org/archive/PETSMO-2,HEAD 403
+104,403,blocked/paywall?,GET,,https://academic.oup.com/book/58063/chapter/477641569,https://academic.oup.com/book/58063/chapter/477641569,HEAD 403
+105,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/GOOSNAv1,https://philarchive.org/archive/GOOSNAv1,HEAD 403
+106,200,ok,HEAD,text/html; charset=UTF-8,https://newhumanist.org.uk/articles/spinoza-the-atheist/,https://newhumanist.org.uk/articles/964/spinoza-the-atheist,
+107,403,blocked/paywall?,GET,,https://academic.oup.com/fs/article/77/1/121/6754813,https://academic.oup.com/fs/article/77/1/121/6754813,HEAD 403
+108,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/MELTCO-14,https://philarchive.org/archive/MELTCO-14,HEAD 403
+109,200,ok,HEAD,text/html; charset=UTF-8,https://alioshabielenberg.com/spinoza-conatus-and-ethics-in-a-world-of-absolute-necessity/,https://alioshabielenberg.com/spinoza-conatus-and-ethics-in-a-world-of-absolute-necessity/,
+110,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philarchive.org/archive/LUCSEF-2,https://philarchive.org/archive/LUCSEF-2,HEAD 403
+111,200,ok,HEAD,application/pdf,https://journals.ku.edu/auslegung/article/download/12910/12206/25541,https://journals.ku.edu/auslegung/article/download/12910/12206/25541,
+112,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.jstor.org/stable/44148500,https://www.jstor.org/stable/44148500,
+113,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.quod.lib.umich.edu/e/ergo/12405314.0002.015/--leibniz-spinoza-and-an-alleged-dilemma-for-rationalists?rgn=main%3Bview=fulltext,https://www.quod.lib.umich.edu/e/ergo/12405314.0002.015/--leibniz-spinoza-and-an-alleged-dilemma-for-rationalists?rgn=main%3Bview=fulltext,HEAD 403
+114,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://www.jstor.org/stable/2180831,https://www.jstor.org/stable/2180831,
+115,200,ok,HEAD,text/html; charset=utf-8,https://jmphil.org/article/id/2133/,https://jmphil.org/article/id/2133/,
+116,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=utf-8,https://muse.jhu.edu/verify?url=%2Farticle%2F388281%2Fsummary&r=3047692,https://muse.jhu.edu/article/388281/summary,
+117,200,ok,HEAD,text/html;charset=UTF-8,https://www.3-16am.co.uk/articles/having-cake-and-eating-it-with-hume-and-spinoza,https://www.3-16am.co.uk/articles/having-cake-and-eating-it-with-hume-and-spinoza,
+118,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://philosophy.stackexchange.com/questions/65802/what-are-some-critiques-of-spinoza-that-are-generally-regarded-as-holding-weight,https://philosophy.stackexchange.com/questions/65802/what-are-some-critiques-of-spinoza-that-are-generally-regarded-as-holding-weight,HEAD 403
+119,200,ok,HEAD,application/pdf,https://www.crisiscritique.org/pdfs/v8-i1/60e83c3c0bb0d077702222.pdf,https://www.crisiscritique.org/storage/app/media/2021-07-09/60e83c3c0bb0d077702222.pdf,
+120,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.ias.edu/ideas/2007/israel-spinoza,https://www.ias.edu/ideas/2007/israel-spinoza,HEAD 403
+121,200,ok,HEAD,application/pdf,https://www.mhra.org.uk/pdf/wph-2-1.pdf,https://www.mhra.org.uk/pdf/wph-2-1.pdf,
+122,200,ok,HEAD,text/html; charset=UTF-8,https://www.leftvoice.org/spinozas-radical-enlightenment/,https://www.leftvoice.org/spinozas-radical-enlightenment/,
+123,200,ok,HEAD,text/html; charset=utf-8,https://essentialscholars.org/enlightenment,https://essentialscholars.org/enlightenment,
+124,200,ok,HEAD,text/html,https://www.citizenphilosophy.net/Baruch_Spinoza.html,https://www.citizenphilosophy.net/Baruch_Spinoza.html,
+125,200,ok,HEAD,text/html; charset=utf-8,https://marxist.com/the-enlightenment-and-spinoza-s-revolutionary-rationalism.htm,https://marxist.com/the-enlightenment-and-spinoza-s-revolutionary-rationalism.htm,
+126,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://blogs.timesofisrael.com/for-gods-sake-remove-the-ban-on-spinoza/,https://blogs.timesofisrael.com/for-gods-sake-remove-the-ban-on-spinoza/,HEAD 403
+127,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.jewishnews.co.uk/spinoza-writ-is-still-valid/,https://www.jewishnews.co.uk/spinoza-writ-is-still-valid/,HEAD 403
+128,200,ok,HEAD,text/html; charset=UTF-8,https://jewishstudies.washington.edu/jewish-history-and-thought/marc-cohen-reconsidering-spinoza/,https://jewishstudies.washington.edu/jewish-history-and-thought/marc-cohen-reconsidering-spinoza/,
+129,200,ok,HEAD,text/html; charset=UTF-8,https://www.equip.org/articles/baruch-spinozas-scientific-pantheism/,https://www.equip.org/articles/baruch-spinozas-scientific-pantheism/,
+130,,unreachable,GET,,http://engelsbergideas.com/essays/the-salvation-of-spinoza/,http://engelsbergideas.com/essays/the-salvation-of-spinoza/,URLError: <urlopen error timed out>
+131,200,ok,HEAD,text/html,https://www.reddit.com/r/askphilosophy/comments/92vv83/how_did_christian_spinozists_reconcile_spinozas/,https://www.reddit.com/r/askphilosophy/comments/92vv83/how_did_christian_spinozists_reconcile_spinozas/,
+132,404,dead,HEAD,,https://www.reasonablefaith.org/podcasts/defenders-podcast-series-3/s3-doctrine-of-creation/doctrine-of-creation-part-16,https://www.reasonablefaith.org/podcasts/defenders-podcast-series-3/s3-doctrine-of-creation/doctrine-of-creation-part-16,
+133,200,ok,HEAD,text/html; charset=UTF-8,https://jewishstudies.washington.edu/jewish-history-and-thought/spinoza-heretic-or-theologian/,https://jewishstudies.washington.edu/jewish-history-and-thought/spinoza-heretic-or-theologian/,
+134,200,ok,HEAD,text/html; charset=UTF-8,https://philosophybreak.com/articles/pantheism-spinoza-and-the-god-that-einstein-believed-in/,https://philosophybreak.com/articles/pantheism-spinoza-and-the-god-that-einstein-believed-in/,
+135,200,ok,HEAD,text/html; charset=utf-8,https://www.prospectmagazine.co.uk/culture/37996/spinozas-god-einstein-believed-in-it-but-what-was-it,https://www.prospectmagazine.co.uk/culture/37996/spinozas-god-einstein-believed-in-it-but-what-was-it,
+136,200,ok,HEAD,text/html; charset=UTF-8,https://sites.dartmouth.edu/dujs/2013/11/03/einsteins-bad-love-poem-2/,https://sites.dartmouth.edu/dujs/2013/11/03/einsteins-bad-love-poem-2/,
+137,200,ok,HEAD,text/html; charset=utf-8,https://donaldrobertson.name/2014/04/18/spinozas-philosophical-psychotherapy/,https://donaldrobertson.name/2014/04/18/spinozas-philosophical-psychotherapy/,
+138,500,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.papertrell.com/apps/preview/The-Handy-Psychology-Answer-Book/Handy%2520Answer%2520book/How-did-Spinoza-contribute-to-the-history-of-psychology/001137018/content/SC/52cafee382fad14abfa5c2e0_default.html,https://www.papertrell.com/apps/preview/The-Handy-Psychology-Answer-Book/Handy%2520Answer%2520book/How-did-Spinoza-contribute-to-the-history-of-psychology/001137018/content/SC/52cafee382fad14abfa5c2e0_default.html,HEAD 500
+139,200,ok (likely paywalled/abstract-only),HEAD,text/html; charset=UTF-8,https://psycnet.apa.org/record/1972-30054-001,https://psycnet.apa.org/record/1972-30054-001,
+140,200,ok,HEAD,text/html; charset=utf-8,https://phil.washington.edu/research/publications/spinozas-political-philosophy,https://phil.washington.edu/research/publications/spinozas-political-philosophy,
+141,202,ok,HEAD,text/html; charset=UTF-8,https://curate.nd.edu/ndownloader/files/43576095/1,https://curate.nd.edu/ndownloader/files/43576095/1,
+142,200,ok,HEAD,text/html; charset=utf-8,https://ndpr.nd.edu/reviews/becoming-political-spinozas-vital-republicanism-and-the-democratic-power-of-judgment/,https://ndpr.nd.edu/reviews/becoming-political-spinozas-vital-republicanism-and-the-democratic-power-of-judgment/,
+143,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.researchgate.net/publication/395745031_What_kind_of_monism_is_Spinoza%27s-A_new_analysis,https://www.researchgate.net/publication/395745031_What_kind_of_monism_is_Spinoza%27s-A_new_analysis,HEAD 403
+144,202,ok,HEAD,text/html; charset=UTF-8,https://www.semanticscholar.org/paper/Spinoza%25E2%2580%2599s-%25E2%2580%2598Infinite-Modes%25E2%2580%2599-Reconsidered-Primus/e48feb39a2a7369058144078b2216f6f35118388,https://www.semanticscholar.org/paper/Spinoza%25E2%2580%2599s-%25E2%2580%2598Infinite-Modes%25E2%2580%2599-Reconsidered-Primus/e48feb39a2a7369058144078b2216f6f35118388,
+145,200,ok,HEAD,text/html; charset=UTF-8,https://philosophynews.com/spinoza-reborn/,https://philosophynews.com/spinoza-reborn/,
+146,200,ok,GET,text/html; charset=utf-8,https://www.scirp.org/journal/paperinformation?paperid=76577,https://www.scirp.org/journal/paperinformation?paperid=76577,
+147,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.researchgate.net/publication/355254529_Reconsidering_Spinoza%27s_%27Rationalism%27,https://www.researchgate.net/publication/355254529_Reconsidering_Spinoza%27s_%27Rationalism%27,HEAD 403
+148,200,ok,HEAD,text/html;charset=utf-8,https://www.sourcesjournal.org/articles/lifting-the-ban-spinoza-and-the-boundaries-of-belonging,https://www.sourcesjournal.org/articles/lifting-the-ban-spinoza-and-the-boundaries-of-belonging,
+149,200,ok,HEAD,text/html; charset=UTF-8,https://jewishstudies.washington.edu/jewish-history-and-thought/daniel-schwartz-ban-on-spinoza/,https://jewishstudies.washington.edu/jewish-history-and-thought/daniel-schwartz-ban-on-spinoza/,
+150,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.timesofisrael.com/in-echo-of-excommunication-top-spinoza-scholar-banned-from-amsterdam-synagogue/,https://www.timesofisrael.com/in-echo-of-excommunication-top-spinoza-scholar-banned-from-amsterdam-synagogue/,HEAD 403
+151,200,ok,HEAD,text/html;charset=utf-8,https://www.mdpi.com/journal/philosophies/special_issues/Spinoza_theological_political_treatise,https://www.mdpi.com/journal/philosophies/special_issues/Spinoza_theological_political_treatise,
+152,200,ok,HEAD,text/html; charset=utf-8,https://www.project-syndicate.org/onpoint/spinoza-free-thought-against-intolerance-illiberalism-by-enrique-krauze-2024-07,https://www.project-syndicate.org/onpoint/spinoza-free-thought-against-intolerance-illiberalism-by-enrique-krauze-2024-07,
+153,403,blocked-or-error (bot block likely; recheck in browser),GET,,https://www.merriam-webster.com/dictionary/Spinozism,https://www.merriam-webster.com/dictionary/Spinozism,HEAD 403

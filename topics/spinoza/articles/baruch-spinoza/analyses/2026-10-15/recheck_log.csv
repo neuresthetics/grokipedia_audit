@@ -1,0 +1,163 @@
+check,item,recheck_result,original,same,evidence_or_note
+snapshot,page,"re-fetched 2026-10-15 ~11:30 PT: HTTP 200, 631,317 bytes; sha256 c7570cdd... differs only by per-request script nonces; grokaudit parse gives 401 sentences identical, 153 sources identical",401/153,yes,claims.csv and sources.csv equal field-for-field
+offset,C030 [3],"ambiguous ([2],[3] both excommunication sources; [3] NEH does contain ""importing dried fruit"")","block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.58 n-1=0.63 n-10=None
+offset,C371 [3],ambiguous (n and n-1 both fit),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.58 n-1=0.73 n-10=None
+offset,C043 [3],n fits ([3] NEH: declared an orphan),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.41 n-1=0.67 n-10=None
+offset,C344 [13],ambiguous,"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.81 n-1=0.81 n-10=0.57
+offset,C008 [9],"n-1 (Jewish Encyclopedia, family)","block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.71 n-1=1.0 n-10=None
+offset,C018 [10],n-1 (Cambridge life chapter),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.15 n-1=0.46 n-10=None
+offset,C014 [11],ambiguous,"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.42 n-1=0.05 n-10=0.26
+offset,C103 [53],ambiguous,"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.31 n-1=0.25 n-10=0.25
+offset,C269 [46],n-1 ([45] Political Philosophy),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.26 n-1=0.89 n-10=None
+offset,C221 [90],ambiguous for [90]; n-1 for [89],"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.48 n-1=0.76 n-10=None
+offset,C221 [89],ambiguous for [90]; n-1 for [89],"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.76 n-1=0.55 n-10=0.66
+offset,C125 [60],n-1 ([59] IEP Metaphysics),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.71 n-1=0.71 n-10=0.79
+offset,C373 [20],ambiguous,"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=None n-1=0.53 n-10=0.06
+offset,C027 [13],ambiguous,"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.58 n-1=0.67 n-10=0.42
+offset,C093 [45],ambiguous (n=[45] Political Philosophy also fits),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.94 n-1=0.18 n-10=0.06
+offset,C233 [98],ambiguous,"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.12 n-1=0.12 n-10=0.28
+offset,C377 [139],n-10 ([129] CRI pantheism),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.0 n-1=None n-10=0.52
+offset,C282 [99],n-10 ([89] TTP Early Modern Texts),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.22 n-1=0.07 n-10=0.78
+offset,C234 [99],n-10 ([89] TTP),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.33 n-1=0.17 n-10=0.89
+offset,C311 [102],n-10 ([92] IEP Political),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.29 n-1=0.08 n-10=0.46
+offset,C378 [140],n-10 ([130] Engelsberg),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.06 n-1=0.0 n-10=0.19
+offset,C272 [102],n-10 ([92]),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.3 n-1=0.0 n-10=0.45
+offset,C368 [134],n-10 ([124] Rationalist Philosopher),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.15 n-1=0.2 n-10=0.8
+offset,C319 [110],n-10 ([100] Gutenberg Emendation),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.33 n-1=0.29 n-10=0.62
+offset,C252 [100],n-10 ([90] TTP ch.14),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.43 n-1=0.26 n-10=0.7
+offset,C228 [94],unclear ([84] not fetched),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.22 n-1=None n-10=None
+offset,C230 [96],n-10 ([86] SEP Emotions),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=0.1 n-1=0.24 n-10=0.55
+offset,C393 [154],n-10 ([144] Infinite Modes),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=None n-1=0.07 n-10=0.3
+offset,C401 [161],n-10 ([151] special issue / [152] Krauze),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=None n-1=None n-10=0.29
+offset,C400 [160],n-10 ([150] Melamed banned),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=None n-1=None n-10=0.62
+offset,C395 [155],n-10 ([145] Spinoza Reborn),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=None n-1=None n-10=0.32
+offset,C401 [162],n-10 ([151] special issue / [152] Krauze),"block rule: [1-5] n, [6-90] n-1, [91-153] n-10, [154+] n-10",,title check + word share n=None n-1=None n-10=0.1
+verdict_sample,C005,partly supported,unverifiable,no,[7] fetched page is a Cambridge Companion table of contents only; intended [6] not reachable.
+verdict_sample,C010,unsupported,miscited,no,Linked [9] (Nadler) has no Espinosa/Leon origin; intended [8] JE: name derived from Espinosa in Leon.
+verdict_sample,C019,miscited,unsupported,no,Interpretive; no supporting passage in [11] or [10].
+verdict_sample,C020,partly supported,supported,no,"[12] SEP: born 1632 Amsterdam, middle son, prominent family of moderate means; mother died 1638 (SEP biography)."
+verdict_sample,C030,unsupported,partly supported,no,"[3] NEH: family firm imported dried fruit. ""Around 1650"" not in [3]."
+verdict_sample,C032,unsupported,unsupported,yes,[3] NEH does not describe minimal commitment to commerce.
+verdict_sample,C036,unsupported,unsupported,yes,Interpretive projection of the mature system back to 1656 (see 2026-10-01 audit A2); not in [16]/[2].
+verdict_sample,C039,partly supported,supported,no,"[3] NEH quotes ""abominable heresies which he practiced and taught and about his monstrous deeds"". ""Avoiding public scandal"" reason is interpretive."
+verdict_sample,C041,partly supported,unverifiable,no,"[20] OUP chapter not reachable; [21] Hicks silent on da Costa. Da Costa died 1640 after repeated bans; ""expulsion in 1640"" is not accurate (2026-10-01 C041)."
+verdict_sample,C044,unsupported,unsupported,yes,Linked [17] silent; intended [16] Commentary discusses the community's position in the Dutch republic.
+verdict_sample,C047,unverifiable,unverifiable,yes,"[23] OUP chapter not reachable; intended [22] JTS webinar page only says he was excommunicated for ""abominable heresies""; comparison with da Costa and ""threat"" framing not supported there."
+verdict_sample,C048,partly supported,supported,no,Linked [24] (Life of Spinoza as an Independent Scholar) covers the break of 27 July 1656 and alternative networks. Intended [23] not reachable.
+verdict_sample,C049,miscited,miscited,yes,Linked [25] (Spinozakring book catalogue) silent; intended [24]: the ban severed formal ties and forced reliance on alternative networks.
+verdict_sample,C052,partly supported,supported,no,[26] Klever: Balling's Het licht op den kandelaer; [25] catalogue calls it a Spinozist tract.
+verdict_sample,C053,uncited,uncited,yes,"No citation. Partly contradicted by [24]: de Vries episode ""refused 2000 fl.; accepted pared-down 300/250 fl. annuity"" (annuity came via de Vries's will, not negotiated down from an annual 2,000)."
+verdict_sample,C055,partly supported,miscited,no,Linked [28] JAMA (lens grinder) does not discuss the circle's drafts; intended [27] (Guide for the Perplexed) lists the Short Treatise in its bibliography only. [17] Monoskop (not cited here) mentions
+verdict_sample,C069,unsupported,unsupported,yes,Linked [37] (Voorburg page) does not cover Rijnsburg lens work in the passage; intended [36] not reachable.
+verdict_sample,C071,unverifiable,unverifiable,yes,"Intended [35]: first book early August 1663, Renati Des Cartes Principiorum Philosophiae Pars I et II; Cogitata draft perhaps by July 1662."
+verdict_sample,C076,unverifiable,unverifiable,yes,"Intended [35] Spinoza Web gives ""a total of thirty-four letters"" with Oldenburg and indirect contact with Boyle. Linked [36] not reachable. Standard numbering has 28 Spinoza-Oldenburg letters (2026-10"
+verdict_sample,C079,unsupported,unsupported,yes,[12]/[11] passages do not discuss the motive for the Voorburg move.
+verdict_sample,C082,partly supported,unsupported,no,"[13]/[12] passages do not say the Ethics was withheld for ""radical monistic theology"" during Voorburg."
+verdict_sample,C097,uncited,uncited,yes,"Uncited. [49] EMLO (cited elsewhere) gives ""just eighty-eight"" letters; the 50/38 split was not checked."
+verdict_sample,C099,partly supported,supported,no,[49] EMLO and [50] Bennett correspondence describe the letters' philosophical and scientific topics and mention the Short Treatise.
+verdict_sample,C102,uncited,uncited,yes,"Uncited. Nitre experiments were Boyle's (Ep. 6; [50] Bennett has a section heading on Boyle's experiment with nitre), not Huygens's; Ep. 73 is late 1675, not June 1666; [52] (Letter 21/73) does contai"
+verdict_sample,C105,miscited,unsupported,no,"[51] (Letter 15/32) and intended [50] do not support it; Ep. 69 is to van Velthuysen (1675), not about the infinite intellect for Leibniz (2026-10-01 C105)."
+verdict_sample,C114,unsupported,partly supported,no,"[11] IEP: his move in 1670 ""was to The Hague, where he was to live out his remaining years""; ""May 1670"" not found."
+verdict_sample,C119,partly supported,supported,no,"[11] IEP: ""He left no will, but the manuscripts...""; [12] SEP: published by friends."
+verdict_sample,C125,miscited,supported,no,"[60] SEP and [59] IEP: one substance, God or Nature. ""Deus sive Natura"" appears in the Latin E4 Preface (Elwes: ""God or Nature"")."
+verdict_sample,C126,supported,supported,yes,"Near-verbatim Elwes E1D6 (""of which each expresses eternal and infinite essentiality""). [12] SEP gives Curley's version."
+verdict_sample,C129,uncited,uncited,yes,"Uncited ""scholars compare"" with Daoist ziran; neighbouring cite [61] is an undergraduate essay on a business-services site (2026-10-01 A4)."
+verdict_sample,C131,supported,partly supported,no,"Intended [60] SEP: finite things are modifications of the one substance (Ip14). E1P15: ""Whatsoever is, is in God""."
+verdict_sample,C135,partly supported,partly supported,yes,"[13]/[12] discuss attributes beyond thought and extension; ""pantheism"" classification discussed elsewhere in [12]."
+verdict_sample,C141,uncited,uncited,yes,Uncited. Matches E1P15/E1P25C.
+verdict_sample,C151,uncited,uncited,yes,"Uncited. E2P7 note: thinking and extended substance are ""one and the same substance"" comprehended under different attributes. Matches."
+verdict_sample,C155,uncited,uncited,yes,"Uncited. E2P7: ""The order and connection of ideas is the same as the order and connection of things."" ""Parallelism"" is a later label, not Spinoza's term."
+verdict_sample,C162,partly supported,partly supported,yes,"Partly mismatched: E2P41 says only the first kind is the source of falsity; reason (second kind) is ""necessarily true"". Article says the first two kinds ""often yield inadequate ideas"". Lead."
+verdict_sample,C165,partly supported,unsupported,no,No horse example found in [71]/[70]; not in E2P40S2. Appears invented as illustration; low stakes.
+verdict_sample,C185,unsupported,partly supported,no,[73] IEP Geometrical Method covers Euclid and Descartes; specific Discourse/Meditations claims not checked.
+verdict_sample,C187,unsupported,partly supported,no,"[12] SEP/[11] IEP: order and connection of ideas same as of things (E2P7). ""Critiqued Descartes's method for insufficient rigor"" not found."
+verdict_sample,C189,unsupported,supported,no,"[76] Poetics Today abstract: ""the deductive structure of the Ethics mirrors the causal necessity by which all of nature follows from God""."
+verdict_sample,C203,supported,supported,yes,"Locators right. Elwes E3P6: ""Everything, in so far as it is in itself, endeavours to persist in its own being."" Article's quote is Curley's ([78] SEP gives the same). E3P7 = actual essence. [80] Wikis"
+verdict_sample,C209,unverifiable,unverifiable,yes,"[80] malformed URL (404). The quoted phrase is in E4P18 note (Elwes: ""virtue is nothing else but action in accordance with the laws of one's own nature""), not E4P37. Locator mismatch."
+verdict_sample,C219,supported,supported,yes,"[86] SEP Emotions: passion is confused/inadequate, mind not the adequate cause. E3 Def. 2-3 match. [87] ResearchGate not reachable."
+verdict_sample,C229,unsupported,unsupported,yes,Linked [95] (archived dbanach page) not on this; intended [85] not reachable. Matches E5P36/E5P42 in substance.
+verdict_sample,C232,miscited,partly supported,no,"[70]/[71] general. E5P23: ""something of it remains which is eternal"" - the article's claim that the mind persists immortally in the form of its intellectual capacities overstates it; Spinoza denies du"
+verdict_sample,C236,miscited,miscited,yes,Intended [89]: moral certainty from signs/miracles and doctrine.
+verdict_sample,C239,miscited,miscited,yes,Intended [89] TTP ch. 3 contents (gift of prophecy not peculiar to Hebrews); Balaam is in TTP ch. 3.
+verdict_sample,C240,miscited,miscited,yes,Intended [89] TTP ch. 1 on Christ perceiving revelations directly.
+verdict_sample,C259,miscited,miscited,yes,"Linked [101] Hackett PCP page unrelated; intended [91] (TTP ch. 16, archived) on reason and self-preservation."
+verdict_sample,C263,unsupported,miscited,no,Intended [45] SEP Political quotes Ep. 50: magistrate has no more right over subjects than it has power. Linked [46] silent.
+verdict_sample,C266,supported,supported,yes,"[46] and intended [92] quote ""of all forms of government the most natural, and the most consonant with individual liberty"" (TTP ch. 16, cited in [92] as TP:XVI:207)."
+verdict_sample,C267,unsupported,partly supported,no,"[45] SEP covers TP regimes; ""delegating only the exercise of power"" not located. Note the ""most natural"" quote is from the TTP, not the TP."
+verdict_sample,C278,unsupported,miscited,no,"Intended [45]: Scripture as ""a repository of simple moral lessons"". Linked [46] silent."
+verdict_sample,C279,miscited,miscited,yes,Intended [89] TTP ch. 6: nature maintains an unchangeable order; ch. 1-2 prophecy and imagination.
+verdict_sample,C284,miscited,unverifiable,no,[103] (pantheism paper) unrelated; intended [93] MDPI bot-walled. 1674 ban supported elsewhere ([46]); 1670 bans by synods partly fits [39].
+verdict_sample,C288,miscited,supported,no,[59] IEP Metaphysics lists the five parts and aims; matches.
+verdict_sample,C300,miscited,unsupported,no,[60]/[59] passages say nothing about Hegel/Einstein.
+verdict_sample,C302,unsupported,partly supported,no,Intended [45]: TTP goals (Ep. 30) vs TP. Linked [46] general.
+verdict_sample,C304,uncited,uncited,yes,"Uncited. Eleven chapters, unfinished: correct."
+verdict_sample,C306,unsupported,miscited,no,"Intended [45] passage is about TTP clergy, not TP ch. 5; general support only."
+verdict_sample,C308,uncited,uncited,yes,Uncited.
+verdict_sample,C311,partly supported,partly supported,yes,"Intended [45]: model democracy excludes those not sui iuris, women, children, servants (TP 11.2-3). [46] gives the ""most natural"" quote."
+verdict_sample,C317,uncited,uncited,yes,Uncited.
+verdict_sample,C336,unverifiable,unverifiable,yes,[112] bot-walled; intended [102] general.
+verdict_sample,C340,unsupported,partly supported,no,"[113]/[103] discuss theistic readings; ""non-theistic monotheism"" not found."
+verdict_sample,C341,miscited,miscited,yes,"Linked [116] (Hume Contra Spinoza) is about Hume; intended [106] New Humanist: Spinoza's God immanent, not a providential God."
+verdict_sample,C357,partly supported,unverifiable,no,[124] (Rationalist Philosopher) general; intended [114] JSTOR bot-walled.
+verdict_sample,C359,miscited,miscited,yes,"Linked [126] (Times of Israel blog on the ban) unrelated. Intended [116] Hume Contra Spinoza: Hume calls Spinoza ""that famous atheist"" (T 241). The ""constant conjunction"" framing is not shown in the p"
+verdict_sample,C360,unverifiable,unverifiable,yes,[127] Jewish News not reachable; intended [117] (Hume and Spinoza review) on Hume's causation.
+verdict_sample,C362,unsupported,unsupported,yes,[129]/[119] passages do not discuss empiricist objections.
+verdict_sample,C363,uncited,uncited,yes,Uncited.
+verdict_sample,C365,uncited,uncited,yes,Uncited.
+verdict_sample,C369,uncited,uncited,yes,Uncited.
+verdict_sample,C370,partly supported,partly supported,yes,"[3] NEH: herem like no other; linked [136] (Einstein poem) unrelated; intended [126]: 27 July 1656, Talmud Torah congregation, ""by far the harshest""."
+verdict_sample,C371,partly supported,supported,no,"[3] NEH and [18]/[19] give the ""abominable heresies which he practiced and taught and about his monstrous deeds"" text; specific heresies ""likely"" are inference."
+verdict_sample,C372,miscited,unverifiable,no,[137] (psychotherapy blog) unrelated; intended [127] not reachable. [126]/[128] (not cited here) report 2012 reconsideration with no revocation.
+verdict_sample,C378,miscited,unsupported,no,[139] bot-walled; [140] UW page thin; intended [129]/[130] general.
+verdict_sample,C381,unverifiable,unverifiable,yes,"[143] ResearchGate not reachable; intended [133] UW Stroum on heresy; ""confined to liberal or deistic fringes"" omits Romantic/idealist reception (2026-10-01 A7)."
+verdict_sample,C382,uncited,uncited,yes,Uncited.
+verdict_sample,C384,miscited,unsupported,no,[146] and intended [136] do not link conatus to conservation principles.
+verdict_sample,C389,unsupported,partly supported,no,"[45] SEP potentia/potestas; ""underpin modern liberal republicanism"" is a reception claim not supported in passage (2026-10-01 A5)."
+verdict_sample,C391,unverifiable,miscited,no,Linked [152] (Project Syndicate login wall) unrelated; intended [142] review notes naturalism/determinism tensions.
+verdict_sample,C397,unverifiable,unverifiable,yes,[157] dangling; intended [147] ResearchGate not reachable.
+verdict_sample,C401,unverifiable,unverifiable,yes,"[161],[162] dangling. Intended [151] MDPI special issue ""Spinoza's Theological-Political Treatise (1670-2020)""; [152] Krauze on illiberalism (login wall). ""Blueprints for secular governance"" is a mode"
+headline,C120,evidence confirmed verbatim in cache/Elwes,miscited,yes,
+headline,C368,evidence confirmed verbatim in cache/Elwes,unsupported,yes,
+headline,C108,evidence confirmed verbatim in cache/Elwes,miscited,yes,
+headline,C313,evidence confirmed verbatim in cache/Elwes,miscited,yes,
+headline,C383,evidence confirmed verbatim in cache/Elwes,miscited,yes,
+headline,C043,evidence confirmed verbatim in cache/Elwes,unsupported,yes,
+headline,C064,evidence confirmed verbatim in cache/Elwes,unverifiable (source not reachable or not listed),yes,
+headline,C118,evidence confirmed verbatim in cache/Elwes,partly supported,yes,
+headline,C173,evidence confirmed verbatim in cache/Elwes,unsupported,yes,
+headline,C209,evidence confirmed verbatim in cache/Elwes,unverifiable (source not reachable or not listed),yes,
+headline,C123,evidence confirmed verbatim in cache/Elwes,partly supported,yes,
+headline,C158,evidence confirmed verbatim in cache/Elwes,uncited,yes,
+headline,C177,evidence confirmed verbatim in cache/Elwes,unsupported,yes,
+headline,C199,evidence confirmed verbatim in cache/Elwes,unsupported,yes,
+headline,C201,evidence confirmed verbatim in cache/Elwes,unsupported,yes,
+headline,C291,evidence confirmed verbatim in cache/Elwes,miscited,yes,
+ethics_match_sample,C132,match,primary-text-match,yes,E1P18
+ethics_match_sample,C127,match,primary-text-match,yes,E1App
+ethics_match_sample,C141,match,primary-text-match,yes,E1P15
+ethics_match_sample,C134,match,primary-text-match,yes,E1P29
+ethics_match_sample,C230,match,primary-text-match,yes,E5P29
+ethics_match_sample,C216,match,primary-text-match,yes,E3P11S1
+ethics_match_sample,C142,match for infinite modes (E1P21); finite-mode causation is E1P28,primary-text-match,yes,E1P21
+ethics_match_sample,C218,match,primary-text-match,yes,E3P13S1
+ethics_match_sample,C202,match,primary-text-match,yes,E2P40S2
+ethics_match_sample,C126,"match; article wording ""each of which"" vs Elwes ""of which each""",primary-text-match,yes,E1D6
+ethics_match_sample,C348,match,primary-text-match,yes,E2P48
+ethics_match_sample,C139,"match; E2P1 covers thought only, extension is E2P2",primary-text-match,yes,E2P1
+ethics_match_sample,C192,match,primary-text-match,yes,E2P16
+ethics_match_sample,C122,match,primary-text-match,yes,E1D5
+ethics_match_sample,C222,match,primary-text-match,yes,E4P7
+ethics_match_sample,C213,match,primary-text-match,yes,E3P6
+ethics_match_sample,C140,match,primary-text-match,yes,E1D5
+ethics_match_sample,C231,match,primary-text-match,yes,E5P10
+ethics_match_sample,C191,match,primary-text-match,yes,E2P40S2
+ethics_match_sample,C219,match,primary-text-match,yes,E3D2
+fallacy,C129,"reasonable lead, closer to possible issue than flag (report of a comparison, not an argued claim)",see FALLACY.md,,
+fallacy,C261,reasonable lead,see FALLACY.md,,
+fallacy,C342,reasonable lead,see FALLACY.md,,
+fallacy,C381,reasonable lead,see FALLACY.md,,
+fallacy,C046,reasonable as possible issue,see FALLACY.md,,
+fallacy,C113,reasonable as possible issue,see FALLACY.md,,
+fallacy,C401,weak lead; condition 3 (pushes to an unargued conclusion) is thin,see FALLACY.md,,
+fallacy,C159,"reasonable as possible issue under either entry; straw-man needs Descartes wording, not given",see FALLACY.md,,
+fallacy,C314,"weak lead (""bold"" is mild praise)",see FALLACY.md,,

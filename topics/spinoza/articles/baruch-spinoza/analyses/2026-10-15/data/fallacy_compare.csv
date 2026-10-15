@@ -1,0 +1,10 @@
+claim_id,R1_entry,R1_verdict,R2_entry,R2_verdict,status
+C046,false-dilemma,possible issue,false-dilemma,possible issue,"flagged the same passage, same entry"
+C113,hasty-generalization,possible issue,hasty-generalization,possible issue,"flagged the same passage, same entry"
+C129,proof-surrogate,flag,proof-surrogate,flag,"flagged the same passage, same entry, both flag"
+C159,loaded-language,possible issue,straw-man,possible issue,"flagged the same passage, label disputed"
+C261,cum-hoc,flag,cum-hoc,flag,"flagged the same passage, same entry, both flag"
+C314,,,loaded-language,possible issue,R2 only
+C342,non-sequitur,flag,non-sequitur,flag,"flagged the same passage, same entry, both flag"
+C381,non-sequitur,flag,non-sequitur,flag,"flagged the same passage, same entry, both flag"
+C401,loaded-language,possible issue,loaded-language,possible issue,"flagged the same passage, same entry"

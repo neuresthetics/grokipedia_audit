@@ -1,0 +1,40 @@
+{
+  "paragraphs": 125,
+  "sentences": 401,
+  "cited_sentences": 325,
+  "uncited_sentences": 76,
+  "uncited_sentences_no_later_cite_in_paragraph": 13,
+  "citation_markers": 390,
+  "distinct_numbers_cited": 162,
+  "sources_listed": 153,
+  "max_number_cited": 162,
+  "dangling_numbers": [
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162
+  ],
+  "dangling_marker_count": 9,
+  "claims_with_dangling": [
+    "C393",
+    "C395",
+    "C396",
+    "C397",
+    "C399",
+    "C400",
+    "C401"
+  ],
+  "unused_sources": [],
+  "duplicate_source_urls": {},
+  "malformed_source_urls": [
+    80
+  ],
+  "markup_leak_claims": [
+    "C213"
+  ]
+}
