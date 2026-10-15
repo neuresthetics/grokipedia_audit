@@ -14,4 +14,4 @@ Added 2026-10-15 (plain method, not substance_lens):
 
 | Run | Folder | Articles | What was read | Main files |
 |---|---|---|---|---|
-| fallacy_catalog benchmark | [2026-10-08_fallacy_catalog](2026-10-08_fallacy_catalog/README.md) | 39 (2026-10-01 snapshots) | All 13,199 sentences labeled; three AI reviewers flagged against fallacy_catalog v0.6.1 | [WALKTHROUGH.md](2026-10-08_fallacy_catalog/WALKTHROUGH.md), `flags.csv`, [FULL_RECORD.md](2026-10-08_fallacy_catalog/FULL_RECORD.md) |
+| fallacy_catalog benchmark | [2026-10-08_fallacy_catalog](2026-10-08_fallacy_catalog/README.md) | 58 (2026-10-01 snapshots) | All 13,199 sentences labeled; three AI reviewers flagged against fallacy_catalog v0.6.1 | [WALKTHROUGH.md](2026-10-08_fallacy_catalog/WALKTHROUGH.md), `flags.csv`, [FULL_RECORD.md](2026-10-08_fallacy_catalog/FULL_RECORD.md) |
