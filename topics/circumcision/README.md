@@ -2,7 +2,7 @@
 
 58 circumcision-related Grokipedia articles, saved as snapshots on 2026-10-01. Back to the [repo README](../../README.md).
 
-## Status: rebuilding
+## Status: rebuilding (superseded by [Update 2026-10-15](#update-2026-10-15) below)
 
 There are no current results for this topic yet. The articles will be rechecked with the plain method described in the repo README: each claim quoted next to its cited source, a verdict, and a reasoning check against [fallacy_catalog](https://github.com/neuresthetics/fallacy_catalog). New results will be added here as each article is done.
 

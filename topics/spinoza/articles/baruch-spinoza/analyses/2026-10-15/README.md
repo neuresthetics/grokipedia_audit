@@ -1,5 +1,7 @@
 # Baruch Spinoza: audit run 2026-10-15
 
+Back to the [Spinoza topic](../../../../README.md) · [repo README](../../../../../../README.md)
+
 ![Headline chart: same 401 sentences, citations as linked vs with the footnote shift undone](../../../../../../docs/img/spinoza/2026-10-15/headline_content_vs_citations.png)
 
 *Headline chart.* Two bars for the same 401 sentences. Top: each sentence judged against the source its footnote actually links. Bottom: the same check with the footnote shift undone (each cite read as the source it seems meant to point to). The words "Mostly accurate content" in the chart title are the assistant's reading of the bottom bar, not a measured label.
@@ -8,7 +10,7 @@ This run checks the Grokipedia article against a fresh snapshot (2026-10-15). Ea
 
 ## Summary
 
-| Verdict | as linked | vs. intended source |
+| Verdict | as linked | footnote shift undone |
 |---|---:|---:|
 | supported | 30 | 135 |
 | partly supported | 81 | 127 |
@@ -17,7 +19,7 @@ This run checks the Grokipedia article against a fresh snapshot (2026-10-15). Ea
 | unverifiable | 47 | 26 |
 | uncited | 76 | 76 |
 
-- "Vs. intended" reads each cite with the numbering drift corrected ([OFFSET.md](OFFSET.md)).
+- "Footnote shift undone" reads each cite with the numbering drift corrected ([OFFSET.md](OFFSET.md)).
 - "As linked" judges each sentence only against the source its marker actually links. These counts were corrected after a second check ([RECHECK.md](RECHECK.md)) and again after a third check ([RECHECK3.md](RECHECK3.md)); every changed row is listed in [CORRECTIONS.md](CORRECTIONS.md).
 - Ethics claims against the pinned Elwes text: 82 match in content, 8 do not match, and 47 concern other works with no primary text on hand.
 - **Offset:** the [90]+ shift found on 2026-10-01 is still there, now −10 for inline [91]+. The new inline [5] was added to the list as #153, so inline [6]–[90] now read as n−1. Inline [154]–[162] (9 markers) point past the end of the 153-entry list.
@@ -52,6 +54,7 @@ This run checks the Grokipedia article against a fresh snapshot (2026-10-15). Ea
 
 ## Charts
 
+- `docs/img/spinoza/2026-10-15/headline_content_vs_citations.png`: the headline chart above.
 - `docs/img/spinoza/2026-10-15/verdicts_linked_vs_intended.png`: verdict counts per sentence, as linked vs. with the numbering corrected.
 - `docs/img/spinoza/2026-10-15/offset_probe_by_block.png`: for each block of 10 inline numbers, the average share of the sentence's words found in list entry n, n−1 and n−10.
 - `docs/img/spinoza/2026-10-15/primary_text_check.png`: how many sentences match, do not match, or have no primary text on hand.
