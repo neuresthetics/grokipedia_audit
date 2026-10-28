@@ -1,3 +1,7 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# dry-run noise
+topics/**/dry_runs/**/*.stderr
+topics/**/dry_runs/**/nested_run.err
