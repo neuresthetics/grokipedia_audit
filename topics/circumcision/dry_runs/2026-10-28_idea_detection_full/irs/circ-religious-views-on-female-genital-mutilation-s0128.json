@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0128",
+  "source_text": "In Chad, evangelical churches have highlighted FGM's health risks in official agreements, promoting alternatives aligned with Christian ethics. [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Chad, evangelical churches have highlighted FGM's health risks in official agreements, promoting alternatives aligned with Christian ethi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Chad, evangelical churches have highlighted FGM's health risks in official agreements, promoting alternatives aligned with Christian ethics. [72].",
+      "span": {
+        "quote": "In Chad, evangelical churches have highlighted FGM's health risks in official agreements, promoting alternatives aligned with Christian ethics. [72]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with Christian ethics.",
+      "span": {
+        "quote": "aligned with Christian ethics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with Christian ethics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with Christian ethics",
+          "span": {
+            "quote": "aligned with Christian ethics"
+          }
+        }
+      ]
+    }
+  ]
+}

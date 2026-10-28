@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0264",
+  "source_text": "South Africa's Application of Health Standards in Traditional Circumcision Act of 2001 mandates parental informed consent for participants under 16, yet frequent violations occur, with boys presenting secretly to traditional surgeons without parental knowledge, exposing them to unqualified practitioners and heightened risks of complications like septicemia and death\u2014over 200 initiates died in Eastern Cape between 1995 and 2005. [122]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "South Africa's Application of Health Standards in Traditional Circumcision Act of 2001 mandates parental informed consent for participants u"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "South Africa's Application of Health Standards in Traditional Circumcision Act of 2001 mandates parental informed consent for participants under 16, yet frequen.",
+      "span": {
+        "quote": "South Africa's Application of Health Standards in Traditional Circumcision Act of 2001 mandates parental informed consent for participants under 16, yet frequen"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

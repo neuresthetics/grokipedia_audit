@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0076",
+  "source_text": "These events, held biennially in September, compel involvement via familial and village expectations, blending celebration with irreversible alteration absent personal consent, rooted in pre-colonial animist traditions rather than external religious imports. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These events, held biennially in September, compel involvement via familial and village expectations, blending celebration with irreversible"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These events, held biennially in September, compel involvement via familial and village expectations, blending celebration with irreversible alteration absent p.",
+      "span": {
+        "quote": "These events, held biennially in September, compel involvement via familial and village expectations, blending celebration with irreversible alteration absent p"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

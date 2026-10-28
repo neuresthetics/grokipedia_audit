@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-ulwaluko-s0150",
+  "source_text": "Common causes included septicemia, dehydration, gangrene, and assaults, as documented in medical records from areas like Mthatha, where 25 deaths were recorded over a multi-year period ending around 2010, alongside hundreds of hospital admissions for penile amputations and infections. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Common causes included septicemia, dehydration, gangrene, and assaults, as documented in medical records from areas like Mthatha, where 25 d"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Common causes included septicemia, dehydration, gangrene, and assaults, as documented in medical records from areas like Mthatha, where 25 deaths were recorded.",
+      "span": {
+        "quote": "Common causes included septicemia, dehydration, gangrene, and assaults, as documented in medical records from areas like Mthatha, where 25 deaths were recorded "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

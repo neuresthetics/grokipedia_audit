@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0170",
+  "source_text": "Critics of circumcision emphasize these findings to argue that removal of the foreskin eliminates natural mucosal protection against inflammatory urinary disorders, potentially elevating long-term risks, though causation remains correlative rather than definitively proven in controlled settings. [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of circumcision emphasize these findings to argue that removal of the foreskin eliminates natural mucosal protection against inflamm"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics of circumcision emphasize these findings.",
+      "span": {
+        "quote": "Critics of circumcision emphasize these findings"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c2",
+      "text": "Removal of the foreskin eliminates natural mucosal protection against inflammatory urinary disorders, potentially elevating long-term risks, though causation re.",
+      "span": {
+        "quote": "removal of the foreskin eliminates natural mucosal protection against inflammatory urinary disorders, potentially elevating long-term risks, though causation re"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Critics of circumcision emphasize these findings to argue that removal of the fo"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Critics of circumcision emphasize these findings to argue that removal of the fo"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

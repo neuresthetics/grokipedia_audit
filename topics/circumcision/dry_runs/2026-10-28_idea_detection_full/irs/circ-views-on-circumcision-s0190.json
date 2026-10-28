@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0190",
+  "source_text": "Critics argue that intactivism selectively ignores global health data, such as World Health Organization (WHO) endorsements of VMMC based on randomized controlled trials demonstrating approximately 60% reduction in heterosexual HIV acquisition among men in high-prevalence regions. [38] [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics argue that intactivism selectively ignores global health data, such as World Health Organization (WHO) endorsements of VMMC based on"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intactivism selectively ignores global health data, such as World Health Organization (WHO) endorsements of VMMC based on randomized controlled trials demonstra.",
+      "span": {
+        "quote": "intactivism selectively ignores global health data, such as World Health Organization (WHO) endorsements of VMMC based on randomized controlled trials demonstra"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c4",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

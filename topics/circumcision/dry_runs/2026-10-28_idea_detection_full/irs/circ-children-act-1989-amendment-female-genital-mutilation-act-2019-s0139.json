@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0139",
+  "source_text": "Some academics argue stringent FGM prohibitions stigmatize migrant communities by imposing Western norms, overlooking cultural significances and comparing to procedures like labiaplasty, while eroding trust via mandatory reporting. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some academics argue stringent FGM prohibitions stigmatize migrant communities by imposing Western norms, overlooking cultural significances"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Stringent FGM prohibitions stigmatize migrant communities by imposing Western norms, overlooking cultural significances and comparing to procedures like labiapl.",
+      "span": {
+        "quote": "stringent FGM prohibitions stigmatize migrant communities by imposing Western norms, overlooking cultural significances and comparing to procedures like labiapl"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

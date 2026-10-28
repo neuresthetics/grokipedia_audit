@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0126",
+  "source_text": "A review of self-reported mental health in African cohorts found no consistent elevation in depression or anxiety attributable solely to FGC, with many attributing resilience to cultural acceptance and familial support. [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A review of self-reported mental health in African cohorts found no consistent elevation in depression or anxiety attributable solely to FGC"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A review of self-reported mental health in African cohorts found no consistent elevation in depression or anxiety attributable solely to FGC, with many attribut.",
+      "span": {
+        "quote": "A review of self-reported mental health in African cohorts found no consistent elevation in depression or anxiety attributable solely to FGC, with many attribut"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

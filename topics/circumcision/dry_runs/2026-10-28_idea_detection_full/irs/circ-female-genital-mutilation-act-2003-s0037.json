@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0037",
+  "source_text": "This evidentiary push emphasized the practice's non-therapeutic nature and causal links to long-term physical and psychological damage, overriding unsubstantiated cultural rationales through first-hand clinical observations rather than anecdotal defenses.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This evidentiary push emphasized the practice's non-therapeutic nature and causal links to long-term physical and psychological damage, over"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E practice's non-therapeutic nature and causal links to long-term physical and psychological damage, overriding unsubstantiated cultural rationales through firs.",
+      "span": {
+        "quote": "e practice's non-therapeutic nature and causal links to long-term physical and psychological damage, overriding unsubstantiated cultural rationales through firs"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This evidentiary push.",
+      "span": {
+        "quote": "This evidentiary push"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated cultural rationales through first-hand.",
+      "span": {
+        "quote": "unsubstantiated cultural rationales through first-hand"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated cultural rationales through first-hand"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

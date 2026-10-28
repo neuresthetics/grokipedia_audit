@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0267",
+  "source_text": "Proponents of female genital mutilation (FGM) in practicing communities often cite cultural and social benefits, including the preservation of virginity, reduction of female sexual desire to prevent promiscuity, enhancement of marriageability and social status, promotion of cleanliness or hygiene, and fulfillment of aesthetic or ritual requirements for rites of passage. [130]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of female genital mutilation (FGM) in practicing communities often cite cultural and social benefits, including the preservation"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents of female genital mutilation (FGM) in practicing communities often cite cultural and social benefits, including the preservation of virginity, reduct.",
+      "span": {
+        "quote": "Proponents of female genital mutilation (FGM) in practicing communities often cite cultural and social benefits, including the preservation of virginity, reduct"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

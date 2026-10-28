@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0310",
+  "source_text": "This view, advanced by some anthropologists, posits that interventions must respect local norms to avoid alienating practitioners, advocating instead for gradual, culturally attuned modifications like less invasive forms to mitigate risks while preserving communal values. [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This view, advanced by some anthropologists, posits that interventions must respect local norms to avoid alienating practitioners, advocatin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This view, advanced by some anthropologists, posits that interventions must respect local norms to avoid alienating practitioners, advocating instead for gradua.",
+      "span": {
+        "quote": "This view, advanced by some anthropologists, posits that interventions must respect local norms to avoid alienating practitioners, advocating instead for gradua"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

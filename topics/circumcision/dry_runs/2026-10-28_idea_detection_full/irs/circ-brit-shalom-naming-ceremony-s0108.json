@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0108",
+  "source_text": "Opponents counter that parental authority in religious upbringing, supported by legal precedents in many jurisdictions affirming religious circumcision, supersedes minor autonomy claims, and that forgoing the rite undermines intergenerational covenantal obligations, potentially eroding Jewish identity; this tension is evident in debates where ethicists weigh cultural continuity against modern human rights frameworks like those from the UN Convention on the Rights of the Child. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents counter that parental authority in religious upbringing, supported by legal precedents in many jurisdictions affirming religious c"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", and that forgoing the rite undermines intergenerational covenantal obligations, potentially eroding Jewish identity;.",
+      "span": {
+        "quote": ", and that forgoing the rite undermines intergenerational covenantal obligations, potentially eroding Jewish identity;"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opponents counter that parental authority in religious upbringing, supported by legal precedents in many jurisdictions affirming religious circumcision, superse.",
+      "span": {
+        "quote": "Opponents counter that parental authority in religious upbringing, supported by legal precedents in many jurisdictions affirming religious circumcision, superse"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

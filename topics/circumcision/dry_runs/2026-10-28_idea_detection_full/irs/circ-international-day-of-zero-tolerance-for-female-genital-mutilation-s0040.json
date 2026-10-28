@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0040",
+  "source_text": "Key objectives include highlighting FGM's immediate and long-term harms\u2014such as hemorrhage, infection, and psychological trauma\u2014while countering cultural justifications through evidence-based advocacy. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Key objectives include highlighting FGM's immediate and long-term harms\u2014such as hemorrhage, infection, and psychological trauma\u2014while counte"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Key objectives include highlighting FGM's immediate and long-term harms\u2014such as hemorrhage, infection, and psychological trauma\u2014while countering cultural justif.",
+      "span": {
+        "quote": "Key objectives include highlighting FGM's immediate and long-term harms\u2014such as hemorrhage, infection, and psychological trauma\u2014while countering cultural justif"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

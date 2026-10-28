@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0217",
+  "source_text": "Evidence for other STIs is weaker but includes modest reductions in human papillomavirus (HPV) prevalence and incidence, as well as some protection against herpes simplex virus type 2. [123]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Evidence for other STIs is weaker but includes modest reductions in human papillomavirus (HPV) prevalence and incidence, as well as some pro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Evidence for other STIs is weaker but includes modest reductions in human papillomavirus (HPV) prevalence and incidence, as well as some protection against herp.",
+      "span": {
+        "quote": "Evidence for other STIs is weaker but includes modest reductions in human papillomavirus (HPV) prevalence and incidence, as well as some protection against herp"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

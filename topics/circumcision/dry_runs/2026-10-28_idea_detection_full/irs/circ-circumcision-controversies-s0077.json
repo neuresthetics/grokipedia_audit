@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0077",
+  "source_text": "Such claims frame circumcision as an unethical proxy consent by parents or society, prioritizing self-determination over tradition or perceived benefits. [58]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such claims frame circumcision as an unethical proxy consent by parents or society, prioritizing self-determination over tradition or percei"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Frame circumcision as an unethical proxy consent by parents or society, prioritizing self-determination over tradition or perceived benefits.",
+      "span": {
+        "quote": "frame circumcision as an unethical proxy consent by parents or society, prioritizing self-determination over tradition or perceived benefits."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

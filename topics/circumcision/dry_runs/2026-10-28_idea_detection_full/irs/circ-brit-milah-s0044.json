@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0044",
+  "source_text": "Maimonides (1138\u20131204), in his Mishneh Torah and Guide for the Perplexed, described the procedure as involving precise removal of the foreskin to expose the glans (periah), followed by metzitzah (suction to draw blood), emphasizing its role in moderating excessive sexual desire without impairing procreative function. [22] [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Maimonides (1138\u20131204), in his Mishneh Torah and Guide for the Perplexed, described the procedure as involving precise removal of the foresk"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Maimonides (1138\u20131204), in his Mishneh Torah and Guide for the Perplexed, described the procedure as involving precise removal of the foreskin to expose the gla.",
+      "span": {
+        "quote": "Maimonides (1138\u20131204), in his Mishneh Torah and Guide for the Perplexed, described the procedure as involving precise removal of the foreskin to expose the gla"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

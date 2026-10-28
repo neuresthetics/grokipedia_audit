@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0064",
+  "source_text": "Some interpreters extend this to endorse a mild form of FGM (Type I, involving partial or total removal of the clitoral prepuce) as permissible or recommended for females, analogizing it to male khitan (circumcision), particularly since the Hadith uses the term \"khitan\" without gender restriction in related contexts. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some interpreters extend this to endorse a mild form of FGM (Type I, involving partial or total removal of the clitoral prepuce) as permissi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "To endorse a mild form of FGM (Type I, involving partial or total removal of the clitoral prepuce) as permissible or recommended for females, analogizing it to.",
+      "span": {
+        "quote": "to endorse a mild form of FGM (Type I, involving partial or total removal of the clitoral prepuce) as permissible or recommended for females, analogizing it to "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The Hadith uses the term \"khitan\" without gender restriction in related contexts. [39].",
+      "span": {
+        "quote": "the Hadith uses the term \"khitan\" without gender restriction in related contexts. [39]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since the Hadith uses the term \"khitan\" without gender restriction"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

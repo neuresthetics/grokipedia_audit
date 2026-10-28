@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0132",
+  "source_text": "Proponents claim it enriches prospects for stable unions and family cohesion, with some anecdotal reports from Bohra women indicating personal satisfaction and no disruption to marital harmony.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents claim it enriches prospects for stable unions and family cohesion, with some anecdotal reports from Bohra women indicating person"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It enriches prospects for stable unions and family cohesion, with some anecdotal reports from Bohra women indicating personal satisfaction and no disruption to.",
+      "span": {
+        "quote": "it enriches prospects for stable unions and family cohesion, with some anecdotal reports from Bohra women indicating personal satisfaction and no disruption to "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ulwaluko-s0185",
+  "source_text": "Luvuyo Ntombana, in his 2011 analysis, explicitly rejects abolition in favor of internal reforms to preserve core cultural significance while addressing modern safety imperatives, drawing on community consultations to argue that adaptation strengthens rather than dilutes the rite. [68]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Luvuyo Ntombana, in his 2011 analysis, explicitly rejects abolition in favor of internal reforms to preserve core cultural significance whil"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A, in his 2011 analysis, explicitly rejects abolition in favor of internal reforms to preserve core cultural significance while addressing modern safety imperat.",
+      "span": {
+        "quote": "a, in his 2011 analysis, explicitly rejects abolition in favor of internal reforms to preserve core cultural significance while addressing modern safety imperat"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Adaptation strengthens rather than dilutes the rite. [68].",
+      "span": {
+        "quote": "adaptation strengthens rather than dilutes the rite. [68]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Luvuyo Ntombana, in his 2011 analysis, explicitly rejects abolition in favor of"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

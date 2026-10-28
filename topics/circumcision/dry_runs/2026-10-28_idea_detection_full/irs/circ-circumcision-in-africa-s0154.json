@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0154",
+  "source_text": "Empirical data from these programs confirm sustained HIV incidence reductions of 40-60% in high-burden settings, without evidence of behavioral risk compensation.00102-9/fulltext) Complications in VMMC remain low at under 2%, far below traditional methods, supporting their causal role in averting infections amid ongoing HIV epidemics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data from these programs confirm sustained HIV incidence reductions of 40-60% in high-burden settings, without evidence of behavio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data from these programs confirm sustained HIV incidence reductions of 40-60% in high-burden settings, without evidence of behavioral risk compensatio.",
+      "span": {
+        "quote": "Empirical data from these programs confirm sustained HIV incidence reductions of 40-60% in high-burden settings, without evidence of behavioral risk compensatio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

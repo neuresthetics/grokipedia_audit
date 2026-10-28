@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0098",
+  "source_text": "The signatories' prominence\u2014spanning public health pioneers and Nobel laureates\u2014underscored the resolution's appeal to empirical and human rights-based arguments against practices lacking medical necessity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The signatories' prominence\u2014spanning public health pioneers and Nobel laureates\u2014underscored the resolution's appeal to empirical and human r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The signatories' prominence\u2014spanning public health pioneers and Nobel laureates\u2014underscored the resolution's appeal to empirical and human rights-based argument.",
+      "span": {
+        "quote": "The signatories' prominence\u2014spanning public health pioneers and Nobel laureates\u2014underscored the resolution's appeal to empirical and human rights-based argument"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

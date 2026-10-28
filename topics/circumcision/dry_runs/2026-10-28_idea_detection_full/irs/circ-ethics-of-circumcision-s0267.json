@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0267",
+  "source_text": "Economic analyses underscore VMMC's viability in resource-limited settings, with a 2023 WHO assessment deeming it highly cost-effective across nearly all sub-Saharan African scenarios, often yielding cost savings by averting treatment expenses for HIV infections. [92]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Economic analyses underscore VMMC's viability in resource-limited settings, with a 2023 WHO assessment deeming it highly cost-effective acro"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Economic analyses underscore VMMC's viability in resource-limited settings, with a 2023 WHO assessment deeming it highly cost-effective across nearly all sub-Sa.",
+      "span": {
+        "quote": "Economic analyses underscore VMMC's viability in resource-limited settings, with a 2023 WHO assessment deeming it highly cost-effective across nearly all sub-Sa"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "A 2023 WHO assessment deeming it highly cost-effective across.",
+      "span": {
+        "quote": "a 2023 WHO assessment deeming it highly cost-effective across"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "a 2023 WHO assessment deeming it highly cost-effective acros"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0330",
+  "source_text": "Risk-benefit analyses estimate benefits outweighing risks by ratios of 100:1 to 200:1 when aggregating lifetime protections against infections and cancers. [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Risk-benefit analyses estimate benefits outweighing risks by ratios of 100:1 to 200:1 when aggregating lifetime protections against infectio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Risk-benefit analyses estimate benefits outweighing risks by ratios of 100:1 to 200:1 when aggregating lifetime protections against infections and cancers. [151.",
+      "span": {
+        "quote": "Risk-benefit analyses estimate benefits outweighing risks by ratios of 100:1 to 200:1 when aggregating lifetime protections against infections and cancers. [151"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

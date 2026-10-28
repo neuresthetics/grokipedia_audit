@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0143",
+  "source_text": "However, empirical evidence from ethnographic and survey research indicates substantial female agency, with women often acting as primary initiators, performers, and defenders of the practice within their communities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, empirical evidence from ethnographic and survey research indicates substantial female agency, with women often acting as primary in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, empirical evidence from ethnographic and survey research indicates substantial female agency, with women often acting as primary initiators, performers.",
+      "span": {
+        "quote": "However, empirical evidence from ethnographic and survey research indicates substantial female agency, with women often acting as primary initiators, performers"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0176",
+  "source_text": "Such dynamics amplify preventive impact in high-prevalence settings, as reduced male reservoir effects interrupt transmission chains without relying solely on vaccination coverage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such dynamics amplify preventive impact in high-prevalence settings, as reduced male reservoir effects interrupt transmission chains without"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such dynamics amplify preventive impact in high-prevalence settings, as reduced male reservoir effects interrupt transmission chains without relying solely on v.",
+      "span": {
+        "quote": "Such dynamics amplify preventive impact in high-prevalence settings, as reduced male reservoir effects interrupt transmission chains without relying solely on v"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

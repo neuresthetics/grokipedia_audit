@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0282",
+  "source_text": "For sexual function concerns, preoperative counseling on expected sensory adaptations and device-assisted methods in adults may enhance outcomes, though evidence supports overall low risk with proper execution.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For sexual function concerns, preoperative counseling on expected sensory adaptations and device-assisted methods in adults may enhance outc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For sexual function concerns, preoperative counseling on expected sensory adaptations and device-assisted methods in adults may enhance outcomes, though evidenc.",
+      "span": {
+        "quote": "For sexual function concerns, preoperative counseling on expected sensory adaptations and device-assisted methods in adults may enhance outcomes, though evidenc"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

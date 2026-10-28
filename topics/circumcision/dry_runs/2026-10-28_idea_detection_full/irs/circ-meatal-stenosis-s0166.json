@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0166",
+  "source_text": "This analysis concluded that while weak evidence from subgroup comparisons hinted at a possible slightly elevated risk in circumcised boys and young adults, the absolute incidence remains low, and circumcision does not substantially increase the likelihood compared to baseline rates. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This analysis concluded that while weak evidence from subgroup comparisons hinted at a possible slightly elevated risk in circumcised boys a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While weak evidence from subgroup comparisons hinted at a possible slightly elevated risk in circumcised boys and young adults, the absolute incidence remains l.",
+      "span": {
+        "quote": "while weak evidence from subgroup comparisons hinted at a possible slightly elevated risk in circumcised boys and young adults, the absolute incidence remains l"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

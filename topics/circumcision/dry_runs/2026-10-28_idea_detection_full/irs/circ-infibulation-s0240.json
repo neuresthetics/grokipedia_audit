@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-infibulation-s0240",
+  "source_text": "The World Health Organization explicitly opposes this approach, stating it violates girls' rights to physical integrity and perpetuates harm under the guise of harm reduction.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization explicitly opposes this approach, stating it violates girls' rights to physical integrity and perpetuates harm"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization explicitly opposes this approach, stating it violates girls' rights to physical integrity and perpetuates harm under the guise of.",
+      "span": {
+        "quote": "The World Health Organization explicitly opposes this approach, stating it violates girls' rights to physical integrity and perpetuates harm under the guise of "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

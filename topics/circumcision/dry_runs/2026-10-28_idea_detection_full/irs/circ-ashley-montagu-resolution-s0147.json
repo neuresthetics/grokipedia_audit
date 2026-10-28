@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0147",
+  "source_text": "Amnesty International, while active on female genital mutilation since the 1990s, has not equated it with male circumcision in policy statements, highlighting divergent institutional priorities despite the resolution's broader scope.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Amnesty International, while active on female genital mutilation since the 1990s, has not equated it with male circumcision in policy statem"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Amnesty International, while active on female genital mutilation.",
+      "span": {
+        "quote": "Amnesty International, while active on female genital mutilation"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The 1990s, has not equated it with male circumcision in policy statements, highlighting divergent institutional priorities despite the resolution's broader scop.",
+      "span": {
+        "quote": "the 1990s, has not equated it with male circumcision in policy statements, highlighting divergent institutional priorities despite the resolution's broader scop"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since the 1990s, has not equated it with male circumcision in poli"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

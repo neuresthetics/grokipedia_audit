@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0213",
+  "source_text": "Routine infant circumcision ceased being standard in public hospitals by the mid-20th century, mirroring Australia's shift away from unsubstantiated medical traditions, with private procedures now predominant for cultural or religious reasons among minority groups. [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Routine infant circumcision ceased being standard in public hospitals by the mid-20th century, mirroring Australia's shift away from unsubst"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Routine infant circumcision ceased being standard in public hospitals by the mid-20th century, mirroring Australia's shift away from unsubstantiated medical tra.",
+      "span": {
+        "quote": "Routine infant circumcision ceased being standard in public hospitals by the mid-20th century, mirroring Australia's shift away from unsubstantiated medical tra"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated medical traditions.",
+      "span": {
+        "quote": "unsubstantiated medical traditions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated medical traditions"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

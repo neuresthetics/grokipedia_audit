@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0122",
+  "source_text": "Universal human rights frameworks, including New Zealand's obligations under the Convention on the Rights of the Child, assert bodily integrity as non-negotiable, overriding claims when data shows victim suffering\u2014such as lifelong sexual dysfunction and mental health disorders\u2014outweighs purported communal benefits like enhanced social cohesion. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Universal human rights frameworks, including New Zealand's obligations under the Convention on the Rights of the Child, assert bodily integr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bodily integrity as non-negotiable, overriding claims when data shows victim suffering\u2014such as lifelong sexual dysfunction and mental health disorders\u2014outweighs.",
+      "span": {
+        "quote": "bodily integrity as non-negotiable, overriding claims when data shows victim suffering\u2014such as lifelong sexual dysfunction and mental health disorders\u2014outweighs"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Universal human rights frameworks, including New Zealand's obligations under the Convention on the Rights of the Child.",
+      "span": {
+        "quote": "Universal human rights frameworks, including New Zealand's obligations under the Convention on the Rights of the Child"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

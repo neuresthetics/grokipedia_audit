@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0053",
+  "source_text": "Health complications arise from shared blades and lack of anesthesia, exacerbating risks of sepsis and psychological trauma, while legal challenges highlight violations of children's rights to bodily integrity under Kenyan law. [27] [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Health complications arise from shared blades and lack of anesthesia, exacerbating risks of sepsis and psychological trauma, while legal cha"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Health complications arise from shared blades and lack of anesthesia, exacerbating risks of sepsis and psychological trauma, while legal challenges highlight vi.",
+      "span": {
+        "quote": "Health complications arise from shared blades and lack of anesthesia, exacerbating risks of sepsis and psychological trauma, while legal challenges highlight vi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

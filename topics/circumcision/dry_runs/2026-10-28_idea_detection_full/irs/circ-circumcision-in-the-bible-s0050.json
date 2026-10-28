@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-the-bible-s0050",
+  "source_text": "Collectively, these prophetic teachings underscore that physical circumcision, while a covenant sign, holds no value apart from the corresponding spiritual reality of a transformed heart devoted to God.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Collectively, these prophetic teachings underscore that physical circumcision, while a covenant sign, holds no value apart from the correspo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Collectively, these prophetic teachings underscore that physical circumcision, while a covenant sign, holds no value apart from the corresponding spiritual real.",
+      "span": {
+        "quote": "Collectively, these prophetic teachings underscore that physical circumcision, while a covenant sign, holds no value apart from the corresponding spiritual real"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

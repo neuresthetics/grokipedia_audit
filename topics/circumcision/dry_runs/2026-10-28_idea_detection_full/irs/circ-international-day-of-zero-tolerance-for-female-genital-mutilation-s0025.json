@@ -1,0 +1,58 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0025",
+  "source_text": "The resolution was passed by consensus, reflecting broad international agreement on the need to address female genital mutilation (FGM) as a human rights violation incompatible with international standards, including the Universal Declaration of Human Rights and the Convention on the Elimination of All Forms of Discrimination against Women.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution was passed by consensus, reflecting broad international agreement on the need to address female genital mutilation (FGM) as a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The resolution was passed by consensus, reflecting broad international agreement on the need to address female genital mutilation (FGM) as a human rights violat.",
+      "span": {
+        "quote": "The resolution was passed by consensus, reflecting broad international agreement on the need to address female genital mutilation (FGM) as a human rights violat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    },
+    {
+      "id": "c2",
+      "text": "A human rights violation incompatible with international stand.",
+      "span": {
+        "quote": "a human rights violation incompatible with international stand"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a human rights violation incompatible with international sta"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

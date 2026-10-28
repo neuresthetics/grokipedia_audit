@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0079",
+  "source_text": "Culturally, it reinforces notions of female bodily maintenance aligned with marital and procreative duties, as a narrow vagina is believed to hinder sexual satisfaction for husbands and successful pregnancies, potentially straining social bonds within patrilineal Hausa society.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Culturally, it reinforces notions of female bodily maintenance aligned with marital and procreative duties, as a narrow vagina is believed t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Culturally, it reinforces notions of female bodily maintenance aligned with marital and procreative duties, as a narrow vagina is believed to hinder sexual sati.",
+      "span": {
+        "quote": "Culturally, it reinforces notions of female bodily maintenance aligned with marital and procreative duties, as a narrow vagina is believed to hinder sexual sati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with marital and procreative duties.",
+      "span": {
+        "quote": "aligned with marital and procreative duties"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with marital and procreative duties"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with marital and procreative duties",
+          "span": {
+            "quote": "aligned with marital and procreative duties"
+          }
+        }
+      ]
+    }
+  ]
+}

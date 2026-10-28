@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-006",
+  "source_text": "The loop is design note, refine from a run, implement pilots and forbids, fixture tests, held-out scoring, miss taxonomy, then the next pilot. Full steps, the charity forbids that stay in place, and the rules for adding a pilot: idea_detection/DEV_PROCESS.md.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The loop is design note, refine from a run, implement pilots and forbids, fixture tests, held-out scoring, miss taxonomy, then the next pilo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The loop is design note, refine from a run, implement pilots and forbids, fixture tests, held-out scoring, miss taxonomy, then the next pilot. Full steps, the c.",
+      "span": {
+        "quote": "The loop is design note, refine from a run, implement pilots and forbids, fixture tests, held-out scoring, miss taxonomy, then the next pilot. Full steps, the c"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

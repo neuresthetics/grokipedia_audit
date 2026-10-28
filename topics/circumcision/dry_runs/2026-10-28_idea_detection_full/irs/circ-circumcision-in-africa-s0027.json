@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0027",
+  "source_text": "Anthropological studies affirm the rituals' role in identity formation, though source analyses note potential underreporting of adverse outcomes in community narratives favoring cultural preservation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anthropological studies affirm the rituals' role in identity formation, though source analyses note potential underreporting of adverse outc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anthropological studies affirm the rituals' role in identity formation, though source analyses note potential underreporting of adverse outcomes in community na.",
+      "span": {
+        "quote": "Anthropological studies affirm the rituals' role in identity formation, though source analyses note potential underreporting of adverse outcomes in community na"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

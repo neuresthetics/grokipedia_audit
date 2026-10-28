@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0052",
+  "source_text": "The Third International Symposium on Circumcision took place May 22\u201325, 1994, at the University of Maryland in College Park, Maryland, building on prior events by incorporating reports on epidemiological data and survivor testimonies regarding complications like meatal stenosis, scarring, and psychosexual impacts. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Third International Symposium on Circumcision took place May 22\u201325, 1994, at the University of Maryland in College Park, Maryland, build"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Third International Symposium on Circumcision took place May 22\u201325, 1994, at the University of Maryland in College Park, Maryland, building on prior events.",
+      "span": {
+        "quote": "The Third International Symposium on Circumcision took place May 22\u201325, 1994, at the University of Maryland in College Park, Maryland, building on prior events "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

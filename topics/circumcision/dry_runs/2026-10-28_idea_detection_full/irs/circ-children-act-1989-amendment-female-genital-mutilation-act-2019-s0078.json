@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0078",
+  "source_text": "Long-term physical harms include chronic genital pain, keloid scar formation, female genital tract infections, menstrual difficulties such as dysmenorrhea and retention of menstrual blood, infertility linked to adhesions or blockages, and sexual dysfunction manifested as dyspareunia (painful intercourse) and reduced sexual satisfaction due to nerve damage and tissue removal. [21] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term physical harms include chronic genital pain, keloid scar formation, female genital tract infections, menstrual difficulties such a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term physical harms include chronic genital pain, keloid scar formation, female genital tract infections, menstrual difficulties such as dysmenorrhea and r.",
+      "span": {
+        "quote": "Long-term physical harms include chronic genital pain, keloid scar formation, female genital tract infections, menstrual difficulties such as dysmenorrhea and r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to adhesions or blockages.",
+      "span": {
+        "quote": "linked to adhesions or blockages"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to adhesions or blockages"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to adhesions or blockages",
+          "span": {
+            "quote": "linked to adhesions or blockages"
+          }
+        }
+      ]
+    }
+  ]
+}

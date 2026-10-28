@@ -1,0 +1,75 @@
+{
+  "passage_id": "circ-foreskin-man-s0082",
+  "source_text": "The comic selectively references studies or testimonies aligning with intactivist views, like those highlighting foreskin nerve density, while rejecting counterevidence as biased toward maintaining procedural norms.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The comic selectively references studies or testimonies aligning with intactivist views, like those highlighting foreskin nerve density, whi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "intactivists"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The comic selectively references studies or testimonies aligning with intactivist views, like those highlighting foreskin nerve density, while rejecting counter.",
+      "span": {
+        "quote": "The comic selectively references studies or testimonies aligning with intactivist views, like those highlighting foreskin nerve density, while rejecting counter"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    },
+    {
+      "id": "c2",
+      "text": "Biased toward maintaining procedural norms.",
+      "span": {
+        "quote": "biased toward maintaining procedural norms"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "biased toward maintaining procedural norms"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "The comic selectivel"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased toward maintaining procedural norms",
+          "span": {
+            "quote": "biased toward maintaining procedural norms"
+          }
+        }
+      ]
+    }
+  ]
+}

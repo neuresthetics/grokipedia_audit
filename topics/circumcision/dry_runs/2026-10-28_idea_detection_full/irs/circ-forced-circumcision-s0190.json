@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-forced-circumcision-s0190",
+  "source_text": "Non-consensual circumcision, particularly in infancy or childhood, has been associated with acute pain responses that may contribute to short-term behavioral changes, such as increased crying, sleep disturbances, and altered pain thresholds observed up to six months post-procedure in some studies. [86]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Non-consensual circumcision, particularly in infancy or childhood, has been associated with acute pain responses that may contribute to shor"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-consensual circumcision, particularly in infancy or childhood, has been associated with acute pain responses that may contribute to short-term behavioral ch.",
+      "span": {
+        "quote": "Non-consensual circumcision, particularly in infancy or childhood, has been associated with acute pain responses that may contribute to short-term behavioral ch"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with acute pain responses that may contribute to short-term.",
+      "span": {
+        "quote": "associated with acute pain responses that may contribute to short-term"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with acute pain responses that may contribute to short-term"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with acute pain responses that may contribute to short-term ",
+          "span": {
+            "quote": "associated with acute pain responses that may contribute to short-term"
+          }
+        }
+      ]
+    }
+  ]
+}

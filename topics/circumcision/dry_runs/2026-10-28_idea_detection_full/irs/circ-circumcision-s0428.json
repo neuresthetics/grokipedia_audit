@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0428",
+  "source_text": "A 2013 analysis asserts violations of human rights standards, including the UN Convention on the Rights of the Child, by favoring parental or religious interests over the child's autonomy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2013 analysis asserts violations of human rights standards, including the UN Convention on the Rights of the Child, by favoring parental o"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Violations of human rights standards, including the UN Convention on the Rights of the Child, by favoring parental or religious interests over the child's auton.",
+      "span": {
+        "quote": "violations of human rights standards, including the UN Convention on the Rights of the Child, by favoring parental or religious interests over the child's auton"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

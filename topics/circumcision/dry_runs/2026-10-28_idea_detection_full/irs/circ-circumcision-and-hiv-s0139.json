@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0139",
+  "source_text": "These efficiencies arise from reduced HIV treatment burdens, though sustaining funding remains critical as antiretroviral therapy scale-up alters incidence dynamics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These efficiencies arise from reduced HIV treatment burdens, though sustaining funding remains critical as antiretroviral therapy scale-up a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These efficiencies arise from reduced HIV treatment burdens, though sustaining funding remains critical as antiretroviral therapy scale-up alters incidence dyna.",
+      "span": {
+        "quote": "These efficiencies arise from reduced HIV treatment burdens, though sustaining funding remains critical as antiretroviral therapy scale-up alters incidence dyna"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

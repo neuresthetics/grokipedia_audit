@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0107",
+  "source_text": "Infant claims to bodily autonomy falter on grounds of incompetence, as neonates lack capacity for rational deliberation or foresight, rendering absolute deferral to adulthood philosophically incoherent and practically suboptimal.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infant claims to bodily autonomy falter on grounds of incompetence, as neonates lack capacity for rational deliberation or foresight, render"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O bodily autonomy falter on grounds of incompetence, as neonates lack capacity for rational deliberation or foresight, rendering absolute deferral to adulthood.",
+      "span": {
+        "quote": "o bodily autonomy falter on grounds of incompetence, as neonates lack capacity for rational deliberation or foresight, rendering absolute deferral to adulthood "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

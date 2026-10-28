@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0321",
+  "source_text": "Traditional initiation circumcisions for adolescents, often performed by unregistered practitioners in remote settings, have resulted in over 500 documented deaths and thousands of complications since 1995, prompting legislative reforms to enforce hygiene, training, and oversight.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional initiation circumcisions for adolescents, often performed by unregistered practitioners in remote settings, have resulted in ove"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditional initiation circumcisions for adolescents, often performed by unregistered practitioners in remote settings, have resulted in over 500 documented dea.",
+      "span": {
+        "quote": "Traditional initiation circumcisions for adolescents, often performed by unregistered practitioners in remote settings, have resulted in over 500 documented dea"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "1995, prompting legislative reforms to enforce hygiene, training, and oversight.",
+      "span": {
+        "quote": "1995, prompting legislative reforms to enforce hygiene, training, and oversight."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 1995, prompting legislative reforms to enforce hygiene, trai"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

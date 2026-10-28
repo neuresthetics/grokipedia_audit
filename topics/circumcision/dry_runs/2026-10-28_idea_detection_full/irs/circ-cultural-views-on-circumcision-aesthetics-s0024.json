@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0024",
+  "source_text": "Such omissions reflected theological preferences for portraying Christ in a gentile-compatible intact state, viewing circumcision as a disfiguring mark that contrasted with ideals of bodily wholeness. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such omissions reflected theological preferences for portraying Christ in a gentile-compatible intact state, viewing circumcision as a disfi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such omissions reflected theological preferences for portraying Christ in a gentile-compatible intact state, viewing circumcision as a disfiguring mark that con.",
+      "span": {
+        "quote": "Such omissions reflected theological preferences for portraying Christ in a gentile-compatible intact state, viewing circumcision as a disfiguring mark that con"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

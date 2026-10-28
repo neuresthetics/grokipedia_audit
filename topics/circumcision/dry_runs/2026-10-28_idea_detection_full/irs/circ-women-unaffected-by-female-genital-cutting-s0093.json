@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0093",
+  "source_text": "A metasynthesis of studies on FGC-affected women's sexual health noted reports of pleasure persistence, with some attributing enhanced relational intimacy to the practice's social role. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A metasynthesis of studies on FGC-affected women's sexual health noted reports of pleasure persistence, with some attributing enhanced relat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A metasynthesis of studies on FGC-affected women's sexual health noted reports of pleasure persistence, with some attributing enhanced relational intimacy to th.",
+      "span": {
+        "quote": "A metasynthesis of studies on FGC-affected women's sexual health noted reports of pleasure persistence, with some attributing enhanced relational intimacy to th"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

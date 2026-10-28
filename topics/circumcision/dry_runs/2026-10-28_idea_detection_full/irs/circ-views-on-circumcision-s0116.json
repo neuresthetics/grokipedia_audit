@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0116",
+  "source_text": "This perspective draws on the United Nations Convention on the Rights of the Child (UNCRC), specifically Article 24, which affirms the child's right to the highest attainable standard of health and to protection from harmful traditional practices, interpreting non-consensual circumcision as an infringement on physical inviolability.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective draws on the United Nations Convention on the Rights of the Child (UNCRC), specifically Article 24, which affirms the child"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective draws on the United Nations Convention on the Rights of the Child (UNCRC), specifically Article 24, which affirms the child's right to the high.",
+      "span": {
+        "quote": "This perspective draws on the United Nations Convention on the Rights of the Child (UNCRC), specifically Article 24, which affirms the child's right to the high"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

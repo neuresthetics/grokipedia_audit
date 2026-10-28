@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-025",
+  "source_text": "Do not edit published JSON until reviewed. Side file: idea_detection/pilot_ir_patterns.json.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Do not edit published JSON until reviewed. Side file: idea_detection/pilot_ir_patterns.json."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Do not edit published JSON until reviewed. Side file: idea_detection/pilot_ir_patterns.json.",
+      "span": {
+        "quote": "Do not edit published JSON until reviewed. Side file: idea_detection/pilot_ir_patterns.json."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0191",
+  "source_text": "Psychological impacts manifest as post-traumatic stress disorder (PTSD), anxiety disorders, depression, and diminished self-esteem, often stemming from the non-consensual trauma and lifelong bodily alterations. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological impacts manifest as post-traumatic stress disorder (PTSD), anxiety disorders, depression, and diminished self-esteem, often st"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological impacts manifest as post-traumatic stress disorder (PTSD), anxiety disorders, depression, and diminished self-esteem, often stemming from the non-.",
+      "span": {
+        "quote": "Psychological impacts manifest as post-traumatic stress disorder (PTSD), anxiety disorders, depression, and diminished self-esteem, often stemming from the non-"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

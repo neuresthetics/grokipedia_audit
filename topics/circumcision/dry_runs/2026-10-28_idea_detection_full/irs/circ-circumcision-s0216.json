@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0216",
+  "source_text": "Beyond HIV, circumcision links to lower community-level prevalence of other sexually transmitted infections (STIs), including high-risk human papillomavirus (HPV) and herpes simplex virus type 2 (HSV-2). [124] [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Beyond HIV, circumcision links to lower community-level prevalence of other sexually transmitted infections (STIs), including high-risk huma"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Beyond HIV, circumcision links to lower community-level prevalence of other sexually transmitted infections (STIs), including high-risk human papillomavirus (HP.",
+      "span": {
+        "quote": "Beyond HIV, circumcision links to lower community-level prevalence of other sexually transmitted infections (STIs), including high-risk human papillomavirus (HP"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-012",
+  "source_text": "Fallback entries (use_only_if_nothing_more_specific) only if no specific match. Two labels in one step only if two separate fully met errors (METHOD).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Fallback entries (use_only_if_nothing_more_specific) only if no specific match. Two labels in one step only if two separate fully met errors"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Fallback entries (use_only_if_nothing_more_specific) only if no specific match. Two labels in one step only if two separate fully met errors (METHOD).",
+      "span": {
+        "quote": "Fallback entries (use_only_if_nothing_more_specific) only if no specific match. Two labels in one step only if two separate fully met errors (METHOD)."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

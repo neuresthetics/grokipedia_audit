@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0267",
+  "source_text": "Screening studies have detected asymptomatic cases in up to 17.9% of circumcised boys, with risks elevated twofold if circumcision occurs before age one compared to later. [116] [117]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Screening studies have detected asymptomatic cases in up to 17.9% of circumcised boys, with risks elevated twofold if circumcision occurs be"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Screening studies have detected asymptomatic cases in up to 17.9% of circumcised boys, with risks elevated twofold if circumcision occurs before age one compare.",
+      "span": {
+        "quote": "Screening studies have detected asymptomatic cases in up to 17.9% of circumcised boys, with risks elevated twofold if circumcision occurs before age one compare"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

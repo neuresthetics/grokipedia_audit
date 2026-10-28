@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0132",
+  "source_text": "Psychologically, FGM correlates with elevated rates of post-traumatic stress disorder (PTSD), depression, and anxiety, often linked to the trauma of the procedure and ongoing physical sequelae.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychologically, FGM correlates with elevated rates of post-traumatic stress disorder (PTSD), depression, and anxiety, often linked to the t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychologically, FGM correlates with elevated rates of post-traumatic stress disorder (PTSD), depression, and anxiety, often linked to the trauma of the procedu.",
+      "span": {
+        "quote": "Psychologically, FGM correlates with elevated rates of post-traumatic stress disorder (PTSD), depression, and anxiety, often linked to the trauma of the procedu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to the trauma of the procedure and ongoing physical sequelae.",
+      "span": {
+        "quote": "linked to the trauma of the procedure and ongoing physical sequelae"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to the trauma of the procedure and ongoing physical sequelae"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to the trauma of the procedure and ongoing physical sequelae",
+          "span": {
+            "quote": "linked to the trauma of the procedure and ongoing physical sequelae"
+          }
+        }
+      ]
+    }
+  ]
+}

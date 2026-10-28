@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0266",
+  "source_text": "Anti-circumcision activism, often referred to as intactivism, opposes the practice of male circumcision, including the Jewish ritual of brit milah, on grounds of bodily autonomy, medical ethics, and human rights.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anti-circumcision activism, often referred to as intactivism, opposes the practice of male circumcision, including the Jewish ritual of brit"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anti-circumcision activism, often referred to as intactivism, opposes the practice of male circumcision, including the Jewish ritual of brit milah, on grounds o.",
+      "span": {
+        "quote": "Anti-circumcision activism, often referred to as intactivism, opposes the practice of male circumcision, including the Jewish ritual of brit milah, on grounds o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0174",
+  "source_text": "Challenges persist due to entrenched cultural norms viewing Gishiri as essential for marital eligibility and treatment of perceived vaginal narrowing, with family elders enforcing compliance amid social stigma against uncut women. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Challenges persist due to entrenched cultural norms viewing Gishiri as essential for marital eligibility and treatment of perceived vaginal"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Challenges persist due to entrenched cultural norms viewing Gishiri as essential for marital eligibility and treatment of perceived vaginal narrowing, with fami.",
+      "span": {
+        "quote": "Challenges persist due to entrenched cultural norms viewing Gishiri as essential for marital eligibility and treatment of perceived vaginal narrowing, with fami"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-infibulation-s0149",
+  "source_text": "Mortality from immediate hemorrhage or sepsis, though underreported, has been estimated at approximately 0.5-2% per procedure in high-prevalence areas based on clinical reviews.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mortality from immediate hemorrhage or sepsis, though underreported, has been estimated at approximately 0.5-2% per procedure in high-preval"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mortality from immediate hemorrhage or sepsis, though underreported, has been estimated at approximately 0.5-2% per procedure in high-prevalence areas based on.",
+      "span": {
+        "quote": "Mortality from immediate hemorrhage or sepsis, though underreported, has been estimated at approximately 0.5-2% per procedure in high-prevalence areas based on "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per procedure in high-prevalence areas based on clinical reviews.",
+      "span": {
+        "quote": "per procedure in high-prevalence areas based on clinical reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per procedure in high-prevalence areas based on clinical reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

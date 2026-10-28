@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0003",
+  "source_text": "Medically, systematic reviews indicate that circumcision reduces risks of HIV acquisition by 50-60% in heterosexual men in high-prevalence areas, urinary tract infections in infancy, and certain sexually transmitted infections, with overall complication rates remaining low at under 1% for neonatal procedures. [3] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medically, systematic reviews indicate that circumcision reduces risks of HIV acquisition by 50-60% in heterosexual men in high-prevalence a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medically, systematic reviews indicate that circumcision reduces risks of HIV acquisition by 50-60% in heterosexual men in high-prevalence areas, urinary tract.",
+      "span": {
+        "quote": "Medically, systematic reviews indicate that circumcision reduces risks of HIV acquisition by 50-60% in heterosexual men in high-prevalence areas, urinary tract "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

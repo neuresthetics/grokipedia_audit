@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-003",
+  "source_text": "passage_id, source_text, steps, claims, edges Optional when needed: terms, bindings, evidence_sets, agents, extractor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "passage_id, source_text, steps, claims, edges Optional when needed: terms, bindings, evidence_sets, agents, extractor."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", edges Optional when needed:.",
+      "span": {
+        "quote": ", edges Optional when needed:"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Passage_id, source_text, steps.",
+      "span": {
+        "quote": "passage_id, source_text, steps"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

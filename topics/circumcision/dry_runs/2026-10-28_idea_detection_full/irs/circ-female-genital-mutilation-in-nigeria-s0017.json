@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0017",
+  "source_text": "The absence of doctrinal causation is evident in FGM's uniform occurrence across animist, Muslim, and Christian populations, with no scriptural imperatives in Abrahamic faiths linking it to piety or salvation; attributions to religion often stem from conflation with cultural syncretism rather than causal origins.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The absence of doctrinal causation is evident in FGM's uniform occurrence across animist, Muslim, and Christian populations, with no scriptu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The absence of doctrinal causation is evident in FGM's uniform occurrence across animist, Muslim, and Christian populations, with no scriptural imperatives in A.",
+      "span": {
+        "quote": "The absence of doctrinal causation is evident in FGM's uniform occurrence across animist, Muslim, and Christian populations, with no scriptural imperatives in A"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

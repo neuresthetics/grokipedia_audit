@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0105",
+  "source_text": "In contexts with milder implementations, such as symbolic pricking in parts of Southeast Asia, longitudinal health metrics show no elevated morbidity in reproductive or urinary function compared to uncut populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contexts with milder implementations, such as symbolic pricking in parts of Southeast Asia, longitudinal health metrics show no elevated"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contexts with milder implementations, such as symbolic pricking in parts of Southeast Asia, longitudinal health metrics show no elevated morbidity in reprodu.",
+      "span": {
+        "quote": "In contexts with milder implementations, such as symbolic pricking in parts of Southeast Asia, longitudinal health metrics show no elevated morbidity in reprodu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0205",
+  "source_text": "In a 2023 Sudanese study of 200 rural women, those with FGM scored significantly lower on FSFI domains (mean total score 18.4 vs. 26.7 for non-FGM; p<0.001), with pronounced impairments in desire, satisfaction, and pain subscales across types I-III. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a 2023 Sudanese study of 200 rural women, those with FGM scored significantly lower on FSFI domains (mean total score 18.4 vs. 26.7 for n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a 2023 Sudanese study of 200 rural women, those with FGM scored significantly lower on FSFI domains (mean total score 18.4 vs. 26.7 for non-FGM; p<0.001), wi.",
+      "span": {
+        "quote": "In a 2023 Sudanese study of 200 rural women, those with FGM scored significantly lower on FSFI domains (mean total score 18.4 vs. 26.7 for non-FGM; p<0.001), wi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

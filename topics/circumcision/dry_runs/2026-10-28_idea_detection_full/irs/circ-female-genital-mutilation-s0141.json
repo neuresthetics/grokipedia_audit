@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0141",
+  "source_text": "Another hadith, \"Female circumcision is an act of Sunna for men and an honorable act for women,\" attributed to the Prophet but narrated through Al-Haggag ibn Artaa\u2014a figure deemed a liar by hadith critics\u2014has similarly been deemed inauthentic by authorities like Al-Bayhaqi and Ibn al-Barr. [23]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Another hadith, \"Female circumcision is an act of Sunna for men and an honorable act for women,\" attributed to the Prophet but narrated thro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Another hadith, \"Female circumcision is an act of Sunna for men and an honorable act for women,\" attributed to the Prophet but narrated through Al-Haggag ibn Ar.",
+      "span": {
+        "quote": "Another hadith, \"Female circumcision is an act of Sunna for men and an honorable act for women,\" attributed to the Prophet but narrated through Al-Haggag ibn Ar"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

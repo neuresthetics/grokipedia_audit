@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0138",
+  "source_text": "These initiatives emphasize safe, facility-based procedures with counseling, contrasting traditional methods and yielding modeled reductions in HIV acquisition risk by up to 60% in heterosexual contexts, per randomized trials underpinning the strategy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These initiatives emphasize safe, facility-based procedures with counseling, contrasting traditional methods and yielding modeled reductions"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Safe, facility-based procedures with counseling, contrasting traditional methods and yielding modeled reductions in HIV acquisition risk by up to 60% in heteros.",
+      "span": {
+        "quote": "safe, facility-based procedures with counseling, contrasting traditional methods and yielding modeled reductions in HIV acquisition risk by up to 60% in heteros"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per randomized trials underpinning the strategy.",
+      "span": {
+        "quote": "per randomized trials underpinning the strategy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per randomized trials underpinning the strategy"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

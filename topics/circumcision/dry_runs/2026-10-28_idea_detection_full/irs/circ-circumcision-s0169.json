@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0169",
+  "source_text": "Similarly, a 2021 Canadian cohort study of 569,950 men found that circumcision had no impact on the risk of HIV infection.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, a 2021 Canadian cohort study of 569,950 men found that circumcision had no impact on the risk of HIV infection."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, a 2021 Canadian cohort study of 569,950 men found that circumcision had no impact on the risk of HIV infection.",
+      "span": {
+        "quote": "Similarly, a 2021 Canadian cohort study of 569,950 men found that circumcision had no impact on the risk of HIV infection."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

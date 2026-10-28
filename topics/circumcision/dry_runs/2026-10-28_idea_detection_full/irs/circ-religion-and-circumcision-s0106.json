@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0106",
+  "source_text": "Established in the late 15th century CE in Punjab by Guru Nanak and codified through the ten Gurus' teachings compiled in the Guru Granth Sahib (finalized in 1708 CE), Sikhism mandates preserving the body's integrity, with scriptural injunctions against cutting or removing flesh\u2014such as in the verse \"By cutting the body parts, the filth of the mind is not removed\" (Guru Granth Sahib, p.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Established in the late 15th century CE in Punjab by Guru Nanak and codified through the ten Gurus' teachings compiled in the Guru Granth Sa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Established in the late 15th century CE in Punjab by Guru Nanak and codified through the ten Gurus' teachings compiled in the Guru Granth Sahib (finalized in 17.",
+      "span": {
+        "quote": "Established in the late 15th century CE in Punjab by Guru Nanak and codified through the ten Gurus' teachings compiled in the Guru Granth Sahib (finalized in 17"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

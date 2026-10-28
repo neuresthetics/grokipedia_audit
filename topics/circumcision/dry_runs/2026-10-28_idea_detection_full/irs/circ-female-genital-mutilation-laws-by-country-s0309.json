@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0309",
+  "source_text": "This trend, observed particularly in Egypt, Kenya, Indonesia, Nigeria, and Sudan, stems from perceptions among some communities that medical involvement reduces risks compared to traditional methods, though evidence shows it perpetuates harm without mitigating long-term complications like infection, pain, and childbirth difficulties. [4] [148]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This trend, observed particularly in Egypt, Kenya, Indonesia, Nigeria, and Sudan, stems from perceptions among some communities that medical"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This trend, observed particularly in Egypt, Kenya, Indonesia, Nigeria, and Sudan, stems from perceptions among some communities that medical involvement reduces.",
+      "span": {
+        "quote": "This trend, observed particularly in Egypt, Kenya, Indonesia, Nigeria, and Sudan, stems from perceptions among some communities that medical involvement reduces"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

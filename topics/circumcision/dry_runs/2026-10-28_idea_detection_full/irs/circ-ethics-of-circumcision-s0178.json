@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0178",
+  "source_text": "Neonatal circumcision enhances resource allocation efficiency, as procedure costs are markedly lower than managing downstream infections; postneonatal circumcisions cost approximately 10 times more ($1,921 vs. $165 per case), while broader analyses show that lowering circumcision rates to 10% elevates lifetime healthcare expenditures by $407 per male and $43 per female due to averted savings on UTI and inflammatory treatments. [115] [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision enhances resource allocation efficiency, as procedure costs are markedly lower than managing downstream infections; po"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision enhances resource allocation efficiency, as procedure costs are markedly lower than managing downstream infections; postneonatal circumcis.",
+      "span": {
+        "quote": "Neonatal circumcision enhances resource allocation efficiency, as procedure costs are markedly lower than managing downstream infections; postneonatal circumcis"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per case.",
+      "span": {
+        "quote": "per case"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per male and $43 per female due to averted savings on UTI and inflammatory.",
+      "span": {
+        "quote": "per male and $43 per female due to averted savings on UTI and inflammatory"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per case"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per male and $43 per female due to averted savings on UTI and inflammatory"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

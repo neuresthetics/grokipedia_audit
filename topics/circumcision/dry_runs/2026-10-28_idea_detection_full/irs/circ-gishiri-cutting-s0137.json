@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0137",
+  "source_text": "The WHO's broader definition of FGM includes any procedure that involves partial or total removal of the external female genitalia or other injury to the female genital organs for non-medical reasons, explicitly covering vaginal incisions like Gishiri that cause harm without therapeutic benefit.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The WHO's broader definition of FGM includes any procedure that involves partial or total removal of the external female genitalia or other"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The WHO's broader definition of FGM includes any procedure that involves partial or total removal of the external female genitalia or other injury to the female.",
+      "span": {
+        "quote": "The WHO's broader definition of FGM includes any procedure that involves partial or total removal of the external female genitalia or other injury to the female"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

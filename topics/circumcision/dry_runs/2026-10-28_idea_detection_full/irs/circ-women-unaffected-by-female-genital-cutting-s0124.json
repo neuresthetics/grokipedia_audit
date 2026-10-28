@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0124",
+  "source_text": "These findings contrast with clinician-observed complications but align with self-perceptions in cultural contexts where FGC is normalized, suggesting that reported dysfunction may partly stem from societal stigma or interviewer bias rather than inherent physiological deficit.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings contrast with clinician-observed complications but align with self-perceptions in cultural contexts where FGC is normalized,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings contrast with clinician-observed complications but align with self-perceptions in cultural contexts where FGC is normalized, suggesting that repo.",
+      "span": {
+        "quote": "These findings contrast with clinician-observed complications but align with self-perceptions in cultural contexts where FGC is normalized, suggesting that repo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0004",
+  "source_text": "Prevalence following circumcision varies across studies, with smaller cohorts reporting rates of 5-20% in circumcised boys, contrasted by large database analyses indicating an incidence below 1%, underscoring potential overestimation in referral-based samples or underreporting in general populations. [3] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prevalence following circumcision varies across studies, with smaller cohorts reporting rates of 5-20% in circumcised boys, contrasted by la"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prevalence following circumcision varies across studies, with smaller cohorts reporting rates of 5-20% in circumcised boys, contrasted by large database analyse.",
+      "span": {
+        "quote": "Prevalence following circumcision varies across studies, with smaller cohorts reporting rates of 5-20% in circumcised boys, contrasted by large database analyse"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

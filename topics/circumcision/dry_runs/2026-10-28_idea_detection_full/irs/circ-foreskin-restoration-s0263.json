@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0263",
+  "source_text": "Unlike circumcision, restoration is voluntary, reversible in process, and does not involve excision of tissue, avoiding the ethical pitfalls of proxy decision-making for minors. [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unlike circumcision, restoration is voluntary, reversible in process, and does not involve excision of tissue, avoiding the ethical pitfalls"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Unlike circumcision, restoration is voluntary, reversible in process, and does not involve excision of tissue, avoiding the ethical pitfalls of proxy decision-m.",
+      "span": {
+        "quote": "Unlike circumcision, restoration is voluntary, reversible in process, and does not involve excision of tissue, avoiding the ethical pitfalls of proxy decision-m"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

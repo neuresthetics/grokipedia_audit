@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0105",
+  "source_text": "These effects extend to broader public health gains, including decreased healthcare burdens from preventable infections, justifying proxy interventions where net benefits accrue to dependents and society despite the child's inability to consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These effects extend to broader public health gains, including decreased healthcare burdens from preventable infections, justifying proxy in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These effects extend to broader public health gains, including decreased healthcare burdens from preventable infections, justifying proxy interventions where ne.",
+      "span": {
+        "quote": "These effects extend to broader public health gains, including decreased healthcare burdens from preventable infections, justifying proxy interventions where ne"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

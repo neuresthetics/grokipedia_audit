@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0159",
+  "source_text": "Interim analysis after 473 person-years of follow-up in the intervention group and 499 in the control group revealed 20 HIV infections in the circumcision arm versus 49 in the control arm, yielding a relative risk reduction of 60% (95% CI: 32\u201377%), prompting early termination of the trial on ethical grounds. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Interim analysis after 473 person-years of follow-up in the intervention group and 499 in the control group revealed 20 HIV infections in th"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Interim analysis after 473 person-years of follow-up in the intervention group and 499 in the control group revealed 20 HIV infections in the circumcision arm v.",
+      "span": {
+        "quote": "Interim analysis after 473 person-years of follow-up in the intervention group and 499 in the control group revealed 20 HIV infections in the circumcision arm v"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

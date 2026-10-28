@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0148",
+  "source_text": "Balanitis, inflammation of the glans penis from bacterial or fungal overgrowth under the foreskin, occurs less often in circumcised males, with a 68% lower prevalence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Balanitis, inflammation of the glans penis from bacterial or fungal overgrowth under the foreskin, occurs less often in circumcised males, w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Balanitis, inflammation of the glans penis from bacterial or fungal overgrowth under the foreskin, occurs less often in circumcised males, with a 68% lower prev.",
+      "span": {
+        "quote": "Balanitis, inflammation of the glans penis from bacterial or fungal overgrowth under the foreskin, occurs less often in circumcised males, with a 68% lower prev"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0253",
+  "source_text": "In the mid-19th century, British surgeon Jonathan Hutchinson promoted prophylactic circumcision, arguing in 1855 that it reduced syphilis transmission based on lower rates among circumcised Jewish men (2 of 111 cases) versus uncircumcised Gentiles (49 of 125). [148] [149] [150]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the mid-19th century, British surgeon Jonathan Hutchinson promoted prophylactic circumcision, arguing in 1855 that it reduced syphilis tr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the mid-19th century, British surgeon Jonathan Hutchinson promoted prophylactic circumcision, arguing in 1855 that it reduced syphilis transmission based on.",
+      "span": {
+        "quote": "In the mid-19th century, British surgeon Jonathan Hutchinson promoted prophylactic circumcision, arguing in 1855 that it reduced syphilis transmission based on "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

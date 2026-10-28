@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0157",
+  "source_text": "Israeli multicenter surveys indicate complication rates for neonatal ritual circumcisions as low as 0.34%, with most cases mild and attributable to factors like operator experience rather than the procedure itself.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Israeli multicenter surveys indicate complication rates for neonatal ritual circumcisions as low as 0.34%, with most cases mild and attribut"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Israeli multicenter surveys indicate complication rates for neonatal ritual circumcisions as low as 0.34%, with most cases mild and attributable to factors like.",
+      "span": {
+        "quote": "Israeli multicenter surveys indicate complication rates for neonatal ritual circumcisions as low as 0.34%, with most cases mild and attributable to factors like"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

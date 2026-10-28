@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0404",
+  "source_text": "This case established that Florida courts prioritize enforceable parenting agreements over retrospective objections absent evidence of fraud or duress at signing, though critics argued it overlooked evolving child welfare standards.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This case established that Florida courts prioritize enforceable parenting agreements over retrospective objections absent evidence of fraud"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It overlooked evolving child welfare standards.",
+      "span": {
+        "quote": "it overlooked evolving child welfare standards."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This case established that Florida courts prioritize enforceable parenting agreements over retrospective objections absent evidence of fraud or duress at signin.",
+      "span": {
+        "quote": "This case established that Florida courts prioritize enforceable parenting agreements over retrospective objections absent evidence of fraud or duress at signin"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

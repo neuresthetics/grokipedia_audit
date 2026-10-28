@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-forced-circumcision-s0213",
+  "source_text": "It faced criticism from religious communities and states like Israel, which argued it fostered discrimination, and subsequent efforts in 2015 led to partial retreats without enforcement mechanisms. [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It faced criticism from religious communities and states like Israel, which argued it fostered discrimination, and subsequent efforts in 201"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It fostered discrimination, and subsequent efforts in 2015 led to partial retreats without enforcement mechanisms.",
+      "span": {
+        "quote": "it fostered discrimination, and subsequent efforts in 2015 led to partial retreats without enforcement mechanisms."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "It faced criticism from religious communities and states like Israel, which.",
+      "span": {
+        "quote": "It faced criticism from religious communities and states like Israel, which"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

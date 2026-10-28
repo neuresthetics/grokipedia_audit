@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0195",
+  "source_text": "Peer-reviewed analyses from cohorts in Sudan and Nigeria show no reduction in vulvar infections post-procedure compared to uncut controls, attributing any perceived cleanliness to post-operative scarring rather than inherent efficacy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Peer-reviewed analyses from cohorts in Sudan and Nigeria show no reduction in vulvar infections post-procedure compared to uncut controls, a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Peer-reviewed analyses from cohorts in Sudan and Nigeria show no reduction in vulvar infections post-procedure compared to uncut controls, attributing any perce.",
+      "span": {
+        "quote": "Peer-reviewed analyses from cohorts in Sudan and Nigeria show no reduction in vulvar infections post-procedure compared to uncut controls, attributing any perce"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0075",
+  "source_text": "Female genital mutilation (FGM) entails the partial or total removal of external female genitalia or other injury to female genital organs for non-medical reasons, resulting in immediate physical risks including severe pain, excessive bleeding (hemorrhage), shock from blood loss, urinary retention due to tissue swelling, and infections such as wound infections, sepsis, tetanus, or transmission of HIV and hepatitis B and C when performed with shared unsterilized instruments. [18] [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) entails the partial or total removal of external female genitalia or other injury to female genital organs f"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) entails the partial or total removal of external female genitalia or other injury to female genital organs for non-medical reaso.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) entails the partial or total removal of external female genitalia or other injury to female genital organs for non-medical reaso"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

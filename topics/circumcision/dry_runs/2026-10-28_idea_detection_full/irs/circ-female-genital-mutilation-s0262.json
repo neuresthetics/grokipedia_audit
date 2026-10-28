@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0262",
+  "source_text": "International opposition to female genital mutilation (FGM) frames it as a violation of human rights and gender equality, constituting gender-based violence, child abuse, and discrimination.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "International opposition to female genital mutilation (FGM) frames it as a violation of human rights and gender equality, constituting gende"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "International opposition to female genital mutilation (FGM) frames it as a violation of human rights and gender equality, constituting gender-based violence, ch.",
+      "span": {
+        "quote": "International opposition to female genital mutilation (FGM) frames it as a violation of human rights and gender equality, constituting gender-based violence, ch"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

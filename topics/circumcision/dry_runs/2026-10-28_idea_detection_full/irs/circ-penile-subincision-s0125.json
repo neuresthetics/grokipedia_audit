@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-penile-subincision-s0125",
+  "source_text": "Despite this, the procedure inflicts demonstrable bodily harm, involving a deep longitudinal incision along the ventral penis into the urethra without anesthesia in traditional settings, leading to risks of hemorrhage, urinary fistulas, strictures, chronic infections, and impaired erectile function, as documented in case reports of complications from similar ritual cuttings. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite this, the procedure inflicts demonstrable bodily harm, involving a deep longitudinal incision along the ventral penis into the ureth"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite this, the procedure inflicts demonstrable bodily harm, involving a deep longitudinal incision along the ventral penis into the urethra without anesthesi.",
+      "span": {
+        "quote": "Despite this, the procedure inflicts demonstrable bodily harm, involving a deep longitudinal incision along the ventral penis into the urethra without anesthesi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

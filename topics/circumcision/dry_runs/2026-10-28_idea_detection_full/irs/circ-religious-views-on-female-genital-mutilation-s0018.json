@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0018",
+  "source_text": "Empirical studies document significant health risks across these types, including immediate complications like hemorrhage (affecting up to 15% of cases in some cohorts), severe pain, shock, tetanus, sepsis, and transmission of infections such as HIV due to unsterile tools. [12] [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical studies document significant health risks across these types, including immediate complications like hemorrhage (affecting up to 1"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical studies document significant health risks across these types, including immediate complications like hemorrhage (affecting up to 15% of cases in some.",
+      "span": {
+        "quote": "Empirical studies document significant health risks across these types, including immediate complications like hemorrhage (affecting up to 15% of cases in some "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

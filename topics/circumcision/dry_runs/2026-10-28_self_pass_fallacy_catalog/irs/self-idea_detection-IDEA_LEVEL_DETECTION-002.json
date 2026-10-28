@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-002",
+  "source_text": "METHOD stays the human/Genius-Study procedure. This layer makes the same discipline **machine-checkable** over an idea graph.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "METHOD stays the human/Genius-Study procedure. This layer makes the same discipline **machine-checkable** over an idea graph."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "METHOD stays the human/Genius-Study procedure. This layer makes the same discipline **machine-checkable** over an idea graph.",
+      "span": {
+        "quote": "METHOD stays the human/Genius-Study procedure. This layer makes the same discipline **machine-checkable** over an idea graph."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

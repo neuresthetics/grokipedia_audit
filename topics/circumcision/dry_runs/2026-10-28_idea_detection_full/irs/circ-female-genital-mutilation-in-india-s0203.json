@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0203",
+  "source_text": "In interventions before the Supreme Court in the Sunita Tiwari v. Union of India case (WP (C) No. 286/2017, filed in 2017 and referred to a Constitution Bench in September 2018), representatives argued that khatna constitutes a core tenet of their faith, equivalent to male circumcision, and thus falls within the scope of constitutionally permissible religious observances rather than arbitrary customs subject to state prohibition. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In interventions before the Supreme Court in the Sunita Tiwari v. Union of India case (WP (C) No. 286/2017, filed in 2017 and referred to a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "C) No. 286/2017, filed in 2017 and referred to a Constitution Bench in September 2018), representatives argued that khatna constitutes a core tenet of their fai.",
+      "span": {
+        "quote": "C) No. 286/2017, filed in 2017 and referred to a Constitution Bench in September 2018), representatives argued that khatna constitutes a core tenet of their fai"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Falls within the scope of constitutionally permissible religious observances rather than arbitrary customs subject to state prohibition. [5].",
+      "span": {
+        "quote": "falls within the scope of constitutionally permissible religious observances rather than arbitrary customs subject to state prohibition. [5]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

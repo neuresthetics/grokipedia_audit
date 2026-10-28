@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0107",
+  "source_text": "Scarring from the incisions contributes to vaginal stenosis, narrowing the vaginal canal and impeding normal anatomy, which exacerbates dyspareunia (painful intercourse) and increases susceptibility to recurrent urinary tract and reproductive tract infections. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scarring from the incisions contributes to vaginal stenosis, narrowing the vaginal canal and impeding normal anatomy, which exacerbates dysp"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scarring from the incisions contributes to vaginal stenosis, narrowing the vaginal canal and impeding normal anatomy, which exacerbates dyspareunia (painful int.",
+      "span": {
+        "quote": "Scarring from the incisions contributes to vaginal stenosis, narrowing the vaginal canal and impeding normal anatomy, which exacerbates dyspareunia (painful int"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

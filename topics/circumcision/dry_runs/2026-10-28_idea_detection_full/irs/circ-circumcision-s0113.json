@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0113",
+  "source_text": "The study suggests procedural stress may elevate SIDS risk via allostatic load, particularly in preterm infants.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The study suggests procedural stress may elevate SIDS risk via allostatic load, particularly in preterm infants."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Procedural stress may elevate SIDS risk via allostatic load, particularly in preterm infants.",
+      "span": {
+        "quote": "procedural stress may elevate SIDS risk via allostatic load, particularly in preterm infants."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

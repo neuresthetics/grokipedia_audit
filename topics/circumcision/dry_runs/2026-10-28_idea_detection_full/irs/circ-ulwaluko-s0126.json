@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0126",
+  "source_text": "Dehydration often stems from ritual restrictions on fluid intake during seclusion, while sepsis arises from unsterile instruments and inadequate post-operative care in unregulated initiation schools. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Dehydration often stems from ritual restrictions on fluid intake during seclusion, while sepsis arises from unsterile instruments and inadeq"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Dehydration often stems from ritual restrictions on fluid intake during seclusion, while sepsis arises from unsterile instruments and inadequate post-operative.",
+      "span": {
+        "quote": "Dehydration often stems from ritual restrictions on fluid intake during seclusion, while sepsis arises from unsterile instruments and inadequate post-operative "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

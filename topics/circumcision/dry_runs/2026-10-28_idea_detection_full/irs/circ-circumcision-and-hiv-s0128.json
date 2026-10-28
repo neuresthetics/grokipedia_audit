@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0128",
+  "source_text": "Achievements included averting an estimated 340,000 HIV infections between 2008 and 2019 through combined program impacts, though progress varied due to supply chain logistics and cultural resistance in low-traditional-circumcision areas.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Achievements included averting an estimated 340,000 HIV infections between 2008 and 2019 through combined program impacts, though progress v"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Achievements included averting an estimated 340,000 HIV infections between 2008 and 2019 through combined program impacts, though progress varied due to supply.",
+      "span": {
+        "quote": "Achievements included averting an estimated 340,000 HIV infections between 2008 and 2019 through combined program impacts, though progress varied due to supply "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0108",
+  "source_text": "Thus, Gentiles justified by faith exhibit the righteousness the law demands, making external marks redundant (Romans 3:21-31).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Thus, Gentiles justified by faith exhibit the righteousness the law demands, making external marks redundant (Romans 3:21-31)."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gentiles justified by faith exhibit the righteousness the law demands, making external marks redundant (Romans 3:21-31).",
+      "span": {
+        "quote": "Gentiles justified by faith exhibit the righteousness the law demands, making external marks redundant (Romans 3:21-31)."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

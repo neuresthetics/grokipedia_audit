@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0129",
+  "source_text": "Meatal stenosis, the narrowing of the urethral meatus, is a recognized long-term complication of male circumcision, often attributed to chronic irritation and scarring of the exposed urethral opening in the absence of the foreskin.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meatal stenosis, the narrowing of the urethral meatus, is a recognized long-term complication of male circumcision, often attributed to chro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meatal stenosis, the narrowing of the urethral meatus, is a recognized long-term complication of male circumcision, often attributed to chronic irritation and s.",
+      "span": {
+        "quote": "Meatal stenosis, the narrowing of the urethral meatus, is a recognized long-term complication of male circumcision, often attributed to chronic irritation and s"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

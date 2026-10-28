@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0285",
+  "source_text": "Ethical critiques highlight the mismatch: adult trials required informed consent for a procedure with known risks, whereas infant circumcision applies the intervention without the child's autonomy, potentially overextending benefits to low-risk or non-heterosexual future contexts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical critiques highlight the mismatch: adult trials required informed consent for a procedure with known risks, whereas infant circumcisi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethical critiques highlight the mismatch: adult trials required informed consent for a procedure with known risks, whereas infant circumcision applies the inter.",
+      "span": {
+        "quote": "Ethical critiques highlight the mismatch: adult trials required informed consent for a procedure with known risks, whereas infant circumcision applies the inter"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

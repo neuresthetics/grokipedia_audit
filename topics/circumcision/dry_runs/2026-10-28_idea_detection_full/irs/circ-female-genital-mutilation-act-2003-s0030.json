@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0030",
+  "source_text": "Cultural drivers include beliefs that FGM preserves chastity, enhances marriage prospects by curbing female sexuality, and fulfills social obligations for family honor, as reported in ethnographic accounts from Somali and Egyptian diasporas. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural drivers include beliefs that FGM preserves chastity, enhances marriage prospects by curbing female sexuality, and fulfills social o"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cultural drivers include beliefs that FGM preserves chastity, enhances marriage prospects by curbing female sexuality, and fulfills social obligations for famil.",
+      "span": {
+        "quote": "Cultural drivers include beliefs that FGM preserves chastity, enhances marriage prospects by curbing female sexuality, and fulfills social obligations for famil"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

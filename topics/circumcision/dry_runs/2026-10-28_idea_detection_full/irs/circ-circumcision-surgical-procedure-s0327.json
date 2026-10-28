@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0327",
+  "source_text": "Opponents highlight that these absolute risk reductions are marginal in hygienic contexts with access to modern sanitation and treatments like antibiotics for UTIs or HPV vaccination for cancer prevention, arguing that non-surgical interventions suffice without procedural risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents highlight that these absolute risk reductions are marginal in hygienic contexts with access to modern sanitation and treatments li"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "opponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Opponents highlight that these absolute risk reductions are marginal in hygienic contexts with access to modern sanitation and treatments like antibiotics for U.",
+      "span": {
+        "quote": "Opponents highlight that these absolute risk reductions are marginal in hygienic contexts with access to modern sanitation and treatments like antibiotics for U"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

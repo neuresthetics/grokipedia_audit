@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-s0332",
+  "source_text": "The American Academy of Pediatrics' 2012 policy concludes that newborn benefits, including these protections, exceed risks, with complications at 0.2-3%\u2014mainly minor bleeding or infection\u2014and neonatal timing reducing anesthesia needs versus later surgeries. [75] [199]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy concludes that newborn benefits, including these protections, exceed risks, with complicatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Newborn benefits, including these protections, exceed risks, with complications at 0.2-3%\u2014mainly minor bleeding or infection\u2014and neonatal timing reducing anesth.",
+      "span": {
+        "quote": "newborn benefits, including these protections, exceed risks, with complications at 0.2-3%\u2014mainly minor bleeding or infection\u2014and neonatal timing reducing anesth"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Academy of Pediatrics' 2012 policy.",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concludes"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0205",
+  "source_text": "Rights-based claims frame the practice as a violation of bodily autonomy and informed consent, asserting that infants cannot authorize permanent alterations, akin to human rights protections against unnecessary intrusions. [136]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rights-based claims frame the practice as a violation of bodily autonomy and informed consent, asserting that infants cannot authorize perma"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Frame the practice as a violation of bodily autonomy and informed consent, asserting that infants cannot authorize permanent alterations, akin to human rights p.",
+      "span": {
+        "quote": "frame the practice as a violation of bodily autonomy and informed consent, asserting that infants cannot authorize permanent alterations, akin to human rights p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0164",
+  "source_text": "Sikhism, conversely, rejects elective circumcision, viewing it as unnecessary alteration conflicting with principles of bodily wholeness, with debates arising only in medical necessities rather than ritual endorsement. [109]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sikhism, conversely, rejects elective circumcision, viewing it as unnecessary alteration conflicting with principles of bodily wholeness, wi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sikhism, conversely, rejects elective circumcision, viewing it as unnecessary alteration conflicting with principles of bodily wholeness, with debates arising o.",
+      "span": {
+        "quote": "Sikhism, conversely, rejects elective circumcision, viewing it as unnecessary alteration conflicting with principles of bodily wholeness, with debates arising o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

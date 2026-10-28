@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0037",
+  "source_text": "Ethnographic analyses reveal no evidence of female agency in initiations, which occur pre-puberty without informed consent, contrasting voluntary practices; instead, FGM causally entrenches dependency by linking women's social value to mutilated bodies, incompatible with individual autonomy principles.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethnographic analyses reveal no evidence of female agency in initiations, which occur pre-puberty without informed consent, contrasting volu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethnographic analyses reveal no evidence of female agency in initiations, which occur pre-puberty without informed consent, contrasting voluntary practices; ins.",
+      "span": {
+        "quote": "Ethnographic analyses reveal no evidence of female agency in initiations, which occur pre-puberty without informed consent, contrasting voluntary practices; ins"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of female agency in initiations.",
+      "span": {
+        "quote": "no evidence of female agency in initiations"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of female agency in initiations"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0071",
+  "source_text": "Empirical data on benefits, such as HIV reduction in high-prevalence areas (60% efficacy per WHO meta-analyses), complicates absolutist integrity claims, though advocates counter that such gains apply to adults in specific epidemics, not routine neonatal use in low-risk settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data on benefits, such as HIV reduction in high-prevalence areas (60% efficacy per WHO meta-analyses), complicates absolutist inte"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", though advocates counter that such gains apply to adults in specific epidemics, not routine neonatal use in low-risk settings.",
+      "span": {
+        "quote": ", though advocates counter that such gains apply to adults in specific epidemics, not routine neonatal use in low-risk settings."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical data on benefits, such as HIV reduction in high-prevalence areas (60% efficacy per WHO meta-analyses), complicates absolutist integrity.",
+      "span": {
+        "quote": "Empirical data on benefits, such as HIV reduction in high-prevalence areas (60% efficacy per WHO meta-analyses), complicates absolutist integrity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Per WHO meta-analyses.",
+      "span": {
+        "quote": "per WHO meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per WHO meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

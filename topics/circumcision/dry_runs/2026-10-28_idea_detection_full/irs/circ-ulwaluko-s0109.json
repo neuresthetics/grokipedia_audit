@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0109",
+  "source_text": "By preserving cultural identity and rejecting alternatives like medical circumcision, ulwaluko counters assimilation pressures, fostering tribal unity through fulfilled roles in marriage and inheritance that underpin social cohesion. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By preserving cultural identity and rejecting alternatives like medical circumcision, ulwaluko counters assimilation pressures, fostering tr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By preserving cultural identity and rejecting alternatives like medical circumcision, ulwaluko counters assimilation pressures, fostering tribal unity through f.",
+      "span": {
+        "quote": "By preserving cultural identity and rejecting alternatives like medical circumcision, ulwaluko counters assimilation pressures, fostering tribal unity through f"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0088",
+  "source_text": "Overall, while VMMC has incrementally raised prevalence in low-baseline regions, empirical data reveal persistent heterogeneity and incomplete saturation, with traditional practices filling gaps but introducing avoidable health burdens.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, while VMMC has incrementally raised prevalence in low-baseline regions, empirical data reveal persistent heterogeneity and incomple"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, while VMMC has incrementally raised prevalence in low-baseline regions, empirical data reveal persistent heterogeneity and incomplete saturation, with.",
+      "span": {
+        "quote": "Overall, while VMMC has incrementally raised prevalence in low-baseline regions, empirical data reveal persistent heterogeneity and incomplete saturation, with "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-foreskin-s0287",
+  "source_text": "In contrast, European pediatric associations, including those in the United Kingdom and aligned with the European Association of Urology, do not endorse routine neonatal circumcision, viewing it as unjustified absent medical indication due to insufficient net benefit in populations with low disease burdens and effective hygiene practices. [125]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, European pediatric associations, including those in the United Kingdom and aligned with the European Association of Urology, do"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, European pediatric associations, including those in the United Kingdom and aligned with the European Association of Urology, do not endorse routine.",
+      "span": {
+        "quote": "In contrast, European pediatric associations, including those in the United Kingdom and aligned with the European Association of Urology, do not endorse routine"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with the European Association of Urology.",
+      "span": {
+        "quote": "aligned with the European Association of Urology"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with the European Association of Urology"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with the European Association of Urology",
+          "span": {
+            "quote": "aligned with the European Association of Urology"
+          }
+        }
+      ]
+    }
+  ]
+}

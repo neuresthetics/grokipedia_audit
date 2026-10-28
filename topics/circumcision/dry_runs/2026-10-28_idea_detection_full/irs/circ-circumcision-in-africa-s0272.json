@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0272",
+  "source_text": "In adolescent VMMC, developmental limits on risk appraisal\u2014evident in lower knowledge retention among younger cohorts\u2014further question capacity for meaningful assent, prompting calls for deferral to adulthood where comprehension aligns with permanence. [125]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In adolescent VMMC, developmental limits on risk appraisal\u2014evident in lower knowledge retention among younger cohorts\u2014further question capac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In adolescent VMMC, developmental limits on risk appraisal\u2014evident in lower knowledge retention among younger cohorts\u2014further question capacity for meaningful a.",
+      "span": {
+        "quote": "In adolescent VMMC, developmental limits on risk appraisal\u2014evident in lower knowledge retention among younger cohorts\u2014further question capacity for meaningful a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

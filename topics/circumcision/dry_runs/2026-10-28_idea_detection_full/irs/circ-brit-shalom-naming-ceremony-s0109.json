@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0109",
+  "source_text": "Empirical data on regret is limited, but surveys of circumcised adults show mixed satisfaction, with some reporting diminished sensitivity, fueling ethical scrutiny independent of religious framing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data on regret is limited, but surveys of circumcised adults show mixed satisfaction, with some reporting diminished sensitivity,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data on regret is limited, but surveys of circumcised adults show mixed satisfaction, with some reporting diminished sensitivity, fueling ethical scru.",
+      "span": {
+        "quote": "Empirical data on regret is limited, but surveys of circumcised adults show mixed satisfaction, with some reporting diminished sensitivity, fueling ethical scru"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

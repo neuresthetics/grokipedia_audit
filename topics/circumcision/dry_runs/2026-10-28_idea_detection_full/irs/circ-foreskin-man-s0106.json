@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-foreskin-man-s0106",
+  "source_text": "The comic's release coincided with the November 2011 San Francisco ballot initiative (Proposition B) to ban circumcision for minors under 18, which opponents viewed as disproportionately burdening Jewish religious practice despite non-therapeutic circumcisions for secular reasons comprising over 90% of U.S. cases at the time. [41] [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The comic's release coincided with the November 2011 San Francisco ballot initiative (Proposition B) to ban circumcision for minors under 18"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The comic's release coincided with the November 2011 San Francisco ballot initiative (Proposition B) to ban circumcision for minors under 18, which opponents vi.",
+      "span": {
+        "quote": "The comic's release coincided with the November 2011 San Francisco ballot initiative (Proposition B) to ban circumcision for minors under 18, which opponents vi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

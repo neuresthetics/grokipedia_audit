@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0161",
+  "source_text": "Female genital mutilation (FGM) is associated with immediate and long-term physical health risks, including severe bleeding, infection, and urinary issues during the procedure, with systematic reviews confirming higher mortality rates in severe forms like infibulation. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) is associated with immediate and long-term physical health risks, including severe bleeding, infection, and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) is associated with immediate and long-term physical health risks, including severe bleeding, infection, and urinary issues durin.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) is associated with immediate and long-term physical health risks, including severe bleeding, infection, and urinary issues durin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with immediate and long-term physical health risks.",
+      "span": {
+        "quote": "associated with immediate and long-term physical health risks"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with immediate and long-term physical health risks"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with immediate and long-term physical health risks",
+          "span": {
+            "quote": "associated with immediate and long-term physical health risks"
+          }
+        }
+      ]
+    }
+  ]
+}

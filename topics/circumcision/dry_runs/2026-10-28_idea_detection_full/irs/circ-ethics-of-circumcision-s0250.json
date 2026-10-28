@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0250",
+  "source_text": "A similar trial in Rakai, Uganda, involving 4,996 men aged 15-49, reported a 51% efficacy (adjusted hazard ratio 0.49; 95% CI 0.26-0.93) after 24 months, rising to 60% after excluding baseline seroconverters.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A similar trial in Rakai, Uganda, involving 4,996 men aged 15-49, reported a 51% efficacy (adjusted hazard ratio 0.49; 95% CI 0.26-0.93) aft"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A similar trial in Rakai, Uganda, involving 4,996 men aged 15-49, reported a 51% efficacy (adjusted hazard ratio 0.49; 95% CI 0.26-0.93) after 24 months, rising.",
+      "span": {
+        "quote": "A similar trial in Rakai, Uganda, involving 4,996 men aged 15-49, reported a 51% efficacy (adjusted hazard ratio 0.49; 95% CI 0.26-0.93) after 24 months, rising"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

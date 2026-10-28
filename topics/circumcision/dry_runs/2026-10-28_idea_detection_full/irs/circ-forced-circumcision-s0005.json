@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0005",
+  "source_text": "In modern contexts, it manifests in ethnic or tribal conflicts, particularly in Kenya, where uncircumcised Luo men have faced abduction, mutilation, or death during politically charged campaigns by Kikuyu groups, framing the act as emasculation and gender-based violence amid post-election tensions. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In modern contexts, it manifests in ethnic or tribal conflicts, particularly in Kenya, where uncircumcised Luo men have faced abduction, mut"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In modern contexts, it manifests in ethnic or tribal conflicts, particularly in Kenya, where uncircumcised Luo men have faced abduction, mutilation, or death du.",
+      "span": {
+        "quote": "In modern contexts, it manifests in ethnic or tribal conflicts, particularly in Kenya, where uncircumcised Luo men have faced abduction, mutilation, or death du"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

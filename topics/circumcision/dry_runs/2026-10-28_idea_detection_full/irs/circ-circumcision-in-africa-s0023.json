@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0023",
+  "source_text": "Performed by village specialists, the rite transitions participants to mature status, often followed by communal celebrations, though traditional methods have been linked to higher infection risks due to non-sterile conditions. [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed by village specialists, the rite transitions participants to mature status, often followed by communal celebrations, though tradit"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed by village specialists, the rite transitions participants to mature status, often followed by communal celebrations, though traditional methods have b.",
+      "span": {
+        "quote": "Performed by village specialists, the rite transitions participants to mature status, often followed by communal celebrations, though traditional methods have b"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to higher infection risks due to non-sterile conditions.",
+      "span": {
+        "quote": "linked to higher infection risks due to non-sterile conditions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to higher infection risks due to non-sterile conditions"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to higher infection risks due to non-sterile conditions",
+          "span": {
+            "quote": "linked to higher infection risks due to non-sterile conditions"
+          }
+        }
+      ]
+    }
+  ]
+}

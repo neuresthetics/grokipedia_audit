@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0208",
+  "source_text": "A cross-sectional survey study by Frisch et al. (2011) in Denmark, where circumcision is rare (~5%), reported associations between circumcision and increased frequent orgasm difficulties in men (11% vs 4%, adj OR 3.26, 95% CI 1.42-7.47) and various sexual difficulties in female partners of circumcised men, including dyspareunia (adj OR 8.45, 95% CI 3.01-23.74).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A cross-sectional survey study by Frisch et al. (2011) in Denmark, where circumcision is rare (~5%), reported associations between circumcis"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A cross-sectional survey study by Frisch et al. (2011) in Denmark, where circumcision is rare (~5%), reported associations between circumcision and increased fr.",
+      "span": {
+        "quote": "A cross-sectional survey study by Frisch et al. (2011) in Denmark, where circumcision is rare (~5%), reported associations between circumcision and increased fr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

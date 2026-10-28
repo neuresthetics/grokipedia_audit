@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0172",
+  "source_text": "These results, published in The Lancet, provided causal evidence linking foreskin removal to lower HIV transmission via reduced viral entry during penile-vaginal intercourse, prompting the World Health Organization (WHO) and Joint United Nations Programme on HIV/AIDS (UNAIDS) to issue a joint policy in March 2007 recommending VMMC scale-up as part of combination HIV prevention in generalized epidemics, particularly in sub-Saharan Africa where circumcision prevalence was low (under 20% in many areas) despite HIV rates exceeding 10%. [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These results, published in The Lancet, provided causal evidence linking foreskin removal to lower HIV transmission via reduced viral entry"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These results, published in The Lancet, provided causal evidence linking foreskin removal to lower HIV transmission via reduced viral entry during penile-vagina.",
+      "span": {
+        "quote": "These results, published in The Lancet, provided causal evidence linking foreskin removal to lower HIV transmission via reduced viral entry during penile-vagina"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

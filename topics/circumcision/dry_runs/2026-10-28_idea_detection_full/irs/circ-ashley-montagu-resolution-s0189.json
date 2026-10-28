@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0189",
+  "source_text": "Scholars like Brian D. Earp have challenged equivalence by noting FGM's disproportionate nerve loss (up to 10,000 clitoral nerves vs. foreskin's estimated 20,000, though functionality differs), arguing that moral weighting should reflect causal outcomes rather than superficial procedural similarities. [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scholars like Brian D. Earp have challenged equivalence by noting FGM's disproportionate nerve loss (up to 10,000 clitoral nerves vs. foresk"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scholars like Brian D. Earp have challenged equivalence by noting FGM's disproportionate nerve loss (up to 10,000 clitoral nerves vs. foreskin's estimated 20,00.",
+      "span": {
+        "quote": "Scholars like Brian D. Earp have challenged equivalence by noting FGM's disproportionate nerve loss (up to 10,000 clitoral nerves vs. foreskin's estimated 20,00"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

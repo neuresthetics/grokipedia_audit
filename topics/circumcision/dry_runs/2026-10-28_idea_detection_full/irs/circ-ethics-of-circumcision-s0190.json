@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0190",
+  "source_text": "Opponents contend that neonatal circumcision exemplifies parental or institutional overreach, imposing a non-consensual, indelible modification on a non-autonomous individual whose body autonomy is thereby preempted without recourse, akin to other irreversible pediatric interventions but amplified by genital specificity. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents contend that neonatal circumcision exemplifies parental or institutional overreach, imposing a non-consensual, indelible modificat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Opponents contend that neonatal circumcision exemplifies parental or institutional overreach, imposing a non-consensual, indelible modification on a non-autonom.",
+      "span": {
+        "quote": "Opponents contend that neonatal circumcision exemplifies parental or institutional overreach, imposing a non-consensual, indelible modification on a non-autonom"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c2",
+      "text": "Preempted without recourse, akin to other irreversible pediatric interventions but amplified by genital specificity. [7].",
+      "span": {
+        "quote": "preempted without recourse, akin to other irreversible pediatric interventions but amplified by genital specificity. [7]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Opponents contend that neonatal circumcision exemplifies parental or institution"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0077",
+  "source_text": "In Sudanese discourse, such texts are invoked to frame FGM\u2014particularly Type I or \"sunna\" circumcision\u2014as a recommended (mustahabb) practice akin to male ritual, though critics emphasize that even if authentic, they do not mandate excision or infibulation prevalent in the region.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Sudanese discourse, such texts are invoked to frame FGM\u2014particularly Type I or \"sunna\" circumcision\u2014as a recommended (mustahabb) practice"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Even if authentic, they do not mandate excision or infibulation prevalent in the region.",
+      "span": {
+        "quote": "even if authentic, they do not mandate excision or infibulation prevalent in the region."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In Sudanese discourse, such texts are invoked to frame FGM\u2014particularly Type I or \"sunna\" circumcision\u2014as a recommended (mustahabb) practice akin to male ritual.",
+      "span": {
+        "quote": "In Sudanese discourse, such texts are invoked to frame FGM\u2014particularly Type I or \"sunna\" circumcision\u2014as a recommended (mustahabb) practice akin to male ritual"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

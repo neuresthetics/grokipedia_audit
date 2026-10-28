@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-circumcision-s0126",
+  "source_text": "The findings remain controversial, have not been widely replicated, and are not recognized as a risk factor by major health authorities such as the AAP or WHO. [66] [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The findings remain controversial, have not been widely replicated, and are not recognized as a risk factor by major health authorities such"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The findings remain controversial, have not been widely replicated, and are not recognized as a risk factor by major health authorities such as the AAP or WHO.",
+      "span": {
+        "quote": "The findings remain controversial, have not been widely replicated, and are not recognized as a risk factor by major health authorities such as the AAP or WHO. "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0219",
+  "source_text": "Circumcision also lowers the risk of phimosis and balanoposthitis, potentially averting later therapeutic procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision also lowers the risk of phimosis and balanoposthitis, potentially averting later therapeutic procedures."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision also lowers the risk of phimosis and balanoposthitis, potentially averting later therapeutic procedures.",
+      "span": {
+        "quote": "Circumcision also lowers the risk of phimosis and balanoposthitis, potentially averting later therapeutic procedures."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0167",
+  "source_text": "Concurrently, the Ugandan Rakai trial by Gray et al. involved 4,996 HIV-negative uncircumcised men aged 15\u201349, randomized to circumcision or control with 24-month follow-up ending September 2007.60313-4/fulltext) This yielded 67 HIV seroconversions (20 circumcised, 47 control), a 51% reduction in incidence (95% CI: 16\u201371%; adjusted HR 0.49, 95% CI: 0.29\u20130.82), again without increased risk behavior or sexual activity in the intervention group.60313-4/fulltext) Surgical complications were low (0.7% severe).60313-4/fulltext) The consistency across trials\u2014each demonstrating approximately 50\u201360% efficacy against heterosexual HIV acquisition in high-prevalence sub-Saharan African settings\u2014provided robust causal evidence from RCTs, surpassing prior ecological and observational associations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Concurrently, the Ugandan Rakai trial by Gray et al. involved 4,996 HIV-negative uncircumcised men aged 15\u201349, randomized to circumcision or"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Concurrently, the Ugandan Rakai trial by Gray et al. involved 4,996 HIV-negative uncircumcised men aged 15\u201349, randomized to circumcision or control with 24-mon.",
+      "span": {
+        "quote": "Concurrently, the Ugandan Rakai trial by Gray et al. involved 4,996 HIV-negative uncircumcised men aged 15\u201349, randomized to circumcision or control with 24-mon"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

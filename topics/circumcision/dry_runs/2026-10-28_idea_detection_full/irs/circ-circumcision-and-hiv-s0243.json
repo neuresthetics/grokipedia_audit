@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0243",
+  "source_text": "Groups opposing non-therapeutic circumcision extend this to VMMC, framing it as cultural imperialism rather than evidence-based policy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Groups opposing non-therapeutic circumcision extend this to VMMC, framing it as cultural imperialism rather than evidence-based policy."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Groups opposing non-therapeutic circumcision extend this to VMMC, framing it as cultural imperialism rather than evidence-based policy.",
+      "span": {
+        "quote": "Groups opposing non-therapeutic circumcision extend this to VMMC, framing it as cultural imperialism rather than evidence-based policy."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

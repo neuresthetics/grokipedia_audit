@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0035",
+  "source_text": "Types I and II FGM, involving clitoridectomy or excision, sever nerve-rich tissues, with clinical evidence indicating long-term dyspareunia and diminished libido in up to 70% of survivors, effects absent in male counterparts.68589-5/fulltext) This outcome aligns with explicit rationales in practicing communities, where elders cite \"sealing\" female desire to prevent infidelity, reinforcing male authority without reciprocal controls on men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Types I and II FGM, involving clitoridectomy or excision, sever nerve-rich tissues, with clinical evidence indicating long-term dyspareunia"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Types I and II FGM, involving clitoridectomy or excision, sever nerve-rich tissues, with clinical evidence indicating long-term dyspareunia and diminished libid.",
+      "span": {
+        "quote": "Types I and II FGM, involving clitoridectomy or excision, sever nerve-rich tissues, with clinical evidence indicating long-term dyspareunia and diminished libid"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

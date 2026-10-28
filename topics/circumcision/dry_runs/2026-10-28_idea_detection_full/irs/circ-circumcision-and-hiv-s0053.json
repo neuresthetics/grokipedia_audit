@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0053",
+  "source_text": "Subsequent reviews incorporating broader global data reported modest associations, with a 2019 systematic review of 62 studies estimating a 23% lower odds of HIV infection overall (OR 0.77), particularly in low- and middle-income countries and among those primarily engaging in insertive roles. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Subsequent reviews incorporating broader global data reported modest associations, with a 2019 systematic review of 62 studies estimating a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Subsequent reviews incorporating broader global data reported modest associations, with a 2019 systematic review of 62 studies estimating a 23% lower odds of HI.",
+      "span": {
+        "quote": "Subsequent reviews incorporating broader global data reported modest associations, with a 2019 systematic review of 62 studies estimating a 23% lower odds of HI"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

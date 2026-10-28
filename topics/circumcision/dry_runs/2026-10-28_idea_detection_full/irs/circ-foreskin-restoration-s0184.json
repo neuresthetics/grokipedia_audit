@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0184",
+  "source_text": "Men engaging in foreskin restoration commonly report subjective improvements in self-esteem and body image, attributing these gains to mitigating perceived psychological harms from prior circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Men engaging in foreskin restoration commonly report subjective improvements in self-esteem and body image, attributing these gains to mitig"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Men engaging in foreskin restoration commonly report subjective improvements in self-esteem and body image, attributing these gains to mitigating perceived psyc.",
+      "span": {
+        "quote": "Men engaging in foreskin restoration commonly report subjective improvements in self-esteem and body image, attributing these gains to mitigating perceived psyc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

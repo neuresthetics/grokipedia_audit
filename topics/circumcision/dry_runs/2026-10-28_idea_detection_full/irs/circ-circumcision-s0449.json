@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0449",
+  "source_text": "Some note neutral or better premature ejaculation control from less foreskin hypersensitivity. [115] [246] [247]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some note neutral or better premature ejaculation control from less foreskin hypersensitivity. [115] [246] [247]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Some note neutral or better premature ejaculation control from less foreskin hypersensitivity. [115] [246] [247].",
+      "span": {
+        "quote": "Some note neutral or better premature ejaculation control from less foreskin hypersensitivity. [115] [246] [247]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

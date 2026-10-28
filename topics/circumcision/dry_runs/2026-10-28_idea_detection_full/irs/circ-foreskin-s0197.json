@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0197",
+  "source_text": "These benefits are supported by longitudinal data from pediatric and urological cohorts, though absolute risks remain low in hygienic populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These benefits are supported by longitudinal data from pediatric and urological cohorts, though absolute risks remain low in hygienic popula"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These benefits are supported by longitudinal data from pediatric and urological cohorts, though absolute risks remain low in hygienic populations.",
+      "span": {
+        "quote": "These benefits are supported by longitudinal data from pediatric and urological cohorts, though absolute risks remain low in hygienic populations."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

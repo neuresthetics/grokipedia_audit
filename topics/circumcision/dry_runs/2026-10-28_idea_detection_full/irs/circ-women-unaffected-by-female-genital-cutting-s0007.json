@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0007",
+  "source_text": "Globally, the unaffected experience no ritual-inflicted physical or psychological trauma from cutting, preserving full anatomical function and fertility potential absent iatrogenic harm; empirical studies link the procedure to elevated maternal mortality and neonatal risks in affected cohorts, underscoring the baseline health status of the intact. [1] [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Globally, the unaffected experience no ritual-inflicted physical or psychological trauma from cutting, preserving full anatomical function a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Globally, the unaffected experience no ritual-inflicted physical or psychological trauma from cutting, preserving full anatomical function and fertility potenti.",
+      "span": {
+        "quote": "Globally, the unaffected experience no ritual-inflicted physical or psychological trauma from cutting, preserving full anatomical function and fertility potenti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

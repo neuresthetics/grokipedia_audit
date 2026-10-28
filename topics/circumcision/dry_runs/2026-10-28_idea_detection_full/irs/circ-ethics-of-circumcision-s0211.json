@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0211",
+  "source_text": "Claims of delayed trauma, often from advocacy-driven surveys or small non-randomized cohorts, fail replication in rigorous designs and overlook confounders like cultural context or self-selection bias. [138]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of delayed trauma, often from advocacy-driven surveys or small non-randomized cohorts, fail replication in rigorous designs and overl"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of delayed trauma, often from advocacy-driven surveys or small non-randomized cohorts, fail replication in rigorous designs and overlook confounders like cultur.",
+      "span": {
+        "quote": "of delayed trauma, often from advocacy-driven surveys or small non-randomized cohorts, fail replication in rigorous designs and overlook confounders like cultur"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

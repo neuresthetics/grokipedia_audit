@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0172",
+  "source_text": "This rationale persists through intergenerational transmission, where mothers view FGM as essential preparation for adulthood and integration into community norms, even amid U.S. legal prohibitions enacted in 1996. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This rationale persists through intergenerational transmission, where mothers view FGM as essential preparation for adulthood and integratio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This rationale persists through intergenerational transmission, where mothers view FGM as essential preparation for adulthood and integration into community nor.",
+      "span": {
+        "quote": "This rationale persists through intergenerational transmission, where mothers view FGM as essential preparation for adulthood and integration into community nor"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

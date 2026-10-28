@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0173",
+  "source_text": "Benefits apply primarily in high-incidence settings for heterosexual transmission and do not reliably extend to low-prevalence areas or non-vaginal exposures. [102]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Benefits apply primarily in high-incidence settings for heterosexual transmission and do not reliably extend to low-prevalence areas or non-"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Benefits apply primarily in high-incidence settings for heterosexual transmission and do not reliably extend to low-prevalence areas or non-vaginal exposures. [.",
+      "span": {
+        "quote": "Benefits apply primarily in high-incidence settings for heterosexual transmission and do not reliably extend to low-prevalence areas or non-vaginal exposures. ["
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

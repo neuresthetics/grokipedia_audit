@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0324",
+  "source_text": "In contrast, male circumcision removes the foreskin (prepuce), which contains nerve endings but does not impair erectile function, ejaculation, or overall sexual capability; studies indicate no meaningful reduction in sexual satisfaction or performance post-procedure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, male circumcision removes the foreskin (prepuce), which contains nerve endings but does not impair erectile function, ejaculati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, male circumcision removes the foreskin (prepuce), which contains nerve endings but does not impair erectile function, ejaculation, or overall sexua.",
+      "span": {
+        "quote": "In contrast, male circumcision removes the foreskin (prepuce), which contains nerve endings but does not impair erectile function, ejaculation, or overall sexua"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

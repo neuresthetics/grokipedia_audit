@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0202",
+  "source_text": "A 2023 analysis across African cohorts further confirmed higher PTSD rates (pooled OR 2.1) and anxiety (OR 1.8) linked to FGM types II and III, though evidence gaps persist for type I due to fewer controlled studies. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2023 analysis across African cohorts further confirmed higher PTSD rates (pooled OR 2.1) and anxiety (OR 1.8) linked to FGM types II and I"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2023 analysis across African cohorts further confirmed higher PTSD rates (pooled OR 2.1) and anxiety (OR 1.8) linked to FGM types II and III, though evidence.",
+      "span": {
+        "quote": "A 2023 analysis across African cohorts further confirmed higher PTSD rates (pooled OR 2.1) and anxiety (OR 1.8) linked to FGM types II and III, though evidence "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to FGM types II and III.",
+      "span": {
+        "quote": "linked to FGM types II and III"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to FGM types II and III"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to FGM types II and III",
+          "span": {
+            "quote": "linked to FGM types II and III"
+          }
+        }
+      ]
+    }
+  ]
+}

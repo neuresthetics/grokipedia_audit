@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0114",
+  "source_text": "No peer-reviewed studies have demonstrated therapeutic efficacy for gishiri cutting in addressing its purported benefits, including easing obstructed labor, treating dyspareunia, infertility, or amenorrhea. [35] [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No peer-reviewed studies have demonstrated therapeutic efficacy for gishiri cutting in addressing its purported benefits, including easing o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No peer-reviewed studies have demonstrated therapeutic efficacy for gishiri cutting in addressing its purported benefits, including easing obstructed labor, tre.",
+      "span": {
+        "quote": "No peer-reviewed studies have demonstrated therapeutic efficacy for gishiri cutting in addressing its purported benefits, including easing obstructed labor, tre"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Peer-reviewed studies.",
+      "span": {
+        "quote": "peer-reviewed studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "peer-reviewed studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

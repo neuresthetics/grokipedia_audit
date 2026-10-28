@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0120",
+  "source_text": "Conservative Judaism similarly upholds circumcision as obligatory under halacha, with rabbinical authorities like the Rabbinical Assembly not endorsing alternatives despite occasional debates on procedure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conservative Judaism similarly upholds circumcision as obligatory under halacha, with rabbinical authorities like the Rabbinical Assembly no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Conservative Judaism similarly upholds circumcision as obligatory under halacha, with rabbinical authorities like the Rabbinical Assembly not endorsing alternat.",
+      "span": {
+        "quote": "Conservative Judaism similarly upholds circumcision as obligatory under halacha, with rabbinical authorities like the Rabbinical Assembly not endorsing alternat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

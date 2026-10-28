@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0228",
+  "source_text": "Observational data and meta-analyses link male circumcision to a 30% to 40% lower odds of cervical cancer in female partners, based on studies across multiple regions including Africa. [107]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Observational data and meta-analyses link male circumcision to a 30% to 40% lower odds of cervical cancer in female partners, based on studi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Observational data and meta-analyses link male circumcision to a 30% to 40% lower odds of cervical cancer in female partners, based on studies across multiple r.",
+      "span": {
+        "quote": "Observational data and meta-analyses link male circumcision to a 30% to 40% lower odds of cervical cancer in female partners, based on studies across multiple r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

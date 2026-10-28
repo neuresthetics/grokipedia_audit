@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0282",
+  "source_text": "Earlier RCTs reported no compensation, yet longitudinal observational data suggest variability, with some cohorts showing slight increases in unprotected sex that could erode net efficacy. [165] [166]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Earlier RCTs reported no compensation, yet longitudinal observational data suggest variability, with some cohorts showing slight increases i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Variability, with some cohorts showing slight increases in unprotected sex that could erode net efficacy.",
+      "span": {
+        "quote": "variability, with some cohorts showing slight increases in unprotected sex that could erode net efficacy."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Earlier RCTs reported no compensation, yet longitudinal observational data.",
+      "span": {
+        "quote": "Earlier RCTs reported no compensation, yet longitudinal observational data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggest"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "increases"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

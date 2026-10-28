@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0225",
+  "source_text": "In lower-prevalence areas like Europe and North America, population impacts are limited by low baseline HIV/STI rates and alternative preventions, highlighting VMMC's targeted rather than universal value. [130]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In lower-prevalence areas like Europe and North America, population impacts are limited by low baseline HIV/STI rates and alternative preven"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In lower-prevalence areas like Europe and North America, population impacts are limited by low baseline HIV/STI rates and alternative preventions, highlighting.",
+      "span": {
+        "quote": "In lower-prevalence areas like Europe and North America, population impacts are limited by low baseline HIV/STI rates and alternative preventions, highlighting "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

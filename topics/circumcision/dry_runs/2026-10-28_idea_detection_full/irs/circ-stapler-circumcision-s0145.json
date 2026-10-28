@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-stapler-circumcision-s0145",
+  "source_text": "Long-term follow-up (up to 3 months for all patients and 1 year for a subset) has shown no instances of meatal stenosis, skin bridging, penile deformities, or other significant delayed complications such as persistent staples beyond the removal window or staple extrusion. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term follow-up (up to 3 months for all patients and 1 year for a subset) has shown no instances of meatal stenosis, skin bridging, peni"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term follow-up (up to 3 months for all patients and 1 year for a subset) has shown no instances of meatal stenosis, skin bridging, penile deformities, or o.",
+      "span": {
+        "quote": "Long-term follow-up (up to 3 months for all patients and 1 year for a subset) has shown no instances of meatal stenosis, skin bridging, penile deformities, or o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A subset) has shown no instances of meatal stenosis.",
+      "span": {
+        "quote": "a subset) has shown no instances of meatal stenosis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a subset) has shown no instances of meatal stenosis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

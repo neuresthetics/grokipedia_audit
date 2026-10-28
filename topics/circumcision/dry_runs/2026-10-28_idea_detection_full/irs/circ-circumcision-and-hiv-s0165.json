@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0165",
+  "source_text": "Moderate/severe adverse events occurred in 0.3% of procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Moderate/severe adverse events occurred in 0.3% of procedures."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Moderate/severe adverse events occurred in 0.3% of procedures.",
+      "span": {
+        "quote": "Moderate/severe adverse events occurred in 0.3% of procedures."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

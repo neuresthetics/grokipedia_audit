@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-013",
+  "source_text": "Pattern language: { \"all\": [ atom, ... ] } or { \"any\": [ ... ] }. Atoms: exists_claim, exists_edge, exists_agent_trait, predicate, not. Every successful atom must expose a span binding at eval time.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pattern language: { \"all\": [ atom, ... ] } or { \"any\": [ ... ] }. Atoms: exists_claim, exists_edge, exists_agent_trait, predicate, not. Ever"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pattern language: { \"all\": [ atom, ... ] } or { \"any\": [ ... ] }. Atoms: exists_claim, exists_edge, exists_agent_trait, predicate, not. Every successful atom mu.",
+      "span": {
+        "quote": "Pattern language: { \"all\": [ atom, ... ] } or { \"any\": [ ... ] }. Atoms: exists_claim, exists_edge, exists_agent_trait, predicate, not. Every successful atom mu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A span binding at eval time.",
+      "span": {
+        "quote": "a span binding at eval time"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a span binding at eval time"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

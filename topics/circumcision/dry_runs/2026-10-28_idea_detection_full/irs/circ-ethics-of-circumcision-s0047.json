@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0047",
+  "source_text": "Evidence from clinical reviews indicates circumcision eliminates the risk of these complications in circumcised males, contrasting with higher prevalence in uncircumcised cohorts where phimosis affects up to 8% and balanitis recurs without intervention. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Evidence from clinical reviews indicates circumcision eliminates the risk of these complications in circumcised males, contrasting with high"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Evidence from clinical reviews indicates circumcision eliminates the risk of these complications in circumcised males, contrasting with higher prevalence in unc.",
+      "span": {
+        "quote": "Evidence from clinical reviews indicates circumcision eliminates the risk of these complications in circumcised males, contrasting with higher prevalence in unc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

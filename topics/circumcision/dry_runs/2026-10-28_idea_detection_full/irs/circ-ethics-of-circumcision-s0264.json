@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0264",
+  "source_text": "By 2023, these efforts aimed to achieve over 27 million additional circumcisions, with modeling projecting the prevention of more than 1 million HIV infections through sustained implementation. [158]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By 2023, these efforts aimed to achieve over 27 million additional circumcisions, with modeling projecting the prevention of more than 1 mil"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By 2023, these efforts aimed to achieve over 27 million additional circumcisions, with modeling projecting the prevention of more than 1 million HIV infections.",
+      "span": {
+        "quote": "By 2023, these efforts aimed to achieve over 27 million additional circumcisions, with modeling projecting the prevention of more than 1 million HIV infections "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

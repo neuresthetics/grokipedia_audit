@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-s0203",
+  "source_text": "Adult circumcision may cause minor sensitivity decreases, but outcomes are mixed, showing no impairment in erectile function or satisfaction\u2014and some improved satisfaction from perceived hygiene or aesthetics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adult circumcision may cause minor sensitivity decreases, but outcomes are mixed, showing no impairment in erectile function or satisfaction"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adult circumcision may cause minor sensitivity decreases, but outcomes are mixed, showing no impairment in erectile function or satisfaction\u2014and some improved s.",
+      "span": {
+        "quote": "Adult circumcision may cause minor sensitivity decreases, but outcomes are mixed, showing no impairment in erectile function or satisfaction\u2014and some improved s"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

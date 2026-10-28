@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0127",
+  "source_text": "The Gambia Supreme Islamic Council issued a fatwa in September 2023 declaring female circumcision a \"virtue of Islam,\" urging reconsideration of the 2015 ban, while Imam Abdoulie Fatty has campaigned to \"restore\" it, equating opposition to an assault on Islam and paying fines for convicted cutters in 2023. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Gambia Supreme Islamic Council issued a fatwa in September 2023 declaring female circumcision a \"virtue of Islam,\" urging reconsideratio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Gambia Supreme Islamic Council issued a fatwa in September 2023 declaring female circumcision a \"virtue of Islam,\" urging reconsideration of the 2015 ban, w.",
+      "span": {
+        "quote": "The Gambia Supreme Islamic Council issued a fatwa in September 2023 declaring female circumcision a \"virtue of Islam,\" urging reconsideration of the 2015 ban, w"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

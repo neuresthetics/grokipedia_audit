@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0132",
+  "source_text": "Parliamentary discussions during the Bill's passage highlighted medical testimonies on irreversible damage over unsubstantiated equivalence to benign rituals, underscoring that tolerance of mutilatory customs undermines the state's duty to minors irrespective of origin. [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parliamentary discussions during the Bill's passage highlighted medical testimonies on irreversible damage over unsubstantiated equivalence"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parliamentary discussions during the Bill's passage highlighted medical testimonies on irreversible damage over unsubstantiated equivalence to benign rituals, u.",
+      "span": {
+        "quote": "Parliamentary discussions during the Bill's passage highlighted medical testimonies on irreversible damage over unsubstantiated equivalence to benign rituals, u"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated equivalence to benign rituals.",
+      "span": {
+        "quote": "unsubstantiated equivalence to benign rituals"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated equivalence to benign rituals"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

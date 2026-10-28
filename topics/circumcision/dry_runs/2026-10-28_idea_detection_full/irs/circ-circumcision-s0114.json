@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0114",
+  "source_text": "However, as an ecological analysis, it demonstrates association, not causation, and is subject to potential confounding factors.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, as an ecological analysis, it demonstrates association, not causation, and is subject to potential confounding factors."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, as an ecological analysis, it demonstrates association, not causation, and is subject to potential confounding factors.",
+      "span": {
+        "quote": "However, as an ecological analysis, it demonstrates association, not causation, and is subject to potential confounding factors."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0220",
+  "source_text": "Autonomy arguments prioritize parental authority and religious liberty over minor children's prospective consent, asserting that legal precedents affirm parents' rights to irreversible decisions aligning with family values, provided no imminent harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Autonomy arguments prioritize parental authority and religious liberty over minor children's prospective consent, asserting that legal prece"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Autonomy arguments prioritize parental authority and religious liberty over minor children's prospective consent, asserting that legal precedents affirm parents.",
+      "span": {
+        "quote": "Autonomy arguments prioritize parental authority and religious liberty over minor children's prospective consent, asserting that legal precedents affirm parents"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

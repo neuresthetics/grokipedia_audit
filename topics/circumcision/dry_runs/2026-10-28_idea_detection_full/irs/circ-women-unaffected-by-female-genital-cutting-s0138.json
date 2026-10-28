@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0138",
+  "source_text": "Self-reported experiences among women in FGC-practicing communities often reveal no perceived long-term trauma or sexual dissatisfaction, with many describing the procedure as culturally affirming rather than damaging, thereby questioning presumptions of universal psychological harm. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Self-reported experiences among women in FGC-practicing communities often reveal no perceived long-term trauma or sexual dissatisfaction, wi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Eriences among women in FGC-practicing communities often reveal no perceived long-term trauma or sexual dissatisfaction, with many describing the procedure as c.",
+      "span": {
+        "quote": "eriences among women in FGC-practicing communities often reveal no perceived long-term trauma or sexual dissatisfaction, with many describing the procedure as c"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Questioning presumptions of universal psychological harm. [40].",
+      "span": {
+        "quote": "questioning presumptions of universal psychological harm. [40]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

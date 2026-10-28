@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0174",
+  "source_text": "Empirical medical data on complications remains sparse due to the procedure's superficial nature, with no documented cases of significant risk in peer-reviewed literature when executed by qualified practitioners.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical medical data on complications remains sparse due to the procedure's superficial nature, with no documented cases of significant ri"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical medical data on complications remains sparse due to the procedure's superficial nature, with no documented cases of significant risk in peer-reviewed.",
+      "span": {
+        "quote": "Empirical medical data on complications remains sparse due to the procedure's superficial nature, with no documented cases of significant risk in peer-reviewed "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

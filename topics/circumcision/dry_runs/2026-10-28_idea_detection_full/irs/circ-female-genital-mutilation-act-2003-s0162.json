@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0162",
+  "source_text": "Longitudinal data from the World Health Organization (WHO) indicate that Type III FGM increases the risk of neonatal death by up to 15% due to obstructed labor and related complications. [64]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Longitudinal data from the World Health Organization (WHO) indicate that Type III FGM increases the risk of neonatal death by up to 15% due"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Longitudinal data from the World Health Organization (WHO) indicate that Type III FGM increases the risk of neonatal death by up to 15% due to obstructed labor.",
+      "span": {
+        "quote": "Longitudinal data from the World Health Organization (WHO) indicate that Type III FGM increases the risk of neonatal death by up to 15% due to obstructed labor "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

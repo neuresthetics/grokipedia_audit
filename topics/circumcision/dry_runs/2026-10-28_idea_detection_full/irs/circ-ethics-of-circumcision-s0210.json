@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0210",
+  "source_text": "High-quality longitudinal and controlled studies find no causal link between neonatal circumcision and post-traumatic stress disorder (PTSD) or other enduring psychiatric sequelae in adulthood, with systematic reviews concluding limited or absent long-term adverse psychological effects. [137]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "High-quality longitudinal and controlled studies find no causal link between neonatal circumcision and post-traumatic stress disorder (PTSD)"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "High-quality longitudinal and controlled studies find no causal link between neonatal circumcision and post-traumatic stress disorder (PTSD) or other enduring p.",
+      "span": {
+        "quote": "High-quality longitudinal and controlled studies find no causal link between neonatal circumcision and post-traumatic stress disorder (PTSD) or other enduring p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

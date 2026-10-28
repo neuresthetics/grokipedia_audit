@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0180",
+  "source_text": "Specific narrations, such as those in Sunan Abi Dawud attributed to Umm Atiyyah describing a form of female cutting as recommended (mustahabb), are invoked by proponents to frame FGM as a sunnah practice promoting ritual purity and restraint of sexual desire. [76]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Specific narrations, such as those in Sunan Abi Dawud attributed to Umm Atiyyah describing a form of female cutting as recommended (mustahab"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Specific narrations, such as those in Sunan Abi Dawud attributed to Umm Atiyyah describing a form of female cutting as recommended (mustahabb), are invoked by p.",
+      "span": {
+        "quote": "Specific narrations, such as those in Sunan Abi Dawud attributed to Umm Atiyyah describing a form of female cutting as recommended (mustahabb), are invoked by p"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

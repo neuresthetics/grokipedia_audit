@@ -1,0 +1,75 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0119",
+  "source_text": "This equivalence reflects the resolution's proponents' view that distinctions between male and female procedures are often culturally biased rather than grounded in differential harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This equivalence reflects the resolution's proponents' view that distinctions between male and female procedures are often culturally biased"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This equivalence reflects the resolution's proponents' view that distinctions between male and female procedures are often culturally biased rather than grounde.",
+      "span": {
+        "quote": "This equivalence reflects the resolution's proponents' view that distinctions between male and female procedures are often culturally biased rather than grounde"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    },
+    {
+      "id": "c2",
+      "text": "Biased rather than grounded in differential harm.",
+      "span": {
+        "quote": "biased rather than grounded in differential harm"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "biased rather than grounded in differential harm"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "resolution"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased rather than grounded in differential harm",
+          "span": {
+            "quote": "biased rather than grounded in differential harm"
+          }
+        }
+      ]
+    }
+  ]
+}

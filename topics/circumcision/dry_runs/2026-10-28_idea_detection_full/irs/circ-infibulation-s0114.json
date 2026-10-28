@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0114",
+  "source_text": "This is viewed as enhancing a woman's marriage prospects, as unmodified females are often deemed unmarriageable or promiscuous by community standards. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This is viewed as enhancing a woman's marriage prospects, as unmodified females are often deemed unmarriageable or promiscuous by community"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This is viewed as enhancing a woman's marriage prospects, as unmodified females are often deemed unmarriageable or promiscuous by community standards. [56].",
+      "span": {
+        "quote": "This is viewed as enhancing a woman's marriage prospects, as unmodified females are often deemed unmarriageable or promiscuous by community standards. [56]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

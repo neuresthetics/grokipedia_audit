@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0189",
+  "source_text": "These arguments frame FGM as a rite of passage fostering social cohesion and cultural identity, with surveys in practicing regions revealing that approximately 20-30% of respondents endorse it for preserving virginity or instilling discipline. [63] [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These arguments frame FGM as a rite of passage fostering social cohesion and cultural identity, with surveys in practicing regions revealing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These arguments frame FGM as a rite of passage fostering social cohesion and cultural identity, with surveys in practicing regions revealing that approximately.",
+      "span": {
+        "quote": "These arguments frame FGM as a rite of passage fostering social cohesion and cultural identity, with surveys in practicing regions revealing that approximately "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

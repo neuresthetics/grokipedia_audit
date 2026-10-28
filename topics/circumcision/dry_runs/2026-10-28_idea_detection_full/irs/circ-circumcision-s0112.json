@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0112",
+  "source_text": "States providing Medicaid coverage for MNC showed higher circumcision rates (mean 0.72 vs. 0.49, p = 0.007) and elevated male-to-female ratios of SIDS deaths (mean 1.48 vs. 1.125, p = 0.015) compared to non-covering states.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "States providing Medicaid coverage for MNC showed higher circumcision rates (mean 0.72 vs. 0.49, p = 0.007) and elevated male-to-female rati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "States providing Medicaid coverage for MNC showed higher circumcision rates (mean 0.72 vs. 0.49, p = 0.007) and elevated male-to-female ratios of SIDS deaths (m.",
+      "span": {
+        "quote": "States providing Medicaid coverage for MNC showed higher circumcision rates (mean 0.72 vs. 0.49, p = 0.007) and elevated male-to-female ratios of SIDS deaths (m"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

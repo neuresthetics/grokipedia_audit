@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0040",
+  "source_text": "Penile cancer, though rare (incidence ~1 in 100,000 in developed countries), shows substantially lower rates in circumcised populations, particularly when performed in childhood or adolescence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penile cancer, though rare (incidence ~1 in 100,000 in developed countries), shows substantially lower rates in circumcised populations, par"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penile cancer, though rare (incidence ~1 in 100,000 in developed countries), shows substantially lower rates in circumcised populations, particularly when perfo.",
+      "span": {
+        "quote": "Penile cancer, though rare (incidence ~1 in 100,000 in developed countries), shows substantially lower rates in circumcised populations, particularly when perfo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

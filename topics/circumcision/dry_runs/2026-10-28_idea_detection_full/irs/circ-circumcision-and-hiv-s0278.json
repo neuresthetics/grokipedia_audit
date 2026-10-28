@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0278",
+  "source_text": "A South African cohort model projected $617 net savings per VMMC performed at age 20 (discounted at 5%), escalating with earlier implementation due to extended protection periods spanning decades. [61]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A South African cohort model projected $617 net savings per VMMC performed at age 20 (discounted at 5%), escalating with earlier implementat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A South African cohort model projected $617 net savings per VMMC performed at age 20 (discounted at 5%), escalating with earlier implementation due to extended.",
+      "span": {
+        "quote": "A South African cohort model projected $617 net savings per VMMC performed at age 20 (discounted at 5%), escalating with earlier implementation due to extended "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per VMMC performed at age 20 (discounted at 5.",
+      "span": {
+        "quote": "per VMMC performed at age 20 (discounted at 5"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per VMMC performed at age 20 (discounted at 5"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

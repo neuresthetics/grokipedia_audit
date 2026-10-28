@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0117",
+  "source_text": "Medicalization trends have emerged, with procedures shifting from traditional practitioners to health workers in nations like Kenya (up to 20% of cases by 2022) and Egypt (15% increase since 2014), potentially reducing immediate complications but perpetuating the practice under a veneer of legitimacy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medicalization trends have emerged, with procedures shifting from traditional practitioners to health workers in nations like Kenya (up to 2"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicalization trends have emerged, with procedures shifting from traditional practitioners to health workers in nations like Kenya (up to 20% of cases by 2022).",
+      "span": {
+        "quote": "Medicalization trends have emerged, with procedures shifting from traditional practitioners to health workers in nations like Kenya (up to 20% of cases by 2022)"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2014), potentially reducing immediate complications but perpetuating the practice under a veneer of legitimacy.",
+      "span": {
+        "quote": "2014), potentially reducing immediate complications but perpetuating the practice under a veneer of legitimacy."
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2014), potentially reducing immediate complications but perp"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "increase"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

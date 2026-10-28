@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0178",
+  "source_text": "For instance, a 2020 analysis of follow-up data from a Zimbabwean cohort reported an HIV incidence of 1.2 per 100 person-years among circumcised men compared to higher rates in uncircumcised controls, with no evidence of waning protection over time. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, a 2020 analysis of follow-up data from a Zimbabwean cohort reported an HIV incidence of 1.2 per 100 person-years among circumc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, a 2020 analysis of follow-up data from a Zimbabwean cohort reported an HIV incidence of 1.2 per 100 person-years among circumcised men compared to.",
+      "span": {
+        "quote": "For instance, a 2020 analysis of follow-up data from a Zimbabwean cohort reported an HIV incidence of 1.2 per 100 person-years among circumcised men compared to"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of waning protection over time.",
+      "span": {
+        "quote": "no evidence of waning protection over time"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per 100 person-years among circumcised men compared to higher rates in uncircumcised.",
+      "span": {
+        "quote": "per 100 person-years among circumcised men compared to higher rates in uncircumcised"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of waning protection over time"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per 100 person-years among circumcised men compared to higher rates in uncircumcised"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

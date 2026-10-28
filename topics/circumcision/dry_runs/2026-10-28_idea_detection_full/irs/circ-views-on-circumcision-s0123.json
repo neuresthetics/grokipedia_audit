@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0123",
+  "source_text": "Moreover, parental proxy consent is a established legal norm for interventions like vaccinations or ear piercings in minors, where societal benefits or cultural norms justify decisions on behalf of incapable children, undermining the absolutist stance against circumcision without therapeutic mandate.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Moreover, parental proxy consent is a established legal norm for interventions like vaccinations or ear piercings in minors, where societal"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Moreover, parental proxy consent is a established legal norm for interventions like vaccinations or ear piercings in minors, where societal benefits or cultural.",
+      "span": {
+        "quote": "Moreover, parental proxy consent is a established legal norm for interventions like vaccinations or ear piercings in minors, where societal benefits or cultural"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0141",
+  "source_text": "Opponents prioritize universal child rights, citing FGM's harms like chronic pain and complications, rejecting relativism.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents prioritize universal child rights, citing FGM's harms like chronic pain and complications, rejecting relativism."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Opponents prioritize universal child rights, citing FGM's harms like chronic pain and complications, rejecting relativism.",
+      "span": {
+        "quote": "Opponents prioritize universal child rights, citing FGM's harms like chronic pain and complications, rejecting relativism."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing FGM's harms like chronic pain and complications.",
+      "span": {
+        "quote": "citing FGM's harms like chronic pain and complications"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing FGM's harms like chronic pain and complications"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0209",
+  "source_text": "UN Women issued a statement framing FGM as an extreme manifestation of gender discrimination, calling for intensified global action.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "UN Women issued a statement framing FGM as an extreme manifestation of gender discrimination, calling for intensified global action."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "UN Women issued a statement framing FGM as an extreme manifestation of gender discrimination, calling for intensified global action.",
+      "span": {
+        "quote": "UN Women issued a statement framing FGM as an extreme manifestation of gender discrimination, calling for intensified global action."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

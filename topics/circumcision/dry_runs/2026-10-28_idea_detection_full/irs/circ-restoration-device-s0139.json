@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-restoration-device-s0139",
+  "source_text": "Compliance hinges on sustained motivation, often rooted in dissatisfaction with circumcision-induced physical, sexual, or psychological effects, balanced against the multi-year timeline required for noticeable outcomes. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Compliance hinges on sustained motivation, often rooted in dissatisfaction with circumcision-induced physical, sexual, or psychological effe"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Compliance hinges on sustained motivation, often rooted in dissatisfaction with circumcision-induced physical, sexual, or psychological effects, balanced agains.",
+      "span": {
+        "quote": "Compliance hinges on sustained motivation, often rooted in dissatisfaction with circumcision-induced physical, sexual, or psychological effects, balanced agains"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

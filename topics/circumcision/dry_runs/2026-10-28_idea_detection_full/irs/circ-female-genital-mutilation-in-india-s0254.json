@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0254",
+  "source_text": "Despite these shifts, medicalized khatna\u2014typically involving clitoral hood removal\u2014yields the same core harms as non-medical forms, including acute pain, bleeding, infection risks, and long-term complications like scarring, sexual dysfunction, and psychological trauma, as evidenced by global studies on Type I FGM/C. [92] The World Health Organization's April 2025 guidelines emphasize that clinician involvement does not mitigate these outcomes and may hinder elimination efforts by eroding ethical standards in medicine. [92]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite these shifts, medicalized khatna\u2014typically involving clitoral hood removal\u2014yields the same core harms as non-medical forms, includin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Clinician involvement does not mitigate these outcomes and may hinder elimination efforts by eroding ethical standards in medicine.",
+      "span": {
+        "quote": "clinician involvement does not mitigate these outcomes and may hinder elimination efforts by eroding ethical standards in medicine."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Omplications like scarring, sexual dysfunction, and psychological trauma, as evidenced by global studies on Type I FGM/C. [92] The World Health Organization's A.",
+      "span": {
+        "quote": "omplications like scarring, sexual dysfunction, and psychological trauma, as evidenced by global studies on Type I FGM/C. [92] The World Health Organization's A"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

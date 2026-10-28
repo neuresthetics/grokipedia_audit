@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0229",
+  "source_text": "Religious groups, such as Ansar Sunna, have resisted full abandonment by advocating milder \"Sunna\" circumcision (Type I), framing it as Islamically permissible and opposing punitive legislation as contrary to Sharia, which contributed to the 2010 removal of anti-FGM provisions from the Child Act. [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Religious groups, such as Ansar Sunna, have resisted full abandonment by advocating milder \"Sunna\" circumcision (Type I), framing it as Isla"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Religious groups, such as Ansar Sunna, have resisted full abandonment by advocating milder \"Sunna\" circumcision (Type I), framing it as Islamically permissible.",
+      "span": {
+        "quote": "Religious groups, such as Ansar Sunna, have resisted full abandonment by advocating milder \"Sunna\" circumcision (Type I), framing it as Islamically permissible "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

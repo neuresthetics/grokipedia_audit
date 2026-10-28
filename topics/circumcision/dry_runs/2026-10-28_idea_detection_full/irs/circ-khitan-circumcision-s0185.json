@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0185",
+  "source_text": "Nonetheless, mainstream fiqh upholds parental discretion, with ethicists noting that religious freedom and best-interest standards often defer to cultural-religious norms in child welfare assessments, though secular courts in some jurisdictions (e.g., proposed bans in Europe) have scrutinized it under child rights lenses. [80]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Nonetheless, mainstream fiqh upholds parental discretion, with ethicists noting that religious freedom and best-interest standards often def"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nonetheless, mainstream fiqh upholds parental discretion, with ethicists noting that religious freedom and best-interest standards often defer to cultural-relig.",
+      "span": {
+        "quote": "Nonetheless, mainstream fiqh upholds parental discretion, with ethicists noting that religious freedom and best-interest standards often defer to cultural-relig"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

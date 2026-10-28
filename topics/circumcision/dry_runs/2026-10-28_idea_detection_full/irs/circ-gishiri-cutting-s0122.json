@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0122",
+  "source_text": "Local perceptions of \"therapeutic\" value persist anecdotally, but quantitative assessments reveal no causal link to fertility enhancement or labor facilitation, as fistulas exacerbate the very infertility and social isolation the practice claims to mitigate. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Local perceptions of \"therapeutic\" value persist anecdotally, but quantitative assessments reveal no causal link to fertility enhancement or"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O mitigate.",
+      "span": {
+        "quote": "o mitigate."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ly, but quantitative assessments reveal no causal link to fertility enhancement or labor facilitation, as fistulas exacerbate the very infertility and social is.",
+      "span": {
+        "quote": "ly, but quantitative assessments reveal no causal link to fertility enhancement or labor facilitation, as fistulas exacerbate the very infertility and social is"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

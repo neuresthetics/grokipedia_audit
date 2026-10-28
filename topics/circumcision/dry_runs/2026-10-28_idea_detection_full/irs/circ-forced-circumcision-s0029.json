@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0029",
+  "source_text": "Ethically, while both non-voluntary forms challenge consent paradigms, forced circumcision's coercive element\u2014evident in documented cases of trauma and infection from unsterile conditions\u2014elevates it beyond the debated proxy consent in infancy, where outcomes are generally less traumatic due to developmental amnesia and clinical oversight. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethically, while both non-voluntary forms challenge consent paradigms, forced circumcision's coercive element\u2014evident in documented cases of"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethically, while both non-voluntary forms challenge consent paradigms, forced circumcision's coercive element\u2014evident in documented cases of trauma and infectio.",
+      "span": {
+        "quote": "Ethically, while both non-voluntary forms challenge consent paradigms, forced circumcision's coercive element\u2014evident in documented cases of trauma and infectio"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

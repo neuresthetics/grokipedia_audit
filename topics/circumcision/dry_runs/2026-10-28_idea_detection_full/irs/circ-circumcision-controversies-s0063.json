@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0063",
+  "source_text": "Adherence to aseptic techniques and trained providers further lowers adverse event rates to under 1% in developed settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adherence to aseptic techniques and trained providers further lowers adverse event rates to under 1% in developed settings."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adherence to aseptic techniques and trained providers further lowers adverse event rates to under 1% in developed settings.",
+      "span": {
+        "quote": "Adherence to aseptic techniques and trained providers further lowers adverse event rates to under 1% in developed settings."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

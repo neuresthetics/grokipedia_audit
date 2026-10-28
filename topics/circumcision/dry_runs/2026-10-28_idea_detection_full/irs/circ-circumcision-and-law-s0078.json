@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0078",
+  "source_text": "Israel's government condemned it as fostering antisemitic trends, prompting diplomatic pressure that led to a 2015 PACE debate but no formal rescission of the resolution. [41]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Israel's government condemned it as fostering antisemitic trends, prompting diplomatic pressure that led to a 2015 PACE debate but no formal"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Israel's government condemned it as fostering antisemitic trends, prompting diplomatic pressure that led to a 2015 PACE debate but no formal rescission of the r.",
+      "span": {
+        "quote": "Israel's government condemned it as fostering antisemitic trends, prompting diplomatic pressure that led to a 2015 PACE debate but no formal rescission of the r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

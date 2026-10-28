@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0213",
+  "source_text": "These practices, documented since ancient Egypt around 2400 BCE, emphasize hygiene and status rather than control or mutilation, with anthropological studies noting minimal long-term psychological trauma compared to FGM's severe complications like infertility and chronic pain.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These practices, documented since ancient Egypt around 2400 BCE, emphasize hygiene and status rather than control or mutilation, with anthro"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These practices, documented.",
+      "span": {
+        "quote": "These practices, documented"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ancient Egypt around 2400 BCE, emphasize hygiene and status rather than control or mutilation, with anthropological studies noting minimal long-term psychologic.",
+      "span": {
+        "quote": "ancient Egypt around 2400 BCE, emphasize hygiene and status rather than control or mutilation, with anthropological studies noting minimal long-term psychologic"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since ancient Egypt around 2400 BCE, emphasize hygiene and status"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

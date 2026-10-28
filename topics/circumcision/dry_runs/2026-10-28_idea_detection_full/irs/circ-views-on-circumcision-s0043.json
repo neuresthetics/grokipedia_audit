@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0043",
+  "source_text": "This practice reinforces age-set hierarchies and eligibility for marriage and leadership roles, though it carries risks of infection, dehydration, and penile amputation due to untrained practitioners in unregulated settings. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice reinforces age-set hierarchies and eligibility for marriage and leadership roles, though it carries risks of infection, dehydr"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice reinforces age-set hierarchies and eligibility for marriage and leadership roles, though it carries risks of infection, dehydration, and penile am.",
+      "span": {
+        "quote": "This practice reinforces age-set hierarchies and eligibility for marriage and leadership roles, though it carries risks of infection, dehydration, and penile am"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

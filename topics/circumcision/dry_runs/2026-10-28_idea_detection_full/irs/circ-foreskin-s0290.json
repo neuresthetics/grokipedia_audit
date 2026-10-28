@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-foreskin-s0290",
+  "source_text": "Yet, the foreskin's histological role as innervated mucosal tissue warrants consideration in policies emphasizing bodily integrity, particularly since high-quality evidence shows benefits accrue primarily later in life, post-infancy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Yet, the foreskin's histological role as innervated mucosal tissue warrants consideration in policies emphasizing bodily integrity, particul"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Yet, the foreskin's histological role as innervated mucosal tissue warrants consideration in policies emphasizing bodily integrity, particularly.",
+      "span": {
+        "quote": "Yet, the foreskin's histological role as innervated mucosal tissue warrants consideration in policies emphasizing bodily integrity, particularly"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "High-quality evidence shows benefits accrue primarily later in life, post-infancy.",
+      "span": {
+        "quote": "high-quality evidence shows benefits accrue primarily later in life, post-infancy."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since high-quality evidence shows benefits accrue primarily later"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

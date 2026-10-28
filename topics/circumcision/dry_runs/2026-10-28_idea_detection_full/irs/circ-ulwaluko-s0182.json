@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ulwaluko-s0182",
+  "source_text": "They emphasize its role in forging authentic manhood, where avoidance of the rite equates to social exclusion and incomplete masculinity, as uninitiated individuals are often deemed unfit for full community participation or leadership. [22] [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They emphasize its role in forging authentic manhood, where avoidance of the rite equates to social exclusion and incomplete masculinity, as"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Its role in forging authentic manhood, where avoidance of the rite equates to social exclusion and incomplete masculinity, as uninitiated individuals are often.",
+      "span": {
+        "quote": "its role in forging authentic manhood, where avoidance of the rite equates to social exclusion and incomplete masculinity, as uninitiated individuals are often "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

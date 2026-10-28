@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-016",
+  "source_text": "Hasty generalization, slippery slope, false dilemma, appeal to the people, and guilt by association are pilot-only. Appeal to the people is the catalog id (appeal to popularity is an alias). Guilt by association is split from ad hominem: do not edit ad hominem atoms or forbids, and do not require attacks_person for an association used as the sole support of an evaluative conclusion.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hasty generalization, slippery slope, false dilemma, appeal to the people, and guilt by association are pilot-only. Appeal to the people is"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hasty generalization, slippery slope, false dilemma, appeal to the people, and guilt by association are pilot-only. Appeal to the people is the catalog id (appe.",
+      "span": {
+        "quote": "Hasty generalization, slippery slope, false dilemma, appeal to the people, and guilt by association are pilot-only. Appeal to the people is the catalog id (appe"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

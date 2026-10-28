@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0154",
+  "source_text": "Critics advocate alternative treatments, such as antibiotics for infections or cesarean sections for obstructions, as causally effective and less destructive.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics advocate alternative treatments, such as antibiotics for infections or cesarean sections for obstructions, as causally effective and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics advocate alternative treatments, such as antibiotics for infections or cesarean sections for obstructions, as causally effective and less destructive.",
+      "span": {
+        "quote": "Critics advocate alternative treatments, such as antibiotics for infections or cesarean sections for obstructions, as causally effective and less destructive."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0244",
+  "source_text": "Despite these trends, gaps in standardized prevalence surveys\u2014reliant on self-reported data from biased community sources\u2014persist, complicating causal attribution but affirming that medical involvement does not alter the procedure's inherent risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite these trends, gaps in standardized prevalence surveys\u2014reliant on self-reported data from biased community sources\u2014persist, complicat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite these trends, gaps in standardized prevalence surveys\u2014reliant on self-reported data from biased community sources\u2014persist, complicating causal attributi.",
+      "span": {
+        "quote": "Despite these trends, gaps in standardized prevalence surveys\u2014reliant on self-reported data from biased community sources\u2014persist, complicating causal attributi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Biased community sources\u2014persist.",
+      "span": {
+        "quote": "biased community sources\u2014persist"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "biased community sources\u2014persist"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Despite these trends"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased community sources\u2014persist",
+          "span": {
+            "quote": "biased community sources\u2014persist"
+          }
+        }
+      ]
+    }
+  ]
+}

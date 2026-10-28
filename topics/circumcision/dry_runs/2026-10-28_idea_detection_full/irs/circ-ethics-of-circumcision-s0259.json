@@ -1,0 +1,132 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0259",
+  "source_text": "For men who have sex with men (MSM), evidence from RCTs is limited due to ethical and feasibility challenges in randomization, but a 2025 meta-analysis of observational data adjusted for confounding suggested VMMC protects primarily insertive MSM, with an adjusted odds ratio of 0.57 (95% CI 0.40-0.82) for HIV acquisition. [156]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For men who have sex with men (MSM), evidence from RCTs is limited due to ethical and feasibility challenges in randomization, but a 2025 me"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "VMMC protects primarily insertive MSM, with an adjusted odds ratio of 0.57 (95% CI 0.40-0.82) for HIV acquisition.",
+      "span": {
+        "quote": "VMMC protects primarily insertive MSM, with an adjusted odds ratio of 0.57 (95% CI 0.40-0.82) for HIV acquisition."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ex with men (MSM), evidence from RCTs is limited due to ethical and feasibility challenges in randomization, but a 2025 meta-analysis of observational data adju.",
+      "span": {
+        "quote": "ex with men (MSM), evidence from RCTs is limited due to ethical and feasibility challenges in randomization, but a 2025 meta-analysis of observational data adju"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c5",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggested"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    },
+    {
+      "id": "e5",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "due to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0323",
+  "source_text": "FGM, as classified by the World Health Organization into types I (clitoridectomy), II (excision of clitoris and labia), and III (infibulation, involving narrowing of the vaginal opening), often removes or damages the clitoris and surrounding nerve-rich tissue, leading to permanent loss of sexual sensation and pleasure in a majority of cases. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "FGM, as classified by the World Health Organization into types I (clitoridectomy), II (excision of clitoris and labia), and III (infibulatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FGM, as classified by the World Health Organization into types I (clitoridectomy), II (excision of clitoris and labia), and III (infibulation, involving narrowi.",
+      "span": {
+        "quote": "FGM, as classified by the World Health Organization into types I (clitoridectomy), II (excision of clitoris and labia), and III (infibulation, involving narrowi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

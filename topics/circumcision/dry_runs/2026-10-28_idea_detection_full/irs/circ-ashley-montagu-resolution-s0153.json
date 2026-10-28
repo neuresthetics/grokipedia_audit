@@ -1,0 +1,102 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0153",
+  "source_text": "Medical bodies, such as the American Academy of Pediatrics, maintained supportive stances on neonatal circumcision based on contemporaneous evidence of benefits like reduced urinary tract infections, without referencing the resolution in their early post-1996 statements. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical bodies, such as the American Academy of Pediatrics, maintained supportive stances on neonatal circumcision based on contemporaneous"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "medical_bodies"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Supportive stances on neonatal circumcision based on contemporaneous evidence of benefits like reduced urinary tract infections, without referencing the resolut.",
+      "span": {
+        "quote": "supportive stances on neonatal circumcision based on contemporaneous evidence of benefits like reduced urinary tract infections, without referencing the resolut"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical bodies, such as the American Academy of Pediatrics.",
+      "span": {
+        "quote": "Medical bodies, such as the American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c3",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "Medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c4",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintained"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "Medical bodies"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

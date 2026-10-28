@@ -1,0 +1,111 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0236",
+  "source_text": "Opponents of voluntary medical male circumcision (VMMC) for HIV prevention have argued that the randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 overstated efficacy due to methodological flaws, such as inadequate randomization, short follow-up periods, and failure to account for confounding factors like sexual behavior or concurrent interventions. [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents of voluntary medical male circumcision (VMMC) for HIV prevention have argued that the randomized controlled trials (RCTs) conducte"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 overstated efficacy due to methodological flaws, such as inadequate randomizatio.",
+      "span": {
+        "quote": "e randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 overstated efficacy due to methodological flaws, such as inadequate randomizatio"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opponents of voluntary medical male circumcision (VMMC) for HIV prevention have.",
+      "span": {
+        "quote": "Opponents of voluntary medical male circumcision (VMMC) for HIV prevention have"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c3",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c4",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "due to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

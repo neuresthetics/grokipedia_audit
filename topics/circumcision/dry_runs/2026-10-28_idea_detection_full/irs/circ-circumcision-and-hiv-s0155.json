@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0155",
+  "source_text": "Countries with predominantly non-circumcising populations in East and Southern Africa reported HIV prevalences exceeding 10-20% in urban adults by the early 1990s, compared to under 2-5% in circumcising Muslim-majority nations in West Africa, despite similar sexual network structures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Countries with predominantly non-circumcising populations in East and Southern Africa reported HIV prevalences exceeding 10-20% in urban adu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Countries with predominantly non-circumcising populations in East and Southern Africa reported HIV prevalences exceeding 10-20% in urban adults by the early 199.",
+      "span": {
+        "quote": "Countries with predominantly non-circumcising populations in East and Southern Africa reported HIV prevalences exceeding 10-20% in urban adults by the early 199"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

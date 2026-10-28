@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0190",
+  "source_text": "However, such defenses lack empirical substantiation, as no controlled studies demonstrate causal reductions in sexual activity or moral lapses attributable to FGM; perceived benefits appear rooted in unverified social norms rather than measurable outcomes.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, such defenses lack empirical substantiation, as no controlled studies demonstrate causal reductions in sexual activity or moral lap"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, such defenses lack empirical substantiation, as no controlled studies demonstrate causal reductions in sexual activity or moral lapses attributable to.",
+      "span": {
+        "quote": "However, such defenses lack empirical substantiation, as no controlled studies demonstrate causal reductions in sexual activity or moral lapses attributable to "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

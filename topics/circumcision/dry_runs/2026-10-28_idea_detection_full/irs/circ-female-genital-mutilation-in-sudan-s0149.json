@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0149",
+  "source_text": "Pelvic organ prolapse affects up to 87% of women with pelvic floor dysfunction who have undergone FGM, with Type 3 increasing symptomatic prolapse risk by 17-fold compared to uncircumcised women. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pelvic organ prolapse affects up to 87% of women with pelvic floor dysfunction who have undergone FGM, with Type 3 increasing symptomatic pr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pelvic organ prolapse affects up to 87% of women with pelvic floor dysfunction who have undergone FGM, with Type 3 increasing symptomatic prolapse risk by 17-fo.",
+      "span": {
+        "quote": "Pelvic organ prolapse affects up to 87% of women with pelvic floor dysfunction who have undergone FGM, with Type 3 increasing symptomatic prolapse risk by 17-fo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

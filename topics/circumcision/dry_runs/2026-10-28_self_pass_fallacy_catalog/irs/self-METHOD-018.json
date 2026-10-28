@@ -1,0 +1,60 @@
+{
+  "passage_id": "self-METHOD-018",
+  "source_text": "Look-alikes: - Questioning a witness's reliability: does not apply, because the argument rests on the inspection report's readings, not on her word. - Arguing from the opponent's own commitments: does not apply; none are cited. - An insult not offered as a reason: does not apply; \"so\" makes it a reason.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Look-alikes: - Questioning a witness's reliability: does not apply, because the argument rests on the inspection report's readings, not on h"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Look-alikes: - Questioning a witness's reliability: does not apply.",
+      "span": {
+        "quote": "Look-alikes: - Questioning a witness's reliability: does not apply"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c2",
+      "text": "\" makes it a reason.",
+      "span": {
+        "quote": "\" makes it a reason."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

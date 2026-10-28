@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0301",
+  "source_text": "Article 24, meanwhile, secures the child's right to the highest standard of health and obliges states to eliminate traditional practices prejudicial to health, yet interpretations do not deem medically performed male circumcision inherently violative, as empirical evidence indicates preventive benefits against conditions such as urinary tract infections (reducing incidence by up to 90% in infancy) and penile cancer (lowering lifetime risk from 1 in 100,000 to near zero).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Article 24, meanwhile, secures the child's right to the highest standard of health and obliges states to eliminate traditional practices pre"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Article 24, meanwhile, secures the child's right to the highest standard of health and obliges states to eliminate traditional practices prejudicial to health,.",
+      "span": {
+        "quote": "Article 24, meanwhile, secures the child's right to the highest standard of health and obliges states to eliminate traditional practices prejudicial to health, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

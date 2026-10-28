@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-forced-circumcision-s0033",
+  "source_text": "This biblical mandate inherently imposed circumcision without the consent of non-family members such as slaves, reflecting an ancient enforcement mechanism tied to patriarchal authority and communal religious obligation rather than individual volition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This biblical mandate inherently imposed circumcision without the consent of non-family members such as slaves, reflecting an ancient enforc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This biblical mandate inherently imposed circumcision without the consent of non-family members such as slaves, reflecting an ancient enforcement mechanism tied.",
+      "span": {
+        "quote": "This biblical mandate inherently imposed circumcision without the consent of non-family members such as slaves, reflecting an ancient enforcement mechanism tied"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to patriarchal authority and communal religious obligation.",
+      "span": {
+        "quote": "tied to patriarchal authority and communal religious obligation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to patriarchal authority and communal religious obligation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to patriarchal authority and communal religious obligation ",
+          "span": {
+            "quote": "tied to patriarchal authority and communal religious obligation"
+          }
+        }
+      ]
+    }
+  ]
+}

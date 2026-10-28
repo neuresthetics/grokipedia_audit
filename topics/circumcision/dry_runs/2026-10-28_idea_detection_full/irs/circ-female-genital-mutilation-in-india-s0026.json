@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0026",
+  "source_text": "For instance, Bohra advocacy groups have defended the \"right to practice khafz (female circumcision)\" on religious freedom grounds, highlighting its limited scope as a \"minor modification\" rather than a procedure causing lasting genital alteration. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, Bohra advocacy groups have defended the \"right to practice khafz (female circumcision)\" on religious freedom grounds, highligh"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, Bohra advocacy groups have defended the \"right to practice khafz (female circumcision)\" on religious freedom grounds, highlighting its limited sco.",
+      "span": {
+        "quote": "For instance, Bohra advocacy groups have defended the \"right to practice khafz (female circumcision)\" on religious freedom grounds, highlighting its limited sco"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-foreskin-man-s0125",
+  "source_text": "Even within intactivist circles, the comic's heavy-handed moral binaries\u2014heroes solely anti-circumcision, villains pro\u2014have drawn rebuke for selective emphasis on harms while sidelining countervailing data, such as randomized trials showing 60% HIV acquisition reduction in heterosexual men from adult voluntary circumcision, potentially hindering coalition-building with public health advocates. [75]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Even within intactivist circles, the comic's heavy-handed moral binaries\u2014heroes solely anti-circumcision, villains pro\u2014have drawn rebuke for"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Even within intactivist circles, the comic's heavy-handed moral binaries\u2014heroes solely anti-circumcision, villains pro\u2014have drawn rebuke for selective emphasis.",
+      "span": {
+        "quote": "Even within intactivist circles, the comic's heavy-handed moral binaries\u2014heroes solely anti-circumcision, villains pro\u2014have drawn rebuke for selective emphasis "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

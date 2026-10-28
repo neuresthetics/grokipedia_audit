@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0190",
+  "source_text": "Anatomically, male circumcision removes a fold of skin (the foreskin) that protects the glans but does not fundamentally alter penile erectile, urinary, or sensory functions, whereas infibulation excises the clitoris\u2014the primary site of female sexual pleasure and orgasm\u2014and constructs a barrier that impedes natural vaginal function, often requiring repeated cutting for intercourse or childbirth. [92]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anatomically, male circumcision removes a fold of skin (the foreskin) that protects the glans but does not fundamentally alter penile erecti"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anatomically, male circumcision removes a fold of skin (the foreskin) that protects the glans but does not fundamentally alter penile erectile, urinary, or sens.",
+      "span": {
+        "quote": "Anatomically, male circumcision removes a fold of skin (the foreskin) that protects the glans but does not fundamentally alter penile erectile, urinary, or sens"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

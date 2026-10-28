@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0147",
+  "source_text": "These interpretations persist in regions like parts of Egypt, Sudan, and Indonesia, where local clerics cite them to justify FGM as preserving chastity or fulfilling prophetic tradition, even as global bodies like Al-Azhar's 2006 conference deemed it unsupported by authentic sources and harmful. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These interpretations persist in regions like parts of Egypt, Sudan, and Indonesia, where local clerics cite them to justify FGM as preservi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These interpretations persist in regions like parts of Egypt, Sudan, and Indonesia, where local clerics cite them to justify FGM as preserving chastity or fulfi.",
+      "span": {
+        "quote": "These interpretations persist in regions like parts of Egypt, Sudan, and Indonesia, where local clerics cite them to justify FGM as preserving chastity or fulfi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

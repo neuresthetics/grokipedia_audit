@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-foreskin-s0279",
+  "source_text": "Critics note that intactivist sources often amplify rare complications or pseudoscientific claims (e.g., unverified \"functions\" of the foreskin) while ignoring meta-analyses affirming safety and efficacy, potentially hindering informed policy. [154]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics note that intactivist sources often amplify rare complications or pseudoscientific claims (e.g., unverified \"functions\" of the fores"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "(e.g., unverified \"functions\" of the foreskin) while ignoring meta-analyses affirming safety and efficacy, potentially hindering informed policy.",
+      "span": {
+        "quote": "(e.g., unverified \"functions\" of the foreskin) while ignoring meta-analyses affirming safety and efficacy, potentially hindering informed policy."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics note that intactivist sources often amplify rare complications or pseudoscientific.",
+      "span": {
+        "quote": "Critics note that intactivist sources often amplify rare complications or pseudoscientific"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

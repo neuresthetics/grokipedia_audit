@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0065",
+  "source_text": "Voluntary medical male circumcision (VMMC) programs in sub-Saharan Africa, endorsed by the World Health Organization in 2007, have scaled up to circumcise millions of men, with three randomized controlled trials in Uganda, Kenya, and South Africa demonstrating a 51\u201360% reduction in heterosexual HIV acquisition risk for circumcised men compared to uncircumcised controls over 24\u201330 months of follow-up. [47] [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Voluntary medical male circumcision (VMMC) programs in sub-Saharan Africa, endorsed by the World Health Organization in 2007, have scaled up"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Voluntary medical male circumcision (VMMC) programs in sub-Saharan Africa, endorsed by the World Health Organization in 2007, have scaled up to circumcise milli.",
+      "span": {
+        "quote": "Voluntary medical male circumcision (VMMC) programs in sub-Saharan Africa, endorsed by the World Health Organization in 2007, have scaled up to circumcise milli"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

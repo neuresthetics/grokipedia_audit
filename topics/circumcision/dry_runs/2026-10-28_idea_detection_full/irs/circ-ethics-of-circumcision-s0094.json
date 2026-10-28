@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0094",
+  "source_text": "The best interest criterion in pediatric ethics demands an evidence-based evaluation of lifetime health outcomes over transient or unsubstantiated concerns.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The best interest criterion in pediatric ethics demands an evidence-based evaluation of lifetime health outcomes over transient or unsubstan"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The best interest criterion in pediatric ethics demands an evidence-based evaluation of lifetime health outcomes over transient or unsubstantiated concerns.",
+      "span": {
+        "quote": "The best interest criterion in pediatric ethics demands an evidence-based evaluation of lifetime health outcomes over transient or unsubstantiated concerns."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated concerns.",
+      "span": {
+        "quote": "unsubstantiated concerns"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated concerns"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

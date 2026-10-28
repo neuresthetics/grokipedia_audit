@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0041",
+  "source_text": "Among groups such as the Dogon or Mandinka, the procedure\u2014often termed sunna for partial clitoral removal\u2014was executed post-menarche using non-sterile tools like knives or thorns, justified by beliefs in enhancing marital fidelity or averting infertility through genital \"purification.\" [23] [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among groups such as the Dogon or Mandinka, the procedure\u2014often termed sunna for partial clitoral removal\u2014was executed post-menarche using n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among groups such as the Dogon or Mandinka, the procedure\u2014often termed sunna for partial clitoral removal\u2014was executed post-menarche using non-sterile tools lik.",
+      "span": {
+        "quote": "Among groups such as the Dogon or Mandinka, the procedure\u2014often termed sunna for partial clitoral removal\u2014was executed post-menarche using non-sterile tools lik"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

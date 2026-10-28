@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0185",
+  "source_text": "This protective effect persists into later childhood, with a 6.6-fold reduction in UTI risk for boys aged 1 to 16 years.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This protective effect persists into later childhood, with a 6.6-fold reduction in UTI risk for boys aged 1 to 16 years."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This protective effect persists into later childhood, with a 6.6-fold reduction in UTI risk for boys aged 1 to 16 years.",
+      "span": {
+        "quote": "This protective effect persists into later childhood, with a 6.6-fold reduction in UTI risk for boys aged 1 to 16 years."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0168",
+  "source_text": "Unlike female genital mutilation cases, which invoke strict protections, male circumcision claims\u2014such as potential Belgian or Dutch referrals\u2014have not yielded adverse rulings, reflecting distinctions in perceived harm and cultural prevalence. [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unlike female genital mutilation cases, which invoke strict protections, male circumcision claims\u2014such as potential Belgian or Dutch referra"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "\u2014such as potential Belgian or Dutch referrals\u2014have not yielded adverse rulings, reflecting distinctions in perceived harm and cultural prevalence.",
+      "span": {
+        "quote": "\u2014such as potential Belgian or Dutch referrals\u2014have not yielded adverse rulings, reflecting distinctions in perceived harm and cultural prevalence."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unlike female genital mutilation cases, which invoke strict protections, male circumcision.",
+      "span": {
+        "quote": "Unlike female genital mutilation cases, which invoke strict protections, male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

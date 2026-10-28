@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0121",
+  "source_text": "Qualitative assessments in Sudanese and Somali communities reveal frequent self-reports of \"normal\" marital sex lives, where women attribute fulfillment to emotional bonding and vaginal sensitivity, dismissing Western assumptions of universal impairment.04269-6/fulltext)",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Qualitative assessments in Sudanese and Somali communities reveal frequent self-reports of \"normal\" marital sex lives, where women attribute"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Qualitative assessments in Sudanese and Somali communities reveal frequent self-reports of \"normal\" marital sex lives, where women attribute fulfillment to emot.",
+      "span": {
+        "quote": "Qualitative assessments in Sudanese and Somali communities reveal frequent self-reports of \"normal\" marital sex lives, where women attribute fulfillment to emot"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

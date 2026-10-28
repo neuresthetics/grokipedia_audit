@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0021",
+  "source_text": "In Indian contexts, particularly within the Dawoodi Bohra community\u2014a Shia Muslim sect with approximately one million members in India\u2014the practice is commonly termed khatna, khafz, or khafd, referring to a ritual procedure involving the removal or nicking of the clitoral prepuce for purposes of religious purity and tradition, rather than intentional harm or disfigurement. [14] [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Indian contexts, particularly within the Dawoodi Bohra community\u2014a Shia Muslim sect with approximately one million members in India\u2014the p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Indian contexts, particularly within the Dawoodi Bohra community\u2014a Shia Muslim sect with approximately one million members in India\u2014the practice is commonly.",
+      "span": {
+        "quote": "In Indian contexts, particularly within the Dawoodi Bohra community\u2014a Shia Muslim sect with approximately one million members in India\u2014the practice is commonly "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

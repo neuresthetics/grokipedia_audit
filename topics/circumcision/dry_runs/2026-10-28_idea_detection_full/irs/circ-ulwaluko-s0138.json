@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0138",
+  "source_text": "Environmental conditions, including seasonal timing and location, further modulate healing processes, as winter circumcisions (July\u2013September) in remote forest settings\u2014comprising 76.2% of cases in one Eastern Cape cohort\u2014exacerbate dehydration and exposure to contaminants like unprocessed plant materials used for wound dressing, fostering infections. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Environmental conditions, including seasonal timing and location, further modulate healing processes, as winter circumcisions (July\u2013Septembe"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Environmental conditions, including seasonal timing and location, further modulate healing processes, as winter circumcisions (July\u2013September) in remote forest.",
+      "span": {
+        "quote": "Environmental conditions, including seasonal timing and location, further modulate healing processes, as winter circumcisions (July\u2013September) in remote forest "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

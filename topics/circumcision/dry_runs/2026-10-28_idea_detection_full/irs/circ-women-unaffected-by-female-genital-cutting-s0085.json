@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0085",
+  "source_text": "These self-reported preferences suggest that many women do not associate FGC with diminished life satisfaction or health, viewing it instead as a normalized cultural element without subjective harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These self-reported preferences suggest that many women do not associate FGC with diminished life satisfaction or health, viewing it instead"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Many women do not associate FGC with diminished life satisfaction or health, viewing it instead as a normalized cultural element without subjective harm.",
+      "span": {
+        "quote": "many women do not associate FGC with diminished life satisfaction or health, viewing it instead as a normalized cultural element without subjective harm."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These self-reported preferences.",
+      "span": {
+        "quote": "These self-reported preferences"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Many women do not associate FGC with diminished.",
+      "span": {
+        "quote": "many women do not associate FGC with diminished"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggest"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "many women do not associate FGC with diminished"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

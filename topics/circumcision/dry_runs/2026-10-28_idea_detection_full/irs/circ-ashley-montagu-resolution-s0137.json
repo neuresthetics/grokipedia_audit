@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0137",
+  "source_text": "The Ashley Montagu Resolution explicitly requests all national governments to petition the International Court of Justice (World Court) in The Hague to issue a declaratory judgment affirming that non-therapeutic genital mutilations of children violate key provisions of the United Nations Universal Declaration of Human Rights and the United Nations Convention on the Rights of the Child. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Ashley Montagu Resolution explicitly requests all national governments to petition the International Court of Justice (World Court) in T"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Ashley Montagu Resolution explicitly requests all national governments to petition the International Court of Justice (World Court) in The Hague to issue a.",
+      "span": {
+        "quote": "The Ashley Montagu Resolution explicitly requests all national governments to petition the International Court of Justice (World Court) in The Hague to issue a "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A declaratory judgment affirming that non-therapeutic genital.",
+      "span": {
+        "quote": "a declaratory judgment affirming that non-therapeutic genital"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a declaratory judgment affirming that non-therapeutic genita"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

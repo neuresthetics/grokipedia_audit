@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0081",
+  "source_text": "Traditional Xhosa frameworks posit that such markers causally cultivate responsible agency, contrasting with less structured modern transitions that may dilute communal oversight.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional Xhosa frameworks posit that such markers causally cultivate responsible agency, contrasting with less structured modern transiti"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditional Xhosa frameworks posit that such markers causally cultivate responsible agency, contrasting with less structured modern transitions that may dilute.",
+      "span": {
+        "quote": "Traditional Xhosa frameworks posit that such markers causally cultivate responsible agency, contrasting with less structured modern transitions that may dilute "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0006",
+  "source_text": "This figure underscores a persistent public health and human rights issue, concentrated in urban areas with large diasporas from nations like Somalia, Egypt, and Nigeria, where prevalence can approach 90 percent in origin populations. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This figure underscores a persistent public health and human rights issue, concentrated in urban areas with large diasporas from nations lik"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This figure underscores a persistent public health and human rights issue, concentrated in urban areas with large diasporas from nations like Somalia, Egypt, an.",
+      "span": {
+        "quote": "This figure underscores a persistent public health and human rights issue, concentrated in urban areas with large diasporas from nations like Somalia, Egypt, an"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

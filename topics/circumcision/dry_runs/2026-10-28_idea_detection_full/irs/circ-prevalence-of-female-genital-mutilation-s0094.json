@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-prevalence-of-female-genital-mutilation-s0094",
+  "source_text": "In certain Islamic traditions, particularly among Sunni scholars, hadiths are invoked to justify female circumcision as a sunnah or honorable practice for women, typically described as a mild removal of the prepuce without severe mutilation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In certain Islamic traditions, particularly among Sunni scholars, hadiths are invoked to justify female circumcision as a sunnah or honorabl"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In certain Islamic traditions, particularly among Sunni scholars, hadiths are invoked to justify female circumcision as a sunnah or honorable practice for women.",
+      "span": {
+        "quote": "In certain Islamic traditions, particularly among Sunni scholars, hadiths are invoked to justify female circumcision as a sunnah or honorable practice for women"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

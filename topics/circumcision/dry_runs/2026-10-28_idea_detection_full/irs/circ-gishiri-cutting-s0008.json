@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0008",
+  "source_text": "Despite its persistence in rural areas due to limited access to modern healthcare and entrenched traditional healing systems, Gishiri cutting has drawn scrutiny for its iatrogenic harms, with peer-reviewed reports linking it to heightened obstetric risks, urethral erosion, and secondary complications like sepsis or hemorrhage from non-sterile tools. [8] [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite its persistence in rural areas due to limited access to modern healthcare and entrenched traditional healing systems, Gishiri cuttin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite its persistence in rural areas due to limited access to modern healthcare and entrenched traditional healing systems, Gishiri cutting has drawn scrutiny.",
+      "span": {
+        "quote": "Despite its persistence in rural areas due to limited access to modern healthcare and entrenched traditional healing systems, Gishiri cutting has drawn scrutiny"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

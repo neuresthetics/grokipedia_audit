@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0197",
+  "source_text": "Such arguments classify circumcision as akin to optional cosmetic surgery rather than prophylaxis, drawing parallels to procedures without proven population-level imperatives, and highlight potential complications like infection or excessive skin removal, which occur in 0.2-0.6% of cases. [126] [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such arguments classify circumcision as akin to optional cosmetic surgery rather than prophylaxis, drawing parallels to procedures without p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such arguments classify circumcision as akin to optional cosmetic surgery rather than prophylaxis, drawing parallels to procedures without proven population-lev.",
+      "span": {
+        "quote": "Such arguments classify circumcision as akin to optional cosmetic surgery rather than prophylaxis, drawing parallels to procedures without proven population-lev"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

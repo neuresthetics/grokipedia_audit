@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0034",
+  "source_text": "Circumcision in male infants reduces the risk of urinary tract infections (UTIs) during the first year of life by approximately 90%, with meta-analyses indicating a number needed to treat (NNT) of 111 to prevent one UTI in otherwise healthy boys. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision in male infants reduces the risk of urinary tract infections (UTIs) during the first year of life by approximately 90%, with me"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision in male infants reduces the risk of urinary tract infections (UTIs) during the first year of life by approximately 90%, with meta-analyses indicati.",
+      "span": {
+        "quote": "Circumcision in male infants reduces the risk of urinary tract infections (UTIs) during the first year of life by approximately 90%, with meta-analyses indicati"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

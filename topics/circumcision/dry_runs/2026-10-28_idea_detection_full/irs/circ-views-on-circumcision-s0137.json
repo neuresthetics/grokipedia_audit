@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0137",
+  "source_text": "Thus, rights-based defenses prioritize familial liberty and tradition as counterweights to individualistic absolutism, grounded in the causal reality that early stewardship maximizes child flourishing without viable infant alternatives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Thus, rights-based defenses prioritize familial liberty and tradition as counterweights to individualistic absolutism, grounded in the causa"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rights-based defenses prioritize familial liberty and tradition as counterweights to individualistic absolutism, grounded in the causal reality that early stewa.",
+      "span": {
+        "quote": "rights-based defenses prioritize familial liberty and tradition as counterweights to individualistic absolutism, grounded in the causal reality that early stewa"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

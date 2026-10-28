@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0058",
+  "source_text": "In contrast, male circumcision removes the foreskin (with fewer nerve endings and partial sensory role) and, when voluntary and hygienic, reduces heterosexual HIV acquisition by 60% per randomized trials, alongside lower UTI and penile cancer rates, rendering it non-equivalent in harm-benefit calculus.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, male circumcision removes the foreskin (with fewer nerve endings and partial sensory role) and, when voluntary and hygienic, re"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, male circumcision removes the foreskin (with fewer nerve endings and partial sensory role) and, when voluntary and hygienic, reduces heterosexual H.",
+      "span": {
+        "quote": "In contrast, male circumcision removes the foreskin (with fewer nerve endings and partial sensory role) and, when voluntary and hygienic, reduces heterosexual H"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Per randomized trials.",
+      "span": {
+        "quote": "per randomized trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per randomized trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

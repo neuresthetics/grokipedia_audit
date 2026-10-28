@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0084",
+  "source_text": "While endorsements remain confined to Type Ia and explicitly exclude Types II and III (excision or infibulation) as excessive or un-Islamic, global fatwa bodies increasingly align against any procedure, reflecting empirical evidence of complications over traditional rationales. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While endorsements remain confined to Type Ia and explicitly exclude Types II and III (excision or infibulation) as excessive or un-Islamic,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While endorsements remain confined to Type Ia and explicitly exclude Types II and III (excision or infibulation) as excessive or un-Islamic, global fatwa bodies.",
+      "span": {
+        "quote": "While endorsements remain confined to Type Ia and explicitly exclude Types II and III (excision or infibulation) as excessive or un-Islamic, global fatwa bodies"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

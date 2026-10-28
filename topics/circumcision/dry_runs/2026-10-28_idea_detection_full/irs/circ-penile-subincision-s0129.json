@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-penile-subincision-s0129",
+  "source_text": "The debate pits cultural relativism against universal principles of bodily integrity and child protection, with anthropologists cautioning that Western legal bans\u2014such as Australia's state-level prohibitions on non-therapeutic genital modifications since the 1990s\u2014risk cultural erasure without accommodating informed community alternatives, potentially exacerbating social marginalization. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The debate pits cultural relativism against universal principles of bodily integrity and child protection, with anthropologists cautioning t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ersal principles of bodily integrity and child protection, with anthropologists cautioning that Western legal bans\u2014such as Australia's state-level prohibitions.",
+      "span": {
+        "quote": "ersal principles of bodily integrity and child protection, with anthropologists cautioning that Western legal bans\u2014such as Australia's state-level prohibitions "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The 1990s\u2014risk cultural erasure without accommodating informed community alternatives, potentially exacerbating social marginalization. [38].",
+      "span": {
+        "quote": "the 1990s\u2014risk cultural erasure without accommodating informed community alternatives, potentially exacerbating social marginalization. [38]"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since the 1990s\u2014risk cultural erasure without accommodating inform"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

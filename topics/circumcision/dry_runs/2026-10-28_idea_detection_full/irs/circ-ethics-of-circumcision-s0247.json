@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0247",
+  "source_text": "This evidence prioritizes causal efficacy over deferred choice, as adult uptake failures undermine preventive efficacy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This evidence prioritizes causal efficacy over deferred choice, as adult uptake failures undermine preventive efficacy."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This evidence prioritizes causal efficacy over deferred choice, as adult uptake failures undermine preventive efficacy.",
+      "span": {
+        "quote": "This evidence prioritizes causal efficacy over deferred choice, as adult uptake failures undermine preventive efficacy."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

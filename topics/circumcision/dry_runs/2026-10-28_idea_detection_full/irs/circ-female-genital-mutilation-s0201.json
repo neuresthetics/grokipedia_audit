@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0201",
+  "source_text": "These effects stem from the traumatic nature of the procedure, often performed without anesthesia in childhood, leading to chronic emotional suppression and panic disorders as documented in qualitative and quantitative analyses. [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These effects stem from the traumatic nature of the procedure, often performed without anesthesia in childhood, leading to chronic emotional"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These effects stem from the traumatic nature of the procedure, often performed without anesthesia in childhood, leading to chronic emotional suppression and pan.",
+      "span": {
+        "quote": "These effects stem from the traumatic nature of the procedure, often performed without anesthesia in childhood, leading to chronic emotional suppression and pan"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

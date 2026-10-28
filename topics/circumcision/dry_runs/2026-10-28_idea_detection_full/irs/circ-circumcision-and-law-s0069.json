@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0069",
+  "source_text": "Additional instruments invoked include the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW, 1979), which critics link to gendered bodily harms, and the Convention Against Torture (CAT, 1984), arguing circumcision meets Article 1's torture definition through intentional severe pain by state-tolerated actors.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional instruments invoked include the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW, 1979), which c"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additional instruments invoked include the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW, 1979), which critics link to gende.",
+      "span": {
+        "quote": "Additional instruments invoked include the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW, 1979), which critics link to gende"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

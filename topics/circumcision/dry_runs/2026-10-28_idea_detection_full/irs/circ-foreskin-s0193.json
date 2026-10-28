@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0193",
+  "source_text": "Additionally, male circumcision correlates with reduced cervical cancer risk in female partners, mediated by lower penile HPV carriage, as evidenced by cohort studies linking partner circumcision status to cervical cancer incidence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additionally, male circumcision correlates with reduced cervical cancer risk in female partners, mediated by lower penile HPV carriage, as e"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additionally, male circumcision correlates with reduced cervical cancer risk in female partners, mediated by lower penile HPV carriage, as evidenced by cohort s.",
+      "span": {
+        "quote": "Additionally, male circumcision correlates with reduced cervical cancer risk in female partners, mediated by lower penile HPV carriage, as evidenced by cohort s"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

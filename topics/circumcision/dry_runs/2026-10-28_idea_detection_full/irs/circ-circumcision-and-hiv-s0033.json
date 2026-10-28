@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0033",
+  "source_text": "More recent meta-analyses suggest a modest protective association.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "More recent meta-analyses suggest a modest protective association."
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Modest protective association.",
+      "span": {
+        "quote": "modest protective association."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "More recent meta-analyses.",
+      "span": {
+        "quote": "More recent meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggest"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0131",
+  "source_text": "Gender norms perpetuated by FGM emphasize female subordination and docility, positioning the procedure as a prerequisite for social acceptance and moral standing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Gender norms perpetuated by FGM emphasize female subordination and docility, positioning the procedure as a prerequisite for social acceptan"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female subordination and docility, positioning the procedure as a prerequisite for social acceptance and moral standing.",
+      "span": {
+        "quote": "female subordination and docility, positioning the procedure as a prerequisite for social acceptance and moral standing."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Gender norms perpetuated by FGM.",
+      "span": {
+        "quote": "Gender norms perpetuated by FGM"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

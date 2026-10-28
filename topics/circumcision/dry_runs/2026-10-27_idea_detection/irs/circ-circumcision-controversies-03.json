@@ -1,0 +1,115 @@
+{
+  "passage_id": "circ-circumcision-controversies-03",
+  "source_text": "They contend that circumcision inflicts significant pain, frequently citing historical data from unanesthetized procedures to argue that even modern local anesthesia fails to fully mitigate neonatal distress, which may cause lasting psychological effects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "citing historical data from unanesthetized procedures to argue that even modern local anesthesia fails to fully mitigate neonatal distress"
+      },
+      "claim_ids": [
+        "c_pain",
+        "c_hist",
+        "c_modern",
+        "c_psych"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_pain",
+      "text": "Circumcision inflicts significant pain.",
+      "span": {
+        "quote": "circumcision inflicts significant pain"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_hist",
+      "text": "Historical unanesthetized procedures showed significant pain/distress.",
+      "span": {
+        "quote": "historical data from unanesthetized procedures"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c_modern",
+      "text": "Even modern local anesthesia fails to fully mitigate neonatal distress.",
+      "span": {
+        "quote": "even modern local anesthesia fails to fully mitigate neonatal distress"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c_psych",
+      "text": "Neonatal distress may cause lasting psychological effects.",
+      "span": {
+        "quote": "which may cause lasting psychological effects"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they",
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_hist",
+      "target": "c_modern",
+      "span": {
+        "quote": "citing historical data from unanesthetized procedures to argue that even modern local anesthesia fails"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_modern",
+      "target": "c_pain",
+      "span": {
+        "quote": "fails to fully mitigate neonatal distress"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e3",
+      "type": "causes",
+      "source": "c_modern",
+      "target": "c_psych",
+      "span": {
+        "quote": "may cause lasting psychological effects"
+      },
+      "warrant": "inductive"
+    }
+  ],
+  "evidence_sets": [
+    {
+      "id": "es_pain",
+      "member_ids": [
+        "c_hist"
+      ],
+      "selection_time": "unknown",
+      "stated_in_text": true,
+      "direction": "favors"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

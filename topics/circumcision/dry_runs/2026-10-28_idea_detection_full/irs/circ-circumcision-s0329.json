@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0329",
+  "source_text": "The U.S. Centers for Disease Control and Prevention recommends informing patients of these results, including trial data showing 28-34% reductions in herpes simplex virus type 2 and 30-35% in human papillomavirus, though syphilis and other STI evidence varies. [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention recommends informing patients of these results, including trial data showing 28-34% redu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The U.S. Centers for Disease Control and Prevention recommends informing patients of these results, including trial data showing 28-34% reductions in herpes sim.",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention recommends informing patients of these results, including trial data showing 28-34% reductions in herpes sim"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

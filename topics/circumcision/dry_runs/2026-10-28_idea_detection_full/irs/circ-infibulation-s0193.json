@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0193",
+  "source_text": "Although some commentators invoke parallels to critique perceived inconsistencies in genital modification norms, peer-reviewed analyses emphasize that equating the two overlooks the absence of empirical benefits for infibulation and its greater invasiveness relative to male anatomy. [95]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Although some commentators invoke parallels to critique perceived inconsistencies in genital modification norms, peer-reviewed analyses emph"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Equating the two overlooks the absence of empirical benefits for infibulation and its greater invasiveness relative to male anatomy.",
+      "span": {
+        "quote": "equating the two overlooks the absence of empirical benefits for infibulation and its greater invasiveness relative to male anatomy."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Although some commentators invoke parallels to critique perceived inconsistencies in genital modification norms, peer-reviewed analyses.",
+      "span": {
+        "quote": "Although some commentators invoke parallels to critique perceived inconsistencies in genital modification norms, peer-reviewed analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

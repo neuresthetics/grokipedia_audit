@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0171",
+  "source_text": "The practice is also tied to enhancing marriage eligibility, with uncircumcised girls reportedly facing rejection by potential suitors and social ostracism, as it is perceived as a prerequisite for acceptable unions and securing bride prices that uphold family status. [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The practice is also tied to enhancing marriage eligibility, with uncircumcised girls reportedly facing rejection by potential suitors and s"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The practice is also tied to enhancing marriage eligibility, with uncircumcised girls reportedly facing rejection by potential suitors and social ostracism, as.",
+      "span": {
+        "quote": "The practice is also tied to enhancing marriage eligibility, with uncircumcised girls reportedly facing rejection by potential suitors and social ostracism, as "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to enhancing marriage eligibility.",
+      "span": {
+        "quote": "tied to enhancing marriage eligibility"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to enhancing marriage eligibility"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to enhancing marriage eligibility",
+          "span": {
+            "quote": "tied to enhancing marriage eligibility"
+          }
+        }
+      ]
+    }
+  ]
+}

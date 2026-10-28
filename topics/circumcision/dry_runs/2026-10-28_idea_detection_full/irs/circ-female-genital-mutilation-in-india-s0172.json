@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0172",
+  "source_text": "![Supreme Court of India][float-right] On October 11, 2025, Chief Justice of India B.R. Gavai publicly acknowledged the practice of female genital mutilation (FGM) in India, condemning it as a grave human rights violation and calling for stronger legal protections for girls. [64] [65]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "![Supreme Court of India][float-right] On October 11, 2025, Chief Justice of India B.R. Gavai publicly acknowledged the practice of female g"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "![Supreme Court of India][float-right] On October 11, 2025, Chief Justice of India B.R. Gavai publicly acknowledged the practice of female genital mutilation (F.",
+      "span": {
+        "quote": "![Supreme Court of India][float-right] On October 11, 2025, Chief Justice of India B.R. Gavai publicly acknowledged the practice of female genital mutilation (F"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

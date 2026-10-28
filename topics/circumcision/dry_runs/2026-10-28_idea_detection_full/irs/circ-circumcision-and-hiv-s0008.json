@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0008",
+  "source_text": "VMMC's integration into broader prevention portfolios, alongside condoms and antiretrovirals, underscores its role as a one-time, cost-effective intervention, averting an estimated millions of infections, though debates over infant versus adult procedures and ethical promotion in diverse cultural contexts highlight ongoing tensions between evidence-based public health and individual autonomy. [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "VMMC's integration into broader prevention portfolios, alongside condoms and antiretrovirals, underscores its role as a one-time, cost-effec"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "VMMC's integration into broader prevention portfolios, alongside condoms and antiretrovirals, underscores its role as a one-time, cost-effective intervention, a.",
+      "span": {
+        "quote": "VMMC's integration into broader prevention portfolios, alongside condoms and antiretrovirals, underscores its role as a one-time, cost-effective intervention, a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

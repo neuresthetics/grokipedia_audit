@@ -1,0 +1,66 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-006",
+  "source_text": "1. **Anti-collapse (dismiss after a cost note).** Passage: \u201cThe inspection would cost more this year. But Mora was fired for lateness, so dismiss the inspection.\u201d Bad: one report, zero edges. Emit the cost claim, the lateness trait on an agent, attacks_person, supports into \u201cdismiss the inspection\u201d, and ignores of the cost note.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "1. **Anti-collapse (dismiss after a cost note).** Passage: \u201cThe inspection would cost more this year. But Mora was fired for lateness, so di"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "1. **Anti-collapse (dismiss after a cost note).** Passage: \u201cThe inspection would cost more this year. But Mora was fired for lateness.",
+      "span": {
+        "quote": "1. **Anti-collapse (dismiss after a cost note).** Passage: \u201cThe inspection would cost more this year. But Mora was fired for lateness"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Dismiss the inspection.\u201d Bad: one report, zero edges. Emit the cost claim, the lateness trait on an agent, attacks_person, supports into \u201cdismiss the inspection.",
+      "span": {
+        "quote": "dismiss the inspection.\u201d Bad: one report, zero edges. Emit the cost claim, the lateness trait on an agent, attacks_person, supports into \u201cdismiss the inspection"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "dismiss"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

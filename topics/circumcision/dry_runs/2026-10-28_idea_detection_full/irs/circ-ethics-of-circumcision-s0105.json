@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0105",
+  "source_text": "These causal data from high-quality RCTs and meta-analyses establish an empirical threshold where harms\u2014primarily acute pain and rare complications\u2014do not predominate, precluding classification as net harm absent context-specific override (e.g., negligible HIV risk environments still yield marginal gains from non-HIV outcomes).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These causal data from high-quality RCTs and meta-analyses establish an empirical threshold where harms\u2014primarily acute pain and rare compli"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These causal data from high-quality RCTs and meta-analyses establish an empirical threshold where harms\u2014primarily acute pain and rare complications\u2014do not predo.",
+      "span": {
+        "quote": "These causal data from high-quality RCTs and meta-analyses establish an empirical threshold where harms\u2014primarily acute pain and rare complications\u2014do not predo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

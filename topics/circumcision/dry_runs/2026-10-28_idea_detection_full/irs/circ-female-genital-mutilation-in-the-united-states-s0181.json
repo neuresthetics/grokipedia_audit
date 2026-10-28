@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0181",
+  "source_text": "These interpretations persist despite classifications of the hadiths as weak (da'if) by many Islamic jurists and the absence of any health-related empirical foundation, prioritizing communal tradition over verifiable causal evidence of benefits.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These interpretations persist despite classifications of the hadiths as weak (da'if) by many Islamic jurists and the absence of any health-r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These interpretations persist despite classifications of the hadiths as weak (da'if) by many Islamic jurists and the absence of any health-related empirical fou.",
+      "span": {
+        "quote": "These interpretations persist despite classifications of the hadiths as weak (da'if) by many Islamic jurists and the absence of any health-related empirical fou"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

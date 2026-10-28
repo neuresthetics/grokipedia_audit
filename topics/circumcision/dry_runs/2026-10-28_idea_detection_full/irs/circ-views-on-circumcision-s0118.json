@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0118",
+  "source_text": "Intactivist movements, originating in the 1970s with groups like the National Organization of Circumcision Information Resources Center (NOCIRC), frame circumcision as a form of genital mutilation analogous to female genital mutilation (FGM), emphasizing the irreversible removal of the foreskin, which contains specialized nerve endings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intactivist movements, originating in the 1970s with groups like the National Organization of Circumcision Information Resources Center (NOC"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intactivist movements, originating in the 1970s with groups like the National Organization of Circumcision Information Resources Center (NOCIRC), frame circumci.",
+      "span": {
+        "quote": "Intactivist movements, originating in the 1970s with groups like the National Organization of Circumcision Information Resources Center (NOCIRC), frame circumci"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

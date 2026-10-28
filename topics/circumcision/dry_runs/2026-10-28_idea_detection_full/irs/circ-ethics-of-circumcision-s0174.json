@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0174",
+  "source_text": "Herd effects emerge from decreased transmission of human papillomavirus (HPV), where modeling studies demonstrate that widespread male circumcision curtails HPV spread to female partners, potentially averting cervical cancer cases; for instance, in Uganda, voluntary medical male circumcision programs are projected to reduce high-risk HPV transmission, yielding population-level protection beyond individual participants. [111]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Herd effects emerge from decreased transmission of human papillomavirus (HPV), where modeling studies demonstrate that widespread male circu"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Herd effects emerge from decreased transmission of human papillomavirus (HPV), where modeling studies demonstrate that widespread male circumcision curtails HPV.",
+      "span": {
+        "quote": "Herd effects emerge from decreased transmission of human papillomavirus (HPV), where modeling studies demonstrate that widespread male circumcision curtails HPV"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

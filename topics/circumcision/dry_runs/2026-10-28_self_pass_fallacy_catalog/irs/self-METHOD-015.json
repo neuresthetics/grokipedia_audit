@@ -1,0 +1,60 @@
+{
+  "passage_id": "self-METHOD-015",
+  "source_text": "Strongest reading: Reyes argues from the corrosion readings that the bearings need replacing. The reply concludes that her argument can be ignored because she was once fired for lateness.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Strongest reading: Reyes argues from the corrosion readings that the bearings need replacing. The reply concludes that her argument can be i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "she"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Strongest reading: Reyes argues from the corrosion readings that the bearings need replacing. The reply concludes that her argument can be ignored.",
+      "span": {
+        "quote": "Strongest reading: Reyes argues from the corrosion readings that the bearings need replacing. The reply concludes that her argument can be ignored"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "she",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "She was once fired for lateness.",
+      "span": {
+        "quote": "she was once fired for lateness."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "she"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "because she was once fired for lateness."
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

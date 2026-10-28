@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0444",
+  "source_text": "Neonatal circumcision complications are low: systematic reviews report 0.2-1.5% adverse events, mostly minor like bleeding or infection, with severe issues under 0.01% by trained providers. [45] [43]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision complications are low: systematic reviews report 0.2-1.5% adverse events, mostly minor like bleeding or infection, wit"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision complications are low: systematic reviews report 0.2-1.5% adverse events, mostly minor like bleeding or infection, with severe issues unde.",
+      "span": {
+        "quote": "Neonatal circumcision complications are low: systematic reviews report 0.2-1.5% adverse events, mostly minor like bleeding or infection, with severe issues unde"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

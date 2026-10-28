@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0029",
+  "source_text": "The resolution urges states to implement legislative, policy, and educational measures to eradicate the practice, emphasizing its harmful physical and psychological consequences and rejecting any cultural or religious justifications for it.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution urges states to implement legislative, policy, and educational measures to eradicate the practice, emphasizing its harmful ph"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "States to implement legislative, policy, and educational measures to eradicate the practice, emphasizing its harmful physical and psychological consequences and.",
+      "span": {
+        "quote": "states to implement legislative, policy, and educational measures to eradicate the practice, emphasizing its harmful physical and psychological consequences and"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

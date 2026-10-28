@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-METHOD-013",
+  "source_text": "Contested entries (status: contested) are names that are disputed or not widely used. If you use one, say so in the write-up.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Contested entries (status: contested) are names that are disputed or not widely used. If you use one, say so in the write-up."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Contested entries (status: contested) are names that are disputed or not widely used. If you use one, say.",
+      "span": {
+        "quote": "Contested entries (status: contested) are names that are disputed or not widely used. If you use one, say"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "In the write-up.",
+      "span": {
+        "quote": "in the write-up."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0095",
+  "source_text": "Community accounts highlight this coercion, where opting out invites isolation, underscoring the practice's role in maintaining intra-group conformity despite growing internal debates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Community accounts highlight this coercion, where opting out invites isolation, underscoring the practice's role in maintaining intra-group"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Community accounts highlight this coercion, where opting out invites isolation, underscoring the practice's role in maintaining intra-group conformity despite g.",
+      "span": {
+        "quote": "Community accounts highlight this coercion, where opting out invites isolation, underscoring the practice's role in maintaining intra-group conformity despite g"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0208",
+  "source_text": "Proponents counter with potential long-term benefits like reduced urinary tract infections and heterosexual HIV transmission in high-prevalence areas, though these are weighed against the infant's inability to consent and the procedure's classification as elective rather than therapeutic in low-risk populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents counter with potential long-term benefits like reduced urinary tract infections and heterosexual HIV transmission in high-prevale"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents counter with potential long-term benefits like reduced urinary tract infections and heterosexual HIV transmission in high-prevalence areas, though th.",
+      "span": {
+        "quote": "Proponents counter with potential long-term benefits like reduced urinary tract infections and heterosexual HIV transmission in high-prevalence areas, though th"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

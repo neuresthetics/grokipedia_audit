@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0209",
+  "source_text": "This decline reflects evolving medical consensus, including positions from the Royal Australasian College of Physicians stating insufficient evidence supports routine circumcision for benefits like reduced urinary tract infections or HIV risk in low-prevalence settings like Australia. [95]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This decline reflects evolving medical consensus, including positions from the Royal Australasian College of Physicians stating insufficient"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This decline reflects evolving medical consensus, including positions from the Royal Australasian College of Physicians stating insufficient evidence supports r.",
+      "span": {
+        "quote": "This decline reflects evolving medical consensus, including positions from the Royal Australasian College of Physicians stating insufficient evidence supports r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

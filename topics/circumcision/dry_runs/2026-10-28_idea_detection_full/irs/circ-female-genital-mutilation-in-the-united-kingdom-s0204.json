@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0204",
+  "source_text": "Intergenerational persistence exacerbates long-term liabilities, as untreated complications in mothers correlate with adverse birth outcomes, perpetuating cycles of healthcare dependency and straining social services for affected families.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intergenerational persistence exacerbates long-term liabilities, as untreated complications in mothers correlate with adverse birth outcomes"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intergenerational persistence exacerbates long-term liabilities, as untreated complications in mothers correlate with adverse birth outcomes, perpetuating cycle.",
+      "span": {
+        "quote": "Intergenerational persistence exacerbates long-term liabilities, as untreated complications in mothers correlate with adverse birth outcomes, perpetuating cycle"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

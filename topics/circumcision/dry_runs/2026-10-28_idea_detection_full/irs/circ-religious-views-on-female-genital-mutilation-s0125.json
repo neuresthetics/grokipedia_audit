@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0125",
+  "source_text": "Official Anglican synods and bishops' statements integrate anti-FGM advocacy into broader initiatives against gender-based violence, prioritizing scriptural calls to protect the vulnerable.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Official Anglican synods and bishops' statements integrate anti-FGM advocacy into broader initiatives against gender-based violence, priorit"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Official Anglican synods and bishops' statements integrate anti-FGM advocacy into broader initiatives against gender-based violence, prioritizing scriptural cal.",
+      "span": {
+        "quote": "Official Anglican synods and bishops' statements integrate anti-FGM advocacy into broader initiatives against gender-based violence, prioritizing scriptural cal"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

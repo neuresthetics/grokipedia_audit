@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0015",
+  "source_text": "Historical narratives contain no verifiable endorsements of health, fertility, or hygienic benefits, attributing persistence instead to normative enforcement for social conformity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Historical narratives contain no verifiable endorsements of health, fertility, or hygienic benefits, attributing persistence instead to norm"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Historical narratives contain no verifiable endorsements of health, fertility, or hygienic benefits, attributing persistence instead to normative enforcement fo.",
+      "span": {
+        "quote": "Historical narratives contain no verifiable endorsements of health, fertility, or hygienic benefits, attributing persistence instead to normative enforcement fo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

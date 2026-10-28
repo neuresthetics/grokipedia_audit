@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-mohel-s0147",
+  "source_text": "Proponents of deferral emphasize that the foreskin serves protective and sensory functions, and its excision\u2014estimated to remove approximately 20,000\u201370,000 specialized nerve endings\u2014alters the body's natural state permanently, akin to other non-therapeutic cuttings prohibited in medical ethics. [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of deferral emphasize that the foreskin serves protective and sensory functions, and its excision\u2014estimated to remove approximate"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E foreskin serves protective and sensory functions, and its excision\u2014estimated to remove approximately 20,000\u201370,000 specialized nerve endings\u2014alters the body's.",
+      "span": {
+        "quote": "e foreskin serves protective and sensory functions, and its excision\u2014estimated to remove approximately 20,000\u201370,000 specialized nerve endings\u2014alters the body's"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of deferral.",
+      "span": {
+        "quote": "Proponents of deferral"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

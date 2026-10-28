@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-infibulation-s0004",
+  "source_text": "Infibulation causes immediate risks including hemorrhage, infection, and shock, as well as long-term complications such as chronic pain, urinary and menstrual difficulties, obstetric fistula, infertility, and increased maternal and neonatal mortality during childbirth; psychological effects include depression, anxiety, and post-traumatic stress disorder, substantiated by epidemiological studies across affected regions. [2] [7] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infibulation causes immediate risks including hemorrhage, infection, and shock, as well as long-term complications such as chronic pain, uri"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infibulation causes immediate risks including hemorrhage, infection, and shock, as well as long-term complications such as chronic pain, urinary and menstrual d.",
+      "span": {
+        "quote": "Infibulation causes immediate risks including hemorrhage, infection, and shock, as well as long-term complications such as chronic pain, urinary and menstrual d"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

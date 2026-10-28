@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0135",
+  "source_text": "Nordic medical and ethical bodies, influenced by advocacy for genital autonomy, have pushed for restrictions or bans on non-therapeutic circumcision, as seen in Denmark's 2016 recommendation by the Danish Medical Association to end the practice for boys under 18, framing it as a personal choice deferred to maturity due to pain, rights infringements, and questionable necessity. [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Nordic medical and ethical bodies, influenced by advocacy for genital autonomy, have pushed for restrictions or bans on non-therapeutic circ"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nordic medical and ethical bodies, influenced by advocacy for genital autonomy, have pushed for restrictions or bans on non-therapeutic circumcision, as seen in.",
+      "span": {
+        "quote": "Nordic medical and ethical bodies, influenced by advocacy for genital autonomy, have pushed for restrictions or bans on non-therapeutic circumcision, as seen in"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

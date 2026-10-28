@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0090",
+  "source_text": "Severe complications, such as penile injury or excessive bleeding requiring intervention, affect fewer than 0.5% of procedures, with rates of adverse events like stricture or necrosis ranging from 0.76 per million circumcisions. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Severe complications, such as penile injury or excessive bleeding requiring intervention, affect fewer than 0.5% of procedures, with rates o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Severe complications, such as penile injury or excessive bleeding requiring intervention, affect fewer than 0.5% of procedures, with rates of adverse events lik.",
+      "span": {
+        "quote": "Severe complications, such as penile injury or excessive bleeding requiring intervention, affect fewer than 0.5% of procedures, with rates of adverse events lik"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per million circumcisions.",
+      "span": {
+        "quote": "per million circumcisions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per million circumcisions"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

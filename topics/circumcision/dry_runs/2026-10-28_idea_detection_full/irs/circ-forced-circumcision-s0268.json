@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0268",
+  "source_text": "In Judaism, brit milah on the eighth day fulfills Genesis 17:10-14's covenant with Abraham, viewed as a divine command obligatory on parents to ensure the child's inclusion in the faith community. [122]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Judaism, brit milah on the eighth day fulfills Genesis 17:10-14's covenant with Abraham, viewed as a divine command obligatory on parents"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Judaism, brit milah on the eighth day fulfills Genesis 17:10-14's covenant with Abraham, viewed as a divine command obligatory on parents to ensure the child.",
+      "span": {
+        "quote": "In Judaism, brit milah on the eighth day fulfills Genesis 17:10-14's covenant with Abraham, viewed as a divine command obligatory on parents to ensure the child"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

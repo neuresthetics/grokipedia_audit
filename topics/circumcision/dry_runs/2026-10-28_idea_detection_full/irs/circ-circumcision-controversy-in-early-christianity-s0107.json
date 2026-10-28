@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0107",
+  "source_text": "Physical circumcision profits only if one obeys the law perfectly, which no one does, rendering it unavailing apart from holistic Torah adherence\u2014an impossibility post-fall (Romans 2:25-27).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Physical circumcision profits only if one obeys the law perfectly, which no one does, rendering it unavailing apart from holistic Torah adhe"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Physical circumcision profits only if one obeys the law perfectly, which no one does, rendering it unavailing apart from holistic Torah adherence\u2014an impossibili.",
+      "span": {
+        "quote": "Physical circumcision profits only if one obeys the law perfectly, which no one does, rendering it unavailing apart from holistic Torah adherence\u2014an impossibili"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

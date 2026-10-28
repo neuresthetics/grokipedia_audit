@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0128",
+  "source_text": "This parental authority aligns with principles of family autonomy, where state intervention via bans would require evidence of net harm exceeding parental judgment, a threshold not met given medical consensus on net benefits. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This parental authority aligns with principles of family autonomy, where state intervention via bans would require evidence of net harm exce"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This parental authority aligns with principles of family autonomy, where state intervention via bans would require evidence of net harm exceeding parental judgm.",
+      "span": {
+        "quote": "This parental authority aligns with principles of family autonomy, where state intervention via bans would require evidence of net harm exceeding parental judgm"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

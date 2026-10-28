@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0035",
+  "source_text": "The Prohibition of Female Circumcision Act 1985 had failed to deter female genital mutilation (FGM) in the UK, with no prosecutions recorded despite evidence of ongoing cases in immigrant communities, prompting calls for reform based on medical reports documenting severe, irreversible health complications such as hemorrhage, infection, chronic pain, and obstetric fistula. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Prohibition of Female Circumcision Act 1985 had failed to deter female genital mutilation (FGM) in the UK, with no prosecutions recorded"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Prohibition of Female Circumcision Act 1985 had failed to deter female genital mutilation (FGM) in the UK, with no prosecutions recorded despite evidence of.",
+      "span": {
+        "quote": "The Prohibition of Female Circumcision Act 1985 had failed to deter female genital mutilation (FGM) in the UK, with no prosecutions recorded despite evidence of"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

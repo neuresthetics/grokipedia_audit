@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0264",
+  "source_text": "The United Nations deems FGM a human rights violation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The United Nations deems FGM a human rights violation."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The United Nations deems FGM a human rights violation.",
+      "span": {
+        "quote": "The United Nations deems FGM a human rights violation."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

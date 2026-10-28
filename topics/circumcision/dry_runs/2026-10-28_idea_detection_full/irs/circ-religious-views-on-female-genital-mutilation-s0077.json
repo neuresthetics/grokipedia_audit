@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0077",
+  "source_text": "In opposition, mainstream Islamic scholars and institutions, such as Dar al-Ifta and Al-Azhar, have declared FGM prohibited (haram) due to lack of explicit basis in the Quran and reliable Hadith, viewing it as a pre-Islamic tribal custom that violates the Islamic principle of no harm to the body. [41]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In opposition, mainstream Islamic scholars and institutions, such as Dar al-Ifta and Al-Azhar, have declared FGM prohibited (haram) due to l"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In opposition, mainstream Islamic scholars and institutions, such as Dar al-Ifta and Al-Azhar, have declared FGM prohibited (haram) due to lack of explicit basi.",
+      "span": {
+        "quote": "In opposition, mainstream Islamic scholars and institutions, such as Dar al-Ifta and Al-Azhar, have declared FGM prohibited (haram) due to lack of explicit basi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

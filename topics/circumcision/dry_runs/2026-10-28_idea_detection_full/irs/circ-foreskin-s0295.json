@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0295",
+  "source_text": "This approach mitigates over-medicalization while accommodating religious exemptions, grounded in causal evidence rather than tradition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This approach mitigates over-medicalization while accommodating religious exemptions, grounded in causal evidence rather than tradition."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This approach mitigates over-medicalization while accommodating religious exemptions, grounded in causal evidence rather than tradition.",
+      "span": {
+        "quote": "This approach mitigates over-medicalization while accommodating religious exemptions, grounded in causal evidence rather than tradition."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

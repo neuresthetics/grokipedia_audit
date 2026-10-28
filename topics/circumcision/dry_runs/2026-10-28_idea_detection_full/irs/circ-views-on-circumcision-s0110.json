@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0110",
+  "source_text": "Other bodies, such as the Danish Medical Association in 2016, have advocated ending non-therapeutic infant circumcision, prioritizing personal choice post-puberty. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Other bodies, such as the Danish Medical Association in 2016, have advocated ending non-therapeutic infant circumcision, prioritizing person"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Other bodies, such as the Danish Medical Association in 2016, have advocated ending non-therapeutic infant circumcision, prioritizing personal choice post-puber.",
+      "span": {
+        "quote": "Other bodies, such as the Danish Medical Association in 2016, have advocated ending non-therapeutic infant circumcision, prioritizing personal choice post-puber"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0024",
+  "source_text": "Though sometimes viewed as less invasive, these acts carry risks of infection and psychological trauma; legislation in banning countries typically proscribes them to prevent normalization of any genital alteration.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Though sometimes viewed as less invasive, these acts carry risks of infection and psychological trauma; legislation in banning countries typ"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Though sometimes viewed as less invasive, these acts carry risks of infection and psychological trauma; legislation in banning countries typically proscribes th.",
+      "span": {
+        "quote": "Though sometimes viewed as less invasive, these acts carry risks of infection and psychological trauma; legislation in banning countries typically proscribes th"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0224",
+  "source_text": "Infection rates range from 0.06% to 0.6%, potentially leading to localized abscesses or systemic sepsis if untreated, with higher incidence noted in ritual settings lacking sterile protocols. [111]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infection rates range from 0.06% to 0.6%, potentially leading to localized abscesses or systemic sepsis if untreated, with higher incidence"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infection rates range from 0.06% to 0.6%, potentially leading to localized abscesses or systemic sepsis if untreated, with higher incidence noted in ritual sett.",
+      "span": {
+        "quote": "Infection rates range from 0.06% to 0.6%, potentially leading to localized abscesses or systemic sepsis if untreated, with higher incidence noted in ritual sett"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

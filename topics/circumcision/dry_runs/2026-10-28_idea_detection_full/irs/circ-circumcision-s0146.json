@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-s0146",
+  "source_text": "Though UTIs remain rare overall, the risk reduction supports neonatal circumcision consideration per AAP guidelines. [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Though UTIs remain rare overall, the risk reduction supports neonatal circumcision consideration per AAP guidelines. [79]"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Though UTIs remain rare overall, the risk reduction supports neonatal circumcision consideration per AAP guidelines. [79].",
+      "span": {
+        "quote": "Though UTIs remain rare overall, the risk reduction supports neonatal circumcision consideration per AAP guidelines. [79]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per AAP guidelines.",
+      "span": {
+        "quote": "per AAP guidelines"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per AAP guidelines"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

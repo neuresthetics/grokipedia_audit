@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0128",
+  "source_text": "In Nigerian surveys, FGM correlates with 25-35% increased anxiety prevalence, exacerbated by perceptions of familial betrayal and normalized violence, fostering intergenerational transmission of trauma through perpetuated acceptance of ritual harm. [42] [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Nigerian surveys, FGM correlates with 25-35% increased anxiety prevalence, exacerbated by perceptions of familial betrayal and normalized"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Nigerian surveys, FGM correlates with 25-35% increased anxiety prevalence, exacerbated by perceptions of familial betrayal and normalized violence, fostering.",
+      "span": {
+        "quote": "In Nigerian surveys, FGM correlates with 25-35% increased anxiety prevalence, exacerbated by perceptions of familial betrayal and normalized violence, fostering"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

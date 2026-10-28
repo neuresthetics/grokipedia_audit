@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-foreskin-s0157",
+  "source_text": "A meta-analysis of studies on inflammatory penile conditions reported that circumcision reduces their prevalence by 68%, attributing this to elimination of the preputial space conducive to microbial proliferation. [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A meta-analysis of studies on inflammatory penile conditions reported that circumcision reduces their prevalence by 68%, attributing this to"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A meta-analysis of studies on inflammatory penile conditions reported that circumcision reduces their prevalence by 68%, attributing this to elimination of the.",
+      "span": {
+        "quote": "A meta-analysis of studies on inflammatory penile conditions reported that circumcision reduces their prevalence by 68%, attributing this to elimination of the "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

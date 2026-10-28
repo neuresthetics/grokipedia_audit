@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0204",
+  "source_text": "These articles have been invoked by critics to argue that non-therapeutic circumcision of minors constitutes a violation of bodily integrity, as the procedure involves permanent alteration without the subject's consent. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These articles have been invoked by critics to argue that non-therapeutic circumcision of minors constitutes a violation of bodily integrity"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These articles have been invoked by critics.",
+      "span": {
+        "quote": "These articles have been invoked by critics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c2",
+      "text": "Non-therapeutic circumcision of minors constitutes a violation of bodily integrity, as the procedure involves permanent alteration without the subject's consent.",
+      "span": {
+        "quote": "non-therapeutic circumcision of minors constitutes a violation of bodily integrity, as the procedure involves permanent alteration without the subject's consent"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "These articles have been invoked by critics to argue that non-therapeutic circum"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

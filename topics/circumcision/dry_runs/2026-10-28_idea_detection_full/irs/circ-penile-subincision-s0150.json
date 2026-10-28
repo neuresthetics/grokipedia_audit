@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0150",
+  "source_text": "From a medical standpoint, penile subincision is regarded as a high-risk urethrotomy with no therapeutic benefits, disrupting urethral integrity and exposing the urinary tract to chronic complications such as strictures, fistulas, recurrent infections, and hemorrhage, particularly when conducted without sterile conditions or anesthesia in traditional settings. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From a medical standpoint, penile subincision is regarded as a high-risk urethrotomy with no therapeutic benefits, disrupting urethral integ"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From a medical standpoint, penile subincision is regarded as a high-risk urethrotomy with no therapeutic benefits, disrupting urethral integrity and exposing th.",
+      "span": {
+        "quote": "From a medical standpoint, penile subincision is regarded as a high-risk urethrotomy with no therapeutic benefits, disrupting urethral integrity and exposing th"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

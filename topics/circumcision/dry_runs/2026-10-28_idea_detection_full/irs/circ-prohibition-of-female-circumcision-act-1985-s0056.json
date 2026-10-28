@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0056",
+  "source_text": "Proponents, supported by input from the Royal College of Obstetricians and Gynaecologists, upheld the balance by insisting on evidence-based health protections over relativistic defenses, though acknowledging detection challenges in closed ethnic enclaves where underreporting was anticipated.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents, supported by input from the Royal College of Obstetricians and Gynaecologists, upheld the balance by insisting on evidence-based"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents, supported by input from the Royal College of Obstetricians and Gynaecologists, upheld the balance by insisting on evidence-based health protections.",
+      "span": {
+        "quote": "Proponents, supported by input from the Royal College of Obstetricians and Gynaecologists, upheld the balance by insisting on evidence-based health protections "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

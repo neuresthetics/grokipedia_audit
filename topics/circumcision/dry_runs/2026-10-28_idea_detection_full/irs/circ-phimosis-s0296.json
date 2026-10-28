@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-phimosis-s0296",
+  "source_text": "In regions like parts of Europe and Asia with low routine circumcision rates, prevalence of diagnosed phimosis remains comparable (around 13-14% in some studies) but leads to fewer surgical referrals, favoring observation or non-invasive stretching over excision, reflecting views that the foreskin serves protective and sensory functions absent pathological evidence. [92] [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In regions like parts of Europe and Asia with low routine circumcision rates, prevalence of diagnosed phimosis remains comparable (around 13"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In regions like parts of Europe and Asia with low routine circumcision rates, prevalence of diagnosed phimosis remains comparable (around 13-14% in some studies.",
+      "span": {
+        "quote": "In regions like parts of Europe and Asia with low routine circumcision rates, prevalence of diagnosed phimosis remains comparable (around 13-14% in some studies"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

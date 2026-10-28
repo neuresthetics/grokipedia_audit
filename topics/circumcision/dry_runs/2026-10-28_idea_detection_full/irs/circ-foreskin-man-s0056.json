@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-man-s0056",
+  "source_text": "This approach aligns with intactivist preferences for meme-like dissemination to policymakers and families, bypassing dense analyses of outcomes like reduced HIV transmission claims from African trials, which some organizations question for applicability to Western contexts. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This approach aligns with intactivist preferences for meme-like dissemination to policymakers and families, bypassing dense analyses of outc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "intactivists"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From African trials, which some organizations question for applicability to Western contexts.",
+      "span": {
+        "quote": "from African trials, which some organizations question for applicability to Western contexts."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This approach aligns with intactivist preferences for meme-like dissemination to policymakers and families, bypassing dense analyses of outcomes like reduced HI.",
+      "span": {
+        "quote": "This approach aligns with intactivist preferences for meme-like dissemination to policymakers and families, bypassing dense analyses of outcomes like reduced HI"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

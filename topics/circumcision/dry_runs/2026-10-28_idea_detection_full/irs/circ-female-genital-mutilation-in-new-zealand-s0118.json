@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0118",
+  "source_text": "In New Zealand's multicultural society, FGM is deeply embedded in cultural, social, and religious beliefs for some immigrant communities, particularly from Somalia, Sudan, and other high-prevalence regions, where it is supported by families believing it to be in the child's best interests, tied to norms of purity and marriageability. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In New Zealand's multicultural society, FGM is deeply embedded in cultural, social, and religious beliefs for some immigrant communities, pa"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In New Zealand's multicultural society, FGM is deeply embedded in cultural, social, and religious beliefs for some immigrant communities, particularly from Soma.",
+      "span": {
+        "quote": "In New Zealand's multicultural society, FGM is deeply embedded in cultural, social, and religious beliefs for some immigrant communities, particularly from Soma"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to norms of purity and marriageability.",
+      "span": {
+        "quote": "tied to norms of purity and marriageability"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to norms of purity and marriageability"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to norms of purity and marriageability",
+          "span": {
+            "quote": "tied to norms of purity and marriageability"
+          }
+        }
+      ]
+    }
+  ]
+}

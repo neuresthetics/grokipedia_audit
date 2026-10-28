@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0216",
+  "source_text": "Broader autonomy debates highlight the procedure's irreversibility and the ethical tension between individual bodily integrity and population-level HIV reduction goals.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Broader autonomy debates highlight the procedure's irreversibility and the ethical tension between individual bodily integrity and populatio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Broader autonomy debates highlight the procedure's irreversibility and the ethical tension between individual bodily integrity and population-level HIV reductio.",
+      "span": {
+        "quote": "Broader autonomy debates highlight the procedure's irreversibility and the ethical tension between individual bodily integrity and population-level HIV reductio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

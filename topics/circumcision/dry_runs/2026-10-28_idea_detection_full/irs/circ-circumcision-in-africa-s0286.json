@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0286",
+  "source_text": "These actions, from sources with apparent conflicts tied to advocacy rather than epidemiological expertise, contrast with African-led implementation, where VMMC integration with education and testing has correlated with incidence declines, such as a 30\u201340% drop in modeled HIV cases in high-uptake areas by 2017. [127]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These actions, from sources with apparent conflicts tied to advocacy rather than epidemiological expertise, contrast with African-led implem"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These actions, from sources with apparent conflicts tied to advocacy rather than epidemiological expertise, contrast with African-led implementation, where VMMC.",
+      "span": {
+        "quote": "These actions, from sources with apparent conflicts tied to advocacy rather than epidemiological expertise, contrast with African-led implementation, where VMMC"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Tied to advocacy rather than epidemiological expertise.",
+      "span": {
+        "quote": "tied to advocacy rather than epidemiological expertise"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to advocacy rather than epidemiological expertise"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to advocacy rather than epidemiological expertise",
+          "span": {
+            "quote": "tied to advocacy rather than epidemiological expertise"
+          }
+        }
+      ]
+    }
+  ]
+}

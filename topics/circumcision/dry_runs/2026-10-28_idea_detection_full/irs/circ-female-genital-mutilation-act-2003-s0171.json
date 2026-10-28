@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0171",
+  "source_text": "Comprehensive reviews affirm zero net health benefits from FGM across all types, debunking claims of reduced promiscuity or enhanced cleanliness through empirical null findings in controlled comparisons. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Comprehensive reviews affirm zero net health benefits from FGM across all types, debunking claims of reduced promiscuity or enhanced cleanli"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of reduced promiscuity or enhanced cleanliness through empirical null findings in controlled comparisons.",
+      "span": {
+        "quote": "of reduced promiscuity or enhanced cleanliness through empirical null findings in controlled comparisons."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Comprehensive reviews affirm zero net health benefits from FGM across all types, debunking.",
+      "span": {
+        "quote": "Comprehensive reviews affirm zero net health benefits from FGM across all types, debunking"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

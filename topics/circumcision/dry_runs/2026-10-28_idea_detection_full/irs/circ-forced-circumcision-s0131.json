@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0131",
+  "source_text": "In South Africa, where such practices are constitutionally protected under customary law but regulated by the Customary Initiation Act of 2004, parental or communal coercion overrides boys' objections, with initiates aged 12-18 frequently reporting fear or reluctance yet proceeding to avoid stigma.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In South Africa, where such practices are constitutionally protected under customary law but regulated by the Customary Initiation Act of 20"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In South Africa, where such practices are constitutionally protected under customary law but regulated by the Customary Initiation Act of 2004, parental or comm.",
+      "span": {
+        "quote": "In South Africa, where such practices are constitutionally protected under customary law but regulated by the Customary Initiation Act of 2004, parental or comm"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

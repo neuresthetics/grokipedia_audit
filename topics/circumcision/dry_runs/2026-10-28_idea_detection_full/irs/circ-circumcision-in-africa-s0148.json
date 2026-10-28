@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0148",
+  "source_text": "Among the Maasai in Kenya and Tanzania, the procedure is conducted by designated \"unclean\" specialists in isolated settings, symbolizing endurance and eligibility for warrior status, but it carries elevated risks of hemorrhage, infection, and long-term complications compared to clinical methods\u2014rates of adverse events in traditional settings can exceed 20% in some reports. [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among the Maasai in Kenya and Tanzania, the procedure is conducted by designated \"unclean\" specialists in isolated settings, symbolizing end"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among the Maasai in Kenya and Tanzania, the procedure is conducted by designated \"unclean\" specialists in isolated settings, symbolizing endurance and eligibili.",
+      "span": {
+        "quote": "Among the Maasai in Kenya and Tanzania, the procedure is conducted by designated \"unclean\" specialists in isolated settings, symbolizing endurance and eligibili"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

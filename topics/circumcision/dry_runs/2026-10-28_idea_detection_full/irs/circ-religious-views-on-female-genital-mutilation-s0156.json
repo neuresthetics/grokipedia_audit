@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0156",
+  "source_text": "This practice, documented ethnographically since the early 20th century, underscores endurance of ritual pain as a test of character essential for social and spiritual roles within matrilineal clan structures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice, documented ethnographically since the early 20th century, underscores endurance of ritual pain as a test of character essenti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice, documented ethnographically.",
+      "span": {
+        "quote": "This practice, documented ethnographically"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The early 20th century, underscores endurance of ritual pain as a test of character essential for social and spiritual roles within matrilineal clan structures.",
+      "span": {
+        "quote": "the early 20th century, underscores endurance of ritual pain as a test of character essential for social and spiritual roles within matrilineal clan structures."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since the early 20th century, underscores endurance of ritual pain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

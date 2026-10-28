@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0164",
+  "source_text": "Petitioners highlighted empirical evidence of physical and psychological harm, drawing on World Health Organization classifications of FGM as a violation causing immediate risks like hemorrhage and long-term issues including infections and trauma.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Petitioners highlighted empirical evidence of physical and psychological harm, drawing on World Health Organization classifications of FGM a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Petitioners highlighted empirical evidence of physical and psychological harm, drawing on World Health Organization classifications of FGM as a violation causin.",
+      "span": {
+        "quote": "Petitioners highlighted empirical evidence of physical and psychological harm, drawing on World Health Organization classifications of FGM as a violation causin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

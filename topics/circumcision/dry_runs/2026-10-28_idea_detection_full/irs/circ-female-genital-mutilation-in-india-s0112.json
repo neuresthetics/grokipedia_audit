@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0112",
+  "source_text": "Peer-reviewed analyses indicate potential for post-traumatic stress disorder (PTSD), depression, and low self-esteem, stemming from the procedure's early age (typically 6-7 years) and secrecy, which fosters dissociation and long-term emotional suppression. [38] [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Peer-reviewed analyses indicate potential for post-traumatic stress disorder (PTSD), depression, and low self-esteem, stemming from the proc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Peer-reviewed analyses indicate potential for post-traumatic stress disorder (PTSD), depression, and low self-esteem, stemming from the procedure's early age (t.",
+      "span": {
+        "quote": "Peer-reviewed analyses indicate potential for post-traumatic stress disorder (PTSD), depression, and low self-esteem, stemming from the procedure's early age (t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

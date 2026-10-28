@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0105",
+  "source_text": "Female genital mutilation (FGM) in Nigeria leads to chronic physical complications primarily through fibrosis and scarring from tissue excision, resulting in keloid formation and clitoral cysts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) in Nigeria leads to chronic physical complications primarily through fibrosis and scarring from tissue excis"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) in Nigeria leads to chronic physical complications primarily through fibrosis and scarring from tissue excision, resulting in ke.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) in Nigeria leads to chronic physical complications primarily through fibrosis and scarring from tissue excision, resulting in ke"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

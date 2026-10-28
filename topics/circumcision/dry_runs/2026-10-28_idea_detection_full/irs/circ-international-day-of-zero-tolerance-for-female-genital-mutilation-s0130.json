@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0130",
+  "source_text": "Neonatal outcomes worsen, with infants of FGM mothers showing 15-66% higher mortality risks depending on FGM type. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal outcomes worsen, with infants of FGM mothers showing 15-66% higher mortality risks depending on FGM type. [39]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal outcomes worsen, with infants of FGM mothers showing 15-66% higher mortality risks depending on FGM type. [39].",
+      "span": {
+        "quote": "Neonatal outcomes worsen, with infants of FGM mothers showing 15-66% higher mortality risks depending on FGM type. [39]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0085",
+  "source_text": "However, Meissner's corpuscle density in the foreskin decreases significantly with age\u2014often by up to 90% by middle age\u2014particularly after puberty when sexual activity increases, questioning their primary role in adult sexual pleasure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, Meissner's corpuscle density in the foreskin decreases significantly with age\u2014often by up to 90% by middle age\u2014particularly after p"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, Meissner's corpuscle density in the foreskin decreases significantly with age\u2014often by up to 90% by middle age\u2014particularly after puberty when sexual a.",
+      "span": {
+        "quote": "However, Meissner's corpuscle density in the foreskin decreases significantly with age\u2014often by up to 90% by middle age\u2014particularly after puberty when sexual a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

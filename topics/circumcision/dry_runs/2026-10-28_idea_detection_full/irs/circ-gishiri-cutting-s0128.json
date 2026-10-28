@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0128",
+  "source_text": "In a 2006 study from Birnin Kudu, northern Nigeria, gishiri cuts were documented as a contributing factor to VVF among women seeking repair, highlighting the procedure's role in non-obstetric fistula formation through iatrogenic trauma during self-treatment for gynecological complaints. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a 2006 study from Birnin Kudu, northern Nigeria, gishiri cuts were documented as a contributing factor to VVF among women seeking repair,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a 2006 study from Birnin Kudu, northern Nigeria, gishiri cuts were documented as a contributing factor to VVF among women seeking repair, highlighting the pr.",
+      "span": {
+        "quote": "In a 2006 study from Birnin Kudu, northern Nigeria, gishiri cuts were documented as a contributing factor to VVF among women seeking repair, highlighting the pr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

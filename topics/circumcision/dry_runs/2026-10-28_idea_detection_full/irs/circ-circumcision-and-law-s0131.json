@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0131",
+  "source_text": "The proposal faced significant opposition from Jewish and Muslim communities in Iceland, as well as international religious leaders and organizations, who contended it infringed on religious freedom and parental rights, potentially discriminating against religious minorities in a country with small Jewish (around 100 members) and Muslim (about 1,500) populations where circumcision holds ritual significance. [46] [69] [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The proposal faced significant opposition from Jewish and Muslim communities in Iceland, as well as international religious leaders and orga"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It infringed on religious freedom and parental rights, potentially discriminating against religious minorities in a country with small Jewish (around 100 member.",
+      "span": {
+        "quote": "it infringed on religious freedom and parental rights, potentially discriminating against religious minorities in a country with small Jewish (around 100 member"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The proposal faced significant opposition from Jewish and Muslim communities in Iceland, as well as international religious leaders and organizations, who.",
+      "span": {
+        "quote": "The proposal faced significant opposition from Jewish and Muslim communities in Iceland, as well as international religious leaders and organizations, who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contended"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

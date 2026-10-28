@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0081",
+  "source_text": "Egypt's Dar al-Ifta reversed its earlier stance in a May 2018 ruling, deeming female genital mutilation (khitan al-untha) religiously forbidden (haram) due to documented health risks and incompatibility with Sharia's preservation of life and lineage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Egypt's Dar al-Ifta reversed its earlier stance in a May 2018 ruling, deeming female genital mutilation (khitan al-untha) religiously forbid"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Egypt's Dar al-Ifta reversed its earlier stance in a May 2018 ruling, deeming female genital mutilation (khitan al-untha) religiously forbidden (haram) due to d.",
+      "span": {
+        "quote": "Egypt's Dar al-Ifta reversed its earlier stance in a May 2018 ruling, deeming female genital mutilation (khitan al-untha) religiously forbidden (haram) due to d"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

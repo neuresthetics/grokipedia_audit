@@ -1,0 +1,155 @@
+{
+  "passage_id": "self-METHOD-007",
+  "source_text": "**(c) Pick the most specific entry.** Use one label per step. - Check the entry's **Related, use only one per step** list and pick the single entry in that family that fits best. Do not stack labels from the same family. - Entries marked **Fallback** (use_only_if_nothing_more_specific: true), such as non sequitur, false cause and formal fallacy, may be used only when no more specific entry fits. Say which specific entries you considered and why they don't fit. - Some families also give a cross-family tie-break (for example, the selective-evidence family separates suppressed evidence, cherry-picking, Texas sharpshooter, survivorship bias and the lottery fallacy). Follow it. - Two labels in one sentence are allowed only if you can show two separate errors, each meeting its own conditions. Example: \"They've never been proven safe, so they must be what's causing these headaches\" contains an argument from ignorance (\"never proven safe\" treated as showing harm) and a separate causal leap (the headaches blamed on them with no evidence). Both labels may be recorded if each is shown. - **Cross-family ties.** Some ties cross families; follow these rules: - Ambiguity vs accident: if the key term changes sense between the rule and the case, use equivocation; if it keeps the same sense but the rule's rationale doesn't fit the case, use accident. - Causal alternatives: follow the order in the causation family rule (Simpson's paradox when the passage gives a reversing breakdown; then an identifiable common cause, then reverse direction, then cum hoc; observational interpretation when the study design is the problem). - Nature vs tradition: naturalness or \"built for\" wording is appeal to nature; age or history alone is appeal to tradition; if both appear in one step, report appeal to nature and note tradition. - Probability: follow the probability family rule (prosecutor's fallacy, base-rate fallacy, confusion of the inverse). - Generalization vs comparison: an exceptional source case (a special population or special circumstances) used to set a rule for ordinary cases or for everyone is converse accident; one case carried over to another comparable case is false analogy. - Experts disagreeing: \"experts disagree, so nothing can be known\" is inflation of conflict; a claim that simply ignores well-established findings is disregarding known science. - **Separate steps get separate rows.** A step that builds on an earlier error gets its own row if it commits a separate move of its own. Adjacent sentences are two steps when each meets its own entry. Example: \"It's up to the county to prove the plant is safe. They haven't, so it isn't\" contains a burden demand (misplaced burden of proof) and a conclusion from lack of proof (argument from ignorance); record both if each is shown. - **Weak premises without a label.** A second weak link in a chain gets its own row only if it meets an entry's conditions. Otherwise note it as \"weak premise\" without a fallacy label. - **Charged wording is not a second error.** Loaded words in the same step as a flagged error are not a second flag unless they carry their own inference. - **Reporting names.** Use the entry's name, not an alias. Where a family rule says to report under a familiar name with a qualifier, do so: a shift of meaning in a syllogism's middle term is reported as \"equivocation (four terms)\".",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**(c) Pick the most specific entry.** Use one label per step. - Check the entry's **Related, use only one per step** list and pick the singl"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "P bias and the lottery fallacy). Follow it. - Two labels in one sentence are allowed only if you can show two separate errors, each meeting its own conditions.",
+      "span": {
+        "quote": "p bias and the lottery fallacy). Follow it. - Two labels in one sentence are allowed only if you can show two separate errors, each meeting its own conditions. "
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c2",
+      "text": ": a shift of meaning in a syllogism's middle term is reported as \"equivocation (four terms)\".",
+      "span": {
+        "quote": ": a shift of meaning in a syllogism's middle term is reported as \"equivocation (four terms)\"."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c3",
+      "text": "No evidence.",
+      "span": {
+        "quote": "no evidence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c4",
+      "text": "Per step.",
+      "span": {
+        "quote": "per step"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c5",
+      "text": "Per step** list and pick the single entry in that family that fits best.",
+      "span": {
+        "quote": "per step** list and pick the single entry in that family that fits best"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c6",
+      "text": "One label per step.",
+      "span": {
+        "quote": "one label per step"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "no evidence"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c2",
+      "span": {
+        "quote": "per step"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c2",
+      "span": {
+        "quote": "per step** list and pick the single entry in that family that fits best"
+      }
+    },
+    {
+      "id": "e5",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "cause"
+      }
+    },
+    {
+      "id": "e6",
+      "type": "instantiates",
+      "source": "c6",
+      "target": "c2",
+      "span": {
+        "quote": "one label per step"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

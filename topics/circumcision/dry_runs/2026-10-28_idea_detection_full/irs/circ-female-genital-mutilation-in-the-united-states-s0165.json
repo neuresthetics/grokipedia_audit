@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0165",
+  "source_text": "While comprehensive U.S.-specific emergency room visit data for 2016\u20132024 remains limited due to underreporting, inpatient analyses show FGM/C patients require interventions for genital complications, underscoring the procedure's enduring toll. [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While comprehensive U.S.-specific emergency room visit data for 2016\u20132024 remains limited due to underreporting, inpatient analyses show FGM"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While comprehensive U.S.-specific emergency room visit data for 2016\u20132024 remains limited due to underreporting, inpatient analyses show FGM/C patients require.",
+      "span": {
+        "quote": "While comprehensive U.S.-specific emergency room visit data for 2016\u20132024 remains limited due to underreporting, inpatient analyses show FGM/C patients require "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

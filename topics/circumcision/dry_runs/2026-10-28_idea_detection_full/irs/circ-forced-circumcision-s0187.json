@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0187",
+  "source_text": "No large-scale trials isolate forced circumcision's impacts, but non-consensual contexts amplify procedural risks via higher infection and trauma rates in suboptimal conditions. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No large-scale trials isolate forced circumcision's impacts, but non-consensual contexts amplify procedural risks via higher infection and t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No large-scale trials isolate forced circumcision's impacts, but non-consensual contexts amplify procedural risks via higher infection and trauma rates in subop.",
+      "span": {
+        "quote": "No large-scale trials isolate forced circumcision's impacts, but non-consensual contexts amplify procedural risks via higher infection and trauma rates in subop"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

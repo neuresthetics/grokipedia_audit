@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-017",
+  "source_text": "Slippery slope lists later_link_unsupported as outside-text: a bare chain with no leap cue is possible issue, not a flag. \u201cProbably\u201d does not supply the missing link and is not a forbid. Hedge, default_rule, and precautionary charity are unchanged.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Slippery slope lists later_link_unsupported as outside-text: a bare chain with no leap cue is possible issue, not a flag. \u201cProbably\u201d does no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Slippery slope lists later_link_unsupported as outside-text: a bare chain with no leap cue is possible issue, not a flag. \u201cProbably\u201d does not supply the missing.",
+      "span": {
+        "quote": "Slippery slope lists later_link_unsupported as outside-text: a bare chain with no leap cue is possible issue, not a flag. \u201cProbably\u201d does not supply the missing"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

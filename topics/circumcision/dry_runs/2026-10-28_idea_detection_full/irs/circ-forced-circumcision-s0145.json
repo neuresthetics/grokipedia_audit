@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0145",
+  "source_text": "In some instances, such as a 2016 event in Marikina City where over 300 pre-teen boys underwent the procedure at a school under organized conditions, reports described it as compulsory, performed without individualized consent and often by unqualified practitioners using rudimentary methods like a sharpened bamboo blade or razor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In some instances, such as a 2016 event in Marikina City where over 300 pre-teen boys underwent the procedure at a school under organized co"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In some instances, such as a 2016 event in Marikina City where over 300 pre-teen boys underwent the procedure at a school under organized conditions, reports de.",
+      "span": {
+        "quote": "In some instances, such as a 2016 event in Marikina City where over 300 pre-teen boys underwent the procedure at a school under organized conditions, reports de"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

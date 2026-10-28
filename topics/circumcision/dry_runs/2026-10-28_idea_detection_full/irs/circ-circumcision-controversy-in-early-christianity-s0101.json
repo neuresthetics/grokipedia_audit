@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0101",
+  "source_text": "In Galatians, written around 48-55 CE, Paul asserted that receiving circumcision severs one from Christ and falls from grace, as it treats the rite as a means of righteousness rather than relying solely on faith (Galatians 5:2-4). [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Galatians, written around 48-55 CE, Paul asserted that receiving circumcision severs one from Christ and falls from grace, as it treats t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "paul"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Receiving circumcision severs one from Christ and falls from grace, as it treats the rite as a means of righteousness rather than relying solely on faith (Galat.",
+      "span": {
+        "quote": "receiving circumcision severs one from Christ and falls from grace, as it treats the rite as a means of righteousness rather than relying solely on faith (Galat"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In Galatians, written around 48-55 CE, Paul.",
+      "span": {
+        "quote": "In Galatians, written around 48-55 CE, Paul"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "asserted"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

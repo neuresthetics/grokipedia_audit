@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0323",
+  "source_text": "However, critics contend that these findings have limited applicability to low-prevalence populations like those in the United States or Europe, where HIV transmission dynamics differ (predominantly via men who have sex with men rather than heterosexual contact), and observational studies yield inconsistent results, potentially overestimating benefits due to confounding factors such as behavioral differences. [145]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, critics contend that these findings have limited applicability to low-prevalence populations like those in the United States or Eur"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ese findings have limited applicability to low-prevalence populations like those in the United States or Europe, where HIV transmission dynamics differ (predomi.",
+      "span": {
+        "quote": "ese findings have limited applicability to low-prevalence populations like those in the United States or Europe, where HIV transmission dynamics differ (predomi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

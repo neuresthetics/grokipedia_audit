@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0126",
+  "source_text": "The Royal Dutch Medical Association (KNMG) has condemned non-therapeutic circumcision of male minors as a violation of the child's physical integrity, arguing that potential medical benefits do not outweigh the risks of complications, such as infection and excessive skin removal, and recommending that the procedure be postponed until the individual can consent. [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Royal Dutch Medical Association (KNMG) has condemned non-therapeutic circumcision of male minors as a violation of the child's physical"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Royal Dutch Medical Association (KNMG) has condemned non-therapeutic circumcision of male minors as a violation of the child's physical integrity, arguing t.",
+      "span": {
+        "quote": "The Royal Dutch Medical Association (KNMG) has condemned non-therapeutic circumcision of male minors as a violation of the child's physical integrity, arguing t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

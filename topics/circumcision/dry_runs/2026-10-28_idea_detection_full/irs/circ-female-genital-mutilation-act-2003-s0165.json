@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0165",
+  "source_text": "Obstetric outcomes are particularly compromised, as evidenced by a WHO multicenter prospective study across six African countries involving 28,393 deliveries, which found women with FGM faced a 32% higher likelihood of postpartum hemorrhage, 66% increased need for instrumental delivery, and 55% greater risk of stillbirth or early neonatal death compared to uncircumcised women. [64]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Obstetric outcomes are particularly compromised, as evidenced by a WHO multicenter prospective study across six African countries involving"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Obstetric outcomes are particularly compromised, as evidenced by a WHO multicenter prospective study across six African countries involving 28,393 deliveries, w.",
+      "span": {
+        "quote": "Obstetric outcomes are particularly compromised, as evidenced by a WHO multicenter prospective study across six African countries involving 28,393 deliveries, w"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

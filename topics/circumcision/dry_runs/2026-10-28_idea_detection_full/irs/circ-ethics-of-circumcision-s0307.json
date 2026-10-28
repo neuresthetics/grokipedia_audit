@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0307",
+  "source_text": "UN bodies, including the World Health Organization, thus endorse voluntary adult and infant male circumcision in high-HIV-prevalence settings as a public health measure, eschewing equivalence to FGM/C due to these asymmetries. [70] [179]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "UN bodies, including the World Health Organization, thus endorse voluntary adult and infant male circumcision in high-HIV-prevalence setting"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "UN bodies, including the World Health Organization.",
+      "span": {
+        "quote": "UN bodies, including the World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Endorse voluntary adult and infant male circumcision in high-HIV-prevalence settings as a public health measure, eschewing equivalence to FGM/C due to these asy.",
+      "span": {
+        "quote": "endorse voluntary adult and infant male circumcision in high-HIV-prevalence settings as a public health measure, eschewing equivalence to FGM/C due to these asy"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "due to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

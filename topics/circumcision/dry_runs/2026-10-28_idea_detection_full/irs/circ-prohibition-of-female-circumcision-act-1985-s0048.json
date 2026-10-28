@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0048",
+  "source_text": "Supporters emphasized the urgent health imperatives, citing medical evidence of severe risks including hemorrhage, infection, urinary complications, and increased maternal mortality, drawn from reports on practices prevalent among immigrant communities from regions like Sudan and Somalia. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Supporters emphasized the urgent health imperatives, citing medical evidence of severe risks including hemorrhage, infection, urinary compli"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E urgent health imperatives, citing medical evidence of severe risks including hemorrhage, infection, urinary complications, and increased maternal mortality, d.",
+      "span": {
+        "quote": "e urgent health imperatives, citing medical evidence of severe risks including hemorrhage, infection, urinary complications, and increased maternal mortality, d"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing medical evidence of severe risks including hemorrhage.",
+      "span": {
+        "quote": "citing medical evidence of severe risks including hemorrhage"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing medical evidence of severe risks including hemorrhage"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

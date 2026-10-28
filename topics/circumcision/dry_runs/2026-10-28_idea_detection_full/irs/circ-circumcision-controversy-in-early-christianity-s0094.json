@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0094",
+  "source_text": "In Philippians, likely from prison around AD 60\u201362, Paul warned believers to beware \"dogs\" and \"evil workers\" promoting \"mutilation\" via circumcision, asserting that Christians constitute the true circumcision through Spirit-led worship and confidence in Christ alone, not fleshly credentials\u2014which Paul himself renounced despite his Pharisaic background. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Philippians, likely from prison around AD 60\u201362, Paul warned believers to beware \"dogs\" and \"evil workers\" promoting \"mutilation\" via cir"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Philippians, likely from prison around AD 60\u201362, Paul warned believers to beware \"dogs\" and \"evil workers\" promoting \"mutilation\" via circumcision, asserting.",
+      "span": {
+        "quote": "In Philippians, likely from prison around AD 60\u201362, Paul warned believers to beware \"dogs\" and \"evil workers\" promoting \"mutilation\" via circumcision, asserting"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

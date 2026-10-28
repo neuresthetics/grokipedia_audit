@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0146",
+  "source_text": "Studies affirm no benefits to FGM, emphasizing child protection over cultural concessions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies affirm no benefits to FGM, emphasizing child protection over cultural concessions."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies affirm no benefits to FGM, emphasizing child protection over cultural concessions.",
+      "span": {
+        "quote": "Studies affirm no benefits to FGM, emphasizing child protection over cultural concessions."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

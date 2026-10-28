@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0327",
+  "source_text": "Male circumcision, when conducted in clinical settings, has complication rates below 1%, primarily minor bleeding or infection, and is associated with protective effects against urinary tract infections in infancy (reduced by 90%) and heterosexual HIV acquisition (by 60%, per randomized trials in Africa). [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Male circumcision, when conducted in clinical settings, has complication rates below 1%, primarily minor bleeding or infection, and is assoc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Male circumcision, when conducted in clinical settings, has complication rates below 1%, primarily minor bleeding or infection, and is associated with protectiv.",
+      "span": {
+        "quote": "Male circumcision, when conducted in clinical settings, has complication rates below 1%, primarily minor bleeding or infection, and is associated with protectiv"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per randomized trials in Africa.",
+      "span": {
+        "quote": "per randomized trials in Africa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with protective effects against urinary tract infections in.",
+      "span": {
+        "quote": "associated with protective effects against urinary tract infections in"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per randomized trials in Africa"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with protective effects against urinary tract infections in"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with protective effects against urinary tract infections in ",
+          "span": {
+            "quote": "associated with protective effects against urinary tract infections in"
+          }
+        }
+      ]
+    }
+  ]
+}

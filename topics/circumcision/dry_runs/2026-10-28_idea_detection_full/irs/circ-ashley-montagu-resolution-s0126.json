@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0126",
+  "source_text": "It specifically invokes Article 3 of the Universal Declaration of Human Rights (UDHR), which guarantees everyone's right to life, liberty, and security of person, arguing that such procedures expose infants to unnecessary surgical risks and lifelong complications, undermining these protections. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It specifically invokes Article 3 of the Universal Declaration of Human Rights (UDHR), which guarantees everyone's right to life, liberty, a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It specifically invokes Article 3 of the Universal Declaration of Human Rights (UDHR), which guarantees everyone's right to life, liberty, and security of perso.",
+      "span": {
+        "quote": "It specifically invokes Article 3 of the Universal Declaration of Human Rights (UDHR), which guarantees everyone's right to life, liberty, and security of perso"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "These protections.",
+      "span": {
+        "quote": "these protections"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "these protections"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0041",
+  "source_text": "In much of Europe, cultural perceptions emphasize the uncircumcised penis as the aesthetically natural and unaltered form, with routine circumcision often critiqued for disrupting visual harmony and proportions without compelling non-religious justification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In much of Europe, cultural perceptions emphasize the uncircumcised penis as the aesthetically natural and unaltered form, with routine circ"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E uncircumcised penis as the aesthetically natural and unaltered form, with routine circumcision often critiqued for disrupting visual harmony and proportions w.",
+      "span": {
+        "quote": "e uncircumcised penis as the aesthetically natural and unaltered form, with routine circumcision often critiqued for disrupting visual harmony and proportions w"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In much of Europe, cultural perceptions.",
+      "span": {
+        "quote": "In much of Europe, cultural perceptions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

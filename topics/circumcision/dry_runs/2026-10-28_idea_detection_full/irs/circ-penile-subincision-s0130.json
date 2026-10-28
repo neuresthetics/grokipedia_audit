@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-penile-subincision-s0130",
+  "source_text": "Human rights frameworks, including those from the United Nations Convention on the Rights of the Child, prioritize minors' right to physical integrity over group customs, viewing subincision as coercive harm given the power imbalances in initiations and absence of reversible consent, a stance reinforced by bioethicists who note parallels to condemned female genital cuttings despite differing social valuations. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Human rights frameworks, including those from the United Nations Convention on the Rights of the Child, prioritize minors' right to physical"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Human rights frameworks, including those from the United Nations Convention on the Rights of the Child, prioritize minors' right to physical integrity over grou.",
+      "span": {
+        "quote": "Human rights frameworks, including those from the United Nations Convention on the Rights of the Child, prioritize minors' right to physical integrity over grou"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

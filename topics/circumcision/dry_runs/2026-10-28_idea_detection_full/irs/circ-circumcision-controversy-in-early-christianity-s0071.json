@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0071",
+  "source_text": "This demand, rooted in the view that full Torah observance\u2014including circumcision as entry to the Abrahamic covenant\u2014was requisite for salvation, ignited a \"sharp dispute and debate\" with Paul and Barnabas (Acts 15:2).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This demand, rooted in the view that full Torah observance\u2014including circumcision as entry to the Abrahamic covenant\u2014was requisite for salva"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This demand, rooted in the view that full Torah observance\u2014including circumcision as entry to the Abrahamic covenant\u2014was requisite for salvation, ignited a \"sha.",
+      "span": {
+        "quote": "This demand, rooted in the view that full Torah observance\u2014including circumcision as entry to the Abrahamic covenant\u2014was requisite for salvation, ignited a \"sha"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0126",
+  "source_text": "One study suggesting reduced penile sensitivity in circumcised groups relied on retrospective self-reports prone to recall bias and did not isolate causation from confounding factors like age or partner dynamics, failing to demonstrate downstream impacts on pleasure or function. [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "One study suggesting reduced penile sensitivity in circumcised groups relied on retrospective self-reports prone to recall bias and did not"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "One study suggesting reduced penile sensitivity in circumcised groups relied on retrospective self-reports prone to recall bias and did not isolate causation fr.",
+      "span": {
+        "quote": "One study suggesting reduced penile sensitivity in circumcised groups relied on retrospective self-reports prone to recall bias and did not isolate causation fr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

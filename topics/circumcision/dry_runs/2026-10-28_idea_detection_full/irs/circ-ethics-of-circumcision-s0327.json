@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0327",
+  "source_text": "European pediatric societies and bioethicists maintain strong opposition to non-therapeutic infant circumcision, prioritizing the child's right to bodily autonomy and physical integrity over cultural or marginal preventive benefits.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "European pediatric societies and bioethicists maintain strong opposition to non-therapeutic infant circumcision, prioritizing the child's ri"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Strong opposition to non-therapeutic infant circumcision, prioritizing the child's right to bodily autonomy and physical integrity over cultural or marginal pre.",
+      "span": {
+        "quote": "strong opposition to non-therapeutic infant circumcision, prioritizing the child's right to bodily autonomy and physical integrity over cultural or marginal pre"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "European pediatric societies and bioethicists.",
+      "span": {
+        "quote": "European pediatric societies and bioethicists"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

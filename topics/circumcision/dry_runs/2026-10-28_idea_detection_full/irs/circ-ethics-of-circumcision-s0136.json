@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0136",
+  "source_text": "Proposals in Iceland (2018) and parliamentary motions in Denmark and Finland sought criminalization of infant procedures, citing incompatibility with UN child rights conventions on bodily harm, but these efforts faced opposition for overlooking risk-benefit analyses from sub-Saharan trials showing 60% HIV risk reduction and for prioritizing autonomy over parental welfare judgments in low-autonomy contexts like infancy. [86]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proposals in Iceland (2018) and parliamentary motions in Denmark and Finland sought criminalization of infant procedures, citing incompatibi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proposals in Iceland (2018) and parliamentary motions in Denmark and Finland sought criminalization of infant procedures, citing incompatibility with UN child r.",
+      "span": {
+        "quote": "Proposals in Iceland (2018) and parliamentary motions in Denmark and Finland sought criminalization of infant procedures, citing incompatibility with UN child r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing incompatibility with UN child rights conventions on bodily harm.",
+      "span": {
+        "quote": "citing incompatibility with UN child rights conventions on bodily harm"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing incompatibility with UN child rights conventions on bodily harm"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

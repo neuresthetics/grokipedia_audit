@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-in-the-bible-s0086",
+  "source_text": "He states that if anyone accepts circumcision as necessary for justification, Christ will be of no benefit to them, and they will be obligated to keep the entire law, severing themselves from Christ and falling from grace.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "He states that if anyone accepts circumcision as necessary for justification, Christ will be of no benefit to them, and they will be obligat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "he",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "He states that if anyone accepts circumcision as necessary for justification, Christ will be of no benefit to them, and they will be obligated to keep the entir.",
+      "span": {
+        "quote": "He states that if anyone accepts circumcision as necessary for justification, Christ will be of no benefit to them, and they will be obligated to keep the entir"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

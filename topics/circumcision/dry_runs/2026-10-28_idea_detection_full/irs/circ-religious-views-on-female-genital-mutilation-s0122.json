@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0122",
+  "source_text": "In a November 2022 address, he explicitly labeled FGM a \"crime\" that undermines equality and opportunity, urging global action rooted in moral imperatives over cultural traditions. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a November 2022 address, he explicitly labeled FGM a \"crime\" that undermines equality and opportunity, urging global action rooted in mor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "he",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a November 2022 address, he explicitly labeled FGM a \"crime\" that undermines equality and opportunity, urging global action rooted in moral imperatives over.",
+      "span": {
+        "quote": "In a November 2022 address, he explicitly labeled FGM a \"crime\" that undermines equality and opportunity, urging global action rooted in moral imperatives over "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0079",
+  "source_text": "The glans penis itself contains thousands of specialized nerve endings (around 4,000\u20138,000 axons/receptors), forming the primary site for erogenous sensation, which remains unaffected by circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The glans penis itself contains thousands of specialized nerve endings (around 4,000\u20138,000 axons/receptors), forming the primary site for er"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The glans penis itself contains thousands of specialized nerve endings (around 4,000\u20138,000 axons/receptors), forming the primary site for erogenous sensation, w.",
+      "span": {
+        "quote": "The glans penis itself contains thousands of specialized nerve endings (around 4,000\u20138,000 axons/receptors), forming the primary site for erogenous sensation, w"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0120",
+  "source_text": "For priests and religious functionaries, it enforced celibacy to maintain ritual purity and focus on spiritual obligations. [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For priests and religious functionaries, it enforced celibacy to maintain ritual purity and focus on spiritual obligations. [14]"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ritual purity and focus on spiritual obligations.",
+      "span": {
+        "quote": "ritual purity and focus on spiritual obligations."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "For priests and religious functionaries, it enforced celibacy to.",
+      "span": {
+        "quote": "For priests and religious functionaries, it enforced celibacy to"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

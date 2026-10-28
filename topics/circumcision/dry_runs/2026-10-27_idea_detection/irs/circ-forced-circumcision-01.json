@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-forced-circumcision-01",
+  "source_text": "While proponents cite unsubstantiated beliefs in enhanced masculinity, hygiene, or physical prowess, the procedure's enforcement through peer and familial compulsion underscores its non-voluntary character for participants.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "enforcement through peer and familial compulsion underscores its non-voluntary character"
+      },
+      "claim_ids": [
+        "c_beliefs",
+        "c_compel",
+        "c_nonvol"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_beliefs",
+      "text": "Proponents cite beliefs in enhanced masculinity, hygiene, or physical prowess that the passage calls unsubstantiated.",
+      "span": {
+        "quote": "proponents cite unsubstantiated beliefs in enhanced masculinity, hygiene, or physical prowess"
+      },
+      "role": "attribution",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c_compel",
+      "text": "The procedure is enforced through peer and familial compulsion.",
+      "span": {
+        "quote": "enforcement through peer and familial compulsion"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c_nonvol",
+      "text": "The procedure is non-voluntary for participants.",
+      "span": {
+        "quote": "underscores its non-voluntary character for participants"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_compel",
+      "target": "c_nonvol",
+      "span": {
+        "quote": "enforcement through peer and familial compulsion underscores its non-voluntary character"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c_compel",
+      "target": "c_beliefs",
+      "span": {
+        "quote": "While proponents cite unsubstantiated beliefs"
+      },
+      "answered": false
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

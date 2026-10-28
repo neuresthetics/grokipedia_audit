@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0143",
+  "source_text": "While proponents in affected communities may view Gishiri cutting as a remedial intervention rather than mutilation, the classification prioritizes anatomical injury and absence of evidence-based efficacy, as evidenced by studies linking it to severe outcomes like genital fistulas without proven preventive value. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While proponents in affected communities may view Gishiri cutting as a remedial intervention rather than mutilation, the classification prio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While proponents in affected communities may view Gishiri cutting as a remedial intervention rather than mutilation, the classification prioritizes anatomical i.",
+      "span": {
+        "quote": "While proponents in affected communities may view Gishiri cutting as a remedial intervention rather than mutilation, the classification prioritizes anatomical i"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Absence of evidence-based efficacy.",
+      "span": {
+        "quote": "absence of evidence-based efficacy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "absence of evidence-based efficacy"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

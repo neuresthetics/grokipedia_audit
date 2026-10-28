@@ -1,0 +1,90 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0336",
+  "source_text": "Public health modeling supports VMMC scale-up in epidemic epicenters for cost-effective HIV control (cost per infection averted: $200-600), but in low-incidence settings, critics argue resources are better allocated to education, condoms, and PrEP, given circumcision's incomplete protection (40-50% residual risk) and reliance on high coverage rates unachievable without compulsion. [153]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Public health modeling supports VMMC scale-up in epidemic epicenters for cost-effective HIV control (cost per infection averted: $200-600),"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Resources are better allocated to education, condoms, and PrEP, given circumcision's incomplete protection (40-50% residual risk) and reliance on high coverage.",
+      "span": {
+        "quote": "resources are better allocated to education, condoms, and PrEP, given circumcision's incomplete protection (40-50% residual risk) and reliance on high coverage "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Public health modeling supports VMMC scale-up in epidemic epicenters for cost-effective HIV control (cost per infection averted: $200-600), but in low-incidence.",
+      "span": {
+        "quote": "Public health modeling supports VMMC scale-up in epidemic epicenters for cost-effective HIV control (cost per infection averted: $200-600), but in low-incidence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "Per infection averted: $200-600.",
+      "span": {
+        "quote": "per infection averted: $200-600"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per infection averted: $200-600"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

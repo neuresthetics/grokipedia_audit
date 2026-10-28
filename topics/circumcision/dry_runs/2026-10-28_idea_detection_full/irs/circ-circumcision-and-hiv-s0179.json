@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0179",
+  "source_text": "Population-level data from sub-Saharan Africa have similarly associated increased VMMC coverage with reduced HIV incidence, though effects vary by region due to factors like program saturation and concurrent interventions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Population-level data from sub-Saharan Africa have similarly associated increased VMMC coverage with reduced HIV incidence, though effects v"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Population-level data from sub-Saharan Africa have similarly associated increased VMMC coverage with reduced HIV incidence, though effects vary by region due to.",
+      "span": {
+        "quote": "Population-level data from sub-Saharan Africa have similarly associated increased VMMC coverage with reduced HIV incidence, though effects vary by region due to"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

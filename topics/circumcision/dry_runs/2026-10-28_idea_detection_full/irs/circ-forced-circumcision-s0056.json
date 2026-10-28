@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-forced-circumcision-s0056",
+  "source_text": "Pre-rite songs and dances intensify pressure, and any display of pain leads to labeling as orkaisiodi (flincher), barring the individual from social privileges like feather adornments or cattle-sharing, effectively coercing compliance through familial and peer shaming.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pre-rite songs and dances intensify pressure, and any display of pain leads to labeling as orkaisiodi (flincher), barring the individual fro"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pre-rite songs and dances intensify pressure, and any display of pain leads to labeling as orkaisiodi (flincher), barring the individual from social privileges.",
+      "span": {
+        "quote": "Pre-rite songs and dances intensify pressure, and any display of pain leads to labeling as orkaisiodi (flincher), barring the individual from social privileges "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

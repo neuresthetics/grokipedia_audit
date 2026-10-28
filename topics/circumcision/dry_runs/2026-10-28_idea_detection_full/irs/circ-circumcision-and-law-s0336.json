@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0336",
+  "source_text": "In jurisdictions recognizing broad parental authority over medical decisions for minors, such as under the U.S. Supreme Court's ruling in Parham v. J.R. (1979), parents retain the prerogative to authorize treatments deemed in the child's best interest, including elective circumcision for cultural or religious reasons, provided no immediate harm is evident. [184]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In jurisdictions recognizing broad parental authority over medical decisions for minors, such as under the U.S. Supreme Court's ruling in Pa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In jurisdictions recognizing broad parental authority over medical decisions for minors, such as under the U.S. Supreme Court's ruling in Parham v. J.R. (1979),.",
+      "span": {
+        "quote": "In jurisdictions recognizing broad parental authority over medical decisions for minors, such as under the U.S. Supreme Court's ruling in Parham v. J.R. (1979),"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-infibulation-s0135",
+  "source_text": "In communities practicing female infibulation, proponents claim it enhances personal hygiene by minimizing vaginal secretions and odors, thereby promoting cleanliness in arid environments where water is scarce. [65]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In communities practicing female infibulation, proponents claim it enhances personal hygiene by minimizing vaginal secretions and odors, the"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In communities practicing female infibulation, proponents claim it enhances personal hygiene by minimizing vaginal secretions and odors.",
+      "span": {
+        "quote": "In communities practicing female infibulation, proponents claim it enhances personal hygiene by minimizing vaginal secretions and odors"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Promoting cleanliness in arid environments where water is scarce. [65].",
+      "span": {
+        "quote": "promoting cleanliness in arid environments where water is scarce. [65]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

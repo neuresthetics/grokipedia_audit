@@ -1,0 +1,58 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0045",
+  "source_text": "A key outcome was the adoption of the \"Declaration of the First International Symposium on Circumcision\" by the general assembly, which condemned non-therapeutic circumcision as a violation of the United Nations Universal Declaration of Human Rights, particularly Article V prohibiting cruel treatment, and invoked the Hippocratic principle of \"first, do no harm\" to advocate for its cessation. [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A key outcome was the adoption of the \"Declaration of the First International Symposium on Circumcision\" by the general assembly, which cond"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A key outcome was the adoption of the \"Declaration of the First International Symposium on Circumcision\" by the general assembly, which condemned non-therapeuti.",
+      "span": {
+        "quote": "A key outcome was the adoption of the \"Declaration of the First International Symposium on Circumcision\" by the general assembly, which condemned non-therapeuti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "A key outcome was the adoption of the \"Declaration of the Firs.",
+      "span": {
+        "quote": "A key outcome was the adoption of the \"Declaration of the Firs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "A key outcome was the adoption of the \"Declaration of the Fi"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

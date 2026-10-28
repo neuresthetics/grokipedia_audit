@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0042",
+  "source_text": "In New York City from 2000 to 2011, health authorities documented 11 cases of infant HSV-1 following ritual circumcision with oral suction, resulting in two deaths and two cases of neurological damage; further incidents occurred post-2011, prompting regulatory efforts balanced against religious autonomy. [29] [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In New York City from 2000 to 2011, health authorities documented 11 cases of infant HSV-1 following ritual circumcision with oral suction,"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In New York City from 2000 to 2011, health authorities documented 11 cases of infant HSV-1 following ritual circumcision with oral suction, resulting in two dea.",
+      "span": {
+        "quote": "In New York City from 2000 to 2011, health authorities documented 11 cases of infant HSV-1 following ritual circumcision with oral suction, resulting in two dea"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

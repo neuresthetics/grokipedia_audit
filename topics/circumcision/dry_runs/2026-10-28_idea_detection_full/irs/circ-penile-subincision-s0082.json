@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0082",
+  "source_text": "Penile subincision involves a deliberate incision along the ventral urethra, which can predispose individuals to chronic urinary tract infections due to altered anatomy facilitating bacterial ascension and incomplete voiding. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penile subincision involves a deliberate incision along the ventral urethra, which can predispose individuals to chronic urinary tract infec"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penile subincision involves a deliberate incision along the ventral urethra, which can predispose individuals to chronic urinary tract infections due to altered.",
+      "span": {
+        "quote": "Penile subincision involves a deliberate incision along the ventral urethra, which can predispose individuals to chronic urinary tract infections due to altered"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

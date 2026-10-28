@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0180",
+  "source_text": "Neonatal or childhood circumcision reduces the risk of invasive penile cancer, with a meta-analysis of case-control studies showing an odds ratio of 0.33 (95% CI 0.13\u20130.83) for men circumcised before adulthood versus uncircumcised men. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal or childhood circumcision reduces the risk of invasive penile cancer, with a meta-analysis of case-control studies showing an odds"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal or childhood circumcision reduces the risk of invasive penile cancer, with a meta-analysis of case-control studies showing an odds ratio of 0.33 (95% C.",
+      "span": {
+        "quote": "Neonatal or childhood circumcision reduces the risk of invasive penile cancer, with a meta-analysis of case-control studies showing an odds ratio of 0.33 (95% C"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0075",
+  "source_text": "Female genital mutilation (FGM) lacks any explicit endorsement in the Quran, with proponents in Sudan and broader Islamic contexts instead relying on certain hadiths that analogize it to male circumcision (khitan) for purposes of cleanliness and moral purification. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) lacks any explicit endorsement in the Quran, with proponents in Sudan and broader Islamic contexts instead r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) lacks any explicit endorsement in the Quran, with proponents in Sudan and broader Islamic contexts instead relying on certain ha.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) lacks any explicit endorsement in the Quran, with proponents in Sudan and broader Islamic contexts instead relying on certain ha"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

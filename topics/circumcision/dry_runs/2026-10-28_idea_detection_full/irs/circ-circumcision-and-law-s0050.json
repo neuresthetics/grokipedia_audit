@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0050",
+  "source_text": "Advocates for restricting non-therapeutic infant male circumcision argue that the procedure violates protections for bodily integrity under core international human rights instruments, as it involves the permanent removal of healthy genital tissue without the subject's informed consent or immediate medical necessity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocates for restricting non-therapeutic infant male circumcision argue that the procedure violates protections for bodily integrity under"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure violates protections for bodily integrity under core international human rights instruments, as it involves the permanent removal of healthy genital.",
+      "span": {
+        "quote": "e procedure violates protections for bodily integrity under core international human rights instruments, as it involves the permanent removal of healthy genital"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Advocates for restricting non-therapeutic infant male circumcision.",
+      "span": {
+        "quote": "Advocates for restricting non-therapeutic infant male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

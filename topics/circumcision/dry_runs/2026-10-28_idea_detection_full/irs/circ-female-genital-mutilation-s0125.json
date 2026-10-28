@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0125",
+  "source_text": "Female genital mutilation (FGM) functions as a tool of social control in practicing communities, primarily by regulating female sexuality and enforcing premarital chastity to uphold family honor and marriage prospects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) functions as a tool of social control in practicing communities, primarily by regulating female sexuality an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) functions as a tool of social control in practicing communities, primarily by regulating female sexuality and enforcing premarit.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) functions as a tool of social control in practicing communities, primarily by regulating female sexuality and enforcing premarit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

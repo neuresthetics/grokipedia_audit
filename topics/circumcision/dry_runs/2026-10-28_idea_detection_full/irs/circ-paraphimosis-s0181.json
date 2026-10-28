@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-paraphimosis-s0181",
+  "source_text": "Following circumcision, recurrence rates approach zero, emphasizing its role in long-term prevention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Following circumcision, recurrence rates approach zero, emphasizing its role in long-term prevention."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Following circumcision, recurrence rates approach zero, emphasizing its role in long-term prevention.",
+      "span": {
+        "quote": "Following circumcision, recurrence rates approach zero, emphasizing its role in long-term prevention."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

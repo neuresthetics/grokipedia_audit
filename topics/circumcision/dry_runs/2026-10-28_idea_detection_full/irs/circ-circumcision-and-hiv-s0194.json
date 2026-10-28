@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0194",
+  "source_text": "Defenses highlight prespecified statistical boundaries (e.g., Haybittle-Peto) and consistency with post-trial observational data showing persistent protection up to 5\u20137 years in Rakai, Uganda. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Defenses highlight prespecified statistical boundaries (e.g., Haybittle-Peto) and consistency with post-trial observational data showing per"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Defenses highlight prespecified statistical boundaries (e.g., Haybittle-Peto) and consistency with post-trial observational data showing persistent protection u.",
+      "span": {
+        "quote": "Defenses highlight prespecified statistical boundaries (e.g., Haybittle-Peto) and consistency with post-trial observational data showing persistent protection u"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

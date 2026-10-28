@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0309",
+  "source_text": "Rights interpretations under these frameworks emphasize empirical balancing over ideological purity, weighing irreversible alteration against causal evidence of net health gains.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rights interpretations under these frameworks emphasize empirical balancing over ideological purity, weighing irreversible alteration agains"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical balancing over ideological purity, weighing irreversible alteration against causal evidence of net health gains.",
+      "span": {
+        "quote": "empirical balancing over ideological purity, weighing irreversible alteration against causal evidence of net health gains."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Rights interpretations under these frameworks.",
+      "span": {
+        "quote": "Rights interpretations under these frameworks"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

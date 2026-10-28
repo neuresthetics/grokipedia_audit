@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0131",
+  "source_text": "In religious and ethnic minorities, such as Jewish and Muslim communities, circumcision serves as a rite of passage that reinforces cultural continuity and communal bonds, mitigating assimilation pressures in pluralistic societies. [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In religious and ethnic minorities, such as Jewish and Muslim communities, circumcision serves as a rite of passage that reinforces cultural"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In religious and ethnic minorities, such as Jewish and Muslim communities, circumcision serves as a rite of passage that reinforces cultural continuity and comm.",
+      "span": {
+        "quote": "In religious and ethnic minorities, such as Jewish and Muslim communities, circumcision serves as a rite of passage that reinforces cultural continuity and comm"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0109",
+  "source_text": "The British Medical Association (BMA) guidance, updated through the 2000s, requires explicit consent from both parents for non-therapeutic procedures and highlights ethical concerns over performing irreversible surgery on minors without medical necessity, though it does not prohibit the practice outright. [68]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The British Medical Association (BMA) guidance, updated through the 2000s, requires explicit consent from both parents for non-therapeutic p"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The British Medical Association (BMA) guidance, updated through the 2000s, requires explicit consent from both parents for non-therapeutic procedures and highli.",
+      "span": {
+        "quote": "The British Medical Association (BMA) guidance, updated through the 2000s, requires explicit consent from both parents for non-therapeutic procedures and highli"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

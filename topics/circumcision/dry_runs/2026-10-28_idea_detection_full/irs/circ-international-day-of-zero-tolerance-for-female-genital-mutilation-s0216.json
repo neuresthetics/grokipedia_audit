@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0216",
+  "source_text": "WHO convened a virtual event at 14:00 CET to discuss building momentum, while UN Women reiterated FGM's classification as violence against women and girls, demanding enforcement of existing commitments. [15] [78]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "WHO convened a virtual event at 14:00 CET to discuss building momentum, while UN Women reiterated FGM's classification as violence against w"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "WHO convened a virtual event at 14:00 CET to discuss building momentum, while UN Women reiterated FGM's classification as violence against women and girls, dema.",
+      "span": {
+        "quote": "WHO convened a virtual event at 14:00 CET to discuss building momentum, while UN Women reiterated FGM's classification as violence against women and girls, dema"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

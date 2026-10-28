@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-006",
+  "source_text": "Drop from v1: scale, free-form rhetorical_cues as required structure, geometric Definition/Axiom/Proof node types. Keep only what predicates need.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Drop from v1: scale, free-form rhetorical_cues as required structure, geometric Definition/Axiom/Proof node types. Keep only what predicates"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Drop from v1: scale, free-form rhetorical_cues as required structure, geometric Definition/Axiom/Proof node types. Keep only what predicates need.",
+      "span": {
+        "quote": "Drop from v1: scale, free-form rhetorical_cues as required structure, geometric Definition/Axiom/Proof node types. Keep only what predicates need."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

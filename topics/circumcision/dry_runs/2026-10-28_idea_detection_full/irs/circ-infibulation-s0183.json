@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0183",
+  "source_text": "Empirical analyses of global practices confirm that such female-specific mutilations correlate with broader indicators of gender-based violence, justifying interventions grounded in verifiable harm disparities rather than cultural equivalence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical analyses of global practices confirm that such female-specific mutilations correlate with broader indicators of gender-based viole"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical analyses of global practices confirm that such female-specific mutilations correlate with broader indicators of gender-based violence, justifying inte.",
+      "span": {
+        "quote": "Empirical analyses of global practices confirm that such female-specific mutilations correlate with broader indicators of gender-based violence, justifying inte"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

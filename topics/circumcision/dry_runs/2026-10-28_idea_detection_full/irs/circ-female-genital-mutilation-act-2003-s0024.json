@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0024",
+  "source_text": "Sexual dysfunction arises from nerve damage and tissue loss, impairing sensation and lubrication, while psychological sequelae like post-traumatic stress disorder emerge from the non-consensual violation of bodily integrity during childhood. [13] [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sexual dysfunction arises from nerve damage and tissue loss, impairing sensation and lubrication, while psychological sequelae like post-tra"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sexual dysfunction arises from nerve damage and tissue loss, impairing sensation and lubrication, while psychological sequelae like post-traumatic stress disord.",
+      "span": {
+        "quote": "Sexual dysfunction arises from nerve damage and tissue loss, impairing sensation and lubrication, while psychological sequelae like post-traumatic stress disord"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

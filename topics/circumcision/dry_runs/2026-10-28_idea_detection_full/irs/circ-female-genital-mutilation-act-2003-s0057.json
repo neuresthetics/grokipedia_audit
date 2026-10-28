@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0057",
+  "source_text": "Epidemiologically, FGM correlates with immediate risks like hemorrhage and sepsis, plus long-term issues including urinary retention, infertility, and heightened maternal/neonatal mortality during delivery (e.g., fourfold increase in postpartum hemorrhage), with no offsetting benefits. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Epidemiologically, FGM correlates with immediate risks like hemorrhage and sepsis, plus long-term issues including urinary retention, infert"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Epidemiologically, FGM correlates with immediate risks like hemorrhage and sepsis, plus long-term issues including urinary retention, infertility, and heightene.",
+      "span": {
+        "quote": "Epidemiologically, FGM correlates with immediate risks like hemorrhage and sepsis, plus long-term issues including urinary retention, infertility, and heightene"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0454",
+  "source_text": "A Danish study linked subtle associations with later consultations, but cultural confounders and small effects weaken causality; biomarker studies show no lasting stress changes. [249]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A Danish study linked subtle associations with later consultations, but cultural confounders and small effects weaken causality; biomarker s"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Danish study linked subtle associations with later consultations, but cultural confounders and small effects weaken causality; biomarker studies show no lasti.",
+      "span": {
+        "quote": "A Danish study linked subtle associations with later consultations, but cultural confounders and small effects weaken causality; biomarker studies show no lasti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

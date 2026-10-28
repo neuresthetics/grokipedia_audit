@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-female-genital-mutilation-s0188",
+  "source_text": "These forms, while less invasive, still constitute FGM under international definitions due to intentional harm to female genitalia for non-medical reasons.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These forms, while less invasive, still constitute FGM under international definitions due to intentional harm to female genitalia for non-m"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These forms, while less invasive, still constitute FGM under international definitions due to intentional harm to female genitalia for non-medical reasons.",
+      "span": {
+        "quote": "These forms, while less invasive, still constitute FGM under international definitions due to intentional harm to female genitalia for non-medical reasons."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

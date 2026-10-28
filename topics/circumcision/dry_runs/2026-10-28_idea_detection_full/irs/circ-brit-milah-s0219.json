@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0219",
+  "source_text": "Cohort studies show circumcision eliminates these risks almost entirely, with adult balanitis rates dropping by over 90% post-procedure. [106] [107]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cohort studies show circumcision eliminates these risks almost entirely, with adult balanitis rates dropping by over 90% post-procedure. [10"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cohort studies show circumcision eliminates these risks almost entirely, with adult balanitis rates dropping by over 90% post-procedure. [106] [107].",
+      "span": {
+        "quote": "Cohort studies show circumcision eliminates these risks almost entirely, with adult balanitis rates dropping by over 90% post-procedure. [106] [107]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

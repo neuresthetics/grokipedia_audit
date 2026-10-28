@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-infibulation-s0178",
+  "source_text": "Systematic reviews of clinical data reveal complication rates exceeding 50% in infibulated women, encompassing dyspareunia, infertility risks, and fistula formation, with no empirical studies identifying hygienic, sexual, or social advantages to counter these outcomes. [73] [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews of clinical data reveal complication rates exceeding 50% in infibulated women, encompassing dyspareunia, infertility risk"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews of clinical data reveal complication rates exceeding 50% in infibulated women, encompassing dyspareunia, infertility risks, and fistula forma.",
+      "span": {
+        "quote": "Systematic reviews of clinical data reveal complication rates exceeding 50% in infibulated women, encompassing dyspareunia, infertility risks, and fistula forma"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

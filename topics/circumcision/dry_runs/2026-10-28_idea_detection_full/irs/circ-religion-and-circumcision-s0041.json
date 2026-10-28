@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0041",
+  "source_text": "Empirical data indicate low overall complication rates for neonatal circumcision, comparable to other routine procedures, though metzitzah b'peh has been causally linked to neonatal herpes simplex virus type 1 (HSV-1) transmission.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data indicate low overall complication rates for neonatal circumcision, comparable to other routine procedures, though metzitzah b"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data indicate low overall complication rates for neonatal circumcision, comparable to other routine procedures, though metzitzah b'peh has been causal.",
+      "span": {
+        "quote": "Empirical data indicate low overall complication rates for neonatal circumcision, comparable to other routine procedures, though metzitzah b'peh has been causal"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to neonatal herpes simplex virus type 1 (HSV-1) transmission.",
+      "span": {
+        "quote": "linked to neonatal herpes simplex virus type 1 (HSV-1) transmission"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to neonatal herpes simplex virus type 1 (HSV-1) transmission"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to neonatal herpes simplex virus type 1 (HSV-1) transmission",
+          "span": {
+            "quote": "linked to neonatal herpes simplex virus type 1 (HSV-1) transmission"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0221",
+  "source_text": "Critiques highlight methodological flaws, including non-causal associations, exclusion of maternal deaths skewing fertility data, insufficient sample size across countries, and reliance on single-timepoint surveys amid declining FGM trends, rendering the findings unproven and potentially misleading for policy. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques highlight methodological flaws, including non-causal associations, exclusion of maternal deaths skewing fertility data, insufficie"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critiques highlight methodological flaws, including non-causal associations, exclusion of maternal deaths skewing fertility data, insufficient sample size acros.",
+      "span": {
+        "quote": "Critiques highlight methodological flaws, including non-causal associations, exclusion of maternal deaths skewing fertility data, insufficient sample size acros"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unproven and potentially misleading for policy.",
+      "span": {
+        "quote": "unproven and potentially misleading for policy"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unproven and potentially misleading for policy"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

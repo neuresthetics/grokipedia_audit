@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0154",
+  "source_text": "Women affected by female genital mutilation/cutting (FGM/C) in the United States face chronic reproductive health challenges, including increased requirements for cesarean sections and heightened risks of infertility, with severity linked to procedure type.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Women affected by female genital mutilation/cutting (FGM/C) in the United States face chronic reproductive health challenges, including incr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Women affected by female genital mutilation/cutting (FGM/C) in the United States face chronic reproductive health challenges, including increased requirements f.",
+      "span": {
+        "quote": "Women affected by female genital mutilation/cutting (FGM/C) in the United States face chronic reproductive health challenges, including increased requirements f"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to procedure type.",
+      "span": {
+        "quote": "linked to procedure type"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to procedure type"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to procedure type",
+          "span": {
+            "quote": "linked to procedure type"
+          }
+        }
+      ]
+    }
+  ]
+}

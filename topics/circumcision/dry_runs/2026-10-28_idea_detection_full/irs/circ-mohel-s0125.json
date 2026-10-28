@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-mohel-s0125",
+  "source_text": "These reductions stem from decreased susceptibility to mucosal pathogens, with cohort studies showing circumcised males exhibit lower oncogenic HPV strains linked to anogenital cancers.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These reductions stem from decreased susceptibility to mucosal pathogens, with cohort studies showing circumcised males exhibit lower oncoge"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These reductions stem from decreased susceptibility to mucosal pathogens, with cohort studies showing circumcised males exhibit lower oncogenic HPV strains link.",
+      "span": {
+        "quote": "These reductions stem from decreased susceptibility to mucosal pathogens, with cohort studies showing circumcised males exhibit lower oncogenic HPV strains link"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to anogenital cancers.",
+      "span": {
+        "quote": "linked to anogenital cancers"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to anogenital cancers"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to anogenital cancers",
+          "span": {
+            "quote": "linked to anogenital cancers"
+          }
+        }
+      ]
+    }
+  ]
+}

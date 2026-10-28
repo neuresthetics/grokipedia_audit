@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-paraphimosis-s0204",
+  "source_text": "This procedure serves as a reliable prophylactic strategy, nearly eliminating paraphimosis risk while also offering broader benefits like reduced penile carcinoma incidence, though it is typically reserved for cases where non-surgical options fail.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This procedure serves as a reliable prophylactic strategy, nearly eliminating paraphimosis risk while also offering broader benefits like re"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This procedure serves as a reliable prophylactic strategy, nearly eliminating paraphimosis risk while also offering broader benefits like reduced penile carcino.",
+      "span": {
+        "quote": "This procedure serves as a reliable prophylactic strategy, nearly eliminating paraphimosis risk while also offering broader benefits like reduced penile carcino"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

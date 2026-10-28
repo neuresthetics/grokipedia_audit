@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0311",
+  "source_text": "Proponents argue that labeling FGM as \"mutilation\" imposes Western individualism over collective cultural agency, potentially overlooking how some women in practicing societies report perceived benefits, such as enhanced marriage prospects or social acceptance.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents argue that labeling FGM as \"mutilation\" imposes Western individualism over collective cultural agency, potentially overlooking ho"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Labeling FGM as \"mutilation\" imposes Western individualism over collective cultural agency, potentially overlooking how some women in practicing societies repor.",
+      "span": {
+        "quote": "labeling FGM as \"mutilation\" imposes Western individualism over collective cultural agency, potentially overlooking how some women in practicing societies repor"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

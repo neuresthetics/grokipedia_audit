@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0187",
+  "source_text": "Non-surgical foreskin restoration, typically involving manual tissue expansion via tension devices over months or years, yields only a facsimile of coverage from shaft skin, lacking the original's vascular supply, elasticity, and nerve density; it fails to restore anatomical features like the frenulum or mucosal lining, rendering outcomes primarily aesthetic rather than physiologically equivalent. [121]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Non-surgical foreskin restoration, typically involving manual tissue expansion via tension devices over months or years, yields only a facsi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-surgical foreskin restoration, typically involving manual tissue expansion via tension devices over months or years, yields only a facsimile of coverage fro.",
+      "span": {
+        "quote": "Non-surgical foreskin restoration, typically involving manual tissue expansion via tension devices over months or years, yields only a facsimile of coverage fro"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

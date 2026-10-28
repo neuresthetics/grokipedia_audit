@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0143",
+  "source_text": "Globally, advocacy for voluntary medical male circumcision (VMMC) as an HIV prevention strategy persisted through 2025, with UNAIDS reporting that 35 million procedures conducted from 2008 to 2022 in 15 high-prevalence African countries averted an estimated 670,000 infections, despite faltering program scale-up and funding challenges. [91]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Globally, advocacy for voluntary medical male circumcision (VMMC) as an HIV prevention strategy persisted through 2025, with UNAIDS reportin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Globally, advocacy for voluntary medical male circumcision (VMMC) as an HIV prevention strategy persisted through 2025, with UNAIDS reporting that 35 million pr.",
+      "span": {
+        "quote": "Globally, advocacy for voluntary medical male circumcision (VMMC) as an HIV prevention strategy persisted through 2025, with UNAIDS reporting that 35 million pr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

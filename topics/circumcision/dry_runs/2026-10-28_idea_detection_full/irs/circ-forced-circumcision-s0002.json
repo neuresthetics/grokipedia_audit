@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0002",
+  "source_text": "This practice violates principles of bodily autonomy by altering healthy genital tissue without therapeutic necessity or patient agreement, often justified through cultural, religious, or epidemiological rationales that prioritize communal norms over individual rights. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice violates principles of bodily autonomy by altering healthy genital tissue without therapeutic necessity or patient agreement,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice violates principles of bodily autonomy by altering healthy genital tissue without therapeutic necessity or patient agreement, often justified thro.",
+      "span": {
+        "quote": "This practice violates principles of bodily autonomy by altering healthy genital tissue without therapeutic necessity or patient agreement, often justified thro"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

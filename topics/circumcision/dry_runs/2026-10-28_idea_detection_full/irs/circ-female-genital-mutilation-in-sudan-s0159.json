@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0159",
+  "source_text": "Regarding fertility, while scarring from infibulation can theoretically obstruct menstrual flow or facilitate ascending infections potentially linked to tubal damage, a case-control study of 603 Sudanese women found no significant association between childhood FGM and primary infertility after adjusting for confounders (odds ratio \u22481.0). [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regarding fertility, while scarring from infibulation can theoretically obstruct menstrual flow or facilitate ascending infections potential"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regarding fertility, while scarring from infibulation can theoretically obstruct menstrual flow or facilitate ascending infections potentially linked to tubal d.",
+      "span": {
+        "quote": "Regarding fertility, while scarring from infibulation can theoretically obstruct menstrual flow or facilitate ascending infections potentially linked to tubal d"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to tubal damage.",
+      "span": {
+        "quote": "linked to tubal damage"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to tubal damage"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to tubal damage",
+          "span": {
+            "quote": "linked to tubal damage"
+          }
+        }
+      ]
+    }
+  ]
+}

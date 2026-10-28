@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-phimosis-s0215",
+  "source_text": "Recurrence may necessitate redo preputioplasty or conversion to circumcision in 5-10% of cases, but it avoids penile denervation and maintains natural anatomy. [63]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Recurrence may necessitate redo preputioplasty or conversion to circumcision in 5-10% of cases, but it avoids penile denervation and maintai"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Natural anatomy.",
+      "span": {
+        "quote": "natural anatomy."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Recurrence may necessitate redo preputioplasty or conversion to circumcision in 5-10% of cases, but it avoids penile denervation and.",
+      "span": {
+        "quote": "Recurrence may necessitate redo preputioplasty or conversion to circumcision in 5-10% of cases, but it avoids penile denervation and"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintains"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0183",
+  "source_text": "These efforts emphasized standardized surgical protocols, such as the forceps-guided or sleeve resection techniques, with mandatory adverse event reporting and quality assurance via WHO checklists to minimize complications like infection or excessive bleeding, reported at rates under 2% in audited sites.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These efforts emphasized standardized surgical protocols, such as the forceps-guided or sleeve resection techniques, with mandatory adverse"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Standardized surgical protocols, such as the forceps-guided or sleeve resection techniques, with mandatory adverse event reporting and quality assurance via WHO.",
+      "span": {
+        "quote": "standardized surgical protocols, such as the forceps-guided or sleeve resection techniques, with mandatory adverse event reporting and quality assurance via WHO"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0246",
+  "source_text": "Long-term follow-up from the Orange Farm trial in South Africa showed sustained 58% efficacy at 72 months, aligning with initial findings and refuting decay claims. [122]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term follow-up from the Orange Farm trial in South Africa showed sustained 58% efficacy at 72 months, aligning with initial findings an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Long-term follow-up from the Orange Farm trial in South Africa showed sustained 58% efficacy at 72 months, aligning with initial findings and refuting decay.",
+      "span": {
+        "quote": "Long-term follow-up from the Orange Farm trial in South Africa showed sustained 58% efficacy at 72 months, aligning with initial findings and refuting decay"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

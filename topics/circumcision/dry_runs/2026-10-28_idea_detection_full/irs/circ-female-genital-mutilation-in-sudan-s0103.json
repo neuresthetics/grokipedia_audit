@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0103",
+  "source_text": "The absence of pain relief or medical oversight amplifies risks of shock, infection, and incomplete healing, with procedures sometimes involving multiple cuts or stitching using thread or thorns in traditional settings. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The absence of pain relief or medical oversight amplifies risks of shock, infection, and incomplete healing, with procedures sometimes invol"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The absence of pain relief or medical oversight amplifies risks of shock, infection, and incomplete healing, with procedures sometimes involving multiple cuts o.",
+      "span": {
+        "quote": "The absence of pain relief or medical oversight amplifies risks of shock, infection, and incomplete healing, with procedures sometimes involving multiple cuts o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0123",
+  "source_text": "The Catholic Church's position frames opposition as essential to upholding the inherent value of persons, independent of non-therapeutic mutilation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Catholic Church's position frames opposition as essential to upholding the inherent value of persons, independent of non-therapeutic mut"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Catholic Church's position frames opposition as essential to upholding the inherent value of persons, independent of non-therapeutic mutilation.",
+      "span": {
+        "quote": "The Catholic Church's position frames opposition as essential to upholding the inherent value of persons, independent of non-therapeutic mutilation."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

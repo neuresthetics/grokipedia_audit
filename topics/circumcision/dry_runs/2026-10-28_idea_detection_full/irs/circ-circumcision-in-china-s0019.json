@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-china-s0019",
+  "source_text": "In traditional Han Chinese society, Confucian philosophy underscored the importance of bodily integrity and filial piety, regarding non-essential modifications to the body\u2014such as circumcision\u2014as disruptions to natural harmony and the filial duty to preserve one's inherited form. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In traditional Han Chinese society, Confucian philosophy underscored the importance of bodily integrity and filial piety, regarding non-esse"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In traditional Han Chinese society, Confucian philosophy underscored the importance of bodily integrity and filial piety, regarding non-essential modifications.",
+      "span": {
+        "quote": "In traditional Han Chinese society, Confucian philosophy underscored the importance of bodily integrity and filial piety, regarding non-essential modifications "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

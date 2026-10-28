@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0283",
+  "source_text": "This 2012 policy, reaffirmed in subsequent reviews, cites reductions in urinary tract infections (UTIs) in infancy (from 1% to 0.1-0.2% risk), certain sexually transmitted infections (STIs) including HIV (approximately 50-60% relative reduction in heterosexual acquisition), and rare conditions like penile cancer. [156] [130]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This 2012 policy, reaffirmed in subsequent reviews, cites reductions in urinary tract infections (UTIs) in infancy (from 1% to 0.1-0.2% risk"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This 2012 policy, reaffirmed in subsequent reviews, cites reductions in urinary tract infections (UTIs) in infancy (from 1% to 0.1-0.2% risk), certain sexually.",
+      "span": {
+        "quote": "This 2012 policy, reaffirmed in subsequent reviews, cites reductions in urinary tract infections (UTIs) in infancy (from 1% to 0.1-0.2% risk), certain sexually "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0138",
+  "source_text": "While some evidence suggests unmitigated neonatal pain may heighten responses to later vaccinations, the procedure's brevity and rapid healing\u2014typically within one week\u2014limit long-term sequelae in healthy infants. [65] [66]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some evidence suggests unmitigated neonatal pain may heighten responses to later vaccinations, the procedure's brevity and rapid heali"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Unmitigated neonatal pain may heighten responses to later vaccinations, the procedure's brevity and rapid healing\u2014typically within one week\u2014limit long-term sequ.",
+      "span": {
+        "quote": "unmitigated neonatal pain may heighten responses to later vaccinations, the procedure's brevity and rapid healing\u2014typically within one week\u2014limit long-term sequ"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

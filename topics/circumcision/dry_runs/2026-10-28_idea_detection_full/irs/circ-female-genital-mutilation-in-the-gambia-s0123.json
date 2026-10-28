@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0123",
+  "source_text": "Local beliefs hold that FGM preserves virginity, curbs promiscuity, and maintains family honor by controlling female sexuality, with uncut women often stigmatized as impure or capable of contaminating food, rendering it haram under traditional interpretations. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Local beliefs hold that FGM preserves virginity, curbs promiscuity, and maintains family honor by controlling female sexuality, with uncut w"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Family honor by controlling female sexuality, with uncut women often stigmatized as impure or capable of contaminating food, rendering it haram under traditiona.",
+      "span": {
+        "quote": "family honor by controlling female sexuality, with uncut women often stigmatized as impure or capable of contaminating food, rendering it haram under traditiona"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Local beliefs hold that FGM preserves virginity, curbs promiscuity, and.",
+      "span": {
+        "quote": "Local beliefs hold that FGM preserves virginity, curbs promiscuity, and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintains"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

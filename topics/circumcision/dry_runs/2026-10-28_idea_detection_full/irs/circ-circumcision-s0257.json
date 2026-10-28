@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-s0257",
+  "source_text": "He cited three cases of dramatic mobility improvement after circumcision, linking results to the removal of phimotic adhesions and smegma, which he viewed as bacterial irritants. [153]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "He cited three cases of dramatic mobility improvement after circumcision, linking results to the removal of phimotic adhesions and smegma, w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "he",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "He cited three cases of dramatic mobility improvement after circumcision, linking results to the removal of phimotic adhesions and smegma, which he viewed as ba.",
+      "span": {
+        "quote": "He cited three cases of dramatic mobility improvement after circumcision, linking results to the removal of phimotic adhesions and smegma, which he viewed as ba"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

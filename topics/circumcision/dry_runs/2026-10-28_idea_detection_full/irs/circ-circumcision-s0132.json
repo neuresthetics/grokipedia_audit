@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0132",
+  "source_text": "The review concluded that the overall risk is low (<1%), with only weak evidence of an increase among circumcised boys.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The review concluded that the overall risk is low (<1%), with only weak evidence of an increase among circumcised boys."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E overall risk is low (<1%), with only weak evidence of an increase among circumcised boys.",
+      "span": {
+        "quote": "e overall risk is low (<1%), with only weak evidence of an increase among circumcised boys."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

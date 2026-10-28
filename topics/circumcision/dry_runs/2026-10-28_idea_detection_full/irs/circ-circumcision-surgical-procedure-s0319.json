@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0319",
+  "source_text": "Ultimately, the autonomy argument posits that ethical practice demands postponement until the individual can consent, preserving causal agency over one's body absent compelling therapeutic imperatives. [141]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ultimately, the autonomy argument posits that ethical practice demands postponement until the individual can consent, preserving causal agen"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ultimately, the autonomy argument posits that ethical practice demands postponement until the individual can consent, preserving causal agency over one's body a.",
+      "span": {
+        "quote": "Ultimately, the autonomy argument posits that ethical practice demands postponement until the individual can consent, preserving causal agency over one's body a"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

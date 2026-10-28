@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0160",
+  "source_text": "Nonetheless, indirect reproductive impacts persist through dyspareunia-induced avoidance of intercourse, which may delay conception or exacerbate secondary infertility risks in affected populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Nonetheless, indirect reproductive impacts persist through dyspareunia-induced avoidance of intercourse, which may delay conception or exace"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nonetheless, indirect reproductive impacts persist through dyspareunia-induced avoidance of intercourse, which may delay conception or exacerbate secondary infe.",
+      "span": {
+        "quote": "Nonetheless, indirect reproductive impacts persist through dyspareunia-induced avoidance of intercourse, which may delay conception or exacerbate secondary infe"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

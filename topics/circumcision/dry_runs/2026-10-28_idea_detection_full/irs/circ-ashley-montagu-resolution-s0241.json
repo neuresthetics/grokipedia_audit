@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0241",
+  "source_text": "Similarly, campaigns against corporal punishment, such as the 2023 joint statement by 40 countries at the Human Rights Council urging bans to protect children's physical integrity, align in invoking CRC Article 19 against violence but stop short of addressing genital cutting, reflecting selective application of bodily autonomy norms. [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, campaigns against corporal punishment, such as the 2023 joint statement by 40 countries at the Human Rights Council urging bans t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, campaigns against corporal punishment, such as the 2023 joint statement by 40 countries at the Human Rights Council urging bans to protect children's.",
+      "span": {
+        "quote": "Similarly, campaigns against corporal punishment, such as the 2023 joint statement by 40 countries at the Human Rights Council urging bans to protect children's"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

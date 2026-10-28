@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0022",
+  "source_text": "These terms, derived from Arabic and Gujarati linguistic influences, frame the act as a sunna (customary religious rite) analogous to male circumcision, emphasizing its role in curbing perceived promiscuity and ensuring moral hygiene without connotations of mutilation. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These terms, derived from Arabic and Gujarati linguistic influences, frame the act as a sunna (customary religious rite) analogous to male c"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These terms, derived from Arabic and Gujarati linguistic influences, frame the act as a sunna (customary religious rite) analogous to male circumcision, emphasi.",
+      "span": {
+        "quote": "These terms, derived from Arabic and Gujarati linguistic influences, frame the act as a sunna (customary religious rite) analogous to male circumcision, emphasi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0038",
+  "source_text": "However, epidemiological studies indicate even these procedures carry risks of infection, psychological trauma, and normalization of genital intervention, perpetuating cycles of expectation without causal justification beyond tradition. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, epidemiological studies indicate even these procedures carry risks of infection, psychological trauma, and normalization of genital"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, epidemiological studies indicate even these procedures carry risks of infection, psychological trauma, and normalization of genital intervention, perpe.",
+      "span": {
+        "quote": "However, epidemiological studies indicate even these procedures carry risks of infection, psychological trauma, and normalization of genital intervention, perpe"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

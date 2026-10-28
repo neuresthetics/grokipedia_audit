@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0113",
+  "source_text": "Evidence for increased cesarean needs (AOR=1.60) is low quality, and absolute complication rates vary widely by practitioner skill, with hygienic variants showing minimal persistent effects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Evidence for increased cesarean needs (AOR=1.60) is low quality, and absolute complication rates vary widely by practitioner skill, with hyg"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Evidence for increased cesarean needs (AOR=1.60) is low quality, and absolute complication rates vary widely by practitioner skill, with hygienic variants showi.",
+      "span": {
+        "quote": "Evidence for increased cesarean needs (AOR=1.60) is low quality, and absolute complication rates vary widely by practitioner skill, with hygienic variants showi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

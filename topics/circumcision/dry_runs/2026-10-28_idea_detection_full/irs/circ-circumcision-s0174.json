@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-s0174",
+  "source_text": "A 2013 systematic review and meta-analysis found the prevention of sexually transmitted infections cannot rationally be interpreted as a benefit of circumcision, and any policy of circumcision for the general population to prevent sexually transmitted infections is not supported by the evidence in the medical literature. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2013 systematic review and meta-analysis found the prevention of sexually transmitted infections cannot rationally be interpreted as a ben"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2013 systematic review and meta-analysis found the prevention of sexually transmitted infections cannot rationally be interpreted as a benefit of circumcision.",
+      "span": {
+        "quote": "A 2013 systematic review and meta-analysis found the prevention of sexually transmitted infections cannot rationally be interpreted as a benefit of circumcision"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

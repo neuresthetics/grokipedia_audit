@@ -1,0 +1,37 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-011",
+  "source_text": "- Fallacy names, entry ids, verdicts, confidence that a fallacy occurred. - Motive / bias diagnosis (\u201cthey\u2019re confirming their priors\u201d). - Inventing contrary evidence not in the passage (or not CK under the rule above). - Cadence / tone scores as if they were reasons.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- Fallacy names, entry ids, verdicts, confidence that a fallacy occurred. - Motive / bias diagnosis (\u201cthey\u2019re confirming their priors\u201d). - I"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "- Fallacy names, entry ids, verdicts, confidence that a fallacy occurred. - Motive / bias diagnosis (\u201cthey\u2019re confirming their priors\u201d). - Inventing contrary ev.",
+      "span": {
+        "quote": "- Fallacy names, entry ids, verdicts, confidence that a fallacy occurred. - Motive / bias diagnosis (\u201cthey\u2019re confirming their priors\u201d). - Inventing contrary ev"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0160",
+  "source_text": "These conditions contribute to recurrent urinary tract infections and chronic pelvic pain, documented in U.S. healthcare encounters among immigrant women from FGM/C-practicing regions. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These conditions contribute to recurrent urinary tract infections and chronic pelvic pain, documented in U.S. healthcare encounters among im"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These conditions contribute to recurrent urinary tract infections and chronic pelvic pain, documented in U.S. healthcare encounters among immigrant women from F.",
+      "span": {
+        "quote": "These conditions contribute to recurrent urinary tract infections and chronic pelvic pain, documented in U.S. healthcare encounters among immigrant women from F"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

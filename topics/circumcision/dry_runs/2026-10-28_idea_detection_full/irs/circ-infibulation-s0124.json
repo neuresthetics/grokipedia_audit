@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0124",
+  "source_text": "In polygynous systems common among practicing groups in Sudan and Somalia, where men may maintain multiple wives, the procedure minimizes risks of infidelity that could dilute lineage-specific wealth transmission, as uninfibulated women are often deemed unsuitable for marriage within endogamous kin networks. [61]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In polygynous systems common among practicing groups in Sudan and Somalia, where men may maintain multiple wives, the procedure minimizes ri"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Multiple wives, the procedure minimizes risks of infidelity that could dilute lineage-specific wealth transmission, as uninfibulated women are often deemed unsu.",
+      "span": {
+        "quote": "multiple wives, the procedure minimizes risks of infidelity that could dilute lineage-specific wealth transmission, as uninfibulated women are often deemed unsu"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In polygynous systems common among practicing groups in Sudan and Somalia, where men may.",
+      "span": {
+        "quote": "In polygynous systems common among practicing groups in Sudan and Somalia, where men may"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

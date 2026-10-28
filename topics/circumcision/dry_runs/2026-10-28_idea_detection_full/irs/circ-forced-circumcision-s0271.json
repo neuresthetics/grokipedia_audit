@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-s0271",
+  "source_text": "In non-Abrahamic contexts, like certain African ethnic groups, circumcision rituals affirm masculinity and social bonds, with proponents claiming they foster resilience and hygiene norms embedded in ancestral wisdom.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In non-Abrahamic contexts, like certain African ethnic groups, circumcision rituals affirm masculinity and social bonds, with proponents cla"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In non-Abrahamic contexts, like certain African ethnic groups, circumcision rituals affirm masculinity and social bonds, with proponents claiming they foster re.",
+      "span": {
+        "quote": "In non-Abrahamic contexts, like certain African ethnic groups, circumcision rituals affirm masculinity and social bonds, with proponents claiming they foster re"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

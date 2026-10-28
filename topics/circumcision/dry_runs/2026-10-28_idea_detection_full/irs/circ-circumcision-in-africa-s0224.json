@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0224",
+  "source_text": "These trials reported that circumcision lowers the risk of herpes simplex virus type 2 (HSV-2) infection by 24% to 34% and high-risk human papillomavirus (HPV) strains by 32% to 35% in heterosexual men. [104] [105]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These trials reported that circumcision lowers the risk of herpes simplex virus type 2 (HSV-2) infection by 24% to 34% and high-risk human p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These trials reported that circumcision lowers the risk of herpes simplex virus type 2 (HSV-2) infection by 24% to 34% and high-risk human papillomavirus (HPV).",
+      "span": {
+        "quote": "These trials reported that circumcision lowers the risk of herpes simplex virus type 2 (HSV-2) infection by 24% to 34% and high-risk human papillomavirus (HPV) "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

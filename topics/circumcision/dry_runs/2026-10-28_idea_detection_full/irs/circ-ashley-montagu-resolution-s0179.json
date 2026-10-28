@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0179",
+  "source_text": "The Ashley Montagu Resolution, adopted in 1996, explicitly grouped non-therapeutic male circumcision and female genital mutilation (FGM) under the umbrella of \"genital mutilation of children,\" advocating their equal prohibition as violations of children's rights to bodily integrity. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Ashley Montagu Resolution, adopted in 1996, explicitly grouped non-therapeutic male circumcision and female genital mutilation (FGM) und"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Ashley Montagu Resolution, adopted in 1996, explicitly grouped non-therapeutic male circumcision and female genital mutilation (FGM) under the umbrella of \".",
+      "span": {
+        "quote": "The Ashley Montagu Resolution, adopted in 1996, explicitly grouped non-therapeutic male circumcision and female genital mutilation (FGM) under the umbrella of \""
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

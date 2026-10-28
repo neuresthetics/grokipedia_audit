@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0108",
+  "source_text": "The Royal Dutch Medical Association (KNMG) in 2010 stated that routine circumcision violates boys' physical integrity and right to bodily autonomy, recommending deferral until informed consent can be given at adulthood due to risks outweighing unproven preventive benefits in their setting. [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Royal Dutch Medical Association (KNMG) in 2010 stated that routine circumcision violates boys' physical integrity and right to bodily au"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Royal Dutch Medical Association (KNMG) in 2010 stated that routine circumcision violates boys' physical integrity and right to bodily autonomy, recommending.",
+      "span": {
+        "quote": "The Royal Dutch Medical Association (KNMG) in 2010 stated that routine circumcision violates boys' physical integrity and right to bodily autonomy, recommending"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unproven preventive benefits in their setting.",
+      "span": {
+        "quote": "unproven preventive benefits in their setting"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unproven preventive benefits in their setting"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

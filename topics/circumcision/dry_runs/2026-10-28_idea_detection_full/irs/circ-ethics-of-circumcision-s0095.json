@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0095",
+  "source_text": "Randomized controlled trials in Africa, extrapolated by the CDC, indicate that male circumcision confers a 50-60% reduction in heterosexual HIV acquisition risk, alongside lowered incidence of certain STIs like herpes simplex virus-2, yielding net preventive benefits that persist into adulthood. [59]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized controlled trials in Africa, extrapolated by the CDC, indicate that male circumcision confers a 50-60% reduction in heterosexual"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Randomized controlled trials in Africa, extrapolated by the CDC, indicate that male circumcision confers a 50-60% reduction in heterosexual HIV acquisition risk.",
+      "span": {
+        "quote": "Randomized controlled trials in Africa, extrapolated by the CDC, indicate that male circumcision confers a 50-60% reduction in heterosexual HIV acquisition risk"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "Randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

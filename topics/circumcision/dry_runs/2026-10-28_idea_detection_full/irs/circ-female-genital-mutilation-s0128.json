@@ -1,0 +1,58 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0128",
+  "source_text": "Empirical studies from Sudan and Somalia indicate that communities view FGM as essential for controlling women's sexual desire, with many women reporting it as a means to prevent \"immoral\" behavior.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical studies from Sudan and Somalia indicate that communities view FGM as essential for controlling women's sexual desire, with many wo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical studies from Sudan and Somalia indicate that communities view FGM as essential for controlling women's sexual desire, with many women reporting it as.",
+      "span": {
+        "quote": "Empirical studies from Sudan and Somalia indicate that communities view FGM as essential for controlling women's sexual desire, with many women reporting it as "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Many women reporting it as a means to prevent \".",
+      "span": {
+        "quote": "many women reporting it as a means to prevent \""
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "many women reporting it as a means to prevent \""
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

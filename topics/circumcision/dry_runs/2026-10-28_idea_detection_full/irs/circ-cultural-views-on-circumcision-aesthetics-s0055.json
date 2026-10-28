@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0055",
+  "source_text": "Similar narratives in Arab societies, such as in Saudi Arabia and Egypt, associate circumcision with aesthetic maturity, where the procedure's visible cleanliness is linked to hygiene standards valued in marital and social contexts, reinforcing perceptions of tidiness and conformity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similar narratives in Arab societies, such as in Saudi Arabia and Egypt, associate circumcision with aesthetic maturity, where the procedure"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similar narratives in Arab societies, such as in Saudi Arabia and Egypt, associate circumcision with aesthetic maturity, where the procedure's visible cleanline.",
+      "span": {
+        "quote": "Similar narratives in Arab societies, such as in Saudi Arabia and Egypt, associate circumcision with aesthetic maturity, where the procedure's visible cleanline"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to hygiene standards valued in marital and social contexts.",
+      "span": {
+        "quote": "linked to hygiene standards valued in marital and social contexts"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to hygiene standards valued in marital and social contexts"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to hygiene standards valued in marital and social contexts",
+          "span": {
+            "quote": "linked to hygiene standards valued in marital and social contexts"
+          }
+        }
+      ]
+    }
+  ]
+}

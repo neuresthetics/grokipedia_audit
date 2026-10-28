@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0039",
+  "source_text": "Newborn circumcision rates increased from roughly 10% circa 1900 to peaks exceeding 80% by the 1960s, propelled by endorsements from organizations such as the American Medical Association and American Academy of Pediatrics, which cited purported preventive benefits against conditions like penile cancer and urinary tract infections, though these claims lacked robust randomized trial evidence at the time. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Newborn circumcision rates increased from roughly 10% circa 1900 to peaks exceeding 80% by the 1960s, propelled by endorsements from organiz"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Lacked robust randomized trial evidence at the time.",
+      "span": {
+        "quote": "lacked robust randomized trial evidence at the time."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "N Medical Association and American Academy of Pediatrics, which cited purported preventive benefits against conditions like penile cancer and urinary tract infe.",
+      "span": {
+        "quote": "n Medical Association and American Academy of Pediatrics, which cited purported preventive benefits against conditions like penile cancer and urinary tract infe"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

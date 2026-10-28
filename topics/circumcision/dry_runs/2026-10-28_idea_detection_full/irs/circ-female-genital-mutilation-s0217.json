@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0217",
+  "source_text": "Empirical assessments refute these health-related claims, with the World Health Organization concluding that FGM confers no medical benefits and instead entails risks like hemorrhage, infection, and urinary issues without offsetting gains in hygiene or disease prevention. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical assessments refute these health-related claims, with the World Health Organization concluding that FGM confers no medical benefits"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", with the World Health Organization concluding that FGM confers no medical benefits and instead entails risks like hemorrhage, infection, and urinary issues wi.",
+      "span": {
+        "quote": ", with the World Health Organization concluding that FGM confers no medical benefits and instead entails risks like hemorrhage, infection, and urinary issues wi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical assessments refute these health-related.",
+      "span": {
+        "quote": "Empirical assessments refute these health-related"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

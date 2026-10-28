@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0256",
+  "source_text": "Early projections from 2009 indicated that one HIV infection could be averted for every 5\u201315 VMMCs in high-prevalence settings over a 10-year period.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Early projections from 2009 indicated that one HIV infection could be averted for every 5\u201315 VMMCs in high-prevalence settings over a 10-yea"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Early projections from 2009 indicated that one HIV infection could be averted for every 5\u201315 VMMCs in high-prevalence settings over a 10-year period.",
+      "span": {
+        "quote": "Early projections from 2009 indicated that one HIV infection could be averted for every 5\u201315 VMMCs in high-prevalence settings over a 10-year period."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "One HIV infection could be averted for every 5\u201315 VMMCs in high-.",
+      "span": {
+        "quote": "one HIV infection could be averted for every 5\u201315 VMMCs in high-"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "one HIV infection could be averted for every 5\u201315 VMMCs in h"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

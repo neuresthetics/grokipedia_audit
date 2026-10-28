@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0008",
+  "source_text": "Predominantly Type I (clitoridectomy) or Type II (excision), with 16.6% involving infibulation (Type III), the practice correlates with elevated health risks including hemorrhage, urinary issues, and obstetric complications\u2014studies indicate 77% of adverse neonatal outcomes link to FGM-affected mothers\u2014compounded by a reported 34.3% lifetime health problems among cut women. [2] [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Predominantly Type I (clitoridectomy) or Type II (excision), with 16.6% involving infibulation (Type III), the practice correlates with elev"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Predominantly Type I (clitoridectomy) or Type II (excision), with 16.6% involving infibulation (Type III), the practice correlates with elevated health risks in.",
+      "span": {
+        "quote": "Predominantly Type I (clitoridectomy) or Type II (excision), with 16.6% involving infibulation (Type III), the practice correlates with elevated health risks in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

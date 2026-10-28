@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0240",
+  "source_text": "A prominent opposition narrative centers on behavioral risk compensation, positing that circumcised men increase sexual risk-taking\u2014such as more partners, less condom use, or earlier resumption of sex\u2014offsetting any biological protection. [119]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A prominent opposition narrative centers on behavioral risk compensation, positing that circumcised men increase sexual risk-taking\u2014such as"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A prominent opposition narrative centers on behavioral risk compensation, positing that circumcised men increase sexual risk-taking\u2014such as more partners, less.",
+      "span": {
+        "quote": "A prominent opposition narrative centers on behavioral risk compensation, positing that circumcised men increase sexual risk-taking\u2014such as more partners, less "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

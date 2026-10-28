@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-clitoridectomy-s0053",
+  "source_text": "Controversy erupted in 1867 when the Obstetrical Society of London investigated Brown's practices, censuring him for operating without patient consent\u2014often on institutionalized women\u2014and for unsubstantiated claims of efficacy, leading to his professional ostracism and death in obscurity in 1873. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Controversy erupted in 1867 when the Obstetrical Society of London investigated Brown's practices, censuring him for operating without patie"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of efficacy, leading to his professional ostracism and death in obscurity in 1873.",
+      "span": {
+        "quote": "of efficacy, leading to his professional ostracism and death in obscurity in 1873."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "When the Obstetrical Society of London investigated Brown's practices, censuring him for operating without patient consent\u2014often on institutionalized women\u2014and.",
+      "span": {
+        "quote": "when the Obstetrical Society of London investigated Brown's practices, censuring him for operating without patient consent\u2014often on institutionalized women\u2014and "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated claims of efficacy.",
+      "span": {
+        "quote": "unsubstantiated claims of efficacy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated claims of efficacy"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

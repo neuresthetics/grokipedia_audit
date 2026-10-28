@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0043",
+  "source_text": "For example, a cohort study in Kericho, Kenya, found that circumcised men had an adjusted hazard ratio of 0.32 (95% CI 0.15\u20130.68) for HIV acquisition, equivalent to a two-thirds risk reduction after controlling for confounders. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, a cohort study in Kericho, Kenya, found that circumcised men had an adjusted hazard ratio of 0.32 (95% CI 0.15\u20130.68) for HIV ac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, a cohort study in Kericho, Kenya, found that circumcised men had an adjusted hazard ratio of 0.32 (95% CI 0.15\u20130.68) for HIV acquisition, equivalen.",
+      "span": {
+        "quote": "For example, a cohort study in Kericho, Kenya, found that circumcised men had an adjusted hazard ratio of 0.32 (95% CI 0.15\u20130.68) for HIV acquisition, equivalen"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

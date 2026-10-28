@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0188",
+  "source_text": "The UK's Female Genital Mutilation Act 2003 embodies a human rights universalism by criminalizing FGM regardless of cultural justification, aligning with UN conventions such as the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW, 1979) and the Convention on the Rights of the Child (CRC, 1989), which frame FGM as a violation of bodily integrity, non-discrimination, and protection from harmful traditional practices.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The UK's Female Genital Mutilation Act 2003 embodies a human rights universalism by criminalizing FGM regardless of cultural justification,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The UK's Female Genital Mutilation Act 2003 embodies a human rights universalism by criminalizing FGM regardless of cultural justification, aligning with UN con.",
+      "span": {
+        "quote": "The UK's Female Genital Mutilation Act 2003 embodies a human rights universalism by criminalizing FGM regardless of cultural justification, aligning with UN con"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A human rights universalism by criminalizing FGM regardless of.",
+      "span": {
+        "quote": "a human rights universalism by criminalizing FGM regardless of"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a human rights universalism by criminalizing FGM regardless"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

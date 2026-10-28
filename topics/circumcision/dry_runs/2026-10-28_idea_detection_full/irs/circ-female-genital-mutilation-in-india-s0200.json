@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0200",
+  "source_text": "Such accusations frame activism as biased advocacy that overlooks practitioner claims of minimal harm and familial consent, though empirical health studies contradict assertions of benignity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such accusations frame activism as biased advocacy that overlooks practitioner claims of minimal harm and familial consent, though empirical"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of minimal harm and familial consent, though empirical health studies contradict assertions of benignity.",
+      "span": {
+        "quote": "of minimal harm and familial consent, though empirical health studies contradict assertions of benignity."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Such accusations frame activism as biased advocacy that overlooks practitioner.",
+      "span": {
+        "quote": "Such accusations frame activism as biased advocacy that overlooks practitioner"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Biased advocacy that overlooks practitioner claims of.",
+      "span": {
+        "quote": "biased advocacy that overlooks practitioner claims of"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "biased advocacy that overlooks practitioner claims of"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Such accusations fra"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased advocacy that overlooks practitioner claims of ",
+          "span": {
+            "quote": "biased advocacy that overlooks practitioner claims of"
+          }
+        }
+      ]
+    }
+  ]
+}

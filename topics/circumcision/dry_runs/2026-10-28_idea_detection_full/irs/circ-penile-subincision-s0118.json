@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-penile-subincision-s0118",
+  "source_text": "Legal scholars propose requiring court oversight or medical standards for such interventions, akin to intersex surgeries, to balance cultural claims against evidence of harm. [31] [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legal scholars propose requiring court oversight or medical standards for such interventions, akin to intersex surgeries, to balance cultura"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "scholars"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gainst evidence of harm.",
+      "span": {
+        "quote": "gainst evidence of harm."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Legal scholars propose requiring court oversight or medical standards for such interventions, akin to intersex surgeries, to balance cultural.",
+      "span": {
+        "quote": "Legal scholars propose requiring court oversight or medical standards for such interventions, akin to intersex surgeries, to balance cultural"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

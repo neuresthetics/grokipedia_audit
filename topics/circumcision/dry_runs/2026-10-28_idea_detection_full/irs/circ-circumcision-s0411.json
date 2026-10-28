@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-s0411",
+  "source_text": "Ethicists, citing the United Nations Convention on the Rights of the Child (Articles 19 and 24), maintain that infants have a right to bodily integrity, making such interventions akin to iatrogenic injury without urgent justification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethicists, citing the United Nations Convention on the Rights of the Child (Articles 19 and 24), maintain that infants have a right to bodil"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infants have a right to bodily integrity, making such interventions akin to iatrogenic injury without urgent justification.",
+      "span": {
+        "quote": "infants have a right to bodily integrity, making such interventions akin to iatrogenic injury without urgent justification."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethicists, citing the United Nations Convention on the Rights of the Child (Articles 19 and 24).",
+      "span": {
+        "quote": "Ethicists, citing the United Nations Convention on the Rights of the Child (Articles 19 and 24)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing the United Nations Convention on the Rights of the Child (Articles 19 and 24.",
+      "span": {
+        "quote": "citing the United Nations Convention on the Rights of the Child (Articles 19 and 24"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing the United Nations Convention on the Rights of the Child (Articles 19 and 24"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

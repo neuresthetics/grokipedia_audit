@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0184",
+  "source_text": "Circumcision permanently excises the foreskin, a double-layered fold of tissue rich in Meissner's corpuscles and ridged bands that provide fine-touch mechanoreception, which cannot be regenerated through any known method. [120]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision permanently excises the foreskin, a double-layered fold of tissue rich in Meissner's corpuscles and ridged bands that provide f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision permanently excises the foreskin, a double-layered fold of tissue rich in Meissner's corpuscles and ridged bands that provide fine-touch mechanorec.",
+      "span": {
+        "quote": "Circumcision permanently excises the foreskin, a double-layered fold of tissue rich in Meissner's corpuscles and ridged bands that provide fine-touch mechanorec"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

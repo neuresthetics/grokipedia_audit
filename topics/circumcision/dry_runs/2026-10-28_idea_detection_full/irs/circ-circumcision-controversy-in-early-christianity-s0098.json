@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0098",
+  "source_text": "Paul's consistent thread across epistles positioned circumcision as obsolete for covenant entry under the new covenant, grounded in Abraham's pre-circumcision faith justification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Paul's consistent thread across epistles positioned circumcision as obsolete for covenant entry under the new covenant, grounded in Abraham'"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Paul's consistent thread across epistles positioned circumcision as obsolete for covenant entry under the new covenant, grounded in Abraham's pre-circumcision f.",
+      "span": {
+        "quote": "Paul's consistent thread across epistles positioned circumcision as obsolete for covenant entry under the new covenant, grounded in Abraham's pre-circumcision f"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

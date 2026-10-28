@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-forced-circumcision-s0260",
+  "source_text": "Randomized controlled trials conducted in South Africa, Kenya, and Uganda between 2005 and 2007 demonstrated that medical male circumcision reduces heterosexual HIV acquisition risk by 50-60% in men, prompting the World Health Organization to recommend voluntary medical male circumcision as part of combination HIV prevention strategies in high-prevalence regions of eastern and southern Africa. [78] [118]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized controlled trials conducted in South Africa, Kenya, and Uganda between 2005 and 2007 demonstrated that medical male circumcision"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Randomized controlled trials conducted in South Africa, Kenya, and Uganda between 2005 and 2007 demonstrated that medical male circumcision reduces heterosexual.",
+      "span": {
+        "quote": "Randomized controlled trials conducted in South Africa, Kenya, and Uganda between 2005 and 2007 demonstrated that medical male circumcision reduces heterosexual"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "Randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

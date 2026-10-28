@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0310",
+  "source_text": "However, critics contend that proxy consent is ethically invalid for non-therapeutic interventions lacking immediate medical necessity, as it substitutes parental preferences\u2014often cultural or religious\u2014for the child's autonomous right to an intact body, paralleling prohibitions on other non-consensual genital alterations. [140]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, critics contend that proxy consent is ethically invalid for non-therapeutic interventions lacking immediate medical necessity, as i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proxy consent is ethically invalid for non-therapeutic interventions lacking immediate medical necessity, as it substitutes parental preferences\u2014often cultural.",
+      "span": {
+        "quote": "proxy consent is ethically invalid for non-therapeutic interventions lacking immediate medical necessity, as it substitutes parental preferences\u2014often cultural "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

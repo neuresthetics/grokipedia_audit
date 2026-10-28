@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0120",
+  "source_text": "This superhero narrative frames neonatal circumcision, performed on approximately 1.2 million U.S. infants annually as of 2010 data, as a battle against evil forces, potentially fostering fear-mongering by equating a brief surgical intervention with violent assault rather than a decision weighed against evidence of benefits like reduced urinary tract infections (1-2% risk reduction in infancy) and certain STIs.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This superhero narrative frames neonatal circumcision, performed on approximately 1.2 million U.S. infants annually as of 2010 data, as a ba"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This superhero narrative frames neonatal circumcision, performed on approximately 1.2 million U.S. infants annually as of 2010 data, as a battle against evil fo.",
+      "span": {
+        "quote": "This superhero narrative frames neonatal circumcision, performed on approximately 1.2 million U.S. infants annually as of 2010 data, as a battle against evil fo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

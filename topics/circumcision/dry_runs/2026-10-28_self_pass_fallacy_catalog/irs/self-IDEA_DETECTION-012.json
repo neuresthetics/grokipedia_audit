@@ -1,0 +1,77 @@
+{
+  "passage_id": "self-IDEA_DETECTION-012",
+  "source_text": "Every record is labeled **idea_detection assist / lead-to-check**. A \"met by\" quote is copied only from a closed span the checker bound for a span name declared for that condition. If a condition has no declared span, or the span is an outside-text gap, the line says so and attaches no satisfying quote. When the verdict is flag, look-alikes that have a paired ir_forbid atom are reported as checked with none matched. The renderer does not write a separate prose reason for each look-alike. METHOD example 2 stays no_issue and is not emitted as a flag.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Every record is labeled **idea_detection assist / lead-to-check**. A \"met by\" quote is copied only from a closed span the checker bound for"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A \"met by\" quote is copied only from a closed span the checker bound for a span name declared for that condition. If a condition has no declared span, or the sp.",
+      "span": {
+        "quote": "A \"met by\" quote is copied only from a closed span the checker bound for a span name declared for that condition. If a condition has no declared span, or the sp"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "And attaches no satisfying quote. When the verdict is flag, look-alikes that have a paired ir_forbid atom are reported as checked with none matched. The rendere.",
+      "span": {
+        "quote": "and attaches no satisfying quote. When the verdict is flag, look-alikes that have a paired ir_forbid atom are reported as checked with none matched. The rendere"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "A \"met by\" quote is copied only from a closed span the checker.",
+      "span": {
+        "quote": "A \"met by\" quote is copied only from a closed span the checker"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "A \"met by\" quote is copied only from a closed span the check"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

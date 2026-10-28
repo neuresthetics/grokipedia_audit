@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-phimosis-s0282",
+  "source_text": "Critics argue that circumcision prioritizes symptom elimination over tissue preservation, particularly in minors incapable of consent, raising ethical concerns about unnecessary surgery when alternatives exist. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics argue that circumcision prioritizes symptom elimination over tissue preservation, particularly in minors incapable of consent, raisi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision prioritizes symptom elimination over tissue preservation, particularly in minors incapable of consent, raising ethical concerns about unnecessary s.",
+      "span": {
+        "quote": "circumcision prioritizes symptom elimination over tissue preservation, particularly in minors incapable of consent, raising ethical concerns about unnecessary s"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

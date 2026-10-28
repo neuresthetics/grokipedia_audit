@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0174",
+  "source_text": "This benefit stems from the foreskin's role as a potential reservoir for pathogens, though the clinical significance is debated given the low baseline UTI rate and effective antibiotic treatments.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This benefit stems from the foreskin's role as a potential reservoir for pathogens, though the clinical significance is debated given the lo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This benefit stems from the foreskin's role as a potential reservoir for pathogens, though the clinical significance is debated given the low baseline UTI rate.",
+      "span": {
+        "quote": "This benefit stems from the foreskin's role as a potential reservoir for pathogens, though the clinical significance is debated given the low baseline UTI rate "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

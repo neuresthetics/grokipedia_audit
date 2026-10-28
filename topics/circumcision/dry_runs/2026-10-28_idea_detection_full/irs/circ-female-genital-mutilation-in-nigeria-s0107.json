@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0107",
+  "source_text": "Nigerian clinical observations document keloid scars as a frequent long-term issue, causing chronic pain, itching, and functional impairment in the genital area.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Nigerian clinical observations document keloid scars as a frequent long-term issue, causing chronic pain, itching, and functional impairment"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nigerian clinical observations document keloid scars as a frequent long-term issue, causing chronic pain, itching, and functional impairment in the genital area.",
+      "span": {
+        "quote": "Nigerian clinical observations document keloid scars as a frequent long-term issue, causing chronic pain, itching, and functional impairment in the genital area"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

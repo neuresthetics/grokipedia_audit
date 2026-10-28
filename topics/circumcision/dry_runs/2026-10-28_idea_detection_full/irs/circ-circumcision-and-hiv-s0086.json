@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0086",
+  "source_text": "This structural change, combined with reduced micro-abrasions and chronic inflammation under the foreskin\u2014conditions that upregulate HIV co-receptors and pro-viral cytokines\u2014lowers the density of target cells and the efficiency of viral seeding in the male genital tract. [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This structural change, combined with reduced micro-abrasions and chronic inflammation under the foreskin\u2014conditions that upregulate HIV co-"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This structural change, combined with reduced micro-abrasions and chronic inflammation under the foreskin\u2014conditions that upregulate HIV co-receptors and pro-vi.",
+      "span": {
+        "quote": "This structural change, combined with reduced micro-abrasions and chronic inflammation under the foreskin\u2014conditions that upregulate HIV co-receptors and pro-vi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

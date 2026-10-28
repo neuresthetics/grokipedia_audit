@@ -1,0 +1,111 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0127",
+  "source_text": "This position, outlined in a 2010 policy statement, emphasizes that proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity, though critics contend it undervalues evidence from randomized controlled trials demonstrating reductions in HIV acquisition and urinary tract infections. [80]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This position, outlined in a 2010 policy statement, emphasizes that proxy consent by parents cannot justify irreversible alteration of healt"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity, though critics contend it undervalues evidence f.",
+      "span": {
+        "quote": "proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity, though critics contend it undervalues evidence f"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This position, outlined in a 2010 policy statement.",
+      "span": {
+        "quote": "This position, outlined in a 2010 policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c4",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

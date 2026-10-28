@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0096",
+  "source_text": "Sunna is distinguished as a ritualistic procedure akin to male circumcision, often promoted by health advocates and communities as a culturally acceptable substitute to eradicate infibulation while retaining perceived purity benefits. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sunna is distinguished as a ritualistic procedure akin to male circumcision, often promoted by health advocates and communities as a cultura"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sunna is distinguished as a ritualistic procedure akin to male circumcision, often promoted by health advocates and communities as a culturally acceptable subst.",
+      "span": {
+        "quote": "Sunna is distinguished as a ritualistic procedure akin to male circumcision, often promoted by health advocates and communities as a culturally acceptable subst"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

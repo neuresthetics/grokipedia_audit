@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0120",
+  "source_text": "Demographic and Health Survey analyses confirm this fistula-FGM link, attributing it to compounded pelvic floor trauma. [37] [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Demographic and Health Survey analyses confirm this fistula-FGM link, attributing it to compounded pelvic floor trauma. [37] [38]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Demographic and Health Survey analyses confirm this fistula-FGM link, attributing it to compounded pelvic floor trauma. [37] [38].",
+      "span": {
+        "quote": "Demographic and Health Survey analyses confirm this fistula-FGM link, attributing it to compounded pelvic floor trauma. [37] [38]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

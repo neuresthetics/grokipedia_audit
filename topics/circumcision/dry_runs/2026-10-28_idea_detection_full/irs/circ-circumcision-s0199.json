@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-s0199",
+  "source_text": "Anecdotal reports from adults who underwent low and tight circumcisions\u2014a style removing more inner foreskin, resulting in a tight appearance and scar close to the glans\u2014often describe reduced penile sensitivity, less intense sexual pleasure compared to uncircumcised states or other styles (e.g., high and loose), needing more stimulation for orgasm, and regrets due to perceived loss of fine-touch sensation from removed sensitive tissue.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anecdotal reports from adults who underwent low and tight circumcisions\u2014a style removing more inner foreskin, resulting in a tight appearanc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anecdotal reports from adults who underwent low and tight circumcisions\u2014a style removing more inner foreskin, resulting in a tight appearance and scar close to.",
+      "span": {
+        "quote": "Anecdotal reports from adults who underwent low and tight circumcisions\u2014a style removing more inner foreskin, resulting in a tight appearance and scar close to "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

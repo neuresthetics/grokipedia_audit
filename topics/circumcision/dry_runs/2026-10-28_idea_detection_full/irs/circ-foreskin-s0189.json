@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0189",
+  "source_text": "Systematic reviews also indicate reductions in other sexually transmitted infections, including human papillomavirus (HPV) and herpes simplex virus type 2, with odds ratios for HPV infection reduced by up to 35% in circumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews also indicate reductions in other sexually transmitted infections, including human papillomavirus (HPV) and herpes simple"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews also indicate reductions in other sexually transmitted infections, including human papillomavirus (HPV) and herpes simplex virus type 2, with.",
+      "span": {
+        "quote": "Systematic reviews also indicate reductions in other sexually transmitted infections, including human papillomavirus (HPV) and herpes simplex virus type 2, with"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0118",
+  "source_text": "In a cohort of 1,443 women with fistulas, 32.5% reported prior gishiri cuts, with the procedure performed using unsterilized blades or shards, often leading to immediate tissue necrosis and urinary incontinence rather than resolution of symptoms. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a cohort of 1,443 women with fistulas, 32.5% reported prior gishiri cuts, with the procedure performed using unsterilized blades or shard"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a cohort of 1,443 women with fistulas, 32.5% reported prior gishiri cuts, with the procedure performed using unsterilized blades or shards, often leading to.",
+      "span": {
+        "quote": "In a cohort of 1,443 women with fistulas, 32.5% reported prior gishiri cuts, with the procedure performed using unsterilized blades or shards, often leading to "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

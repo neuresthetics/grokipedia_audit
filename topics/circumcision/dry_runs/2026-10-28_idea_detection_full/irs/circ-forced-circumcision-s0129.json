@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0129",
+  "source_text": "In several ethnic groups across Sub-Saharan Africa, traditional male circumcision serves as a rite of passage for adolescent boys, typically performed without the individual's informed consent due to entrenched cultural norms that equate refusal with social exclusion or loss of manhood status.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In several ethnic groups across Sub-Saharan Africa, traditional male circumcision serves as a rite of passage for adolescent boys, typically"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In several ethnic groups across Sub-Saharan Africa, traditional male circumcision serves as a rite of passage for adolescent boys, typically performed without t.",
+      "span": {
+        "quote": "In several ethnic groups across Sub-Saharan Africa, traditional male circumcision serves as a rite of passage for adolescent boys, typically performed without t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

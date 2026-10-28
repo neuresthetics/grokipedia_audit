@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0206",
+  "source_text": "A 2009 clinical evaluation reported adverse alterations in sexual function for FGM women versus uncircumcised peers, including higher rates of anorgasmia (up to 40% in type III cases) and marital discord tied to pain during intercourse. [41]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2009 clinical evaluation reported adverse alterations in sexual function for FGM women versus uncircumcised peers, including higher rates"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2009 clinical evaluation reported adverse alterations in sexual function for FGM women versus uncircumcised peers, including higher rates of anorgasmia (up to.",
+      "span": {
+        "quote": "A 2009 clinical evaluation reported adverse alterations in sexual function for FGM women versus uncircumcised peers, including higher rates of anorgasmia (up to"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to pain during intercourse.",
+      "span": {
+        "quote": "tied to pain during intercourse"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to pain during intercourse"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to pain during intercourse",
+          "span": {
+            "quote": "tied to pain during intercourse"
+          }
+        }
+      ]
+    }
+  ]
+}

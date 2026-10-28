@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0246",
+  "source_text": "In high-HIV contexts, early infant circumcision aligns with public health modeling showing superior lifetime risk reduction\u2014up to 20.9% in vulnerable populations\u2014due to procedural safety and scalability, outweighing autonomy gains from postponement, particularly given consistent findings of no adverse impacts on adult sexual function or sensitivity. [69] [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high-HIV contexts, early infant circumcision aligns with public health modeling showing superior lifetime risk reduction\u2014up to 20.9% in v"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high-HIV contexts, early infant circumcision aligns with public health modeling showing superior lifetime risk reduction\u2014up to 20.9% in vulnerable population.",
+      "span": {
+        "quote": "In high-HIV contexts, early infant circumcision aligns with public health modeling showing superior lifetime risk reduction\u2014up to 20.9% in vulnerable population"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

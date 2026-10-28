@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0188",
+  "source_text": "Harm reduction advocates counter that outright bans drive procedures underground, exacerbating dangers, and prioritize empirical risk minimization for consenting communities over ideological eradication. [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Harm reduction advocates counter that outright bans drive procedures underground, exacerbating dangers, and prioritize empirical risk minimi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Harm reduction advocates counter that outright bans drive procedures underground, exacerbating dangers, and prioritize empirical risk minimization for consentin.",
+      "span": {
+        "quote": "Harm reduction advocates counter that outright bans drive procedures underground, exacerbating dangers, and prioritize empirical risk minimization for consentin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0258",
+  "source_text": "Bioethicists contend that deferring such interventions until the individual can decide aligns with respect for autonomy, a core principle in medical ethics, avoiding iatrogenic harm from unnecessary surgery.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Bioethicists contend that deferring such interventions until the individual can decide aligns with respect for autonomy, a core principle in"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Deferring such interventions until the individual can decide aligns with respect for autonomy, a core principle in medical ethics, avoiding iatrogenic harm from.",
+      "span": {
+        "quote": "deferring such interventions until the individual can decide aligns with respect for autonomy, a core principle in medical ethics, avoiding iatrogenic harm from"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

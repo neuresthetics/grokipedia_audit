@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-023",
+  "source_text": "Passage: national health agencies + trial reviews agree side effects rare \u2192 not worried.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Passage: national health agencies + trial reviews agree side effects rare \u2192 not worried."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Passage: national health agencies + trial reviews agree side effects rare \u2192 not worried.",
+      "span": {
+        "quote": "Passage: national health agencies + trial reviews agree side effects rare \u2192 not worried."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

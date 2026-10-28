@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0075",
+  "source_text": "Regarding claims of reduced sexual pleasure or function, multiple systematic reviews of high-quality studies, including randomized controlled trials and cohort analyses, have found no adverse effects on sexual function, sensitivity, sensation, satisfaction, or pleasure post-circumcision, with some reporting equivalence or slight improvements in erectile function and reduced dyspareunia. [46] [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regarding claims of reduced sexual pleasure or function, multiple systematic reviews of high-quality studies, including randomized controlle"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of reduced sexual pleasure or function, multiple systematic reviews of high-quality studies, including randomized controlled trials and cohort analyses, have fo.",
+      "span": {
+        "quote": "of reduced sexual pleasure or function, multiple systematic reviews of high-quality studies, including randomized controlled trials and cohort analyses, have fo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

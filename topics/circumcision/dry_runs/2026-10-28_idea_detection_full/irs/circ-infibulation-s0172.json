@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0172",
+  "source_text": "Infibulation constitutes a profound violation of bodily autonomy, as it involves irreversible surgical alteration of female genitalia without the informed consent of the individual, typically performed on prepubescent girls.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infibulation constitutes a profound violation of bodily autonomy, as it involves irreversible surgical alteration of female genitalia withou"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infibulation constitutes a profound violation of bodily autonomy, as it involves irreversible surgical alteration of female genitalia without the informed conse.",
+      "span": {
+        "quote": "Infibulation constitutes a profound violation of bodily autonomy, as it involves irreversible surgical alteration of female genitalia without the informed conse"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

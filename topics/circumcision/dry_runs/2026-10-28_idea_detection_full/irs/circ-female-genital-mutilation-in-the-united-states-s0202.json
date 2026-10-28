@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0202",
+  "source_text": "This approach fails on first-principles grounds by subordinating observable physical and psychological damage to girls\u2014evidenced by immediate risks of hemorrhage and infection\u2014to unexamined communal norms, effectively normalizing irreversible bodily alteration without the child's agency. [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This approach fails on first-principles grounds by subordinating observable physical and psychological damage to girls\u2014evidenced by immediat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This approach fails on first-principles grounds by subordinating observable physical and psychological damage to girls\u2014evidenced by immediate risks of hemorrhag.",
+      "span": {
+        "quote": "This approach fails on first-principles grounds by subordinating observable physical and psychological damage to girls\u2014evidenced by immediate risks of hemorrhag"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

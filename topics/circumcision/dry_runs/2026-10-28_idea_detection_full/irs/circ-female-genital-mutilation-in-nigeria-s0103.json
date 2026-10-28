@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0103",
+  "source_text": "Southeast Nigerian surveys confirm practitioner and community awareness of bleeding and infection as frequent immediate sequelae, though underreporting persists due to home-based procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Southeast Nigerian surveys confirm practitioner and community awareness of bleeding and infection as frequent immediate sequelae, though und"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Southeast Nigerian surveys confirm practitioner and community awareness of bleeding and infection as frequent immediate sequelae, though underreporting persists.",
+      "span": {
+        "quote": "Southeast Nigerian surveys confirm practitioner and community awareness of bleeding and infection as frequent immediate sequelae, though underreporting persists"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

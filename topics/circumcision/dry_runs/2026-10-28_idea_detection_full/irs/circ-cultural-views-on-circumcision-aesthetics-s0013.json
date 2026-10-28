@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0013",
+  "source_text": "Greek and Roman societies idealized the uncircumcised prepuce for its aesthetic harmony with bodily proportions, particularly in athletic contexts where the covered glans was seen as enhancing visual balance and modesty during nudity in gymnasia and competitions. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Greek and Roman societies idealized the uncircumcised prepuce for its aesthetic harmony with bodily proportions, particularly in athletic co"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Greek and Roman societies idealized the uncircumcised prepuce for its aesthetic harmony with bodily proportions, particularly in athletic contexts where the cov.",
+      "span": {
+        "quote": "Greek and Roman societies idealized the uncircumcised prepuce for its aesthetic harmony with bodily proportions, particularly in athletic contexts where the cov"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

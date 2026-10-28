@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0214",
+  "source_text": "Systematic reviews indicate that neonatal circumcision reduces the incidence of UTIs in male infants by approximately 90% during the first year of life, with uncircumcised males facing a baseline risk of about 1% compared to 0.1% in circumcised males. [119] [120]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews indicate that neonatal circumcision reduces the incidence of UTIs in male infants by approximately 90% during the first y"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews indicate that neonatal circumcision reduces the incidence of UTIs in male infants by approximately 90% during the first year of life, with un.",
+      "span": {
+        "quote": "Systematic reviews indicate that neonatal circumcision reduces the incidence of UTIs in male infants by approximately 90% during the first year of life, with un"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

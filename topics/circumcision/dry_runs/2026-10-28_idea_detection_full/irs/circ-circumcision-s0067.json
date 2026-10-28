@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-s0067",
+  "source_text": "Severe pain (VAS >5 or requiring stronger intervention) occurred in only 9.8% of patients, predominantly linked to complications such as wound infection.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Severe pain (VAS >5 or requiring stronger intervention) occurred in only 9.8% of patients, predominantly linked to complications such as wou"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Severe pain (VAS >5 or requiring stronger intervention) occurred in only 9.8% of patients, predominantly linked to complications such as wound infection.",
+      "span": {
+        "quote": "Severe pain (VAS >5 or requiring stronger intervention) occurred in only 9.8% of patients, predominantly linked to complications such as wound infection."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to complications such as wound infection.",
+      "span": {
+        "quote": "linked to complications such as wound infection"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to complications such as wound infection"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to complications such as wound infection",
+          "span": {
+            "quote": "linked to complications such as wound infection"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0005",
+  "source_text": "Infibulation, involving narrowing of the vaginal opening through stitching or other means, constitutes nearly 80% of cases, often accompanied by reinfibulation after childbirth to restore tightness, while less severe Type I (sunna) forms are reported but frequently overstated, masking underlying mutilation upon clinical examination. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infibulation, involving narrowing of the vaginal opening through stitching or other means, constitutes nearly 80% of cases, often accompanie"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infibulation, involving narrowing of the vaginal opening through stitching or other means, constitutes nearly 80% of cases, often accompanied by reinfibulation.",
+      "span": {
+        "quote": "Infibulation, involving narrowing of the vaginal opening through stitching or other means, constitutes nearly 80% of cases, often accompanied by reinfibulation "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

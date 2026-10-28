@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0139",
+  "source_text": "In contrast, male circumcision's risks\u2014primarily bleeding, infection, and rare penile damage\u2014occur at lower rates (approximately 0.2-0.6% for complications in neonates), while meta-analyses indicate modest benefits like a 50-60% reduction in urinary tract infections in infancy and lowered heterosexual HIV acquisition risk later in life, though these are debated and not universally endorsed as justifying routine practice. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, male circumcision's risks\u2014primarily bleeding, infection, and rare penile damage\u2014occur at lower rates (approximately 0.2-0.6% fo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, male circumcision's risks\u2014primarily bleeding, infection, and rare penile damage\u2014occur at lower rates (approximately 0.2-0.6% for complications in n.",
+      "span": {
+        "quote": "In contrast, male circumcision's risks\u2014primarily bleeding, infection, and rare penile damage\u2014occur at lower rates (approximately 0.2-0.6% for complications in n"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "A 50-60% reduction in urinary tract infections in infancy and.",
+      "span": {
+        "quote": "a 50-60% reduction in urinary tract infections in infancy and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "a 50-60% reduction in urinary tract infections in infancy an"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0186",
+  "source_text": "However, empirical evidence from medical studies demonstrates FGM's disproportionate harms, including types I-III procedures that involve partial or total excision of external genitalia, leading to chronic pain, urinary complications, obstetric fistula, and increased maternal mortality risks\u2014outcomes not comparable to the typically less invasive male circumcision, which lacks equivalent long-term sexual dysfunction or infertility rates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, empirical evidence from medical studies demonstrates FGM's disproportionate harms, including types I-III procedures that involve pa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, empirical evidence from medical studies demonstrates FGM's disproportionate harms, including types I-III procedures that involve partial or total excis.",
+      "span": {
+        "quote": "However, empirical evidence from medical studies demonstrates FGM's disproportionate harms, including types I-III procedures that involve partial or total excis"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

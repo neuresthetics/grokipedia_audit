@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0129",
+  "source_text": "No empirical evidence supports psychological benefits, underscoring the practice's net adverse impact on psyche and intimacy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No empirical evidence supports psychological benefits, underscoring the practice's net adverse impact on psyche and intimacy."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No empirical evidence supports psychological benefits, underscoring the practice's net adverse impact on psyche and intimacy.",
+      "span": {
+        "quote": "No empirical evidence supports psychological benefits, underscoring the practice's net adverse impact on psyche and intimacy."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

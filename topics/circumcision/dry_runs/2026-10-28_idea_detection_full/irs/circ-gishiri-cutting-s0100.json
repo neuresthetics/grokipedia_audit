@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0100",
+  "source_text": "Reproductive tract infections can manifest rapidly, with symptoms including fever and localized inflammation, and may progress to systemic sepsis if untreated. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reproductive tract infections can manifest rapidly, with symptoms including fever and localized inflammation, and may progress to systemic s"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reproductive tract infections can manifest rapidly, with symptoms including fever and localized inflammation, and may progress to systemic sepsis if untreated.",
+      "span": {
+        "quote": "Reproductive tract infections can manifest rapidly, with symptoms including fever and localized inflammation, and may progress to systemic sepsis if untreated. "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

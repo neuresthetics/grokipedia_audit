@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0124",
+  "source_text": "Prevalence of pain during intercourse ranged from 40% to 60% in affected cohorts, attributed to scar tissue formation and nerve damage, with overall sexual satisfaction markedly diminished and no supporting data for claims of heightened pleasure or behavioral control. [41]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prevalence of pain during intercourse ranged from 40% to 60% in affected cohorts, attributed to scar tissue formation and nerve damage, with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of heightened pleasure or behavioral control.",
+      "span": {
+        "quote": "of heightened pleasure or behavioral control."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Se ranged from 40% to 60% in affected cohorts, attributed to scar tissue formation and nerve damage, with overall sexual satisfaction markedly diminished and no.",
+      "span": {
+        "quote": "se ranged from 40% to 60% in affected cohorts, attributed to scar tissue formation and nerve damage, with overall sexual satisfaction markedly diminished and no"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

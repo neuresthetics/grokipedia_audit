@@ -1,0 +1,113 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0096",
+  "source_text": "A systematic review of physical health outcomes associated with female genital cutting (FGC) classified by World Health Organization types reveals limited high-quality evidence linking the procedure directly to long-term morbidity, with many associations confounded by methodological weaknesses such as small samples, recall bias, and lack of controls for socioeconomic or environmental factors. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A systematic review of physical health outcomes associated with female genital cutting (FGC) classified by World Health Organization types r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A systematic review of physical health outcomes associated with female genital cutting (FGC) classified by World Health Organization types reveals limited high-.",
+      "span": {
+        "quote": "A systematic review of physical health outcomes associated with female genital cutting (FGC) classified by World Health Organization types reveals limited high-"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Associated with female genital cutting (FGC) classified by World Health.",
+      "span": {
+        "quote": "associated with female genital cutting (FGC) classified by World Health"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "associated with female genital cutting (FGC) classified by World Health"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with female genital cutting (FGC) classified by World Health ",
+          "span": {
+            "quote": "associated with female genital cutting (FGC) classified by World Health"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0201",
+  "source_text": "Medicalization thus entrenches the practice by lending it a veneer of legitimacy through medical authority, complicating eradication efforts, as families view clinic-based FGM as a benign cultural rite rather than harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medicalization thus entrenches the practice by lending it a veneer of legitimacy through medical authority, complicating eradication efforts"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicalization.",
+      "span": {
+        "quote": "Medicalization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Entrenches the practice by lending it a veneer of legitimacy through medical authority, complicating eradication efforts, as families view clinic-based FGM as a.",
+      "span": {
+        "quote": "entrenches the practice by lending it a veneer of legitimacy through medical authority, complicating eradication efforts, as families view clinic-based FGM as a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

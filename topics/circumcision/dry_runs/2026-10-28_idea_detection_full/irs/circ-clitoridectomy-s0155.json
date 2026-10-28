@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-clitoridectomy-s0155",
+  "source_text": "Systematic reviews of FGM/C physical outcomes, predominantly Type I and II, indicate elevated risks of recurrent infections, menstrual difficulties, and obstetric complications like prolonged labor, though Type I confers relatively lower severity than infibulation. [76]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews of FGM/C physical outcomes, predominantly Type I and II, indicate elevated risks of recurrent infections, menstrual diffi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews of FGM/C physical outcomes, predominantly Type I and II, indicate elevated risks of recurrent infections, menstrual difficulties, and obstetr.",
+      "span": {
+        "quote": "Systematic reviews of FGM/C physical outcomes, predominantly Type I and II, indicate elevated risks of recurrent infections, menstrual difficulties, and obstetr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

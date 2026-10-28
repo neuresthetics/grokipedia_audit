@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0218",
+  "source_text": "Christian denominations, including some Coptic and Ethiopian Orthodox groups, incorporate it culturally, arguing theological consistency with Old Testament precedents and rejecting intactivist petitions as infringing on faith freedoms protected under international human rights frameworks like the UN Declaration on Religious Intolerance.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Christian denominations, including some Coptic and Ethiopian Orthodox groups, incorporate it culturally, arguing theological consistency wit"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Christian denominations, including some Coptic and Ethiopian Orthodox groups, incorporate it culturally, arguing theological consistency with Old Testament prec.",
+      "span": {
+        "quote": "Christian denominations, including some Coptic and Ethiopian Orthodox groups, incorporate it culturally, arguing theological consistency with Old Testament prec"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

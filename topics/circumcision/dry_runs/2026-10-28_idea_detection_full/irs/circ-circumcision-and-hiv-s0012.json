@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0012",
+  "source_text": "The studies were ethically halted early by data safety monitoring boards due to the evident protective effect, with follow-up periods ranging from 21 to 24 months. [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The studies were ethically halted early by data safety monitoring boards due to the evident protective effect, with follow-up periods rangin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The studies were ethically halted early by data safety monitoring boards due to the evident protective effect, with follow-up periods ranging from 21 to 24 mont.",
+      "span": {
+        "quote": "The studies were ethically halted early by data safety monitoring boards due to the evident protective effect, with follow-up periods ranging from 21 to 24 mont"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0095",
+  "source_text": "The Shulchan Aruch (Yoreh De'ah 260-261) explicitly mandates that a father must circumcise his son; if he neglects this, the rabbinic court (beit din) is obligated to intervene and perform it, and upon maturity, the individual himself bears the responsibility, underscoring the non-optional nature of the act. [28]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Shulchan Aruch (Yoreh De'ah 260-261) explicitly mandates that a father must circumcise his son; if he neglects this, the rabbinic court"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "he"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Shulchan Aruch (Yoreh De'ah 260-261) explicitly mandates that a father must circumcise his son; if he neglects this, the rabbinic court (beit din) is obliga.",
+      "span": {
+        "quote": "The Shulchan Aruch (Yoreh De'ah 260-261) explicitly mandates that a father must circumcise his son; if he neglects this, the rabbinic court (beit din) is obliga"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    },
+    {
+      "id": "c2",
+      "text": "A father must circumcise his son.",
+      "span": {
+        "quote": "a father must circumcise his son"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a father must circumcise his son"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

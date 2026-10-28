@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0133",
+  "source_text": "Proponents contend this preservation yields psychosocial benefits, including enhanced group cohesion, as evidenced by sustained practice rates\u2014over 90% among U.S. Jewish males and near-universal in many Muslim populations\u2014correlating with robust communal structures despite secular influences.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents contend this preservation yields psychosocial benefits, including enhanced group cohesion, as evidenced by sustained practice rat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is preservation yields psychosocial benefits, including enhanced group cohesion, as evidenced by sustained practice rates\u2014over 90% among U.S.",
+      "span": {
+        "quote": "is preservation yields psychosocial benefits, including enhanced group cohesion, as evidenced by sustained practice rates\u2014over 90% among U.S."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This preservation yields psychosocial benefits.",
+      "span": {
+        "quote": "this preservation yields psychosocial benefits"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "this preservation yields psychosocial benefits"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

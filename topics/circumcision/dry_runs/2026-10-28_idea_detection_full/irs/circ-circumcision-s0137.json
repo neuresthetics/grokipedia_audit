@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0137",
+  "source_text": "Screening examinations have yielded prevalences of 17.9% (2022) and 10.3% (2024). [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Screening examinations have yielded prevalences of 17.9% (2022) and 10.3% (2024). [71]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Screening examinations have yielded prevalences of 17.9% (2022) and 10.3% (2024). [71].",
+      "span": {
+        "quote": "Screening examinations have yielded prevalences of 17.9% (2022) and 10.3% (2024). [71]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

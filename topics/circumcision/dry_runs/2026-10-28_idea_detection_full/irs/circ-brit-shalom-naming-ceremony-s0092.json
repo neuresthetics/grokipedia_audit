@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0092",
+  "source_text": "From the perspective of Orthodox Judaism and traditional halachic authorities, Brit Shalom fails to fulfill the biblical commandment of brit milah, which requires the physical circumcision of male infants on the eighth day as a perpetual sign of the covenant between God and the Jewish people, as stipulated in Genesis 17:10-14.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From the perspective of Orthodox Judaism and traditional halachic authorities, Brit Shalom fails to fulfill the biblical commandment of brit"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From the perspective of Orthodox Judaism and traditional halachic authorities, Brit Shalom fails to fulfill the biblical commandment of brit milah, which requir.",
+      "span": {
+        "quote": "From the perspective of Orthodox Judaism and traditional halachic authorities, Brit Shalom fails to fulfill the biblical commandment of brit milah, which requir"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

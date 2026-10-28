@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0121",
+  "source_text": "The World Health Organization classifies gishiri as a type IV female genital mutilation/cutting procedure, emphasizing that all such practices confer no health benefits and carry risks of infection, hemorrhage, and chronic morbidity, with empirical data underscoring harm over utility. [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization classifies gishiri as a type IV female genital mutilation/cutting procedure, emphasizing that all such practic"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization classifies gishiri as a type IV female genital mutilation/cutting procedure, emphasizing that all such practices confer no health.",
+      "span": {
+        "quote": "The World Health Organization classifies gishiri as a type IV female genital mutilation/cutting procedure, emphasizing that all such practices confer no health "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "A type IV female genital mutilation/cutting procedure.",
+      "span": {
+        "quote": "a type IV female genital mutilation/cutting procedure"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "a type IV female genital mutilation/cutting procedure"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

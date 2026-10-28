@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0149",
+  "source_text": "In infants, the foreskin's immature development increases UTI vulnerability due to poor hygiene access, with meta-analyses of observational studies showing circumcision reduces UTI risk by approximately 90%, from a baseline of 1% in uncircumcised boys to 0.09%, yielding a number needed to treat of 111 to prevent one UTI.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In infants, the foreskin's immature development increases UTI vulnerability due to poor hygiene access, with meta-analyses of observational"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In infants, the foreskin's immature development increases UTI vulnerability due to poor hygiene access, with meta-analyses of observational studies showing circ.",
+      "span": {
+        "quote": "In infants, the foreskin's immature development increases UTI vulnerability due to poor hygiene access, with meta-analyses of observational studies showing circ"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0136",
+  "source_text": "By 2021, another 23 Xhosa initiates perished in similar rituals, underscoring persistent failures in oversight despite provincial mandates for registered facilities and trained surgeons.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By 2021, another 23 Xhosa initiates perished in similar rituals, underscoring persistent failures in oversight despite provincial mandates f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By 2021, another 23 Xhosa initiates perished in similar rituals, underscoring persistent failures in oversight despite provincial mandates for registered facili.",
+      "span": {
+        "quote": "By 2021, another 23 Xhosa initiates perished in similar rituals, underscoring persistent failures in oversight despite provincial mandates for registered facili"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

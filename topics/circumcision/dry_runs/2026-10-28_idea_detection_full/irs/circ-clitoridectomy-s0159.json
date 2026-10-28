@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0159",
+  "source_text": "Sexual dysfunction correlates with diminished self-esteem and relational distress, as loss of genital pleasure fosters feelings of incompleteness or inadequacy. [80]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sexual dysfunction correlates with diminished self-esteem and relational distress, as loss of genital pleasure fosters feelings of incomplet"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sexual dysfunction correlates with diminished self-esteem and relational distress, as loss of genital pleasure fosters feelings of incompleteness or inadequacy.",
+      "span": {
+        "quote": "Sexual dysfunction correlates with diminished self-esteem and relational distress, as loss of genital pleasure fosters feelings of incompleteness or inadequacy."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

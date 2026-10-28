@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0210",
+  "source_text": "Reviews note that while associations hold in observational designs, confounding factors like socioeconomic status and community norms necessitate cautious inference; nonetheless, the procedure's invasive trauma provides a plausible causal pathway absent in controls.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reviews note that while associations hold in observational designs, confounding factors like socioeconomic status and community norms necess"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reviews note that while associations hold in observational designs, confounding factors like socioeconomic status and community norms necessitate cautious infer.",
+      "span": {
+        "quote": "Reviews note that while associations hold in observational designs, confounding factors like socioeconomic status and community norms necessitate cautious infer"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

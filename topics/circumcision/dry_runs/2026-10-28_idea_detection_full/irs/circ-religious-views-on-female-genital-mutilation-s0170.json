@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0170",
+  "source_text": "Syncretic contexts, where animist cosmologies merge with Islamic or Christian elements, occasionally elevate these minor rituals into markers of communal identity, framing them as bulwarks against erosion by modernity rather than harmful mutilation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Syncretic contexts, where animist cosmologies merge with Islamic or Christian elements, occasionally elevate these minor rituals into marker"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Syncretic contexts, where animist cosmologies merge with Islamic or Christian elements, occasionally elevate these minor rituals into markers of communal identi.",
+      "span": {
+        "quote": "Syncretic contexts, where animist cosmologies merge with Islamic or Christian elements, occasionally elevate these minor rituals into markers of communal identi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

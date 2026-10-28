@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0278",
+  "source_text": "Claims of psychological trauma, such as links to autism spectrum disorder via stress hormone accumulation, lack empirical support from controlled studies examining glucocorticoid levels.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of psychological trauma, such as links to autism spectrum disorder via stress hormone accumulation, lack empirical support from contr"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of psychological trauma, such as links to autism spectrum disorder via stress hormone accumulation, lack empirical support from controlled studies examining glu.",
+      "span": {
+        "quote": "of psychological trauma, such as links to autism spectrum disorder via stress hormone accumulation, lack empirical support from controlled studies examining glu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

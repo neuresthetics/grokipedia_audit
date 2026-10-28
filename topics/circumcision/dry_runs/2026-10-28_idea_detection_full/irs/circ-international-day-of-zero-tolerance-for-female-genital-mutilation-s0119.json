@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0119",
+  "source_text": "Pain-induced shock and tetanus from clostridial spores on contaminated blades contribute to periprocedural mortality, though exact global incidences are underreported due to the clandestine nature of many procedures and lack of vital registration in high-prevalence areas. [2] [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pain-induced shock and tetanus from clostridial spores on contaminated blades contribute to periprocedural mortality, though exact global in"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pain-induced shock and tetanus from clostridial spores on contaminated blades contribute to periprocedural mortality, though exact global incidences are underre.",
+      "span": {
+        "quote": "Pain-induced shock and tetanus from clostridial spores on contaminated blades contribute to periprocedural mortality, though exact global incidences are underre"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0139",
+  "source_text": "This call seeks a binding international legal precedent to classify such mutilations\u2014encompassing both female genital mutilation and male circumcision\u2014as human rights abuses, thereby compelling global cessation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This call seeks a binding international legal precedent to classify such mutilations\u2014encompassing both female genital mutilation and male ci"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This call seeks a binding international legal precedent to classify such mutilations\u2014encompassing both female genital mutilation and male circumcision\u2014as human.",
+      "span": {
+        "quote": "This call seeks a binding international legal precedent to classify such mutilations\u2014encompassing both female genital mutilation and male circumcision\u2014as human "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Compelling global cessation.",
+      "span": {
+        "quote": "compelling global cessation."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

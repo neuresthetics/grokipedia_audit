@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0162",
+  "source_text": "In advocacy circles, the resolution galvanized intactivist organizations such as the National Organization of Circumcision Information Resource Centers (NOCIRC), which promoted it as a humanist appeal endorsed by figures like Francis Crick and Jonas Salk, emphasizing psychological and sexual harms over purported benefits. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In advocacy circles, the resolution galvanized intactivist organizations such as the National Organization of Circumcision Information Resou"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In advocacy circles, the resolution galvanized intactivist organizations such as the National Organization of Circumcision Information Resource Centers (NOCIRC).",
+      "span": {
+        "quote": "In advocacy circles, the resolution galvanized intactivist organizations such as the National Organization of Circumcision Information Resource Centers (NOCIRC)"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

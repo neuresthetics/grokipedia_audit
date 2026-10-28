@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0222",
+  "source_text": "This incident highlighted ongoing risks in non-medical rites, prompting government oversight visits and calls for stricter regulation of customary practices. [145]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This incident highlighted ongoing risks in non-medical rites, prompting government oversight visits and calls for stricter regulation of cus"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This incident highlighted ongoing risks in non-medical rites, prompting government oversight visits and calls for stricter regulation of customary practices. [1.",
+      "span": {
+        "quote": "This incident highlighted ongoing risks in non-medical rites, prompting government oversight visits and calls for stricter regulation of customary practices. [1"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

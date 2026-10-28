@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0052",
+  "source_text": "Such arguments posit that delaying the procedure until adulthood preserves purported health benefits while respecting autonomy, rendering infant circumcision unnecessary and rights-violating. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such arguments posit that delaying the procedure until adulthood preserves purported health benefits while respecting autonomy, rendering in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such arguments posit that delaying the procedure until adulthood preserves purported health benefits while respecting autonomy, rendering infant circumcision un.",
+      "span": {
+        "quote": "Such arguments posit that delaying the procedure until adulthood preserves purported health benefits while respecting autonomy, rendering infant circumcision un"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

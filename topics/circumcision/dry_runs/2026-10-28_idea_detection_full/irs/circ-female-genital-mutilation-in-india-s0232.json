@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0232",
+  "source_text": "This tension underscores a causal divide: UN absolutism assumes uniform harm across contexts, yet empirical gaps in Asia-specific prevalence data\u2014reliant on self-reported surveys\u2014limit verification, with India's non-endorsement of targeted conventions preserving space for community defenses rooted in religious freedom.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This tension underscores a causal divide: UN absolutism assumes uniform harm across contexts, yet empirical gaps in Asia-specific prevalence"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This tension underscores a causal divide: UN absolutism assumes uniform harm across contexts, yet empirical gaps in Asia-specific prevalence data\u2014reliant on sel.",
+      "span": {
+        "quote": "This tension underscores a causal divide: UN absolutism assumes uniform harm across contexts, yet empirical gaps in Asia-specific prevalence data\u2014reliant on sel"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

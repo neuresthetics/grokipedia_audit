@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0277",
+  "source_text": "Ethical arguments equating male circumcision to female genital mutilation (FGM) are dismissed as a false equivalency, given FGM's lack of health benefits, high rates of severe complications, and intent to control female sexuality, versus male circumcision's documented preventive effects and low harm profile. [155]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical arguments equating male circumcision to female genital mutilation (FGM) are dismissed as a false equivalency, given FGM's lack of he"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethical arguments equating male circumcision to female genital mutilation (FGM) are dismissed as a false equivalency, given FGM's lack of health benefits, high.",
+      "span": {
+        "quote": "Ethical arguments equating male circumcision to female genital mutilation (FGM) are dismissed as a false equivalency, given FGM's lack of health benefits, high "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0290",
+  "source_text": "Restoration's societal dimensions also highlight tensions in gender and ethical discourse, paralleling critiques of female genital cutting while underscoring inconsistencies in cultural tolerance for male procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Restoration's societal dimensions also highlight tensions in gender and ethical discourse, paralleling critiques of female genital cutting w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Restoration's societal dimensions also highlight tensions in gender and ethical discourse, paralleling critiques of female genital cutting while underscoring in.",
+      "span": {
+        "quote": "Restoration's societal dimensions also highlight tensions in gender and ethical discourse, paralleling critiques of female genital cutting while underscoring in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0117",
+  "source_text": "Organizations such as the International Coalition for Genital Integrity assert that proxy consent by parents fails to substitute for the individual's own autonomy, likening it to unauthorized bodily alterations that no adult would accept without medical necessity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Organizations such as the International Coalition for Genital Integrity assert that proxy consent by parents fails to substitute for the ind"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proxy consent by parents fails to substitute for the individual's own autonomy, likening it to unauthorized bodily alterations that no adult would accept withou.",
+      "span": {
+        "quote": "proxy consent by parents fails to substitute for the individual's own autonomy, likening it to unauthorized bodily alterations that no adult would accept withou"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Organizations such as the International Coalition for Genital Integrity.",
+      "span": {
+        "quote": "Organizations such as the International Coalition for Genital Integrity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

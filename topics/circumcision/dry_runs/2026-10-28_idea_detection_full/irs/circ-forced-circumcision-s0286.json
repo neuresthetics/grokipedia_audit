@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0286",
+  "source_text": "This table illustrates empirical divergences, yet first-principles scrutiny reveals that both undermine causal chains of individual consent, with policy divergences often tracing to cultural familiarity\u2014male practices normalized in Abrahamic traditions and Western medicine, while FGC is exoticized as barbaric. [133]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This table illustrates empirical divergences, yet first-principles scrutiny reveals that both undermine causal chains of individual consent,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This table illustrates empirical divergences, yet first-principles scrutiny reveals that both undermine causal chains of individual consent, with policy diverge.",
+      "span": {
+        "quote": "This table illustrates empirical divergences, yet first-principles scrutiny reveals that both undermine causal chains of individual consent, with policy diverge"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

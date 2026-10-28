@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0107",
+  "source_text": "Pain scores from observational studies equate heel lancing (mean 2.2-4.0 on validated scales) with unanesthetized circumcision, but both are ethically endorsed when net utility prevails, as with circumcision's broader infectious disease prophylaxis. [68]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pain scores from observational studies equate heel lancing (mean 2.2-4.0 on validated scales) with unanesthetized circumcision, but both are"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pain scores from observational studies equate heel lancing (mean 2.2-4.0 on validated scales) with unanesthetized circumcision, but both are ethically endorsed.",
+      "span": {
+        "quote": "Pain scores from observational studies equate heel lancing (mean 2.2-4.0 on validated scales) with unanesthetized circumcision, but both are ethically endorsed "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

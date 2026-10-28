@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0008",
+  "source_text": "Notable controversies include disparities in nomenclature and policy application\u2014such as framing female genital cutting as mutilation while viewing male circumcision as neutral or beneficial\u2014and the influence of institutional biases, where advocacy for the practice may prioritize collective health modeling over individual rights assessments. [9] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Notable controversies include disparities in nomenclature and policy application\u2014such as framing female genital cutting as mutilation while"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Notable controversies include disparities in nomenclature and policy application\u2014such as framing female genital cutting as mutilation while viewing male circumc.",
+      "span": {
+        "quote": "Notable controversies include disparities in nomenclature and policy application\u2014such as framing female genital cutting as mutilation while viewing male circumc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

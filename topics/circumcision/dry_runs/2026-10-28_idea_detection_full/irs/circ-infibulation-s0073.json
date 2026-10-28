@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0073",
+  "source_text": "Non-sterile ancient techniques, performed without anesthesia or antiseptics, frequently resulted in complications such as local infections, hemorrhage, and tissue necrosis due to pressure from the clasp. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Non-sterile ancient techniques, performed without anesthesia or antiseptics, frequently resulted in complications such as local infections,"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-sterile ancient techniques, performed without anesthesia or antiseptics, frequently resulted in complications such as local infections, hemorrhage, and tiss.",
+      "span": {
+        "quote": "Non-sterile ancient techniques, performed without anesthesia or antiseptics, frequently resulted in complications such as local infections, hemorrhage, and tiss"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

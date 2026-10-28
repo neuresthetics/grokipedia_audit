@@ -1,0 +1,114 @@
+{
+  "passage_id": "circ-brit-milah-s0281",
+  "source_text": "Activists often draw on international frameworks, citing the UN Convention on the Rights of the Child to argue for bans, as seen in 2018 Icelandic and Danish proposals that galvanized Jewish defenses but highlighted tensions between multiculturalism and child rights advocacy. [143]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Activists often draw on international frameworks, citing the UN Convention on the Rights of the Child to argue for bans, as seen in 2018 Ice"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For bans, as seen in 2018 Icelandic and Danish proposals that galvanized Jewish defenses but highlighted tensions between multiculturalism and child rights advo.",
+      "span": {
+        "quote": "for bans, as seen in 2018 Icelandic and Danish proposals that galvanized Jewish defenses but highlighted tensions between multiculturalism and child rights advo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Activists often draw on international frameworks, citing the UN Convention on the Rights of the Child to.",
+      "span": {
+        "quote": "Activists often draw on international frameworks, citing the UN Convention on the Rights of the Child to"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing the UN Convention on the Rights of the Child to argue for bans.",
+      "span": {
+        "quote": "citing the UN Convention on the Rights of the Child to argue for bans"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Activists often draw on international frameworks.",
+      "span": {
+        "quote": "Activists often draw on international frameworks"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing the UN Convention on the Rights of the Child to argue for bans"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "attacks_person",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "Activists often draw on international frameworks"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Activists often draw"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "Activists often draw on international frameworks",
+          "span": {
+            "quote": "Activists often draw on international frameworks"
+          }
+        }
+      ]
+    }
+  ]
+}

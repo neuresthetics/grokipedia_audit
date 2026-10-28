@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0083",
+  "source_text": "These methods risk severe bleeding, ulceration, and chronic vaginal narrowing, exacerbating reproductive health issues.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These methods risk severe bleeding, ulceration, and chronic vaginal narrowing, exacerbating reproductive health issues."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These methods risk severe bleeding, ulceration, and chronic vaginal narrowing, exacerbating reproductive health issues.",
+      "span": {
+        "quote": "These methods risk severe bleeding, ulceration, and chronic vaginal narrowing, exacerbating reproductive health issues."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

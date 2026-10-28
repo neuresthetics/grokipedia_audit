@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0167",
+  "source_text": "These harms stem from anatomical disruption of the vulva and clitoris, which contains over 8,000 nerve endings essential for normal function, yielding no hygienic or preventive benefits analogous to those sometimes claimed for male circumcision, per neuroanatomical analyses.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These harms stem from anatomical disruption of the vulva and clitoris, which contains over 8,000 nerve endings essential for normal function"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For male circumcision, per neuroanatomical analyses.",
+      "span": {
+        "quote": "for male circumcision, per neuroanatomical analyses."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Isruption of the vulva and clitoris, which contains over 8,000 nerve endings essential for normal function, yielding no hygienic or preventive benefits analogou.",
+      "span": {
+        "quote": "isruption of the vulva and clitoris, which contains over 8,000 nerve endings essential for normal function, yielding no hygienic or preventive benefits analogou"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per neuroanatomical analyses.",
+      "span": {
+        "quote": "per neuroanatomical analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claimed"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per neuroanatomical analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0142",
+  "source_text": "Type I (clitoridectomy) involves partial or total removal of the clitoral glans and/or prepuce, resulting in acute tissue damage and risk of infection from unsterile instruments.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type I (clitoridectomy) involves partial or total removal of the clitoral glans and/or prepuce, resulting in acute tissue damage and risk of"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Type I (clitoridectomy) involves partial or total removal of the clitoral glans and/or prepuce, resulting in acute tissue damage and risk of infection from unst.",
+      "span": {
+        "quote": "Type I (clitoridectomy) involves partial or total removal of the clitoral glans and/or prepuce, resulting in acute tissue damage and risk of infection from unst"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

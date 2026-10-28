@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0270",
+  "source_text": "Studies on sexual function and sensitivity yield mixed but predominantly neutral to positive findings in high-quality reviews; systematic analyses of randomized trials and cohort studies indicate that circumcision does not adversely affect penile sensitivity, erectile function, orgasm ease, or overall sexual satisfaction, with some reports of enhanced satisfaction post-procedure. [119] [120] [121]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies on sexual function and sensitivity yield mixed but predominantly neutral to positive findings in high-quality reviews; systematic an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies on sexual function and sensitivity yield mixed but predominantly neutral to positive findings in high-quality reviews; systematic analyses of randomized.",
+      "span": {
+        "quote": "Studies on sexual function and sensitivity yield mixed but predominantly neutral to positive findings in high-quality reviews; systematic analyses of randomized"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

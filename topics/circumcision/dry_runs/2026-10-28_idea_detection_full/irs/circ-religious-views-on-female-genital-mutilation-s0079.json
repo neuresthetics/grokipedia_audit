@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0079",
+  "source_text": "Numerous contemporary fatwas reject all forms of female genital modification as lacking firm basis in the Quran or authentic Sunnah, classifying them as culturally driven rather than religiously mandated.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Numerous contemporary fatwas reject all forms of female genital modification as lacking firm basis in the Quran or authentic Sunnah, classif"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Numerous contemporary fatwas reject all forms of female genital modification as lacking firm basis in the Quran or authentic Sunnah, classifying them as cultura.",
+      "span": {
+        "quote": "Numerous contemporary fatwas reject all forms of female genital modification as lacking firm basis in the Quran or authentic Sunnah, classifying them as cultura"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

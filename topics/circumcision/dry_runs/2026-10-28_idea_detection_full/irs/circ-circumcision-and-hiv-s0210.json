@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0210",
+  "source_text": "Counseling sessions often emphasize HIV prevention benefits while downplaying risks like pain or complications, leading to incomplete risk understanding; for instance, some adolescents mistakenly believed HIV testing was mandatory rather than optional.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Counseling sessions often emphasize HIV prevention benefits while downplaying risks like pain or complications, leading to incomplete risk u"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "HIV prevention benefits while downplaying risks like pain or complications, leading to incomplete risk understanding;.",
+      "span": {
+        "quote": "HIV prevention benefits while downplaying risks like pain or complications, leading to incomplete risk understanding;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Counseling sessions often.",
+      "span": {
+        "quote": "Counseling sessions often"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

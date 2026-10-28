@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-METHOD-009",
+  "source_text": "**(e) Rule out each legitimate look-alike.** For each look-alike listed in the entry, say in one line why it does not apply. A look-alike can downgrade a flag only if the passage supplies its features, or those features are common knowledge in the sense of step (b). A look-alike you would have to imagine (a mechanism that might exist, a default that might have been set) does not count. If one does apply, downgrade to \"possible issue\" or drop the flag, as the look-alike says.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**(e) Rule out each legitimate look-alike.** For each look-alike listed in the entry, say in one line why it does not apply. A look-alike ca"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "**(e) Rule out each legitimate look-alike.** For each look-alike listed in the entry, say in one line why it does not apply. A look-alike can downgrade a flag o.",
+      "span": {
+        "quote": "**(e) Rule out each legitimate look-alike.** For each look-alike listed in the entry, say in one line why it does not apply. A look-alike can downgrade a flag o"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

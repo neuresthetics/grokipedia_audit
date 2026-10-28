@@ -1,0 +1,113 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-02",
+  "source_text": "This position, outlined in a 2010 policy statement, emphasizes that proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity, though critics contend it undervalues evidence from randomized controlled trials demonstrating reductions in HIV acquisition and urinary tract infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity"
+      },
+      "claim_ids": [
+        "c_proxy",
+        "c_no_therapy"
+      ],
+      "speaker": "policy_position"
+    },
+    {
+      "id": "s2",
+      "span": {
+        "quote": "critics contend it undervalues evidence from randomized controlled trials"
+      },
+      "claim_ids": [
+        "c_undervalues",
+        "c_rct"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_no_therapy",
+      "text": "Irreversible alteration of healthy tissue lacks therapeutic necessity (in the cases the position addresses).",
+      "span": {
+        "quote": "irreversible alteration of healthy tissue absent therapeutic necessity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "policy_position"
+    },
+    {
+      "id": "c_proxy",
+      "text": "Proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity.",
+      "span": {
+        "quote": "proxy consent by parents cannot justify irreversible alteration of healthy tissue absent therapeutic necessity"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "policy_position",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_rct",
+      "text": "RCTs demonstrate reductions in HIV acquisition and urinary tract infections.",
+      "span": {
+        "quote": "randomized controlled trials demonstrating reductions in HIV acquisition and urinary tract infections"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c_undervalues",
+      "text": "The 2010 policy position undervalues that RCT evidence.",
+      "span": {
+        "quote": "it undervalues evidence from randomized controlled trials"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_no_therapy",
+      "target": "c_proxy",
+      "span": {
+        "quote": "cannot justify irreversible alteration of healthy tissue absent therapeutic necessity"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_rct",
+      "target": "c_undervalues",
+      "span": {
+        "quote": "undervalues evidence from randomized controlled trials"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e3",
+      "type": "attacks_claim",
+      "source": "c_undervalues",
+      "target": "c_proxy",
+      "span": {
+        "quote": "critics contend it undervalues evidence"
+      },
+      "answered": false
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

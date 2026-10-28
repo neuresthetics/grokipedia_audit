@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0123",
+  "source_text": "In a 2024 cross-sectional study of 400 women in Ibadan, those with FGM reported significantly lower scores on sexual function indices, encompassing arousal, lubrication, and orgasm domains, compared to uncircumcised controls (p<0.05). [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a 2024 cross-sectional study of 400 women in Ibadan, those with FGM reported significantly lower scores on sexual function indices, encom"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a 2024 cross-sectional study of 400 women in Ibadan, those with FGM reported significantly lower scores on sexual function indices, encompassing arousal, lub.",
+      "span": {
+        "quote": "In a 2024 cross-sectional study of 400 women in Ibadan, those with FGM reported significantly lower scores on sexual function indices, encompassing arousal, lub"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

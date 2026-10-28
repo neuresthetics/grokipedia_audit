@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0279",
+  "source_text": "Despite its efficacy, circumcision's role remains contentious due to its irreversibility and the removal of functional penile tissue.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite its efficacy, circumcision's role remains contentious due to its irreversibility and the removal of functional penile tissue."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite its efficacy, circumcision's role remains contentious due to its irreversibility and the removal of functional penile tissue.",
+      "span": {
+        "quote": "Despite its efficacy, circumcision's role remains contentious due to its irreversibility and the removal of functional penile tissue."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

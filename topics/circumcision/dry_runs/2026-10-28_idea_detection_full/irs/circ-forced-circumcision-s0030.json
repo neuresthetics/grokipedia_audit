@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0030",
+  "source_text": "This delineation underscores causal differences in harm: forced acts directly negate agency in aware subjects, potentially yielding long-term psychological sequelae, in opposition to the deferred-choice critique of parental practices.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This delineation underscores causal differences in harm: forced acts directly negate agency in aware subjects, potentially yielding long-ter"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This delineation underscores causal differences in harm: forced acts directly negate agency in aware subjects, potentially yielding long-term psychological sequ.",
+      "span": {
+        "quote": "This delineation underscores causal differences in harm: forced acts directly negate agency in aware subjects, potentially yielding long-term psychological sequ"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

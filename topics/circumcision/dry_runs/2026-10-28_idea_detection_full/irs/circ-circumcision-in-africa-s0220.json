@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0220",
+  "source_text": "Nonetheless, meta-analyses of post-trial data reaffirm no offsetting behavioral disinhibition, with sustained protection against heterosexual transmission. [102]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Nonetheless, meta-analyses of post-trial data reaffirm no offsetting behavioral disinhibition, with sustained protection against heterosexua"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nonetheless, meta-analyses of post-trial data reaffirm no offsetting behavioral disinhibition, with sustained protection against heterosexual transmission. [102.",
+      "span": {
+        "quote": "Nonetheless, meta-analyses of post-trial data reaffirm no offsetting behavioral disinhibition, with sustained protection against heterosexual transmission. [102"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

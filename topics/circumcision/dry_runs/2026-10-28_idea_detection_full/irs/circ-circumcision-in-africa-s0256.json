@@ -1,0 +1,107 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0256",
+  "source_text": "Proponents of medical circumcision argue that the empirical safety advantages and public health benefits, including averting an estimated 3.3 million HIV infections by 2020 through scaled programs, justify prioritization, particularly given documented severe wound infections and deaths linked to traditional methods in regions like South Africa and Eastern Cape. [117] [118]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of medical circumcision argue that the empirical safety advantages and public health benefits, including averting an estimated 3."
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E empirical safety advantages and public health benefits, including averting an estimated 3.3 million HIV infections by 2020 through scaled programs, justify pr.",
+      "span": {
+        "quote": "e empirical safety advantages and public health benefits, including averting an estimated 3.3 million HIV infections by 2020 through scaled programs, justify pr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of medical circumcision.",
+      "span": {
+        "quote": "Proponents of medical circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to traditional methods in regions like South Africa and Eastern.",
+      "span": {
+        "quote": "linked to traditional methods in regions like South Africa and Eastern"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to traditional methods in regions like South Africa and Eastern"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to traditional methods in regions like South Africa and Eastern",
+          "span": {
+            "quote": "linked to traditional methods in regions like South Africa and Eastern"
+          }
+        }
+      ]
+    }
+  ]
+}

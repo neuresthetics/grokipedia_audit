@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0173",
+  "source_text": "The persistence of cutting despite billions in funding\u2014such as the Joint Programme's focus on attitude shifts yielding only modest, non-sustained behavioral changes\u2014suggests campaigns overlook practitioner perspectives that prioritize cultural continuity over Western-framed harm narratives. [40] [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The persistence of cutting despite billions in funding\u2014such as the Joint Programme's focus on attitude shifts yielding only modest, non-sust"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Campaigns overlook practitioner perspectives that prioritize cultural continuity over Western-framed harm narratives.",
+      "span": {
+        "quote": "campaigns overlook practitioner perspectives that prioritize cultural continuity over Western-framed harm narratives."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The persistence of cutting despite billions in funding\u2014such as the Joint Programme's focus on attitude shifts yielding only modest, non-sustained behavioral cha.",
+      "span": {
+        "quote": "The persistence of cutting despite billions in funding\u2014such as the Joint Programme's focus on attitude shifts yielding only modest, non-sustained behavioral cha"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggests"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "ignores",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "overlook"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

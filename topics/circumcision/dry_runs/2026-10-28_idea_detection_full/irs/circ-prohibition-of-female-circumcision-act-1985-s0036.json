@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0036",
+  "source_text": "Advocacy emphasized empirical UK reports of complications in immigrant girl cases, such as infections and urinary issues treated in NHS facilities, framing prohibition as safeguarding child welfare from empirically linked risks absent in native practices. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocacy emphasized empirical UK reports of complications in immigrant girl cases, such as infections and urinary issues treated in NHS faci"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical UK reports of complications in immigrant girl cases, such as infections and urinary issues treated in NHS facilities, framing prohibition as safeguard.",
+      "span": {
+        "quote": "empirical UK reports of complications in immigrant girl cases, such as infections and urinary issues treated in NHS facilities, framing prohibition as safeguard"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

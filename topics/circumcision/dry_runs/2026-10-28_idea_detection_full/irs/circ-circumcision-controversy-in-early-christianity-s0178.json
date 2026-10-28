@@ -1,0 +1,98 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0178",
+  "source_text": "This decision aligned with Paul's missionary praxis, enabling him to evangelize urban centers like Antioch, Corinth, and Ephesus among uncircumcised pagans without imposing the full Mosaic covenant sign, as he argued in Galatians 2:3-5 that compelling Titus, a Greek companion, to undergo the procedure would nullify the gospel's freedom. [86]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This decision aligned with Paul's missionary praxis, enabling him to evangelize urban centers like Antioch, Corinth, and Ephesus among uncir"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "paul"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Galatians 2:3-5 that compelling Titus, a Greek companion, to undergo the procedure would nullify the gospel's freedom.",
+      "span": {
+        "quote": "in Galatians 2:3-5 that compelling Titus, a Greek companion, to undergo the procedure would nullify the gospel's freedom."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ul's missionary praxis, enabling him to evangelize urban centers like Antioch, Corinth, and Ephesus among uncircumcised pagans without imposing the full Mosaic.",
+      "span": {
+        "quote": "ul's missionary praxis, enabling him to evangelize urban centers like Antioch, Corinth, and Ephesus among uncircumcised pagans without imposing the full Mosaic "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    },
+    {
+      "id": "c3",
+      "text": "Aligned with Paul's missionary praxis.",
+      "span": {
+        "quote": "aligned with Paul's missionary praxis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with Paul's missionary praxis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with Paul's missionary praxis",
+          "span": {
+            "quote": "aligned with Paul's missionary praxis"
+          }
+        }
+      ]
+    }
+  ]
+}

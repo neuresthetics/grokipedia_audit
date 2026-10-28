@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0205",
+  "source_text": "Pubertal growth of the penis is primarily driven by hormones affecting the internal erectile tissues (corpora cavernosa), which are unaffected by foreskin removal.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pubertal growth of the penis is primarily driven by hormones affecting the internal erectile tissues (corpora cavernosa), which are unaffect"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pubertal growth of the penis is primarily driven by hormones affecting the internal erectile tissues (corpora cavernosa), which are unaffected by foreskin remov.",
+      "span": {
+        "quote": "Pubertal growth of the penis is primarily driven by hormones affecting the internal erectile tissues (corpora cavernosa), which are unaffected by foreskin remov"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

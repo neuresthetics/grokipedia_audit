@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0047",
+  "source_text": "The U.S. Centers for Disease Control and Prevention (CDC) echoes this, estimating neonatal circumcision averts 1 in 100 UTIs and contributes to long-term STI prevention based on systematic evidence reviews.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention (CDC) echoes this, estimating neonatal circumcision averts 1 in 100 UTIs and contributes"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The U.S. Centers for Disease Control and Prevention (CDC) echoes this, estimating neonatal circumcision averts 1 in 100 UTIs and contributes to long-term STI pr.",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention (CDC) echoes this, estimating neonatal circumcision averts 1 in 100 UTIs and contributes to long-term STI pr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

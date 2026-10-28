@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0166",
+  "source_text": "Similarly, in Kenya's Kisii community, surveys find many mothers support FGM for their daughters, citing beliefs in enhanced marriage prospects and suppression of premarital sexuality as causal drivers, with endorsement correlating positively with lower education levels and rural residence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, in Kenya's Kisii community, surveys find many mothers support FGM for their daughters, citing beliefs in enhanced marriage prospe"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, in Kenya's Kisii community, surveys find many mothers support FGM for their daughters, citing beliefs in enhanced marriage prospects and suppression.",
+      "span": {
+        "quote": "Similarly, in Kenya's Kisii community, surveys find many mothers support FGM for their daughters, citing beliefs in enhanced marriage prospects and suppression "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing beliefs in enhanced marriage prospects and suppression of premarital sexuality.",
+      "span": {
+        "quote": "citing beliefs in enhanced marriage prospects and suppression of premarital sexuality"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Many mothers support FGM for their daughters.",
+      "span": {
+        "quote": "many mothers support FGM for their daughters"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing beliefs in enhanced marriage prospects and suppression of premarital sexuality"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "many mothers support FGM for their daughters"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

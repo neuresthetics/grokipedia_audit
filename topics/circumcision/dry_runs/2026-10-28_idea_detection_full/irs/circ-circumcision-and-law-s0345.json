@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0345",
+  "source_text": "Law review analyses question the propriety of parental consent for circumcision, asserting it equates to authorizing amputation without therapeutic necessity, potentially violating equal protection principles applied to female genital cutting bans under federal law (18 U.S.C. \u00a7 116). [118]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Law review analyses question the propriety of parental consent for circumcision, asserting it equates to authorizing amputation without ther"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Law review analyses question the propriety of parental consent for circumcision, asserting it equates to authorizing amputation without therapeutic necessity, p.",
+      "span": {
+        "quote": "Law review analyses question the propriety of parental consent for circumcision, asserting it equates to authorizing amputation without therapeutic necessity, p"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

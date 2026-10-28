@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0067",
+  "source_text": "Social coercion underpins the practice, as uncircumcised boys endure severe bullying, nicknames like supot (unripe), and exclusion from group activities, rendering refusal socially untenable and tantamount to forced compliance despite nominal parental consent. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Social coercion underpins the practice, as uncircumcised boys endure severe bullying, nicknames like supot (unripe), and exclusion from grou"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Social coercion underpins the practice, as uncircumcised boys endure severe bullying, nicknames like supot (unripe), and exclusion from group activities, render.",
+      "span": {
+        "quote": "Social coercion underpins the practice, as uncircumcised boys endure severe bullying, nicknames like supot (unripe), and exclusion from group activities, render"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

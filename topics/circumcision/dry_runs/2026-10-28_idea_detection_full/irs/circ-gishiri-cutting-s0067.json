@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0067",
+  "source_text": "These implements are typically unsterilized and reused without disinfection, heightening risks of infection due to the absence of hygienic protocols. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These implements are typically unsterilized and reused without disinfection, heightening risks of infection due to the absence of hygienic p"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These implements are typically unsterilized and reused without disinfection, heightening risks of infection due to the absence of hygienic protocols. [26].",
+      "span": {
+        "quote": "These implements are typically unsterilized and reused without disinfection, heightening risks of infection due to the absence of hygienic protocols. [26]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

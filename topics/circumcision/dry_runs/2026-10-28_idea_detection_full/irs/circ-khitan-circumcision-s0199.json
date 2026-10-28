@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0199",
+  "source_text": "These debates highlight tensions between individual autonomy and communal traditions, with some legal scholars noting that UNCRC lacks binding enforcement mechanisms on such practices, allowing states to weigh religious liberty without uniform prohibitions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These debates highlight tensions between individual autonomy and communal traditions, with some legal scholars noting that UNCRC lacks bindi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These debates highlight tensions between individual autonomy and communal traditions, with some legal scholars noting that UNCRC lacks binding enforcement mecha.",
+      "span": {
+        "quote": "These debates highlight tensions between individual autonomy and communal traditions, with some legal scholars noting that UNCRC lacks binding enforcement mecha"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

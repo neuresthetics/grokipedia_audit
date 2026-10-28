@@ -1,0 +1,87 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0005",
+  "source_text": "Since 2007, the World Health Organization has endorsed voluntary medical male circumcision (VMMC) in 15 eastern and southern African countries with high HIV prevalence, following randomized controlled trials showing approximately 60% reduction in men's risk of acquiring HIV from heterosexual sex. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Since 2007, the World Health Organization has endorsed voluntary medical male circumcision (VMMC) in 15 eastern and southern African countri"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "2007, the World Health Organization has endorsed voluntary medical male circumcision (VMMC) in 15 eastern and southern African countries with high HIV prevalenc.",
+      "span": {
+        "quote": "2007, the World Health Organization has endorsed voluntary medical male circumcision (VMMC) in 15 eastern and southern African countries with high HIV prevalenc"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Since 2007, the World Health Organization has endorsed voluntary medical male circumcision (VMMC) in 15 eastern and southern African countries with high HIV pre.",
+      "span": {
+        "quote": "Since 2007, the World Health Organization has endorsed voluntary medical male circumcision (VMMC) in 15 eastern and southern African countries with high HIV pre"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c2",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

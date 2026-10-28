@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0088",
+  "source_text": "More conservative, evidence-based estimates from pathologists and recent immunohistochemical studies place the total number of nerve endings in the foreskin in the range of 1,000\u201310,000 overall, with many leaning toward the lower end.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "More conservative, evidence-based estimates from pathologists and recent immunohistochemical studies place the total number of nerve endings"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "More conservative, evidence-based estimates from pathologists and recent immunohistochemical studies place the total number of nerve endings in the foreskin in.",
+      "span": {
+        "quote": "More conservative, evidence-based estimates from pathologists and recent immunohistochemical studies place the total number of nerve endings in the foreskin in "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

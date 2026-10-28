@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0207",
+  "source_text": "Community advocates, including legal counsel in the 2018 hearings, distinguished khatna from more invasive forms of genital cutting outlined by the World Health Organization, positioning it as a safe, non-mutilatory rite performed discreetly by trained practitioners. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Community advocates, including legal counsel in the 2018 hearings, distinguished khatna from more invasive forms of genital cutting outlined"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Community advocates, including legal counsel in the 2018 hearings, distinguished khatna from more invasive forms of genital cutting outlined by the World Health.",
+      "span": {
+        "quote": "Community advocates, including legal counsel in the 2018 hearings, distinguished khatna from more invasive forms of genital cutting outlined by the World Health"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0286",
+  "source_text": "In Europe, over 50 rabbis and leaders signed a 2025 letter to the European Commission defending brit milah as a millennia-old practice essential to Jewish identity, urging protection against bans amid rising secular activism. [149]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Europe, over 50 rabbis and leaders signed a 2025 letter to the European Commission defending brit milah as a millennia-old practice essen"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Europe, over 50 rabbis and leaders signed a 2025 letter to the European Commission defending brit milah as a millennia-old practice essential to Jewish ident.",
+      "span": {
+        "quote": "In Europe, over 50 rabbis and leaders signed a 2025 letter to the European Commission defending brit milah as a millennia-old practice essential to Jewish ident"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0093",
+  "source_text": "This mitzvah is classified as a positive commandment (mitzvah aseh) of exceptional importance, surpassing many others in obligatory force, with non-compliance incurring severe spiritual consequences including karet (excision from the community).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This mitzvah is classified as a positive commandment (mitzvah aseh) of exceptional importance, surpassing many others in obligatory force, w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This mitzvah is classified as a positive commandment (mitzvah aseh) of exceptional importance, surpassing many others in obligatory force, with non-compliance i.",
+      "span": {
+        "quote": "This mitzvah is classified as a positive commandment (mitzvah aseh) of exceptional importance, surpassing many others in obligatory force, with non-compliance i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0151",
+  "source_text": "In Ethiopia, where Orthodox Christianity predominates, FGM rates among Christians mirrored national averages of 74% as of 2016 surveys, with some clergy historically tolerating Type I or II procedures as customary rites of passage tied to biblical covenants, but the Ethiopian Orthodox Tewahedo Church has since 2013 rung church bells in campaigns against it, issuing declarations that it violates Christ's emphasis on wholeness in Mark 7:18-19. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Ethiopia, where Orthodox Christianity predominates, FGM rates among Christians mirrored national averages of 74% as of 2016 surveys, with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ges of 74% as of 2016 surveys, with some clergy historically tolerating Type I or II procedures as customary rites of passage tied to biblical covenants, but th.",
+      "span": {
+        "quote": "ges of 74% as of 2016 surveys, with some clergy historically tolerating Type I or II procedures as customary rites of passage tied to biblical covenants, but th"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2013 rung church bells in campaigns against it, issuing declarations that it violates Christ's emphasis on wholeness in Mark 7:18-19. [27].",
+      "span": {
+        "quote": "2013 rung church bells in campaigns against it, issuing declarations that it violates Christ's emphasis on wholeness in Mark 7:18-19. [27]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Tied to biblical covenants.",
+      "span": {
+        "quote": "tied to biblical covenants"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2013 rung church bells in campaigns against it, issuing decl"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "tied to biblical covenants"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to biblical covenants",
+          "span": {
+            "quote": "tied to biblical covenants"
+          }
+        }
+      ]
+    }
+  ]
+}

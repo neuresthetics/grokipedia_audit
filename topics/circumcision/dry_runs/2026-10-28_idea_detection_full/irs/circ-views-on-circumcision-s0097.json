@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0097",
+  "source_text": "Pain during neonatal circumcision is effectively mitigated with local anesthesia, reducing distress to levels comparable to routine vaccinations, countering assertions of unmanageable harm. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pain during neonatal circumcision is effectively mitigated with local anesthesia, reducing distress to levels comparable to routine vaccinat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pain during neonatal circumcision is effectively mitigated with local anesthesia, reducing distress to levels comparable to routine vaccinations, countering ass.",
+      "span": {
+        "quote": "Pain during neonatal circumcision is effectively mitigated with local anesthesia, reducing distress to levels comparable to routine vaccinations, countering ass"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

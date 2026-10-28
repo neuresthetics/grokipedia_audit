@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0010",
+  "source_text": "In truth-seeking analyses, causal evidence supports targeted adult circumcision for HIV prevention in endemic areas but underscores insufficient net benefits for universal neonatal application absent religious imperatives, amid source biases in advocacy-driven research. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In truth-seeking analyses, causal evidence supports targeted adult circumcision for HIV prevention in endemic areas but underscores insuffic"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In truth-seeking analyses, causal evidence supports targeted adult circumcision for HIV prevention in endemic areas but underscores insufficient net benefits fo.",
+      "span": {
+        "quote": "In truth-seeking analyses, causal evidence supports targeted adult circumcision for HIV prevention in endemic areas but underscores insufficient net benefits fo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

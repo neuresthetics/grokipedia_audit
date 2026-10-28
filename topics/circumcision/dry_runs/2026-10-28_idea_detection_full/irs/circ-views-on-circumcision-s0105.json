@@ -1,0 +1,102 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0105",
+  "source_text": "Similarly, the World Health Organization (WHO) endorses voluntary medical male circumcision (VMMC) as part of HIV prevention strategies in high-prevalence regions, particularly sub-Saharan Africa, where over 30 million procedures have been performed since 2007, averting an estimated 615,000 HIV infections by 2020 based on modeling of randomized trial data. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, the World Health Organization (WHO) endorses voluntary medical male circumcision (VMMC) as part of HIV prevention strategies in h"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Dorses voluntary medical male circumcision (VMMC) as part of HIV prevention strategies in high-prevalence regions, particularly sub-Saharan Africa, where over 3.",
+      "span": {
+        "quote": "dorses voluntary medical male circumcision (VMMC) as part of HIV prevention strategies in high-prevalence regions, particularly sub-Saharan Africa, where over 3"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2007, averting an estimated 615,000 HIV infections by 2020 based on modeling of randomized trial data. [38].",
+      "span": {
+        "quote": "2007, averting an estimated 615,000 HIV infections by 2020 based on modeling of randomized trial data. [38]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2007, averting an estimated 615,000 HIV infections by 2020 b"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

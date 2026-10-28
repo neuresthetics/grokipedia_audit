@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0030",
+  "source_text": "Female genital mutilation (FGM) is driven primarily by social coercion mechanisms embedded in patriarchal community norms, where procedures serve to enforce gender hierarchies by controlling female sexuality and ensuring marriageability.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) is driven primarily by social coercion mechanisms embedded in patriarchal community norms, where procedures"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) is driven primarily by social coercion mechanisms embedded in patriarchal community norms, where procedures serve to enforce gen.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) is driven primarily by social coercion mechanisms embedded in patriarchal community norms, where procedures serve to enforce gen"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

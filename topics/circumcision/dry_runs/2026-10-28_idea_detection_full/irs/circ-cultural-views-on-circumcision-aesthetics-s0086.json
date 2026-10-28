@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0086",
+  "source_text": "In Islam, a hadith recorded in Sahih Muslim lists circumcision among the five practices of fitrah, the innate human disposition ordained by Allah, framing the timely removal of the foreskin\u2014ideally on or near the seventh day\u2014as a sunnah act that aligns the body with divine perfection and completes natural creation. [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Islam, a hadith recorded in Sahih Muslim lists circumcision among the five practices of fitrah, the innate human disposition ordained by"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Islam, a hadith recorded in Sahih Muslim lists circumcision among the five practices of fitrah, the innate human disposition ordained by Allah, framing the t.",
+      "span": {
+        "quote": "In Islam, a hadith recorded in Sahih Muslim lists circumcision among the five practices of fitrah, the innate human disposition ordained by Allah, framing the t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

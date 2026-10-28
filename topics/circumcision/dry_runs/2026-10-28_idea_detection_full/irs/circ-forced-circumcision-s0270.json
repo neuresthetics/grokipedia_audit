@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0270",
+  "source_text": "Advocates from these faiths argue religious liberty and parental rights under secular laws protect such rites, asserting that forgoing them erodes generational transmission of beliefs and risks assimilation, while health co-benefits reinforce the practice's validity. [123]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocates from these faiths argue religious liberty and parental rights under secular laws protect such rites, asserting that forgoing them"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Religious liberty and parental rights under secular laws protect such rites, asserting that forgoing them erodes generational transmission of beliefs and risks.",
+      "span": {
+        "quote": "religious liberty and parental rights under secular laws protect such rites, asserting that forgoing them erodes generational transmission of beliefs and risks "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Advocates from these faiths.",
+      "span": {
+        "quote": "Advocates from these faiths"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

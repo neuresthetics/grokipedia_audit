@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0032",
+  "source_text": "These harms arise causally from anatomical alteration\u2014such as narrowed vaginal openings impeding natural dilation and scarred tissue prone to tearing\u2014unsupported by any empirical evidence of benefits, as affirmed by systematic reviews finding zero positive health outcomes. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These harms arise causally from anatomical alteration\u2014such as narrowed vaginal openings impeding natural dilation and scarred tissue prone t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These harms arise causally from anatomical alteration\u2014such as narrowed vaginal openings impeding natural dilation and scarred tissue prone to tearing\u2014unsupporte.",
+      "span": {
+        "quote": "These harms arise causally from anatomical alteration\u2014such as narrowed vaginal openings impeding natural dilation and scarred tissue prone to tearing\u2014unsupporte"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-mohel-s0136",
+  "source_text": "The American Academy of Pediatrics notes that while benefits like reduced urinary tract infections (1 in 1,000 risk for circumcised vs. 1 in 100 for uncircumcised) outweigh risks, parental counseling on potential adverse events\u2014such as meatal stenosis (<0.1%) or urinary tract infections post-procedure\u2014is essential. [58]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics notes that while benefits like reduced urinary tract infections (1 in 1,000 risk for circumcised vs. 1 in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Academy of Pediatrics notes that while benefits like reduced urinary tract infections (1 in 1,000 risk for circumcised vs. 1 in 100 for uncircumcis.",
+      "span": {
+        "quote": "The American Academy of Pediatrics notes that while benefits like reduced urinary tract infections (1 in 1,000 risk for circumcised vs. 1 in 100 for uncircumcis"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

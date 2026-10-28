@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0238",
+  "source_text": "Parental surveys from the same year identified hemorrhage as the leading perceived complication, followed by adhesions and infections, with overall rates exceeding those of hospital-based procedures. [109]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parental surveys from the same year identified hemorrhage as the leading perceived complication, followed by adhesions and infections, with"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parental surveys from the same year identified hemorrhage as the leading perceived complication, followed by adhesions and infections, with overall rates exceed.",
+      "span": {
+        "quote": "Parental surveys from the same year identified hemorrhage as the leading perceived complication, followed by adhesions and infections, with overall rates exceed"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

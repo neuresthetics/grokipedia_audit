@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0038",
+  "source_text": "This protective effect persists across age groups, with uncircumcised males facing a 9.9-fold higher risk in infancy, 6.6-fold from ages 1-16, and 3.4-fold beyond age 16.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This protective effect persists across age groups, with uncircumcised males facing a 9.9-fold higher risk in infancy, 6.6-fold from ages 1-1"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This protective effect persists across age groups, with uncircumcised males facing a 9.9-fold higher risk in infancy, 6.6-fold from ages 1-16, and 3.4-fold beyo.",
+      "span": {
+        "quote": "This protective effect persists across age groups, with uncircumcised males facing a 9.9-fold higher risk in infancy, 6.6-fold from ages 1-16, and 3.4-fold beyo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

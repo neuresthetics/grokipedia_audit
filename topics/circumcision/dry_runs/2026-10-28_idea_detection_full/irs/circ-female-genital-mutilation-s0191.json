@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0191",
+  "source_text": "Reproductive health is severely impaired, with FGM associated with infertility through mechanisms like tubal blockages from infections or anatomical barriers preventing intercourse. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reproductive health is severely impaired, with FGM associated with infertility through mechanisms like tubal blockages from infections or an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reproductive health is severely impaired, with FGM associated with infertility through mechanisms like tubal blockages from infections or anatomical barriers pr.",
+      "span": {
+        "quote": "Reproductive health is severely impaired, with FGM associated with infertility through mechanisms like tubal blockages from infections or anatomical barriers pr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with infertility through mechanisms like tubal blockages from.",
+      "span": {
+        "quote": "associated with infertility through mechanisms like tubal blockages from"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with infertility through mechanisms like tubal blockages from"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with infertility through mechanisms like tubal blockages from ",
+          "span": {
+            "quote": "associated with infertility through mechanisms like tubal blockages from"
+          }
+        }
+      ]
+    }
+  ]
+}

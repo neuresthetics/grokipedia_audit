@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0063",
+  "source_text": "Presented by James W. Prescott, the resolution framed genital mutilations as violations of children's bodily integrity and international human rights norms, petitioning the International Court of Justice at The Hague to declare such acts illegal worldwide. [29]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Presented by James W. Prescott, the resolution framed genital mutilations as violations of children's bodily integrity and international hum"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Presented by James W. Prescott, the resolution framed genital mutilations as violations of children's bodily integrity and international human rights norms, pet.",
+      "span": {
+        "quote": "Presented by James W. Prescott, the resolution framed genital mutilations as violations of children's bodily integrity and international human rights norms, pet"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

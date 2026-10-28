@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0109",
+  "source_text": "Moreover, in immigrant communities, parental circumcision choices foster cultural cohesion and identity preservation against assimilation pressures; for Muslim families in Western contexts like Sweden and the UK, forgoing the rite risks familial stigmatization and erosion of rites-of-passage traditions tied to masculinity and group belonging. [72] [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Moreover, in immigrant communities, parental circumcision choices foster cultural cohesion and identity preservation against assimilation pr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Moreover, in immigrant communities, parental circumcision choices foster cultural cohesion and identity preservation against assimilation pressures; for Muslim.",
+      "span": {
+        "quote": "Moreover, in immigrant communities, parental circumcision choices foster cultural cohesion and identity preservation against assimilation pressures; for Muslim "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to masculinity and group belonging.",
+      "span": {
+        "quote": "tied to masculinity and group belonging"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to masculinity and group belonging"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to masculinity and group belonging",
+          "span": {
+            "quote": "tied to masculinity and group belonging"
+          }
+        }
+      ]
+    }
+  ]
+}

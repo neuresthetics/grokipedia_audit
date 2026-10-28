@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0113",
+  "source_text": "The American Academy of Pediatrics (AAP), in its 2012 policy statement, concluded that systematic evaluation of evidence indicates the preventive health benefits of newborn male circumcision outweigh the risks of the procedure, justifying parental access to it as an option. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP), in its 2012 policy statement, concluded that systematic evaluation of evidence indicates the preve"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic evaluation of evidence indicates the preventive health benefits of newborn male circumcision outweigh the risks of the procedure, justifying parental.",
+      "span": {
+        "quote": "systematic evaluation of evidence indicates the preventive health benefits of newborn male circumcision outweigh the risks of the procedure, justifying parental"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Academy of Pediatrics (AAP), in its 2012 policy statement.",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP), in its 2012 policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c5",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concluded"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

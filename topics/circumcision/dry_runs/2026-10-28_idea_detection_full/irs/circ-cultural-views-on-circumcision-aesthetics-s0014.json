@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0014",
+  "source_text": "Circumcision was often viewed as mutilating this natural form, prompting practices like foreskin restoration (epispasm) or the kynodesme to conceal scars and restore the preferred preputial appearance. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision was often viewed as mutilating this natural form, prompting practices like foreskin restoration (epispasm) or the kynodesme to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision was often viewed as mutilating this natural form, prompting practices like foreskin restoration (epispasm) or the kynodesme to conceal scars and re.",
+      "span": {
+        "quote": "Circumcision was often viewed as mutilating this natural form, prompting practices like foreskin restoration (epispasm) or the kynodesme to conceal scars and re"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

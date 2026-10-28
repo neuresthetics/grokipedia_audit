@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0102",
+  "source_text": "This position has been maintained without formal revision, aligning with ongoing evaluations that preventive benefits, such as reduced urinary tract infections and certain sexually transmitted infections, justify offering the option in low-risk settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This position has been maintained without formal revision, aligning with ongoing evaluations that preventive benefits, such as reduced urina"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Without formal revision, aligning with ongoing evaluations that preventive benefits, such as reduced urinary tract infections and certain sexually transmitted i.",
+      "span": {
+        "quote": "without formal revision, aligning with ongoing evaluations that preventive benefits, such as reduced urinary tract infections and certain sexually transmitted i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This position has been.",
+      "span": {
+        "quote": "This position has been"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintained"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

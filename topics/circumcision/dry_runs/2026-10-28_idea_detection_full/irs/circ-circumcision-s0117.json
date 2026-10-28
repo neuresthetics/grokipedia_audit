@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0117",
+  "source_text": "Ltd., a publisher included on Beall's list of potential predatory publishers. [63]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ltd., a publisher included on Beall's list of potential predatory publishers. [63]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ltd., a publisher included on Beall's list of potential predatory publishers. [63].",
+      "span": {
+        "quote": "Ltd., a publisher included on Beall's list of potential predatory publishers. [63]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

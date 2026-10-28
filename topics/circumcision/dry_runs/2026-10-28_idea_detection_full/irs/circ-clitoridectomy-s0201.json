@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-clitoridectomy-s0201",
+  "source_text": "Medicalization by trained providers is defended by a subset of supporters as mitigating harms while upholding tradition, with anecdotal reports from Kenyan clinics suggesting fewer immediate complications. [94]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medicalization by trained providers is defended by a subset of supporters as mitigating harms while upholding tradition, with anecdotal repo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicalization by trained providers is defended by a subset of supporters as mitigating harms while upholding tradition, with anecdotal reports from Kenyan clin.",
+      "span": {
+        "quote": "Medicalization by trained providers is defended by a subset of supporters as mitigating harms while upholding tradition, with anecdotal reports from Kenyan clin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

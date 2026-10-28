@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0093",
+  "source_text": "Long-term complications, including impacts on sexual sensitivity or function, lack robust empirical support from high-quality studies.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term complications, including impacts on sexual sensitivity or function, lack robust empirical support from high-quality studies."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term complications, including impacts on sexual sensitivity or function, lack robust empirical support from high-quality studies.",
+      "span": {
+        "quote": "Long-term complications, including impacts on sexual sensitivity or function, lack robust empirical support from high-quality studies."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0025",
+  "source_text": "This shift, evident in works from the early 2000s onward, such as Ellen Gruenbaum's ethnographic studies, underscores that the mutilation label can impede dialogue in practicing communities by framing the act as uniformly victimizing, thus marginalizing women's agency in rituals tied to identity, hygiene, or beauty standards.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This shift, evident in works from the early 2000s onward, such as Ellen Gruenbaum's ethnographic studies, underscores that the mutilation la"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The early 2000s onward, such as Ellen Gruenbaum's ethnographic studies, underscores that the mutilation label can impede dialogue in practicing communities by f.",
+      "span": {
+        "quote": "the early 2000s onward, such as Ellen Gruenbaum's ethnographic studies, underscores that the mutilation label can impede dialogue in practicing communities by f"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Marginalizing women's agency in rituals tied to identity, hygiene, or beauty standards.",
+      "span": {
+        "quote": "marginalizing women's agency in rituals tied to identity, hygiene, or beauty standards."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Tied to identity.",
+      "span": {
+        "quote": "tied to identity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "tied to identity"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to identity",
+          "span": {
+            "quote": "tied to identity"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0248",
+  "source_text": "Risk factors include younger age (e.g., higher dehiscence in boys under 15), provider inexperience, and suboptimal follow-up, potentially leading to underreporting of mild-to-moderate events in resource-limited settings. [114] [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Risk factors include younger age (e.g., higher dehiscence in boys under 15), provider inexperience, and suboptimal follow-up, potentially le"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Risk factors include younger age (e.g., higher dehiscence in boys under 15), provider inexperience, and suboptimal follow-up, potentially leading to underreport.",
+      "span": {
+        "quote": "Risk factors include younger age (e.g., higher dehiscence in boys under 15), provider inexperience, and suboptimal follow-up, potentially leading to underreport"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

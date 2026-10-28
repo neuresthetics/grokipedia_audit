@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0355",
+  "source_text": "In Germany, a 2012 regional court decision in Cologne criminalized non-therapeutic male circumcision as bodily harm, prompting widespread condemnation from Jewish and Muslim communities for infringing on religious freedom and evoking historical antisemitic precedents. [192]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Germany, a 2012 regional court decision in Cologne criminalized non-therapeutic male circumcision as bodily harm, prompting widespread co"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Germany, a 2012 regional court decision in Cologne criminalized non-therapeutic male circumcision as bodily harm, prompting widespread condemnation from Jewi.",
+      "span": {
+        "quote": "In Germany, a 2012 regional court decision in Cologne criminalized non-therapeutic male circumcision as bodily harm, prompting widespread condemnation from Jewi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

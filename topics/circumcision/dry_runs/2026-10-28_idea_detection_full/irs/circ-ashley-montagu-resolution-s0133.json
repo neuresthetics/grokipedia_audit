@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0133",
+  "source_text": "Ethically, the resolution grounds its claims in principles of human dignity and the intrinsic value of sensory pleasure over inflicted pain, honoring anthropologist Ashley Montagu's lifelong advocacy for child well-being and against practices that degrade bodily autonomy. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethically, the resolution grounds its claims in principles of human dignity and the intrinsic value of sensory pleasure over inflicted pain,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In principles of human dignity and the intrinsic value of sensory pleasure over inflicted pain, honoring anthropologist Ashley Montagu's lifelong advocacy for c.",
+      "span": {
+        "quote": "in principles of human dignity and the intrinsic value of sensory pleasure over inflicted pain, honoring anthropologist Ashley Montagu's lifelong advocacy for c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethically, the resolution grounds its.",
+      "span": {
+        "quote": "Ethically, the resolution grounds its"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

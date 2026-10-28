@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0077",
+  "source_text": "Experimental models confirm that foreskin-derived tissues exhibit higher HIV infectivity than keratinized penile skin, underscoring the causal role of these factors independent of behavioral confounders.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Experimental models confirm that foreskin-derived tissues exhibit higher HIV infectivity than keratinized penile skin, underscoring the caus"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Experimental models confirm that foreskin-derived tissues exhibit higher HIV infectivity than keratinized penile skin, underscoring the causal role of these fac.",
+      "span": {
+        "quote": "Experimental models confirm that foreskin-derived tissues exhibit higher HIV infectivity than keratinized penile skin, underscoring the causal role of these fac"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

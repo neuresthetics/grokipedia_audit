@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-01",
+  "source_text": "Opponents contend that neonatal circumcision exemplifies parental or institutional overreach, imposing a non-consensual, indelible modification on a non-autonomous individual whose body autonomy is thereby preempted without recourse, akin to other irreversible pediatric interventions but amplified by genital specificity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents contend that neonatal circumcision exemplifies parental or institutional overreach"
+      },
+      "claim_ids": [
+        "c_overreach",
+        "c_nonconsensual",
+        "c_akin"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_nonconsensual",
+      "text": "Neonatal circumcision imposes a non-consensual, indelible modification on a non-autonomous individual, preempting body autonomy without recourse.",
+      "span": {
+        "quote": "imposing a non-consensual, indelible modification on a non-autonomous individual whose body autonomy is thereby preempted without recourse"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c_akin",
+      "text": "It is akin to other irreversible pediatric interventions but amplified by genital specificity.",
+      "span": {
+        "quote": "akin to other irreversible pediatric interventions but amplified by genital specificity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c_overreach",
+      "text": "Neonatal circumcision exemplifies parental or institutional overreach.",
+      "span": {
+        "quote": "neonatal circumcision exemplifies parental or institutional overreach"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_nonconsensual",
+      "target": "c_overreach",
+      "span": {
+        "quote": "imposing a non-consensual, indelible modification"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_akin",
+      "target": "c_overreach",
+      "span": {
+        "quote": "akin to other irreversible pediatric interventions but amplified by genital specificity"
+      },
+      "warrant": "inductive"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

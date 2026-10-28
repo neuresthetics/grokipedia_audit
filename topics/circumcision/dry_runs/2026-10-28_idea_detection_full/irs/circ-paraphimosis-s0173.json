@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-paraphimosis-s0173",
+  "source_text": "For definitive management, circumcision remains the standard procedure to eliminate the risk of recurrence by removing the foreskin entirely or partially. [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For definitive management, circumcision remains the standard procedure to eliminate the risk of recurrence by removing the foreskin entirely"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For definitive management, circumcision remains the standard procedure to eliminate the risk of recurrence by removing the foreskin entirely or partially. [21].",
+      "span": {
+        "quote": "For definitive management, circumcision remains the standard procedure to eliminate the risk of recurrence by removing the foreskin entirely or partially. [21]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

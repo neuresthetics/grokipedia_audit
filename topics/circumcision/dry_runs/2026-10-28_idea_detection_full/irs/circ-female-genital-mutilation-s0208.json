@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0208",
+  "source_text": "A 2023 comparison of FGM types I and II in Iranian women showed type II yielding worse FSFI scores (p=0.02), underscoring dose-response patterns.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2023 comparison of FGM types I and II in Iranian women showed type II yielding worse FSFI scores (p=0.02), underscoring dose-response patt"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2023 comparison of FGM types I and II in Iranian women showed type II yielding worse FSFI scores (p=0.02), underscoring dose-response patterns.",
+      "span": {
+        "quote": "A 2023 comparison of FGM types I and II in Iranian women showed type II yielding worse FSFI scores (p=0.02), underscoring dose-response patterns."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

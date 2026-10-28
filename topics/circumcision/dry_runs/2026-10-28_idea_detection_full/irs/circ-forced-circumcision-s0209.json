@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0209",
+  "source_text": "Conversely, the UN Committee on the Rights of the Child has not issued general comments equating infant circumcision with prohibited harms, and Article 24(3) is often applied to practices like female genital mutilation rather than male circumcision, reflecting a lack of uniform international consensus.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conversely, the UN Committee on the Rights of the Child has not issued general comments equating infant circumcision with prohibited harms,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Conversely, the UN Committee on the Rights of the Child has not issued general comments equating infant circumcision with prohibited harms, and Article 24(3) is.",
+      "span": {
+        "quote": "Conversely, the UN Committee on the Rights of the Child has not issued general comments equating infant circumcision with prohibited harms, and Article 24(3) is"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

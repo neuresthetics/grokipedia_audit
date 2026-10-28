@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0162",
+  "source_text": "PTSD prevalence reached 17.5% in similar cohorts, attributed to the trauma of cutting without anesthesia, often between ages 6\u20138 in Sudanese practice.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "PTSD prevalence reached 17.5% in similar cohorts, attributed to the trauma of cutting without anesthesia, often between ages 6\u20138 in Sudanese"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "PTSD prevalence reached 17.5% in similar cohorts, attributed to the trauma of cutting without anesthesia, often between ages 6\u20138 in Sudanese practice.",
+      "span": {
+        "quote": "PTSD prevalence reached 17.5% in similar cohorts, attributed to the trauma of cutting without anesthesia, often between ages 6\u20138 in Sudanese practice."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

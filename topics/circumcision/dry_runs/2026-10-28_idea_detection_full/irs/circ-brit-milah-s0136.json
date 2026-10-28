@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0136",
+  "source_text": "Medically, neonatal circumcision elicits measurable pain responses, including elevated heart rates, crying durations, and oxygen desaturation, with studies showing unanesthetized infants exhibiting higher pain scores and respiratory rates compared to those receiving local blocks. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medically, neonatal circumcision elicits measurable pain responses, including elevated heart rates, crying durations, and oxygen desaturatio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medically, neonatal circumcision elicits measurable pain responses, including elevated heart rates, crying durations, and oxygen desaturation, with studies show.",
+      "span": {
+        "quote": "Medically, neonatal circumcision elicits measurable pain responses, including elevated heart rates, crying durations, and oxygen desaturation, with studies show"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-s0427",
+  "source_text": "They contend parental proxy consent fails for irreversible, non-therapeutic procedures, drawing parallels to female genital cutting bans despite similar risks like infection, bleeding, and reduced sensitivity. [231] [237]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They contend parental proxy consent fails for irreversible, non-therapeutic procedures, drawing parallels to female genital cutting bans des"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parental proxy consent fails for irreversible, non-therapeutic procedures, drawing parallels to female genital cutting bans despite similar risks like infection.",
+      "span": {
+        "quote": "parental proxy consent fails for irreversible, non-therapeutic procedures, drawing parallels to female genital cutting bans despite similar risks like infection"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

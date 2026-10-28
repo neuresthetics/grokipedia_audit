@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0003",
+  "source_text": "Critics, including intactivist advocates and some European pediatric associations, highlight complications such as bleeding, infection, and rare severe outcomes like penile damage, alongside debates over diminished sexual sensitivity and function, with evidence suggesting no clear net superiority in sexual satisfaction but potential for iatrogenic harm without therapeutic imperative. [5] [6] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics, including intactivist advocates and some European pediatric associations, highlight complications such as bleeding, infection, and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics, including intactivist advocates and some European pediatric associations, highlight complications such as bleeding, infection, and rare severe outcomes.",
+      "span": {
+        "quote": "Critics, including intactivist advocates and some European pediatric associations, highlight complications such as bleeding, infection, and rare severe outcomes"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

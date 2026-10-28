@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0144",
+  "source_text": "Immediate complications of female genital mutilation (FGM) in Sudan include excessive hemorrhage, severe infections, and shock, often arising from procedures performed without anesthesia or sterile conditions by traditional practitioners. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate complications of female genital mutilation (FGM) in Sudan include excessive hemorrhage, severe infections, and shock, often arisin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate complications of female genital mutilation (FGM) in Sudan include excessive hemorrhage, severe infections, and shock, often arising from procedures pe.",
+      "span": {
+        "quote": "Immediate complications of female genital mutilation (FGM) in Sudan include excessive hemorrhage, severe infections, and shock, often arising from procedures pe"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

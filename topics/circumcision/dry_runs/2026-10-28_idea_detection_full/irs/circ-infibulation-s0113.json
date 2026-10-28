@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0113",
+  "source_text": "Practitioners report that it curbs female sexual desire and physically restricts intercourse, thereby preventing promiscuity and ensuring chastity until marriage. [55] [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners report that it curbs female sexual desire and physically restricts intercourse, thereby preventing promiscuity and ensuring ch"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners report that it curbs female sexual desire and physically restricts intercourse.",
+      "span": {
+        "quote": "Practitioners report that it curbs female sexual desire and physically restricts intercourse"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Preventing promiscuity and ensuring chastity until marriage. [55] [57].",
+      "span": {
+        "quote": "preventing promiscuity and ensuring chastity until marriage. [55] [57]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

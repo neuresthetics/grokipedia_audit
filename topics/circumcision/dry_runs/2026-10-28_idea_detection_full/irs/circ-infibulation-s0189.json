@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0189",
+  "source_text": "In contrast, infibulation\u2014a type III form of female genital mutilation involving clitoridectomy, excision of the labia minora and majora, and apposition of the labia to narrow or seal the vaginal opening\u2014lacks any documented health benefits and is associated exclusively with short- and long-term harms, including hemorrhage, infection, chronic pain, urinary and menstrual difficulties, obstructed labor, and increased maternal and infant mortality risks. [92] [93]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, infibulation\u2014a type III form of female genital mutilation involving clitoridectomy, excision of the labia minora and majora, an"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, infibulation\u2014a type III form of female genital mutilation involving clitoridectomy, excision of the labia minora and majora, and apposition of the.",
+      "span": {
+        "quote": "In contrast, infibulation\u2014a type III form of female genital mutilation involving clitoridectomy, excision of the labia minora and majora, and apposition of the "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0212",
+  "source_text": "Retrospective surveys of adults circumcised as infants report satisfaction rates of 62% or higher, with decreased anxiety and improved body image in some cases, and no population-level elevations in depression, sexual dysfunction, or relational distress attributable to the procedure. [139]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Retrospective surveys of adults circumcised as infants report satisfaction rates of 62% or higher, with decreased anxiety and improved body"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Retrospective surveys of adults circumcised as infants report satisfaction rates of 62% or higher, with decreased anxiety and improved body image in some cases,.",
+      "span": {
+        "quote": "Retrospective surveys of adults circumcised as infants report satisfaction rates of 62% or higher, with decreased anxiety and improved body image in some cases,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

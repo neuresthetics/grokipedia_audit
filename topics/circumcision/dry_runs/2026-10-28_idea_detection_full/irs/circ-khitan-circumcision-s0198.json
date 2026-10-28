@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0198",
+  "source_text": "Proponents counter that UNCRC Article 3 (best interests of the child) incorporates evidence-based health benefits, such as a 50-60% reduction in heterosexual HIV acquisition per randomized trials in Africa, and that parental proxy consent aligns with cultural rights under Article 30, rejecting absolutist interpretations that ignore net welfare gains. [92] [93]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents counter that UNCRC Article 3 (best interests of the child) incorporates evidence-based health benefits, such as a 50-60% reductio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents counter that UNCRC Article 3 (best interests of the child) incorporates evidence-based health benefits, such as a 50-60% reduction in heterosexual HI.",
+      "span": {
+        "quote": "Proponents counter that UNCRC Article 3 (best interests of the child) incorporates evidence-based health benefits, such as a 50-60% reduction in heterosexual HI"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per randomized trials in Africa.",
+      "span": {
+        "quote": "per randomized trials in Africa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per randomized trials in Africa"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

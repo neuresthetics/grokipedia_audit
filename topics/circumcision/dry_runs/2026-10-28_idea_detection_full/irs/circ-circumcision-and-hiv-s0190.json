@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0190",
+  "source_text": "However, methodological critiques have centered on inherent design limitations, including the impossibility of participant blinding, which introduces risks of performance bias (e.g., differential sexual risk behaviors due to knowledge of group assignment) and detection bias (e.g., influenced self-reporting or assessor expectations in HIV testing). [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, methodological critiques have centered on inherent design limitations, including the impossibility of participant blinding, which i"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, methodological critiques have centered on inherent design limitations, including the impossibility of participant blinding, which introduces risks of p.",
+      "span": {
+        "quote": "However, methodological critiques have centered on inherent design limitations, including the impossibility of participant blinding, which introduces risks of p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

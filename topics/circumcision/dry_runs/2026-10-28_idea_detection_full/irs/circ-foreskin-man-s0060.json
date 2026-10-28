@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-foreskin-man-s0060",
+  "source_text": "Hess's organization, MGMbill.org, published the second issue of the comic on June 25, 2011, as part of the promotional efforts to advocate for age-of-consent requirements and portray non-therapeutic circumcision as a form of child abuse requiring legislative prohibition. [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hess's organization, MGMbill.org, published the second issue of the comic on June 25, 2011, as part of the promotional efforts to advocate f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hess's organization, MGMbill.org, published the second issue of the comic on June 25, 2011, as part of the promotional efforts to advocate for age-of-consent re.",
+      "span": {
+        "quote": "Hess's organization, MGMbill.org, published the second issue of the comic on June 25, 2011, as part of the promotional efforts to advocate for age-of-consent re"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

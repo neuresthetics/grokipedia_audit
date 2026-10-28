@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0184",
+  "source_text": "In these unassimilated enclaves, such rationales emphasize spiritual cleanliness and fidelity, overriding empirical data showing no physiological advantages and associating the rite with pre-Islamic tribal customs syncretized into local Islamic observance. [80]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In these unassimilated enclaves, such rationales emphasize spiritual cleanliness and fidelity, overriding empirical data showing no physiolo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Spiritual cleanliness and fidelity, overriding empirical data showing no physiological advantages and associating the rite with pre-Islamic tribal customs syncr.",
+      "span": {
+        "quote": "spiritual cleanliness and fidelity, overriding empirical data showing no physiological advantages and associating the rite with pre-Islamic tribal customs syncr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In these unassimilated enclaves, such rationales.",
+      "span": {
+        "quote": "In these unassimilated enclaves, such rationales"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

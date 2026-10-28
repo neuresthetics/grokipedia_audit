@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0105",
+  "source_text": "Complementing this, Paul reframed circumcision as pointing to an inward, spiritual reality fulfilled in the new covenant.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complementing this, Paul reframed circumcision as pointing to an inward, spiritual reality fulfilled in the new covenant."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complementing this, Paul reframed circumcision as pointing to an inward, spiritual reality fulfilled in the new covenant.",
+      "span": {
+        "quote": "Complementing this, Paul reframed circumcision as pointing to an inward, spiritual reality fulfilled in the new covenant."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

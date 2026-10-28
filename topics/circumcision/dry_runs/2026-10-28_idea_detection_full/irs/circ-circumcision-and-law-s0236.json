@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0236",
+  "source_text": "The Canadian Paediatric Society (CPS), in its 2015 position statement, concludes that the health benefits of newborn circumcision\u2014primarily reduced risk of urinary tract infections and certain sexually transmitted infections\u2014do not outweigh the risks, including procedural pain, bleeding, and potential complications, and thus does not endorse routine circumcision for all male newborns. [113]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Canadian Paediatric Society (CPS), in its 2015 position statement, concludes that the health benefits of newborn circumcision\u2014primarily"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Umcision\u2014primarily reduced risk of urinary tract infections and certain sexually transmitted infections\u2014do not outweigh the risks, including procedural pain, bl.",
+      "span": {
+        "quote": "umcision\u2014primarily reduced risk of urinary tract infections and certain sexually transmitted infections\u2014do not outweigh the risks, including procedural pain, bl"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Does not endorse routine circumcision for all male newborns. [113].",
+      "span": {
+        "quote": "does not endorse routine circumcision for all male newborns. [113]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

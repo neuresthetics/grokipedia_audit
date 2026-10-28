@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0114",
+  "source_text": "The resolution links such acts to breaches of Articles 2, 3, and 5 of the United Nations Universal Declaration of Human Rights (prohibiting discrimination, affirming dignity, and protecting against torture) and Articles 19, 24, and 37 of the UN Convention on the Rights of the Child (addressing protection from violence, health rights, and freedom from cruel punishment).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution links such acts to breaches of Articles 2, 3, and 5 of the United Nations Universal Declaration of Human Rights (prohibiting"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The resolution links such acts to breaches of Articles 2, 3, and 5 of the United Nations Universal Declaration of Human Rights (prohibiting discrimination, affi.",
+      "span": {
+        "quote": "The resolution links such acts to breaches of Articles 2, 3, and 5 of the United Nations Universal Declaration of Human Rights (prohibiting discrimination, affi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

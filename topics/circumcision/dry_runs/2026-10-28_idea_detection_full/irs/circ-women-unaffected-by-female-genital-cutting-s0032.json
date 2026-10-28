@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0032",
+  "source_text": "This supports cutting proponents' view that pathologizing narratives amplify harm via social exclusion, as institutional emphases on mutilation\u2014often from ideologically aligned NGOs\u2014overlook resilience in unaffected women who report intact pleasure and well-being, per community-based surveys in Mali and Sierra Leone (e.g., 70-80% satisfaction rates in ritual contexts). [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This supports cutting proponents' view that pathologizing narratives amplify harm via social exclusion, as institutional emphases on mutilat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This supports cutting proponents' view that pathologizing narratives amplify harm via social exclusion, as institutional emphases on mutilation\u2014often from ideol.",
+      "span": {
+        "quote": "This supports cutting proponents' view that pathologizing narratives amplify harm via social exclusion, as institutional emphases on mutilation\u2014often from ideol"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "Per community-based surveys in Mali and Sierra Leone (e.",
+      "span": {
+        "quote": "per community-based surveys in Mali and Sierra Leone (e"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per community-based surveys in Mali and Sierra Leone (e"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

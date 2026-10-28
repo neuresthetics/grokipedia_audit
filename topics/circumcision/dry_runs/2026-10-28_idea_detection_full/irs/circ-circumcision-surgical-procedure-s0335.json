@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0335",
+  "source_text": "In contrast, bodies like the Royal Australasian College of Physicians emphasize rarity of diseases prevented and advocate against routine practice outside therapeutic need, citing high numbers needed to treat (e.g., 111 for UTIs, 900+ for penile cancer).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, bodies like the Royal Australasian College of Physicians emphasize rarity of diseases prevented and advocate against routine pr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rarity of diseases prevented and advocate against routine practice outside therapeutic need, citing high numbers needed to treat (e.g., 111 for UTIs, 900+ for p.",
+      "span": {
+        "quote": "rarity of diseases prevented and advocate against routine practice outside therapeutic need, citing high numbers needed to treat (e.g., 111 for UTIs, 900+ for p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In contrast, bodies like the Royal Australasian College of Physicians.",
+      "span": {
+        "quote": "In contrast, bodies like the Royal Australasian College of Physicians"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "Citing high numbers needed to treat (e.",
+      "span": {
+        "quote": "citing high numbers needed to treat (e"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing high numbers needed to treat (e"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

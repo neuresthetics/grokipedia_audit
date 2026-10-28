@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0324",
+  "source_text": "Neonatal procedures reduce urinary tract infections in the first year by about tenfold, from roughly 1% in uncircumcised infants to 0.1-0.2% in circumcised ones, per meta-analyses of observational studies. [197]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal procedures reduce urinary tract infections in the first year by about tenfold, from roughly 1% in uncircumcised infants to 0.1-0.2%"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal procedures reduce urinary tract infections in the first year by about tenfold, from roughly 1% in uncircumcised infants to 0.1-0.2% in circumcised ones.",
+      "span": {
+        "quote": "Neonatal procedures reduce urinary tract infections in the first year by about tenfold, from roughly 1% in uncircumcised infants to 0.1-0.2% in circumcised ones"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Per meta-analyses of observational studies.",
+      "span": {
+        "quote": "per meta-analyses of observational studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per meta-analyses of observational studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

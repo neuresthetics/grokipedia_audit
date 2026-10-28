@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0135",
+  "source_text": "A 2006 primary-care study found a 7.29% incidence among circumcised boys older than 3 years and none among intact boys. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2006 primary-care study found a 7.29% incidence among circumcised boys older than 3 years and none among intact boys. [69]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2006 primary-care study found a 7.29% incidence among circumcised boys older than 3 years and none among intact boys. [69].",
+      "span": {
+        "quote": "A 2006 primary-care study found a 7.29% incidence among circumcised boys older than 3 years and none among intact boys. [69]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

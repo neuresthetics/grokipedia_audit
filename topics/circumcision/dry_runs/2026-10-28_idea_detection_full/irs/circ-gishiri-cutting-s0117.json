@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0117",
+  "source_text": "Epidemiological analyses from northern Nigeria, where the practice is prevalent among Hausa communities, instead associate gishiri cutting with iatrogenic vesicovaginal fistulas, accounting for approximately 13% of cases in adult patients treated at regional fistula centers between 1971 and 1981. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Epidemiological analyses from northern Nigeria, where the practice is prevalent among Hausa communities, instead associate gishiri cutting w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Epidemiological analyses from northern Nigeria, where the practice is prevalent among Hausa communities, instead associate gishiri cutting with iatrogenic vesic.",
+      "span": {
+        "quote": "Epidemiological analyses from northern Nigeria, where the practice is prevalent among Hausa communities, instead associate gishiri cutting with iatrogenic vesic"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

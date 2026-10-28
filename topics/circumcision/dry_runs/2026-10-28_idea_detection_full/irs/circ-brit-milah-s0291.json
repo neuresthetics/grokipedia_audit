@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-brit-milah-s0291",
+  "source_text": "The U.S. Centers for Disease Control and Prevention (CDC) 2014 recommendations, informed by meta-analyses, advised providers counsel parents on newborn circumcision's net benefits for HIV prevention (50-60% reduction in acquisition risk per randomized trials in adults, extrapolated to infants) and other outcomes like balanitis avoidance, emphasizing informed consent amid cultural/religious contexts while noting low absolute risks in sterile settings. [151] [152]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention (CDC) 2014 recommendations, informed by meta-analyses, advised providers counsel parents"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The U.S. Centers for Disease Control and Prevention (CDC) 2014 recommendations, informed by meta-analyses, advised providers counsel parents on newborn circumci.",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention (CDC) 2014 recommendations, informed by meta-analyses, advised providers counsel parents on newborn circumci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c4",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

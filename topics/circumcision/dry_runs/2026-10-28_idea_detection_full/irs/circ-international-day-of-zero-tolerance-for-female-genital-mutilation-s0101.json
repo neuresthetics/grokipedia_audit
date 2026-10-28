@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0101",
+  "source_text": "Anthropological analyses emphasize that FGM often functions as a rite of passage signifying transition to adulthood, eligibility for marriage, and integration into social structures, thereby fostering group cohesion and identity. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anthropological analyses emphasize that FGM often functions as a rite of passage signifying transition to adulthood, eligibility for marriag"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anthropological analyses emphasize that FGM often functions as a rite of passage signifying transition to adulthood, eligibility for marriage, and integration i.",
+      "span": {
+        "quote": "Anthropological analyses emphasize that FGM often functions as a rite of passage signifying transition to adulthood, eligibility for marriage, and integration i"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Fostering group cohesion and identity. [32].",
+      "span": {
+        "quote": "fostering group cohesion and identity. [32]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

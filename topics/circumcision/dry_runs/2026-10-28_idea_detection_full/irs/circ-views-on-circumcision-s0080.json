@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0080",
+  "source_text": "Absolute risk reductions vary by baseline prevalence; in settings with 3\u20134% annual HIV incidence, approximately 1\u20132 infections are averted per 100 circumcisions over two years.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Absolute risk reductions vary by baseline prevalence; in settings with 3\u20134% annual HIV incidence, approximately 1\u20132 infections are averted p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Absolute risk reductions vary by baseline prevalence; in settings with 3\u20134% annual HIV incidence, approximately 1\u20132 infections are averted per 100 circumcisions.",
+      "span": {
+        "quote": "Absolute risk reductions vary by baseline prevalence; in settings with 3\u20134% annual HIV incidence, approximately 1\u20132 infections are averted per 100 circumcisions"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100 circumcisions over two years.",
+      "span": {
+        "quote": "per 100 circumcisions over two years"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100 circumcisions over two years"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

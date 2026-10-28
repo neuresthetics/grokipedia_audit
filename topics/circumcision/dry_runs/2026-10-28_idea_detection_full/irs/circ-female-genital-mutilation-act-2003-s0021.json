@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0021",
+  "source_text": "These acts, rooted in traditional practices, inflict direct physical trauma to healthy tissue, resulting in immediate complications including severe pain, hemorrhage, and infection due to the invasive cutting often performed without anesthesia or sterile conditions. [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These acts, rooted in traditional practices, inflict direct physical trauma to healthy tissue, resulting in immediate complications includin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These acts, rooted in traditional practices, inflict direct physical trauma to healthy tissue, resulting in immediate complications including severe pain, hemor.",
+      "span": {
+        "quote": "These acts, rooted in traditional practices, inflict direct physical trauma to healthy tissue, resulting in immediate complications including severe pain, hemor"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

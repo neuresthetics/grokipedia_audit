@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-011",
+  "source_text": "- flagged if this node or any checked descendant has aggregate flag. - open if a possible_issue remains that a child did not close, or a descendant is open. Contested readings and text_detectable: no questions are not closed by a clean child. - survives if this node is no_issue, or its only open rows are excerpt / missing-fact gaps and a cite, excerpt, or missing-fact child (or a child that carries that entry) itself survives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- flagged if this node or any checked descendant has aggregate flag. - open if a possible_issue remains that a child did not close, or a des"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "- flagged if this node or any checked descendant has aggregate flag. - open if a possible_issue remains that a child did not close, or a descendant is open. Con.",
+      "span": {
+        "quote": "- flagged if this node or any checked descendant has aggregate flag. - open if a possible_issue remains that a child did not close, or a descendant is open. Con"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-circumcision-s0418",
+  "source_text": "In the United States, child abuse laws exempt male circumcision, though opponents claim this disparities with female protections violate equal protection principles.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States, child abuse laws exempt male circumcision, though opponents claim this disparities with female protections violate equ"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is disparities with female protections violate equal protection principles.",
+      "span": {
+        "quote": "is disparities with female protections violate equal protection principles."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In the United States, child abuse laws exempt male circumcision, though opponents.",
+      "span": {
+        "quote": "In the United States, child abuse laws exempt male circumcision, though opponents"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "opponents"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

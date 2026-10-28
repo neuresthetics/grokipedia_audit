@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0008",
+  "source_text": "A notable controversy surrounds metzitzah b'peh, a traditional oral suction step to draw blood from the wound, which public health data links to infant herpes simplex virus transmission, including fatalities, prompting regulatory scrutiny in jurisdictions like New York City while some rabbinic authorities defend its sanctity against perceived encroachments on religious freedom. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A notable controversy surrounds metzitzah b'peh, a traditional oral suction step to draw blood from the wound, which public health data link"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A notable controversy surrounds metzitzah b'peh, a traditional oral suction step to draw blood from the wound, which public health data links to infant herpes s.",
+      "span": {
+        "quote": "A notable controversy surrounds metzitzah b'peh, a traditional oral suction step to draw blood from the wound, which public health data links to infant herpes s"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

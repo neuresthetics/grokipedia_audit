@@ -1,0 +1,118 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0214",
+  "source_text": "Medical bodies, including those aligned with Australian policies, do not endorse it prophylactically, citing rare disease risks in the local context and prioritizing non-invasive hygiene practices. [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical bodies, including those aligned with Australian policies, do not endorse it prophylactically, citing rare disease risks in the local"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "medical_bodies"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medical bodies, including those aligned with Australian policies, do not endorse it prophylactically, citing rare disease risks in the local context and priorit.",
+      "span": {
+        "quote": "Medical bodies, including those aligned with Australian policies, do not endorse it prophylactically, citing rare disease risks in the local context and priorit"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "Medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c3",
+      "text": "Citing rare disease risks in the local context and prioritizing non-invasive hygiene.",
+      "span": {
+        "quote": "citing rare disease risks in the local context and prioritizing non-invasive hygiene"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c4",
+      "text": "Aligned with Australian policies.",
+      "span": {
+        "quote": "aligned with Australian policies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Medical bodies"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing rare disease risks in the local context and prioritizing non-invasive hygiene"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with Australian policies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with Australian policies",
+          "span": {
+            "quote": "aligned with Australian policies"
+          }
+        }
+      ]
+    }
+  ]
+}

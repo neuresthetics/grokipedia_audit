@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-METHOD-004",
+  "source_text": "**(a) Quote the exact passage.** Copy the words, with enough surrounding text that a reader can see what the speaker meant. Do not paraphrase at this stage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**(a) Quote the exact passage.** Copy the words, with enough surrounding text that a reader can see what the speaker meant. Do not paraphras"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "**(a) Quote the exact passage.** Copy the words, with enough surrounding text that a reader can see what the speaker meant. Do not paraphrase at this stage.",
+      "span": {
+        "quote": "**(a) Quote the exact passage.** Copy the words, with enough surrounding text that a reader can see what the speaker meant. Do not paraphrase at this stage."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

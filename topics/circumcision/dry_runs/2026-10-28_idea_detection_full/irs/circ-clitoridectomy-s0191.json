@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-clitoridectomy-s0191",
+  "source_text": "Empirical assessments, however, reveal no causal link between the procedure and enhanced marital stability or reduced infidelity; longitudinal studies in affected regions attribute such outcomes to broader socioeconomic and patriarchal structures rather than the cutting itself, with no randomized or controlled data supporting the claim. [92]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical assessments, however, reveal no causal link between the procedure and enhanced marital stability or reduced infidelity; longitudin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In affected regions attribute such outcomes to broader socioeconomic and patriarchal structures rather than the cutting itself, with no randomized or controlled.",
+      "span": {
+        "quote": "in affected regions attribute such outcomes to broader socioeconomic and patriarchal structures rather than the cutting itself, with no randomized or controlled"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

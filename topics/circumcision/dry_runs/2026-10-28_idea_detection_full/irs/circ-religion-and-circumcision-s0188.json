@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0188",
+  "source_text": "Some ethicists, applying a best-interest standard, maintain that circumcision falls within parental prerogative if it confers net benefits or integrates the child into a supportive community, as in Jewish or Muslim traditions, without violating autonomy since infants lack capacity for such choices. [101]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some ethicists, applying a best-interest standard, maintain that circumcision falls within parental prerogative if it confers net benefits o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intain that circumcision falls within parental prerogative if it confers net benefits or integrates the child into a supportive community, as in Jewish or Musli.",
+      "span": {
+        "quote": "intain that circumcision falls within parental prerogative if it confers net benefits or integrates the child into a supportive community, as in Jewish or Musli"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Infants lack capacity for such choices. [101].",
+      "span": {
+        "quote": "infants lack capacity for such choices. [101]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since infants lack capacity for such choices. [101]"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-milah-s0240",
+  "source_text": "A 2014 systematic review of published medical literature reinforced this association, identifying multiple instances of severe neonatal HSV-1 illness and death attributable to MBP, while noting the absence of comparable risks in circumcisions without direct oral contact.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2014 systematic review of published medical literature reinforced this association, identifying multiple instances of severe neonatal HSV-"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2014 systematic review of published medical literature reinforced this association, identifying multiple instances of severe neonatal HSV-1 illness and death.",
+      "span": {
+        "quote": "A 2014 systematic review of published medical literature reinforced this association, identifying multiple instances of severe neonatal HSV-1 illness and death "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

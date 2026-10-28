@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0127",
+  "source_text": "Proponents of infant male circumcision argue that parents, as primary caregivers and stewards of their children's welfare, possess the inherent prerogative to authorize procedures that offer demonstrable long-term health advantages, such as reduced risk of urinary tract infections in infancy and heterosexual HIV acquisition later in life, against minimal procedural risks estimated at less than 0.5% for serious complications. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of infant male circumcision argue that parents, as primary caregivers and stewards of their children's welfare, possess the inher"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parents, as primary caregivers and stewards of their children's welfare, possess the inherent prerogative to authorize procedures that offer demonstrable long-t.",
+      "span": {
+        "quote": "parents, as primary caregivers and stewards of their children's welfare, possess the inherent prerogative to authorize procedures that offer demonstrable long-t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of infant male circumcision.",
+      "span": {
+        "quote": "Proponents of infant male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0123",
+  "source_text": "Absence of efficacy is further inferred from fistula repair success rates, where gishiri-induced lesions require surgical correction without prior functional gains.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Absence of efficacy is further inferred from fistula repair success rates, where gishiri-induced lesions require surgical correction without"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Absence of efficacy is further inferred from fistula repair success rates, where gishiri-induced lesions require surgical correction without prior functional ga.",
+      "span": {
+        "quote": "Absence of efficacy is further inferred from fistula repair success rates, where gishiri-induced lesions require surgical correction without prior functional ga"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

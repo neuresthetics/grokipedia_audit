@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0335",
+  "source_text": "Similar initiatives, including proposed bans in Iceland (2018) affecting its minuscule Jewish community of fewer than 100 families and restrictions in Scandinavian countries, have amplified fears of forced assimilation or emigration, with Jewish policy analysts warning that such measures could erode community infrastructure and accelerate population decline in low-fertility diaspora settings. [178]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similar initiatives, including proposed bans in Iceland (2018) affecting its minuscule Jewish community of fewer than 100 families and restr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similar initiatives, including proposed bans in Iceland (2018) affecting its minuscule Jewish community of fewer than 100 families and restrictions in Scandinav.",
+      "span": {
+        "quote": "Similar initiatives, including proposed bans in Iceland (2018) affecting its minuscule Jewish community of fewer than 100 families and restrictions in Scandinav"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0187",
+  "source_text": "Restorers frequently recount reduced feelings of anger, resentment, or violation toward parents, physicians, or institutions associated with their circumcision, viewing the process as an act of personal reclamation that alleviates emotional fixation on the loss. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Restorers frequently recount reduced feelings of anger, resentment, or violation toward parents, physicians, or institutions associated with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Restorers frequently recount reduced feelings of anger, resentment, or violation toward parents, physicians, or institutions associated with their circumcision,.",
+      "span": {
+        "quote": "Restorers frequently recount reduced feelings of anger, resentment, or violation toward parents, physicians, or institutions associated with their circumcision,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with their circumcision.",
+      "span": {
+        "quote": "associated with their circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with their circumcision"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with their circumcision",
+          "span": {
+            "quote": "associated with their circumcision"
+          }
+        }
+      ]
+    }
+  ]
+}

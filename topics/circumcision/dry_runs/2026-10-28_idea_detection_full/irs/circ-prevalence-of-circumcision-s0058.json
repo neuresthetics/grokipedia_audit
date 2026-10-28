@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0058",
+  "source_text": "Program evaluations confirm population-level HIV incidence declines correlating with VMMC scale-up, independent of confounding factors like antiretroviral therapy expansion.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Program evaluations confirm population-level HIV incidence declines correlating with VMMC scale-up, independent of confounding factors like"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Program evaluations confirm population-level HIV incidence declines correlating with VMMC scale-up, independent of confounding factors like antiretroviral thera.",
+      "span": {
+        "quote": "Program evaluations confirm population-level HIV incidence declines correlating with VMMC scale-up, independent of confounding factors like antiretroviral thera"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

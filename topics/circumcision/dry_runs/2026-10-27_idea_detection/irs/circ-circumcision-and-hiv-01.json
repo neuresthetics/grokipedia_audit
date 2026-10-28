@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-01",
+  "source_text": "However, critics argue that in high-prevalence African contexts, low literacy rates, cultural norms, and program incentives can impair full comprehension and free choice, potentially transforming a preventive intervention into a coercive public health measure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "low literacy rates, cultural norms, and program incentives can impair full comprehension and free choice, potentially transforming a preventive intervention into a coercive public health measure"
+      },
+      "claim_ids": [
+        "c_literacy",
+        "c_impair",
+        "c_coercive"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_literacy",
+      "text": "In high-prevalence African contexts, low literacy rates, cultural norms, and program incentives are present factors.",
+      "span": {
+        "quote": "in high-prevalence African contexts, low literacy rates, cultural norms, and program incentives"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c_impair",
+      "text": "Those factors can impair full comprehension and free choice.",
+      "span": {
+        "quote": "can impair full comprehension and free choice"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c_coercive",
+      "text": "The preventive intervention may become a coercive public health measure.",
+      "span": {
+        "quote": "potentially transforming a preventive intervention into a coercive public health measure"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_literacy",
+      "target": "c_impair",
+      "span": {
+        "quote": "low literacy rates, cultural norms, and program incentives can impair"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c_impair",
+      "target": "c_coercive",
+      "span": {
+        "quote": "potentially transforming a preventive intervention into a coercive public health measure"
+      },
+      "warrant": "inductive"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

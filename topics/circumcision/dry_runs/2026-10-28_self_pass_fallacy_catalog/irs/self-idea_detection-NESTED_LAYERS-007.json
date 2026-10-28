@@ -1,0 +1,77 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-007",
+  "source_text": "- **Supplied ir.** Used as the child. This package sets passage_id to {parent}__l{depth}__{kind}-{target} and applies full / excerpt when the context record sets them. It does not add claims. - **Text only.** The child is the parent cone for that peel (the citation and what it supports, or the premise and what it rests on). source_text becomes the window when the window already contains the parent passage; otherwise the parent passage is kept and the window is appended, so existing quotes still sit in the text. The supplied string is written onto that peel's claim text so outside-text predicates can see a fact the client actually provided. Span quotes are not rewritten and no new edge is created. An excerpt peel copies the whole IR and does not smear the window onto every claim. - **excerpt stays true** until the context record sets \"full\": true or \"excerpt\": false. A contested reading copied onto the child still caps a flag. Nesting does not settle it.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- **Supplied ir.** Used as the child. This package sets passage_id to {parent}__l{depth}__{kind}-{target} and applies full / excerpt when th"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "T it supports, or the premise and what it rests on). source_text becomes the window when the window already contains the parent passage; otherwise the parent pa.",
+      "span": {
+        "quote": "t it supports, or the premise and what it rests on). source_text becomes the window when the window already contains the parent passage; otherwise the parent pa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Outside-text predicates can see a fact the client actually provided. Span quotes are not rewritten and no new edge is created. An excerpt peel copies the whole.",
+      "span": {
+        "quote": "outside-text predicates can see a fact the client actually provided. Span quotes are not rewritten and no new edge is created. An excerpt peel copies the whole "
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "This package sets passage_id to {parent}__l{depth}__{kind}-{targe.",
+      "span": {
+        "quote": "This package sets passage_id to {parent}__l{depth}__{kind}-{targe"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "This package sets passage_id to {parent}__l{depth}__{kind}-{"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

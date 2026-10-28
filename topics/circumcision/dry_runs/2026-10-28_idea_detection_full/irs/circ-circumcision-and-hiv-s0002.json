@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0002",
+  "source_text": "Three landmark trials conducted between 2005 and 2007 in Uganda, Kenya, and South Africa\u2014each involving thousands of heterosexual men\u2014provided robust evidence of this efficacy, with hazard ratios ranging from 0.40 to 0.47 for HIV incidence in circumcised versus uncircumcised groups, after adjusting for behavioral factors. [3] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Three landmark trials conducted between 2005 and 2007 in Uganda, Kenya, and South Africa\u2014each involving thousands of heterosexual men\u2014provid"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Three landmark trials conducted between 2005 and 2007 in Uganda, Kenya, and South Africa\u2014each involving thousands of heterosexual men\u2014provided robust evidence o.",
+      "span": {
+        "quote": "Three landmark trials conducted between 2005 and 2007 in Uganda, Kenya, and South Africa\u2014each involving thousands of heterosexual men\u2014provided robust evidence o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

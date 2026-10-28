@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-mohel-s0016",
+  "source_text": "Modern mohels often possess medical qualifications, such as certification in neonatal care, to integrate surgical precision with tradition, reducing complications reported in 0.2\u20130.6% of cases per health studies on ritual practices. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Modern mohels often possess medical qualifications, such as certification in neonatal care, to integrate surgical precision with tradition,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Modern mohels often possess medical qualifications, such as certification in neonatal care, to integrate surgical precision with tradition, reducing complicatio.",
+      "span": {
+        "quote": "Modern mohels often possess medical qualifications, such as certification in neonatal care, to integrate surgical precision with tradition, reducing complicatio"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per health studies on ritual practices.",
+      "span": {
+        "quote": "per health studies on ritual practices"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per health studies on ritual practices"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

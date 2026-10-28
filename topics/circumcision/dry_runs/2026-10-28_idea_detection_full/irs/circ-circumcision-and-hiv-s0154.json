@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0154",
+  "source_text": "Ecological analyses in the late 1980s and early 1990s reinforced these patterns at population levels across Africa, revealing an inverse correlation between male circumcision prevalence and national HIV rates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ecological analyses in the late 1980s and early 1990s reinforced these patterns at population levels across Africa, revealing an inverse cor"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ecological analyses in the late 1980s and early 1990s reinforced these patterns at population levels across Africa, revealing an inverse correlation between mal.",
+      "span": {
+        "quote": "Ecological analyses in the late 1980s and early 1990s reinforced these patterns at population levels across Africa, revealing an inverse correlation between mal"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

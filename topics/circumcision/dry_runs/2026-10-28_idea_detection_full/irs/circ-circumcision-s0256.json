@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0256",
+  "source_text": "In the United States, orthopedic surgeon Lewis Sayre advanced the practice in the 1870s by associating uncircumcised foreskins with \"reflex neurosis\"\u2014irritation allegedly causing spinal issues, paralysis, epilepsy, and leg weakness. [152]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States, orthopedic surgeon Lewis Sayre advanced the practice in the 1870s by associating uncircumcised foreskins with \"reflex"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the United States, orthopedic surgeon Lewis Sayre advanced the practice in the 1870s by associating uncircumcised foreskins with \"reflex neurosis\"\u2014irritation.",
+      "span": {
+        "quote": "In the United States, orthopedic surgeon Lewis Sayre advanced the practice in the 1870s by associating uncircumcised foreskins with \"reflex neurosis\"\u2014irritation"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

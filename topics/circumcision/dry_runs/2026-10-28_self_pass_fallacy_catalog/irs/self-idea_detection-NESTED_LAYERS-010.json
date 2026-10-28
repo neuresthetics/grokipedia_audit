@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-010",
+  "source_text": "possible_issue is not a stop. A no_issue node that still has peelable premises is not a stop either: those premises are peeled. confirmed_no_issue is the leaf, once nothing remains that the expander can open.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "possible_issue is not a stop. A no_issue node that still has peelable premises is not a stop either: those premises are peeled. confirmed_no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Possible_issue is not a stop. A no_issue node that still has peelable premises is not a stop either: those premises are peeled. confirmed_no_issue is the leaf,.",
+      "span": {
+        "quote": "possible_issue is not a stop. A no_issue node that still has peelable premises is not a stop either: those premises are peeled. confirmed_no_issue is the leaf, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

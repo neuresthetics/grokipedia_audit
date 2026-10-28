@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0100",
+  "source_text": "Infections arise from unsterile tools and home settings, with vulnerability heightened by the immature anatomy of prepubescent girls, potentially leading to urinary retention or shock from pain and blood loss, though mortality remains low. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infections arise from unsterile tools and home settings, with vulnerability heightened by the immature anatomy of prepubescent girls, potent"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infections arise from unsterile tools and home settings, with vulnerability heightened by the immature anatomy of prepubescent girls, potentially leading to uri.",
+      "span": {
+        "quote": "Infections arise from unsterile tools and home settings, with vulnerability heightened by the immature anatomy of prepubescent girls, potentially leading to uri"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

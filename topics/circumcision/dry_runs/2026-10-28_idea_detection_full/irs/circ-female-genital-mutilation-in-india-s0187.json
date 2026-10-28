@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0187",
+  "source_text": "Efforts extended to challenging community fatwas endorsing the rite, with public critiques in 2018 highlighting inconsistencies between claims of minimal harm and documented complications like scarring.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Efforts extended to challenging community fatwas endorsing the rite, with public critiques in 2018 highlighting inconsistencies between clai"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of minimal harm and documented complications like scarring.",
+      "span": {
+        "quote": "of minimal harm and documented complications like scarring."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Efforts extended to challenging community fatwas endorsing the rite, with public critiques in 2018 highlighting inconsistencies between.",
+      "span": {
+        "quote": "Efforts extended to challenging community fatwas endorsing the rite, with public critiques in 2018 highlighting inconsistencies between"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

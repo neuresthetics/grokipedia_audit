@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0187",
+  "source_text": "Long-term physical effects include chronic urinary tract infections, painful urination, menstrual difficulties due to obstructed flow, vaginal infections, sexual pain and reduced satisfaction, keloid scarring, and reproductive issues like infertility or cysts. [47] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term physical effects include chronic urinary tract infections, painful urination, menstrual difficulties due to obstructed flow, vagin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term physical effects include chronic urinary tract infections, painful urination, menstrual difficulties due to obstructed flow, vaginal infections, sexua.",
+      "span": {
+        "quote": "Long-term physical effects include chronic urinary tract infections, painful urination, menstrual difficulties due to obstructed flow, vaginal infections, sexua"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-005",
+  "source_text": "A no_issue passage still peels the premises and citations it rests on. A hard flag still peels them too. Stopping on the flag alone would skip the dependence test.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A no_issue passage still peels the premises and citations it rests on. A hard flag still peels them too. Stopping on the flag alone would sk"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A no_issue passage still peels the premises and citations it rests on. A hard flag still peels them too. Stopping on the flag alone would skip the dependence te.",
+      "span": {
+        "quote": "A no_issue passage still peels the premises and citations it rests on. A hard flag still peels them too. Stopping on the flag alone would skip the dependence te"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

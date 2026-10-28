@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0132",
+  "source_text": "Historical records trace the practice to ancient Egyptian artifacts circa 2400 BCE, evolving into a covenantal symbol in Judaism (Genesis 17:10-14) and a sunnah in Islam, where discontinuation could erode intergenerational transmission of identity and foster social fragmentation. [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Historical records trace the practice to ancient Egyptian artifacts circa 2400 BCE, evolving into a covenantal symbol in Judaism (Genesis 17"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Historical records trace the practice to ancient Egyptian artifacts circa 2400 BCE, evolving into a covenantal symbol in Judaism (Genesis 17:10-14) and a sunnah.",
+      "span": {
+        "quote": "Historical records trace the practice to ancient Egyptian artifacts circa 2400 BCE, evolving into a covenantal symbol in Judaism (Genesis 17:10-14) and a sunnah"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

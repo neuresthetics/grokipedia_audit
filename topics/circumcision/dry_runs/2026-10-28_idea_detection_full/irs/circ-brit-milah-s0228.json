@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0228",
+  "source_text": "Long-term complications encompass meatal stenosis (narrowing of the urethral opening) in less than 0.1% of neonates, urinary tract adhesions, or phimosis recurrence, with secondary procedure rates declining from 3.62% at five years in 2010 to 2.45% in 2020 due to improved techniques but persisting as a concern in ritual practices. [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term complications encompass meatal stenosis (narrowing of the urethral opening) in less than 0.1% of neonates, urinary tract adhesions"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term complications encompass meatal stenosis (narrowing of the urethral opening) in less than 0.1% of neonates, urinary tract adhesions, or phimosis recurr.",
+      "span": {
+        "quote": "Long-term complications encompass meatal stenosis (narrowing of the urethral opening) in less than 0.1% of neonates, urinary tract adhesions, or phimosis recurr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

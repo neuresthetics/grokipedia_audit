@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0049",
+  "source_text": "Circumcision also lowers risks of inflammatory conditions like balanitis (OR 0.32, 95% CI 0.20-0.52) and pathologic phimosis, which affects up to 10% of uncircumcised boys by adolescence and predisposes to adhesions and infections. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision also lowers risks of inflammatory conditions like balanitis (OR 0.32, 95% CI 0.20-0.52) and pathologic phimosis, which affects"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision also lowers risks of inflammatory conditions like balanitis (OR 0.32, 95% CI 0.20-0.52) and pathologic phimosis, which affects up to 10% of uncircu.",
+      "span": {
+        "quote": "Circumcision also lowers risks of inflammatory conditions like balanitis (OR 0.32, 95% CI 0.20-0.52) and pathologic phimosis, which affects up to 10% of uncircu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

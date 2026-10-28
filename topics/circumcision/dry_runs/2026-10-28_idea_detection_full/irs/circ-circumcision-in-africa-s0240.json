@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0240",
+  "source_text": "In operational programs, a systematic review of 40 studies (2005\u20132019) across sub-Saharan Africa found moderate and severe AE incidence at 0.30 per 100 procedures, comparable to trial benchmarks but with variations by age and setting. [114]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In operational programs, a systematic review of 40 studies (2005\u20132019) across sub-Saharan Africa found moderate and severe AE incidence at 0"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In operational programs, a systematic review of 40 studies (2005\u20132019) across sub-Saharan Africa found moderate and severe AE incidence at 0.30 per 100 procedur.",
+      "span": {
+        "quote": "In operational programs, a systematic review of 40 studies (2005\u20132019) across sub-Saharan Africa found moderate and severe AE incidence at 0.30 per 100 procedur"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per 100 procedures.",
+      "span": {
+        "quote": "per 100 procedures"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per 100 procedures"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

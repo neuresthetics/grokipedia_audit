@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0168",
+  "source_text": "In contrast, some observational studies report higher incidences specifically post-circumcision, such as 17.9% prevalence in screened circumcised boys aged 5\u20138 years in a 2021 Egyptian cohort, attributing it to factors like early-life circumcision, incomplete adhesions, or surgical technique deficiencies. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, some observational studies report higher incidences specifically post-circumcision, such as 17.9% prevalence in screened circum"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, some observational studies report higher incidences specifically post-circumcision, such as 17.9% prevalence in screened circumcised boys aged 5\u20138.",
+      "span": {
+        "quote": "In contrast, some observational studies report higher incidences specifically post-circumcision, such as 17.9% prevalence in screened circumcised boys aged 5\u20138 "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

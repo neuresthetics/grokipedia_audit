@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0063",
+  "source_text": "In settings like Guinea and Ghana, the ritual\u2014often performed by female elders\u2014imparts knowledge of societal roles, fostering solidarity and peer acceptance while excluding men, thus operating as a domain of female agency and secrecy. [21] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In settings like Guinea and Ghana, the ritual\u2014often performed by female elders\u2014imparts knowledge of societal roles, fostering solidarity and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In settings like Guinea and Ghana, the ritual\u2014often performed by female elders\u2014imparts knowledge of societal roles, fostering solidarity and peer acceptance whi.",
+      "span": {
+        "quote": "In settings like Guinea and Ghana, the ritual\u2014often performed by female elders\u2014imparts knowledge of societal roles, fostering solidarity and peer acceptance whi"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Operating as a domain of female agency and secrecy. [21] [22].",
+      "span": {
+        "quote": "operating as a domain of female agency and secrecy. [21] [22]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

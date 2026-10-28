@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0080",
+  "source_text": "The Fiqh Council of North America, in its June 2022 fatwa, declared all variants impermissible, citing absence of definitive textual evidence and potential violation of Islamic principles against harm (la darar wa la dirar). [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Fiqh Council of North America, in its June 2022 fatwa, declared all variants impermissible, citing absence of definitive textual evidenc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Fiqh Council of North America, in its June 2022 fatwa, declared all variants impermissible, citing absence of definitive textual evidence and potential viol.",
+      "span": {
+        "quote": "The Fiqh Council of North America, in its June 2022 fatwa, declared all variants impermissible, citing absence of definitive textual evidence and potential viol"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing absence of definitive textual evidence and potential violation of Islamic.",
+      "span": {
+        "quote": "citing absence of definitive textual evidence and potential violation of Islamic"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing absence of definitive textual evidence and potential violation of Islamic"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

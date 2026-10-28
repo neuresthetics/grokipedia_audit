@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0085",
+  "source_text": "Mandaeism, an ancient Gnostic tradition, rejects circumcision entirely, prioritizing ritual immersion (masbuta) for purification and deeming genital alteration incompatible with the soul's pristine creation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mandaeism, an ancient Gnostic tradition, rejects circumcision entirely, prioritizing ritual immersion (masbuta) for purification and deeming"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mandaeism, an ancient Gnostic tradition, rejects circumcision entirely, prioritizing ritual immersion (masbuta) for purification and deeming genital alteration.",
+      "span": {
+        "quote": "Mandaeism, an ancient Gnostic tradition, rejects circumcision entirely, prioritizing ritual immersion (masbuta) for purification and deeming genital alteration "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0314",
+  "source_text": "The World Health Organization classifies FGM into four types\u2014ranging from clitoridectomy to infibulation\u2014and documents empirical health consequences including immediate risks of severe pain, hemorrhage, tetanus, and sepsis, alongside long-term issues such as urinary incontinence, infertility, cysts, and childbirth complications with increased newborn death by 15% and stillbirth by 55%. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization classifies FGM into four types\u2014ranging from clitoridectomy to infibulation\u2014and documents empirical health cons"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization classifies FGM into four types\u2014ranging from clitoridectomy to infibulation\u2014and documents empirical health consequences including i.",
+      "span": {
+        "quote": "The World Health Organization classifies FGM into four types\u2014ranging from clitoridectomy to infibulation\u2014and documents empirical health consequences including i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

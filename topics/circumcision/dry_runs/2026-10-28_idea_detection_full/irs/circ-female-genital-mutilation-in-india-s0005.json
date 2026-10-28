@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0005",
+  "source_text": "Legally, no dedicated statute prohibits it, but a 2017 public interest litigation before the Supreme Court argues its unconstitutionality under Articles 14, 15, and 21 for infringing bodily integrity and gender equality; the case was referred to a constitution bench in 2018 and remains unresolved as of 2024. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legally, no dedicated statute prohibits it, but a 2017 public interest litigation before the Supreme Court argues its unconstitutionality un"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Its unconstitutionality under Articles 14, 15, and 21 for infringing bodily integrity and gender equality;.",
+      "span": {
+        "quote": "its unconstitutionality under Articles 14, 15, and 21 for infringing bodily integrity and gender equality;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Legally, no dedicated statute prohibits it, but a 2017 public interest litigation before the Supreme Court.",
+      "span": {
+        "quote": "Legally, no dedicated statute prohibits it, but a 2017 public interest litigation before the Supreme Court"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argues"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

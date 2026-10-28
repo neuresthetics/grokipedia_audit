@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0223",
+  "source_text": "This stance frames FGM universally as harmful, with WHO emphasizing risks including severe pain, hemorrhage, infection, and long-term complications such as urinary issues and childbirth difficulties. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This stance frames FGM universally as harmful, with WHO emphasizing risks including severe pain, hemorrhage, infection, and long-term compli"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This stance frames FGM universally as harmful, with WHO emphasizing risks including severe pain, hemorrhage, infection, and long-term complications such as urin.",
+      "span": {
+        "quote": "This stance frames FGM universally as harmful, with WHO emphasizing risks including severe pain, hemorrhage, infection, and long-term complications such as urin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "This stance frames FGM universally as harmful.",
+      "span": {
+        "quote": "This stance frames FGM universally as harmful"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "This stance frames FGM universally as harmful"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

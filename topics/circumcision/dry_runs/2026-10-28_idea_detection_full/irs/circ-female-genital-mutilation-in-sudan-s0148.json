@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0148",
+  "source_text": "Chronic physical effects encompass keloid scarring, chronic urinary tract infections, and difficulties with urination due to anatomical distortion, particularly in Type III FGM (infibulation), the predominant form in Sudan affecting approximately 87% of women aged 15-49 as of the 2014 survey. [31] [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Chronic physical effects encompass keloid scarring, chronic urinary tract infections, and difficulties with urination due to anatomical dist"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Chronic physical effects encompass keloid scarring, chronic urinary tract infections, and difficulties with urination due to anatomical distortion, particularly.",
+      "span": {
+        "quote": "Chronic physical effects encompass keloid scarring, chronic urinary tract infections, and difficulties with urination due to anatomical distortion, particularly"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

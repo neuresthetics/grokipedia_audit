@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0240",
+  "source_text": "These developments reflect a causal response to anti-FGM campaigns, where communities adapt by professionalizing rituals to claim hygiene and reduced severity, yet data from survivor testimonies and health audits reveal no diminution in outcomes like urinary issues, scarring, and psychological trauma.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These developments reflect a causal response to anti-FGM campaigns, where communities adapt by professionalizing rituals to claim hygiene an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ygiene and reduced severity, yet data from survivor testimonies and health audits reveal no diminution in outcomes like urinary issues, scarring, and psychologi.",
+      "span": {
+        "quote": "ygiene and reduced severity, yet data from survivor testimonies and health audits reveal no diminution in outcomes like urinary issues, scarring, and psychologi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These developments reflect a causal response to anti-FGM campaigns, where communities adapt by professionalizing rituals to.",
+      "span": {
+        "quote": "These developments reflect a causal response to anti-FGM campaigns, where communities adapt by professionalizing rituals to"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

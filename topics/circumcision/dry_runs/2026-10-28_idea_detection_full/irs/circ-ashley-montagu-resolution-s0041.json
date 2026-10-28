@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0041",
+  "source_text": "These early gatherings, held biennially starting in 1989, assembled physicians, ethicists, anthropologists, and activists critical of such procedures, emphasizing their potential for harm, including surgical complications, loss of erogenous tissue, and psychological trauma, while challenging cultural and religious justifications. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These early gatherings, held biennially starting in 1989, assembled physicians, ethicists, anthropologists, and activists critical of such p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These early gatherings, held biennially starting in 1989, assembled physicians, ethicists, anthropologists, and activists critical of such procedures, emphasizi.",
+      "span": {
+        "quote": "These early gatherings, held biennially starting in 1989, assembled physicians, ethicists, anthropologists, and activists critical of such procedures, emphasizi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Activists critical of such procedures.",
+      "span": {
+        "quote": "activists critical of such procedures"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "activists critical of such procedures"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "These early gatherin"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activists critical of such procedures",
+          "span": {
+            "quote": "activists critical of such procedures"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0106",
+  "source_text": "One participant stated she would not perform oral sex on an uncircumcised man due to perceived dirtiness but would on a circumcised man; hygiene perceptions strongly influenced such sexual behaviors.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "One participant stated she would not perform oral sex on an uncircumcised man due to perceived dirtiness but would on a circumcised man; hyg"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "she"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "One participant stated she would not perform oral sex on an uncircumcised man due to perceived dirtiness but would on a circumcised man; hygiene perceptions str.",
+      "span": {
+        "quote": "One participant stated she would not perform oral sex on an uncircumcised man due to perceived dirtiness but would on a circumcised man; hygiene perceptions str"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "she",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

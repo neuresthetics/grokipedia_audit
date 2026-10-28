@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0273",
+  "source_text": "Specific objections target elements of brit milah like metzitzah b'peh, decrying it as a vector for disease transmission, including herpes simplex virus, based on documented infant cases in New York City between 2000 and 2011.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Specific objections target elements of brit milah like metzitzah b'peh, decrying it as a vector for disease transmission, including herpes s"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Specific objections target elements of brit milah like metzitzah b'peh, decrying it as a vector for disease transmission, including herpes simplex virus, based.",
+      "span": {
+        "quote": "Specific objections target elements of brit milah like metzitzah b'peh, decrying it as a vector for disease transmission, including herpes simplex virus, based "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

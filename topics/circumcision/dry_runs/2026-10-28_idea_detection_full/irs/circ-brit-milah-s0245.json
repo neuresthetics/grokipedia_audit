@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0245",
+  "source_text": "In March 2026, a two-week-old infant was hospitalized at Wolfson Medical Center in Holon, Israel, with a severe herpes simplex virus (HSV-1) infection following a brit milah that involved direct oral suction (metzitzah b'peh).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In March 2026, a two-week-old infant was hospitalized at Wolfson Medical Center in Holon, Israel, with a severe herpes simplex virus (HSV-1)"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In March 2026, a two-week-old infant was hospitalized at Wolfson Medical Center in Holon, Israel, with a severe herpes simplex virus (HSV-1) infection following.",
+      "span": {
+        "quote": "In March 2026, a two-week-old infant was hospitalized at Wolfson Medical Center in Holon, Israel, with a severe herpes simplex virus (HSV-1) infection following"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

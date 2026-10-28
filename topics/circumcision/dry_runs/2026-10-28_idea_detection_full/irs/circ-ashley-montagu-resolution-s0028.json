@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0028",
+  "source_text": "By the early 1900s, opposition intensified with reports documenting complications like penile injury and adhesions, though rates continued to rise amid hospital routines and unverified prophylactic claims. [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the early 1900s, opposition intensified with reports documenting complications like penile injury and adhesions, though rates continued t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "S, opposition intensified with reports documenting complications like penile injury and adhesions, though rates continued to rise amid hospital routines and unv.",
+      "span": {
+        "quote": "s, opposition intensified with reports documenting complications like penile injury and adhesions, though rates continued to rise amid hospital routines and unv"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

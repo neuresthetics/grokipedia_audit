@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0041",
+  "source_text": "The clitoris, comprising erectile tissue analogous to the male penis, is excised to varying degrees, often without medical justification, leading to loss of sexual sensation and potential complications such as infection, hemorrhage, and chronic pain.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The clitoris, comprising erectile tissue analogous to the male penis, is excised to varying degrees, often without medical justification, le"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The clitoris, comprising erectile tissue analogous to the male penis, is excised to varying degrees, often without medical justification, leading to loss of sex.",
+      "span": {
+        "quote": "The clitoris, comprising erectile tissue analogous to the male penis, is excised to varying degrees, often without medical justification, leading to loss of sex"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

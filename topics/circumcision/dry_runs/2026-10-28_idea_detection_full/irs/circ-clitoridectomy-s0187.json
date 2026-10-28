@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-clitoridectomy-s0187",
+  "source_text": "Overall, peer-reviewed assessments affirm that stated rationales do not withstand scrutiny against clinical and epidemiological evidence, which prioritizes documented harms over unsubstantiated cultural assertions. [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, peer-reviewed assessments affirm that stated rationales do not withstand scrutiny against clinical and epidemiological evidence, wh"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, peer-reviewed assessments affirm that stated rationales do not withstand scrutiny against clinical and epidemiological evidence, which prioritizes docu.",
+      "span": {
+        "quote": "Overall, peer-reviewed assessments affirm that stated rationales do not withstand scrutiny against clinical and epidemiological evidence, which prioritizes docu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated cultural assertions.",
+      "span": {
+        "quote": "unsubstantiated cultural assertions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated cultural assertions"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

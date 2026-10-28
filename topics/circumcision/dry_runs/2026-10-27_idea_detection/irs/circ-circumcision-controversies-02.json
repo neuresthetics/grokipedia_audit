@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-controversies-02",
+  "source_text": "Proponents of equivalence argue this reflects inconsistent application of autonomy ethics, where degree of tissue removal or cultural valence should not eclipse the principle of consent, urging parity in prohibiting irreversible modifications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "inconsistent application of autonomy ethics... urging parity in prohibiting irreversible modifications"
+      },
+      "claim_ids": [
+        "c_inconsistent",
+        "c_consent",
+        "c_parity"
+      ],
+      "speaker": "equivalence_proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_inconsistent",
+      "text": "Current practice reflects inconsistent application of autonomy ethics.",
+      "span": {
+        "quote": "inconsistent application of autonomy ethics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "equivalence_proponents"
+    },
+    {
+      "id": "c_consent",
+      "text": "Degree of tissue removal or cultural valence should not eclipse the principle of consent.",
+      "span": {
+        "quote": "degree of tissue removal or cultural valence should not eclipse the principle of consent"
+      },
+      "role": "default_rule",
+      "hedge": "none",
+      "scope": "procedural",
+      "speaker": "equivalence_proponents"
+    },
+    {
+      "id": "c_parity",
+      "text": "There should be parity in prohibiting irreversible modifications.",
+      "span": {
+        "quote": "urging parity in prohibiting irreversible modifications"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "equivalence_proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_inconsistent",
+      "target": "c_parity",
+      "span": {
+        "quote": "inconsistent application of autonomy ethics"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_consent",
+      "target": "c_parity",
+      "span": {
+        "quote": "should not eclipse the principle of consent"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

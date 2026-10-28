@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0231",
+  "source_text": "AAP resources emphasize that such practices mitigate risks like balanoposthitis or phimosis\u2014conditions circumcision addresses\u2014without surgical intervention, enabling parents to weigh non-invasive options against procedure-specific outcomes. [146]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "AAP resources emphasize that such practices mitigate risks like balanoposthitis or phimosis\u2014conditions circumcision addresses\u2014without surgic"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such practices mitigate risks like balanoposthitis or phimosis\u2014conditions circumcision addresses\u2014without surgical intervention, enabling parents to weigh non-in.",
+      "span": {
+        "quote": "such practices mitigate risks like balanoposthitis or phimosis\u2014conditions circumcision addresses\u2014without surgical intervention, enabling parents to weigh non-in"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

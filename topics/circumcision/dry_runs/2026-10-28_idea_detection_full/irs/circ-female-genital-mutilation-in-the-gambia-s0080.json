@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0080",
+  "source_text": "Defenders, including lawmakers and practitioners, equate it to male circumcision and argue that bans infringe on constitutional rights to religious and ethnic traditions, viewing abandonment as a threat to societal norms upheld across generations. [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Defenders, including lawmakers and practitioners, equate it to male circumcision and argue that bans infringe on constitutional rights to re"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bans infringe on constitutional rights to religious and ethnic traditions, viewing abandonment as a threat to societal norms upheld across generations.",
+      "span": {
+        "quote": "bans infringe on constitutional rights to religious and ethnic traditions, viewing abandonment as a threat to societal norms upheld across generations."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Defenders, including lawmakers and practitioners, equate it to male circumcision and.",
+      "span": {
+        "quote": "Defenders, including lawmakers and practitioners, equate it to male circumcision and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

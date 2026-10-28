@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0047",
+  "source_text": "Psychological effects, including post-traumatic stress, have been documented in survivor testimonies and cohort studies from regions like Kenya and Sudan, where Type I predominates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological effects, including post-traumatic stress, have been documented in survivor testimonies and cohort studies from regions like Ke"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological effects, including post-traumatic stress, have been documented in survivor testimonies and cohort studies from regions like Kenya and Sudan, where.",
+      "span": {
+        "quote": "Psychological effects, including post-traumatic stress, have been documented in survivor testimonies and cohort studies from regions like Kenya and Sudan, where"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

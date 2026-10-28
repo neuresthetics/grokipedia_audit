@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0034",
+  "source_text": "Surveys among Americans reveal a majority preference for circumcised aesthetics, frequently citing enhanced symmetry and a neater appearance over the uncircumcised form's perceived redundancy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Surveys among Americans reveal a majority preference for circumcised aesthetics, frequently citing enhanced symmetry and a neater appearance"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Surveys among Americans reveal a majority preference for circumcised aesthetics, frequently citing enhanced symmetry and a neater appearance over the uncircumci.",
+      "span": {
+        "quote": "Surveys among Americans reveal a majority preference for circumcised aesthetics, frequently citing enhanced symmetry and a neater appearance over the uncircumci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing enhanced symmetry and a neater appearance over the uncircumcised form's.",
+      "span": {
+        "quote": "citing enhanced symmetry and a neater appearance over the uncircumcised form's"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing enhanced symmetry and a neater appearance over the uncircumcised form's"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

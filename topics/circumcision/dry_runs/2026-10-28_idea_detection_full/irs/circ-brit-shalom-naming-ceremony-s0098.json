@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0098",
+  "source_text": "Orthodox rabbis have critiqued Brit Shalom as an ahistorical innovation that trivializes or circumvents halachic imperatives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Orthodox rabbis have critiqued Brit Shalom as an ahistorical innovation that trivializes or circumvents halachic imperatives."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Orthodox rabbis have critiqued Brit Shalom as an ahistorical innovation that trivializes or circumvents halachic imperatives.",
+      "span": {
+        "quote": "Orthodox rabbis have critiqued Brit Shalom as an ahistorical innovation that trivializes or circumvents halachic imperatives."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

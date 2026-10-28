@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0093",
+  "source_text": "These mechanisms, validated through histological, virological, and epidemiological convergence, underscore circumcision's role in disrupting HIV's mucosal foothold without relying solely on behavioral factors.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These mechanisms, validated through histological, virological, and epidemiological convergence, underscore circumcision's role in disrupting"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These mechanisms, validated through histological, virological, and epidemiological convergence, underscore circumcision's role in disrupting HIV's mucosal footh.",
+      "span": {
+        "quote": "These mechanisms, validated through histological, virological, and epidemiological convergence, underscore circumcision's role in disrupting HIV's mucosal footh"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

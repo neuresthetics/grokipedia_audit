@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0168",
+  "source_text": "Regarding promiscuity reduction, no causal evidence links FGM to lower infidelity rates in Sudan or comparable settings; cross-cultural studies indicate that sexual behavior is primarily regulated by social norms, religious edicts, and community enforcement rather than anatomical modification, as evidenced by low promiscuity in non-FGM-practicing societies with analogous cultural controls. [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regarding promiscuity reduction, no causal evidence links FGM to lower infidelity rates in Sudan or comparable settings; cross-cultural stud"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regarding promiscuity reduction, no causal evidence links FGM to lower infidelity rates in Sudan or comparable settings; cross-cultural studies indicate that se.",
+      "span": {
+        "quote": "Regarding promiscuity reduction, no causal evidence links FGM to lower infidelity rates in Sudan or comparable settings; cross-cultural studies indicate that se"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

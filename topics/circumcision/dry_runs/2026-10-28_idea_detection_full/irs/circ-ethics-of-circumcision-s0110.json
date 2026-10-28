@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0110",
+  "source_text": "Slippery slope arguments equating male circumcision to female genital mutilation (FGM) lack evidential parity, as FGM confers no documented health benefits and correlates with increased risks of urinary issues, sexual dysfunction, and obstetric complications (e.g., postpartum hemorrhage odds ratio 1.3-1.55), per WHO classifications of Types I-III. [70] [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Slippery slope arguments equating male circumcision to female genital mutilation (FGM) lack evidential parity, as FGM confers no documented"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Slippery slope arguments equating male circumcision to female genital mutilation (FGM) lack evidential parity, as FGM confers no documented health benefits and.",
+      "span": {
+        "quote": "Slippery slope arguments equating male circumcision to female genital mutilation (FGM) lack evidential parity, as FGM confers no documented health benefits and "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per WHO classifications of Types I-III.",
+      "span": {
+        "quote": "per WHO classifications of Types I-III"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per WHO classifications of Types I-III"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

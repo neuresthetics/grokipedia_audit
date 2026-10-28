@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0088",
+  "source_text": "Theologically, adherents in progressive Jewish circles reinterpret the Abrahamic covenant as achievable through symbolic affirmation of life and community inclusion rather than physical alteration, framing Brit Shalom as a \"covenant of peace\" that honors Jewish heritage without mandating excision, a view supported by rabbis in Reform and Reconstructionist traditions who facilitate such ceremonies to affirm parental autonomy. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Theologically, adherents in progressive Jewish circles reinterpret the Abrahamic covenant as achievable through symbolic affirmation of life"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Theologically, adherents in progressive Jewish circles reinterpret the Abrahamic covenant as achievable through symbolic affirmation of life and community inclu.",
+      "span": {
+        "quote": "Theologically, adherents in progressive Jewish circles reinterpret the Abrahamic covenant as achievable through symbolic affirmation of life and community inclu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

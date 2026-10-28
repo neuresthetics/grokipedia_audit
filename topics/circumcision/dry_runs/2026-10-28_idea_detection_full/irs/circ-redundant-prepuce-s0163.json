@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-redundant-prepuce-s0163",
+  "source_text": "This length-based approach frequently leads to surgical recommendations, particularly in pediatric cases with or without symptoms, to prevent potential complications like balanoposthitis or microbiome alterations that may contribute to inflammation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This length-based approach frequently leads to surgical recommendations, particularly in pediatric cases with or without symptoms, to preven"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This length-based approach frequently leads to surgical recommendations, particularly in pediatric cases with or without symptoms, to prevent potential complica.",
+      "span": {
+        "quote": "This length-based approach frequently leads to surgical recommendations, particularly in pediatric cases with or without symptoms, to prevent potential complica"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

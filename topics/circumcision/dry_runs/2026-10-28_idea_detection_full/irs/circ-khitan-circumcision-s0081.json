@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0081",
+  "source_text": "Ahmadiyya theology endorses male khitan as a virtuous act of emulation, frequently celebrated with communal gatherings, and bolsters its observance with references to medical evidence indicating lower lifetime risks of urinary tract infections and certain sexually transmitted diseases when conducted neonatally. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ahmadiyya theology endorses male khitan as a virtuous act of emulation, frequently celebrated with communal gatherings, and bolsters its obs"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ahmadiyya theology endorses male khitan as a virtuous act of emulation, frequently celebrated with communal gatherings, and bolsters its observance with referen.",
+      "span": {
+        "quote": "Ahmadiyya theology endorses male khitan as a virtuous act of emulation, frequently celebrated with communal gatherings, and bolsters its observance with referen"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

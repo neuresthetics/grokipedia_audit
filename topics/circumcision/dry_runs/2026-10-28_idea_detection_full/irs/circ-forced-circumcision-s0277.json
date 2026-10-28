@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0277",
+  "source_text": "Ethically, proponents of equivalence emphasize violations of bodily autonomy in both, arguing that non-consensual genital modification on minors\u2014regardless of degree\u2014prioritizes parental or communal rights over the individual's right to intact genitalia. [125]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethically, proponents of equivalence emphasize violations of bodily autonomy in both, arguing that non-consensual genital modification on mi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Violations of bodily autonomy in both, arguing that non-consensual genital modification on minors\u2014regardless of degree\u2014prioritizes parental or communal rights o.",
+      "span": {
+        "quote": "violations of bodily autonomy in both, arguing that non-consensual genital modification on minors\u2014regardless of degree\u2014prioritizes parental or communal rights o"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethically, proponents of equivalence.",
+      "span": {
+        "quote": "Ethically, proponents of equivalence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

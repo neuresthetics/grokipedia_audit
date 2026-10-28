@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0187",
+  "source_text": "In Kenya and Tanzania, for instance, school-based demand creation through peer education and media campaigns complemented clinic services, while South Africa and Zambia employed task-shifting to nurse-led procedures to address physician shortages, enabling over 80% of circumcisions by non-doctors without increased adverse events. [82] [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Kenya and Tanzania, for instance, school-based demand creation through peer education and media campaigns complemented clinic services, w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Kenya and Tanzania, for instance, school-based demand creation through peer education and media campaigns complemented clinic services, while South Africa an.",
+      "span": {
+        "quote": "In Kenya and Tanzania, for instance, school-based demand creation through peer education and media campaigns complemented clinic services, while South Africa an"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

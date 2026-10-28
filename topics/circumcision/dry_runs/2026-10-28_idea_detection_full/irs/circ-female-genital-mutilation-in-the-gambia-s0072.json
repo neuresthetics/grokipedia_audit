@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0072",
+  "source_text": "Proponents argue that the pain endured during the procedure teaches resilience and discipline, with respondents in qualitative studies describing it as a \"school\" for proper behavior among elders, thereby enhancing a girl's social standing and eligibility for inclusion in communal events.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents argue that the pain endured during the procedure teaches resilience and discipline, with respondents in qualitative studies descr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents argue that the pain endured during the procedure teaches resilience and discipline, with respondents in qualitative studies describing it as a \"schoo.",
+      "span": {
+        "quote": "Proponents argue that the pain endured during the procedure teaches resilience and discipline, with respondents in qualitative studies describing it as a \"schoo"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Enhancing a girl's social standing and eligibility for inclusion in communal events.",
+      "span": {
+        "quote": "enhancing a girl's social standing and eligibility for inclusion in communal events."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

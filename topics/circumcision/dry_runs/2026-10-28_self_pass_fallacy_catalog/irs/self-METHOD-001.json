@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-METHOD-001",
+  "source_text": "This is the procedure for using FALLACIES.md on a real argument. Its purpose is to keep false positives down: a passage is flagged only when every condition for the fallacy can be shown from the words on the page, and every legitimate look-alike has been ruled out.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This is the procedure for using FALLACIES.md on a real argument. Its purpose is to keep false positives down: a passage is flagged only when"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This is the procedure for using FALLACIES.md on a real argument. Its purpose is to keep false positives down: a passage is flagged only when every condition for.",
+      "span": {
+        "quote": "This is the procedure for using FALLACIES.md on a real argument. Its purpose is to keep false positives down: a passage is flagged only when every condition for"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "This is the procedure for using FALLACIES.",
+      "span": {
+        "quote": "This is the procedure for using FALLACIES"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "This is the procedure for using FALLACIES"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0077",
+  "source_text": "Medicinally, the practice is rationalized as a curative intervention for a range of reproductive ailments beyond the core gishiri condition, including amenorrhea (absence of menstruation), pruritus vulvae (vaginal itching), and chronic pelvic pain attributed to vaginal constriction.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medicinally, the practice is rationalized as a curative intervention for a range of reproductive ailments beyond the core gishiri condition,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicinally, the practice is rationalized as a curative intervention for a range of reproductive ailments beyond the core gishiri condition, including amenorrhe.",
+      "span": {
+        "quote": "Medicinally, the practice is rationalized as a curative intervention for a range of reproductive ailments beyond the core gishiri condition, including amenorrhe"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0232",
+  "source_text": "Urinary tract infections (UTIs) in infancy are reduced by up to 90% with neonatal circumcision, but this benefit is less directly applicable to adolescent and adult VMMC; however, lifetime protection persists in high-prevalence environments. [109]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Urinary tract infections (UTIs) in infancy are reduced by up to 90% with neonatal circumcision, but this benefit is less directly applicable"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Urinary tract infections (UTIs) in infancy are reduced by up to 90% with neonatal circumcision, but this benefit is less directly applicable to adolescent and a.",
+      "span": {
+        "quote": "Urinary tract infections (UTIs) in infancy are reduced by up to 90% with neonatal circumcision, but this benefit is less directly applicable to adolescent and a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

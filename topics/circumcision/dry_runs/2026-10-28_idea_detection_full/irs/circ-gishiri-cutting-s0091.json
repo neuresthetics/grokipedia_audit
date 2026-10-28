@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0091",
+  "source_text": "However, these reports lack quantitative data from traditional sources, relying instead on qualitative assertions by Wanzami (barbers) or Ungozoma (attendants) who perform the cut with unsterilized tools.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, these reports lack quantitative data from traditional sources, relying instead on qualitative assertions by Wanzami (barbers) or Un"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, these reports lack quantitative data from traditional sources, relying instead on qualitative assertions by Wanzami (barbers) or Ungozoma (attendants).",
+      "span": {
+        "quote": "However, these reports lack quantitative data from traditional sources, relying instead on qualitative assertions by Wanzami (barbers) or Ungozoma (attendants) "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

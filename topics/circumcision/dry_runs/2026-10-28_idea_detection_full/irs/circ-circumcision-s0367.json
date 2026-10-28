@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-circumcision-s0367",
+  "source_text": "Outside these contexts, WHO does not endorse routine neonatal or infant circumcision, citing insufficient evidence for broader preventive benefits to justify universal application.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Outside these contexts, WHO does not endorse routine neonatal or infant circumcision, citing insufficient evidence for broader preventive be"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Outside these contexts, WHO does not endorse routine neonatal or infant circumcision, citing insufficient evidence for broader preventive benefits to justify un.",
+      "span": {
+        "quote": "Outside these contexts, WHO does not endorse routine neonatal or infant circumcision, citing insufficient evidence for broader preventive benefits to justify un"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Citing insufficient evidence for broader preventive benefits to justify universal.",
+      "span": {
+        "quote": "citing insufficient evidence for broader preventive benefits to justify universal"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "These contexts.",
+      "span": {
+        "quote": "these contexts"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing insufficient evidence for broader preventive benefits to justify universal"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "instantiates",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "these contexts"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

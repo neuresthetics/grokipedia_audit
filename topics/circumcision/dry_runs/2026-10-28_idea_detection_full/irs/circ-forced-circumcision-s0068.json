@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-forced-circumcision-s0068",
+  "source_text": "Psychological evaluations of participants reveal elevated PTSD symptoms, including flashbacks and avoidance behaviors, attributable to the ritual's traumatic elements rather than medical necessity. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological evaluations of participants reveal elevated PTSD symptoms, including flashbacks and avoidance behaviors, attributable to the r"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological evaluations of participants reveal elevated PTSD symptoms, including flashbacks and avoidance behaviors, attributable to the ritual's traumatic el.",
+      "span": {
+        "quote": "Psychological evaluations of participants reveal elevated PTSD symptoms, including flashbacks and avoidance behaviors, attributable to the ritual's traumatic el"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

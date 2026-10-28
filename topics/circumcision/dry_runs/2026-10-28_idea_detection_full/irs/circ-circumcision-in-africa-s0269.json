@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0269",
+  "source_text": "Program incentives, such as sports kits or transport reimbursements, and performance targets\u2014e.g., Kenya's annual goals of over 300,000 circumcisions\u2014can subtly coerce participation, eroding true autonomy amid familial expectations and community campaigns.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Program incentives, such as sports kits or transport reimbursements, and performance targets\u2014e.g., Kenya's annual goals of over 300,000 circ"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Program incentives, such as sports kits or transport reimbursements, and performance targets\u2014e.g., Kenya's annual goals of over 300,000 circumcisions\u2014can subtly.",
+      "span": {
+        "quote": "Program incentives, such as sports kits or transport reimbursements, and performance targets\u2014e.g., Kenya's annual goals of over 300,000 circumcisions\u2014can subtly"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

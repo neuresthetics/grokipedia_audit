@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0099",
+  "source_text": "The American Academy of Pediatrics endorses this discretion, noting that parents integrate religious, ethical, and cultural elements alongside health data to determine suitability, without mandating state override for procedures with documented preventive advantages. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics endorses this discretion, noting that parents integrate religious, ethical, and cultural elements alongsi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Academy of Pediatrics endorses this discretion, noting that parents integrate religious, ethical, and cultural elements alongside health data to de.",
+      "span": {
+        "quote": "The American Academy of Pediatrics endorses this discretion, noting that parents integrate religious, ethical, and cultural elements alongside health data to de"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0213",
+  "source_text": "Practitioners and communities where female genital mutilation (FGM) is prevalent often cite purported benefits rooted in cultural and social beliefs, including enhanced hygiene by removing tissue believed to produce offensive discharge or odors, improved aesthetics for a smoother genital appearance, and preservation of virginity through reduced female sexual desire to curb promiscuity and safeguard family honor. [42]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners and communities where female genital mutilation (FGM) is prevalent often cite purported benefits rooted in cultural and social"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners and communities where female genital mutilation (FGM) is prevalent often cite purported benefits rooted in cultural and social beliefs, including.",
+      "span": {
+        "quote": "Practitioners and communities where female genital mutilation (FGM) is prevalent often cite purported benefits rooted in cultural and social beliefs, including "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0059",
+  "source_text": "Long-term physical consequences encompass chronic gynecological issues, with women subjected to type I FGM/C (clitoridectomy, comprising 66.2% of cases) experiencing dysmenorrhea in 58.2% of instances, recurrent urinary tract infections in 19.6%, and painful intercourse in 29.3%, while type II (excision, 26.3% of cases) shows elevated rates of 67.6%, 44.2%, and 57.1%, respectively, compared to 34.5%, 14.4%, and 12.9% in uncut women (all p < 0.001). [6] [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term physical consequences encompass chronic gynecological issues, with women subjected to type I FGM/C (clitoridectomy, comprising 66."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term physical consequences encompass chronic gynecological issues, with women subjected to type I FGM/C (clitoridectomy, comprising 66.2% of cases) experie.",
+      "span": {
+        "quote": "Long-term physical consequences encompass chronic gynecological issues, with women subjected to type I FGM/C (clitoridectomy, comprising 66.2% of cases) experie"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

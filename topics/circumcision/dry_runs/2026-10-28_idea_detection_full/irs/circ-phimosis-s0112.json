@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0112",
+  "source_text": "The high rate of spontaneous resolution supports conservative management, delaying interventions until after age 3-5 years unless complications arise, as forced retraction risks iatrogenic damage. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The high rate of spontaneous resolution supports conservative management, delaying interventions until after age 3-5 years unless complicati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The high rate of spontaneous resolution supports conservative management, delaying interventions until after age 3-5 years unless complications arise, as forced.",
+      "span": {
+        "quote": "The high rate of spontaneous resolution supports conservative management, delaying interventions until after age 3-5 years unless complications arise, as forced"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

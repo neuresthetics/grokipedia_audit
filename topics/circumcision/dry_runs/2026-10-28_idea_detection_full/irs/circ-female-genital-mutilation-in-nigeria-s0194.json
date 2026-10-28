@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0194",
+  "source_text": "Lifetime complication rates in affected Nigerian populations exceed 10-15%, encompassing urinary tract obstructions, keloid scarring, and dyspareunia, based on cross-sectional analyses of women aged 15-49. [65]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Lifetime complication rates in affected Nigerian populations exceed 10-15%, encompassing urinary tract obstructions, keloid scarring, and dy"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Lifetime complication rates in affected Nigerian populations exceed 10-15%, encompassing urinary tract obstructions, keloid scarring, and dyspareunia, based on.",
+      "span": {
+        "quote": "Lifetime complication rates in affected Nigerian populations exceed 10-15%, encompassing urinary tract obstructions, keloid scarring, and dyspareunia, based on "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

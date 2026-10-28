@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-circumcision-s0331",
+  "source_text": "Penile cancer remains rare (about 1 in 100,000 in developed countries) but occurs three to twenty-two times more often in uncircumcised men, linked to chronic inflammation, poor hygiene, and persistent oncogenic human papillomavirus under the foreskin, according to meta-analyses. [4] [106]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penile cancer remains rare (about 1 in 100,000 in developed countries) but occurs three to twenty-two times more often in uncircumcised men,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penile cancer remains rare (about 1 in 100,000 in developed countries) but occurs three to twenty-two times more often in uncircumcised men, linked to chronic i.",
+      "span": {
+        "quote": "Penile cancer remains rare (about 1 in 100,000 in developed countries) but occurs three to twenty-two times more often in uncircumcised men, linked to chronic i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "According to meta-analyses.",
+      "span": {
+        "quote": "according to meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to chronic inflammation.",
+      "span": {
+        "quote": "linked to chronic inflammation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "according to meta-analyses"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to chronic inflammation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to chronic inflammation",
+          "span": {
+            "quote": "linked to chronic inflammation"
+          }
+        }
+      ]
+    }
+  ]
+}

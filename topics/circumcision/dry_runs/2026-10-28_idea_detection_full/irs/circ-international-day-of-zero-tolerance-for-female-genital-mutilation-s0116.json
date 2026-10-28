@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0116",
+  "source_text": "Wound infections, including sepsis and tetanus, frequently result from unsterilized tools or post-procedure contamination, exacerbated by the genital area's proximity to fecal matter and poor hygiene in traditional settings. [34] [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Wound infections, including sepsis and tetanus, frequently result from unsterilized tools or post-procedure contamination, exacerbated by th"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Wound infections, including sepsis and tetanus, frequently result from unsterilized tools or post-procedure contamination, exacerbated by the genital area's pro.",
+      "span": {
+        "quote": "Wound infections, including sepsis and tetanus, frequently result from unsterilized tools or post-procedure contamination, exacerbated by the genital area's pro"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

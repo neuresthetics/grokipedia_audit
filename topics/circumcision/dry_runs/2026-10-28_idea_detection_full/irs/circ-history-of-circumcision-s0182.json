@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0182",
+  "source_text": "Randomized controlled trials conducted between 2002 and 2005 in South Africa, Kenya, and Uganda demonstrated that voluntary medical male circumcision (VMMC) reduced heterosexual HIV acquisition in men by 51-60%, prompting the World Health Organization (WHO) and Joint United Nations Programme on HIV/AIDS (UNAIDS) to recommend it in 2007 as a key prevention strategy in 14 high-prevalence countries. [85] [86]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized controlled trials conducted between 2002 and 2005 in South Africa, Kenya, and Uganda demonstrated that voluntary medical male cir"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Randomized controlled trials conducted between 2002 and 2005 in South Africa, Kenya, and Uganda demonstrated that voluntary medical male circumcision (VMMC) red.",
+      "span": {
+        "quote": "Randomized controlled trials conducted between 2002 and 2005 in South Africa, Kenya, and Uganda demonstrated that voluntary medical male circumcision (VMMC) red"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "Randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

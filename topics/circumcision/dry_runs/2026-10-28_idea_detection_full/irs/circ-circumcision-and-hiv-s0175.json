@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0175",
+  "source_text": "By October 2023, approximately 35 million men and adolescent boys had undergone VMMC through these initiatives, representing substantial progress toward averting new infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By October 2023, approximately 35 million men and adolescent boys had undergone VMMC through these initiatives, representing substantial pro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By October 2023, approximately 35 million men and adolescent boys had undergone VMMC through these initiatives, representing substantial progress toward avertin.",
+      "span": {
+        "quote": "By October 2023, approximately 35 million men and adolescent boys had undergone VMMC through these initiatives, representing substantial progress toward avertin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

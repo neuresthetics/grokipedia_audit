@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0284",
+  "source_text": "Additional scrutiny highlights selective cultural relativism and misinformation tactics by anti-circumcision activists, who aggressively oppose male procedures while supporting interventions against female genital mutilation (FGM), despite FGM's greater documented harms like urinary issues and childbirth complications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional scrutiny highlights selective cultural relativism and misinformation tactics by anti-circumcision activists, who aggressively opp"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additional scrutiny highlights selective cultural relativism and misinformation tactics by anti-circumcision activists, who aggressively oppose male procedures.",
+      "span": {
+        "quote": "Additional scrutiny highlights selective cultural relativism and misinformation tactics by anti-circumcision activists, who aggressively oppose male procedures "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Activists.",
+      "span": {
+        "quote": "activists"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "activists"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Additional scrutiny "
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activists",
+          "span": {
+            "quote": "activists"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0205",
+  "source_text": "Theologically, Peter's address highlighted God's impartiality in purifying hearts by faith, rendering physical circumcision superfluous for covenant inclusion, a stance echoed in Paul's epistles where he deemed circumcision irrelevant to justification by grace (Galatians 5:6).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Theologically, Peter's address highlighted God's impartiality in purifying hearts by faith, rendering physical circumcision superfluous for"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Theologically, Peter's address highlighted God's impartiality in purifying hearts by faith, rendering physical circumcision superfluous for covenant inclusion,.",
+      "span": {
+        "quote": "Theologically, Peter's address highlighted God's impartiality in purifying hearts by faith, rendering physical circumcision superfluous for covenant inclusion, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

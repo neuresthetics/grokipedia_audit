@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0201",
+  "source_text": "These perspectives highlight tensions between universal human rights framing and contextual relativism, though longitudinal studies confirm sustained harm profiles across procedure types.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These perspectives highlight tensions between universal human rights framing and contextual relativism, though longitudinal studies confirm"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These perspectives highlight tensions between universal human rights framing and contextual relativism, though longitudinal studies confirm sustained harm profi.",
+      "span": {
+        "quote": "These perspectives highlight tensions between universal human rights framing and contextual relativism, though longitudinal studies confirm sustained harm profi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "These perspectives highlight tensions between universal human righ.",
+      "span": {
+        "quote": "These perspectives highlight tensions between universal human righ"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "These perspectives highlight tensions between universal huma"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

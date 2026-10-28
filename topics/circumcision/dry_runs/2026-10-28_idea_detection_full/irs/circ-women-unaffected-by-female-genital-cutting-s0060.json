@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0060",
+  "source_text": "Such rationales underscore a perceived causal link between the procedure and behavioral restraint, integral to kinship structures where uncircumcised women face diminished prospects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such rationales underscore a perceived causal link between the procedure and behavioral restraint, integral to kinship structures where unci"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such rationales underscore a perceived causal link between the procedure and behavioral restraint, integral to kinship structures where uncircumcised women face.",
+      "span": {
+        "quote": "Such rationales underscore a perceived causal link between the procedure and behavioral restraint, integral to kinship structures where uncircumcised women face"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0064",
+  "source_text": "Postoperative pain is typically mild to moderate and well-managed.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Postoperative pain is typically mild to moderate and well-managed."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Postoperative pain is typically mild to moderate and well-managed.",
+      "span": {
+        "quote": "Postoperative pain is typically mild to moderate and well-managed."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

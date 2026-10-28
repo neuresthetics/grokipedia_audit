@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0105",
+  "source_text": "These fistulae often manifest months after the procedure due to poor healing, tissue necrosis, or secondary infection, leading to lifelong incontinence unless surgically repaired, with success rates varying based on fistula size and location.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These fistulae often manifest months after the procedure due to poor healing, tissue necrosis, or secondary infection, leading to lifelong i"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These fistulae often manifest months after the procedure due to poor healing, tissue necrosis, or secondary infection, leading to lifelong incontinence unless s.",
+      "span": {
+        "quote": "These fistulae often manifest months after the procedure due to poor healing, tissue necrosis, or secondary infection, leading to lifelong incontinence unless s"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

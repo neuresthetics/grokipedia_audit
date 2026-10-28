@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0200",
+  "source_text": "Critiques of multicultural relativism argue that elevating cultural traditions above assessments of harm undermines fundamental protections for children, allowing practices like female genital mutilation (FGM) to persist under the pretext of tolerance.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques of multicultural relativism argue that elevating cultural traditions above assessments of harm undermines fundamental protections"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Elevating cultural traditions above assessments of harm undermines fundamental protections for children, allowing practices like female genital mutilation (FGM).",
+      "span": {
+        "quote": "elevating cultural traditions above assessments of harm undermines fundamental protections for children, allowing practices like female genital mutilation (FGM)"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critiques of multicultural relativism.",
+      "span": {
+        "quote": "Critiques of multicultural relativism"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

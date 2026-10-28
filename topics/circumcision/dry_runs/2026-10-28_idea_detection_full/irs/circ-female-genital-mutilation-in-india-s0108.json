@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0108",
+  "source_text": "Chronic urinary and menstrual issues, such as dysuria or dysmenorrhea, may persist from adhesions or altered anatomy, exacerbating infection risks like recurrent urinary tract infections (UTIs), as documented in WHO classifications for Type 1 procedures where even minimal excision alters vulvar function without medical benefit. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Chronic urinary and menstrual issues, such as dysuria or dysmenorrhea, may persist from adhesions or altered anatomy, exacerbating infection"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Chronic urinary and menstrual issues, such as dysuria or dysmenorrhea, may persist from adhesions or altered anatomy, exacerbating infection risks like recurren.",
+      "span": {
+        "quote": "Chronic urinary and menstrual issues, such as dysuria or dysmenorrhea, may persist from adhesions or altered anatomy, exacerbating infection risks like recurren"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

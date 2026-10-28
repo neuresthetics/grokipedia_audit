@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0116",
+  "source_text": "Immediate bleeding or swelling occurs infrequently and resolves spontaneously, and no associations with chronic conditions emerge, aligning with the minimal tissue disruption.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate bleeding or swelling occurs infrequently and resolves spontaneously, and no associations with chronic conditions emerge, aligning"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate bleeding or swelling occurs infrequently and resolves spontaneously, and no associations with chronic conditions emerge, aligning with the minimal tis.",
+      "span": {
+        "quote": "Immediate bleeding or swelling occurs infrequently and resolves spontaneously, and no associations with chronic conditions emerge, aligning with the minimal tis"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

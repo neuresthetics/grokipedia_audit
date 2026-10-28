@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0010",
+  "source_text": "Overall, the discourse underscores a causal prioritization of verifiable harms and benefits, with empirical data suggesting benefits are context-specific and often marginal, prompting first-principles reevaluation of deferring permanent alterations to maturity. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, the discourse underscores a causal prioritization of verifiable harms and benefits, with empirical data suggesting benefits are con"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, the discourse underscores a causal prioritization of verifiable harms and benefits, with empirical data suggesting benefits are context-specific and of.",
+      "span": {
+        "quote": "Overall, the discourse underscores a causal prioritization of verifiable harms and benefits, with empirical data suggesting benefits are context-specific and of"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

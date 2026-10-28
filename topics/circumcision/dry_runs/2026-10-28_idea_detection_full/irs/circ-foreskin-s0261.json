@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-foreskin-s0261",
+  "source_text": "Legal and ethical analyses assert that no tradition or anticipated benefit justifies excising healthy tissue from a minor absent an urgent therapeutic indication, as this contravenes international standards on child protection from harm. [149]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legal and ethical analyses assert that no tradition or anticipated benefit justifies excising healthy tissue from a minor absent an urgent t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No tradition or anticipated benefit justifies excising healthy tissue from a minor absent an urgent therapeutic indication, as this contravenes international st.",
+      "span": {
+        "quote": "no tradition or anticipated benefit justifies excising healthy tissue from a minor absent an urgent therapeutic indication, as this contravenes international st"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Legal and ethical analyses.",
+      "span": {
+        "quote": "Legal and ethical analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

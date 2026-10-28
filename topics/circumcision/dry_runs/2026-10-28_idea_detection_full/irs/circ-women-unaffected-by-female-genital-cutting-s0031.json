@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0031",
+  "source_text": "Empirical challenges to the mutilation frame emerge from studies isolating procedure effects from stigma: a 2023 analysis of 638 Somali women (predominantly Type I/II) in the US revealed FGC status unrelated to gynecologic issues (16.6% prevalence) or distress (20%), but discrimination experiences correlated with 5-fold higher odds of mental health problems (OR=5.11). [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical challenges to the mutilation frame emerge from studies isolating procedure effects from stigma: a 2023 analysis of 638 Somali wome"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical challenges to the mutilation frame emerge from studies isolating procedure effects from stigma: a 2023 analysis of 638 Somali women (predominantly Typ.",
+      "span": {
+        "quote": "Empirical challenges to the mutilation frame emerge from studies isolating procedure effects from stigma: a 2023 analysis of 638 Somali women (predominantly Typ"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

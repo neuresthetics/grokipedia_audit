@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0008",
+  "source_text": "Medically, subincision alters urinary flow, often causing spraying or diversion, and exposes the urethral mucosa, leading to recurrent bleeding and heightened vulnerability to infections and sexually transmitted diseases due to the permanent opening. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medically, subincision alters urinary flow, often causing spraying or diversion, and exposes the urethral mucosa, leading to recurrent bleed"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medically, subincision alters urinary flow, often causing spraying or diversion, and exposes the urethral mucosa, leading to recurrent bleeding and heightened v.",
+      "span": {
+        "quote": "Medically, subincision alters urinary flow, often causing spraying or diversion, and exposes the urethral mucosa, leading to recurrent bleeding and heightened v"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

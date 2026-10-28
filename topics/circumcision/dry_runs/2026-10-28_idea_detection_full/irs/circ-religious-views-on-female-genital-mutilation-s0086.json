@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0086",
+  "source_text": "Within Sunni Islam, endorsement of female genital mutilation varies by jurisprudential school, with higher support in traditions following the Shafi'i and Maliki schools, where it is often classified as recommended or obligatory, compared to the Hanafi school, which views it as honorable but not mandatory.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Within Sunni Islam, endorsement of female genital mutilation varies by jurisprudential school, with higher support in traditions following t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Within Sunni Islam, endorsement of female genital mutilation varies by jurisprudential school, with higher support in traditions following the Shafi'i and Malik.",
+      "span": {
+        "quote": "Within Sunni Islam, endorsement of female genital mutilation varies by jurisprudential school, with higher support in traditions following the Shafi'i and Malik"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

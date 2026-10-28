@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0102",
+  "source_text": "The core doctrine of ahimsa (non-violence or non-harm) prioritizes avoiding unnecessary injury, which some interpretations extend to critiquing non-therapeutic circumcision; for instance, efforts to promote voluntary medical male circumcision in Thailand during the 2000s encountered resistance on grounds of conflicting with indigenous Buddhist ethical norms against bodily harm without compelling medical justification. [60]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The core doctrine of ahimsa (non-violence or non-harm) prioritizes avoiding unnecessary injury, which some interpretations extend to critiqu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The core doctrine of ahimsa (non-violence or non-harm) prioritizes avoiding unnecessary injury, which some interpretations extend to critiquing non-therapeutic.",
+      "span": {
+        "quote": "The core doctrine of ahimsa (non-violence or non-harm) prioritizes avoiding unnecessary injury, which some interpretations extend to critiquing non-therapeutic "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

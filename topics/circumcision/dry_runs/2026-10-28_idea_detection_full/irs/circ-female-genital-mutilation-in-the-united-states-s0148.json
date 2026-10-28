@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0148",
+  "source_text": "In the United States, where FGM persists among certain immigrant groups, these risks are exacerbated in clandestine home settings lacking hygiene protocols, leading to documented cases of severe infections requiring hospitalization. [25] [66]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States, where FGM persists among certain immigrant groups, these risks are exacerbated in clandestine home settings lacking hy"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the United States, where FGM persists among certain immigrant groups, these risks are exacerbated in clandestine home settings lacking hygiene protocols, lea.",
+      "span": {
+        "quote": "In the United States, where FGM persists among certain immigrant groups, these risks are exacerbated in clandestine home settings lacking hygiene protocols, lea"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

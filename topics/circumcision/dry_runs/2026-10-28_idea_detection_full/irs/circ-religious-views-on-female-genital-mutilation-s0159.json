@@ -1,0 +1,103 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0159",
+  "source_text": "Beliefs hold that the procedure curbs excessive sexual desire, thereby ensuring marital fidelity and appeasing deities tied to reproduction and lineage continuity; for instance, uncut females are viewed as susceptible to malevolent spirits that could disrupt communal harmony or agricultural yields linked to fertility cults. [81] [82]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Beliefs hold that the procedure curbs excessive sexual desire, thereby ensuring marital fidelity and appeasing deities tied to reproduction"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Beliefs hold that the procedure curbs excessive sexual desire.",
+      "span": {
+        "quote": "Beliefs hold that the procedure curbs excessive sexual desire"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Ensuring marital fidelity and appeasing deities tied to reproduction and lineage continuity; for instance, uncut females are viewed as susceptible to malevolent.",
+      "span": {
+        "quote": "ensuring marital fidelity and appeasing deities tied to reproduction and lineage continuity; for instance, uncut females are viewed as susceptible to malevolent"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Tied to reproduction and lineage continuity.",
+      "span": {
+        "quote": "tied to reproduction and lineage continuity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "linked to"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "tied to reproduction and lineage continuity"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to reproduction and lineage continuity",
+          "span": {
+            "quote": "tied to reproduction and lineage continuity"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0051",
+  "source_text": "For HSV-2, randomized controlled trials as secondary outcomes report 25-34% risk reductions, attributable to similar mucosal protection.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For HSV-2, randomized controlled trials as secondary outcomes report 25-34% risk reductions, attributable to similar mucosal protection."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For HSV-2, randomized controlled trials as secondary outcomes report 25-34% risk reductions, attributable to similar mucosal protection.",
+      "span": {
+        "quote": "For HSV-2, randomized controlled trials as secondary outcomes report 25-34% risk reductions, attributable to similar mucosal protection."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

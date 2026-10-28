@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0111",
+  "source_text": "Long-term sequelae also include dermatological issues from perpetual moisture, such as perineal excoriation and ulceration, alongside heightened obstetric risks in subsequent pregnancies, including obstructed labor due to scar tissue distortion. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term sequelae also include dermatological issues from perpetual moisture, such as perineal excoriation and ulceration, alongside height"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term sequelae also include dermatological issues from perpetual moisture, such as perineal excoriation and ulceration, alongside heightened obstetric risks.",
+      "span": {
+        "quote": "Long-term sequelae also include dermatological issues from perpetual moisture, such as perineal excoriation and ulceration, alongside heightened obstetric risks"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

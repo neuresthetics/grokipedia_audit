@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0126",
+  "source_text": "These views, echoed in broader human rights discourse, invoked relativism to argue that Western universalism overlooks context-specific meanings, potentially exacerbating community alienation in multicultural settings like the UK.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These views, echoed in broader human rights discourse, invoked relativism to argue that Western universalism overlooks context-specific mean"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These views, echoed in broader human rights discourse, invoked relativism.",
+      "span": {
+        "quote": "These views, echoed in broader human rights discourse, invoked relativism"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Western universalism overlooks context-specific meanings, potentially exacerbating community alienation in multicultural settings like the UK.",
+      "span": {
+        "quote": "Western universalism overlooks context-specific meanings, potentially exacerbating community alienation in multicultural settings like the UK."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "These views, echoed in broader human rights discourse, invoked relativism to arg"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

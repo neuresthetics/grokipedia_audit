@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-010",
+  "source_text": "Design, schema, and the extractor contract: idea_detection/IDEA_LEVEL_DETECTION.md, idea_detection/idea_ir.schema.json, idea_detection/EXTRACTOR_PROMPT.md.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Design, schema, and the extractor contract: idea_detection/IDEA_LEVEL_DETECTION.md, idea_detection/idea_ir.schema.json, idea_detection/EXTRA"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Design, schema, and the extractor contract: idea_detection/IDEA_LEVEL_DETECTION.md, idea_detection/idea_ir.schema.json, idea_detection/EXTRACTOR_PROMPT.md.",
+      "span": {
+        "quote": "Design, schema, and the extractor contract: idea_detection/IDEA_LEVEL_DETECTION.md, idea_detection/idea_ir.schema.json, idea_detection/EXTRACTOR_PROMPT.md."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

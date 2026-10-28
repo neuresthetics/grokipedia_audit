@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0247",
+  "source_text": "Non-surgical approaches, including topical steroids, demonstrate sustained foreskin retractability in up to 81% of cases at 24-month follow-up, avoiding surgical risks. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Non-surgical approaches, including topical steroids, demonstrate sustained foreskin retractability in up to 81% of cases at 24-month follow-"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-surgical approaches, including topical steroids, demonstrate sustained foreskin retractability in up to 81% of cases at 24-month follow-up, avoiding surgica.",
+      "span": {
+        "quote": "Non-surgical approaches, including topical steroids, demonstrate sustained foreskin retractability in up to 81% of cases at 24-month follow-up, avoiding surgica"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

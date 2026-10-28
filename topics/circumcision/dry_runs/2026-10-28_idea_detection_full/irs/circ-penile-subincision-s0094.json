@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0094",
+  "source_text": "Ethnographic accounts indicate that this process integrates the initiate into the patrilineal kinship network, enhancing interpersonal trust and cooperative bonds through demonstrated commitment to group norms via costly signaling.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethnographic accounts indicate that this process integrates the initiate into the patrilineal kinship network, enhancing interpersonal trust"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethnographic accounts indicate that this process integrates the initiate into the patrilineal kinship network, enhancing interpersonal trust and cooperative bon.",
+      "span": {
+        "quote": "Ethnographic accounts indicate that this process integrates the initiate into the patrilineal kinship network, enhancing interpersonal trust and cooperative bon"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

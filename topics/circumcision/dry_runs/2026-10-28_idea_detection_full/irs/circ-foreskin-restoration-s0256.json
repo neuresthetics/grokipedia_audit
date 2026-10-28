@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0256",
+  "source_text": "Ethical debates surrounding foreskin restoration often center on its role as a remedial response to non-therapeutic circumcision, particularly infant male circumcision (IMC), which critics argue constitutes a violation of bodily autonomy and informed consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical debates surrounding foreskin restoration often center on its role as a remedial response to non-therapeutic circumcision, particular"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Constitutes a violation of bodily autonomy and informed consent.",
+      "span": {
+        "quote": "constitutes a violation of bodily autonomy and informed consent."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Debates surrounding foreskin restoration often center on its role as a remedial response to non-therapeutic circumcision, particularly infant male circumcision.",
+      "span": {
+        "quote": "debates surrounding foreskin restoration often center on its role as a remedial response to non-therapeutic circumcision, particularly infant male circumcision "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

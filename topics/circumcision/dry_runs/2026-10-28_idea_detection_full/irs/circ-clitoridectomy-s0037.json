@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0037",
+  "source_text": "Contemporaries like Rufus of Ephesus (circa 100 CE) echoed this rationale, prescribing removal for analogous conditions in female patients, framing it as a corrective measure grounded in humoral pathology rather than ritual. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Contemporaries like Rufus of Ephesus (circa 100 CE) echoed this rationale, prescribing removal for analogous conditions in female patients,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Contemporaries like Rufus of Ephesus (circa 100 CE) echoed this rationale, prescribing removal for analogous conditions in female patients, framing it as a corr.",
+      "span": {
+        "quote": "Contemporaries like Rufus of Ephesus (circa 100 CE) echoed this rationale, prescribing removal for analogous conditions in female patients, framing it as a corr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

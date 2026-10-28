@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0197",
+  "source_text": "International and national campaigns by WHO, UNICEF, and UNFPA since 1997 have promoted evidence-based alternatives, such as skilled antenatal monitoring, timely hospital referrals, and cesarean sections for obstructed labor, reducing reliance on traditional methods by demonstrating superior outcomes in preventing fistulas without invasive vaginal scarring. [56] [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "International and national campaigns by WHO, UNICEF, and UNFPA since 1997 have promoted evidence-based alternatives, such as skilled antenat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "International and national campaigns by WHO, UNICEF, and UNFPA.",
+      "span": {
+        "quote": "International and national campaigns by WHO, UNICEF, and UNFPA"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "1997 have promoted evidence-based alternatives, such as skilled antenatal monitoring, timely hospital referrals, and cesarean sections for obstructed labor, red.",
+      "span": {
+        "quote": "1997 have promoted evidence-based alternatives, such as skilled antenatal monitoring, timely hospital referrals, and cesarean sections for obstructed labor, red"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 1997 have promoted evidence-based alternatives, such as skil"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

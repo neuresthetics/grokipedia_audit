@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0029",
+  "source_text": "This distinction arises from ethical concerns over neonatal circumcision's medical risks, including pain, infection (occurring in 0.2-0.6% of cases per CDC data), and potential long-term effects on sexual function, which proponents of Brit Shalom cite as justification for an alternative.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This distinction arises from ethical concerns over neonatal circumcision's medical risks, including pain, infection (occurring in 0.2-0.6% o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This distinction arises from ethical concerns over neonatal circumcision's medical risks, including pain, infection (occurring in 0.2-0.6% of cases per CDC data.",
+      "span": {
+        "quote": "This distinction arises from ethical concerns over neonatal circumcision's medical risks, including pain, infection (occurring in 0.2-0.6% of cases per CDC data"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per CDC data.",
+      "span": {
+        "quote": "per CDC data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per CDC data"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

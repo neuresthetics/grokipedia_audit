@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0046",
+  "source_text": "In Scandinavian countries and the UK, preferences lean toward the foreskin as contributing to a complete, less invasive visual profile, aligning with broader continental sentiments that affirm uncircumcised aesthetics as normative and proportionate.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Scandinavian countries and the UK, preferences lean toward the foreskin as contributing to a complete, less invasive visual profile, alig"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Scandinavian countries and the UK, preferences lean toward the foreskin as contributing to a complete, less invasive visual profile, aligning with broader co.",
+      "span": {
+        "quote": "In Scandinavian countries and the UK, preferences lean toward the foreskin as contributing to a complete, less invasive visual profile, aligning with broader co"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0183",
+  "source_text": "Critics, however, contended that equating the two overlooks profound empirical differences in scope, intent, and consequences, potentially undermining targeted efforts against FGM's severe harms. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics, however, contended that equating the two overlooks profound empirical differences in scope, intent, and consequences, potentially u"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Equating the two overlooks profound empirical differences in scope, intent, and consequences, potentially undermining targeted efforts against FGM's severe harm.",
+      "span": {
+        "quote": "equating the two overlooks profound empirical differences in scope, intent, and consequences, potentially undermining targeted efforts against FGM's severe harm"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

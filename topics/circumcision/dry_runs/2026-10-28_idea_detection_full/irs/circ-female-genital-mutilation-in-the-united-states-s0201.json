@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0201",
+  "source_text": "Proponents of relativism often frame FGM as a private cultural rite, such as informal \"cutting ceremonies\" conducted in immigrant enclaves, thereby excusing non-consensual procedures on minors as beyond external judgment. [88] [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of relativism often frame FGM as a private cultural rite, such as informal \"cutting ceremonies\" conducted in immigrant enclaves,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents of relativism often frame FGM as a private cultural rite, such as informal \"cutting ceremonies\" conducted in immigrant enclaves.",
+      "span": {
+        "quote": "Proponents of relativism often frame FGM as a private cultural rite, such as informal \"cutting ceremonies\" conducted in immigrant enclaves"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Excusing non-consensual procedures on minors as beyond external judgment. [88] [89].",
+      "span": {
+        "quote": "excusing non-consensual procedures on minors as beyond external judgment. [88] [89]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

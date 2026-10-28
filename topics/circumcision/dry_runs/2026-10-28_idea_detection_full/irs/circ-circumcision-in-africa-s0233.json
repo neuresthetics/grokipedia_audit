@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0233",
+  "source_text": "These advantages contribute to the overall public health rationale for VMMC, enhancing cost-effectiveness models that incorporate averted STI and cancer cases alongside HIV prevention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These advantages contribute to the overall public health rationale for VMMC, enhancing cost-effectiveness models that incorporate averted ST"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These advantages contribute to the overall public health rationale for VMMC, enhancing cost-effectiveness models that incorporate averted STI and cancer cases a.",
+      "span": {
+        "quote": "These advantages contribute to the overall public health rationale for VMMC, enhancing cost-effectiveness models that incorporate averted STI and cancer cases a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0130",
+  "source_text": "The BMA requires dual parental consent where feasible and highlights legal risks under child protection frameworks, but detractors argue this stance selectively discounts global epidemiological data on penile cancer prevention and sexually transmitted infection mitigation, potentially biasing toward cultural contexts with low disease prevalence. [82]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The BMA requires dual parental consent where feasible and highlights legal risks under child protection frameworks, but detractors argue thi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is stance selectively discounts global epidemiological data on penile cancer prevention and sexually transmitted infection mitigation, potentially biasing towar.",
+      "span": {
+        "quote": "is stance selectively discounts global epidemiological data on penile cancer prevention and sexually transmitted infection mitigation, potentially biasing towar"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The BMA requires dual parental consent where feasible and highlights legal risks under child protection frameworks, but detractors.",
+      "span": {
+        "quote": "The BMA requires dual parental consent where feasible and highlights legal risks under child protection frameworks, but detractors"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0217",
+  "source_text": "In high-risk groups, circumcised men experience fewer genital ulcers\u2014a HIV transmission cofactor\u2014providing indirect benefits to partners via reduced viral reservoirs. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high-risk groups, circumcised men experience fewer genital ulcers\u2014a HIV transmission cofactor\u2014providing indirect benefits to partners via"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high-risk groups, circumcised men experience fewer genital ulcers\u2014a HIV transmission cofactor\u2014providing indirect benefits to partners via reduced viral reser.",
+      "span": {
+        "quote": "In high-risk groups, circumcised men experience fewer genital ulcers\u2014a HIV transmission cofactor\u2014providing indirect benefits to partners via reduced viral reser"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

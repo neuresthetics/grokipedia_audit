@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-s0270",
+  "source_text": "Surgical advancements and institutional policies drove this, though evidence for broad necessity was limited, with critics citing cultural momentum over data. [162]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Surgical advancements and institutional policies drove this, though evidence for broad necessity was limited, with critics citing cultural m"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Surgical advancements and institutional policies drove this, though evidence for broad necessity was limited, with critics citing cultural momentum over data. [.",
+      "span": {
+        "quote": "Surgical advancements and institutional policies drove this, though evidence for broad necessity was limited, with critics citing cultural momentum over data. ["
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing cultural momentum over data.",
+      "span": {
+        "quote": "citing cultural momentum over data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing cultural momentum over data"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

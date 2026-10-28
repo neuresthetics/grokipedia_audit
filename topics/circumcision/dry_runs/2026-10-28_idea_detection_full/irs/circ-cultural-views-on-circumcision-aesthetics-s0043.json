@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0043",
+  "source_text": "Similarly, in Germany, cultural norms render non-therapeutic circumcision rare among the general population, prioritizing the intact state as standard and opposing interventions seen as imposing artificial modifications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, in Germany, cultural norms render non-therapeutic circumcision rare among the general population, prioritizing the intact state a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, in Germany, cultural norms render non-therapeutic circumcision rare among the general population, prioritizing the intact state as standard and oppos.",
+      "span": {
+        "quote": "Similarly, in Germany, cultural norms render non-therapeutic circumcision rare among the general population, prioritizing the intact state as standard and oppos"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

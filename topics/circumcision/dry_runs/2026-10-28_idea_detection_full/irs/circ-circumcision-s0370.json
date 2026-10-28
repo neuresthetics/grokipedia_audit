@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-circumcision-s0370",
+  "source_text": "The Centers for Disease Control and Prevention (CDC) advises informing uncircumcised males and parents of benefits, including 50-60% HIV risk reduction from the same trials, plus lower risks for herpes simplex virus type 2 and human papillomavirus.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Centers for Disease Control and Prevention (CDC) advises informing uncircumcised males and parents of benefits, including 50-60% HIV ris"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Centers for Disease Control and Prevention (CDC) advises informing uncircumcised males and parents of benefits, including 50-60% HIV risk reduction from the.",
+      "span": {
+        "quote": "The Centers for Disease Control and Prevention (CDC) advises informing uncircumcised males and parents of benefits, including 50-60% HIV risk reduction from the"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

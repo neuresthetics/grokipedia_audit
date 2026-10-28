@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0070",
+  "source_text": "No formal certification or oversight governs these practitioners, who operate within a framework of customary medicine where efficacy is gauged by anecdotal cultural beliefs rather than clinical validation. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No formal certification or oversight governs these practitioners, who operate within a framework of customary medicine where efficacy is gau"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No formal certification or oversight governs these practitioners, who operate within a framework of customary medicine where efficacy is gauged by anecdotal cul.",
+      "span": {
+        "quote": "No formal certification or oversight governs these practitioners, who operate within a framework of customary medicine where efficacy is gauged by anecdotal cul"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0082",
+  "source_text": "In circumcision ethics, this permits interventions if they align with preventing greater harms, yet critics argue the procedure exceeds this threshold by removing functional tissue without imminent medical necessity, prioritizing future autonomy over immediate parental discretion. [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In circumcision ethics, this permits interventions if they align with preventing greater harms, yet critics argue the procedure exceeds this"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure exceeds this threshold by removing functional tissue without imminent medical necessity, prioritizing future autonomy over immediate parental discre.",
+      "span": {
+        "quote": "e procedure exceeds this threshold by removing functional tissue without imminent medical necessity, prioritizing future autonomy over immediate parental discre"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In circumcision ethics, this permits interventions if they align with preventing greater harms, yet critics.",
+      "span": {
+        "quote": "In circumcision ethics, this permits interventions if they align with preventing greater harms, yet critics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

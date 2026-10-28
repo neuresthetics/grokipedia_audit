@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-clitoridectomy-s0181",
+  "source_text": "Another common rationale is the reduction of female sexual desire to curb promiscuity, ensure premarital virginity, and foster marital fidelity, with the clitoris viewed as a source of excessive arousal that could lead to infidelity or social dishonor. [85] [87]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Another common rationale is the reduction of female sexual desire to curb promiscuity, ensure premarital virginity, and foster marital fidel"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Another common rationale is the reduction of female sexual desire to curb promiscuity, ensure premarital virginity, and foster marital fidelity, with the clitor.",
+      "span": {
+        "quote": "Another common rationale is the reduction of female sexual desire to curb promiscuity, ensure premarital virginity, and foster marital fidelity, with the clitor"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

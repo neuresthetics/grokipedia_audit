@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0121",
+  "source_text": "Pope Francis of the Roman Catholic Church has repeatedly condemned FGM as an affront to human dignity and a violation of women's rights, describing it in 2022 as a practice that must be eradicated due to its harmful effects on the female body, which Catholic doctrine regards as a temple of the Holy Spirit. [68]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pope Francis of the Roman Catholic Church has repeatedly condemned FGM as an affront to human dignity and a violation of women's rights, des"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pope Francis of the Roman Catholic Church has repeatedly condemned FGM as an affront to human dignity and a violation of women's rights, describing it in 2022 a.",
+      "span": {
+        "quote": "Pope Francis of the Roman Catholic Church has repeatedly condemned FGM as an affront to human dignity and a violation of women's rights, describing it in 2022 a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "An affront to human dignity and a violation of women's rights.",
+      "span": {
+        "quote": "an affront to human dignity and a violation of women's rights"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "an affront to human dignity and a violation of women's right"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

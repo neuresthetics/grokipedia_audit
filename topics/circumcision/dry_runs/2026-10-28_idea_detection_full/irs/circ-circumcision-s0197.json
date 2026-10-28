@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0197",
+  "source_text": "This aligns with broader QST evidence confirming undiminished thresholds. [117]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This aligns with broader QST evidence confirming undiminished thresholds. [117]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This aligns with broader QST evidence confirming undiminished thresholds. [117].",
+      "span": {
+        "quote": "This aligns with broader QST evidence confirming undiminished thresholds. [117]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

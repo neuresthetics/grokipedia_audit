@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0193",
+  "source_text": "The American College of Obstetricians and Gynecologists (ACOG) maintains a firm stance against all forms of FGM/C, defining it as procedures involving partial or total removal of external female genitalia or other injury for non-medical reasons, with no health benefits and significant risks including infection, hemorrhage, and psychological trauma. [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American College of Obstetricians and Gynecologists (ACOG) maintains a firm stance against all forms of FGM/C, defining it as procedures"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Firm stance against all forms of FGM/C, defining it as procedures involving partial or total removal of external female genitalia or other injury for non-medica.",
+      "span": {
+        "quote": "firm stance against all forms of FGM/C, defining it as procedures involving partial or total removal of external female genitalia or other injury for non-medica"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American College of Obstetricians and Gynecologists (ACOG).",
+      "span": {
+        "quote": "The American College of Obstetricians and Gynecologists (ACOG)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "A firm stance against all forms of FGM/C.",
+      "span": {
+        "quote": "a firm stance against all forms of FGM/C"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintains"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "a firm stance against all forms of FGM/C"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

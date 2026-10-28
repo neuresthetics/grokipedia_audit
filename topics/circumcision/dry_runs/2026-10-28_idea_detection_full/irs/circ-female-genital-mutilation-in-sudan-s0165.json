@@ -1,0 +1,70 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0165",
+  "source_text": "In Sudanese communities practicing female genital mutilation (FGM), proponents often assert benefits such as enhanced hygiene through removal of external genitalia, which they claim reduces odor and infection risks, and diminished sexual desire to curb promiscuity and preserve family honor. [35] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Sudanese communities practicing female genital mutilation (FGM), proponents often assert benefits such as enhanced hygiene through remova"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Benefits such as enhanced hygiene through removal of external genitalia, which they claim reduces odor and infection risks, and diminished sexual desire to curb.",
+      "span": {
+        "quote": "benefits such as enhanced hygiene through removal of external genitalia, which they claim reduces odor and infection risks, and diminished sexual desire to curb"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "In Sudanese communities practicing female genital mutilation (FGM), proponents often.",
+      "span": {
+        "quote": "In Sudanese communities practicing female genital mutilation (FGM), proponents often"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "reduces"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

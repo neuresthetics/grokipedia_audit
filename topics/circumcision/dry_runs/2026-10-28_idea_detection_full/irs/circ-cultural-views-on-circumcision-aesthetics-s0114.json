@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0114",
+  "source_text": "In Europe, where routine circumcision is rare, intact pride initiatives within intactivist communities emphasize the natural form's aesthetic and functional integrity, countering external pressures for alteration and promoting self-acceptance among uncircumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Europe, where routine circumcision is rare, intact pride initiatives within intactivist communities emphasize the natural form's aestheti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "intactivists"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E natural form's aesthetic and functional integrity, countering external pressures for alteration and promoting self-acceptance among uncircumcised men.",
+      "span": {
+        "quote": "e natural form's aesthetic and functional integrity, countering external pressures for alteration and promoting self-acceptance among uncircumcised men."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In Europe, where routine circumcision is rare, intact pride initiatives within intactivist communities.",
+      "span": {
+        "quote": "In Europe, where routine circumcision is rare, intact pride initiatives within intactivist communities"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0104",
+  "source_text": "Early Church Fathers extended this scriptural silence by explicitly opposing voluntary bodily mutilations, viewing them as violations of the body's divine creation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Early Church Fathers extended this scriptural silence by explicitly opposing voluntary bodily mutilations, viewing them as violations of the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Early Church Fathers extended this scriptural silence by explicitly opposing voluntary bodily mutilations, viewing them as violations of the body's divine creat.",
+      "span": {
+        "quote": "Early Church Fathers extended this scriptural silence by explicitly opposing voluntary bodily mutilations, viewing them as violations of the body's divine creat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

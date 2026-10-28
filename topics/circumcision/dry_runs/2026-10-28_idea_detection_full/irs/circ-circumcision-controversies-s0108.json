@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0108",
+  "source_text": "Adult foreskin restoration procedures, intended as reversals, yield inconsistent functional outcomes with potential complications like scarring or sensory deficits, and demand remains negligible\u2014less than 1% of circumcised men pursue non-therapeutic reversals\u2014suggesting widespread acceptance rather than latent dissatisfaction. [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adult foreskin restoration procedures, intended as reversals, yield inconsistent functional outcomes with potential complications like scarr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adult foreskin restoration procedures, intended as reversals, yield inconsistent functional outcomes with potential complications like scarring or sensory defic.",
+      "span": {
+        "quote": "Adult foreskin restoration procedures, intended as reversals, yield inconsistent functional outcomes with potential complications like scarring or sensory defic"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

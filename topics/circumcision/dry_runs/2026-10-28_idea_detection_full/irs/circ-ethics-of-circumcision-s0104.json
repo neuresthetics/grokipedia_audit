@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0104",
+  "source_text": "Systematic reviews of infant circumcision corroborate net preventive utility against urinary tract infections (reducing risk by up to 90% in the first year), balanitis, and invasive penile cancer (lifetime risk lowered 3- to 22-fold), with procedure-related adverse events occurring in 0.2-0.6% of cases, mostly resolving without sequelae. [2] [66]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews of infant circumcision corroborate net preventive utility against urinary tract infections (reducing risk by up to 90% in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews of infant circumcision corroborate net preventive utility against urinary tract infections (reducing risk by up to 90% in the first year), ba.",
+      "span": {
+        "quote": "Systematic reviews of infant circumcision corroborate net preventive utility against urinary tract infections (reducing risk by up to 90% in the first year), ba"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

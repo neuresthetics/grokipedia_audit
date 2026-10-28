@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0087",
+  "source_text": "A study of 137 women with various FGC types in Italy found that 86% experienced orgasm, with 69% reporting it consistently, attributing pleasure to internal clitoral structures remaining intact post-cutting. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A study of 137 women with various FGC types in Italy found that 86% experienced orgasm, with 69% reporting it consistently, attributing plea"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A study of 137 women with various FGC types in Italy found that 86% experienced orgasm, with 69% reporting it consistently, attributing pleasure to internal cli.",
+      "span": {
+        "quote": "A study of 137 women with various FGC types in Italy found that 86% experienced orgasm, with 69% reporting it consistently, attributing pleasure to internal cli"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

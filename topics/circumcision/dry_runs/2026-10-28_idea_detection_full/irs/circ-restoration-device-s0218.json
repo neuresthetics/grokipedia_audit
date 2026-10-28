@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-restoration-device-s0218",
+  "source_text": "A central contention involves irreplaceable structures removed by circumcision, such as the ridged band\u2014a circumferential band of innervated, vascularized tissue at the foreskin's distal edge responsible for fine-touch mechanoreception\u2014and the frenulum, which anchors the foreskin and contributes to erectile function. [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A central contention involves irreplaceable structures removed by circumcision, such as the ridged band\u2014a circumferential band of innervated"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A central contention involves irreplaceable structures removed by circumcision, such as the ridged band\u2014a circumferential band of innervated, vascularized tissu.",
+      "span": {
+        "quote": "A central contention involves irreplaceable structures removed by circumcision, such as the ridged band\u2014a circumferential band of innervated, vascularized tissu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

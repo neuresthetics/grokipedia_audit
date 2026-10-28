@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0125",
+  "source_text": "A retrospective analysis of 80 cases of vesicovaginal fistula (VVF) in children under 13 years old in northern Nigeria identified 12 instances (15%) directly resulting from gishiri cutting, where incisions into the anterior vaginal wall inadvertently damaged the bladder or urethra. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A retrospective analysis of 80 cases of vesicovaginal fistula (VVF) in children under 13 years old in northern Nigeria identified 12 instanc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A retrospective analysis of 80 cases of vesicovaginal fistula (VVF) in children under 13 years old in northern Nigeria identified 12 instances (15%) directly re.",
+      "span": {
+        "quote": "A retrospective analysis of 80 cases of vesicovaginal fistula (VVF) in children under 13 years old in northern Nigeria identified 12 instances (15%) directly re"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

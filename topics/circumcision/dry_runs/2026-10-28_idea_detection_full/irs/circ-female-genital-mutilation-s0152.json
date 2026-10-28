@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0152",
+  "source_text": "Protestant and Catholic leaders in sub-Saharan Africa, including the Anglican Communion's 2008 resolution, reject any religious basis, attributing persistence to syncretic folk beliefs rather than doctrine.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Protestant and Catholic leaders in sub-Saharan Africa, including the Anglican Communion's 2008 resolution, reject any religious basis, attri"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Protestant and Catholic leaders in sub-Saharan Africa, including the Anglican Communion's 2008 resolution, reject any religious basis, attributing persistence t.",
+      "span": {
+        "quote": "Protestant and Catholic leaders in sub-Saharan Africa, including the Anglican Communion's 2008 resolution, reject any religious basis, attributing persistence t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

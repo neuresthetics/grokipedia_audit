@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0134",
+  "source_text": "In Kenya, a study of rural adolescents found 35% of traditionally circumcised boys experienced moderate to severe complications, compared to 18% in clinic-based procedures, attributed to unsterile conditions and lack of anesthesia. [50] [53]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Kenya, a study of rural adolescents found 35% of traditionally circumcised boys experienced moderate to severe complications, compared to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Kenya, a study of rural adolescents found 35% of traditionally circumcised boys experienced moderate to severe complications, compared to 18% in clinic-based.",
+      "span": {
+        "quote": "In Kenya, a study of rural adolescents found 35% of traditionally circumcised boys experienced moderate to severe complications, compared to 18% in clinic-based"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

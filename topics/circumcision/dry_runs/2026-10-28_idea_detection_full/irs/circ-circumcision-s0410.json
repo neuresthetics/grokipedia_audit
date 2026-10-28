@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0410",
+  "source_text": "This view holds that the procedure breaches core medical ethics principles of autonomy, non-maleficence, and beneficence, as it involves irreversible genital alteration with risks like infection or reduced sensitivity, absent immediate medical need. [230]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This view holds that the procedure breaches core medical ethics principles of autonomy, non-maleficence, and beneficence, as it involves irr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This view holds that the procedure breaches core medical ethics principles of autonomy, non-maleficence, and beneficence, as it involves irreversible genital al.",
+      "span": {
+        "quote": "This view holds that the procedure breaches core medical ethics principles of autonomy, non-maleficence, and beneficence, as it involves irreversible genital al"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

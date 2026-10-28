@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0204",
+  "source_text": "They contended that any legislative or judicial ban would infringe on communal autonomy in managing internal religious affairs, emphasizing that the practice predates modern scrutiny and aligns with scriptural sunnah traditions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They contended that any legislative or judicial ban would infringe on communal autonomy in managing internal religious affairs, emphasizing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ny legislative or judicial ban would infringe on communal autonomy in managing internal religious affairs, emphasizing that the practice predates modern scrutin.",
+      "span": {
+        "quote": "ny legislative or judicial ban would infringe on communal autonomy in managing internal religious affairs, emphasizing that the practice predates modern scrutin"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

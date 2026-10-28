@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0042",
+  "source_text": "Meta-analyses confirm this effect, attributing it to the foreskin's vulnerability to microtears and epithelial disruption during intercourse, which increases HIV entry points; the protective estimate holds in high-prevalence settings but requires consideration of behavioral and epidemiological context for generalizability. [20] [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses confirm this effect, attributing it to the foreskin's vulnerability to microtears and epithelial disruption during intercourse"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses confirm this effect, attributing it to the foreskin's vulnerability to microtears and epithelial disruption during intercourse, which increases HI.",
+      "span": {
+        "quote": "Meta-analyses confirm this effect, attributing it to the foreskin's vulnerability to microtears and epithelial disruption during intercourse, which increases HI"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

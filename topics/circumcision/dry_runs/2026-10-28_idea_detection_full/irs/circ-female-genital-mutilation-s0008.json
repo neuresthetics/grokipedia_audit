@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0008",
+  "source_text": "Immediate health risks include severe pain, hemorrhage, infection, and shock, while long-term consequences encompass chronic urinary issues, menstrual problems, obstetric complications like fistula and newborn death, sexual dysfunction, and psychological trauma such as depression and post-traumatic stress. [3] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate health risks include severe pain, hemorrhage, infection, and shock, while long-term consequences encompass chronic urinary issues,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate health risks include severe pain, hemorrhage, infection, and shock, while long-term consequences encompass chronic urinary issues, menstrual problems,.",
+      "span": {
+        "quote": "Immediate health risks include severe pain, hemorrhage, infection, and shock, while long-term consequences encompass chronic urinary issues, menstrual problems,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

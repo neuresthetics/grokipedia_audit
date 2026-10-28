@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0003",
+  "source_text": "Paul's epistles, particularly Galatians, vehemently rejected circumcision as a salvific mechanism, arguing it would nullify the gospel's universality and revert believers to bondage under the law.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Paul's epistles, particularly Galatians, vehemently rejected circumcision as a salvific mechanism, arguing it would nullify the gospel's uni"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Paul's epistles, particularly Galatians, vehemently rejected circumcision as a salvific mechanism, arguing it would nullify the gospel's universality and revert.",
+      "span": {
+        "quote": "Paul's epistles, particularly Galatians, vehemently rejected circumcision as a salvific mechanism, arguing it would nullify the gospel's universality and revert"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

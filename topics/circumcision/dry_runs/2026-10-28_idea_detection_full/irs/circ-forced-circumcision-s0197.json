@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-forced-circumcision-s0197",
+  "source_text": "Delayed psychological complications, such as anxiety or dissatisfaction upon learning of the procedure, have been documented in retrospective accounts, with a 2020 Aarhus University-led study highlighting emergent issues in adulthood tied to infant circumcision without consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Delayed psychological complications, such as anxiety or dissatisfaction upon learning of the procedure, have been documented in retrospectiv"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Delayed psychological complications, such as anxiety or dissatisfaction upon learning of the procedure, have been documented in retrospective accounts, with a 2.",
+      "span": {
+        "quote": "Delayed psychological complications, such as anxiety or dissatisfaction upon learning of the procedure, have been documented in retrospective accounts, with a 2"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to infant circumcision without consent.",
+      "span": {
+        "quote": "tied to infant circumcision without consent"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to infant circumcision without consent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to infant circumcision without consent",
+          "span": {
+            "quote": "tied to infant circumcision without consent"
+          }
+        }
+      ]
+    }
+  ]
+}

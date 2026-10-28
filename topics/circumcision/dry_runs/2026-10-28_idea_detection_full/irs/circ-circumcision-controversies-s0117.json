@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0117",
+  "source_text": "For HIV, randomized controlled trials demonstrate a 60% reduction in acquisition risk during heterosexual exposure in high-prevalence regions, attributable to removal of the foreskin's inner mucosal layer, which harbors HIV target cells like Langerhans cells and serves as an entry portal during microtears. [77] [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For HIV, randomized controlled trials demonstrate a 60% reduction in acquisition risk during heterosexual exposure in high-prevalence region"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For HIV, randomized controlled trials demonstrate a 60% reduction in acquisition risk during heterosexual exposure in high-prevalence regions, attributable to r.",
+      "span": {
+        "quote": "For HIV, randomized controlled trials demonstrate a 60% reduction in acquisition risk during heterosexual exposure in high-prevalence regions, attributable to r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

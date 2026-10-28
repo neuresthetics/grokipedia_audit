@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0073",
+  "source_text": "Ethnographic accounts document severe pain, blood loss, and long-term complications like urinary fistulas, justified culturally as tests of resilience essential for hunting roles and totemic responsibilities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethnographic accounts document severe pain, blood loss, and long-term complications like urinary fistulas, justified culturally as tests of"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethnographic accounts document severe pain, blood loss, and long-term complications like urinary fistulas, justified culturally as tests of resilience essential.",
+      "span": {
+        "quote": "Ethnographic accounts document severe pain, blood loss, and long-term complications like urinary fistulas, justified culturally as tests of resilience essential"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

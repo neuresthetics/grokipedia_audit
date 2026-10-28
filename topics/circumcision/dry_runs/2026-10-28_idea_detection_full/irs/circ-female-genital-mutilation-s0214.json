@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0214",
+  "source_text": "These claims extend to purported fertility advantages, such as preventing infant death during childbirth by avoiding clitoral contact with the baby's head, and better marriage prospects, as uncut women are deemed ineligible or less desirable in patrilineal societies where FGM signals conformity and eligibility for resources controlled by men. [42]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims extend to purported fertility advantages, such as preventing infant death during childbirth by avoiding clitoral contact with t"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Extend to purported fertility advantages, such as preventing infant death during childbirth by avoiding clitoral contact with the baby's head, and better marria.",
+      "span": {
+        "quote": "extend to purported fertility advantages, such as preventing infant death during childbirth by avoiding clitoral contact with the baby's head, and better marria"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

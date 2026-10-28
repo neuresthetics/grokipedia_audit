@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0086",
+  "source_text": "REQUESTS all national governments to petition the World Court, The Hague, to declare that the genital mutilations of children violate the above-cited articles.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "REQUESTS all national governments to petition the World Court, The Hague, to declare that the genital mutilations of children violate the ab"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "REQUESTS all national governments to petition the World Court, The Hague, to declare that the genital mutilations of children violate the above-cited articles.",
+      "span": {
+        "quote": "REQUESTS all national governments to petition the World Court, The Hague, to declare that the genital mutilations of children violate the above-cited articles."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

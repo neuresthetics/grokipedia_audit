@@ -1,0 +1,68 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0284",
+  "source_text": "The persistence of female genital mutilation (FGM) in Sudan entrenches gender imbalances by embedding cultural norms that tie women's social value to perceived chastity and family honor, often resulting in stigma, harassment, and reduced marriage prospects for uncircumcised girls, thereby limiting female autonomy and perpetuating intergenerational cycles of control by elder women. [2] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The persistence of female genital mutilation (FGM) in Sudan entrenches gender imbalances by embedding cultural norms that tie women's social"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Balances by embedding cultural norms that tie women's social value to perceived chastity and family honor, often resulting in stigma, harassment, and reduced ma.",
+      "span": {
+        "quote": "balances by embedding cultural norms that tie women's social value to perceived chastity and family honor, often resulting in stigma, harassment, and reduced ma"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Limiting female autonomy and perpetuating intergenerational cycles of control by elder women. [2] [6].",
+      "span": {
+        "quote": "limiting female autonomy and perpetuating intergenerational cycles of control by elder women. [2] [6]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "resulting in"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

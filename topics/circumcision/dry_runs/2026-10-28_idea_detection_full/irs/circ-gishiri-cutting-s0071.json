@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0071",
+  "source_text": "Interventions occur in non-clinical environments, such as homes, exacerbating procedural inconsistencies and potential for harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Interventions occur in non-clinical environments, such as homes, exacerbating procedural inconsistencies and potential for harm."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Interventions occur in non-clinical environments, such as homes, exacerbating procedural inconsistencies and potential for harm.",
+      "span": {
+        "quote": "Interventions occur in non-clinical environments, such as homes, exacerbating procedural inconsistencies and potential for harm."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

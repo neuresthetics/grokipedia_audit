@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0273",
+  "source_text": "Cultural relativism, prevalent in African contexts, posits rites as enhancing social autonomy via group identity, yet this subordinates personal rights to tradition, yielding ethical inconsistencies when complications arise without recourse.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural relativism, prevalent in African contexts, posits rites as enhancing social autonomy via group identity, yet this subordinates pers"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cultural relativism, prevalent in African contexts, posits rites as enhancing social autonomy via group identity, yet this subordinates personal rights to tradi.",
+      "span": {
+        "quote": "Cultural relativism, prevalent in African contexts, posits rites as enhancing social autonomy via group identity, yet this subordinates personal rights to tradi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

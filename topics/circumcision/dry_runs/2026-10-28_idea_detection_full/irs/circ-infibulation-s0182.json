@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-infibulation-s0182",
+  "source_text": "This disparity manifests as institutionalized control over female sexuality, contravening equality norms under the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW), and reinforcing patriarchal structures without reciprocal male burdens of equivalent severity. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This disparity manifests as institutionalized control over female sexuality, contravening equality norms under the Convention on the Elimina"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This disparity manifests as institutionalized control over female sexuality, contravening equality norms under the Convention on the Elimination of All Forms of.",
+      "span": {
+        "quote": "This disparity manifests as institutionalized control over female sexuality, contravening equality norms under the Convention on the Elimination of All Forms of"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "This disparity manifests as institutionalized control over female.",
+      "span": {
+        "quote": "This disparity manifests as institutionalized control over female"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "This disparity manifests as institutionalized control over f"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

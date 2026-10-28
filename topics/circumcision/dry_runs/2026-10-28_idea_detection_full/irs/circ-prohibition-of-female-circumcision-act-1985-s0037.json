@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0037",
+  "source_text": "This evidence-based approach overrode deference to cultural norms, underscoring that procedural harms\u2014stemming from excision of innervated, functional tissue\u2014persist regardless of intent, with no offsetting advantages per longitudinal health data.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This evidence-based approach overrode deference to cultural norms, underscoring that procedural harms\u2014stemming from excision of innervated,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This evidence-based approach overrode deference to cultural norms, underscoring that procedural harms\u2014stemming from excision of innervated, functional tissue\u2014pe.",
+      "span": {
+        "quote": "This evidence-based approach overrode deference to cultural norms, underscoring that procedural harms\u2014stemming from excision of innervated, functional tissue\u2014pe"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per longitudinal health data.",
+      "span": {
+        "quote": "per longitudinal health data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per longitudinal health data"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

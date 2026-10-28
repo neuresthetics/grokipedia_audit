@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0330",
+  "source_text": "These approaches align with guidelines prioritizing conservative escalation, reducing unnecessary excisions amid evidence that 80-90% of childhood cases resolve spontaneously by adolescence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These approaches align with guidelines prioritizing conservative escalation, reducing unnecessary excisions amid evidence that 80-90% of chi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These approaches align with guidelines prioritizing conservative escalation, reducing unnecessary excisions amid evidence that 80-90% of childhood cases resolve.",
+      "span": {
+        "quote": "These approaches align with guidelines prioritizing conservative escalation, reducing unnecessary excisions amid evidence that 80-90% of childhood cases resolve"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

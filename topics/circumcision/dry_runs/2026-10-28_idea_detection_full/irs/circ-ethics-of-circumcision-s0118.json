@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0118",
+  "source_text": "The CDC's position supports offering circumcision where parents or individuals desire it, informed by data on reduced heterosexual HIV acquisition and other infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The CDC's position supports offering circumcision where parents or individuals desire it, informed by data on reduced heterosexual HIV acqui"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The CDC's position supports offering circumcision where parents or individuals desire it, informed by data on reduced heterosexual HIV acquisition and other inf.",
+      "span": {
+        "quote": "The CDC's position supports offering circumcision where parents or individuals desire it, informed by data on reduced heterosexual HIV acquisition and other inf"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

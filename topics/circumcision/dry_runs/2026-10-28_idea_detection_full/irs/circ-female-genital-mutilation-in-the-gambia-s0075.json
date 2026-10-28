@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0075",
+  "source_text": "It is perceived to reduce excessive sexual desire, making women less demanding in marriage and averting risks like divorce or prostitution, while also ensuring physical \"sealing\" of virginity until wedlock in practices akin to Type III FGM among groups like the Sarahule and some Fula. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It is perceived to reduce excessive sexual desire, making women less demanding in marriage and averting risks like divorce or prostitution,"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It is perceived to reduce excessive sexual desire, making women less demanding in marriage and averting risks like divorce or prostitution, while also ensuring.",
+      "span": {
+        "quote": "It is perceived to reduce excessive sexual desire, making women less demanding in marriage and averting risks like divorce or prostitution, while also ensuring "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

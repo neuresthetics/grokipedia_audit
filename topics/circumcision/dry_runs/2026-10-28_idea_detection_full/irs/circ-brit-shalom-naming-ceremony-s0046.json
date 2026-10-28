@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0046",
+  "source_text": "Reconstructionist Judaism approaches Brit Shalom with openness to ritual evolution, viewing circumcision as culturally significant but not inviolable, and advocating reconstruction of brit milah to align with contemporary ethics, such as bodily integrity, while preserving covenantal themes through non-surgical alternatives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reconstructionist Judaism approaches Brit Shalom with openness to ritual evolution, viewing circumcision as culturally significant but not i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reconstructionist Judaism approaches Brit Shalom with openness to ritual evolution, viewing circumcision as culturally significant but not inviolable, and advoc.",
+      "span": {
+        "quote": "Reconstructionist Judaism approaches Brit Shalom with openness to ritual evolution, viewing circumcision as culturally significant but not inviolable, and advoc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

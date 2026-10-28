@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0341",
+  "source_text": "This prompted national legislation in 2013 (the Circumcision Act) permitting the procedure for boys under six months with parental consent and medical supervision, balancing religious freedoms against autonomy concerns, though critics argued it inadequately addressed long-term risks like reduced sensitivity or psychological impact. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This prompted national legislation in 2013 (the Circumcision Act) permitting the procedure for boys under six months with parental consent a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It inadequately addressed long-term risks like reduced sensitivity or psychological impact.",
+      "span": {
+        "quote": "it inadequately addressed long-term risks like reduced sensitivity or psychological impact."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Cision Act) permitting the procedure for boys under six months with parental consent and medical supervision, balancing religious freedoms against autonomy conc.",
+      "span": {
+        "quote": "cision Act) permitting the procedure for boys under six months with parental consent and medical supervision, balancing religious freedoms against autonomy conc"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0111",
+  "source_text": "Despite these advancements, gaps persist in resource-limited areas where traditional practitioners may prioritize ritual speed over analgesia, underscoring the need for education on evidence-based methods; peer-reviewed analyses indicate that unaddressed pain in khitan correlates with higher incidence of immediate behavioral sequelae, though long-term psychological impacts require further longitudinal research free from institutional biases favoring minimal intervention narratives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite these advancements, gaps persist in resource-limited areas where traditional practitioners may prioritize ritual speed over analgesi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite these advancements, gaps persist in resource-limited areas where traditional practitioners may prioritize ritual speed over analgesia, underscoring the.",
+      "span": {
+        "quote": "Despite these advancements, gaps persist in resource-limited areas where traditional practitioners may prioritize ritual speed over analgesia, underscoring the "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

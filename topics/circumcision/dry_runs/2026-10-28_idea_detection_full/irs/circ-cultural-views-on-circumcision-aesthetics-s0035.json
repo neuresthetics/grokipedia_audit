@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0035",
+  "source_text": "For example, studies of women's partner preferences indicate around 69% favoring circumcision for visual and tactile appeal. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, studies of women's partner preferences indicate around 69% favoring circumcision for visual and tactile appeal. [18]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, studies of women's partner preferences indicate around 69% favoring circumcision for visual and tactile appeal. [18].",
+      "span": {
+        "quote": "For example, studies of women's partner preferences indicate around 69% favoring circumcision for visual and tactile appeal. [18]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

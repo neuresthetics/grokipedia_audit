@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0044",
+  "source_text": "Similarly, analyses from multiple cross-sectional surveys in the region, such as those in Nairobi, showed uncircumcised men with genital ulcers had over 50% higher HIV seroconversion rates than circumcised counterparts. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, analyses from multiple cross-sectional surveys in the region, such as those in Nairobi, showed uncircumcised men with genital ulc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, analyses from multiple cross-sectional surveys in the region, such as those in Nairobi, showed uncircumcised men with genital ulcers had over 50% hig.",
+      "span": {
+        "quote": "Similarly, analyses from multiple cross-sectional surveys in the region, such as those in Nairobi, showed uncircumcised men with genital ulcers had over 50% hig"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0267",
+  "source_text": "Opponents of restoration, often aligned with pro-circumcision medical bodies, question its necessity and efficacy, suggesting it tacitly accepts circumcision's cultural legitimacy while diverting from evidence-based benefits like reduced HIV transmission rates (estimated 60% lower in circumcised men per randomized trials in Africa). [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents of restoration, often aligned with pro-circumcision medical bodies, question its necessity and efficacy, suggesting it tacitly acc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Opponents of restoration, often aligned with pro-circumcision medical bodies, question its necessity and efficacy, suggesting it tacitly accepts circumcision's.",
+      "span": {
+        "quote": "Opponents of restoration, often aligned with pro-circumcision medical bodies, question its necessity and efficacy, suggesting it tacitly accepts circumcision's "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c3",
+      "text": "Per randomized trials in Africa.",
+      "span": {
+        "quote": "per randomized trials in Africa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    },
+    {
+      "id": "c4",
+      "text": "Aligned with pro-circumcision medical bodies.",
+      "span": {
+        "quote": "aligned with pro-circumcision medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "medical bodies"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per randomized trials in Africa"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with pro-circumcision medical bodies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with pro-circumcision medical bodies",
+          "span": {
+            "quote": "aligned with pro-circumcision medical bodies"
+          }
+        }
+      ]
+    }
+  ]
+}

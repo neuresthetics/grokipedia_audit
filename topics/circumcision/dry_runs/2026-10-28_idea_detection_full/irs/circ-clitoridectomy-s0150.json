@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0150",
+  "source_text": "Studies on FGM/C Type I report reduced sexual arousal, lubrication, and orgasmic capacity, with affected women experiencing lower overall sexual satisfaction compared to uncircumcised controls. [71] [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies on FGM/C Type I report reduced sexual arousal, lubrication, and orgasmic capacity, with affected women experiencing lower overall se"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies on FGM/C Type I report reduced sexual arousal, lubrication, and orgasmic capacity, with affected women experiencing lower overall sexual satisfaction co.",
+      "span": {
+        "quote": "Studies on FGM/C Type I report reduced sexual arousal, lubrication, and orgasmic capacity, with affected women experiencing lower overall sexual satisfaction co"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

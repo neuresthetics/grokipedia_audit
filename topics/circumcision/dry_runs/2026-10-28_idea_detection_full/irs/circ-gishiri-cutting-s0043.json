@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0043",
+  "source_text": "It is invoked for symptoms including dyspareunia, infertility, prolonged labor, genital prolapse, or itching, with practitioners viewing the cut as a curative release of blockages, often followed by salt application to promote healing and lubrication.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It is invoked for symptoms including dyspareunia, infertility, prolonged labor, genital prolapse, or itching, with practitioners viewing the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It is invoked for symptoms including dyspareunia, infertility, prolonged labor, genital prolapse, or itching, with practitioners viewing the cut as a curative r.",
+      "span": {
+        "quote": "It is invoked for symptoms including dyspareunia, infertility, prolonged labor, genital prolapse, or itching, with practitioners viewing the cut as a curative r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

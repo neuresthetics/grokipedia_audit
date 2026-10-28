@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0189",
+  "source_text": "These instruments reject relativist defenses, emphasizing due diligence obligations for states to prohibit practices causing severe physical and psychological harm, supported by WHO classifications of FGM as having no health benefits.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These instruments reject relativist defenses, emphasizing due diligence obligations for states to prohibit practices causing severe physical"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These instruments reject relativist defenses, emphasizing due diligence obligations for states to prohibit practices causing severe physical and psychological h.",
+      "span": {
+        "quote": "These instruments reject relativist defenses, emphasizing due diligence obligations for states to prohibit practices causing severe physical and psychological h"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

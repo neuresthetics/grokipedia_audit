@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0084",
+  "source_text": "Circumcision alters these dynamics by excising the foreskin, thereby eliminating approximately 50-70% of the penile mucosal surface area vulnerable to HIV ingress during penile-vaginal intercourse. [41]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision alters these dynamics by excising the foreskin, thereby eliminating approximately 50-70% of the penile mucosal surface area vul"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision alters these dynamics by excising the foreskin.",
+      "span": {
+        "quote": "Circumcision alters these dynamics by excising the foreskin"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Eliminating approximately 50-70% of the penile mucosal surface area vulnerable to HIV ingress during penile-vaginal intercourse. [41].",
+      "span": {
+        "quote": "eliminating approximately 50-70% of the penile mucosal surface area vulnerable to HIV ingress during penile-vaginal intercourse. [41]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

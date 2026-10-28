@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-the-bible-s0129",
+  "source_text": "In the New Covenant inaugurated by Jesus Christ, physical circumcision ceases to be a requirement for covenant membership or a means of salvation, as its typological significance is fully realized in the spiritual transformation effected through faith in Christ.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the New Covenant inaugurated by Jesus Christ, physical circumcision ceases to be a requirement for covenant membership or a means of salv"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the New Covenant inaugurated by Jesus Christ, physical circumcision ceases to be a requirement for covenant membership or a means of salvation, as its typolo.",
+      "span": {
+        "quote": "In the New Covenant inaugurated by Jesus Christ, physical circumcision ceases to be a requirement for covenant membership or a means of salvation, as its typolo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

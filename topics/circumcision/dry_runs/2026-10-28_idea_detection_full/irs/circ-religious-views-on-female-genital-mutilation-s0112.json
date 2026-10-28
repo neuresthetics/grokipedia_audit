@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0112",
+  "source_text": "Christian missionary efforts in the early 20th century actively opposed FGM, framing it as incompatible with biblical teachings on the body.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Christian missionary efforts in the early 20th century actively opposed FGM, framing it as incompatible with biblical teachings on the body."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Christian missionary efforts in the early 20th century actively opposed FGM, framing it as incompatible with biblical teachings on the body.",
+      "span": {
+        "quote": "Christian missionary efforts in the early 20th century actively opposed FGM, framing it as incompatible with biblical teachings on the body."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-01",
+  "source_text": "Ahmadu argued these accounts challenge Western assumptions of harm, attributing reported issues to cultural stigma rather than the cutting itself.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "these accounts challenge Western assumptions of harm, attributing reported issues to cultural stigma rather than the cutting itself"
+      },
+      "claim_ids": [
+        "c_accounts",
+        "c_western",
+        "c_stigma",
+        "c_challenge"
+      ],
+      "speaker": "ahmadu"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_accounts",
+      "text": "These accounts (of women unaffected) exist as evidence.",
+      "span": {
+        "quote": "these accounts"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "ahmadu"
+    },
+    {
+      "id": "c_western",
+      "text": "Western assumptions hold that the cutting itself causes harm.",
+      "span": {
+        "quote": "Western assumptions of harm"
+      },
+      "role": "attribution",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c_stigma",
+      "text": "Reported issues are attributable to cultural stigma rather than the cutting itself.",
+      "span": {
+        "quote": "attributing reported issues to cultural stigma rather than the cutting itself"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "ahmadu",
+      "asserts_cause": true
+    },
+    {
+      "id": "c_challenge",
+      "text": "These accounts challenge Western assumptions of harm.",
+      "span": {
+        "quote": "these accounts challenge Western assumptions of harm"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "ahmadu",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_accounts",
+      "target": "c_challenge",
+      "span": {
+        "quote": "these accounts challenge Western assumptions of harm"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_stigma",
+      "target": "c_challenge",
+      "span": {
+        "quote": "attributing reported issues to cultural stigma rather than the cutting itself"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e3",
+      "type": "attacks_claim",
+      "source": "c_stigma",
+      "target": "c_western",
+      "span": {
+        "quote": "rather than the cutting itself"
+      },
+      "answered": false
+    }
+  ],
+  "agents": [
+    {
+      "id": "ahmadu",
+      "name_span": {
+        "quote": "Ahmadu"
+      },
+      "traits": []
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

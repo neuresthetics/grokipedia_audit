@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0091",
+  "source_text": "Circumcision-related mortality is exceedingly rare, estimated at less than 1 in 500,000 procedures in developed settings, lower than the mortality risk associated with common pediatric surgeries like appendectomy, which exceeds 1% in infants under one year. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision-related mortality is exceedingly rare, estimated at less than 1 in 500,000 procedures in developed settings, lower than the mor"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision-related mortality is exceedingly rare, estimated at less than 1 in 500,000 procedures in developed settings, lower than the mortality risk associat.",
+      "span": {
+        "quote": "Circumcision-related mortality is exceedingly rare, estimated at less than 1 in 500,000 procedures in developed settings, lower than the mortality risk associat"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with common pediatric surgeries like appendectomy.",
+      "span": {
+        "quote": "associated with common pediatric surgeries like appendectomy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with common pediatric surgeries like appendectomy"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with common pediatric surgeries like appendectomy",
+          "span": {
+            "quote": "associated with common pediatric surgeries like appendectomy"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0148",
+  "source_text": "A 2016 study on ritual tuli highlighted adverse psychological effects, such as anxiety and body image issues, attributing them to the coercive social dynamics and irreversible alteration without minors' autonomous consent. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2016 study on ritual tuli highlighted adverse psychological effects, such as anxiety and body image issues, attributing them to the coerci"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2016 study on ritual tuli highlighted adverse psychological effects, such as anxiety and body image issues, attributing them to the coercive social dynamics a.",
+      "span": {
+        "quote": "A 2016 study on ritual tuli highlighted adverse psychological effects, such as anxiety and body image issues, attributing them to the coercive social dynamics a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

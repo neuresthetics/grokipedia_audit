@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0127",
+  "source_text": "However, a significant minority had no preference or preferred uncircumcised (often due to gliding sensation or natural feel), especially those with experience only with uncircumcised partners.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, a significant minority had no preference or preferred uncircumcised (often due to gliding sensation or natural feel), especially th"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, a significant minority had no preference or preferred uncircumcised (often due to gliding sensation or natural feel), especially those with experience.",
+      "span": {
+        "quote": "However, a significant minority had no preference or preferred uncircumcised (often due to gliding sensation or natural feel), especially those with experience "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

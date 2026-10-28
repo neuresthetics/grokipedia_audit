@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0166",
+  "source_text": "The resolution's policy influence was constrained by its origins in niche symposia and reliance on ethical rather than empirical consensus, with critics noting insufficient engagement from sovereign states practicing ritual circumcision. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution's policy influence was constrained by its origins in niche symposia and reliance on ethical rather than empirical consensus,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The resolution's policy influence was constrained by its origins in niche symposia and reliance on ethical rather than empirical consensus, with critics noting.",
+      "span": {
+        "quote": "The resolution's policy influence was constrained by its origins in niche symposia and reliance on ethical rather than empirical consensus, with critics noting "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

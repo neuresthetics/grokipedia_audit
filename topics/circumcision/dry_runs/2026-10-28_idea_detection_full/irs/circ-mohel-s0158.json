@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-mohel-s0158",
+  "source_text": "Proponents, including rabbinic authorities in groups like the Central Rabbinical Congress, argue that the practice, when performed by a healthy mohel, effectively cleanses the wound and mitigates infection risks, asserting that alternatives such as glass tubes or sponges fail to achieve the same ritual efficacy or safety, and that documented cases reflect rare anomalies rather than inherent danger. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents, including rabbinic authorities in groups like the Central Rabbinical Congress, argue that the practice, when performed by a heal"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E practice, when performed by a healthy mohel, effectively cleanses the wound and mitigates infection risks, asserting that alternatives such as glass tubes or.",
+      "span": {
+        "quote": "e practice, when performed by a healthy mohel, effectively cleanses the wound and mitigates infection risks, asserting that alternatives such as glass tubes or "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents, including rabbinic authorities in groups like the Central Rabbinical Congress.",
+      "span": {
+        "quote": "Proponents, including rabbinic authorities in groups like the Central Rabbinical Congress"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

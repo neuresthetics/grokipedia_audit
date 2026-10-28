@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0052",
+  "source_text": "Practitioners and communities in Nigeria often justify female genital mutilation (FGM) as a means to curb female promiscuity and ensure premarital virginity or marital fidelity, believing it reduces sexual desire and makes women more suitable wives. [18] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners and communities in Nigeria often justify female genital mutilation (FGM) as a means to curb female promiscuity and ensure prem"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners and communities in Nigeria often justify female genital mutilation (FGM) as a means to curb female promiscuity and ensure premarital virginity or.",
+      "span": {
+        "quote": "Practitioners and communities in Nigeria often justify female genital mutilation (FGM) as a means to curb female promiscuity and ensure premarital virginity or "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0212",
+  "source_text": "Advocates have petitioned for continued autonomy, arguing that external campaigns misrepresent the practice and overlook internal consensus, as evidenced by low reported dissatisfaction in India compared to heightened scrutiny abroad.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocates have petitioned for continued autonomy, arguing that external campaigns misrepresent the practice and overlook internal consensus,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Advocates have petitioned for continued autonomy, arguing that external campaigns misrepresent the practice and overlook internal consensus, as evidenced by low.",
+      "span": {
+        "quote": "Advocates have petitioned for continued autonomy, arguing that external campaigns misrepresent the practice and overlook internal consensus, as evidenced by low"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

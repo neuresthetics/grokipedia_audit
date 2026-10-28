@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-penile-subincision-s0141",
+  "source_text": "Participants typically cite personal autonomy and cultural homage, but medical literature emphasizes the absence of therapeutic benefits and potential for irreversible damage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Participants typically cite personal autonomy and cultural homage, but medical literature emphasizes the absence of therapeutic benefits and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E absence of therapeutic benefits and potential for irreversible damage.",
+      "span": {
+        "quote": "e absence of therapeutic benefits and potential for irreversible damage."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Participants typically cite personal autonomy and cultural homage, but medical literature.",
+      "span": {
+        "quote": "Participants typically cite personal autonomy and cultural homage, but medical literature"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

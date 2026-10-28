@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0135",
+  "source_text": "South Africa's Eastern Cape province has seen recurrent fatalities; for instance, 14 boys died from botched circumcisions in a single month in 2006, while over 20 deaths occurred during the 2019 winter season alone, prompting temporary suspensions of initiation schools. [54] [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "South Africa's Eastern Cape province has seen recurrent fatalities; for instance, 14 boys died from botched circumcisions in a single month"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "South Africa's Eastern Cape province has seen recurrent fatalities; for instance, 14 boys died from botched circumcisions in a single month in 2006, while over.",
+      "span": {
+        "quote": "South Africa's Eastern Cape province has seen recurrent fatalities; for instance, 14 boys died from botched circumcisions in a single month in 2006, while over "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

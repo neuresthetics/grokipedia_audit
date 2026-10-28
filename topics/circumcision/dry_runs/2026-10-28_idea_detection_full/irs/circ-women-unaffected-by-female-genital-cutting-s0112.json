@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0112",
+  "source_text": "Cohort studies report no procedure-independent elevation in physical morbidities, with adverse events more tied to social exclusion than anatomical changes (e.g., 16.6% recent gynecological events unrelated to FGC status). [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cohort studies report no procedure-independent elevation in physical morbidities, with adverse events more tied to social exclusion than ana"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cohort studies report no procedure-independent elevation in physical morbidities, with adverse events more tied to social exclusion than anatomical changes (e.g.",
+      "span": {
+        "quote": "Cohort studies report no procedure-independent elevation in physical morbidities, with adverse events more tied to social exclusion than anatomical changes (e.g"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to social exclusion than anatomical changes (e.",
+      "span": {
+        "quote": "tied to social exclusion than anatomical changes (e"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to social exclusion than anatomical changes (e"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to social exclusion than anatomical changes (e",
+          "span": {
+            "quote": "tied to social exclusion than anatomical changes (e"
+          }
+        }
+      ]
+    }
+  ]
+}

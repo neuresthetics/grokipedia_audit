@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0127",
+  "source_text": "This practice reinforces patriarchal authority, as families believe it curbs female promiscuity and ensures fidelity, thereby preserving lineage purity and economic alliances through bride price systems.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice reinforces patriarchal authority, as families believe it curbs female promiscuity and ensures fidelity, thereby preserving lin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice reinforces patriarchal authority, as families believe it curbs female promiscuity and ensures fidelity.",
+      "span": {
+        "quote": "This practice reinforces patriarchal authority, as families believe it curbs female promiscuity and ensures fidelity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Preserving lineage purity and economic alliances through bride price systems.",
+      "span": {
+        "quote": "preserving lineage purity and economic alliances through bride price systems."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

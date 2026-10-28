@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0075",
+  "source_text": "The series suggests such outcomes stem from the infant's inability to consent and the procedure's inherent violence, including acute pain without adequate anesthesia in many cases, though these assertions rely on anecdotal narratives rather than aggregated clinical data.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The series suggests such outcomes stem from the infant's inability to consent and the procedure's inherent violence, including acute pain wi"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such outcomes stem from the infant's inability to consent and the procedure's inherent violence, including acute pain without adequate anesthesia in many cases,.",
+      "span": {
+        "quote": "such outcomes stem from the infant's inability to consent and the procedure's inherent violence, including acute pain without adequate anesthesia in many cases,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

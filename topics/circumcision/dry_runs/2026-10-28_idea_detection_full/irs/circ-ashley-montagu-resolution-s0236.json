@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0236",
+  "source_text": "The Ashley Montagu Resolution, adopted on August 11, 1996, by the Fourth International Symposium on Sexual Mutilations, sought an advisory opinion from the International Court of Justice declaring non-therapeutic genital cutting of children\u2014encompassing both male circumcision and female genital mutilation (FGM)\u2014as violations of international human rights law, emphasizing children's rights to bodily integrity and autonomy. [28]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Ashley Montagu Resolution, adopted on August 11, 1996, by the Fourth International Symposium on Sexual Mutilations, sought an advisory o"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Ashley Montagu Resolution, adopted on August 11, 1996, by the Fourth International Symposium on Sexual Mutilations, sought an advisory opinion from the Inte.",
+      "span": {
+        "quote": "The Ashley Montagu Resolution, adopted on August 11, 1996, by the Fourth International Symposium on Sexual Mutilations, sought an advisory opinion from the Inte"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

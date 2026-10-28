@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0148",
+  "source_text": "This reduction is attributed to the removal of the foreskin, which harbors HIV target cells and facilitates viral entry during heterosexual intercourse.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This reduction is attributed to the removal of the foreskin, which harbors HIV target cells and facilitates viral entry during heterosexual"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This reduction is attributed to the removal of the foreskin, which harbors HIV target cells and facilitates viral entry during heterosexual intercourse.",
+      "span": {
+        "quote": "This reduction is attributed to the removal of the foreskin, which harbors HIV target cells and facilitates viral entry during heterosexual intercourse."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

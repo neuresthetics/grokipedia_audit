@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0238",
+  "source_text": "Additionally, claims persist that VMMC promotes a false sense of security, potentially diverting resources from proven strategies like condom promotion and antiretroviral therapy (ART).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additionally, claims persist that VMMC promotes a false sense of security, potentially diverting resources from proven strategies like condo"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Persist that VMMC promotes a false sense of security, potentially diverting resources from proven strategies like condom promotion and antiretroviral therapy (A.",
+      "span": {
+        "quote": "persist that VMMC promotes a false sense of security, potentially diverting resources from proven strategies like condom promotion and antiretroviral therapy (A"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

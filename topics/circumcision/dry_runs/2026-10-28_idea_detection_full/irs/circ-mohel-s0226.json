@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0226",
+  "source_text": "Anti-circumcision advocacy groups have published materials portraying mohels derogatorily, including a 2011 cartoon depicting a \"monster mohel\" in campaigns against San Francisco's proposed circumcision ban, which the Anti-Defamation League condemned as invoking anti-Semitic blood libel tropes.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anti-circumcision advocacy groups have published materials portraying mohels derogatorily, including a 2011 cartoon depicting a \"monster moh"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anti-circumcision advocacy groups have published materials portraying mohels derogatorily, including a 2011 cartoon depicting a \"monster mohel\" in campaigns aga.",
+      "span": {
+        "quote": "Anti-circumcision advocacy groups have published materials portraying mohels derogatorily, including a 2011 cartoon depicting a \"monster mohel\" in campaigns aga"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

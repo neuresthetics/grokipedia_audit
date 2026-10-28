@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0022",
+  "source_text": "In forced scenarios, the procedure lacks any such affirmative choice and is frequently imposed in contexts of cultural conflict or punishment, escalating it to a form of assault distinguishable by its punitive intent and absence of therapeutic justification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In forced scenarios, the procedure lacks any such affirmative choice and is frequently imposed in contexts of cultural conflict or punishmen"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In forced scenarios, the procedure lacks any such affirmative choice and is frequently imposed in contexts of cultural conflict or punishment, escalating it to.",
+      "span": {
+        "quote": "In forced scenarios, the procedure lacks any such affirmative choice and is frequently imposed in contexts of cultural conflict or punishment, escalating it to "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

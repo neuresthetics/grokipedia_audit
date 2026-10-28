@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0124",
+  "source_text": "Recent advocacy efforts, including campaigns by groups like Doctors Opposing Circumcision from 2022 onward, have intensified calls for legislative bans in Western countries, petitioning courts to recognize infant circumcision as a human rights violation under frameworks like the European Convention on Human Rights.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Recent advocacy efforts, including campaigns by groups like Doctors Opposing Circumcision from 2022 onward, have intensified calls for legis"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Recent advocacy efforts, including campaigns by groups like Doctors Opposing Circumcision from 2022 onward, have intensified calls for legislative bans in Weste.",
+      "span": {
+        "quote": "Recent advocacy efforts, including campaigns by groups like Doctors Opposing Circumcision from 2022 onward, have intensified calls for legislative bans in Weste"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

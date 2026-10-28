@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0038",
+  "source_text": "In adulthood, circumcision substantially lowers the incidence of invasive penile cancer, with systematic reviews and meta-analyses reporting odds ratios as low as 0.33 for men circumcised in childhood or adolescence compared to uncircumcised men. [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In adulthood, circumcision substantially lowers the incidence of invasive penile cancer, with systematic reviews and meta-analyses reporting"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In adulthood, circumcision substantially lowers the incidence of invasive penile cancer, with systematic reviews and meta-analyses reporting odds ratios as low.",
+      "span": {
+        "quote": "In adulthood, circumcision substantially lowers the incidence of invasive penile cancer, with systematic reviews and meta-analyses reporting odds ratios as low "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

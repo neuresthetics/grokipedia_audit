@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0193",
+  "source_text": "Some studies report better ejaculatory control among circumcised men. [114]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some studies report better ejaculatory control among circumcised men. [114]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Some studies report better ejaculatory control among circumcised men. [114].",
+      "span": {
+        "quote": "Some studies report better ejaculatory control among circumcised men. [114]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

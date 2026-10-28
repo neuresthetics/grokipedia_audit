@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0127",
+  "source_text": "Empirically, any keratinization of the glans post-circumcision does not impair mechanoreceptor density to the extent of altering satisfaction metrics, as evidenced by longitudinal assessments showing stable or improved ejaculatory control and relational outcomes.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirically, any keratinization of the glans post-circumcision does not impair mechanoreceptor density to the extent of altering satisfactio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirically, any keratinization of the glans post-circumcision does not impair mechanoreceptor density to the extent of altering satisfaction metrics, as eviden.",
+      "span": {
+        "quote": "Empirically, any keratinization of the glans post-circumcision does not impair mechanoreceptor density to the extent of altering satisfaction metrics, as eviden"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

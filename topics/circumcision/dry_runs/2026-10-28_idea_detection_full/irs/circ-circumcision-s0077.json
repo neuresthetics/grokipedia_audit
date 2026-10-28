@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0077",
+  "source_text": "Long-term systematic reviews nonetheless find no overall reduction in penile sensitivity compared with uncircumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term systematic reviews nonetheless find no overall reduction in penile sensitivity compared with uncircumcised men."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term systematic reviews nonetheless find no overall reduction in penile sensitivity compared with uncircumcised men.",
+      "span": {
+        "quote": "Long-term systematic reviews nonetheless find no overall reduction in penile sensitivity compared with uncircumcised men."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

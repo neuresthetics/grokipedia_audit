@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0119",
+  "source_text": "Vesicovaginal fistulas, resulting from ischemic necrosis during obstructed labor, show 20-30% higher prevalence among Nigerian women with FGM, particularly in northern regions practicing more severe forms.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Vesicovaginal fistulas, resulting from ischemic necrosis during obstructed labor, show 20-30% higher prevalence among Nigerian women with FG"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Vesicovaginal fistulas, resulting from ischemic necrosis during obstructed labor, show 20-30% higher prevalence among Nigerian women with FGM, particularly in n.",
+      "span": {
+        "quote": "Vesicovaginal fistulas, resulting from ischemic necrosis during obstructed labor, show 20-30% higher prevalence among Nigerian women with FGM, particularly in n"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

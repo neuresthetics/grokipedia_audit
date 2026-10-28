@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0068",
+  "source_text": "In subsequent interviews and writings, she described the procedure as a culturally affirming experience that enhanced her sense of womanhood and community belonging among Kono women, with no long-term physical or psychological harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In subsequent interviews and writings, she described the procedure as a culturally affirming experience that enhanced her sense of womanhood"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "she",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In subsequent interviews and writings, she described the procedure as a culturally affirming experience that enhanced her sense of womanhood and community belon.",
+      "span": {
+        "quote": "In subsequent interviews and writings, she described the procedure as a culturally affirming experience that enhanced her sense of womanhood and community belon"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "she"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

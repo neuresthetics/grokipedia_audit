@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0092",
+  "source_text": "Among Somali women in Sweden, many described FGC as \"a part of my life\" without linking it to reduced happiness or functionality, emphasizing cultural integration over adverse effects. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among Somali women in Sweden, many described FGC as \"a part of my life\" without linking it to reduced happiness or functionality, emphasizin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among Somali women in Sweden, many described FGC as \"a part of my life\" without linking it to reduced happiness or functionality, emphasizing cultural integrati.",
+      "span": {
+        "quote": "Among Somali women in Sweden, many described FGC as \"a part of my life\" without linking it to reduced happiness or functionality, emphasizing cultural integrati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-foreskin-man-s0096",
+  "source_text": "A 2013 systematic review of controlled trials concluded no adverse impact on erectile function, premature ejaculation, or overall satisfaction, attributing discrepancies to methodological flaws in pro-sensitivity-loss claims like recall bias.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2013 systematic review of controlled trials concluded no adverse impact on erectile function, premature ejaculation, or overall satisfacti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No adverse impact on erectile function, premature ejaculation, or overall satisfaction, attributing discrepancies to methodological flaws in pro-sensitivity-los.",
+      "span": {
+        "quote": "no adverse impact on erectile function, premature ejaculation, or overall satisfaction, attributing discrepancies to methodological flaws in pro-sensitivity-los"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "A 2013 systematic review of controlled trials.",
+      "span": {
+        "quote": "A 2013 systematic review of controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concluded"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

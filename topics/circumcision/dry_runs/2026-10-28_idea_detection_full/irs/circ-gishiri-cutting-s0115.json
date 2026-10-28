@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0115",
+  "source_text": "The procedure, involving unsterile incision of the anterior vaginal wall, lacks controlled trials or longitudinal data showing improved reproductive or obstetric outcomes compared to standard medical interventions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The procedure, involving unsterile incision of the anterior vaginal wall, lacks controlled trials or longitudinal data showing improved repr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The procedure, involving unsterile incision of the anterior vaginal wall, lacks controlled trials or longitudinal data showing improved reproductive or obstetri.",
+      "span": {
+        "quote": "The procedure, involving unsterile incision of the anterior vaginal wall, lacks controlled trials or longitudinal data showing improved reproductive or obstetri"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

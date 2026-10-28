@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0187",
+  "source_text": "Urinary and menstrual dysfunctions persist lifelong, with women experiencing painful urination, urethral strictures, and fistulas that cause incontinence or retention. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Urinary and menstrual dysfunctions persist lifelong, with women experiencing painful urination, urethral strictures, and fistulas that cause"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Urinary and menstrual dysfunctions persist lifelong, with women experiencing painful urination, urethral strictures, and fistulas that cause incontinence or ret.",
+      "span": {
+        "quote": "Urinary and menstrual dysfunctions persist lifelong, with women experiencing painful urination, urethral strictures, and fistulas that cause incontinence or ret"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

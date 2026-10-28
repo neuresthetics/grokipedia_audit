@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0232",
+  "source_text": "Named in honor of anthropologist Ashley Montagu, who publicly denounced circumcision as a \"barbaric\" cultural relic in works like his 1986 book Growing Young, the resolution invoked his legacy to underscore the evolutionary and humanistic costs of such practices, appealing to intellectuals skeptical of ritualistic body alteration. [53]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Named in honor of anthropologist Ashley Montagu, who publicly denounced circumcision as a \"barbaric\" cultural relic in works like his 1986 b"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Named in honor of anthropologist Ashley Montagu, who publicly denounced circumcision as a \"barbaric\" cultural relic in works like his 1986 book Growing Young, t.",
+      "span": {
+        "quote": "Named in honor of anthropologist Ashley Montagu, who publicly denounced circumcision as a \"barbaric\" cultural relic in works like his 1986 book Growing Young, t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

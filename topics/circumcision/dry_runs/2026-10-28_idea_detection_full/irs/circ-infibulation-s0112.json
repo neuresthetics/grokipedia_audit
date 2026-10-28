@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0112",
+  "source_text": "In communities where female infibulation is practiced, such as among certain ethnic groups in Sudan, Somalia, Djibouti, and Eritrea, the procedure is rationalized by participants as a safeguard for virginity and a deterrent to premarital sex. [55] [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In communities where female infibulation is practiced, such as among certain ethnic groups in Sudan, Somalia, Djibouti, and Eritrea, the pro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In communities where female infibulation is practiced, such as among certain ethnic groups in Sudan, Somalia, Djibouti, and Eritrea, the procedure is rationaliz.",
+      "span": {
+        "quote": "In communities where female infibulation is practiced, such as among certain ethnic groups in Sudan, Somalia, Djibouti, and Eritrea, the procedure is rationaliz"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-penile-subincision-s0131",
+  "source_text": "Critics of preservation arguments, including some indigenous health advocates, point to declining voluntary participation\u2014evident in surveys from Arnhem Land communities by the 2000s\u2014attributable to awareness of health detriments and shifting generational values, suggesting adaptation through symbolic proxies rather than physical enactment preserves essence without injury. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of preservation arguments, including some indigenous health advocates, point to declining voluntary participation\u2014evident in surveys"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics of preservation arguments, including some indigenous health advocates, point to declining voluntary participation\u2014evident in surveys from Arnhem Land co.",
+      "span": {
+        "quote": "Critics of preservation arguments, including some indigenous health advocates, point to declining voluntary participation\u2014evident in surveys from Arnhem Land co"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

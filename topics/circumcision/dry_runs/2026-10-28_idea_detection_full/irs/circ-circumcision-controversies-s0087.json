@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0087",
+  "source_text": "Bazett's work measured densities (e.g., ~115 free nerve endings per cm\u00b2) in small samples but did not provide a total count for the entire foreskin; extrapolations to 10,000\u201320,000 relied on assumptions about surface area that lack standardization and have been critiqued as overestimations by an order of magnitude.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Bazett's work measured densities (e.g., ~115 free nerve endings per cm\u00b2) in small samples but did not provide a total count for the entire f"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bazett's work measured densities (e.g., ~115 free nerve endings per cm\u00b2) in small samples but did not provide a total count for the entire foreskin; extrapolati.",
+      "span": {
+        "quote": "Bazett's work measured densities (e.g., ~115 free nerve endings per cm\u00b2) in small samples but did not provide a total count for the entire foreskin; extrapolati"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per cm\u00b2) in small samples but did not provide a total count for the entire foreskin.",
+      "span": {
+        "quote": "per cm\u00b2) in small samples but did not provide a total count for the entire foreskin"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per cm\u00b2) in small samples but did not provide a total count for the entire foreskin"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0089",
+  "source_text": "This perspective aligns with broader principles of preserving the body's inherent wholeness, where genital alteration is not tied to ritual purity or visual enhancement but viewed as superfluous to spiritual harmony.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective aligns with broader principles of preserving the body's inherent wholeness, where genital alteration is not tied to ritual"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective aligns with broader principles of preserving the body's inherent wholeness, where genital alteration is not tied to ritual purity or visual enh.",
+      "span": {
+        "quote": "This perspective aligns with broader principles of preserving the body's inherent wholeness, where genital alteration is not tied to ritual purity or visual enh"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to ritual purity or visual enhancement but viewed as.",
+      "span": {
+        "quote": "tied to ritual purity or visual enhancement but viewed as"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to ritual purity or visual enhancement but viewed as"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to ritual purity or visual enhancement but viewed as ",
+          "span": {
+            "quote": "tied to ritual purity or visual enhancement but viewed as"
+          }
+        }
+      ]
+    }
+  ]
+}

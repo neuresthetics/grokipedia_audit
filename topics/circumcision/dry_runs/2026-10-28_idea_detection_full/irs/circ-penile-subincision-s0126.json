@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-penile-subincision-s0126",
+  "source_text": "Medical analyses highlight that such modifications, performed on adolescent males typically aged 10-16, can result in permanent anatomical alterations without therapeutic benefit, potentially causing lifelong issues like incontinence or sexual dissatisfaction, paralleling complications observed in other non-medical genital surgeries. [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical analyses highlight that such modifications, performed on adolescent males typically aged 10-16, can result in permanent anatomical a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medical analyses highlight that such modifications, performed on adolescent males typically aged 10-16, can result in permanent anatomical alterations without t.",
+      "span": {
+        "quote": "Medical analyses highlight that such modifications, performed on adolescent males typically aged 10-16, can result in permanent anatomical alterations without t"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

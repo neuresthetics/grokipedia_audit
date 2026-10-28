@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0201",
+  "source_text": "Lower circumcision prevalence in Europe (typically under 20%, except among immigrant Muslim populations) is often cited as evidence of non-necessity, yet this reflects historical and cultural norms\u2014such as post-World War II abandonment in the UK and bans linked to anti-Jewish sentiments in antiquity\u2014rather than superior medical outcomes; European nations exhibit comparable disease rates to high-circumcision regions when adjusted for hygiene and behavior, and some analyses urge reconsideration given universal benefits like reduced human papillomavirus (HPV) persistence. [128] [129]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Lower circumcision prevalence in Europe (typically under 20%, except among immigrant Muslim populations) is often cited as evidence of non-n"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reconsideration given universal benefits like reduced human papillomavirus (HPV) persistence.",
+      "span": {
+        "quote": "reconsideration given universal benefits like reduced human papillomavirus (HPV) persistence."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Uity\u2014rather than superior medical outcomes; European nations exhibit comparable disease rates to high-circumcision regions when adjusted for hygiene and behavio.",
+      "span": {
+        "quote": "uity\u2014rather than superior medical outcomes; European nations exhibit comparable disease rates to high-circumcision regions when adjusted for hygiene and behavio"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to anti-Jewish sentiments in antiquity\u2014rather than superior.",
+      "span": {
+        "quote": "linked to anti-Jewish sentiments in antiquity\u2014rather than superior"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "This reflects historical and cultural norms\u2014such as post-World Wa.",
+      "span": {
+        "quote": "this reflects historical and cultural norms\u2014such as post-World Wa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "urge"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to anti-Jewish sentiments in antiquity\u2014rather than superior"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "instantiates",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "this reflects historical and cultural norms\u2014such as post-Wor"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to anti-Jewish sentiments in antiquity\u2014rather than superior ",
+          "span": {
+            "quote": "linked to anti-Jewish sentiments in antiquity\u2014rather than superior"
+          }
+        }
+      ]
+    }
+  ]
+}

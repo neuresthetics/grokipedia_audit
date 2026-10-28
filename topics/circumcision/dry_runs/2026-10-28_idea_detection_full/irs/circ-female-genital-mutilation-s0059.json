@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0059",
+  "source_text": "Empirical studies document elevated rates of bacterial vaginosis and menstrual retention in excised women, attributable to altered genital architecture that obstructs normal physiological functions. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical studies document elevated rates of bacterial vaginosis and menstrual retention in excised women, attributable to altered genital a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical studies document elevated rates of bacterial vaginosis and menstrual retention in excised women, attributable to altered genital architecture that obs.",
+      "span": {
+        "quote": "Empirical studies document elevated rates of bacterial vaginosis and menstrual retention in excised women, attributable to altered genital architecture that obs"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

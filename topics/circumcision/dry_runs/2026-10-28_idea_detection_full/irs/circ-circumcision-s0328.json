@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-s0328",
+  "source_text": "Randomized trials in sub-Saharan Africa found voluntary medical male circumcision cuts heterosexual HIV acquisition in men by 50-60%, leading to World Health Organization scale-up in high-prevalence areas and averting millions of infections since 2007. [2] [91]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized trials in sub-Saharan Africa found voluntary medical male circumcision cuts heterosexual HIV acquisition in men by 50-60%, leadin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Found voluntary medical male circumcision cuts heterosexual HIV acquisition in men by 50-60%, leading to World Health Organization scale-up in high-prevalence a.",
+      "span": {
+        "quote": "found voluntary medical male circumcision cuts heterosexual HIV acquisition in men by 50-60%, leading to World Health Organization scale-up in high-prevalence a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2007. [2] [91].",
+      "span": {
+        "quote": "2007. [2] [91]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2007. [2] [91]"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0195",
+  "source_text": "The National Health Service (NHS) in England and Wales faces substantial long-term healthcare expenditures attributable to female genital mutilation (FGM), estimated at \u00a3100 million annually based on 2015/16 data, encompassing treatment for complications among an estimated 137,000 affected women and girls. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The National Health Service (NHS) in England and Wales faces substantial long-term healthcare expenditures attributable to female genital mu"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The National Health Service (NHS) in England and Wales faces substantial long-term healthcare expenditures attributable to female genital mutilation (FGM), esti.",
+      "span": {
+        "quote": "The National Health Service (NHS) in England and Wales faces substantial long-term healthcare expenditures attributable to female genital mutilation (FGM), esti"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

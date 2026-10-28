@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0073",
+  "source_text": "Ahmadu argued these accounts challenge Western assumptions of harm, attributing reported issues to cultural stigma rather than the cutting itself.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ahmadu argued these accounts challenge Western assumptions of harm, attributing reported issues to cultural stigma rather than the cutting i"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ese accounts challenge Western assumptions of harm, attributing reported issues to cultural stigma rather than the cutting itself.",
+      "span": {
+        "quote": "ese accounts challenge Western assumptions of harm, attributing reported issues to cultural stigma rather than the cutting itself."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

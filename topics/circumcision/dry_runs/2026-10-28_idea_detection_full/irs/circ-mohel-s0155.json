@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0155",
+  "source_text": "This perspective aligns with liberal ethical theories emphasizing negative liberty\u2014freedom from unwarranted interference\u2014and calls for regulatory reforms to treat circumcision as an adult elective, preserving the option without mandating it on the vulnerable.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective aligns with liberal ethical theories emphasizing negative liberty\u2014freedom from unwarranted interference\u2014and calls for regul"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective aligns with liberal ethical theories emphasizing negative liberty\u2014freedom from unwarranted interference\u2014and calls for regulatory reforms to tre.",
+      "span": {
+        "quote": "This perspective aligns with liberal ethical theories emphasizing negative liberty\u2014freedom from unwarranted interference\u2014and calls for regulatory reforms to tre"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

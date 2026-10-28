@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0136",
+  "source_text": "Labeling the procedure \"mutilation\" overlooks this framework, equating a low-risk, benefit-accruing intervention\u2014comparable to routine ear piercing in some cultures\u2014with non-therapeutic harm, while empirical data supports parental discretion as a bulwark against overreach that could parallel compelled reversals of other childhood norms. [74]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Labeling the procedure \"mutilation\" overlooks this framework, equating a low-risk, benefit-accruing intervention\u2014comparable to routine ear p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Labeling the procedure \"mutilation\" overlooks this framework, equating a low-risk, benefit-accruing intervention\u2014comparable to routine ear piercing in some cult.",
+      "span": {
+        "quote": "Labeling the procedure \"mutilation\" overlooks this framework, equating a low-risk, benefit-accruing intervention\u2014comparable to routine ear piercing in some cult"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

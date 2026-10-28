@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0050",
+  "source_text": "Longitudinal data indicate these benefits stem from improved hygiene and keratinization of the glans, reducing smegma accumulation and bacterial colonization under the foreskin.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Longitudinal data indicate these benefits stem from improved hygiene and keratinization of the glans, reducing smegma accumulation and bacte"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Longitudinal data indicate these benefits stem from improved hygiene and keratinization of the glans, reducing smegma accumulation and bacterial colonization un.",
+      "span": {
+        "quote": "Longitudinal data indicate these benefits stem from improved hygiene and keratinization of the glans, reducing smegma accumulation and bacterial colonization un"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0076",
+  "source_text": "These findings counter unsubstantiated assertions of harm, as lower-quality self-report studies showing differences often suffer from recall bias or confounding factors like cultural attitudes, whereas objective measures (e.g., histological sensitivity assessments) indicate preserved or enhanced penile nerve density in circumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings counter unsubstantiated assertions of harm, as lower-quality self-report studies showing differences often suffer from recall"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings counter unsubstantiated assertions of harm, as lower-quality self-report studies showing differences often suffer from recall bias or confounding.",
+      "span": {
+        "quote": "These findings counter unsubstantiated assertions of harm, as lower-quality self-report studies showing differences often suffer from recall bias or confounding"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated assertions of harm.",
+      "span": {
+        "quote": "unsubstantiated assertions of harm"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated assertions of harm"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

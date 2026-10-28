@@ -1,0 +1,36 @@
+{
+  "passage_id": "self-IDEA_DETECTION-004",
+  "source_text": "The original eight are unchanged, including ad hominem\u2019s trait_irrelevant_to_reasons and claim_rests_on_testimony, the authority settling hedge, false cause\u2019s tentative_hypothesis_for_testing, and the ignorance procedural and precautionary forbids. The added pilots are hasty generalization, slippery slope, false dilemma, appeal to the people (the catalog id; \u201cappeal to popularity\u201d is an alias), and guilt by association. Guilt by association is a separate pattern: an association trait plus supports into an evaluative conclusion. It does not require attacks_person and it does not loosen ad hominem.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The original eight are unchanged, including ad hominem\u2019s trait_irrelevant_to_reasons and claim_rests_on_testimony, the authority settling he"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The original eight are unchanged, including ad hominem\u2019s trait_irrelevant_to_reasons and claim_rests_on_testimony, the authority settling hedge, false cause\u2019s t.",
+      "span": {
+        "quote": "The original eight are unchanged, including ad hominem\u2019s trait_irrelevant_to_reasons and claim_rests_on_testimony, the authority settling hedge, false cause\u2019s t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

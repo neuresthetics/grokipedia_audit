@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0317",
+  "source_text": "Critiques of cultural relativism highlight its tendency to subordinate empirical evidence of harm to abstract tolerance, effectively excusing non-consensual procedures on girls as young as infancy that perpetuate gender inequality and male dominance, regardless of cultural framing. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques of cultural relativism highlight its tendency to subordinate empirical evidence of harm to abstract tolerance, effectively excusin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critiques of cultural relativism highlight its tendency to subordinate empirical evidence of harm to abstract tolerance, effectively excusing non-consensual pro.",
+      "span": {
+        "quote": "Critiques of cultural relativism highlight its tendency to subordinate empirical evidence of harm to abstract tolerance, effectively excusing non-consensual pro"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

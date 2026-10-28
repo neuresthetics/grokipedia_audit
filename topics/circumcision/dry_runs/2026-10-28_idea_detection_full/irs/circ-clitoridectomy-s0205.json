@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0205",
+  "source_text": "From a medical perspective, clitoridectomy, classified as Type I female genital mutilation (FGM) involving partial or total removal of the clitoral prepuce and/or glans, carries significant immediate risks including severe pain, hemorrhage, infection, urinary retention, and tetanus, with mortality rates reported up to 1-2% in some non-sterile settings due to sepsis or shock. [1] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From a medical perspective, clitoridectomy, classified as Type I female genital mutilation (FGM) involving partial or total removal of the c"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From a medical perspective, clitoridectomy, classified as Type I female genital mutilation (FGM) involving partial or total removal of the clitoral prepuce and/.",
+      "span": {
+        "quote": "From a medical perspective, clitoridectomy, classified as Type I female genital mutilation (FGM) involving partial or total removal of the clitoral prepuce and/"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0220",
+  "source_text": "A 2017 study in Nature Ecology & Evolution suggested an evolutionary angle, analyzing Demographic and Health Surveys from five West African countries and finding that, in high-prevalence ethnic groups, cut women had more surviving children by age 40, attributing this to social conformity aiding marriage and resource access. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2017 study in Nature Ecology & Evolution suggested an evolutionary angle, analyzing Demographic and Health Surveys from five West African"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "N evolutionary angle, analyzing Demographic and Health Surveys from five West African countries and finding that, in high-prevalence ethnic groups, cut women ha.",
+      "span": {
+        "quote": "n evolutionary angle, analyzing Demographic and Health Surveys from five West African countries and finding that, in high-prevalence ethnic groups, cut women ha"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "A 2017 study in Nature Ecology & Evolution.",
+      "span": {
+        "quote": "A 2017 study in Nature Ecology & Evolution"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggested"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

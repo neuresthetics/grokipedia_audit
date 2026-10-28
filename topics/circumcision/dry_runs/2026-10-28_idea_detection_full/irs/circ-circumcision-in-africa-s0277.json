@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0277",
+  "source_text": "Opponents' arguments, often emphasizing ethical concerns over consent for minors or unsubstantiated risks of psychological trauma, have been characterized as relying on low-quality evidence, such as ecological studies or anecdotal reports, while disregarding the causal mechanisms\u2014reduced epithelial surface area and Langerhans cells vulnerable to HIV\u2014supported by histological and virological data. [128]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents' arguments, often emphasizing ethical concerns over consent for minors or unsubstantiated risks of psychological trauma, have been"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Opponents' arguments, often emphasizing ethical concerns over consent for minors or unsubstantiated risks of psychological trauma, have been characterized as re.",
+      "span": {
+        "quote": "Opponents' arguments, often emphasizing ethical concerns over consent for minors or unsubstantiated risks of psychological trauma, have been characterized as re"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated risks of psychological trauma.",
+      "span": {
+        "quote": "unsubstantiated risks of psychological trauma"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated risks of psychological trauma"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

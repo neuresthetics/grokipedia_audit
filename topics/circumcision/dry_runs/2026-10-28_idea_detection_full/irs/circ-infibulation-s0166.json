@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0166",
+  "source_text": "Cultural relativists draw parallels to Western practices like genital piercings or tattoos, which involve irreversible modifications for aesthetic or identity reasons without equivalent global condemnation, arguing that selective moral outrage reveals ethnocentric biases rather than universal principles.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural relativists draw parallels to Western practices like genital piercings or tattoos, which involve irreversible modifications for aes"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cultural relativists draw parallels to Western practices like genital piercings or tattoos, which involve irreversible modifications for aesthetic or identity r.",
+      "span": {
+        "quote": "Cultural relativists draw parallels to Western practices like genital piercings or tattoos, which involve irreversible modifications for aesthetic or identity r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

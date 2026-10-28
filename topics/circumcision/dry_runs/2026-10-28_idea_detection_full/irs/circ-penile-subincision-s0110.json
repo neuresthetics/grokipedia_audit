@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0110",
+  "source_text": "The procedure, conducted without anesthesia in remote settings, involves slitting the underside of the penis from the urethra to the base, rendering individual consent from the minor impractical amid communal pressure and ritual preparation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The procedure, conducted without anesthesia in remote settings, involves slitting the underside of the penis from the urethra to the base, r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The procedure, conducted without anesthesia in remote settings, involves slitting the underside of the penis from the urethra to the base, rendering individual.",
+      "span": {
+        "quote": "The procedure, conducted without anesthesia in remote settings, involves slitting the underside of the penis from the urethra to the base, rendering individual "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

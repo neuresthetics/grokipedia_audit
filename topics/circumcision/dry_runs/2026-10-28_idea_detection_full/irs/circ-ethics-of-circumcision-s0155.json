@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0155",
+  "source_text": "Female partners of circumcised men exhibit lower cervical cancer rates, linked to reduced penile HPV transmission; a multinational case-control study of over 1,400 women found monogamous partners of circumcised men had odds ratios for cervical cancer as low as 0.4 compared to partners of uncircumcised men, with greater protection (up to 70% risk reduction) when male partners had multiple prior partners. [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female partners of circumcised men exhibit lower cervical cancer rates, linked to reduced penile HPV transmission; a multinational case-cont"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female partners of circumcised men exhibit lower cervical cancer rates, linked to reduced penile HPV transmission; a multinational case-control study of over 1,.",
+      "span": {
+        "quote": "Female partners of circumcised men exhibit lower cervical cancer rates, linked to reduced penile HPV transmission; a multinational case-control study of over 1,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to reduced penile HPV transmission.",
+      "span": {
+        "quote": "linked to reduced penile HPV transmission"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to reduced penile HPV transmission"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to reduced penile HPV transmission",
+          "span": {
+            "quote": "linked to reduced penile HPV transmission"
+          }
+        }
+      ]
+    }
+  ]
+}

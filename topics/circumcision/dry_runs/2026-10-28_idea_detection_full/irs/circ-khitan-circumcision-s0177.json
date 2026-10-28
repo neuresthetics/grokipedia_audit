@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0177",
+  "source_text": "Bioethicists such as J. Steven Svoboda maintain that such non-therapeutic interventions infringe core human rights to physical inviolability and self-determination, as outlined in documents like the Universal Declaration of Human Rights and the Convention on the Rights of the Child, which prioritize protection from unnecessary harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Bioethicists such as J. Steven Svoboda maintain that such non-therapeutic interventions infringe core human rights to physical inviolability"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such non-therapeutic interventions infringe core human rights to physical inviolability and self-determination, as outlined in documents like the Universal Decl.",
+      "span": {
+        "quote": "such non-therapeutic interventions infringe core human rights to physical inviolability and self-determination, as outlined in documents like the Universal Decl"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Bioethicists such as J. Steven Svoboda.",
+      "span": {
+        "quote": "Bioethicists such as J. Steven Svoboda"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

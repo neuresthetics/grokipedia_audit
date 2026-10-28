@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0100",
+  "source_text": "Following its unanimous adoption by acclamation at the Fourth International Symposium on Sexual Mutilations on August 11, 1996, the Ashley Montagu Resolution was positioned as a formal petition to the International Court of Justice (World Court) in The Hague, calling for a declaratory judgment that non-therapeutic genital mutilations of children violate core provisions of the United Nations Universal Declaration of Human Rights and the Convention on the Rights of the Child. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Following its unanimous adoption by acclamation at the Fourth International Symposium on Sexual Mutilations on August 11, 1996, the Ashley M"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Following its unanimous adoption by acclamation at the Fourth International Symposium on Sexual Mutilations on August 11, 1996, the Ashley Montagu Resolution wa.",
+      "span": {
+        "quote": "Following its unanimous adoption by acclamation at the Fourth International Symposium on Sexual Mutilations on August 11, 1996, the Ashley Montagu Resolution wa"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A formal petition to the International Court of Justice (World.",
+      "span": {
+        "quote": "a formal petition to the International Court of Justice (World"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a formal petition to the International Court of Justice (Wor"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

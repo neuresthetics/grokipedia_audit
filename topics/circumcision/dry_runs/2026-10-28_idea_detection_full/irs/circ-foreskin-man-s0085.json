@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-foreskin-man-s0085",
+  "source_text": "These findings, endorsed by the World Health Organization for high-prevalence settings, prompted scale-up efforts in 15 priority African countries, where over 27 million procedures have been performed since 2007. [51]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings, endorsed by the World Health Organization for high-prevalence settings, prompted scale-up efforts in 15 priority African cou"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings, endorsed by the World Health Organization for high-prevalence settings, prompted scale-up efforts in 15 priority African countries, where over 2.",
+      "span": {
+        "quote": "These findings, endorsed by the World Health Organization for high-prevalence settings, prompted scale-up efforts in 15 priority African countries, where over 2"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2007. [51].",
+      "span": {
+        "quote": "2007. [51]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2007. [51]"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

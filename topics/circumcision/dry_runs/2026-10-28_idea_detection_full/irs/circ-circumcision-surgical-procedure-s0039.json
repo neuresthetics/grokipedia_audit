@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0039",
+  "source_text": "This reduction is attributed to decreased chronic inflammation, phimosis-related issues, and human papillomavirus (HPV) persistence under the foreskin, conditions that facilitate carcinogenesis; penile cancer remains rare overall, with annual U.S. incidence rates of 1 in 100,000 uncircumcised men versus near-zero in circumcised populations. [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This reduction is attributed to decreased chronic inflammation, phimosis-related issues, and human papillomavirus (HPV) persistence under th"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This reduction is attributed to decreased chronic inflammation, phimosis-related issues, and human papillomavirus (HPV) persistence under the foreskin, conditio.",
+      "span": {
+        "quote": "This reduction is attributed to decreased chronic inflammation, phimosis-related issues, and human papillomavirus (HPV) persistence under the foreskin, conditio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

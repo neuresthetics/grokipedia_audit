@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0182",
+  "source_text": "The decision provoked widespread condemnation from Jewish and Muslim leaders for threatening religious survival post-Holocaust, prompting Germany's Bundestag to enact a federal law in December 2012 legalizing circumcision for boys up to six months by trained practitioners, with anesthesia recommended and parental liability shielded if complications arise. [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The decision provoked widespread condemnation from Jewish and Muslim leaders for threatening religious survival post-Holocaust, prompting Ge"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The decision provoked widespread condemnation from Jewish and Muslim leaders for threatening religious survival post-Holocaust, prompting Germany's Bundestag to.",
+      "span": {
+        "quote": "The decision provoked widespread condemnation from Jewish and Muslim leaders for threatening religious survival post-Holocaust, prompting Germany's Bundestag to"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0199",
+  "source_text": "These healthcare demands impose a persistent fiscal strain on public resources, as FGM-related conditions often require lifelong management, including de-infibulation procedures (\u00a3343,000 annually) and unquantified issues like cysts, infertility, and heightened HIV transmission risks due to insufficient UK-specific evidence. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These healthcare demands impose a persistent fiscal strain on public resources, as FGM-related conditions often require lifelong management,"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These healthcare demands impose a persistent fiscal strain on public resources, as FGM-related conditions often require lifelong management, including de-infibu.",
+      "span": {
+        "quote": "These healthcare demands impose a persistent fiscal strain on public resources, as FGM-related conditions often require lifelong management, including de-infibu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

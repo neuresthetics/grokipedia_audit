@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0175",
+  "source_text": "Initial modeling by UNAIDS, WHO, and partners in 2011 projected that achieving 80% coverage among males aged 15-49 could avert 3.4 million HIV infections and save $2 billion in treatment costs by 2025, guiding national strategies with targets like 20 million VMMCs by 2015. [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Initial modeling by UNAIDS, WHO, and partners in 2011 projected that achieving 80% coverage among males aged 15-49 could avert 3.4 million H"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Initial modeling by UNAIDS, WHO, and partners in 2011 projected that achieving 80% coverage among males aged 15-49 could avert 3.4 million HIV infections and sa.",
+      "span": {
+        "quote": "Initial modeling by UNAIDS, WHO, and partners in 2011 projected that achieving 80% coverage among males aged 15-49 could avert 3.4 million HIV infections and sa"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

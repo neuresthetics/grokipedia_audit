@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0259",
+  "source_text": "Proponents of infant or non-consensual male circumcision argue that empirical evidence supports net public health benefits, justifying the procedure despite the absence of the recipient's consent, as lifelong protections accrue from an early, low-risk intervention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of infant or non-consensual male circumcision argue that empirical evidence supports net public health benefits, justifying the p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical evidence supports net public health benefits, justifying the procedure despite the absence of the recipient's consent, as lifelong protections accrue.",
+      "span": {
+        "quote": "empirical evidence supports net public health benefits, justifying the procedure despite the absence of the recipient's consent, as lifelong protections accrue "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of infant or non-consensual male circumcision.",
+      "span": {
+        "quote": "Proponents of infant or non-consensual male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

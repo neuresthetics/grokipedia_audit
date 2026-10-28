@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0150",
+  "source_text": "Longitudinal health data refute purported hygienic benefits of FGM, revealing instead heightened vulnerability to recurrent urinary tract infections and chronic pelvic inflammation attributable to altered anatomy and scarring.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Longitudinal health data refute purported hygienic benefits of FGM, revealing instead heightened vulnerability to recurrent urinary tract in"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Longitudinal health data refute purported hygienic benefits of FGM, revealing instead heightened vulnerability to recurrent urinary tract infections and chronic.",
+      "span": {
+        "quote": "Longitudinal health data refute purported hygienic benefits of FGM, revealing instead heightened vulnerability to recurrent urinary tract infections and chronic"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

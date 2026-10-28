@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0333",
+  "source_text": "Ethically, while both male circumcision and Western modifications raise autonomy concerns for minors or cultural pressures, the irreversible, pleasure-denying harm of FGM justifies distinct condemnation, as non-equivalence is grounded in verifiable physiological and epidemiological data rather than moral relativism.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethically, while both male circumcision and Western modifications raise autonomy concerns for minors or cultural pressures, the irreversible"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethically, while both male circumcision and Western modifications raise autonomy concerns for minors or cultural pressures, the irreversible, pleasure-denying h.",
+      "span": {
+        "quote": "Ethically, while both male circumcision and Western modifications raise autonomy concerns for minors or cultural pressures, the irreversible, pleasure-denying h"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0272",
+  "source_text": "Ultimately, the discourse underscores a tension between irreversible parental proxy decisions and adult remediation efforts, with restoration serving as empirical testament to circumcision's potential for long-term dissatisfaction among 6-10% of affected men based on self-reports. [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ultimately, the discourse underscores a tension between irreversible parental proxy decisions and adult remediation efforts, with restoratio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ultimately, the discourse underscores a tension between irreversible parental proxy decisions and adult remediation efforts, with restoration serving as empiric.",
+      "span": {
+        "quote": "Ultimately, the discourse underscores a tension between irreversible parental proxy decisions and adult remediation efforts, with restoration serving as empiric"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

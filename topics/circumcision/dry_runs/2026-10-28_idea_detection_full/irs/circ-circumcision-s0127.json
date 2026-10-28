@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0127",
+  "source_text": "A 2026 prospective U.S. cohort study of 2,771 boys from the Environmental Influences on Child Health Outcomes (ECHO) Cohort, published in JAMA Pediatrics, found no association between neonatal medical male circumcision and ASD diagnosis or autism-related traits after adjustment for confounders (adjusted OR 0.83; 95% CI 0.59\u20131.17).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2026 prospective U.S. cohort study of 2,771 boys from the Environmental Influences on Child Health Outcomes (ECHO) Cohort, published in JA"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2026 prospective U.S. cohort study of 2,771 boys from the Environmental Influences on Child Health Outcomes (ECHO) Cohort, published in JAMA Pediatrics, found.",
+      "span": {
+        "quote": "A 2026 prospective U.S. cohort study of 2,771 boys from the Environmental Influences on Child Health Outcomes (ECHO) Cohort, published in JAMA Pediatrics, found"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

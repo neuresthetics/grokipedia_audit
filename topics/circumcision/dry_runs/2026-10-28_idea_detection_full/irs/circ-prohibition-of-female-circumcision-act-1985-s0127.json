@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0127",
+  "source_text": "Counterarguments prioritized empirical evidence of harm, emphasizing that FGM\u2014typically performed on girls under 15 without anesthesia\u2014involves partial or total excision of external genitalia, leading to immediate risks like severe bleeding, infection, and shock, alongside long-term consequences including chronic pain, urinary and menstrual disorders, obstetric complications (e.g., increased cesarean needs and perinatal mortality), and psychological trauma such as depression and post-traumatic stress. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Counterarguments prioritized empirical evidence of harm, emphasizing that FGM\u2014typically performed on girls under 15 without anesthesia\u2014invol"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Counterarguments prioritized empirical evidence of harm, emphasizing that FGM\u2014typically performed on girls under 15 without anesthesia\u2014involves partial or total.",
+      "span": {
+        "quote": "Counterarguments prioritized empirical evidence of harm, emphasizing that FGM\u2014typically performed on girls under 15 without anesthesia\u2014involves partial or total"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

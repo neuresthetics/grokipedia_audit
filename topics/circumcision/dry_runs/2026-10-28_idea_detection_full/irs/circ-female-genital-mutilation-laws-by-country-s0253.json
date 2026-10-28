@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0253",
+  "source_text": "Universalism posits that female genital mutilation (FGM) violates inherent human rights, such as bodily autonomy and protection from harm, which transcend cultural boundaries and justify global prohibition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Universalism posits that female genital mutilation (FGM) violates inherent human rights, such as bodily autonomy and protection from harm, w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Universalism posits that female genital mutilation (FGM) violates inherent human rights, such as bodily autonomy and protection from harm, which transcend cultu.",
+      "span": {
+        "quote": "Universalism posits that female genital mutilation (FGM) violates inherent human rights, such as bodily autonomy and protection from harm, which transcend cultu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

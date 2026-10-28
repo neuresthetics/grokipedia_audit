@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0277",
+  "source_text": "However, it is not routinely recommended for physiologic phimosis in children, which often resolves spontaneously by adolescence in up to 90% of cases without intervention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, it is not routinely recommended for physiologic phimosis in children, which often resolves spontaneously by adolescence in up to 90"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, it is not routinely recommended for physiologic phimosis in children, which often resolves spontaneously by adolescence in up to 90% of cases without i.",
+      "span": {
+        "quote": "However, it is not routinely recommended for physiologic phimosis in children, which often resolves spontaneously by adolescence in up to 90% of cases without i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

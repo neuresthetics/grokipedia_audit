@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0184",
+  "source_text": "Female genital mutilation (FGM) causes immediate physical complications such as severe pain, haemorrhage, genital swelling, infections (including tetanus), urinary retention, and wound disruption, which can result in shock or death, particularly when performed without anaesthesia or sterile instruments. [47] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) causes immediate physical complications such as severe pain, haemorrhage, genital swelling, infections (incl"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) causes immediate physical complications such as severe pain, haemorrhage, genital swelling, infections (including tetanus), urin.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) causes immediate physical complications such as severe pain, haemorrhage, genital swelling, infections (including tetanus), urin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

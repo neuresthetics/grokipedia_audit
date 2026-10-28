@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0138",
+  "source_text": "Specifically, it cites, inter alia, Article 2 of the UDHR (prohibiting discrimination) and Article 37 of the UNCRC (protecting children from torture or other cruel, inhuman, or degrading treatment or punishment), arguing these practices contravene fundamental protections against bodily harm without consent. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Specifically, it cites, inter alia, Article 2 of the UDHR (prohibiting discrimination) and Article 37 of the UNCRC (protecting children from"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Specifically, it cites, inter alia, Article 2 of the UDHR (prohibiting discrimination) and Article 37 of the UNCRC (protecting children from torture or other cr.",
+      "span": {
+        "quote": "Specifically, it cites, inter alia, Article 2 of the UDHR (prohibiting discrimination) and Article 37 of the UNCRC (protecting children from torture or other cr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0158",
+  "source_text": "Traditional rationales for FGM in these animist contexts emphasize preservation of chastity, enhancement of fertility, and safeguarding clan purity against spiritual impurities associated with unaltered genitalia.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional rationales for FGM in these animist contexts emphasize preservation of chastity, enhancement of fertility, and safeguarding clan"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Preservation of chastity, enhancement of fertility, and safeguarding clan purity against spiritual impurities associated with unaltered genitalia.",
+      "span": {
+        "quote": "preservation of chastity, enhancement of fertility, and safeguarding clan purity against spiritual impurities associated with unaltered genitalia."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Traditional rationales for FGM in these animist contexts.",
+      "span": {
+        "quote": "Traditional rationales for FGM in these animist contexts"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with unaltered genitalia.",
+      "span": {
+        "quote": "associated with unaltered genitalia"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with unaltered genitalia"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with unaltered genitalia",
+          "span": {
+            "quote": "associated with unaltered genitalia"
+          }
+        }
+      ]
+    }
+  ]
+}

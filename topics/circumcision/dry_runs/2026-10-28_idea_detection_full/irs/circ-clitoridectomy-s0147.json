@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-clitoridectomy-s0147",
+  "source_text": "In traditional non-medical contexts, absence of pain control and hygiene amplifies all hazards, underscoring higher complication burdens per available evidence. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In traditional non-medical contexts, absence of pain control and hygiene amplifies all hazards, underscoring higher complication burdens per"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In traditional non-medical contexts, absence of pain control and hygiene amplifies all hazards, underscoring higher complication burdens per available evidence.",
+      "span": {
+        "quote": "In traditional non-medical contexts, absence of pain control and hygiene amplifies all hazards, underscoring higher complication burdens per available evidence."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per available evidence.",
+      "span": {
+        "quote": "per available evidence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per available evidence"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

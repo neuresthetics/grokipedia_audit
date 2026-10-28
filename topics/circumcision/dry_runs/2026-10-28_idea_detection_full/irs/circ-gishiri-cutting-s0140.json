@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0140",
+  "source_text": "For instance, a 2014 analysis by the Center for Arab Women Training and Research (CAWTAR) describes Gishiri incision as a specific variant of Type IV FGM, highlighting its cultural rationale but underscoring the associated health risks that align with FGM's harmful classification. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, a 2014 analysis by the Center for Arab Women Training and Research (CAWTAR) describes Gishiri incision as a specific variant o"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, a 2014 analysis by the Center for Arab Women Training and Research (CAWTAR) describes Gishiri incision as a specific variant of Type IV FGM, highl.",
+      "span": {
+        "quote": "For instance, a 2014 analysis by the Center for Arab Women Training and Research (CAWTAR) describes Gishiri incision as a specific variant of Type IV FGM, highl"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

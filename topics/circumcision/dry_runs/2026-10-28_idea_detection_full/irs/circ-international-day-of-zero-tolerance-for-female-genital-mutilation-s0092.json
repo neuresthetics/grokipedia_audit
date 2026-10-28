@@ -1,0 +1,103 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0092",
+  "source_text": "Additional beliefs include enhancing hygiene by purportedly eliminating odors or uncleanliness associated with intact genitalia, and aesthetic ideals aligning with local standards of beauty, though these claims lack empirical support from medical evidence. [29]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional beliefs include enhancing hygiene by purportedly eliminating odors or uncleanliness associated with intact genitalia, and aesthet"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Lack empirical support from medical evidence.",
+      "span": {
+        "quote": "lack empirical support from medical evidence."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ude enhancing hygiene by purportedly eliminating odors or uncleanliness associated with intact genitalia, and aesthetic ideals aligning with local standards of.",
+      "span": {
+        "quote": "ude enhancing hygiene by purportedly eliminating odors or uncleanliness associated with intact genitalia, and aesthetic ideals aligning with local standards of "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with intact genitalia.",
+      "span": {
+        "quote": "associated with intact genitalia"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with intact genitalia"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with intact genitalia",
+          "span": {
+            "quote": "associated with intact genitalia"
+          }
+        }
+      ]
+    }
+  ]
+}

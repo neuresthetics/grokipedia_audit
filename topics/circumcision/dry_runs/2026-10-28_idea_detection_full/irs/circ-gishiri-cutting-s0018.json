@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0018",
+  "source_text": "Medical studies indicate it accounts for 1\u201318% of genitourinary fistulas in affected regions, highlighting its iatrogenic potential despite traditional therapeutic intent. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical studies indicate it accounts for 1\u201318% of genitourinary fistulas in affected regions, highlighting its iatrogenic potential despite"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medical studies indicate it accounts for 1\u201318% of genitourinary fistulas in affected regions, highlighting its iatrogenic potential despite traditional therapeu.",
+      "span": {
+        "quote": "Medical studies indicate it accounts for 1\u201318% of genitourinary fistulas in affected regions, highlighting its iatrogenic potential despite traditional therapeu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

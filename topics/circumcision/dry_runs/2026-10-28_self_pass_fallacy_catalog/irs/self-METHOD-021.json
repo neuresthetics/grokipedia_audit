@@ -1,0 +1,56 @@
+{
+  "passage_id": "self-METHOD-021",
+  "source_text": "Conditions: 1. A claim is supported by what some person or body says: met (\"every national health agency ... agree\"). 2. At least one of: the source is not an expert on this question; experts substantially disagree; the source cannot be trusted; the source is misquoted: **not met**. Health agencies and reviews of trial data are expert sources on this question, the passage reports agreement, and nothing in the text suggests a misquote.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conditions: 1. A claim is supported by what some person or body says: met (\"every national health agency ... agree\"). 2. At least one of: th"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is supported by what some person or body says:.",
+      "span": {
+        "quote": "is supported by what some person or body says:"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "A claim is supported by what some person or body says: met (\"e.",
+      "span": {
+        "quote": "A claim is supported by what some person or body says: met (\"e"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "A claim is supported by what some person or body says: met ("
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

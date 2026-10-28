@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0184",
+  "source_text": "The American Medical Association's ethics analysis asserts that nontherapeutic circumcision conflicts with principles of nonmaleficence and respect for autonomy, recommending postponement to allow informed adult decision-making, as endorsed by bodies like the Danish Medical Association in 2016. [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Medical Association's ethics analysis asserts that nontherapeutic circumcision conflicts with principles of nonmaleficence and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nontherapeutic circumcision conflicts with principles of nonmaleficence and respect for autonomy, recommending postponement to allow informed adult decision-mak.",
+      "span": {
+        "quote": "nontherapeutic circumcision conflicts with principles of nonmaleficence and respect for autonomy, recommending postponement to allow informed adult decision-mak"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Medical Association's ethics analysis.",
+      "span": {
+        "quote": "The American Medical Association's ethics analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "asserts"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

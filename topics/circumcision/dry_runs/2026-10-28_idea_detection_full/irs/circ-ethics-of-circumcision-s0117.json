@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0117",
+  "source_text": "The Centers for Disease Control and Prevention (CDC), through its 2014 draft recommendations, affirmed that the benefits of male circumcision outweigh the risks based on evidence from randomized trials and observational studies, advising healthcare providers to discuss these with parents of newborn males, adolescents, and adult men seeking the procedure. [73] [74]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Centers for Disease Control and Prevention (CDC), through its 2014 draft recommendations, affirmed that the benefits of male circumcisio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Centers for Disease Control and Prevention (CDC), through its 2014 draft recommendations, affirmed that the benefits of male circumcision outweigh the risks.",
+      "span": {
+        "quote": "The Centers for Disease Control and Prevention (CDC), through its 2014 draft recommendations, affirmed that the benefits of male circumcision outweigh the risks"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

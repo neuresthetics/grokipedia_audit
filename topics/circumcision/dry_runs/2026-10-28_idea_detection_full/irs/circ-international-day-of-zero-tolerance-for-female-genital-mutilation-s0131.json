@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0131",
+  "source_text": "Sexual health suffers from dyspareunia (painful intercourse) in 40-60% of cases and reduced lubrication from clitoral excision, contributing to vaginismus and fistulas (vesico-vaginal or recto-vaginal) in 5-20% of severe cases.00542-9/fulltext) [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sexual health suffers from dyspareunia (painful intercourse) in 40-60% of cases and reduced lubrication from clitoral excision, contributing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sexual health suffers from dyspareunia (painful intercourse) in 40-60% of cases and reduced lubrication from clitoral excision, contributing to vaginismus and f.",
+      "span": {
+        "quote": "Sexual health suffers from dyspareunia (painful intercourse) in 40-60% of cases and reduced lubrication from clitoral excision, contributing to vaginismus and f"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

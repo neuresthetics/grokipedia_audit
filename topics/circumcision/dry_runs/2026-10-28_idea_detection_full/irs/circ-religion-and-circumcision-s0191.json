@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0191",
+  "source_text": "The debate intensifies over religious exemptions, where freedom of belief clashes with universal child protections; for instance, European human rights frameworks (e.g., ECHR Article 9) permit parental religious decisions but subordinate them to health imperatives, prompting calls for regulation or bans on infant procedures to safeguard bodily sovereignty. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The debate intensifies over religious exemptions, where freedom of belief clashes with universal child protections; for instance, European h"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The debate intensifies over religious exemptions, where freedom of belief clashes with universal child protections; for instance, European human rights framewor.",
+      "span": {
+        "quote": "The debate intensifies over religious exemptions, where freedom of belief clashes with universal child protections; for instance, European human rights framewor"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

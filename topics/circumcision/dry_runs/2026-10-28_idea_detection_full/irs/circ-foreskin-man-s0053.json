@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0053",
+  "source_text": "Groups like Bloodstained Men, known for visceral public demonstrations, operate in parallel to Hess's work but without documented joint initiatives, though both employ hyperbolic visuals to underscore circumcision's permanence and sensory losses, such as the removal of approximately 20,000 specialized nerve endings in the foreskin. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Groups like Bloodstained Men, known for visceral public demonstrations, operate in parallel to Hess's work but without documented joint init"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Groups like Bloodstained Men, known for visceral public demonstrations, operate in parallel to Hess's work but without documented joint initiatives, though both.",
+      "span": {
+        "quote": "Groups like Bloodstained Men, known for visceral public demonstrations, operate in parallel to Hess's work but without documented joint initiatives, though both"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

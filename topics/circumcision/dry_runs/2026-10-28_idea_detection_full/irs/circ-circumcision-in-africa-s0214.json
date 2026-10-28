@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0214",
+  "source_text": "Real-world implementation via VMMC programs in 15 priority sub-Saharan African countries since 2008 has yielded observational evidence aligning with trial results, with field effectiveness estimated at over 60% reduction in HIV incidence among circumcised men. [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Real-world implementation via VMMC programs in 15 priority sub-Saharan African countries since 2008 has yielded observational evidence align"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Real-world implementation via VMMC programs in 15 priority sub-Saharan African countries.",
+      "span": {
+        "quote": "Real-world implementation via VMMC programs in 15 priority sub-Saharan African countries"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2008 has yielded observational evidence aligning with trial results, with field effectiveness estimated at over 60% reduction in HIV incidence among circumcised.",
+      "span": {
+        "quote": "2008 has yielded observational evidence aligning with trial results, with field effectiveness estimated at over 60% reduction in HIV incidence among circumcised"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2008 has yielded observational evidence aligning with trial"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

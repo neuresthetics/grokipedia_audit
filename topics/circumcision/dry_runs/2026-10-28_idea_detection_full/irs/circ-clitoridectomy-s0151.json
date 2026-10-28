@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-clitoridectomy-s0151",
+  "source_text": "Scar formation at the surgical site can cause chronic vulvar pain, neuromas, or clitoral cysts, persisting for years post-procedure. [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scar formation at the surgical site can cause chronic vulvar pain, neuromas, or clitoral cysts, persisting for years post-procedure. [73]"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scar formation at the surgical site can cause chronic vulvar pain, neuromas, or clitoral cysts, persisting for years post-procedure. [73].",
+      "span": {
+        "quote": "Scar formation at the surgical site can cause chronic vulvar pain, neuromas, or clitoral cysts, persisting for years post-procedure. [73]"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

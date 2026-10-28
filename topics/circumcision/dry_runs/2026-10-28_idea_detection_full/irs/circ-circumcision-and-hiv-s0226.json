@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0226",
+  "source_text": "Similarly, the Rakai trial reported stable or decreased risky behaviors post-circumcision, with no rise in HIV incidence attributable to behavioral changes. [110]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, the Rakai trial reported stable or decreased risky behaviors post-circumcision, with no rise in HIV incidence attributable to beh"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, the Rakai trial reported stable or decreased risky behaviors post-circumcision, with no rise in HIV incidence attributable to behavioral changes. [11.",
+      "span": {
+        "quote": "Similarly, the Rakai trial reported stable or decreased risky behaviors post-circumcision, with no rise in HIV incidence attributable to behavioral changes. [11"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

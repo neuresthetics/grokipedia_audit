@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0213",
+  "source_text": "Ethical analyses contend that such payments, if exceeding actual economic losses, can act as \"substantially controlling\" factors, especially for economically vulnerable men, thereby compromising voluntariness and resembling coercion rather than reimbursement. [106]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical analyses contend that such payments, if exceeding actual economic losses, can act as \"substantially controlling\" factors, especially"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethical analyses contend that such payments, if exceeding actual economic losses, can act as \"substantially controlling\" factors, especially for economically vu.",
+      "span": {
+        "quote": "Ethical analyses contend that such payments, if exceeding actual economic losses, can act as \"substantially controlling\" factors, especially for economically vu"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Compromising voluntariness and resembling coercion rather than reimbursement. [106].",
+      "span": {
+        "quote": "compromising voluntariness and resembling coercion rather than reimbursement. [106]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

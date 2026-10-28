@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0070",
+  "source_text": "This trend occurred amid stable or increasing sexually transmitted infection (STI) rates overall, with cohort studies showing higher HIV and other STI incidences among uncircumcised men after multivariate adjustment for confounders like condom use and partner numbers, though population effects remain diluted by high baseline prevention measures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This trend occurred amid stable or increasing sexually transmitted infection (STI) rates overall, with cohort studies showing higher HIV and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This trend occurred amid stable or increasing sexually transmitted infection (STI) rates overall, with cohort studies showing higher HIV and other STI incidence.",
+      "span": {
+        "quote": "This trend occurred amid stable or increasing sexually transmitted infection (STI) rates overall, with cohort studies showing higher HIV and other STI incidence"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

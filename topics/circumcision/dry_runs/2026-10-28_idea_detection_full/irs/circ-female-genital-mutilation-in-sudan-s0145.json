@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0145",
+  "source_text": "Case reports document life-threatening infections such as necrotizing fasciitis in young girls post-FGM, requiring hospitalization and intensive treatment. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Case reports document life-threatening infections such as necrotizing fasciitis in young girls post-FGM, requiring hospitalization and inten"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Case reports document life-threatening infections such as necrotizing fasciitis in young girls post-FGM, requiring hospitalization and intensive treatment. [15].",
+      "span": {
+        "quote": "Case reports document life-threatening infections such as necrotizing fasciitis in young girls post-FGM, requiring hospitalization and intensive treatment. [15]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

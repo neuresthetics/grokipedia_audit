@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0210",
+  "source_text": "In the South African trial (Orange Farm), interim analysis showed a 60% (95% CI: 32-76%) reduction after 18 months, leading to early termination and recommendation for scale-up. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the South African trial (Orange Farm), interim analysis showed a 60% (95% CI: 32-76%) reduction after 18 months, leading to early termina"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the South African trial (Orange Farm), interim analysis showed a 60% (95% CI: 32-76%) reduction after 18 months, leading to early termination and recommendat.",
+      "span": {
+        "quote": "In the South African trial (Orange Farm), interim analysis showed a 60% (95% CI: 32-76%) reduction after 18 months, leading to early termination and recommendat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

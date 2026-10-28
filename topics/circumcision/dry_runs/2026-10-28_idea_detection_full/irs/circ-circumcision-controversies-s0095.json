@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0095",
+  "source_text": "Analogies to female genital mutilation (FGM) underscore non-consensual parallels: both entail cultural or parental imposition of genital excision on minors, altering healthy anatomy without therapeutic imperative, yet FGM faces universal condemnation while male circumcision evades equivalent scrutiny.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Analogies to female genital mutilation (FGM) underscore non-consensual parallels: both entail cultural or parental imposition of genital exc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Analogies to female genital mutilation (FGM) underscore non-consensual parallels: both entail cultural or parental imposition of genital excision on minors, alt.",
+      "span": {
+        "quote": "Analogies to female genital mutilation (FGM) underscore non-consensual parallels: both entail cultural or parental imposition of genital excision on minors, alt"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

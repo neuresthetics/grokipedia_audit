@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0201",
+  "source_text": "Khitan, the Islamic practice of male circumcision, surgically excises the foreskin covering the glans penis, preserving the organ's primary erectile and urinary functions while removing a non-vital cutaneous layer. [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Khitan, the Islamic practice of male circumcision, surgically excises the foreskin covering the glans penis, preserving the organ's primary"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Khitan, the Islamic practice of male circumcision, surgically excises the foreskin covering the glans penis, preserving the organ's primary erectile and urinary.",
+      "span": {
+        "quote": "Khitan, the Islamic practice of male circumcision, surgically excises the foreskin covering the glans penis, preserving the organ's primary erectile and urinary"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

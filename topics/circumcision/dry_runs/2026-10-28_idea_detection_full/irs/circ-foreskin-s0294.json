@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-foreskin-s0294",
+  "source_text": "Evidence-based policies should thus differentiate contexts: promote adult voluntary circumcision in high-risk epidemics per WHO data, but in low-prevalence regions, default to preservation with parental opt-in only after disclosing absolute risks (e.g., 1 in 500 severe complications) versus benefits, avoiding public funding for non-therapeutic procedures to align incentives with empirical net gains. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Evidence-based policies should thus differentiate contexts: promote adult voluntary circumcision in high-risk epidemics per WHO data, but in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Evidence-based policies should.",
+      "span": {
+        "quote": "Evidence-based policies should"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c2",
+      "text": "Differentiate contexts: promote adult voluntary circumcision in high-risk epidemics per WHO data, but in low-prevalence regions, default to preservation with pa.",
+      "span": {
+        "quote": "differentiate contexts: promote adult voluntary circumcision in high-risk epidemics per WHO data, but in low-prevalence regions, default to preservation with pa"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Per WHO data.",
+      "span": {
+        "quote": "per WHO data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "per WHO data"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

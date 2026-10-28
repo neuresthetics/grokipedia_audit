@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-milah-s0076",
+  "source_text": "Rabbinic interpretations emphasize brit milah's role beyond mere covenantal sign: Maimonides (Rambam) in his Mishneh Torah (Hilchot Milah) and commentary views it as surgically diminishing excessive sexual impulse, thereby aiding adherence to Torah prohibitions against illicit relations and fostering self-control. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rabbinic interpretations emphasize brit milah's role beyond mere covenantal sign: Maimonides (Rambam) in his Mishneh Torah (Hilchot Milah) a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rpretations emphasize brit milah's role beyond mere covenantal sign: Maimonides (Rambam) in his Mishneh Torah (Hilchot Milah) and commentary views it as surgica.",
+      "span": {
+        "quote": "rpretations emphasize brit milah's role beyond mere covenantal sign: Maimonides (Rambam) in his Mishneh Torah (Hilchot Milah) and commentary views it as surgica"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Aiding adherence to Torah prohibitions against illicit relations and fostering self-control. [32].",
+      "span": {
+        "quote": "aiding adherence to Torah prohibitions against illicit relations and fostering self-control. [32]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

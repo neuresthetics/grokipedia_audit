@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0038",
+  "source_text": "Critics of equivalence, drawing from cross-cultural data, note FGM's unique permanence and health risks (e.g., chronic infections in 20-30% of cases) as markers of control, not equivalence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of equivalence, drawing from cross-cultural data, note FGM's unique permanence and health risks (e.g., chronic infections in 20-30%"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics of equivalence, drawing from cross-cultural data, note FGM's unique permanence and health risks (e.g., chronic infections in 20-30% of cases) as markers.",
+      "span": {
+        "quote": "Critics of equivalence, drawing from cross-cultural data, note FGM's unique permanence and health risks (e.g., chronic infections in 20-30% of cases) as markers"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

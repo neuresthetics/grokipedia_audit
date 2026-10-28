@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0216",
+  "source_text": "In high-burden settings like Nyanza Province, Kenya, post-program HIV incidence dropped by 25-30% in circumcised cohorts compared to uncircumcised, per longitudinal cohort studies. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high-burden settings like Nyanza Province, Kenya, post-program HIV incidence dropped by 25-30% in circumcised cohorts compared to uncircu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high-burden settings like Nyanza Province, Kenya, post-program HIV incidence dropped by 25-30% in circumcised cohorts compared to uncircumcised, per longitud.",
+      "span": {
+        "quote": "In high-burden settings like Nyanza Province, Kenya, post-program HIV incidence dropped by 25-30% in circumcised cohorts compared to uncircumcised, per longitud"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per longitudinal cohort studies.",
+      "span": {
+        "quote": "per longitudinal cohort studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per longitudinal cohort studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0131",
+  "source_text": "A cross-sectional study of 638 Somali women in Arizona found no significant association between FGC status and psychological distress or adverse physical health outcomes (including sexual, obstetric, and gynecological issues) after adjusting for discrimination experiences, with self-reported discrimination increasing odds of distress by over fivefold (OR=5.11, 95% CI: 3.63\u20137.20) and physical issues by 2.68-fold (OR=2.68, 95% CI: 2.10\u20133.43). [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A cross-sectional study of 638 Somali women in Arizona found no significant association between FGC status and psychological distress or adv"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A cross-sectional study of 638 Somali women in Arizona found no significant association between FGC status and psychological distress or adverse physical health.",
+      "span": {
+        "quote": "A cross-sectional study of 638 Somali women in Arizona found no significant association between FGC status and psychological distress or adverse physical health"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

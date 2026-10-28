@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0194",
+  "source_text": "Overall, these strategies prioritized causal HIV prevention through population-level coverage, with empirical audits confirming procedural safety comparable to high-income settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, these strategies prioritized causal HIV prevention through population-level coverage, with empirical audits confirming procedural s"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, these strategies prioritized causal HIV prevention through population-level coverage, with empirical audits confirming procedural safety comparable to.",
+      "span": {
+        "quote": "Overall, these strategies prioritized causal HIV prevention through population-level coverage, with empirical audits confirming procedural safety comparable to "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

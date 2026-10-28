@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0172",
+  "source_text": "For example, in Indonesia's diverse ethnic tapestry, animist-influenced communities in regions like Kalimantan integrate pricking ceremonies with Islamic sunat perempuan, viewing persistence as resistance to Western secularism and preservation of ethnic cohesion. [87]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, in Indonesia's diverse ethnic tapestry, animist-influenced communities in regions like Kalimantan integrate pricking ceremonies"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, in Indonesia's diverse ethnic tapestry, animist-influenced communities in regions like Kalimantan integrate pricking ceremonies with Islamic sunat.",
+      "span": {
+        "quote": "For example, in Indonesia's diverse ethnic tapestry, animist-influenced communities in regions like Kalimantan integrate pricking ceremonies with Islamic sunat "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

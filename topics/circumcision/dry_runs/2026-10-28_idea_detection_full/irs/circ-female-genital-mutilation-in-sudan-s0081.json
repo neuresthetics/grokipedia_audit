@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0081",
+  "source_text": "In Sudan, Sufi tariqas and some Salafi-leaning groups have historically promoted FGM as a sunnah act tied to pre-Islamic Arab customs assimilated into local Islam, with endorsements from certain imams in the 2010s framing it as essential for female piety and marriage eligibility.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Sudan, Sufi tariqas and some Salafi-leaning groups have historically promoted FGM as a sunnah act tied to pre-Islamic Arab customs assimi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Sudan, Sufi tariqas and some Salafi-leaning groups have historically promoted FGM as a sunnah act tied to pre-Islamic Arab customs assimilated into local Isl.",
+      "span": {
+        "quote": "In Sudan, Sufi tariqas and some Salafi-leaning groups have historically promoted FGM as a sunnah act tied to pre-Islamic Arab customs assimilated into local Isl"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to pre-Islamic Arab customs assimilated into local Islam.",
+      "span": {
+        "quote": "tied to pre-Islamic Arab customs assimilated into local Islam"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to pre-Islamic Arab customs assimilated into local Islam"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to pre-Islamic Arab customs assimilated into local Islam",
+          "span": {
+            "quote": "tied to pre-Islamic Arab customs assimilated into local Islam"
+          }
+        }
+      ]
+    }
+  ]
+}

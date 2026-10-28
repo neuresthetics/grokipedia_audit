@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0165",
+  "source_text": "These trials and follow-up analyses also indicated reductions in other sexually transmitted infections, including herpes simplex virus type 2 (28\u201334%) and high-risk human papillomavirus (about 35%). [93] [94]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These trials and follow-up analyses also indicated reductions in other sexually transmitted infections, including herpes simplex virus type"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These trials and follow-up analyses also indicated reductions in other sexually transmitted infections, including herpes simplex virus type 2 (28\u201334%) and high-.",
+      "span": {
+        "quote": "These trials and follow-up analyses also indicated reductions in other sexually transmitted infections, including herpes simplex virus type 2 (28\u201334%) and high-"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

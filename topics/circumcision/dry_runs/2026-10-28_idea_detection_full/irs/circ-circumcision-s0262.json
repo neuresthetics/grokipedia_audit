@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0262",
+  "source_text": "Emerging germ theory reinforced hygiene rationales, with Victorian physicians regarding the foreskin as a reservoir for filth that predisposed to balanitis, phimosis, and systemic infections; by the 1890s, English-speaking medical texts commonly recommended circumcision for cleanliness amid industrialization's sanitation challenges. [156]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Emerging germ theory reinforced hygiene rationales, with Victorian physicians regarding the foreskin as a reservoir for filth that predispos"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Emerging germ theory reinforced hygiene rationales, with Victorian physicians regarding the foreskin as a reservoir for filth that predisposed to balanitis, phi.",
+      "span": {
+        "quote": "Emerging germ theory reinforced hygiene rationales, with Victorian physicians regarding the foreskin as a reservoir for filth that predisposed to balanitis, phi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

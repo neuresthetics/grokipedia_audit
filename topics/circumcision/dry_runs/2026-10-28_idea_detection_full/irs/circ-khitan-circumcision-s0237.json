@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0237",
+  "source_text": "A 2025 South African investigation of traditional circumcisions\u2014analogous to non-clinical khitan practices\u2014documented severe outcomes like persistent wound infections and urinary retention requiring hospitalization, often linked to inadequate sterilization and untrained practitioners. [108]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2025 South African investigation of traditional circumcisions\u2014analogous to non-clinical khitan practices\u2014documented severe outcomes like p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2025 South African investigation of traditional circumcisions\u2014analogous to non-clinical khitan practices\u2014documented severe outcomes like persistent wound infe.",
+      "span": {
+        "quote": "A 2025 South African investigation of traditional circumcisions\u2014analogous to non-clinical khitan practices\u2014documented severe outcomes like persistent wound infe"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to inadequate sterilization and untrained practitioners.",
+      "span": {
+        "quote": "linked to inadequate sterilization and untrained practitioners"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to inadequate sterilization and untrained practitioners"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to inadequate sterilization and untrained practitioners",
+          "span": {
+            "quote": "linked to inadequate sterilization and untrained practitioners"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0126",
+  "source_text": "This clash underscores a causal reality: cultural practices causing verifiable injury cannot claim moral equivalence, as first-hand accounts from reformed community members affirm that abandoning FGM preserves heritage without mutilation, aligning with bodily integrity as a universal baseline uncompromised by multiculturalism's excesses.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This clash underscores a causal reality: cultural practices causing verifiable injury cannot claim moral equivalence, as first-hand accounts"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Moral equivalence, as first-hand accounts from reformed community members affirm that abandoning FGM preserves heritage without mutilation, aligning with bodily.",
+      "span": {
+        "quote": "moral equivalence, as first-hand accounts from reformed community members affirm that abandoning FGM preserves heritage without mutilation, aligning with bodily"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This clash underscores a causal reality: cultural practices causing verifiable injury cannot.",
+      "span": {
+        "quote": "This clash underscores a causal reality: cultural practices causing verifiable injury cannot"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "This clash underscores a causal reality: cultural practices causi.",
+      "span": {
+        "quote": "This clash underscores a causal reality: cultural practices causi"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "causing"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "This clash underscores a causal reality: cultural practices"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

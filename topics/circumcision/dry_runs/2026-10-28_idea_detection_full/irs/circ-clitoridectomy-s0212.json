@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-clitoridectomy-s0212",
+  "source_text": "Rights-based critiques frame clitoridectomy as a profound violation of bodily integrity and the right to be free from torture or cruel, inhuman treatment, as articulated in UN conventions, since it is typically inflicted on minors incapable of informed consent, perpetuating female subordination and gender-based discrimination without cultural relativism justifying harm. [103] [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rights-based critiques frame clitoridectomy as a profound violation of bodily integrity and the right to be free from torture or cruel, inhu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rights-based critiques frame clitoridectomy as a profound violation of bodily integrity and the right to be free from torture or cruel, inhuman treatment, as ar.",
+      "span": {
+        "quote": "Rights-based critiques frame clitoridectomy as a profound violation of bodily integrity and the right to be free from torture or cruel, inhuman treatment, as ar"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "It is typically inflicted on minors incapable of informed consent, perpetuating female subordination and gender-based discrimination without cultural relativism.",
+      "span": {
+        "quote": "it is typically inflicted on minors incapable of informed consent, perpetuating female subordination and gender-based discrimination without cultural relativism"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since it is typically inflicted on minors incapable of informed co"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

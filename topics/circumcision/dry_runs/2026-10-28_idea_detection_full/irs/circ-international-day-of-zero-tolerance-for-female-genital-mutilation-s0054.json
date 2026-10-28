@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0054",
+  "source_text": "This linkage underscores the day's role in monitoring global benchmarks, such as the reported 230 million affected women and girls as of 2024, while reinforcing obligations under international treaties like the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW) and the Convention on the Rights of the Child (CRC), which interpret FGM as discriminatory violence requiring state accountability. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This linkage underscores the day's role in monitoring global benchmarks, such as the reported 230 million affected women and girls as of 202"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This linkage underscores the day's role in monitoring global benchmarks, such as the reported 230 million affected women and girls as of 2024, while reinforcing.",
+      "span": {
+        "quote": "This linkage underscores the day's role in monitoring global benchmarks, such as the reported 230 million affected women and girls as of 2024, while reinforcing"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "This linkage underscores the day's role in monitoring global benc.",
+      "span": {
+        "quote": "This linkage underscores the day's role in monitoring global benc"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "This linkage underscores the day's role in monitoring global"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

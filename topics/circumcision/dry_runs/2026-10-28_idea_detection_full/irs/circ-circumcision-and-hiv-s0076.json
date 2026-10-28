@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0076",
+  "source_text": "These cellular and mucosal features contribute to the observed 50-60% reduction in HIV acquisition risk among circumcised heterosexual men in randomized trials, as the foreskin represents a primary entry site enriched for viral targets and deficient in protective barriers. [43] [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These cellular and mucosal features contribute to the observed 50-60% reduction in HIV acquisition risk among circumcised heterosexual men i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These cellular and mucosal features contribute to the observed 50-60% reduction in HIV acquisition risk among circumcised heterosexual men in randomized trials,.",
+      "span": {
+        "quote": "These cellular and mucosal features contribute to the observed 50-60% reduction in HIV acquisition risk among circumcised heterosexual men in randomized trials,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

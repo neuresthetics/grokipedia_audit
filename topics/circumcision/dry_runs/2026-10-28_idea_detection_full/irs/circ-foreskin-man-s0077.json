@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0077",
+  "source_text": "Purported benefits of circumcision, such as reduced risk of urinary tract infections (UTIs) in infancy or HIV transmission in adulthood, are dismissed in the comic as exaggerated or unnecessary.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Purported benefits of circumcision, such as reduced risk of urinary tract infections (UTIs) in infancy or HIV transmission in adulthood, are"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Purported benefits of circumcision, such as reduced risk of urinary tract infections (UTIs) in infancy or HIV transmission in adulthood, are dismissed in the co.",
+      "span": {
+        "quote": "Purported benefits of circumcision, such as reduced risk of urinary tract infections (UTIs) in infancy or HIV transmission in adulthood, are dismissed in the co"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

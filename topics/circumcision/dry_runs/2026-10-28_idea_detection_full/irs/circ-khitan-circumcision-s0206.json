@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0206",
+  "source_text": "FGC, however, yields no documented benefits and is linked to immediate complications such as hemorrhage (up to 15% in some settings), infection, and shock, alongside long-term sequelae including urinary retention, keloid scarring, dyspareunia, and increased maternal mortality from obstructed labor (up to 55% higher risk in severe cases). [95] [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "FGC, however, yields no documented benefits and is linked to immediate complications such as hemorrhage (up to 15% in some settings), infect"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FGC, however, yields no documented benefits and is linked to immediate complications such as hemorrhage (up to 15% in some settings), infection, and shock, alon.",
+      "span": {
+        "quote": "FGC, however, yields no documented benefits and is linked to immediate complications such as hemorrhage (up to 15% in some settings), infection, and shock, alon"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to immediate complications such as hemorrhage (up to 15% in.",
+      "span": {
+        "quote": "linked to immediate complications such as hemorrhage (up to 15% in"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to immediate complications such as hemorrhage (up to 15% in"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to immediate complications such as hemorrhage (up to 15% in ",
+          "span": {
+            "quote": "linked to immediate complications such as hemorrhage (up to 15% in"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0150",
+  "source_text": "Among Coptic Christians in Egypt, historical prevalence reached about 10-15% in the 20th century, often framed locally as aligning with Old Testament purity rites or patriarchal norms akin to male circumcision in Genesis 17, though the Coptic Orthodox Church officially condemned it in 2007 under Pope Shenouda III, stating it contradicts Christian teachings on bodily integrity. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among Coptic Christians in Egypt, historical prevalence reached about 10-15% in the 20th century, often framed locally as aligning with Old"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among Coptic Christians in Egypt, historical prevalence reached about 10-15% in the 20th century, often framed locally as aligning with Old Testament purity rit.",
+      "span": {
+        "quote": "Among Coptic Christians in Egypt, historical prevalence reached about 10-15% in the 20th century, often framed locally as aligning with Old Testament purity rit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

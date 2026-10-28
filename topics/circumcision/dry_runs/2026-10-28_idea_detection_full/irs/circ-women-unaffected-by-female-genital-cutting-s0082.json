@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0082",
+  "source_text": "In Demographic and Health Surveys (DHS) conducted across countries where female genital cutting (FGC) is prevalent, substantial proportions of women who have undergone the procedure express support for its continuation, indicating a lack of perceived personal detriment to well-being.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Demographic and Health Surveys (DHS) conducted across countries where female genital cutting (FGC) is prevalent, substantial proportions"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Demographic and Health Surveys (DHS) conducted across countries where female genital cutting (FGC) is prevalent, substantial proportions of women who have un.",
+      "span": {
+        "quote": "In Demographic and Health Surveys (DHS) conducted across countries where female genital cutting (FGC) is prevalent, substantial proportions of women who have un"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

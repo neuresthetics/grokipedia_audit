@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0005",
+  "source_text": "Long-term consequences include urinary and menstrual difficulties, keloid scarring, chronic pelvic pain, obstetric complications like prolonged labor and postpartum hemorrhage, and reduced sexual sensation from nerve damage. [5] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term consequences include urinary and menstrual difficulties, keloid scarring, chronic pelvic pain, obstetric complications like prolon"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term consequences include urinary and menstrual difficulties, keloid scarring, chronic pelvic pain, obstetric complications like prolonged labor and postpa.",
+      "span": {
+        "quote": "Long-term consequences include urinary and menstrual difficulties, keloid scarring, chronic pelvic pain, obstetric complications like prolonged labor and postpa"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

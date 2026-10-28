@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0228",
+  "source_text": "This universalist approach prioritizes individual rights over cultural relativism, critiqued by some as overlooking variations in procedure severity\u2014such as Type I cuttings in Bohra contexts, which involve clitoral hood removal without broader excision\u2014and potential community benefits claimed in religious or purity rituals.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This universalist approach prioritizes individual rights over cultural relativism, critiqued by some as overlooking variations in procedure"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In religious or purity rituals.",
+      "span": {
+        "quote": "in religious or purity rituals."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Verlooking variations in procedure severity\u2014such as Type I cuttings in Bohra contexts, which involve clitoral hood removal without broader excision\u2014and potentia.",
+      "span": {
+        "quote": "verlooking variations in procedure severity\u2014such as Type I cuttings in Bohra contexts, which involve clitoral hood removal without broader excision\u2014and potentia"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claimed"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

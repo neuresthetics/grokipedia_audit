@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0115",
+  "source_text": "In contrast, retention of the foreskin causally elevates exposure to pathogens by creating a moist, enclosed environment conducive to bacterial colonization, particularly under inconsistent hygiene.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, retention of the foreskin causally elevates exposure to pathogens by creating a moist, enclosed environment conducive to bacter"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, retention of the foreskin causally elevates exposure to pathogens by creating a moist, enclosed environment conducive to bacterial colonization, pa.",
+      "span": {
+        "quote": "In contrast, retention of the foreskin causally elevates exposure to pathogens by creating a moist, enclosed environment conducive to bacterial colonization, pa"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

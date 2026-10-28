@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-brit-milah-s0207",
+  "source_text": "Male circumcision, including in the neonatal period as performed in brit milah, has been associated with a substantial reduction in urinary tract infections (UTIs) during infancy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Male circumcision, including in the neonatal period as performed in brit milah, has been associated with a substantial reduction in urinary"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Male circumcision, including in the neonatal period as performed in brit milah, has been associated with a substantial reduction in urinary tract infections (UT.",
+      "span": {
+        "quote": "Male circumcision, including in the neonatal period as performed in brit milah, has been associated with a substantial reduction in urinary tract infections (UT"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with a substantial reduction in urinary tract infections (UTIs).",
+      "span": {
+        "quote": "associated with a substantial reduction in urinary tract infections (UTIs)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with a substantial reduction in urinary tract infections (UTIs)"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with a substantial reduction in urinary tract infections (UTIs) ",
+          "span": {
+            "quote": "associated with a substantial reduction in urinary tract infections (UTIs)"
+          }
+        }
+      ]
+    }
+  ]
+}

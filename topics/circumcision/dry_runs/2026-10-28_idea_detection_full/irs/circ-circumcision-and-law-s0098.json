@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0098",
+  "source_text": "Finland's National Institute for Health and Welfare stated in 2023 that non-medical male circumcision contravenes the child's right to bodily integrity, though no dedicated ban exists; a 2020 proposal to include it in female genital mutilation legislation was withdrawn following religious advocacy. [52]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Finland's National Institute for Health and Welfare stated in 2023 that non-medical male circumcision contravenes the child's right to bodil"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Finland's National Institute for Health and Welfare stated in 2023 that non-medical male circumcision contravenes the child's right to bodily integrity, though.",
+      "span": {
+        "quote": "Finland's National Institute for Health and Welfare stated in 2023 that non-medical male circumcision contravenes the child's right to bodily integrity, though "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

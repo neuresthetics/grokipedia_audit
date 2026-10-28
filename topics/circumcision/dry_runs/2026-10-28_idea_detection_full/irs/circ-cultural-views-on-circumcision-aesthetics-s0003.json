@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0003",
+  "source_text": "Some women prefer circumcised penises due to perceived cleanliness (less smegma), more appealing appearance, and ease during oral sex or intercourse.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some women prefer circumcised penises due to perceived cleanliness (less smegma), more appealing appearance, and ease during oral sex or int"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Some women prefer circumcised penises due to perceived cleanliness (less smegma), more appealing appearance, and ease during oral sex or intercourse.",
+      "span": {
+        "quote": "Some women prefer circumcised penises due to perceived cleanliness (less smegma), more appealing appearance, and ease during oral sex or intercourse."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

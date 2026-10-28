@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0218",
+  "source_text": "Penile cancer, a rare malignancy with an incidence of less than 1 per 100,000 in developed countries, shows a strong protective association with childhood or adolescent circumcision (odds ratio 0.33), linked to decreased chronic inflammation and human papillomavirus persistence under the foreskin. [124]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penile cancer, a rare malignancy with an incidence of less than 1 per 100,000 in developed countries, shows a strong protective association"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penile cancer, a rare malignancy with an incidence of less than 1 per 100,000 in developed countries, shows a strong protective association with childhood or ad.",
+      "span": {
+        "quote": "Penile cancer, a rare malignancy with an incidence of less than 1 per 100,000 in developed countries, shows a strong protective association with childhood or ad"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100.",
+      "span": {
+        "quote": "per 100"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to decreased chronic inflammation and human papillomavirus.",
+      "span": {
+        "quote": "linked to decreased chronic inflammation and human papillomavirus"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to decreased chronic inflammation and human papillomavirus"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to decreased chronic inflammation and human papillomavirus ",
+          "span": {
+            "quote": "linked to decreased chronic inflammation and human papillomavirus"
+          }
+        }
+      ]
+    }
+  ]
+}

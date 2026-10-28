@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0191",
+  "source_text": "Systematic reviews of high-quality studies, including randomized trials and prospective cohorts, indicate that medical male circumcision has no significant adverse effect on sexual function, penile sensitivity, sensation, or satisfaction\u2014including pleasure during vaginal or anal penetration.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews of high-quality studies, including randomized trials and prospective cohorts, indicate that medical male circumcision has"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews of high-quality studies, including randomized trials and prospective cohorts, indicate that medical male circumcision has no significant adve.",
+      "span": {
+        "quote": "Systematic reviews of high-quality studies, including randomized trials and prospective cohorts, indicate that medical male circumcision has no significant adve"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

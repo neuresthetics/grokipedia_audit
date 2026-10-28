@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0169",
+  "source_text": "Sudanese surveys, such as those from the Population Council, further reveal that perceived fidelity benefits stem from perceived social signaling\u2014FGM as a marker of conformity\u2014rather than physiological deterrence, with abandonment rates rising in communities without such rituals yet maintaining traditional values.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sudanese surveys, such as those from the Population Council, further reveal that perceived fidelity benefits stem from perceived social sign"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sudanese surveys, such as those from the Population Council, further reveal that perceived fidelity benefits stem from perceived social signaling\u2014FGM as a marke.",
+      "span": {
+        "quote": "Sudanese surveys, such as those from the Population Council, further reveal that perceived fidelity benefits stem from perceived social signaling\u2014FGM as a marke"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

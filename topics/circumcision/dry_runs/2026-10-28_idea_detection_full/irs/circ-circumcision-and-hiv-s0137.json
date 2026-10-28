@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0137",
+  "source_text": "Programs have demonstrated high cost-effectiveness, with analyses across multiple countries showing VMMC to be cost-saving over extended horizons, even assuming higher unit costs up to US$120. [57] [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Programs have demonstrated high cost-effectiveness, with analyses across multiple countries showing VMMC to be cost-saving over extended hor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Programs have demonstrated high cost-effectiveness, with analyses across multiple countries showing VMMC to be cost-saving over extended horizons, even assuming.",
+      "span": {
+        "quote": "Programs have demonstrated high cost-effectiveness, with analyses across multiple countries showing VMMC to be cost-saving over extended horizons, even assuming"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0020",
+  "source_text": "By the 20th century, it had become obsolete in medical contexts due to ethical concerns and inefficacy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the 20th century, it had become obsolete in medical contexts due to ethical concerns and inefficacy."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By the 20th century, it had become obsolete in medical contexts due to ethical concerns and inefficacy.",
+      "span": {
+        "quote": "By the 20th century, it had become obsolete in medical contexts due to ethical concerns and inefficacy."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

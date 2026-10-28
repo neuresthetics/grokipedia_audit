@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0016",
+  "source_text": "Human rights frameworks, including those addressing torture and degrading treatment, have been invoked to classify it as an infringement on physical integrity, though enforcement varies by jurisdiction and cultural tolerance. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Human rights frameworks, including those addressing torture and degrading treatment, have been invoked to classify it as an infringement on"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Human rights frameworks, including those addressing torture and degrading treatment, have been invoked to classify it as an infringement on physical integrity,.",
+      "span": {
+        "quote": "Human rights frameworks, including those addressing torture and degrading treatment, have been invoked to classify it as an infringement on physical integrity, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

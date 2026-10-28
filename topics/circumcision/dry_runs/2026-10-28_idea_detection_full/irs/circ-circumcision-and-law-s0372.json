@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0372",
+  "source_text": "The debate underscored empirical data: prophylactic benefits like a 90% relative reduction in urinary tract infections (absolute risk reduction of about 1%) cited by proponents were deemed insufficient by the court to override autonomy for healthy infants, given complication rates of 0.2-0.6% including meatal stenosis and adhesions. [63]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The debate underscored empirical data: prophylactic benefits like a 90% relative reduction in urinary tract infections (absolute risk reduct"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The debate underscored empirical data: prophylactic benefits like a 90% relative reduction in urinary tract infections (absolute risk reduction of about 1%) cit.",
+      "span": {
+        "quote": "The debate underscored empirical data: prophylactic benefits like a 90% relative reduction in urinary tract infections (absolute risk reduction of about 1%) cit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

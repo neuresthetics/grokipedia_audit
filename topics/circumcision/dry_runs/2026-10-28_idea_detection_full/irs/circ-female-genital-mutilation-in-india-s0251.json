@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0251",
+  "source_text": "Equality Now's 2025 policy brief warns that such medicalization entrenches the practice by lending it professional legitimacy, potentially normalizing it among educated urban Bohras despite lacking empirical evidence of harm reduction. [58]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Equality Now's 2025 policy brief warns that such medicalization entrenches the practice by lending it professional legitimacy, potentially n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Equality Now's 2025 policy brief warns that such medicalization entrenches the practice by lending it professional legitimacy, potentially normalizing it among.",
+      "span": {
+        "quote": "Equality Now's 2025 policy brief warns that such medicalization entrenches the practice by lending it professional legitimacy, potentially normalizing it among "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

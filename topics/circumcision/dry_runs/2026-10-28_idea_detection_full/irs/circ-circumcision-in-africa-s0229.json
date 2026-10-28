@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0229",
+  "source_text": "Additionally, circumcision mitigates risks of non-sexually transmitted conditions such as balanitis and phimosis, which are more prevalent in uncircumcised males due to smegma accumulation and poor hygiene in resource-limited settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additionally, circumcision mitigates risks of non-sexually transmitted conditions such as balanitis and phimosis, which are more prevalent i"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additionally, circumcision mitigates risks of non-sexually transmitted conditions such as balanitis and phimosis, which are more prevalent in uncircumcised male.",
+      "span": {
+        "quote": "Additionally, circumcision mitigates risks of non-sexually transmitted conditions such as balanitis and phimosis, which are more prevalent in uncircumcised male"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

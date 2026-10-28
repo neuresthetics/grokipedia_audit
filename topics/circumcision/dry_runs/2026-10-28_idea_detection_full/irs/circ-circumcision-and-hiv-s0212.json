@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0212",
+  "source_text": "Economic and operational incentives introduce further risks of undue inducement, where compensation for time lost (e.g., transport reimbursements or small items like food) may disproportionately influence decisions among low-income participants.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Economic and operational incentives introduce further risks of undue inducement, where compensation for time lost (e.g., transport reimburse"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Economic and operational incentives introduce further risks of undue inducement, where compensation for time lost (e.g., transport reimbursements or small items.",
+      "span": {
+        "quote": "Economic and operational incentives introduce further risks of undue inducement, where compensation for time lost (e.g., transport reimbursements or small items"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

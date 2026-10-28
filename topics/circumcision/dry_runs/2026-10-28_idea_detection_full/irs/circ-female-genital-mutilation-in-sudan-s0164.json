@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0164",
+  "source_text": "These effects compound in marital contexts, where dyspareunia-related discord amplifies psychological distress, including feelings of inadequacy and isolation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These effects compound in marital contexts, where dyspareunia-related discord amplifies psychological distress, including feelings of inadeq"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These effects compound in marital contexts, where dyspareunia-related discord amplifies psychological distress, including feelings of inadequacy and isolation.",
+      "span": {
+        "quote": "These effects compound in marital contexts, where dyspareunia-related discord amplifies psychological distress, including feelings of inadequacy and isolation."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0318",
+  "source_text": "In 2024, the American College of Nurse-Midwives reaffirmed support for informed parental choice in newborn male circumcision, citing the American Academy of Pediatrics' assessment that benefits outweigh risks, amid calls to standardize access across insurance programs.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In 2024, the American College of Nurse-Midwives reaffirmed support for informed parental choice in newborn male circumcision, citing the Ame"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In 2024, the American College of Nurse-Midwives reaffirmed support for informed parental choice in newborn male circumcision, citing the American Academy of Ped.",
+      "span": {
+        "quote": "In 2024, the American College of Nurse-Midwives reaffirmed support for informed parental choice in newborn male circumcision, citing the American Academy of Ped"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing the American Academy of Pediatrics' assessment that benefits outweigh risks.",
+      "span": {
+        "quote": "citing the American Academy of Pediatrics' assessment that benefits outweigh risks"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing the American Academy of Pediatrics' assessment that benefits outweigh risks"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

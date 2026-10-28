@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0144",
+  "source_text": "This event, occurring around AD 40, demonstrated empirically that God accepted uncircumcised Gentiles into the covenant community based on faith alone.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This event, occurring around AD 40, demonstrated empirically that God accepted uncircumcised Gentiles into the covenant community based on f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This event, occurring around AD 40, demonstrated empirically that God accepted uncircumcised Gentiles into the covenant community based on faith alone.",
+      "span": {
+        "quote": "This event, occurring around AD 40, demonstrated empirically that God accepted uncircumcised Gentiles into the covenant community based on faith alone."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-milah-s0268",
+  "source_text": "Organizations such as Intact America and the National Organization of Restoring Men argue that religious motivations do not justify irreversible procedures on minors, prioritizing secular ethical standards over tradition. [131]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Organizations such as Intact America and the National Organization of Restoring Men argue that religious motivations do not justify irrevers"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Religious motivations do not justify irreversible procedures on minors, prioritizing secular ethical standards over tradition.",
+      "span": {
+        "quote": "religious motivations do not justify irreversible procedures on minors, prioritizing secular ethical standards over tradition."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Organizations such as Intact America and the National Organization of Restoring Men.",
+      "span": {
+        "quote": "Organizations such as Intact America and the National Organization of Restoring Men"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

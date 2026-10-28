@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0167",
+  "source_text": "In ritual or traditional khitan practices, particularly when performed by non-medical practitioners without anesthesia or sterile conditions, complication rates escalate.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In ritual or traditional khitan practices, particularly when performed by non-medical practitioners without anesthesia or sterile conditions"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In ritual or traditional khitan practices, particularly when performed by non-medical practitioners without anesthesia or sterile conditions, complication rates.",
+      "span": {
+        "quote": "In ritual or traditional khitan practices, particularly when performed by non-medical practitioners without anesthesia or sterile conditions, complication rates"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

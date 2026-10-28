@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0276",
+  "source_text": "These trials, involving over 10,000 participants, established VMMC as an evidence-based intervention endorsed by the World Health Organization since 2007, with mathematical models estimating 1.1 million HIV infections averted by 2020 through scale-up efforts in 15 priority countries. [127]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These trials, involving over 10,000 participants, established VMMC as an evidence-based intervention endorsed by the World Health Organizati"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These trials, involving over 10,000 participants, established VMMC as an evidence-based intervention endorsed by the World Health Organization.",
+      "span": {
+        "quote": "These trials, involving over 10,000 participants, established VMMC as an evidence-based intervention endorsed by the World Health Organization"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "2007, with mathematical models estimating 1.1 million HIV infections averted by 2020 through scale-up efforts in 15 priority countries. [127].",
+      "span": {
+        "quote": "2007, with mathematical models estimating 1.1 million HIV infections averted by 2020 through scale-up efforts in 15 priority countries. [127]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 2007, with mathematical models estimating 1.1 million HIV in"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

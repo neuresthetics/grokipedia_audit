@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0227",
+  "source_text": "Critics argue some benefits are overstated relative to risks, particularly for non-therapeutic neonatal procedures, but risk-benefit analyses suggest net positives exceeding 100:1 for certain conditions over a lifetime. [131]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics argue some benefits are overstated relative to risks, particularly for non-therapeutic neonatal procedures, but risk-benefit analyse"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Some benefits are overstated relative to risks, particularly for non-therapeutic neonatal procedures, but risk-benefit analyses suggest net positives exceeding.",
+      "span": {
+        "quote": "some benefits are overstated relative to risks, particularly for non-therapeutic neonatal procedures, but risk-benefit analyses suggest net positives exceeding "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

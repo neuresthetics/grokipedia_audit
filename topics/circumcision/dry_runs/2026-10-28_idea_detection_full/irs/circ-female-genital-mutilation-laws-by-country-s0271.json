@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0271",
+  "source_text": "Empirical evidence, however, demonstrates no health, psychological, or social benefits from FGM across all types (I-IV), as confirmed by systematic reviews and global health assessments. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical evidence, however, demonstrates no health, psychological, or social benefits from FGM across all types (I-IV), as confirmed by sys"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical evidence, however, demonstrates no health, psychological, or social benefits from FGM across all types (I-IV), as confirmed by systematic reviews and.",
+      "span": {
+        "quote": "Empirical evidence, however, demonstrates no health, psychological, or social benefits from FGM across all types (I-IV), as confirmed by systematic reviews and "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

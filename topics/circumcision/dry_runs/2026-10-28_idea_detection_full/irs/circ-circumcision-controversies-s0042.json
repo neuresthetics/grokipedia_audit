@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0042",
+  "source_text": "Neonatal circumcision nearly eliminates the risk in high-prevalence settings, as supported by epidemiological data linking uncircumcised status to higher incidence via phimosis and poor hygiene.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision nearly eliminates the risk in high-prevalence settings, as supported by epidemiological data linking uncircumcised sta"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision nearly eliminates the risk in high-prevalence settings, as supported by epidemiological data linking uncircumcised status to higher incide.",
+      "span": {
+        "quote": "Neonatal circumcision nearly eliminates the risk in high-prevalence settings, as supported by epidemiological data linking uncircumcised status to higher incide"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

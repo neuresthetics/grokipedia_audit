@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0205",
+  "source_text": "Empirical health outcomes further delineate the practices: randomized controlled trials demonstrate that male circumcision, including khitan when performed medically, reduces heterosexual HIV acquisition by approximately 60%, lowers urinary tract infection rates in infancy by up to 90%, and decreases risks of penile cancer and certain sexually transmitted infections like herpes (28-34% reduction). [66] [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical health outcomes further delineate the practices: randomized controlled trials demonstrate that male circumcision, including khitan"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical health outcomes further delineate the practices: randomized controlled trials demonstrate that male circumcision, including khitan when performed medi.",
+      "span": {
+        "quote": "Empirical health outcomes further delineate the practices: randomized controlled trials demonstrate that male circumcision, including khitan when performed medi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

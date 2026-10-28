@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0397",
+  "source_text": "Australia's Royal Australasian College of Physicians (RACP) policy, critiqued in 2024 for downplaying benefits like HIV prevention evidenced in randomized trials, continued to advise against routine infant circumcision absent medical indication, prioritizing informed parental choice while acknowledging low complication rates under 1% in controlled settings. [157]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Australia's Royal Australasian College of Physicians (RACP) policy, critiqued in 2024 for downplaying benefits like HIV prevention evidenced"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Australia's Royal Australasian College of Physicians (RACP) policy, critiqued in 2024 for downplaying benefits like HIV prevention evidenced in randomized trial.",
+      "span": {
+        "quote": "Australia's Royal Australasian College of Physicians (RACP) policy, critiqued in 2024 for downplaying benefits like HIV prevention evidenced in randomized trial"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

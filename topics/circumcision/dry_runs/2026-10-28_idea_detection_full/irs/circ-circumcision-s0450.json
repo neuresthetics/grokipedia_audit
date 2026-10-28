@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-s0450",
+  "source_text": "Claims of reduced pleasure often come from biased, self-selected surveys, while blinded tests and longitudinal data show no consistent losses.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of reduced pleasure often come from biased, self-selected surveys, while blinded tests and longitudinal data show no consistent losse"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of reduced pleasure often come from biased, self-selected surveys, while blinded tests and longitudinal data show no consistent losses.",
+      "span": {
+        "quote": "of reduced pleasure often come from biased, self-selected surveys, while blinded tests and longitudinal data show no consistent losses."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Biased.",
+      "span": {
+        "quote": "biased"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "biased"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Claims of reduced pl"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased",
+          "span": {
+            "quote": "biased"
+          }
+        }
+      ]
+    }
+  ]
+}

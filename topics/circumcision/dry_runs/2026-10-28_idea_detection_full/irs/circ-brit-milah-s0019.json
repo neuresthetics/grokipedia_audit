@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0019",
+  "source_text": "The eighth-day timing, explicitly commanded (Genesis 17:12; Leviticus 12:3), has been noted in modern times to align with infant physiology: levels of vitamin K and prothrombin (key blood clotting factors) naturally peak around day 8 after birth, reducing hemorrhage risk during the procedure compared to earlier or later days.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The eighth-day timing, explicitly commanded (Genesis 17:12; Leviticus 12:3), has been noted in modern times to align with infant physiology:"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The eighth-day timing, explicitly commanded (Genesis 17:12; Leviticus 12:3), has been noted in modern times to align with infant physiology: levels of vitamin K.",
+      "span": {
+        "quote": "The eighth-day timing, explicitly commanded (Genesis 17:12; Leviticus 12:3), has been noted in modern times to align with infant physiology: levels of vitamin K"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

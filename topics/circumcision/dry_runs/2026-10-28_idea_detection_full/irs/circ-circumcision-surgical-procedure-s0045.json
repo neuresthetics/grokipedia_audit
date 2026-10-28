@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0045",
+  "source_text": "Circumcision also mitigates risks of phimosis, balanitis, and paraphimosis, with longitudinal data indicating these conditions affect up to 10% of uncircumcised males versus negligible rates post-neonatal circumcision. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision also mitigates risks of phimosis, balanitis, and paraphimosis, with longitudinal data indicating these conditions affect up to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision also mitigates risks of phimosis, balanitis, and paraphimosis, with longitudinal data indicating these conditions affect up to 10% of uncircumcised.",
+      "span": {
+        "quote": "Circumcision also mitigates risks of phimosis, balanitis, and paraphimosis, with longitudinal data indicating these conditions affect up to 10% of uncircumcised"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

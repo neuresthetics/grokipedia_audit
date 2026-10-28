@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0194",
+  "source_text": "ACOG explicitly opposes medicalization or accommodation, supporting federal and state laws criminalizing the practice and urging providers to advocate for prevention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "ACOG explicitly opposes medicalization or accommodation, supporting federal and state laws criminalizing the practice and urging providers t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "ACOG explicitly opposes medicalization or accommodation, supporting federal and state laws criminalizing the practice and urging providers to advocate for preve.",
+      "span": {
+        "quote": "ACOG explicitly opposes medicalization or accommodation, supporting federal and state laws criminalizing the practice and urging providers to advocate for preve"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

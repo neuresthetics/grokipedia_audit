@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0040",
+  "source_text": "This protective effect stems from the elimination of the foreskin, which can harbor bacteria under the prepuce, facilitating ascent into the urinary tract.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This protective effect stems from the elimination of the foreskin, which can harbor bacteria under the prepuce, facilitating ascent into the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This protective effect stems from the elimination of the foreskin, which can harbor bacteria under the prepuce, facilitating ascent into the urinary tract.",
+      "span": {
+        "quote": "This protective effect stems from the elimination of the foreskin, which can harbor bacteria under the prepuce, facilitating ascent into the urinary tract."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

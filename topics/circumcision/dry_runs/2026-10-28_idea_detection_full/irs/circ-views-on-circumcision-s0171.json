@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0171",
+  "source_text": "The Circumcision Academy of Australia, established to provide specialized circumcision services for infants, children, and adults, advocates for parental access to the procedure as a matter of informed choice, emphasizing its availability in line with medical and cultural preferences across Australia and New Zealand. [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Circumcision Academy of Australia, established to provide specialized circumcision services for infants, children, and adults, advocates"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Circumcision Academy of Australia, established to provide specialized circumcision services for infants, children, and adults, advocates for parental access.",
+      "span": {
+        "quote": "The Circumcision Academy of Australia, established to provide specialized circumcision services for infants, children, and adults, advocates for parental access"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

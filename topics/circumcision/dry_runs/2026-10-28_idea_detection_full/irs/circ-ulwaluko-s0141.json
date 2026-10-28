@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0141",
+  "source_text": "Pre-initiation health assessments of candidates critically determine resilience to surgical stress, yet the absence of screening allows underlying malnutrition, immune deficiencies, or chronic conditions to precipitate deterioration during seclusion, where restricted fluids and nutrition amplify dehydration in 11.4% of complicated cases among adolescents aged 15\u201319. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pre-initiation health assessments of candidates critically determine resilience to surgical stress, yet the absence of screening allows unde"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pre-initiation health assessments of candidates critically determine resilience to surgical stress, yet the absence of screening allows underlying malnutrition,.",
+      "span": {
+        "quote": "Pre-initiation health assessments of candidates critically determine resilience to surgical stress, yet the absence of screening allows underlying malnutrition,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

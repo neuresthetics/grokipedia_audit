@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0076",
+  "source_text": "These complications arise directly from the invasive cutting, often without anesthesia or sterile conditions, leading to acute trauma and potential death in severe cases, particularly with higher WHO-classified types like infibulation (Type III), which involves narrowing the vaginal opening.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These complications arise directly from the invasive cutting, often without anesthesia or sterile conditions, leading to acute trauma and po"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These complications arise directly from the invasive cutting, often without anesthesia or sterile conditions, leading to acute trauma and potential death in sev.",
+      "span": {
+        "quote": "These complications arise directly from the invasive cutting, often without anesthesia or sterile conditions, leading to acute trauma and potential death in sev"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

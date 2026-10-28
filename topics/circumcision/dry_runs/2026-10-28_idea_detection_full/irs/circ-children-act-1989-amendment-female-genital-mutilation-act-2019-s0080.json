@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0080",
+  "source_text": "Childbirth complications are causally tied to scarring and anatomical alterations, increasing maternal risks of postpartum hemorrhage, extended labor, and perineal tears, while elevating neonatal mortality by up to 55% in cases of prolonged labor from infibulation. [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Childbirth complications are causally tied to scarring and anatomical alterations, increasing maternal risks of postpartum hemorrhage, exten"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Childbirth complications are causally tied to scarring and anatomical alterations, increasing maternal risks of postpartum hemorrhage, extended labor, and perin.",
+      "span": {
+        "quote": "Childbirth complications are causally tied to scarring and anatomical alterations, increasing maternal risks of postpartum hemorrhage, extended labor, and perin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to scarring and anatomical alterations.",
+      "span": {
+        "quote": "tied to scarring and anatomical alterations"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to scarring and anatomical alterations"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to scarring and anatomical alterations",
+          "span": {
+            "quote": "tied to scarring and anatomical alterations"
+          }
+        }
+      ]
+    }
+  ]
+}

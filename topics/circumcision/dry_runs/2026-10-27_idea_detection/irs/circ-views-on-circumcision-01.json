@@ -1,0 +1,125 @@
+{
+  "passage_id": "circ-views-on-circumcision-01",
+  "source_text": "Critics of these rights-based arguments contend that intactivist rhetoric over-relies on anecdotal reports of psychological trauma and body image dissatisfaction, with empirical data from longitudinal studies showing no evidence of widespread mental health harm attributable to neonatal circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "intactivist rhetoric over-relies on anecdotal reports... empirical data from longitudinal studies showing no evidence of widespread mental health harm"
+      },
+      "claim_ids": [
+        "c_anecdote",
+        "c_overrely",
+        "c_longit",
+        "c_no_harm"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_anecdote",
+      "text": "Intactivist rhetoric cites anecdotal reports of psychological trauma and body image dissatisfaction.",
+      "span": {
+        "quote": "anecdotal reports of psychological trauma and body image dissatisfaction"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c_overrely",
+      "text": "Intactivist rhetoric over-relies on those anecdotal reports.",
+      "span": {
+        "quote": "intactivist rhetoric over-relies on anecdotal reports"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_longit",
+      "text": "Longitudinal studies' empirical data show no evidence of widespread mental health harm attributable to neonatal circumcision.",
+      "span": {
+        "quote": "empirical data from longitudinal studies showing no evidence of widespread mental health harm attributable to neonatal circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c_no_harm",
+      "text": "There is no widespread mental health harm attributable to neonatal circumcision.",
+      "span": {
+        "quote": "no evidence of widespread mental health harm attributable to neonatal circumcision"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_anecdote",
+      "target": "c_overrely",
+      "span": {
+        "quote": "over-relies on anecdotal reports"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_longit",
+      "target": "c_no_harm",
+      "span": {
+        "quote": "showing no evidence of widespread mental health harm"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e3",
+      "type": "attacks_claim",
+      "source": "c_longit",
+      "target": "c_anecdote",
+      "span": {
+        "quote": "empirical data from longitudinal studies showing no evidence"
+      },
+      "answered": false
+    },
+    {
+      "id": "e4",
+      "type": "selects_subset",
+      "source": "c_longit",
+      "target": "c_anecdote",
+      "span": {
+        "quote": "empirical data from longitudinal studies"
+      },
+      "answered": false
+    }
+  ],
+  "evidence_sets": [
+    {
+      "id": "es_mh",
+      "member_ids": [
+        "c_anecdote",
+        "c_longit"
+      ],
+      "selection_time": "unknown",
+      "stated_in_text": true,
+      "direction": "mixed"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0080",
+  "source_text": "These sensory structures facilitate gliding during intercourse and contribute to unique tactile experiences in uncircumcised men, though systematic reviews find no significant overall difference in sexual sensitivity or function between circumcised and uncircumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These sensory structures facilitate gliding during intercourse and contribute to unique tactile experiences in uncircumcised men, though sys"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These sensory structures facilitate gliding during intercourse and contribute to unique tactile experiences in uncircumcised men, though systematic reviews find.",
+      "span": {
+        "quote": "These sensory structures facilitate gliding during intercourse and contribute to unique tactile experiences in uncircumcised men, though systematic reviews find"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

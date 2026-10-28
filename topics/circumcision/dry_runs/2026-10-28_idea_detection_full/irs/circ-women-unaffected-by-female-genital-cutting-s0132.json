@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0132",
+  "source_text": "This suggests that social determinants, rather than the cutting itself, drive many reported harms, challenging direct causal attributions in global narratives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This suggests that social determinants, rather than the cutting itself, drive many reported harms, challenging direct causal attributions in"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Social determinants, rather than the cutting itself, drive many reported harms, challenging direct causal attributions in global narratives.",
+      "span": {
+        "quote": "social determinants, rather than the cutting itself, drive many reported harms, challenging direct causal attributions in global narratives."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

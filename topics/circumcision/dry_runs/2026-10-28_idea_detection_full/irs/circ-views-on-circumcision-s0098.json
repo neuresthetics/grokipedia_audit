@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0098",
+  "source_text": "Recent cohort studies from 2023 and 2024 in controlled clinical environments report overall complication rates below 1%, predominantly minor and resolving without sequelae, undermining exaggerated characterizations of the procedure as inherently mutilative absent comparative data from other genital interventions. [62] [63]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Recent cohort studies from 2023 and 2024 in controlled clinical environments report overall complication rates below 1%, predominantly minor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Recent cohort studies from 2023 and 2024 in controlled clinical environments report overall complication rates below 1%, predominantly minor and resolving witho.",
+      "span": {
+        "quote": "Recent cohort studies from 2023 and 2024 in controlled clinical environments report overall complication rates below 1%, predominantly minor and resolving witho"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

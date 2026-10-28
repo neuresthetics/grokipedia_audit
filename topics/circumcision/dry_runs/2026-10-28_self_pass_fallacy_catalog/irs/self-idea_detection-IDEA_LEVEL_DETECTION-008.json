@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-008",
+  "source_text": "Optional passage gates (not required on every IR): excerpt (bool) and contested_reading (string). When set, a pattern match is at most **possible issue** \u2014 METHOD's excerpt-boundary and contested-reading rules. expected_checker is fixture metadata for the eval harness; the checker strips it and does not treat it as a verdict.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Optional passage gates (not required on every IR): excerpt (bool) and contested_reading (string). When set, a pattern match is at most **pos"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Optional passage gates (not required on every IR): excerpt (bool) and contested_reading (string). When set, a pattern match is at most **possible issue** \u2014 METH.",
+      "span": {
+        "quote": "Optional passage gates (not required on every IR): excerpt (bool) and contested_reading (string). When set, a pattern match is at most **possible issue** \u2014 METH"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A pattern match is at most **possible issue** \u2014 METHOD's excer.",
+      "span": {
+        "quote": "a pattern match is at most **possible issue** \u2014 METHOD's excer"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a pattern match is at most **possible issue** \u2014 METHOD's exc"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

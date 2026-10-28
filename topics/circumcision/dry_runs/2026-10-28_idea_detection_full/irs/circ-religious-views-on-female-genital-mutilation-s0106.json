@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0106",
+  "source_text": "This patristic stance, rooted in the canonical emphasis on spiritual rather than corporeal purity, doctrinally precludes FGM, distinguishing it sharply from the limited endorsement of male circumcision under the old covenant.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This patristic stance, rooted in the canonical emphasis on spiritual rather than corporeal purity, doctrinally precludes FGM, distinguishing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This patristic stance, rooted in the canonical emphasis on spiritual rather than corporeal purity, doctrinally precludes FGM, distinguishing it sharply from the.",
+      "span": {
+        "quote": "This patristic stance, rooted in the canonical emphasis on spiritual rather than corporeal purity, doctrinally precludes FGM, distinguishing it sharply from the"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

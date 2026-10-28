@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0127",
+  "source_text": "Peer-reviewed analyses highlight how such forced acts in conflict zones serve as tools of domination, exploiting bodily integrity to erode minority identities, contrasting with the consent-based rituals dominant in stable societies. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Peer-reviewed analyses highlight how such forced acts in conflict zones serve as tools of domination, exploiting bodily integrity to erode m"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Peer-reviewed analyses highlight how such forced acts in conflict zones serve as tools of domination, exploiting bodily integrity to erode minority identities,.",
+      "span": {
+        "quote": "Peer-reviewed analyses highlight how such forced acts in conflict zones serve as tools of domination, exploiting bodily integrity to erode minority identities, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

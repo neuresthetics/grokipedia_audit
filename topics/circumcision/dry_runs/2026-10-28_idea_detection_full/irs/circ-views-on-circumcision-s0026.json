@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0026",
+  "source_text": "In Hinduism, male circumcision lacks any endorsement in foundational scriptures such as the Vedas or Upanishads, which emphasize the body's natural form as a divine creation not to be altered without necessity. [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Hinduism, male circumcision lacks any endorsement in foundational scriptures such as the Vedas or Upanishads, which emphasize the body's"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E body's natural form as a divine creation not to be altered without necessity.",
+      "span": {
+        "quote": "e body's natural form as a divine creation not to be altered without necessity."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In Hinduism, male circumcision lacks any endorsement in foundational scriptures such as the Vedas or Upanishads, which.",
+      "span": {
+        "quote": "In Hinduism, male circumcision lacks any endorsement in foundational scriptures such as the Vedas or Upanishads, which"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

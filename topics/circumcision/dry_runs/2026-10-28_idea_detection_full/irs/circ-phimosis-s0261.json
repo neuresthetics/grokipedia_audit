@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-phimosis-s0261",
+  "source_text": "Prevalence of pathological phimosis in adulthood shows marked geographic variation, primarily correlating inversely with regional rates of male circumcision, which eliminates the foreskin and thus precludes the condition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prevalence of pathological phimosis in adulthood shows marked geographic variation, primarily correlating inversely with regional rates of m"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prevalence of pathological phimosis in adulthood shows marked geographic variation, primarily correlating inversely with regional rates of male circumcision, wh.",
+      "span": {
+        "quote": "Prevalence of pathological phimosis in adulthood shows marked geographic variation, primarily correlating inversely with regional rates of male circumcision, wh"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Precludes the condition.",
+      "span": {
+        "quote": "precludes the condition."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

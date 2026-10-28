@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-METHOD-008",
+  "source_text": "**(d) Check every required condition.** For each numbered condition in the entry, cite the words in the passage that satisfy it. If any condition is not met, do not flag. If a condition depends on facts that are not in the text (what the speaker knew, what evidence exists, how a study was run), apply step (f).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**(d) Check every required condition.** For each numbered condition in the entry, cite the words in the passage that satisfy it. If any cond"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "**(d) Check every required condition.** For each numbered condition in the entry, cite the words in the passage that satisfy it. If any condition is not met, do.",
+      "span": {
+        "quote": "**(d) Check every required condition.** For each numbered condition in the entry, cite the words in the passage that satisfy it. If any condition is not met, do"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A condition depends on facts that are not in the text (what th.",
+      "span": {
+        "quote": "a condition depends on facts that are not in the text (what th"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a condition depends on facts that are not in the text (what"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

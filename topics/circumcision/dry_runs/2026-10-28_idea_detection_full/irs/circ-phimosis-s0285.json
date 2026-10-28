@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0285",
+  "source_text": "Conservative approaches, such as topical steroids or mechanical stretching devices, further fuel debate by demonstrating avoidance of circumcision in 70-80% of non-pathologic cases.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conservative approaches, such as topical steroids or mechanical stretching devices, further fuel debate by demonstrating avoidance of circum"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Conservative approaches, such as topical steroids or mechanical stretching devices, further fuel debate by demonstrating avoidance of circumcision in 70-80% of.",
+      "span": {
+        "quote": "Conservative approaches, such as topical steroids or mechanical stretching devices, further fuel debate by demonstrating avoidance of circumcision in 70-80% of "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

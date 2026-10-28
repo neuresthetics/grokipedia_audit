@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0231",
+  "source_text": "Mainstream portrayals tend to prioritize autonomy arguments against non-consensual procedures, reflecting institutional biases toward secular norms, while underrepresenting the ritual's centrality to Jewish continuity amid declining circumcision rates among non-religious U.S. Jews (from 90% in the 1970s to about 70% by 2020).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mainstream portrayals tend to prioritize autonomy arguments against non-consensual procedures, reflecting institutional biases toward secula"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mainstream portrayals tend to prioritize autonomy arguments against non-consensual procedures, reflecting institutional biases toward secular norms, while under.",
+      "span": {
+        "quote": "Mainstream portrayals tend to prioritize autonomy arguments against non-consensual procedures, reflecting institutional biases toward secular norms, while under"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

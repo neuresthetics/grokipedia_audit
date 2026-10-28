@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0050",
+  "source_text": "This practice is seen as emulating prophetic ideals, where the circumcised state is culturally normalized as the \"natural\" form, while uncircumcised genitalia may be perceived as abnormal or incomplete. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice is seen as emulating prophetic ideals, where the circumcised state is culturally normalized as the \"natural\" form, while uncir"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice is seen as emulating prophetic ideals, where the circumcised state is culturally normalized as the \"natural\" form, while uncircumcised genitalia m.",
+      "span": {
+        "quote": "This practice is seen as emulating prophetic ideals, where the circumcised state is culturally normalized as the \"natural\" form, while uncircumcised genitalia m"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

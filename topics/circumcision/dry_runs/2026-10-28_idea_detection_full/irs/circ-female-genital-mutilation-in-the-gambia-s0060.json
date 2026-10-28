@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0060",
+  "source_text": "Anomalous healing manifests as fibrosis (15.8\u201319.4%), keloid formation (13.3\u201335.6% on clitoris, up to 21.6% on labia), synechia (7.1\u201354.4%), and clitoral neuroma (8.1\u201320.6%), absent in uncut controls.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anomalous healing manifests as fibrosis (15.8\u201319.4%), keloid formation (13.3\u201335.6% on clitoris, up to 21.6% on labia), synechia (7.1\u201354.4%),"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anomalous healing manifests as fibrosis (15.8\u201319.4%), keloid formation (13.3\u201335.6% on clitoris, up to 21.6% on labia), synechia (7.1\u201354.4%), and clitoral neurom.",
+      "span": {
+        "quote": "Anomalous healing manifests as fibrosis (15.8\u201319.4%), keloid formation (13.3\u201335.6% on clitoris, up to 21.6% on labia), synechia (7.1\u201354.4%), and clitoral neurom"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0179",
+  "source_text": "This cost-effectiveness holds in infectious disease control, prioritizing preventive investment over recurrent therapeutic interventions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This cost-effectiveness holds in infectious disease control, prioritizing preventive investment over recurrent therapeutic interventions."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This cost-effectiveness holds in infectious disease control, prioritizing preventive investment over recurrent therapeutic interventions.",
+      "span": {
+        "quote": "This cost-effectiveness holds in infectious disease control, prioritizing preventive investment over recurrent therapeutic interventions."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

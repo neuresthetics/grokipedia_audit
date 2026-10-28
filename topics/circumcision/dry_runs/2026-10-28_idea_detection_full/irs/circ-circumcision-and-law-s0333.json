@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0333",
+  "source_text": "Despite these measures, annual deaths during initiation seasons\u2014averaging 20-30 in the Eastern Cape alone\u2014reveal ongoing tensions between cultural rights under the Constitution's Section 30 and child safety imperatives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite these measures, annual deaths during initiation seasons\u2014averaging 20-30 in the Eastern Cape alone\u2014reveal ongoing tensions between cu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite these measures, annual deaths during initiation seasons\u2014averaging 20-30 in the Eastern Cape alone\u2014reveal ongoing tensions between cultural rights under.",
+      "span": {
+        "quote": "Despite these measures, annual deaths during initiation seasons\u2014averaging 20-30 in the Eastern Cape alone\u2014reveal ongoing tensions between cultural rights under "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

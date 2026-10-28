@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0050",
+  "source_text": "The event featured syllabus abstracts on activism and policy, reinforcing calls for legal protections against non-consensual genital surgeries, and underscored activism's role in shifting public discourse toward viewing circumcision as a human rights issue rather than routine care.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The event featured syllabus abstracts on activism and policy, reinforcing calls for legal protections against non-consensual genital surgeri"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The event featured syllabus abstracts on activism and policy, reinforcing calls for legal protections against non-consensual genital surgeries, and underscored.",
+      "span": {
+        "quote": "The event featured syllabus abstracts on activism and policy, reinforcing calls for legal protections against non-consensual genital surgeries, and underscored "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0062",
+  "source_text": "Obstetric complications are markedly increased, with 39.0% of type I and 65.9% of type II cases facing delivery issues like perineal tears (27.8\u201348.8%), prolonged labor (15.6\u201336.6%), and episiotomy needs (20.0\u201330.5%), yielding odds ratios of 4.82\u20139.06 relative to uncut women (11.7% complications); fresh stillbirths occur in 2.9\u20136.1% of affected deliveries versus 0%. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Obstetric complications are markedly increased, with 39.0% of type I and 65.9% of type II cases facing delivery issues like perineal tears ("
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Obstetric complications are markedly increased, with 39.0% of type I and 65.9% of type II cases facing delivery issues like perineal tears (27.8\u201348.8%), prolong.",
+      "span": {
+        "quote": "Obstetric complications are markedly increased, with 39.0% of type I and 65.9% of type II cases facing delivery issues like perineal tears (27.8\u201348.8%), prolong"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

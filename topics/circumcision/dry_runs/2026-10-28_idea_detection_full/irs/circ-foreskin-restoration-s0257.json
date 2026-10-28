@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0257",
+  "source_text": "Proponents of restoration contend that IMC permanently alters healthy genital tissue without the individual's consent, removing specialized erogenous structures such as the ridged bands and inner mucosal lining, which contribute to sexual function and sensation. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of restoration contend that IMC permanently alters healthy genital tissue without the individual's consent, removing specialized"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "IMC permanently alters healthy genital tissue without the individual's consent, removing specialized erogenous structures such as the ridged bands and inner muc.",
+      "span": {
+        "quote": "IMC permanently alters healthy genital tissue without the individual's consent, removing specialized erogenous structures such as the ridged bands and inner muc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of restoration.",
+      "span": {
+        "quote": "Proponents of restoration"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

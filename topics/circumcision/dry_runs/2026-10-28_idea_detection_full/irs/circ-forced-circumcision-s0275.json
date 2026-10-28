@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0275",
+  "source_text": "Both practices share roots in tradition and community norms, yet FGC is universally condemned as mutilation with severe, lifelong complications including hemorrhage, chronic infections, urinary fistulas, and increased maternal mortality risks during childbirth, whereas male circumcision carries lower acute risks like bleeding or infection (occurring in approximately 0.2-0.6% of cases) but potential long-term effects such as reduced penile sensitivity. [127]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Both practices share roots in tradition and community norms, yet FGC is universally condemned as mutilation with severe, lifelong complicati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Both practices share roots in tradition and community norms, yet FGC is universally condemned as mutilation with severe, lifelong complications including hemorr.",
+      "span": {
+        "quote": "Both practices share roots in tradition and community norms, yet FGC is universally condemned as mutilation with severe, lifelong complications including hemorr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

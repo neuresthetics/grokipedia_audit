@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-clitoridectomy-s0046",
+  "source_text": "Brown, who began performing the procedure in the early 1860s, detailed its application in his 1866 monograph On the Curative Treatment of Certain Uterine and Ovarian Diseases by Cauterisation, claiming success in 38 of 40 cases for conditions like locomotor ataxy and insanity, often excising the clitoris and sometimes adjacent nymphae under chloroform anesthesia. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Brown, who began performing the procedure in the early 1860s, detailed its application in his 1866 monograph On the Curative Treatment of Ce"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Brown, who began performing the procedure in the early 1860s, detailed its application in his 1866 monograph On the Curative Treatment of Certain Uterine and Ov.",
+      "span": {
+        "quote": "Brown, who began performing the procedure in the early 1860s, detailed its application in his 1866 monograph On the Curative Treatment of Certain Uterine and Ov"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

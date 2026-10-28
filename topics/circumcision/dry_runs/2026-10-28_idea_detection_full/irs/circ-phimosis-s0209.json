@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-phimosis-s0209",
+  "source_text": "Circumcision, the excision of the foreskin, remains the definitive and most commonly performed procedure, providing permanent resolution by eliminating the non-retractable tissue and enabling full glans exposure to further reduce any residual hypersensitivity through keratinization. [1] [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision, the excision of the foreskin, remains the definitive and most commonly performed procedure, providing permanent resolution by"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision, the excision of the foreskin, remains the definitive and most commonly performed procedure, providing permanent resolution by eliminating the non-.",
+      "span": {
+        "quote": "Circumcision, the excision of the foreskin, remains the definitive and most commonly performed procedure, providing permanent resolution by eliminating the non-"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ulwaluko-s0084",
+  "source_text": "Critics, often from urban or Western-influenced viewpoints, argue it entrenches inflexible gender expectations, potentially marginalizing non-conformists. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics, often from urban or Western-influenced viewpoints, argue it entrenches inflexible gender expectations, potentially marginalizing no"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It entrenches inflexible gender expectations, potentially marginalizing non-conformists.",
+      "span": {
+        "quote": "it entrenches inflexible gender expectations, potentially marginalizing non-conformists."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics, often from urban or Western-influenced viewpoints.",
+      "span": {
+        "quote": "Critics, often from urban or Western-influenced viewpoints"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

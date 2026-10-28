@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0083",
+  "source_text": "This perspective aligns with broader intactivist arguments that prioritize the child's right to an intact body, viewing the foreskin as a functional anatomical structure with protective roles rather than superfluous tissue warranting removal.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective aligns with broader intactivist arguments that prioritize the child's right to an intact body, viewing the foreskin as a fu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective aligns with broader intactivist arguments that prioritize the child's right to an intact body, viewing the foreskin as a functional anatomical.",
+      "span": {
+        "quote": "This perspective aligns with broader intactivist arguments that prioritize the child's right to an intact body, viewing the foreskin as a functional anatomical "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

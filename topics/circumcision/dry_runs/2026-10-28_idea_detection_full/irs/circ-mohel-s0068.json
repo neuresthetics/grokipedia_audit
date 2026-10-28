@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-mohel-s0068",
+  "source_text": "Programs like the Bris Program further bridge this gap by recruiting Jewish medical personnel for dual training in brit milah, fostering expertise in both covenantal symbolism and clinical outcomes like reduced urinary tract infection rates associated with timely circumcision. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Programs like the Bris Program further bridge this gap by recruiting Jewish medical personnel for dual training in brit milah, fostering exp"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Programs like the Bris Program further bridge this gap by recruiting Jewish medical personnel for dual training in brit milah, fostering expertise in both coven.",
+      "span": {
+        "quote": "Programs like the Bris Program further bridge this gap by recruiting Jewish medical personnel for dual training in brit milah, fostering expertise in both coven"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with timely circumcision.",
+      "span": {
+        "quote": "associated with timely circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with timely circumcision"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with timely circumcision",
+          "span": {
+            "quote": "associated with timely circumcision"
+          }
+        }
+      ]
+    }
+  ]
+}

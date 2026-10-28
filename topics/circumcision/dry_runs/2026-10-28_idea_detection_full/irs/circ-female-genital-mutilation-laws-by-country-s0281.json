@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0281",
+  "source_text": "Mental health impacts include post-traumatic stress disorder (prevalence up to 30% in affected cohorts), depression, and anxiety, often exacerbated by the procedure's traumatic nature rather than mitigated by cultural acceptance. [135]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mental health impacts include post-traumatic stress disorder (prevalence up to 30% in affected cohorts), depression, and anxiety, often exac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mental health impacts include post-traumatic stress disorder (prevalence up to 30% in affected cohorts), depression, and anxiety, often exacerbated by the proce.",
+      "span": {
+        "quote": "Mental health impacts include post-traumatic stress disorder (prevalence up to 30% in affected cohorts), depression, and anxiety, often exacerbated by the proce"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

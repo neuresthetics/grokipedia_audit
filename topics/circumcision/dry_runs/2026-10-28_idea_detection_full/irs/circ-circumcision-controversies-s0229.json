@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0229",
+  "source_text": "Fact-checks and expert analyses dismissed the claims as unsupported, noting no established causal connection and stable autism prevalence trends amid declining U.S. neonatal circumcision rates from around 58% in 2010 to under 50% by the mid-2020s. [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Fact-checks and expert analyses dismissed the claims as unsupported, noting no established causal connection and stable autism prevalence tr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "S unsupported, noting no established causal connection and stable autism prevalence trends amid declining U.S.",
+      "span": {
+        "quote": "s unsupported, noting no established causal connection and stable autism prevalence trends amid declining U.S."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Fact-checks and expert analyses dismissed the.",
+      "span": {
+        "quote": "Fact-checks and expert analyses dismissed the"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

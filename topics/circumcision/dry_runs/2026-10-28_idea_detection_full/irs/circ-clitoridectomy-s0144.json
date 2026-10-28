@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0144",
+  "source_text": "Mortality, though rare, stems from exsanguination or overwhelming infection, with estimates suggesting a 0.2% death rate in some traditional settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mortality, though rare, stems from exsanguination or overwhelming infection, with estimates suggesting a 0.2% death rate in some traditional"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mortality, though rare, stems from exsanguination or overwhelming infection, with estimates suggesting a 0.2% death rate in some traditional settings.",
+      "span": {
+        "quote": "Mortality, though rare, stems from exsanguination or overwhelming infection, with estimates suggesting a 0.2% death rate in some traditional settings."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

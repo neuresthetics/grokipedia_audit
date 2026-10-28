@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0108",
+  "source_text": "Population-based exams in practicing communities reveal that most women experience no ongoing urinary obstruction or chronic pain attributable to the procedure, particularly absent reinfibulation or poor hygiene. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Population-based exams in practicing communities reveal that most women experience no ongoing urinary obstruction or chronic pain attributab"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Population-based exams in practicing communities reveal that most women experience no ongoing urinary obstruction or chronic pain attributable to the procedure,.",
+      "span": {
+        "quote": "Population-based exams in practicing communities reveal that most women experience no ongoing urinary obstruction or chronic pain attributable to the procedure,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Most women experience no ongoing urinary.",
+      "span": {
+        "quote": "most women experience no ongoing urinary"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "most women experience no ongoing urinary"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

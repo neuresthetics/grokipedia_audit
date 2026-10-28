@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0079",
+  "source_text": "For instance, in Sudanese communities practicing infibulation, interviewees described post-procedure sexual lives as fulfilling, with one noting \"no problem\" in conception or pleasure after defibulation for marriage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, in Sudanese communities practicing infibulation, interviewees described post-procedure sexual lives as fulfilling, with one no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, in Sudanese communities practicing infibulation, interviewees described post-procedure sexual lives as fulfilling, with one noting \"no problem\" in.",
+      "span": {
+        "quote": "For instance, in Sudanese communities practicing infibulation, interviewees described post-procedure sexual lives as fulfilling, with one noting \"no problem\" in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

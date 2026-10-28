@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0085",
+  "source_text": "Traditional circumcision rites, common in ethnic groups across Kenya, South Africa, and Zambia, often occur outside clinical settings by non-medical practitioners, leading to elevated complication rates compared to VMMC.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional circumcision rites, common in ethnic groups across Kenya, South Africa, and Zambia, often occur outside clinical settings by non"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditional circumcision rites, common in ethnic groups across Kenya, South Africa, and Zambia, often occur outside clinical settings by non-medical practitione.",
+      "span": {
+        "quote": "Traditional circumcision rites, common in ethnic groups across Kenya, South Africa, and Zambia, often occur outside clinical settings by non-medical practitione"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0081",
+  "source_text": "By demanding proselytization-like conversion for Gentiles\u2014circumcision followed by law-keeping\u2014they aimed to maintain ethnic and ritual boundaries, arguing that deviation risked invalidating the salvific efficacy of Christ's work, akin to a hybrid system where grace demanded works for completion.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By demanding proselytization-like conversion for Gentiles\u2014circumcision followed by law-keeping\u2014they aimed to maintain ethnic and ritual boun"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethnic and ritual boundaries, arguing that deviation risked invalidating the salvific efficacy of Christ's work, akin to a hybrid system where grace demanded wo.",
+      "span": {
+        "quote": "ethnic and ritual boundaries, arguing that deviation risked invalidating the salvific efficacy of Christ's work, akin to a hybrid system where grace demanded wo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "By demanding proselytization-like conversion for Gentiles\u2014circumcision followed by law-keeping\u2014they aimed to.",
+      "span": {
+        "quote": "By demanding proselytization-like conversion for Gentiles\u2014circumcision followed by law-keeping\u2014they aimed to"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

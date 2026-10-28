@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0077",
+  "source_text": "They contended that faith in Christ alone fell short without incorporation into the Abrahamic covenant through physical circumcision, interpreting Genesis 17:10-14 as an eternal mandate extending to all participants in God's people, including post-resurrection believers.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They contended that faith in Christ alone fell short without incorporation into the Abrahamic covenant through physical circumcision, interp"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Faith in Christ alone fell short without incorporation into the Abrahamic covenant through physical circumcision, interpreting Genesis 17:10-14 as an eternal ma.",
+      "span": {
+        "quote": "faith in Christ alone fell short without incorporation into the Abrahamic covenant through physical circumcision, interpreting Genesis 17:10-14 as an eternal ma"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "An eternal mandate extending to all participants in God's peopl.",
+      "span": {
+        "quote": "an eternal mandate extending to all participants in God's peopl"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "an eternal mandate extending to all participants in God's pe"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

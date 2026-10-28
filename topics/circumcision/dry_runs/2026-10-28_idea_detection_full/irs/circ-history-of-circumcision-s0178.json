@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0178",
+  "source_text": "These benefits were supported by epidemiological data showing lower incidences of inflammatory conditions of the glans and foreskin, as well as reduced penile cancer rates, which remain rare but are predominantly observed in uncircumcised men. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These benefits were supported by epidemiological data showing lower incidences of inflammatory conditions of the glans and foreskin, as well"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These benefits were supported by epidemiological data showing lower incidences of inflammatory conditions of the glans and foreskin, as well as reduced penile c.",
+      "span": {
+        "quote": "These benefits were supported by epidemiological data showing lower incidences of inflammatory conditions of the glans and foreskin, as well as reduced penile c"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

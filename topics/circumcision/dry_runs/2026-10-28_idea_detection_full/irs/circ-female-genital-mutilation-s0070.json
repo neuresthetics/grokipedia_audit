@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0070",
+  "source_text": "Health consequences are severe and distinct due to the extensive scarring: immediate risks include hemorrhage (up to 20% in some cohorts), shock, and tetanus from unsterile tools, while long-term effects encompass chronic urinary tract infections, keloid formation, and obstetric complications like vesicovaginal fistulas, with a 2020 meta-analysis linking infibulation to a 30-50% increased cesarean section rate and neonatal mortality.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Health consequences are severe and distinct due to the extensive scarring: immediate risks include hemorrhage (up to 20% in some cohorts), s"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Health consequences are severe and distinct due to the extensive scarring: immediate risks include hemorrhage (up to 20% in some cohorts), shock, and tetanus fr.",
+      "span": {
+        "quote": "Health consequences are severe and distinct due to the extensive scarring: immediate risks include hemorrhage (up to 20% in some cohorts), shock, and tetanus fr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

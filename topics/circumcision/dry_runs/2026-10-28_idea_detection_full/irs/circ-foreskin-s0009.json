@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-foreskin-s0009",
+  "source_text": "The foreskin has been subject to removal via circumcision, a procedure performed neonatally or later for religious, cultural, or medical reasons, with proponents citing reduced risks of urinary tract infections, penile cancer, and certain STIs based on epidemiological data. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The foreskin has been subject to removal via circumcision, a procedure performed neonatally or later for religious, cultural, or medical rea"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The foreskin has been subject to removal via circumcision, a procedure performed neonatally or later for religious, cultural, or medical reasons, with proponent.",
+      "span": {
+        "quote": "The foreskin has been subject to removal via circumcision, a procedure performed neonatally or later for religious, cultural, or medical reasons, with proponent"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing reduced risks of urinary tract infections.",
+      "span": {
+        "quote": "citing reduced risks of urinary tract infections"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing reduced risks of urinary tract infections"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

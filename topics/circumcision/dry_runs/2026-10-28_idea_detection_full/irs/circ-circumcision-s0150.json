@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0150",
+  "source_text": "Circumcision facilitates easier hygiene by reducing smegma accumulation. [54]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision facilitates easier hygiene by reducing smegma accumulation. [54]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision facilitates easier hygiene by reducing smegma accumulation. [54].",
+      "span": {
+        "quote": "Circumcision facilitates easier hygiene by reducing smegma accumulation. [54]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

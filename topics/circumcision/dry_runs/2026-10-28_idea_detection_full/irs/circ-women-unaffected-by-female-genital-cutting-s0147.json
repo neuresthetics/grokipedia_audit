@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0147",
+  "source_text": "Anthropological analyses further reveal that FGC serves as a domain of female autonomy and symbolic capital, where women negotiate power through ritual control, independent of male oversight in many settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anthropological analyses further reveal that FGC serves as a domain of female autonomy and symbolic capital, where women negotiate power thr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anthropological analyses further reveal that FGC serves as a domain of female autonomy and symbolic capital, where women negotiate power through ritual control,.",
+      "span": {
+        "quote": "Anthropological analyses further reveal that FGC serves as a domain of female autonomy and symbolic capital, where women negotiate power through ritual control,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

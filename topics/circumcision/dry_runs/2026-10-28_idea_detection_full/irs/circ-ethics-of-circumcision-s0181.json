@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0181",
+  "source_text": "Equity considerations favor neonatal timing in low-resource environments, where early intervention ensures broader access for low-income groups, maximizes lifelong protection against infections from infancy onward, and avoids barriers to adult procedures like surgical capacity or behavioral uptake. [109]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Equity considerations favor neonatal timing in low-resource environments, where early intervention ensures broader access for low-income gro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Equity considerations favor neonatal timing in low-resource environments, where early intervention ensures broader access for low-income groups, maximizes lifel.",
+      "span": {
+        "quote": "Equity considerations favor neonatal timing in low-resource environments, where early intervention ensures broader access for low-income groups, maximizes lifel"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

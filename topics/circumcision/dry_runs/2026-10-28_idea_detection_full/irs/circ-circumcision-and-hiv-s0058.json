@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0058",
+  "source_text": "Regional ecological data from Africa further indicate an inverse correlation between baseline male circumcision prevalence\u2014often tied to ethnic, religious, or cultural practices\u2014and HIV prevalence, supporting but not proving causality.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regional ecological data from Africa further indicate an inverse correlation between baseline male circumcision prevalence\u2014often tied to eth"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regional ecological data from Africa further indicate an inverse correlation between baseline male circumcision prevalence\u2014often tied to ethnic, religious, or c.",
+      "span": {
+        "quote": "Regional ecological data from Africa further indicate an inverse correlation between baseline male circumcision prevalence\u2014often tied to ethnic, religious, or c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Tied to ethnic.",
+      "span": {
+        "quote": "tied to ethnic"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to ethnic"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to ethnic",
+          "span": {
+            "quote": "tied to ethnic"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-forced-circumcision-s0265",
+  "source_text": "The Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP) emphasize that newborn circumcision complication rates are low (0.2-0.6%), safer than in older children or adults, and that benefits\u2014encompassing UTI prevention, STI mitigation, and reduced phimosis\u2014outweigh risks when performed electively. [121] [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP) emphasize that newborn circumcision complicati"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Newborn circumcision complication rates are low (0.2-0.6%), safer than in older children or adults, and that benefits\u2014encompassing UTI prevention, STI mitigatio.",
+      "span": {
+        "quote": "newborn circumcision complication rates are low (0.2-0.6%), safer than in older children or adults, and that benefits\u2014encompassing UTI prevention, STI mitigatio"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP).",
+      "span": {
+        "quote": "The Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c4",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c5",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0098",
+  "source_text": "Shock may ensue from blood loss or acute pain, contributing to immediate morbidity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Shock may ensue from blood loss or acute pain, contributing to immediate morbidity."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Shock may ensue from blood loss or acute pain, contributing to immediate morbidity.",
+      "span": {
+        "quote": "Shock may ensue from blood loss or acute pain, contributing to immediate morbidity."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

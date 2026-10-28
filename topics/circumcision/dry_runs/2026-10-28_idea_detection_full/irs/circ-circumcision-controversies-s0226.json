@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0226",
+  "source_text": "These programs, supported by entities like PEPFAR, have averted millions of infections without corresponding rises in complications, underscoring differences between standardized medical protocols and informal rituals.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These programs, supported by entities like PEPFAR, have averted millions of infections without corresponding rises in complications, undersc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These programs, supported by entities like PEPFAR, have averted millions of infections without corresponding rises in complications, underscoring differences be.",
+      "span": {
+        "quote": "These programs, supported by entities like PEPFAR, have averted millions of infections without corresponding rises in complications, underscoring differences be"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

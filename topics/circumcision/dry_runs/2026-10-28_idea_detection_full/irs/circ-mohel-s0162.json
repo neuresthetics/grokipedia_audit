@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-mohel-s0162",
+  "source_text": "Additional cases emerged, such as a 2014 diagnosis in an infant post-ritual, underscoring a transmission rate estimated at 24.4 infections per 100,000 boys undergoing the practice\u20143.4 times higher than baseline neonatal HSV rates\u2014attributable to the mohel's oral contact introducing HSV-1, which asymptomatically infects over 50% of adults. [83] [84] [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional cases emerged, such as a 2014 diagnosis in an infant post-ritual, underscoring a transmission rate estimated at 24.4 infections p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additional cases emerged, such as a 2014 diagnosis in an infant post-ritual, underscoring a transmission rate estimated at 24.4 infections per 100,000 boys unde.",
+      "span": {
+        "quote": "Additional cases emerged, such as a 2014 diagnosis in an infant post-ritual, underscoring a transmission rate estimated at 24.4 infections per 100,000 boys unde"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100.",
+      "span": {
+        "quote": "per 100"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0099",
+  "source_text": "In empirical analyses separating procedure-specific effects from social factors, FGC status itself showed no significant independent association with physical health morbidities, including genitourinary difficulties or pain during intercourse (OR=0.79 for poor physical health), whereas experiences of discrimination strongly predicted adverse outcomes (OR=2.68). [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In empirical analyses separating procedure-specific effects from social factors, FGC status itself showed no significant independent associa"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In empirical analyses separating procedure-specific effects from social factors, FGC status itself showed no significant independent association with physical h.",
+      "span": {
+        "quote": "In empirical analyses separating procedure-specific effects from social factors, FGC status itself showed no significant independent association with physical h"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

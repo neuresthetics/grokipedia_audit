@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0268",
+  "source_text": "However, empirical assessments reveal persistent consent deficiencies: in Eswatini, males aged 10-19 exhibited limited grasp of procedure risks post-counseling, with sessions disproportionately highlighting benefits while downplaying adverse events like infection or excessive skin removal, and misconceptions persisted that HIV testing was obligatory rather than optional. [125]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, empirical assessments reveal persistent consent deficiencies: in Eswatini, males aged 10-19 exhibited limited grasp of procedure ri"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, empirical assessments reveal persistent consent deficiencies: in Eswatini, males aged 10-19 exhibited limited grasp of procedure risks post-counseling,.",
+      "span": {
+        "quote": "However, empirical assessments reveal persistent consent deficiencies: in Eswatini, males aged 10-19 exhibited limited grasp of procedure risks post-counseling,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

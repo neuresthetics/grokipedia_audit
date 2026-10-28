@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0240",
+  "source_text": "In northern Ghana, despite national bans, FGM persists at rates of 61% in areas like Bawku Municipality due to beliefs that it preserves virginity, reduces promiscuity, and distinguishes tribal identities, with uncircumcised girls facing ridicule, isolation, and exclusion from social events. [124]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In northern Ghana, despite national bans, FGM persists at rates of 61% in areas like Bawku Municipality due to beliefs that it preserves vir"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In northern Ghana, despite national bans, FGM persists at rates of 61% in areas like Bawku Municipality due to beliefs that it preserves virginity, reduces prom.",
+      "span": {
+        "quote": "In northern Ghana, despite national bans, FGM persists at rates of 61% in areas like Bawku Municipality due to beliefs that it preserves virginity, reduces prom"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

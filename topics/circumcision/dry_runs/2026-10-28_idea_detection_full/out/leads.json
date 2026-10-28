@@ -1,0 +1,2265 @@
+{
+  "flags": [],
+  "possible_issues": [
+    {
+      "id": "circ-ashley-montagu-resolution-s0032",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0046",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0053",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0130",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0159",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0163",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0176",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0197",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0199",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0203",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0207",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0216",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ashley-montagu-resolution-s0232",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0204",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0208",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0211",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0212",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0213",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0216",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0222",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0240",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0244",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0260",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0275",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-brit-milah-s0289",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0290",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0291",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0292",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0316",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-milah-s0334",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-shalom-naming-ceremony-s0029",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-shalom-naming-ceremony-s0085",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-shalom-naming-ceremony-s0088",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-brit-shalom-naming-ceremony-s0089",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0076",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0079",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0083",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0141",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0001",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0003",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0020",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0026",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0027",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0030",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0035",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0039",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0047",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0048",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0052",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0053",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0056",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0066",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0091",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0095",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0096",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0098",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0103",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0138",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0156",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0164",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0167",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0170",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0170",
+      "entry": "false-cause",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0177",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0178",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0183",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0186",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0191",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0195",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0198",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0222",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0224",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0229",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0245",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0247",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0249",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0251",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0252",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0260",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0269",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0273",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0274",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-hiv-s0278",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0003",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0066",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0117",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0205",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0306",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0327",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0346",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0385",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0395",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-and-law-s0398",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0036",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0037",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0041",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0044",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0046",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0057",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0065",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0086",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0087",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0091",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0093",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0117",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0125",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversies-s0192",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversy-in-early-christianity-s0070",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-controversy-in-early-christianity-s0089",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0005",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0005",
+      "entry": "begging-the-question",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0138",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0151",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0169",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0172",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0183",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0209",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0216",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0217",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0220",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0223",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0225",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0228",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0231",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0240",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0241",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0275",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-africa-s0284",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-in-brunei-s0049",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0047",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0077",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0081",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0115",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0126",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0142",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0143",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0146",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0151",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0152",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0158",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0160",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0174",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0180",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0183",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0191",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0198",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0199",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0211",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0212",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0220",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0258",
+      "entry": "false-cause",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-s0270",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0273",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0275",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0279",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0324",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0329",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0333",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0364",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0367",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0369",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0370",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0388",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0402",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0415",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0419",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0424",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0439",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0441",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0444",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0446",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0448",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0452",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-s0459",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0004",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0034",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0038",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0041",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0042",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0047",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0063",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0314",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0322",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0323",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0325",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0326",
+      "entry": "false-cause",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0329",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0333",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-circumcision-surgical-procedure-s0334",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0008",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0046",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0140",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0147",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0155",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0158",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0190",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0202",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0206",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0207",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-clitoridectomy-s0214",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-clitoridectomy-s0226",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-cost-of-circumcision-surgery-in-chaozhou-s0026",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-cultural-views-on-circumcision-aesthetics-s0034",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-cultural-views-on-circumcision-aesthetics-s0121",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-cultural-views-on-circumcision-aesthetics-s0124",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0049",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0051",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0064",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0067",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0072",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0073",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0075",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0095",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0099",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0103",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0104",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0105",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0110",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0117",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0118",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0120",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0133",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0136",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0144",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0149",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0151",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0152",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0153",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0170",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0178",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0198",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0200",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0210",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0214",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0231",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0237",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0245",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0248",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0254",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0256",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0267",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0274",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0275",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0277",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0306",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0318",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ethics-of-circumcision-s0320",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-act-2003-s0058",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-act-2003-s0162",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-act-2003-s0163",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-female-genital-mutilation-act-2003-s0165",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-act-2003-s0170",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-act-2003-s0189",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0025",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0027",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0104",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0114",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0128",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0164",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0207",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0222",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0223",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0242",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-india-s0243",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-new-zealand-s0025",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-new-zealand-s0037",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-nigeria-s0102",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-nigeria-s0126",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-nigeria-s0193",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0079",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0149",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0156",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0166",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0172",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0259",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-sudan-s0264",
+      "entry": "begging-the-question",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-gambia-s0021",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-gambia-s0067",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-gambia-s0124",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-gambia-s0131",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-gambia-s0146",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-kingdom-s0185",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-kingdom-s0192",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-states-s0141",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-states-s0155",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-states-s0190",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-states-s0192",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-in-the-united-states-s0197",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0021",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0041",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0048",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0064",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0254",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0271",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0280",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0282",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-laws-by-country-s0312",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0040",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0070",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0071",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0128",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0145",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0164",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0166",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0196",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0199",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0209",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0221",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0314",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-female-genital-mutilation-s0323",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0009",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-forced-circumcision-s0026",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0041",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0133",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0173",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0175",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0177",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0185",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0205",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0255",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0260",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0263",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-forced-circumcision-s0274",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-man-s0079",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-man-s0084",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-restoration-s0269",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-restoration-s0274",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0009",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0080",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0157",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0160",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0164",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0187",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0188",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0189",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0191",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0203",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0273",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0274",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0278",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-foreskin-s0285",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0070",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0091",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0103",
+      "entry": "false-cause",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0114",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0121",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0130",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-gishiri-cutting-s0137",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-history-of-circumcision-s0179",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-history-of-circumcision-s0182",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-history-of-circumcision-s0190",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-history-of-circumcision-s0195",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-history-of-circumcision-s0200",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-history-of-circumcision-s0201",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0144",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0149",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0152",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0153",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0162",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0177",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0178",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0186",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0240",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-infibulation-s0244",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0007",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0015",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0020",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0129",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0133",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0216",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0252",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0146",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0147",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0150",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0153",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0156",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0198",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0203",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0205",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0229",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-khitan-circumcision-s0230",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-meatal-stenosis-s0151",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-meatal-stenosis-s0165",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0016",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0121",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0122",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0124",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0136",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0154",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0161",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0162",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0163",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-mohel-s0172",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-mohel-s0229",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-penile-subincision-s0130",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-phimosis-s0281",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prevalence-of-circumcision-s0053",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prevalence-of-circumcision-s0062",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prevalence-of-circumcision-s0090",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0032",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0037",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0048",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0128",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0138",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0139",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-prohibition-of-female-circumcision-act-1985-s0142",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-redundant-prepuce-s0106",
+      "entry": "false-cause",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-religion-and-circumcision-s0042",
+      "entry": "false-cause",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-religion-and-circumcision-s0214",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religion-and-circumcision-s0216",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religion-and-circumcision-s0223",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religion-and-circumcision-s0225",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religious-views-on-female-genital-mutilation-s0019",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religious-views-on-female-genital-mutilation-s0022",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religious-views-on-female-genital-mutilation-s0080",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religious-views-on-female-genital-mutilation-s0124",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-religious-views-on-female-genital-mutilation-s0201",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ulwaluko-s0039",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ulwaluko-s0127",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ulwaluko-s0130",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-ulwaluko-s0149",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0003",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0069",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0070",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0074",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0077",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0078",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0080",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0083",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0086",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0087",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0090",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0094",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0104",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0108",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0119",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0121",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0122",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0129",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0188",
+      "entry": "argument-from-ignorance",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage"
+    },
+    {
+      "id": "circ-views-on-circumcision-s0190",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0001",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0028",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0032",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0082",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0108",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0119",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0128",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0134",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0174",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0181",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    },
+    {
+      "id": "circ-women-unaffected-by-female-genital-cutting-s0186",
+      "entry": "appeal-to-authority",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+    }
+  ]
+}

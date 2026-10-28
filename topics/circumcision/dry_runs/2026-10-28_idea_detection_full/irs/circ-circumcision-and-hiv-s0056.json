@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0056",
+  "source_text": "The randomized controlled trials establishing male circumcision's efficacy against HIV acquisition were conducted in high-prevalence sub-Saharan African regions, specifically South Africa, Kenya, and Uganda, where they demonstrated a consistent approximately 60% risk reduction for heterosexual men engaging primarily in vaginal sex. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The randomized controlled trials establishing male circumcision's efficacy against HIV acquisition were conducted in high-prevalence sub-Sah"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The randomized controlled trials establishing male circumcision's efficacy against HIV acquisition were conducted in high-prevalence sub-Saharan African regions.",
+      "span": {
+        "quote": "The randomized controlled trials establishing male circumcision's efficacy against HIV acquisition were conducted in high-prevalence sub-Saharan African regions"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

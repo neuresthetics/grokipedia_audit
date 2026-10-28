@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0044",
+  "source_text": "Roe's effort drew on evidence from UK healthcare providers encountering FGM-related injuries, underscoring the procedure's incompatibility with domestic standards of medical ethics and child safeguarding, even as debates questioned state intervention in private customs. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Roe's effort drew on evidence from UK healthcare providers encountering FGM-related injuries, underscoring the procedure's incompatibility w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Roe's effort drew on evidence from UK healthcare providers encountering FGM-related injuries, underscoring the procedure's incompatibility with domestic standar.",
+      "span": {
+        "quote": "Roe's effort drew on evidence from UK healthcare providers encountering FGM-related injuries, underscoring the procedure's incompatibility with domestic standar"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

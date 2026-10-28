@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-clitoridectomy-s0189",
+  "source_text": "Proponents within practicing communities, such as those in parts of Africa, the Middle East, and Asia, often claim that clitoridectomy serves as a rite of passage conferring social status and eligibility for marriage, asserting it fosters community belonging and fidelity in women. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents within practicing communities, such as those in parts of Africa, the Middle East, and Asia, often claim that clitoridectomy serve"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Clitoridectomy serves as a rite of passage conferring social status and eligibility for marriage, asserting it fosters community belonging and fidelity in women.",
+      "span": {
+        "quote": "clitoridectomy serves as a rite of passage conferring social status and eligibility for marriage, asserting it fosters community belonging and fidelity in women"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents within practicing communities, such as those in parts of Africa, the Middle East, and Asia, often.",
+      "span": {
+        "quote": "Proponents within practicing communities, such as those in parts of Africa, the Middle East, and Asia, often"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

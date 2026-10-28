@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-022",
+  "source_text": "Checker: pattern matches; forbids fail (not testimony-only; so = inferential). \u2192 **flag ad-hominem**. Full fixture: idea_detection/fixtures/method_ex1_ad_hominem.json.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Checker: pattern matches; forbids fail (not testimony-only; so = inferential). \u2192 **flag ad-hominem**. Full fixture: idea_detection/fixtures/"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Checker: pattern matches; forbids fail (not testimony-only.",
+      "span": {
+        "quote": "Checker: pattern matches; forbids fail (not testimony-only"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "= inferential). \u2192 **flag ad-hominem**. Full fixture: idea_detection/fixtures/method_ex1_ad_hominem.json.",
+      "span": {
+        "quote": "= inferential). \u2192 **flag ad-hominem**. Full fixture: idea_detection/fixtures/method_ex1_ad_hominem.json."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

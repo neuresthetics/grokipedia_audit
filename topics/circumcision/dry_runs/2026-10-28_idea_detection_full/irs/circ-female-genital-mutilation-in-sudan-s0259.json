@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0259",
+  "source_text": "In urban refugee settings, such as Greater Cairo, slight declines emerge among educated mothers and youth exposed to legal and health education, with some citing personal harms or marital issues to reject continuation, contrasting persistent intent in more insular camp or network-driven groups. [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In urban refugee settings, such as Greater Cairo, slight declines emerge among educated mothers and youth exposed to legal and health educat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In urban refugee settings, such as Greater Cairo, slight declines emerge among educated mothers and youth exposed to legal and health education, with some citin.",
+      "span": {
+        "quote": "In urban refugee settings, such as Greater Cairo, slight declines emerge among educated mothers and youth exposed to legal and health education, with some citin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing personal harms or marital issues to reject continuation.",
+      "span": {
+        "quote": "citing personal harms or marital issues to reject continuation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing personal harms or marital issues to reject continuation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0110",
+  "source_text": "A 2019 ecological study found a significant positive correlation between male neonatal circumcision (MNC) rates and SIDS mortality rates in the United States.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2019 ecological study found a significant positive correlation between male neonatal circumcision (MNC) rates and SIDS mortality rates in"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2019 ecological study found a significant positive correlation between male neonatal circumcision (MNC) rates and SIDS mortality rates in the United States.",
+      "span": {
+        "quote": "A 2019 ecological study found a significant positive correlation between male neonatal circumcision (MNC) rates and SIDS mortality rates in the United States."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

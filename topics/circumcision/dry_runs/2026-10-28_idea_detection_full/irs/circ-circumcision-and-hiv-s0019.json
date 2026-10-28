@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0019",
+  "source_text": "Over 24 months, HIV incidence rates were 2.1% (95% CI 1.2-3.0) in the circumcised group and 4.2% (95% CI 3.0-5.4) in controls, corresponding to a 51% relative risk reduction (p=0.0065).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Over 24 months, HIV incidence rates were 2.1% (95% CI 1.2-3.0) in the circumcised group and 4.2% (95% CI 3.0-5.4) in controls, corresponding"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Over 24 months, HIV incidence rates were 2.1% (95% CI 1.2-3.0) in the circumcised group and 4.2% (95% CI 3.0-5.4) in controls, corresponding to a 51% relative r.",
+      "span": {
+        "quote": "Over 24 months, HIV incidence rates were 2.1% (95% CI 1.2-3.0) in the circumcised group and 4.2% (95% CI 3.0-5.4) in controls, corresponding to a 51% relative r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

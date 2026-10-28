@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0036",
+  "source_text": "The benefit persists into later childhood, with a 6.6-fold risk reduction observed in boys aged 1-16 years.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The benefit persists into later childhood, with a 6.6-fold risk reduction observed in boys aged 1-16 years."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The benefit persists into later childhood, with a 6.6-fold risk reduction observed in boys aged 1-16 years.",
+      "span": {
+        "quote": "The benefit persists into later childhood, with a 6.6-fold risk reduction observed in boys aged 1-16 years."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

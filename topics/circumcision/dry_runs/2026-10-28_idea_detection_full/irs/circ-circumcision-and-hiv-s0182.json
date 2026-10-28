@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0182",
+  "source_text": "Economic evaluations have consistently deemed VMMC highly cost-effective, with models projecting millions of infections averted at costs below per-infection treatment thresholds, prompting calls in 2023 for intensified scale-up amid stagnating coverage in some areas. [11] [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Economic evaluations have consistently deemed VMMC highly cost-effective, with models projecting millions of infections averted at costs bel"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Economic evaluations have consistently deemed VMMC highly cost-effective, with models projecting millions of infections averted at costs below per-infection tre.",
+      "span": {
+        "quote": "Economic evaluations have consistently deemed VMMC highly cost-effective, with models projecting millions of infections averted at costs below per-infection tre"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

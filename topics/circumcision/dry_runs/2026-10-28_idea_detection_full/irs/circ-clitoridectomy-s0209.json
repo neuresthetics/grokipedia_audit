@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0209",
+  "source_text": "Psychological sequelae are also pronounced, with empirical studies linking clitoridectomy to elevated rates of post-traumatic stress disorder (PTSD), anxiety, depression, and somatization disorders, particularly when performed without anesthesia on prepubescent girls, fostering long-term trauma responses including flashbacks and avoidance behaviors documented in cohort studies of African immigrant women. [71] [101]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological sequelae are also pronounced, with empirical studies linking clitoridectomy to elevated rates of post-traumatic stress disorde"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological sequelae are also pronounced, with empirical studies linking clitoridectomy to elevated rates of post-traumatic stress disorder (PTSD), anxiety, d.",
+      "span": {
+        "quote": "Psychological sequelae are also pronounced, with empirical studies linking clitoridectomy to elevated rates of post-traumatic stress disorder (PTSD), anxiety, d"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

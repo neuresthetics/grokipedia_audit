@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-s0186",
+  "source_text": "Circumcision also prevents pathological phimosis, which affects approximately 1% of uncircumcised males aged 16 or older [110] and involves non-retractable foreskin leading to scarring, infections, and ischemic injury; foreskin removal resolves it without recurrence. [111]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision also prevents pathological phimosis, which affects approximately 1% of uncircumcised males aged 16 or older [110] and involves"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision also prevents pathological phimosis, which affects approximately 1% of uncircumcised males aged 16 or older [110] and involves non-retractable fore.",
+      "span": {
+        "quote": "Circumcision also prevents pathological phimosis, which affects approximately 1% of uncircumcised males aged 16 or older [110] and involves non-retractable fore"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0032",
+  "source_text": "Pediatric advice in outlets like Redbook reinforced this by endorsing early circumcision for its purported cleanliness and conformity to societal norms.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pediatric advice in outlets like Redbook reinforced this by endorsing early circumcision for its purported cleanliness and conformity to soc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pediatric advice in outlets like Redbook reinforced this by endorsing early circumcision for its purported cleanliness and conformity to societal norms.",
+      "span": {
+        "quote": "Pediatric advice in outlets like Redbook reinforced this by endorsing early circumcision for its purported cleanliness and conformity to societal norms."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

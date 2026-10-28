@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0050",
+  "source_text": "Circumcision is linked to 30-35% lower HPV prevalence and incidence, based on cohort data adjusting for confounders, due to decreased viral entry via the inner foreskin mucosa. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision is linked to 30-35% lower HPV prevalence and incidence, based on cohort data adjusting for confounders, due to decreased viral"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision is linked to 30-35% lower HPV prevalence and incidence, based on cohort data adjusting for confounders, due to decreased viral entry via the inner.",
+      "span": {
+        "quote": "Circumcision is linked to 30-35% lower HPV prevalence and incidence, based on cohort data adjusting for confounders, due to decreased viral entry via the inner "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to 30-35% lower HPV prevalence and incidence.",
+      "span": {
+        "quote": "linked to 30-35% lower HPV prevalence and incidence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to 30-35% lower HPV prevalence and incidence"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to 30-35% lower HPV prevalence and incidence",
+          "span": {
+            "quote": "linked to 30-35% lower HPV prevalence and incidence"
+          }
+        }
+      ]
+    }
+  ]
+}

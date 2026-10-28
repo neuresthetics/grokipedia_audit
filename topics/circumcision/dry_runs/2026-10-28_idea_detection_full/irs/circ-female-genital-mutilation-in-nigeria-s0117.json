@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0117",
+  "source_text": "A cross-sectional study at Federal Teaching Hospital Abakaliki found FGM independently raised odds of perineal trauma in laboring women.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A cross-sectional study at Federal Teaching Hospital Abakaliki found FGM independently raised odds of perineal trauma in laboring women."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A cross-sectional study at Federal Teaching Hospital Abakaliki found FGM independently raised odds of perineal trauma in laboring women.",
+      "span": {
+        "quote": "A cross-sectional study at Federal Teaching Hospital Abakaliki found FGM independently raised odds of perineal trauma in laboring women."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

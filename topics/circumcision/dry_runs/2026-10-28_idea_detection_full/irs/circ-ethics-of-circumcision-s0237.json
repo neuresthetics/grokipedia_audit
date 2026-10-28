@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0237",
+  "source_text": "Neonatal circumcision exhibits significantly lower complication rates compared to procedures performed in adulthood, with systematic reviews reporting adverse events in infants ranging from 0.0008% to 3.6%, often limited to minor issues like bleeding or infection, versus 0.9% to 8.8% in adults, where risks include more severe outcomes such as excessive skin removal or prolonged healing. [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision exhibits significantly lower complication rates compared to procedures performed in adulthood, with systematic reviews"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision exhibits significantly lower complication rates compared to procedures performed in adulthood, with systematic reviews reporting adverse e.",
+      "span": {
+        "quote": "Neonatal circumcision exhibits significantly lower complication rates compared to procedures performed in adulthood, with systematic reviews reporting adverse e"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

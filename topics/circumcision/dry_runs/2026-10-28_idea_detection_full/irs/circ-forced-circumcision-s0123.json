@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0123",
+  "source_text": "Reports from affected communities describe these acts as violent rituals using non-sterile tools, leading to infections and trauma, distinct from voluntary practices; ISIS justified them via fatwas emphasizing male genital modification for religious conformity, affecting hundreds in Christian enclaves before territorial losses in 2017. [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reports from affected communities describe these acts as violent rituals using non-sterile tools, leading to infections and trauma, distinct"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reports from affected communities describe these acts as violent rituals using non-sterile tools, leading to infections and trauma, distinct from voluntary prac.",
+      "span": {
+        "quote": "Reports from affected communities describe these acts as violent rituals using non-sterile tools, leading to infections and trauma, distinct from voluntary prac"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

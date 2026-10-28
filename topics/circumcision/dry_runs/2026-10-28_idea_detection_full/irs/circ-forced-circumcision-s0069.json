@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0069",
+  "source_text": "While framed as voluntary tradition, the interplay of peer enforcement and familial expectation overrides individual agency, with annual \"circumcision seasons\" in summer amplifying communal pressure on thousands of boys.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While framed as voluntary tradition, the interplay of peer enforcement and familial expectation overrides individual agency, with annual \"ci"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While framed as voluntary tradition, the interplay of peer enforcement and familial expectation overrides individual agency, with annual \"circumcision seasons\".",
+      "span": {
+        "quote": "While framed as voluntary tradition, the interplay of peer enforcement and familial expectation overrides individual agency, with annual \"circumcision seasons\" "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0124",
+  "source_text": "The study suggests possible mechanisms involving early procedural pain or stress.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The study suggests possible mechanisms involving early procedural pain or stress."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Possible mechanisms involving early procedural pain or stress.",
+      "span": {
+        "quote": "possible mechanisms involving early procedural pain or stress."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

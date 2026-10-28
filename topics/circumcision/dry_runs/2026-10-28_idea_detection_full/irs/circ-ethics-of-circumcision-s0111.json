@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0111",
+  "source_text": "Circumcision's intent\u2014hygiene and infection prevention\u2014and outcomes (infection reductions without impairing function) diverge causally, rejecting unsubstantiated equivalences; utilitarian calculus favors the former where data affirm positive expectancy, distinguishing interventions by verifiable net effects rather than morphological analogy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision's intent\u2014hygiene and infection prevention\u2014and outcomes (infection reductions without impairing function) diverge causally, reje"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision's intent\u2014hygiene and infection prevention\u2014and outcomes (infection reductions without impairing function) diverge causally, rejecting unsubstantiate.",
+      "span": {
+        "quote": "Circumcision's intent\u2014hygiene and infection prevention\u2014and outcomes (infection reductions without impairing function) diverge causally, rejecting unsubstantiate"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated equivalences.",
+      "span": {
+        "quote": "unsubstantiated equivalences"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated equivalences"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0099",
+  "source_text": "Rabbi Naftali Brawer describes a non-circumcision brit as \"newfangled\" and \"a synthetic ceremony highlighting the absence of brit,\" arguing it substitutes ritual symbolism for the mandated physical compliance essential to Jewish identity and continuity. [29]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rabbi Naftali Brawer describes a non-circumcision brit as \"newfangled\" and \"a synthetic ceremony highlighting the absence of brit,\" arguing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rabbi Naftali Brawer describes a non-circumcision brit as \"newfangled\" and \"a synthetic ceremony highlighting the absence of brit,\" arguing it substitutes ritua.",
+      "span": {
+        "quote": "Rabbi Naftali Brawer describes a non-circumcision brit as \"newfangled\" and \"a synthetic ceremony highlighting the absence of brit,\" arguing it substitutes ritua"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

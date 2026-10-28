@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-014",
+  "source_text": "--verdicts flag,possible_issue is the default. no_issue adds rows the checker blocked with ir_forbid or a fallback. Rows whose pattern simply did not match stay out.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "--verdicts flag,possible_issue is the default. no_issue adds rows the checker blocked with ir_forbid or a fallback. Rows whose pattern simpl"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "--verdicts flag,possible_issue is the default. no_issue adds rows the checker blocked with ir_forbid or a fallback. Rows whose pattern simply did not match stay.",
+      "span": {
+        "quote": "--verdicts flag,possible_issue is the default. no_issue adds rows the checker blocked with ir_forbid or a fallback. Rows whose pattern simply did not match stay"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

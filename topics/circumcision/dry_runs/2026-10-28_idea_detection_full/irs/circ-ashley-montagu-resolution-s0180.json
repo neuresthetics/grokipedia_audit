@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0180",
+  "source_text": "Proponents, including symposium participants like James W. Prescott, argued that both practices involve the non-consensual removal of healthy genital tissue for cultural or religious reasons, eroding sensory function and autonomy without therapeutic justification in infancy. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents, including symposium participants like James W. Prescott, argued that both practices involve the non-consensual removal of health"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Both practices involve the non-consensual removal of healthy genital tissue for cultural or religious reasons, eroding sensory function and autonomy without the.",
+      "span": {
+        "quote": "both practices involve the non-consensual removal of healthy genital tissue for cultural or religious reasons, eroding sensory function and autonomy without the"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents, including symposium participants like James W. Prescott.",
+      "span": {
+        "quote": "Proponents, including symposium participants like James W. Prescott"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

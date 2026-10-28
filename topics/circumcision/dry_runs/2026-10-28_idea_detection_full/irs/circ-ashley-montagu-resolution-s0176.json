@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0176",
+  "source_text": "Key limitations stemmed from evidentiary and framing challenges: the resolution's categorical condemnation overlooked systematic reviews documenting net health benefits for neonatal male circumcision, including 50-60% reductions in heterosexual HIV acquisition and lower urinary tract infection risks in infancy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Key limitations stemmed from evidentiary and framing challenges: the resolution's categorical condemnation overlooked systematic reviews doc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Key limitations stemmed from evidentiary and framing challenges: the resolution's categorical condemnation overlooked systematic reviews documenting net health.",
+      "span": {
+        "quote": "Key limitations stemmed from evidentiary and framing challenges: the resolution's categorical condemnation overlooked systematic reviews documenting net health "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

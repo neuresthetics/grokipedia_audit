@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0392",
+  "source_text": "By July 2025, social care reviews highlighted NTMC as a potential safeguarding issue, prompting calls for stricter oversight in ritual contexts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By July 2025, social care reviews highlighted NTMC as a potential safeguarding issue, prompting calls for stricter oversight in ritual conte"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By July 2025, social care reviews highlighted NTMC as a potential safeguarding issue, prompting calls for stricter oversight in ritual contexts.",
+      "span": {
+        "quote": "By July 2025, social care reviews highlighted NTMC as a potential safeguarding issue, prompting calls for stricter oversight in ritual contexts."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

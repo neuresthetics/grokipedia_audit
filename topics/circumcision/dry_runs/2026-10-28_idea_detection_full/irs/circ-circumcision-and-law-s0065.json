@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0065",
+  "source_text": "Articles 6 (right to life and development), 16 (privacy), and 37 (torture prohibition and detention safeguards) are further cited as infringed by irreversible genital modification without consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Articles 6 (right to life and development), 16 (privacy), and 37 (torture prohibition and detention safeguards) are further cited as infring"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Articles 6 (right to life and development), 16 (privacy), and 37 (torture prohibition and detention safeguards) are further cited as infringed by irreversible g.",
+      "span": {
+        "quote": "Articles 6 (right to life and development), 16 (privacy), and 37 (torture prohibition and detention safeguards) are further cited as infringed by irreversible g"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

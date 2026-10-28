@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0263",
+  "source_text": "Forward-looking simulations emphasize scale-up potential: achieving 80% circumcision coverage among HIV-negative men aged 15\u201349 over 15 years could avert 3.4 million infections in low- and middle-income countries. [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Forward-looking simulations emphasize scale-up potential: achieving 80% circumcision coverage among HIV-negative men aged 15\u201349 over 15 year"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scale-up potential:.",
+      "span": {
+        "quote": "scale-up potential:"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Forward-looking simulations.",
+      "span": {
+        "quote": "Forward-looking simulations"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

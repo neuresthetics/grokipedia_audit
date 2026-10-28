@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0164",
+  "source_text": "Women in FGM-prevalent societies often endorse the practice, with data revealing higher approval rates among older generations who view it as essential for cultural continuity and female virtue.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Women in FGM-prevalent societies often endorse the practice, with data revealing higher approval rates among older generations who view it a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Women in FGM-prevalent societies often endorse the practice, with data revealing higher approval rates among older generations who view it as essential for cult.",
+      "span": {
+        "quote": "Women in FGM-prevalent societies often endorse the practice, with data revealing higher approval rates among older generations who view it as essential for cult"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0027",
+  "source_text": "This self-framing contrasts with activist terminology like \"FGM/C\" (female genital mutilation/cutting), which some organizations adopt to align the practice with global bans and WHO classifications, despite empirical surveys indicating that 75-85% prevalence among Bohra women involves primarily Type I procedures without widespread infibulation or extensive excision. [2] [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This self-framing contrasts with activist terminology like \"FGM/C\" (female genital mutilation/cutting), which some organizations adopt to al"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This self-framing contrasts with activist terminology like \"FGM/C\" (female genital mutilation/cutting), which some organizations adopt to align the practice wit.",
+      "span": {
+        "quote": "This self-framing contrasts with activist terminology like \"FGM/C\" (female genital mutilation/cutting), which some organizations adopt to align the practice wit"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Activist terminology like \"FGM/C\" (female genital.",
+      "span": {
+        "quote": "activist terminology like \"FGM/C\" (female genital"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "activist terminology like \"FGM/C\" (female genital"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "WHO"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activist terminology like \"FGM/C\" (female genital ",
+          "span": {
+            "quote": "activist terminology like \"FGM/C\" (female genital"
+          }
+        }
+      ]
+    }
+  ]
+}

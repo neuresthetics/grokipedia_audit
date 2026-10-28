@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0185",
+  "source_text": "The debate over cultural relativism in relation to female genital mutilation (FGM) posits that the practice should be understood within its cultural context, with some anthropologists arguing it serves social cohesion or rites of passage akin to male circumcision, thereby resisting universal condemnation as a Western imposition. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The debate over cultural relativism in relation to female genital mutilation (FGM) posits that the practice should be understood within its"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Al mutilation (FGM) posits that the practice should be understood within its cultural context, with some anthropologists arguing it serves social cohesion or ri.",
+      "span": {
+        "quote": "al mutilation (FGM) posits that the practice should be understood within its cultural context, with some anthropologists arguing it serves social cohesion or ri"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Resisting universal condemnation as a Western imposition. [69].",
+      "span": {
+        "quote": "resisting universal condemnation as a Western imposition. [69]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "A Western imposition.",
+      "span": {
+        "quote": "a Western imposition"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "a Western imposition"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

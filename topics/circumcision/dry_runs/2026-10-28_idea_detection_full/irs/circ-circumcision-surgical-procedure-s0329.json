@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0329",
+  "source_text": "Complication rates from meta-analyses range from 1-3% for non-therapeutic neonatal procedures, predominantly minor issues like bleeding or infection, compared to 7% for therapeutic circumcisions in older males, with severe outcomes (e.g., penile amputation) under 0.1%. [150] [108]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complication rates from meta-analyses range from 1-3% for non-therapeutic neonatal procedures, predominantly minor issues like bleeding or i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complication rates from meta-analyses range from 1-3% for non-therapeutic neonatal procedures, predominantly minor issues like bleeding or infection, compared t.",
+      "span": {
+        "quote": "Complication rates from meta-analyses range from 1-3% for non-therapeutic neonatal procedures, predominantly minor issues like bleeding or infection, compared t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

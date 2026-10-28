@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0006",
+  "source_text": "Christian perspectives similarly reject FGM, absent from biblical texts, though historical practices persist among Coptic Christians in Egypt and Ethiopian Orthodox communities, where it coexists with male circumcision traditions despite missionary-led campaigns against it in the early 20th century. [6] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Christian perspectives similarly reject FGM, absent from biblical texts, though historical practices persist among Coptic Christians in Egyp"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Christian perspectives similarly reject FGM, absent from biblical texts, though historical practices persist among Coptic Christians in Egypt and Ethiopian Orth.",
+      "span": {
+        "quote": "Christian perspectives similarly reject FGM, absent from biblical texts, though historical practices persist among Coptic Christians in Egypt and Ethiopian Orth"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

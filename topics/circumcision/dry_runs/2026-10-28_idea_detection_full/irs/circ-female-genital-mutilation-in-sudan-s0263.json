@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0263",
+  "source_text": "Anthropological studies emphasize that such customs evolve from local contexts of modesty and group identity, and external prohibitions often provoke defensiveness by evoking historical impositions, such as the British colonial administration's failed 1946 ban attempt in Sudan, which fueled nationalist backlash and entrenched the practice further. [59]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anthropological studies emphasize that such customs evolve from local contexts of modesty and group identity, and external prohibitions ofte"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such customs evolve from local contexts of modesty and group identity, and external prohibitions often provoke defensiveness by evoking historical impositions,.",
+      "span": {
+        "quote": "such customs evolve from local contexts of modesty and group identity, and external prohibitions often provoke defensiveness by evoking historical impositions, "
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Anthropological studies.",
+      "span": {
+        "quote": "Anthropological studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

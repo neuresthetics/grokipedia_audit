@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0099",
+  "source_text": "Parents exercise proxy consent for their minor children in medical decisions, including irreversible procedures such as vaccinations\u2014which carry risks of rare but permanent neurological effects\u2014and orthodontics, which permanently alter dental structure, based on a fiduciary duty to promote the child's long-term welfare amid incomplete information. [64] [65]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parents exercise proxy consent for their minor children in medical decisions, including irreversible procedures such as vaccinations\u2014which c"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parents exercise proxy consent for their minor children in medical decisions, including irreversible procedures such as vaccinations\u2014which carry risks of rare b.",
+      "span": {
+        "quote": "Parents exercise proxy consent for their minor children in medical decisions, including irreversible procedures such as vaccinations\u2014which carry risks of rare b"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0148",
+  "source_text": "This mechanistic protection contributes to observed reductions in urinary tract infections (UTIs) and sexually transmitted infections (STIs).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This mechanistic protection contributes to observed reductions in urinary tract infections (UTIs) and sexually transmitted infections (STIs)"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This mechanistic protection contributes to observed reductions in urinary tract infections (UTIs) and sexually transmitted infections (STIs).",
+      "span": {
+        "quote": "This mechanistic protection contributes to observed reductions in urinary tract infections (UTIs) and sexually transmitted infections (STIs)."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

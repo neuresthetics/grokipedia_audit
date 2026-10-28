@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0014",
+  "source_text": "Hosken's work, distributed through her Women's International Network, emphasized the procedure's severe health risks, including hemorrhage and infection, and advocated for international advocacy without cultural relativism. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hosken's work, distributed through her Women's International Network, emphasized the procedure's severe health risks, including hemorrhage a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure's severe health risks, including hemorrhage and infection, and advocated for international advocacy without cultural relativism.",
+      "span": {
+        "quote": "e procedure's severe health risks, including hemorrhage and infection, and advocated for international advocacy without cultural relativism."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Hosken's work, distributed through her Women's International Network.",
+      "span": {
+        "quote": "Hosken's work, distributed through her Women's International Network"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0217",
+  "source_text": "Islamic tradition regards khitan as sunnah, recommended for cleanliness and following Prophet Muhammad's practice, with major schools of jurisprudence permitting it for males while prohibiting any female equivalent beyond medical necessity, underscoring intent to enhance rather than impair. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Islamic tradition regards khitan as sunnah, recommended for cleanliness and following Prophet Muhammad's practice, with major schools of jur"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Islamic tradition regards khitan as sunnah, recommended for cleanliness and following Prophet Muhammad's practice, with major schools of jurisprudence permittin.",
+      "span": {
+        "quote": "Islamic tradition regards khitan as sunnah, recommended for cleanliness and following Prophet Muhammad's practice, with major schools of jurisprudence permittin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

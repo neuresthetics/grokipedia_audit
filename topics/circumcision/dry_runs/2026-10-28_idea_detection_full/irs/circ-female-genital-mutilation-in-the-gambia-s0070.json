@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0070",
+  "source_text": "In The Gambia, female genital mutilation (FGM), locally termed \"female circumcision,\" is often justified as a rite of passage marking a girl's transition to womanhood and social maturity, particularly among ethnic groups like the Mandinka, where it forms part of the nyaakaa initiation ritual for girls aged four to ten.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In The Gambia, female genital mutilation (FGM), locally termed \"female circumcision,\" is often justified as a rite of passage marking a girl"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In The Gambia, female genital mutilation (FGM), locally termed \"female circumcision,\" is often justified as a rite of passage marking a girl's transition to wom.",
+      "span": {
+        "quote": "In The Gambia, female genital mutilation (FGM), locally termed \"female circumcision,\" is often justified as a rite of passage marking a girl's transition to wom"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

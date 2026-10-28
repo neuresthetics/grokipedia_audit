@@ -1,0 +1,70 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0080",
+  "source_text": "Applied here, advocates argue that circumcision inflicts direct, permanent bodily harm\u2014via tissue removal and potential sensory alteration\u2014without necessitating intervention for the child's immediate welfare, rendering parental sovereignty subordinate to the infant's future autonomy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Applied here, advocates argue that circumcision inflicts direct, permanent bodily harm\u2014via tissue removal and potential sensory alteration\u2014w"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision inflicts direct, permanent bodily harm\u2014via tissue removal and potential sensory alteration\u2014without necessitating intervention for the child's immed.",
+      "span": {
+        "quote": "circumcision inflicts direct, permanent bodily harm\u2014via tissue removal and potential sensory alteration\u2014without necessitating intervention for the child's immed"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Applied here, advocates.",
+      "span": {
+        "quote": "Applied here, advocates"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "inflicts"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

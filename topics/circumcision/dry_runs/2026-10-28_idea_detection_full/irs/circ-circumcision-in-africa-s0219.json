@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0219",
+  "source_text": "Limitations include trial generalizability to low-prevalence or MSM contexts, where efficacy is lower or absent, and potential under-detection of rare adverse events in observational data. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Limitations include trial generalizability to low-prevalence or MSM contexts, where efficacy is lower or absent, and potential under-detecti"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Limitations include trial generalizability to low-prevalence or MSM contexts, where efficacy is lower or absent, and potential under-detection of rare adverse e.",
+      "span": {
+        "quote": "Limitations include trial generalizability to low-prevalence or MSM contexts, where efficacy is lower or absent, and potential under-detection of rare adverse e"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

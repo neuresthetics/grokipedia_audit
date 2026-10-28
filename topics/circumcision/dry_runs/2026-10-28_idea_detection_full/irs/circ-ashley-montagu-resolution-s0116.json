@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0116",
+  "source_text": "In practice, the term encompasses procedures altering children's external genitalia, emphasizing the pain, degradation, and loss of bodily integrity they cause, without therapeutic necessity or consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In practice, the term encompasses procedures altering children's external genitalia, emphasizing the pain, degradation, and loss of bodily i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In practice, the term encompasses procedures altering children's external genitalia, emphasizing the pain, degradation, and loss of bodily integrity they cause,.",
+      "span": {
+        "quote": "In practice, the term encompasses procedures altering children's external genitalia, emphasizing the pain, degradation, and loss of bodily integrity they cause,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

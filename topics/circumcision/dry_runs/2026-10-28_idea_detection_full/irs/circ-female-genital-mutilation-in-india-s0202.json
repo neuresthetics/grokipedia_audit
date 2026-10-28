@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0202",
+  "source_text": "Communities practicing female genital mutilation, or khatna, in India have defended the rite as an essential religious practice protected under Article 25 of the Constitution, which guarantees freedom of conscience and the right to profess, practice, and propagate religion. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Communities practicing female genital mutilation, or khatna, in India have defended the rite as an essential religious practice protected un"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Communities practicing female genital mutilation, or khatna, in India have defended the rite as an essential religious practice protected under Article 25 of th.",
+      "span": {
+        "quote": "Communities practicing female genital mutilation, or khatna, in India have defended the rite as an essential religious practice protected under Article 25 of th"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

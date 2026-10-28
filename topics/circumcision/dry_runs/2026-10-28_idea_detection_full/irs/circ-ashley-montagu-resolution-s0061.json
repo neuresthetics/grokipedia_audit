@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0061",
+  "source_text": "The symposium's proceedings, edited by George C. Denniston and Marilyn Fayre Milos, were published in 1997 as Sexual Mutilations: A Human Tragedy by Plenum Press, compiling 28 papers and discussions that highlighted cross-cultural patterns and called for cessation of these practices on minors lacking consent. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The symposium's proceedings, edited by George C. Denniston and Marilyn Fayre Milos, were published in 1997 as Sexual Mutilations: A Human Tr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The symposium's proceedings, edited by George C. Denniston and Marilyn Fayre Milos, were published in 1997 as Sexual Mutilations: A Human Tragedy by Plenum Pres.",
+      "span": {
+        "quote": "The symposium's proceedings, edited by George C. Denniston and Marilyn Fayre Milos, were published in 1997 as Sexual Mutilations: A Human Tragedy by Plenum Pres"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

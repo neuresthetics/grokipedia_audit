@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0044",
+  "source_text": "Variations include sunna circumcision, which targets only the prepuce, and more extensive forms removing the entire glans; the former is sometimes defended as a minor ritual akin to male circumcision, but empirical evidence shows it impairs clitoral function regardless.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Variations include sunna circumcision, which targets only the prepuce, and more extensive forms removing the entire glans; the former is som"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Variations include sunna circumcision, which targets only the prepuce, and more extensive forms removing the entire glans; the former is sometimes defended as a.",
+      "span": {
+        "quote": "Variations include sunna circumcision, which targets only the prepuce, and more extensive forms removing the entire glans; the former is sometimes defended as a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

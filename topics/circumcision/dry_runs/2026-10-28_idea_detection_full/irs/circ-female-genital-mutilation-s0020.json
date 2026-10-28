@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0020",
+  "source_text": "A subset of ethicists critiques the nomenclature disparity with male genital cutting, positing gender bias in ethical framing\u2014male procedures are normalized as \"circumcision\" despite non-consensual infant application, while FGM's all forms are pathologized\u2014yet empirical comparisons reveal FGM's greater tissue loss (up to 80% in Type III) and zero net health gains, justifying the terminological distinction on harm-based grounds. [13] [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A subset of ethicists critiques the nomenclature disparity with male genital cutting, positing gender bias in ethical framing\u2014male procedure"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A subset of ethicists critiques the nomenclature disparity with male genital cutting, positing gender bias in ethical framing\u2014male procedures are normalized as.",
+      "span": {
+        "quote": "A subset of ethicists critiques the nomenclature disparity with male genital cutting, positing gender bias in ethical framing\u2014male procedures are normalized as "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A subset of ethicists critiques the nomenclature disparity wit.",
+      "span": {
+        "quote": "A subset of ethicists critiques the nomenclature disparity wit"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "A subset of ethicists critiques the nomenclature disparity w"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

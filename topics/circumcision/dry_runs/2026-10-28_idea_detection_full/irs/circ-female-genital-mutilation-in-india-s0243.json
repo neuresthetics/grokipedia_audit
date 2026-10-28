@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0243",
+  "source_text": "This position underscores empirical realities: medicalized FGM evades traditional detection methods like community monitoring, fosters perceived legitimacy that hinders advocacy, and sustains complications including hemorrhage and dyspareunia, as documented in longitudinal studies across affected Asian cohorts. [89] [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This position underscores empirical realities: medicalized FGM evades traditional detection methods like community monitoring, fosters perce"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This position underscores empirical realities: medicalized FGM evades traditional detection methods like community monitoring, fosters perceived legitimacy that.",
+      "span": {
+        "quote": "This position underscores empirical realities: medicalized FGM evades traditional detection methods like community monitoring, fosters perceived legitimacy that"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

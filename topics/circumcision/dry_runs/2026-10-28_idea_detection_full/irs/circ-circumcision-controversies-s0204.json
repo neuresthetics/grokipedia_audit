@@ -1,0 +1,92 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0204",
+  "source_text": "They contend that circumcision inflicts significant pain, frequently citing historical data from unanesthetized procedures to argue that even modern local anesthesia fails to fully mitigate neonatal distress, which may cause lasting psychological effects. [135]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They contend that circumcision inflicts significant pain, frequently citing historical data from unanesthetized procedures to argue that eve"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "They contend that circumcision inflicts significant pain, frequently citing historical data from unanesthetized procedures.",
+      "span": {
+        "quote": "They contend that circumcision inflicts significant pain, frequently citing historical data from unanesthetized procedures"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Even modern local anesthesia fails to fully mitigate neonatal distress, which may cause lasting psychological effects. [135].",
+      "span": {
+        "quote": "even modern local anesthesia fails to fully mitigate neonatal distress, which may cause lasting psychological effects. [135]"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c3",
+      "text": "Citing historical data from unanesthetized procedures to argue that even modern local.",
+      "span": {
+        "quote": "citing historical data from unanesthetized procedures to argue that even modern local"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "They contend that circumcision inflicts significant pain, frequently citing hist"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "citing historical data from unanesthetized procedures to argue that even modern local"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "inflicts"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0178",
+  "source_text": "In Islamic contexts, reform efforts have included fatwas explicitly prohibiting all forms of female genital mutilation (FGM).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Islamic contexts, reform efforts have included fatwas explicitly prohibiting all forms of female genital mutilation (FGM)."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Islamic contexts, reform efforts have included fatwas explicitly prohibiting all forms of female genital mutilation (FGM).",
+      "span": {
+        "quote": "In Islamic contexts, reform efforts have included fatwas explicitly prohibiting all forms of female genital mutilation (FGM)."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

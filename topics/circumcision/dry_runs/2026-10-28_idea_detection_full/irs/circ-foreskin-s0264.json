@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0264",
+  "source_text": "These arguments extend to critiques of proxy decision-making, where parents' authority is not absolute but bounded by the child's best interests, excluding non-essential surgeries that alter sexual function or anatomy. [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These arguments extend to critiques of proxy decision-making, where parents' authority is not absolute but bounded by the child's best inter"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These arguments extend to critiques of proxy decision-making, where parents' authority is not absolute but bounded by the child's best interests, excluding non-.",
+      "span": {
+        "quote": "These arguments extend to critiques of proxy decision-making, where parents' authority is not absolute but bounded by the child's best interests, excluding non-"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

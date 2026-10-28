@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0187",
+  "source_text": "Advocacy often highlights alleged long-term effects like chronic pain, reduced sexual sensitivity, and psychological trauma, amplified through graphic imagery and media outreach.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocacy often highlights alleged long-term effects like chronic pain, reduced sexual sensitivity, and psychological trauma, amplified throu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Advocacy often highlights alleged long-term effects like chronic pain, reduced sexual sensitivity, and psychological trauma, amplified through graphic imagery a.",
+      "span": {
+        "quote": "Advocacy often highlights alleged long-term effects like chronic pain, reduced sexual sensitivity, and psychological trauma, amplified through graphic imagery a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

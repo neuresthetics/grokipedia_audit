@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-mohel-s0229",
+  "source_text": "In Jewish society, mohels are generally revered as skilled ritual specialists essential to covenantal identity, with selections prioritizing piety, competence, and experience; non-Jewish families increasingly hire them for precision and cultural appeal, citing lower infection risks compared to hospital settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Jewish society, mohels are generally revered as skilled ritual specialists essential to covenantal identity, with selections prioritizing"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Jewish society, mohels are generally revered as skilled ritual specialists essential to covenantal identity, with selections prioritizing piety, competence,.",
+      "span": {
+        "quote": "In Jewish society, mohels are generally revered as skilled ritual specialists essential to covenantal identity, with selections prioritizing piety, competence, "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing lower infection risks compared to hospital settings.",
+      "span": {
+        "quote": "citing lower infection risks compared to hospital settings"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing lower infection risks compared to hospital settings"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

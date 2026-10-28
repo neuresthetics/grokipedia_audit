@@ -1,0 +1,77 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-003",
+  "source_text": "- A sound argument is re-checked at every premise, citation, and sub-claim the IR rests on. Extra text that does not meet a pattern, or that trips a look-alike, stays no_issue. The tree's stress is survives. - A thin or fallacious move fails open: a child hard flag, or a gap that is still possible_issue when the expander has nothing further. Stress is breaks (flagged or open). - The expander supplies real text or a real child IR. The checker does not invent claims, edges, or facts. Predicates and forbids are the ones already in the pilot file.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- A sound argument is re-checked at every premise, citation, and sub-claim the IR rests on. Extra text that does not meet a pattern, or that"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E IR rests on.",
+      "span": {
+        "quote": "e IR rests on."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "- A sound argument is re-checked at every premise, citation, and sub-.",
+      "span": {
+        "quote": "- A sound argument is re-checked at every premise, citation, and sub-"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "A sound argument is re-checked at every premise.",
+      "span": {
+        "quote": "A sound argument is re-checked at every premise"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "A sound argument is re-checked at every premise"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

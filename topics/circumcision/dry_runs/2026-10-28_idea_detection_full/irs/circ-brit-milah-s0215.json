@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0215",
+  "source_text": "Circumcision performed in childhood or adolescence substantially lowers the incidence of invasive penile cancer, a rare malignancy linked primarily to chronic inflammation and HPV persistence under the foreskin.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision performed in childhood or adolescence substantially lowers the incidence of invasive penile cancer, a rare malignancy linked pr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision performed in childhood or adolescence substantially lowers the incidence of invasive penile cancer, a rare malignancy linked primarily to chronic i.",
+      "span": {
+        "quote": "Circumcision performed in childhood or adolescence substantially lowers the incidence of invasive penile cancer, a rare malignancy linked primarily to chronic i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

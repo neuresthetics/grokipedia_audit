@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0299",
+  "source_text": "The tension between these perspectives manifests in debates over overdiagnosis, where medical framing in high-circumcision cultures like the United States attributes up to 87% of pediatric circumcisions to phimosis, potentially conflating physiological variants with disease to justify routine procedures influenced by entrenched norms rather than strict symptomatology. [95] [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The tension between these perspectives manifests in debates over overdiagnosis, where medical framing in high-circumcision cultures like the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The tension between these perspectives manifests in debates over overdiagnosis, where medical framing in high-circumcision cultures like the United States attri.",
+      "span": {
+        "quote": "The tension between these perspectives manifests in debates over overdiagnosis, where medical framing in high-circumcision cultures like the United States attri"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

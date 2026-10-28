@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-s0275",
+  "source_text": "The AAP's 1999 policy stayed neutral, but its 2012 statement held that benefits\u2014like fewer urinary tract infections and certain STIs\u2014outweighed risks, without recommending universality amid debates on autonomy and evidence. [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The AAP's 1999 policy stayed neutral, but its 2012 statement held that benefits\u2014like fewer urinary tract infections and certain STIs\u2014outweig"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The AAP's 1999 policy stayed neutral, but its 2012 statement held that benefits\u2014like fewer urinary tract infections and certain STIs\u2014outweighed risks, without r.",
+      "span": {
+        "quote": "The AAP's 1999 policy stayed neutral, but its 2012 statement held that benefits\u2014like fewer urinary tract infections and certain STIs\u2014outweighed risks, without r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

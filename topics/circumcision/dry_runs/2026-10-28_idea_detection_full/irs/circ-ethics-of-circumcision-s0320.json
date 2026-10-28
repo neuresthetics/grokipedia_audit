@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0320",
+  "source_text": "By 2025, some former members of the AAP's 2012 Circumcision Task Force called for a renewed ethical and scientific review of U.S. guidance, arguing that evolving evidence on long-term outcomes and bodily autonomy warrants transparent reevaluation, though major medical bodies have not altered their pro-circumcision stances. [88]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By 2025, some former members of the AAP's 2012 Circumcision Task Force called for a renewed ethical and scientific review of U.S. guidance,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By 2025, some former members of the AAP's 2012 Circumcision Task Force called for a renewed ethical and scientific review of U.S. guidance, arguing that evolvin.",
+      "span": {
+        "quote": "By 2025, some former members of the AAP's 2012 Circumcision Task Force called for a renewed ethical and scientific review of U.S. guidance, arguing that evolvin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "medical bodies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

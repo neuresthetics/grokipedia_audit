@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0078",
+  "source_text": "Traditional healers, often local barbers or midwives, perform it on women seeking relief from these issues, with the bleeding induced by the procedure viewed as evidence of purification and expulsion of impurities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional healers, often local barbers or midwives, perform it on women seeking relief from these issues, with the bleeding induced by the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditional healers, often local barbers or midwives, perform it on women seeking relief from these issues, with the bleeding induced by the procedure viewed as.",
+      "span": {
+        "quote": "Traditional healers, often local barbers or midwives, perform it on women seeking relief from these issues, with the bleeding induced by the procedure viewed as"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

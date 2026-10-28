@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0043",
+  "source_text": "These risks stem from potential mohel carriage of HSV-1, an asymptomatic adult virus transmissible to infants whose immature immunity heightens severity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These risks stem from potential mohel carriage of HSV-1, an asymptomatic adult virus transmissible to infants whose immature immunity height"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These risks stem from potential mohel carriage of HSV-1, an asymptomatic adult virus transmissible to infants whose immature immunity heightens severity.",
+      "span": {
+        "quote": "These risks stem from potential mohel carriage of HSV-1, an asymptomatic adult virus transmissible to infants whose immature immunity heightens severity."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

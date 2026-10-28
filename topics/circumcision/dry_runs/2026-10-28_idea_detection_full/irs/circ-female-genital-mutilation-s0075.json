@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0075",
+  "source_text": "Unlike more extensive cuttings, Type IV procedures typically involve minimal tissue removal but can still cause pain, infection, scarring, and long-term complications like urinary issues or sexual dysfunction.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unlike more extensive cuttings, Type IV procedures typically involve minimal tissue removal but can still cause pain, infection, scarring, a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Unlike more extensive cuttings, Type IV procedures typically involve minimal tissue removal but can still cause pain, infection, scarring, and long-term complic.",
+      "span": {
+        "quote": "Unlike more extensive cuttings, Type IV procedures typically involve minimal tissue removal but can still cause pain, infection, scarring, and long-term complic"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

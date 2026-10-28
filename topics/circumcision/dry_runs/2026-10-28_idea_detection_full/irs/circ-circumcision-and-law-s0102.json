@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0102",
+  "source_text": "Medical performance is often mandated in countries with immigrant Muslim populations, where prevalence can exceed 20% in urban areas, but secular opposition has fueled debates framing it as a violation of autonomy, despite empirical data showing low complication rates (under 1% for trained providers) and no long-term functional deficits in peer-reviewed studies.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical performance is often mandated in countries with immigrant Muslim populations, where prevalence can exceed 20% in urban areas, but se"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medical performance is often mandated in countries with immigrant Muslim populations, where prevalence can exceed 20% in urban areas, but secular opposition has.",
+      "span": {
+        "quote": "Medical performance is often mandated in countries with immigrant Muslim populations, where prevalence can exceed 20% in urban areas, but secular opposition has"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Peer-reviewed studies.",
+      "span": {
+        "quote": "peer-reviewed studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "peer-reviewed studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

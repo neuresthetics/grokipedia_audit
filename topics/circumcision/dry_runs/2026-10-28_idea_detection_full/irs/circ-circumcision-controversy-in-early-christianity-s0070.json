@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0070",
+  "source_text": "These tensions escalated when certain men from Judea arrived in Antioch, asserting to Gentile converts, \"Unless you are circumcised according to the custom of Moses, you cannot be saved\" (Acts 15:1).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These tensions escalated when certain men from Judea arrived in Antioch, asserting to Gentile converts, \"Unless you are circumcised accordin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These tensions escalated when certain men from Judea arrived in Antioch, asserting to Gentile converts, \"Unless you are circumcised according to the custom of M.",
+      "span": {
+        "quote": "These tensions escalated when certain men from Judea arrived in Antioch, asserting to Gentile converts, \"Unless you are circumcised according to the custom of M"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "According to the custom of Moses.",
+      "span": {
+        "quote": "according to the custom of Moses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "according to the custom of Moses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

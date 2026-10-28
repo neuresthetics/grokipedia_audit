@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0181",
+  "source_text": "This stance drew from first-principles ethical claims prioritizing child consent and intact anatomy, positing that distinctions in procedure severity distract from the shared harm of irreversible alteration.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This stance drew from first-principles ethical claims prioritizing child consent and intact anatomy, positing that distinctions in procedure"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prioritizing child consent and intact anatomy, positing that distinctions in procedure severity distract from the shared harm of irreversible alteration.",
+      "span": {
+        "quote": "prioritizing child consent and intact anatomy, positing that distinctions in procedure severity distract from the shared harm of irreversible alteration."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This stance drew from first-principles ethical.",
+      "span": {
+        "quote": "This stance drew from first-principles ethical"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

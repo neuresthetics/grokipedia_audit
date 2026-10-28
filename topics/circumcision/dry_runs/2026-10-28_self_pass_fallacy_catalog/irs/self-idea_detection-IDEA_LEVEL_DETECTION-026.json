@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-026",
+  "source_text": "required_conditions / legitimate_lookalikes prose remain authoritative for humans; patterns must not contradict them.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "required_conditions / legitimate_lookalikes prose remain authoritative for humans; patterns must not contradict them."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Required_conditions / legitimate_lookalikes prose remain authoritative for humans; patterns must not contradict them.",
+      "span": {
+        "quote": "required_conditions / legitimate_lookalikes prose remain authoritative for humans; patterns must not contradict them."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

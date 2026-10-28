@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0130",
+  "source_text": "These rituals, prevalent among communities such as the Xhosa in South Africa, Maasai in Kenya and Tanzania, and various groups in Zambia and Malawi, often involve non-medically trained practitioners using rudimentary tools in isolated settings, heightening risks of infection, excessive bleeding, and penile amputation. [50] [51]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These rituals, prevalent among communities such as the Xhosa in South Africa, Maasai in Kenya and Tanzania, and various groups in Zambia and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These rituals, prevalent among communities such as the Xhosa in South Africa, Maasai in Kenya and Tanzania, and various groups in Zambia and Malawi, often invol.",
+      "span": {
+        "quote": "These rituals, prevalent among communities such as the Xhosa in South Africa, Maasai in Kenya and Tanzania, and various groups in Zambia and Malawi, often invol"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "passage_id": "circ-foreskin-man-s0055",
+  "source_text": "The comic's role in these contexts emphasizes visual propaganda over empirical briefs, aiming to evoke parental protectiveness by anthropomorphizing the foreskin as a defender against procedural risks, including documented complication rates ranging from 0.2% to 10% across studies of neonatal procedures, while critiquing unsubstantiated preventive health rationales. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The comic's role in these contexts emphasizes visual propaganda over empirical briefs, aiming to evoke parental protectiveness by anthropomo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Visual propaganda over empirical briefs, aiming to evoke parental protectiveness by anthropomorphizing the foreskin as a defender against procedural risks, incl.",
+      "span": {
+        "quote": "visual propaganda over empirical briefs, aiming to evoke parental protectiveness by anthropomorphizing the foreskin as a defender against procedural risks, incl"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The comic's role in these contexts.",
+      "span": {
+        "quote": "The comic's role in these contexts"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated preventive health rationales.",
+      "span": {
+        "quote": "unsubstantiated preventive health rationales"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated preventive health rationales"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

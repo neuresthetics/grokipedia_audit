@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0085",
+  "source_text": "Traditional birth attendants and barbers performing the cut claim it resolves these issues, enabling improved sexual function and satisfaction for both partners, often described as unblocking a perceived barrier symbolized by \"gishiri\" (salt) in local idiom.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional birth attendants and barbers performing the cut claim it resolves these issues, enabling improved sexual function and satisfacti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It resolves these issues, enabling improved sexual function and satisfaction for both partners, often described as unblocking a perceived barrier symbolized by.",
+      "span": {
+        "quote": "it resolves these issues, enabling improved sexual function and satisfaction for both partners, often described as unblocking a perceived barrier symbolized by "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Traditional birth attendants and barbers performing the cut.",
+      "span": {
+        "quote": "Traditional birth attendants and barbers performing the cut"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

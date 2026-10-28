@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0246",
+  "source_text": "Intactivism, also known as the genital autonomy or anti-circumcision movement, opposes the non-therapeutic circumcision of male minors, advocating for the preservation of the foreskin as a matter of bodily integrity and informed consent. [111]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intactivism, also known as the genital autonomy or anti-circumcision movement, opposes the non-therapeutic circumcision of male minors, advo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intactivism, also known as the genital autonomy or anti-circumcision movement, opposes the non-therapeutic circumcision of male minors, advocating for the prese.",
+      "span": {
+        "quote": "Intactivism, also known as the genital autonomy or anti-circumcision movement, opposes the non-therapeutic circumcision of male minors, advocating for the prese"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

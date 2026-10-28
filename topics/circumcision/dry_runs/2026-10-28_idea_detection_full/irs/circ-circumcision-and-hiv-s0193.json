@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0193",
+  "source_text": "Early stopping rules, applied after interim analyses at approximately 20\u201330% of planned enrollment, have drawn scrutiny for potentially overstating efficacy, as such decisions amplify type I errors and may capture transient effects not sustained long-term; for instance, the Auvert trial halted after 1,200 infections despite a planned sample exceeding 3,000. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Early stopping rules, applied after interim analyses at approximately 20\u201330% of planned enrollment, have drawn scrutiny for potentially over"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Early stopping rules, applied after interim analyses at approximately 20\u201330% of planned enrollment, have drawn scrutiny for potentially overstating efficacy, as.",
+      "span": {
+        "quote": "Early stopping rules, applied after interim analyses at approximately 20\u201330% of planned enrollment, have drawn scrutiny for potentially overstating efficacy, as"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

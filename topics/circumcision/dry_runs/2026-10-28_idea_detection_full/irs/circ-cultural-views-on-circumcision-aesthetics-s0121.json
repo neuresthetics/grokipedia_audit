@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0121",
+  "source_text": "In surveys of women's partner preferences, a significant portion in the United States expressed a strong favor for circumcised penises, citing streamlined visual appeal and perceived cleanliness as key factors. [66] [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In surveys of women's partner preferences, a significant portion in the United States expressed a strong favor for circumcised penises, citi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In surveys of women's partner preferences, a significant portion in the United States expressed a strong favor for circumcised penises, citing streamlined visua.",
+      "span": {
+        "quote": "In surveys of women's partner preferences, a significant portion in the United States expressed a strong favor for circumcised penises, citing streamlined visua"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing streamlined visual appeal and perceived cleanliness as key factors.",
+      "span": {
+        "quote": "citing streamlined visual appeal and perceived cleanliness as key factors"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing streamlined visual appeal and perceived cleanliness as key factors"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

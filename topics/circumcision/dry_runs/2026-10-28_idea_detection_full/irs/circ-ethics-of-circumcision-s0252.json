@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0252",
+  "source_text": "These results were attributed to biological mechanisms, including removal of the foreskin, which harbors Langerhans cells and CD4+ T cells susceptible to HIV entry during heterosexual intercourse, thereby reducing viral exposure and replication sites.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These results were attributed to biological mechanisms, including removal of the foreskin, which harbors Langerhans cells and CD4+ T cells s"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These results were attributed to biological mechanisms, including removal of the foreskin, which harbors Langerhans cells and CD4+ T cells susceptible to HIV en.",
+      "span": {
+        "quote": "These results were attributed to biological mechanisms, including removal of the foreskin, which harbors Langerhans cells and CD4+ T cells susceptible to HIV en"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Reducing viral exposure and replication sites.",
+      "span": {
+        "quote": "reducing viral exposure and replication sites."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

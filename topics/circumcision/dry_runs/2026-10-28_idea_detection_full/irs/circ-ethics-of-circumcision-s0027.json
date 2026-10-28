@@ -1,0 +1,107 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0027",
+  "source_text": "Physicians such as John Harvey Kellogg advocated the procedure for newborns and older boys as a deterrent to masturbation, arguing that the operation without anesthesia would create a lasting psychological association between the act and pain, thereby curbing what they viewed as a moral and physical vice linked to various ailments. [21] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Physicians such as John Harvey Kellogg advocated the procedure for newborns and older boys as a deterrent to masturbation, arguing that the"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ocated the procedure for newborns and older boys as a deterrent to masturbation, arguing that the operation without anesthesia would create a lasting psychologi.",
+      "span": {
+        "quote": "ocated the procedure for newborns and older boys as a deterrent to masturbation, arguing that the operation without anesthesia would create a lasting psychologi"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c2",
+      "text": "Curbing what they viewed as a moral and physical vice linked to various ailments. [21] [22].",
+      "span": {
+        "quote": "curbing what they viewed as a moral and physical vice linked to various ailments. [21] [22]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Linked to various ailments.",
+      "span": {
+        "quote": "linked to various ailments"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "association"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "linked to various ailments"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to various ailments",
+          "span": {
+            "quote": "linked to various ailments"
+          }
+        }
+      ]
+    }
+  ]
+}

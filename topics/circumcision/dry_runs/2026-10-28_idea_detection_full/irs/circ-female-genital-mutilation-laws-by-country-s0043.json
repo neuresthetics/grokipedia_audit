@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0043",
+  "source_text": "These debates underscore tensions between universal rights frameworks, which prioritize bodily integrity based on verifiable harms, and relativistic views prioritizing local customs, though the former aligns with cross-cultural data on adverse outcomes exceeding 200 million cases globally. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These debates underscore tensions between universal rights frameworks, which prioritize bodily integrity based on verifiable harms, and rela"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These debates underscore tensions between universal rights frameworks, which prioritize bodily integrity based on verifiable harms, and relativistic views prior.",
+      "span": {
+        "quote": "These debates underscore tensions between universal rights frameworks, which prioritize bodily integrity based on verifiable harms, and relativistic views prior"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "These debates underscore tensions between universal rights framewo.",
+      "span": {
+        "quote": "These debates underscore tensions between universal rights framewo"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "These debates underscore tensions between universal rights f"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

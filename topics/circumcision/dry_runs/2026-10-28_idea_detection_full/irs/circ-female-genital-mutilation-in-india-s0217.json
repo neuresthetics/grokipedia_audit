@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0217",
+  "source_text": "DBWRF maintains that the rite embodies women's autonomy, with community members attesting in adulthood to its voluntary affirmation as a tradition fostering social bonds, mental resilience, and religious identity, rather than coercion or detriment. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "DBWRF maintains that the rite embodies women's autonomy, with community members attesting in adulthood to its voluntary affirmation as a tra"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E rite embodies women's autonomy, with community members attesting in adulthood to its voluntary affirmation as a tradition fostering social bonds, mental resil.",
+      "span": {
+        "quote": "e rite embodies women's autonomy, with community members attesting in adulthood to its voluntary affirmation as a tradition fostering social bonds, mental resil"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

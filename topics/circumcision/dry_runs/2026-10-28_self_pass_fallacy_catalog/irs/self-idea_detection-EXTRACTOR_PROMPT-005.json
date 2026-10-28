@@ -1,0 +1,118 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-005",
+  "source_text": "- Every claim and edge needs span.quote copied from the passage (short exact phrase). - One step \u2248 one conclusion move. Split when two moves each could stand alone. - Edge types only from the schema enum (supports, depends_on, causes, correlates, appeals_to_source, attacks_person, attacks_claim, misattributes, shifts_burden, selects_subset, ignores, instantiates). - For repeated key words that look sense-shifting: fill terms + bindings with distinct sense_ids and glosses. - For person attacks: create agents with traits, and attacks_person edges. - For selective evidence: create evidence_sets and selects_subset / ignores edges. - A particular case offered as settling a group \u2192 instantiates from the case to the general conclusion. - A chain of steps to an extreme result \u2192 one causes edge per step. - \u201cEither / or\u201d or \u201cthe only choice\u201d used to settle a conclusion \u2192 that exclusive premise and a supports edge into the conclusion. - Many or most people offered as the reason a claim is true or right \u2192 appeals_to_source. - Set extractor.charity_applied: true when these rules were applied.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- Every claim and edge needs span.quote copied from the passage (short exact phrase). - One step \u2248 one conclusion move. Split when two moves"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nd edge needs span.quote copied from the passage (short exact phrase).",
+      "span": {
+        "quote": "nd edge needs span.quote copied from the passage (short exact phrase)."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Per step.",
+      "span": {
+        "quote": "per step"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Most people offered as the reason a claim is true.",
+      "span": {
+        "quote": "most people offered as the reason a claim is true"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Either / or\u201d or \u201cthe only choice\u201d used to settle a conclusion \u2192 that exclusive premise and a.",
+      "span": {
+        "quote": "Either / or\u201d or \u201cthe only choice\u201d used to settle a conclusion \u2192 that exclusive premise and a"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c5",
+      "text": "One step \u2248 one conclusion move.",
+      "span": {
+        "quote": "One step \u2248 one conclusion move"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per step"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "most people offered as the reason a claim is true"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "Either / or\u201d or \u201cthe only choice\u201d used to settle a conclusion \u2192 that exclusive p"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e4",
+      "type": "instantiates",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "One step \u2248 one conclusion move"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

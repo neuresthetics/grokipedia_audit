@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0138",
+  "source_text": "For instance, in Tanzania, the cost per HIV infection averted was estimated at US$11,300 for 2010\u20132015 scaling but dropped to US$3,200 when extended to 2025, underscoring long-term fiscal benefits. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, in Tanzania, the cost per HIV infection averted was estimated at US$11,300 for 2010\u20132015 scaling but dropped to US$3,200 when"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, in Tanzania, the cost per HIV infection averted was estimated at US$11,300 for 2010\u20132015 scaling but dropped to US$3,200 when extended to 2025, un.",
+      "span": {
+        "quote": "For instance, in Tanzania, the cost per HIV infection averted was estimated at US$11,300 for 2010\u20132015 scaling but dropped to US$3,200 when extended to 2025, un"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per HIV infection averted was estimated at US$11.",
+      "span": {
+        "quote": "per HIV infection averted was estimated at US$11"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per HIV infection averted was estimated at US$11"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

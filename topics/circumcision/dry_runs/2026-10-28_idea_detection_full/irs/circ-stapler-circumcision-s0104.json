@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-stapler-circumcision-s0104",
+  "source_text": "Functional outcomes are generally positive, with the procedure preserving normal penile anatomy and function, including micturition and erectile capability, in the absence of significant complications affecting these aspects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Functional outcomes are generally positive, with the procedure preserving normal penile anatomy and function, including micturition and erec"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Functional outcomes are generally positive, with the procedure preserving normal penile anatomy and function, including micturition and erectile capability, in.",
+      "span": {
+        "quote": "Functional outcomes are generally positive, with the procedure preserving normal penile anatomy and function, including micturition and erectile capability, in "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

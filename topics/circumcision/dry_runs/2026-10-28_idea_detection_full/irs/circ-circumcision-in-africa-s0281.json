@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0281",
+  "source_text": "Advocacy against VMMC, including claims of neocolonial experimentation akin to the Tuskegee syphilis study, overlooks the voluntary nature of programs targeting adolescent and adult males with informed consent, as well as post-trial observational data confirming sustained protective effects without significant risk compensation. [130]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocacy against VMMC, including claims of neocolonial experimentation akin to the Tuskegee syphilis study, overlooks the voluntary nature o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of neocolonial experimentation akin to the Tuskegee syphilis study, overlooks the voluntary nature of programs targeting adolescent and adult males with informe.",
+      "span": {
+        "quote": "of neocolonial experimentation akin to the Tuskegee syphilis study, overlooks the voluntary nature of programs targeting adolescent and adult males with informe"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Advocacy against VMMC, including.",
+      "span": {
+        "quote": "Advocacy against VMMC, including"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

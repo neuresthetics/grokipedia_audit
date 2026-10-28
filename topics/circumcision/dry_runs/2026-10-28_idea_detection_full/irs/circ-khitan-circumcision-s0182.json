@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0182",
+  "source_text": "This perspective holds that delaying the procedure risks non-compliance with fitrah (natural disposition toward purity), and empirical observations in Muslim-majority societies show high acceptance rates (90-100% prevalence) with negligible psychological regret, prioritizing communal religious obligations over secular consent models.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective holds that delaying the procedure risks non-compliance with fitrah (natural disposition toward purity), and empirical obser"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective holds that delaying the procedure risks non-compliance with fitrah (natural disposition toward purity), and empirical observations in Muslim-ma.",
+      "span": {
+        "quote": "This perspective holds that delaying the procedure risks non-compliance with fitrah (natural disposition toward purity), and empirical observations in Muslim-ma"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

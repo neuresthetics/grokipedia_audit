@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0034",
+  "source_text": "A core motivation is the deliberate reduction of female sexual pleasure to promote premarital virginity and postmarital fidelity, distinguishing FGM from male circumcision, which lacks equivalent intent or physiological impact on pleasure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A core motivation is the deliberate reduction of female sexual pleasure to promote premarital virginity and postmarital fidelity, distinguis"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A core motivation is the deliberate reduction of female sexual pleasure to promote premarital virginity and postmarital fidelity, distinguishing FGM from male c.",
+      "span": {
+        "quote": "A core motivation is the deliberate reduction of female sexual pleasure to promote premarital virginity and postmarital fidelity, distinguishing FGM from male c"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

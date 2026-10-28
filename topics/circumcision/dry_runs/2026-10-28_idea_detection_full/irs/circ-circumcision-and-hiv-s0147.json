@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0147",
+  "source_text": "Alcena observed lower HIV rates among circumcised individuals in early screening efforts, proposing circumcision as a potential preventive factor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Alcena observed lower HIV rates among circumcised individuals in early screening efforts, proposing circumcision as a potential preventive f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Alcena observed lower HIV rates among circumcised individuals in early screening efforts, proposing circumcision as a potential preventive factor.",
+      "span": {
+        "quote": "Alcena observed lower HIV rates among circumcised individuals in early screening efforts, proposing circumcision as a potential preventive factor."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

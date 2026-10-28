@@ -1,0 +1,77 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-007",
+  "source_text": "2. **Anti-collapse (so / must).** Passage: \u201cThe two shops on this street were closed, so every shop in town must be closed.\u201d Bad: one report. Emit the case, the general conclusion, and instantiates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "2. **Anti-collapse (so / must).** Passage: \u201cThe two shops on this street were closed, so every shop in town must be closed.\u201d Bad: one report"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "2. **Anti-collapse (.",
+      "span": {
+        "quote": "2. **Anti-collapse ("
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Every shop in town must be closed.\u201d Bad: one report. Emit the case, the general conclusion, and instantiates.",
+      "span": {
+        "quote": "every shop in town must be closed.\u201d Bad: one report. Emit the case, the general conclusion, and instantiates."
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "This street were closed.",
+      "span": {
+        "quote": "this street were closed"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "this street were closed"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

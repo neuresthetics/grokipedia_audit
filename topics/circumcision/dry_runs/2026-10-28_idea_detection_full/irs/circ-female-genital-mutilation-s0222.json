@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0222",
+  "source_text": "Social \"benefits\" like marriageability reflect coercive norms rather than intrinsic value, perpetuating gender control without evidence of net welfare improvement, as uncut women in low-prevalence groups show reproductive advantages.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Social \"benefits\" like marriageability reflect coercive norms rather than intrinsic value, perpetuating gender control without evidence of n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Social \"benefits\" like marriageability reflect coercive norms rather than intrinsic value, perpetuating gender control without evidence of net welfare improveme.",
+      "span": {
+        "quote": "Social \"benefits\" like marriageability reflect coercive norms rather than intrinsic value, perpetuating gender control without evidence of net welfare improveme"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

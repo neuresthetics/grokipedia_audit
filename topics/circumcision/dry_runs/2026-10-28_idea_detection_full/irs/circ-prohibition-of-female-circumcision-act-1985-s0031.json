@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0031",
+  "source_text": "In childbirth, FGM correlates with obstructed labor, perineal tears, postpartum hemorrhage, extended delivery times, increased cesarean section rates, and elevated neonatal risks including low birth weight, stillbirth, and early neonatal death, with studies estimating a 15-55% higher likelihood of these complications depending on FGM severity. [12] [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In childbirth, FGM correlates with obstructed labor, perineal tears, postpartum hemorrhage, extended delivery times, increased cesarean sect"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In childbirth, FGM correlates with obstructed labor, perineal tears, postpartum hemorrhage, extended delivery times, increased cesarean section rates, and eleva.",
+      "span": {
+        "quote": "In childbirth, FGM correlates with obstructed labor, perineal tears, postpartum hemorrhage, extended delivery times, increased cesarean section rates, and eleva"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

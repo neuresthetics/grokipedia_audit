@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0131",
+  "source_text": "Article 37(a) reinforces this by explicitly barring children from torture or cruel, inhuman, or degrading treatment, with the resolution petitioning the World Court to declare these practices in breach of international law.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Article 37(a) reinforces this by explicitly barring children from torture or cruel, inhuman, or degrading treatment, with the resolution pet"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Article 37(a) reinforces this by explicitly barring children from torture or cruel, inhuman, or degrading treatment, with the resolution petitioning the World C.",
+      "span": {
+        "quote": "Article 37(a) reinforces this by explicitly barring children from torture or cruel, inhuman, or degrading treatment, with the resolution petitioning the World C"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

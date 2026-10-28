@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0191",
+  "source_text": "This backlash, evident in responses to campaigns like the 2014 Guardian initiative and parliamentary inquiries, underscores tensions where source credibility is questioned: relativist advocacy from select anthropological works overlooks causal links between FGM and documented health sequelae, prioritizing narrative over data-driven harm assessment. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This backlash, evident in responses to campaigns like the 2014 Guardian initiative and parliamentary inquiries, underscores tensions where s"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This backlash, evident in responses to campaigns like the 2014 Guardian initiative and parliamentary inquiries, underscores tensions where source credibility is.",
+      "span": {
+        "quote": "This backlash, evident in responses to campaigns like the 2014 Guardian initiative and parliamentary inquiries, underscores tensions where source credibility is"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

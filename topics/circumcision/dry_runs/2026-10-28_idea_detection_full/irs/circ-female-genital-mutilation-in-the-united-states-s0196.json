@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0196",
+  "source_text": "The American Medical Association (AMA) condemns FGM/C as a form of child sexual abuse and gender-based violence, rejecting any medical role in its performance and calling for enhanced education, research, and enforcement to eradicate it. [87]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Medical Association (AMA) condemns FGM/C as a form of child sexual abuse and gender-based violence, rejecting any medical role"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Medical Association (AMA) condemns FGM/C as a form of child sexual abuse and gender-based violence, rejecting any medical role in its performance a.",
+      "span": {
+        "quote": "The American Medical Association (AMA) condemns FGM/C as a form of child sexual abuse and gender-based violence, rejecting any medical role in its performance a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

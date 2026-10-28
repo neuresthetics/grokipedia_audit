@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0441",
+  "source_text": "Other benefits include 90% fewer urinary tract infections in infancy per meta-analyses, plus reduced penile cancer and some STIs like herpes simplex virus type 2, though STI evidence is observational and less robust. [77] [197]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Other benefits include 90% fewer urinary tract infections in infancy per meta-analyses, plus reduced penile cancer and some STIs like herpes"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Other benefits include 90% fewer urinary tract infections in infancy per meta-analyses, plus reduced penile cancer and some STIs like herpes simplex virus type.",
+      "span": {
+        "quote": "Other benefits include 90% fewer urinary tract infections in infancy per meta-analyses, plus reduced penile cancer and some STIs like herpes simplex virus type "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per meta-analyses.",
+      "span": {
+        "quote": "per meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

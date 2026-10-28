@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0048",
+  "source_text": "A 2020 systematic review encompassing 20 studies, including high-risk and community-based cohorts, reported pooled incidence ratios for HIV acquisition ranging from 0.29 (95% CI 0.19\u20130.43) in high-risk groups to 0.56 (95% CI 0.49\u20130.64) in community cohorts during circumcision scale-up, corresponding to relative risk reductions of 44\u201371%. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2020 systematic review encompassing 20 studies, including high-risk and community-based cohorts, reported pooled incidence ratios for HIV"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2020 systematic review encompassing 20 studies, including high-risk and community-based cohorts, reported pooled incidence ratios for HIV acquisition ranging.",
+      "span": {
+        "quote": "A 2020 systematic review encompassing 20 studies, including high-risk and community-based cohorts, reported pooled incidence ratios for HIV acquisition ranging "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

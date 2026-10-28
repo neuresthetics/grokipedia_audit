@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0009",
+  "source_text": "Complications from the non-sterile, inexpert execution include excessive scarring, urinary fistulas, and potential long-term erectile dysfunction, underscoring the procedure's inherent physical costs despite its cultural endurance. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complications from the non-sterile, inexpert execution include excessive scarring, urinary fistulas, and potential long-term erectile dysfun"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complications from the non-sterile, inexpert execution include excessive scarring, urinary fistulas, and potential long-term erectile dysfunction, underscoring.",
+      "span": {
+        "quote": "Complications from the non-sterile, inexpert execution include excessive scarring, urinary fistulas, and potential long-term erectile dysfunction, underscoring "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

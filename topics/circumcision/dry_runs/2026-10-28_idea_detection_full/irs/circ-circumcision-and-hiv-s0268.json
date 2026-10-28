@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0268",
+  "source_text": "Economic evaluations of voluntary medical male circumcision (VMMC) programs for HIV prevention in sub-Saharan Africa have predominantly concluded that the intervention is cost-effective, particularly in settings with moderate to high heterosexual HIV transmission.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Economic evaluations of voluntary medical male circumcision (VMMC) programs for HIV prevention in sub-Saharan Africa have predominantly conc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E intervention is cost-effective, particularly in settings with moderate to high heterosexual HIV transmission.",
+      "span": {
+        "quote": "e intervention is cost-effective, particularly in settings with moderate to high heterosexual HIV transmission."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Economic evaluations of voluntary medical male circumcision (VMMC) programs for HIV prevention in sub-Saharan Africa have predominantly.",
+      "span": {
+        "quote": "Economic evaluations of voluntary medical male circumcision (VMMC) programs for HIV prevention in sub-Saharan Africa have predominantly"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concluded"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

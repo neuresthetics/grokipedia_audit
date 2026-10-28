@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-milah-s0272",
+  "source_text": "They dismiss purported medical benefits\u2014such as lowered risks of urinary tract infections or certain sexually transmitted diseases\u2014as insufficient to warrant routine intervention, especially given alternatives like hygiene education. [130]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They dismiss purported medical benefits\u2014such as lowered risks of urinary tract infections or certain sexually transmitted diseases\u2014as insuff"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "They dismiss purported medical benefits\u2014such as lowered risks of urinary tract infections or certain sexually transmitted diseases\u2014as insufficient to warrant ro.",
+      "span": {
+        "quote": "They dismiss purported medical benefits\u2014such as lowered risks of urinary tract infections or certain sexually transmitted diseases\u2014as insufficient to warrant ro"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

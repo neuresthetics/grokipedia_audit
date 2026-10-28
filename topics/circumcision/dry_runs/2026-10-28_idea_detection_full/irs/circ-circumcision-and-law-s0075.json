@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0075",
+  "source_text": "It frames these practices as violations of Article 8 of the Convention (right to respect for private and family life) and urges harmonization of laws to criminalize them when performed without the child's informed consent, prioritizing physical integrity over parental or religious autonomy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It frames these practices as violations of Article 8 of the Convention (right to respect for private and family life) and urges harmonizatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rmonization of laws to criminalize them when performed without the child's informed consent, prioritizing physical integrity over parental or religious autonomy.",
+      "span": {
+        "quote": "rmonization of laws to criminalize them when performed without the child's informed consent, prioritizing physical integrity over parental or religious autonomy"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "It frames these practices as violations of Article 8 of the Convention (right to respect for private and family life) and.",
+      "span": {
+        "quote": "It frames these practices as violations of Article 8 of the Convention (right to respect for private and family life) and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "urges"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

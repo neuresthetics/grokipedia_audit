@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0089",
+  "source_text": "Neonatal circumcision carries acute risks primarily involving bleeding and infection, occurring in approximately 0.2% to 0.6% of cases when performed by trained practitioners using proper techniques and anesthesia. [6] [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision carries acute risks primarily involving bleeding and infection, occurring in approximately 0.2% to 0.6% of cases when"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision carries acute risks primarily involving bleeding and infection, occurring in approximately 0.2% to 0.6% of cases when performed by trained.",
+      "span": {
+        "quote": "Neonatal circumcision carries acute risks primarily involving bleeding and infection, occurring in approximately 0.2% to 0.6% of cases when performed by trained"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

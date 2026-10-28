@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-IDEA_DETECTION-001",
+  "source_text": "Fallacy labels in this repository are decided from **claim and support structure**, not from sentence cadence. The catalog (fallacies.json) stays the source of truth. This layer makes METHOD.md's false-positive rules machine-checkable for a pilot set of entries. It does not replace METHOD.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Fallacy labels in this repository are decided from **claim and support structure**, not from sentence cadence. The catalog (fallacies.json)"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nd support structure**, not from sentence cadence.",
+      "span": {
+        "quote": "nd support structure**, not from sentence cadence."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Fallacy labels in this repository are decided from **.",
+      "span": {
+        "quote": "Fallacy labels in this repository are decided from **"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

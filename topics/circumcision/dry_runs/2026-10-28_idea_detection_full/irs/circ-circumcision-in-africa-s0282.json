@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0282",
+  "source_text": "Such positions, advanced by advocacy groups rather than peer-reviewed consensus, risk undermining combination prevention strategies, potentially elevating HIV incidence in high-burden regions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such positions, advanced by advocacy groups rather than peer-reviewed consensus, risk undermining combination prevention strategies, potenti"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such positions, advanced by advocacy groups rather than peer-reviewed consensus, risk undermining combination prevention strategies, potentially elevating HIV i.",
+      "span": {
+        "quote": "Such positions, advanced by advocacy groups rather than peer-reviewed consensus, risk undermining combination prevention strategies, potentially elevating HIV i"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

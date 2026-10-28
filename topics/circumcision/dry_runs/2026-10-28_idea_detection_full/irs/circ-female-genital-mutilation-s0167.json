@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0167",
+  "source_text": "These attitudes persist because women, having undergone FGM themselves, normalize it as a shared experience that confers social capital, as qualitative data from Mali indicate that circumcised women report stronger community bonds and perceived moral standing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These attitudes persist because women, having undergone FGM themselves, normalize it as a shared experience that confers social capital, as"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These attitudes persist.",
+      "span": {
+        "quote": "These attitudes persist"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Women, having undergone FGM themselves, normalize it as a shared experience that confers social capital, as qualitative data from Mali indicate that circumcised.",
+      "span": {
+        "quote": "women, having undergone FGM themselves, normalize it as a shared experience that confers social capital, as qualitative data from Mali indicate that circumcised"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "because women, having undergone FGM themselves, normalize it as a sh"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

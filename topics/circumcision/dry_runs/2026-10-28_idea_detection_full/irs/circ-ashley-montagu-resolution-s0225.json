@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0225",
+  "source_text": "Proposed by psychologist James W. Prescott and endorsed by groups including the National Organization of Circumcision Information Resource Centers (NOCIRC), the resolution framed male circumcision alongside female genital mutilation as unethical genital cutting practices warranting global prohibition. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proposed by psychologist James W. Prescott and endorsed by groups including the National Organization of Circumcision Information Resource C"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proposed by psychologist James W. Prescott and endorsed by groups including the National Organization of Circumcision Information Resource Centers (NOCIRC), the.",
+      "span": {
+        "quote": "Proposed by psychologist James W. Prescott and endorsed by groups including the National Organization of Circumcision Information Resource Centers (NOCIRC), the"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

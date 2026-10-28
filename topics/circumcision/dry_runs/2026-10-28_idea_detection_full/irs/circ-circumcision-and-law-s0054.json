@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0054",
+  "source_text": "The Universal Declaration of Human Rights (UDHR, 1948) provides foundational, though non-binding, support for these claims through Article 3, which guarantees everyone's right to life, liberty, and security of person, and Article 5, prohibiting torture or cruel, inhuman, or degrading treatment.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Universal Declaration of Human Rights (UDHR, 1948) provides foundational, though non-binding, support for these claims through Article 3"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rough Article 3, which guarantees everyone's right to life, liberty, and security of person, and Article 5, prohibiting torture or cruel, inhuman, or degrading.",
+      "span": {
+        "quote": "rough Article 3, which guarantees everyone's right to life, liberty, and security of person, and Article 5, prohibiting torture or cruel, inhuman, or degrading "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The Universal Declaration of Human Rights (UDHR, 1948) provides foundational, though non-binding, support for these.",
+      "span": {
+        "quote": "The Universal Declaration of Human Rights (UDHR, 1948) provides foundational, though non-binding, support for these"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "These claims through Article 3.",
+      "span": {
+        "quote": "these claims through Article 3"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "these claims through Article 3"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

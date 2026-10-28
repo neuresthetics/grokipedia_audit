@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0071",
+  "source_text": "A 2017 systematic risk-benefit analysis of early infant male circumcision quantified the net advantage, estimating that benefits exceed procedural risks by ratios up to 200:1, as the procedure averts multiple conditions including phimosis (affecting up to 1 in 2 uncircumcised males lifetime), balanitis, and inflammatory conditions requiring intervention. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2017 systematic risk-benefit analysis of early infant male circumcision quantified the net advantage, estimating that benefits exceed proc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2017 systematic risk-benefit analysis of early infant male circumcision quantified the net advantage, estimating that benefits exceed procedural risks by rati.",
+      "span": {
+        "quote": "A 2017 systematic risk-benefit analysis of early infant male circumcision quantified the net advantage, estimating that benefits exceed procedural risks by rati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0269",
+  "source_text": "However, these claims are contested by ethicists who note that HIV benefits derive from high-prevalence contexts irrelevant to low-risk populations like the U.S., and that autonomy trumps speculative prophylaxis, especially given circumcision's failure to eradicate infections entirely. [46]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, these claims are contested by ethicists who note that HIV benefits derive from high-prevalence contexts irrelevant to low-risk popu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Re contested by ethicists who note that HIV benefits derive from high-prevalence contexts irrelevant to low-risk populations like the U.S., and that autonomy tr.",
+      "span": {
+        "quote": "re contested by ethicists who note that HIV benefits derive from high-prevalence contexts irrelevant to low-risk populations like the U.S., and that autonomy tr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

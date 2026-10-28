@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0131",
+  "source_text": "Voluntary medical male circumcision (VMMC) programs in 15 priority sub-Saharan African countries have achieved approximately 26 million procedures between 2008 and 2019, averting an estimated 340,000 new HIV infections. [75] [76]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Voluntary medical male circumcision (VMMC) programs in 15 priority sub-Saharan African countries have achieved approximately 26 million proc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Voluntary medical male circumcision (VMMC) programs in 15 priority sub-Saharan African countries have achieved approximately 26 million procedures between 2008.",
+      "span": {
+        "quote": "Voluntary medical male circumcision (VMMC) programs in 15 priority sub-Saharan African countries have achieved approximately 26 million procedures between 2008 "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

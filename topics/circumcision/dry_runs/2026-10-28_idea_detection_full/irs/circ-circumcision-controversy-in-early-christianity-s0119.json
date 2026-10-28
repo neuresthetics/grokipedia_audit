@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0119",
+  "source_text": "After prolonged discussion, Peter intervened, recounting his precedent with Cornelius' household where God granted the Holy Spirit to uncircumcised Gentiles as to Jews, questioning why impose \"a yoke that neither we nor our fathers have been able to bear\" and affirming salvation \"through the grace of the Lord Jesus\" for all. [54]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "After prolonged discussion, Peter intervened, recounting his precedent with Cornelius' household where God granted the Holy Spirit to uncirc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "After prolonged discussion, Peter intervened, recounting his precedent with Cornelius' household where God granted the Holy Spirit to uncircumcised Gentiles as.",
+      "span": {
+        "quote": "After prolonged discussion, Peter intervened, recounting his precedent with Cornelius' household where God granted the Holy Spirit to uncircumcised Gentiles as "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

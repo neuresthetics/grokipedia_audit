@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0053",
+  "source_text": "These events are predominantly minor and resolve with conservative management, while severe complications like excessive skin removal or glans injury remain rare, affecting fewer than 0.1% of cases. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These events are predominantly minor and resolve with conservative management, while severe complications like excessive skin removal or gla"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These events are predominantly minor and resolve with conservative management, while severe complications like excessive skin removal or glans injury remain rar.",
+      "span": {
+        "quote": "These events are predominantly minor and resolve with conservative management, while severe complications like excessive skin removal or glans injury remain rar"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

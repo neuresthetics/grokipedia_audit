@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0326",
+  "source_text": "Health risks further diverge: FGM, typically performed without anesthesia in non-sterile conditions, carries high rates of immediate complications such as hemorrhage (up to 15% in some cohorts), infection, and death, alongside long-term issues including urinary tract infections, chronic pain, keloid scarring, and obstetric complications like vesicovaginal fistulas during childbirth, which affect over 10% of infibulated women. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Health risks further diverge: FGM, typically performed without anesthesia in non-sterile conditions, carries high rates of immediate complic"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Health risks further diverge: FGM, typically performed without anesthesia in non-sterile conditions, carries high rates of immediate complications such as hemor.",
+      "span": {
+        "quote": "Health risks further diverge: FGM, typically performed without anesthesia in non-sterile conditions, carries high rates of immediate complications such as hemor"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

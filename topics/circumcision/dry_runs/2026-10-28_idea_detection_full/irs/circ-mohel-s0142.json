@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-mohel-s0142",
+  "source_text": "Critics of infant circumcision contend that the procedure constitutes a violation of the infant's fundamental right to bodily integrity, as it involves the surgical removal of healthy, functional tissue without the child's consent or any immediate therapeutic necessity. [75]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of infant circumcision contend that the procedure constitutes a violation of the infant's fundamental right to bodily integrity, as"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure constitutes a violation of the infant's fundamental right to bodily integrity, as it involves the surgical removal of healthy, functional tissue wit.",
+      "span": {
+        "quote": "e procedure constitutes a violation of the infant's fundamental right to bodily integrity, as it involves the surgical removal of healthy, functional tissue wit"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of infant circumcision.",
+      "span": {
+        "quote": "Critics of infant circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

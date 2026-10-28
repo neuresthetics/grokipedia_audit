@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-foreskin-man-s0088",
+  "source_text": "Newborn male circumcision is associated with a reduced incidence of urinary tract infections (UTIs) in the first year of life, with meta-analyses indicating a relative risk reduction of about 90%, from approximately 1% in uncircumcised boys to 0.1-0.2% in circumcised ones. [53] [54]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Newborn male circumcision is associated with a reduced incidence of urinary tract infections (UTIs) in the first year of life, with meta-ana"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Newborn male circumcision is associated with a reduced incidence of urinary tract infections (UTIs) in the first year of life, with meta-analyses indicating a r.",
+      "span": {
+        "quote": "Newborn male circumcision is associated with a reduced incidence of urinary tract infections (UTIs) in the first year of life, with meta-analyses indicating a r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with a reduced incidence of urinary tract infections (UTIs) in.",
+      "span": {
+        "quote": "associated with a reduced incidence of urinary tract infections (UTIs) in"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with a reduced incidence of urinary tract infections (UTIs) in"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with a reduced incidence of urinary tract infections (UTIs) in ",
+          "span": {
+            "quote": "associated with a reduced incidence of urinary tract infections (UTIs) in"
+          }
+        }
+      ]
+    }
+  ]
+}

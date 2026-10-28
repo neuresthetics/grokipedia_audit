@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0090",
+  "source_text": "Transmission dynamics are further influenced by circumcision's impact on viral trafficking: in uncircumcised men, HIV infection often localizes initially in foreskin Langerhans cells before disseminating to draining lymph nodes, whereas circumcision shifts potential entry to less permissive keratinized sites, reducing the probability of establishing a productive genital infection. [53]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Transmission dynamics are further influenced by circumcision's impact on viral trafficking: in uncircumcised men, HIV infection often locali"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Transmission dynamics are further influenced by circumcision's impact on viral trafficking: in uncircumcised men, HIV infection often localizes initially in for.",
+      "span": {
+        "quote": "Transmission dynamics are further influenced by circumcision's impact on viral trafficking: in uncircumcised men, HIV infection often localizes initially in for"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

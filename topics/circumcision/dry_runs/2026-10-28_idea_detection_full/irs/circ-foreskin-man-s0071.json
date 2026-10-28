@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0071",
+  "source_text": "These effects are depicted as lifelong consequences, with the comic emphasizing the foreskin's role in protecting the glans and enabling gliding motion essential for intact sexual mechanics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These effects are depicted as lifelong consequences, with the comic emphasizing the foreskin's role in protecting the glans and enabling gli"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These effects are depicted as lifelong consequences, with the comic emphasizing the foreskin's role in protecting the glans and enabling gliding motion essentia.",
+      "span": {
+        "quote": "These effects are depicted as lifelong consequences, with the comic emphasizing the foreskin's role in protecting the glans and enabling gliding motion essentia"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0169",
+  "source_text": "Participants in a phenomenological study of Somalian women residing in Minneapolis described the procedure as removing the clitoris to prevent \"uncontrolled sexual behavior and prostitution,\" thereby promoting fidelity and safeguarding family reputation within tightly knit enclaves.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Participants in a phenomenological study of Somalian women residing in Minneapolis described the procedure as removing the clitoris to preve"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Participants in a phenomenological study of Somalian women residing in Minneapolis described the procedure as removing the clitoris to prevent \"uncontrolled sex.",
+      "span": {
+        "quote": "Participants in a phenomenological study of Somalian women residing in Minneapolis described the procedure as removing the clitoris to prevent \"uncontrolled sex"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Promoting fidelity and safeguarding family reputation within tightly knit enclaves.",
+      "span": {
+        "quote": "promoting fidelity and safeguarding family reputation within tightly knit enclaves."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "prevent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

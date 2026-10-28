@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0264",
+  "source_text": "These arguments, encompassing infectious prophylaxis, orthopedic benefits, and moral hygiene, propelled Western medical adoption, although many relied on anecdotal evidence later critiqued for lacking controlled validation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These arguments, encompassing infectious prophylaxis, orthopedic benefits, and moral hygiene, propelled Western medical adoption, although m"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These arguments, encompassing infectious prophylaxis, orthopedic benefits, and moral hygiene, propelled Western medical adoption, although many relied on anecdo.",
+      "span": {
+        "quote": "These arguments, encompassing infectious prophylaxis, orthopedic benefits, and moral hygiene, propelled Western medical adoption, although many relied on anecdo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

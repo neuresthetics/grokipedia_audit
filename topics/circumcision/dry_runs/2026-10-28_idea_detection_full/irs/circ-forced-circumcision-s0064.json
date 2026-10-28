@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-forced-circumcision-s0064",
+  "source_text": "Justifications include beliefs that it promotes hygiene, averts diseases like balanitis, and enhances physical attributes such as height and attractiveness to women, though these claims lack empirical support from controlled studies. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Justifications include beliefs that it promotes hygiene, averts diseases like balanitis, and enhances physical attributes such as height and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Lack empirical support from controlled studies.",
+      "span": {
+        "quote": "lack empirical support from controlled studies."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Justifications include beliefs that it promotes hygiene, averts diseases like balanitis, and enhances physical attributes such as height and attractiveness to w.",
+      "span": {
+        "quote": "Justifications include beliefs that it promotes hygiene, averts diseases like balanitis, and enhances physical attributes such as height and attractiveness to w"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

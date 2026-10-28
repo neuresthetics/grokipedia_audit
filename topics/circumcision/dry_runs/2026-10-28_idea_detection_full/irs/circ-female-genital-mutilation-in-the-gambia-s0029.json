@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0029",
+  "source_text": "The cutting occurs without anesthesia or sterile conditions, using rudimentary sharp instruments such as knives or razors, often leading to imprecise excision that may extend beyond the targeted tissues. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The cutting occurs without anesthesia or sterile conditions, using rudimentary sharp instruments such as knives or razors, often leading to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The cutting occurs without anesthesia or sterile conditions, using rudimentary sharp instruments such as knives or razors, often leading to imprecise excision t.",
+      "span": {
+        "quote": "The cutting occurs without anesthesia or sterile conditions, using rudimentary sharp instruments such as knives or razors, often leading to imprecise excision t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

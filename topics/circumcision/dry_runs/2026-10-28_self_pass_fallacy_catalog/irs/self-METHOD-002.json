@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-METHOD-002",
+  "source_text": "Naming a fallacy does not show that the conclusion is false. It shows only that this step does not support it (to claim more would be the argument from fallacy).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Naming a fallacy does not show that the conclusion is false. It shows only that this step does not support it (to claim more would be the ar"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "More would be the argument from fallacy).",
+      "span": {
+        "quote": "more would be the argument from fallacy)."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Naming a fallacy does not show that the conclusion is false. It shows only that this step does not support it (to.",
+      "span": {
+        "quote": "Naming a fallacy does not show that the conclusion is false. It shows only that this step does not support it (to"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

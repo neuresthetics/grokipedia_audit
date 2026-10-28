@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0063",
+  "source_text": "In Hadith literature, a narration attributed to Umm Atiyyah in Sunan Abi Dawud (5271) reports that a woman performing circumcisions in Medina was instructed by the Prophet Muhammad: \"Do not cut severely as that is better for a woman and more desirable for a husband.\" [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Hadith literature, a narration attributed to Umm Atiyyah in Sunan Abi Dawud (5271) reports that a woman performing circumcisions in Medin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Hadith literature, a narration attributed to Umm Atiyyah in Sunan Abi Dawud (5271) reports that a woman performing circumcisions in Medina was instructed by.",
+      "span": {
+        "quote": "In Hadith literature, a narration attributed to Umm Atiyyah in Sunan Abi Dawud (5271) reports that a woman performing circumcisions in Medina was instructed by "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

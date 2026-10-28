@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0017",
+  "source_text": "Unlike more excision-based forms of FGM/C, gishiri cutting targets the vaginal canal rather than the clitoris or labia, with incisions sometimes extending toward the urethra or bladder, increasing risks of complications such as vesicovaginal fistulas. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unlike more excision-based forms of FGM/C, gishiri cutting targets the vaginal canal rather than the clitoris or labia, with incisions somet"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Unlike more excision-based forms of FGM/C, gishiri cutting targets the vaginal canal rather than the clitoris or labia, with incisions sometimes extending towar.",
+      "span": {
+        "quote": "Unlike more excision-based forms of FGM/C, gishiri cutting targets the vaginal canal rather than the clitoris or labia, with incisions sometimes extending towar"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

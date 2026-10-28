@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0128",
+  "source_text": "Reproductive complications persist lifelong, with FGM associated with infertility in up to 20-30% of cases due to tubal blockages or chronic infections like pelvic inflammatory disease. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reproductive complications persist lifelong, with FGM associated with infertility in up to 20-30% of cases due to tubal blockages or chronic"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reproductive complications persist lifelong, with FGM associated with infertility in up to 20-30% of cases due to tubal blockages or chronic infections like pel.",
+      "span": {
+        "quote": "Reproductive complications persist lifelong, with FGM associated with infertility in up to 20-30% of cases due to tubal blockages or chronic infections like pel"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with infertility in up to 20-30% of cases due to tubal blockages.",
+      "span": {
+        "quote": "associated with infertility in up to 20-30% of cases due to tubal blockages"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with infertility in up to 20-30% of cases due to tubal blockages"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with infertility in up to 20-30% of cases due to tubal blockages ",
+          "span": {
+            "quote": "associated with infertility in up to 20-30% of cases due to tubal blockages"
+          }
+        }
+      ]
+    }
+  ]
+}

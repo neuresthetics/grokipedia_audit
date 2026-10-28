@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0038",
+  "source_text": "The core aims center on mobilizing political commitment and public awareness to eradicate FGM entirely, rejecting any form of tolerance for practices involving partial or total removal of external female genitalia or other injury for non-medical reasons. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The core aims center on mobilizing political commitment and public awareness to eradicate FGM entirely, rejecting any form of tolerance for"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The core aims center on mobilizing political commitment and public awareness to eradicate FGM entirely, rejecting any form of tolerance for practices involving.",
+      "span": {
+        "quote": "The core aims center on mobilizing political commitment and public awareness to eradicate FGM entirely, rejecting any form of tolerance for practices involving "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

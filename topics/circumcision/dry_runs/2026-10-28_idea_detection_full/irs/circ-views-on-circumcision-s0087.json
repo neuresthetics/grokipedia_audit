@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0087",
+  "source_text": "For instance, in regions with high STI burdens, lifetime absolute risk reductions include preventing 1 UTI per 100\u2013200 procedures and substantial HIV averting in at-risk groups.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, in regions with high STI burdens, lifetime absolute risk reductions include preventing 1 UTI per 100\u2013200 procedures and substa"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, in regions with high STI burdens, lifetime absolute risk reductions include preventing 1 UTI per 100\u2013200 procedures and substantial HIV averting i.",
+      "span": {
+        "quote": "For instance, in regions with high STI burdens, lifetime absolute risk reductions include preventing 1 UTI per 100\u2013200 procedures and substantial HIV averting i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100\u2013200 procedures and substantial HIV averting in at-risk groups.",
+      "span": {
+        "quote": "per 100\u2013200 procedures and substantial HIV averting in at-risk groups"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100\u2013200 procedures and substantial HIV averting in at-risk groups"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

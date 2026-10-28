@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0038",
+  "source_text": "Indigenous North American communities present a contrasting perspective, where the uncircumcised penis retains traditional aesthetic and cultural value as the unaltered, natural form integral to pre-colonial identity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Indigenous North American communities present a contrasting perspective, where the uncircumcised penis retains traditional aesthetic and cul"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Indigenous North American communities present a contrasting perspective, where the uncircumcised penis retains traditional aesthetic and cultural value as the u.",
+      "span": {
+        "quote": "Indigenous North American communities present a contrasting perspective, where the uncircumcised penis retains traditional aesthetic and cultural value as the u"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

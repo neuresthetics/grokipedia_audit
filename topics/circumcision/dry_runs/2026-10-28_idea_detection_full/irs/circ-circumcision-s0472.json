@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0472",
+  "source_text": "Internationally, human rights analyses diverge: some ethicists contend that non-therapeutic circumcision infringes on boys' rights to bodily integrity and self-determination as outlined in documents like the Universal Declaration of Human Rights and the Convention on the Rights of the Child, equating parental proxy consent to invalid authorization for irreversible alteration of healthy tissue. [258]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Internationally, human rights analyses diverge: some ethicists contend that non-therapeutic circumcision infringes on boys' rights to bodily"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-therapeutic circumcision infringes on boys' rights to bodily integrity and self-determination as outlined in documents like the Universal Declaration of Hum.",
+      "span": {
+        "quote": "non-therapeutic circumcision infringes on boys' rights to bodily integrity and self-determination as outlined in documents like the Universal Declaration of Hum"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Internationally, human rights analyses diverge: some ethicists.",
+      "span": {
+        "quote": "Internationally, human rights analyses diverge: some ethicists"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

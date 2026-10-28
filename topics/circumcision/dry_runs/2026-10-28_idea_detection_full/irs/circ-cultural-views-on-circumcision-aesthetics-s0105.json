@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0105",
+  "source_text": "A 2014 qualitative study of 30 sexually active women in Kisumu, Kenya, found that 77% preferred circumcised men, primarily due to perceived better hygiene (less dirt, odor, and smegma).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2014 qualitative study of 30 sexually active women in Kisumu, Kenya, found that 77% preferred circumcised men, primarily due to perceived"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2014 qualitative study of 30 sexually active women in Kisumu, Kenya, found that 77% preferred circumcised men, primarily due to perceived better hygiene (less.",
+      "span": {
+        "quote": "A 2014 qualitative study of 30 sexually active women in Kisumu, Kenya, found that 77% preferred circumcised men, primarily due to perceived better hygiene (less"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

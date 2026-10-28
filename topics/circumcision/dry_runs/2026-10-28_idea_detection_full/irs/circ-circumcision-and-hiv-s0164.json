@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0164",
+  "source_text": "Among 69 incident HIV cases (22 circumcised, 47 uncircumcised), circumcision conferred a 53% protective efficacy (95% CI: 22\u201372%; adjusted RR 0.47, 95% CI: 0.28\u20130.78), with no evidence of behavioral risk compensation\u2014circumcised men reported similar or slightly fewer sexual partners and condom use rates. [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among 69 incident HIV cases (22 circumcised, 47 uncircumcised), circumcision conferred a 53% protective efficacy (95% CI: 22\u201372%; adjusted R"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among 69 incident HIV cases (22 circumcised, 47 uncircumcised), circumcision conferred a 53% protective efficacy (95% CI: 22\u201372%; adjusted RR 0.47, 95% CI: 0.28.",
+      "span": {
+        "quote": "Among 69 incident HIV cases (22 circumcised, 47 uncircumcised), circumcision conferred a 53% protective efficacy (95% CI: 22\u201372%; adjusted RR 0.47, 95% CI: 0.28"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of behavioral risk compensation\u2014circumcised men reported.",
+      "span": {
+        "quote": "no evidence of behavioral risk compensation\u2014circumcised men reported"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of behavioral risk compensation\u2014circumcised men reported"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

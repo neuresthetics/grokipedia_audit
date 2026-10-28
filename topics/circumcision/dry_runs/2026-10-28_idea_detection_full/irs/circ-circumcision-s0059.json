@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0059",
+  "source_text": "For older children and adults, local infiltration or DPNB is standard, with sedation or general anesthesia for anxiety or complexity; trained providers keep complications below 1%. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For older children and adults, local infiltration or DPNB is standard, with sedation or general anesthesia for anxiety or complexity; traine"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For older children and adults, local infiltration or DPNB is standard, with sedation or general anesthesia for anxiety or complexity; trained providers keep com.",
+      "span": {
+        "quote": "For older children and adults, local infiltration or DPNB is standard, with sedation or general anesthesia for anxiety or complexity; trained providers keep com"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

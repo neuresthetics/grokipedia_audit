@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-milah-s0279",
+  "source_text": "Ethically, opponents invoke principles of non-maleficence and justice, asserting that brit milah discriminates by targeting males for cultural reasons while female genital cutting is prohibited, and that parental religious rights end where child welfare begins. [141] [142]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethically, opponents invoke principles of non-maleficence and justice, asserting that brit milah discriminates by targeting males for cultur"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "opponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethically, opponents invoke principles of non-maleficence and justice, asserting that brit milah discriminates by targeting males for cultural reasons while fem.",
+      "span": {
+        "quote": "Ethically, opponents invoke principles of non-maleficence and justice, asserting that brit milah discriminates by targeting males for cultural reasons while fem"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

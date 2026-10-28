@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0093",
+  "source_text": "While some communities invoke religious sanction\u2014perceiving FGM as an Islamic or cultural duty aligned with moral purity\u2014no major religious texts explicitly mandate it, and interpretations vary among leaders. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some communities invoke religious sanction\u2014perceiving FGM as an Islamic or cultural duty aligned with moral purity\u2014no major religious"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While some communities invoke religious sanction\u2014perceiving FGM as an Islamic or cultural duty aligned with moral purity\u2014no major religious texts explicitly man.",
+      "span": {
+        "quote": "While some communities invoke religious sanction\u2014perceiving FGM as an Islamic or cultural duty aligned with moral purity\u2014no major religious texts explicitly man"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with moral purity\u2014no major religious texts explicitly mandate it.",
+      "span": {
+        "quote": "aligned with moral purity\u2014no major religious texts explicitly mandate it"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with moral purity\u2014no major religious texts explicitly mandate it"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with moral purity\u2014no major religious texts explicitly mandate it",
+          "span": {
+            "quote": "aligned with moral purity\u2014no major religious texts explicitly mandate it"
+          }
+        }
+      ]
+    }
+  ]
+}

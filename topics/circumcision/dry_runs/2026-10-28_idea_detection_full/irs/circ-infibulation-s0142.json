@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0142",
+  "source_text": "Male infibulation, rarer and historically documented in contexts like ancient piercings or bindings to curb masturbation, has been rationalized in select warrior or ascetic traditions as conserving vital energy for labor, combat, or spiritual focus, though such assertions lack substantiation in contemporary records.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Male infibulation, rarer and historically documented in contexts like ancient piercings or bindings to curb masturbation, has been rationali"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Male infibulation, rarer and historically documented in contexts like ancient piercings or bindings to curb masturbation, has been rationalized in select warrio.",
+      "span": {
+        "quote": "Male infibulation, rarer and historically documented in contexts like ancient piercings or bindings to curb masturbation, has been rationalized in select warrio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

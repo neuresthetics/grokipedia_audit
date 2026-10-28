@@ -1,0 +1,90 @@
+{
+  "passage_id": "circ-foreskin-s0292",
+  "source_text": "Cost-utility analyses yield mixed results, with some U.S.-focused models estimating lifetime savings from reduced STI/UTI treatments (e.g., $407 increased costs per male if circumcision rates drop to 10%), though these assume high efficacy and discount rates favoring early intervention; critics argue they undervalue procedural risks and overstate rare-event prevention in modern contexts with vaccination and screening. [162] [163]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cost-utility analyses yield mixed results, with some U.S.-focused models estimating lifetime savings from reduced STI/UTI treatments (e.g.,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ey undervalue procedural risks and overstate rare-event prevention in modern contexts with vaccination and screening.",
+      "span": {
+        "quote": "ey undervalue procedural risks and overstate rare-event prevention in modern contexts with vaccination and screening."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "TI/UTI treatments (e.g., $407 increased costs per male if circumcision rates drop to 10%), though these assume high efficacy and discount rates favoring early i.",
+      "span": {
+        "quote": "TI/UTI treatments (e.g., $407 increased costs per male if circumcision rates drop to 10%), though these assume high efficacy and discount rates favoring early i"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "Per male if circumcision rates drop to 10.",
+      "span": {
+        "quote": "per male if circumcision rates drop to 10"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per male if circumcision rates drop to 10"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

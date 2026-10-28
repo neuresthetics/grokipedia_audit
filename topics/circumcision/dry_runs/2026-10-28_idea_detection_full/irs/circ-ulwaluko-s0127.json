@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ulwaluko-s0127",
+  "source_text": "Mortality rates in such settings during the 2000s and 2010s have been estimated at 1-2% per initiation season in Eastern Cape reports, with sepsis and dehydration accounting for most fatalities; annual death tolls exceeded 70 in some years based on provincial health data.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mortality rates in such settings during the 2000s and 2010s have been estimated at 1-2% per initiation season in Eastern Cape reports, with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mortality rates in such settings during the 2000s and 2010s have been estimated at 1-2% per initiation season in Eastern Cape reports, with sepsis and dehydrati.",
+      "span": {
+        "quote": "Mortality rates in such settings during the 2000s and 2010s have been estimated at 1-2% per initiation season in Eastern Cape reports, with sepsis and dehydrati"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per initiation season in Eastern Cape reports.",
+      "span": {
+        "quote": "per initiation season in Eastern Cape reports"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per initiation season in Eastern Cape reports"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

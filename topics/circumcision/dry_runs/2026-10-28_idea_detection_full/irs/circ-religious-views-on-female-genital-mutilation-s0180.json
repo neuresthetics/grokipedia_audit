@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0180",
+  "source_text": "The Organization of Islamic Cooperation (OIC) highlighted FGM as a form of violence against women in its 2018 Women and Development Report, urging member states to address it through education and legal measures, with ongoing advocacy under the OIC-2025 Programme of Action. [90] [91]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Organization of Islamic Cooperation (OIC) highlighted FGM as a form of violence against women in its 2018 Women and Development Report,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Organization of Islamic Cooperation (OIC) highlighted FGM as a form of violence against women in its 2018 Women and Development Report, urging member states.",
+      "span": {
+        "quote": "The Organization of Islamic Cooperation (OIC) highlighted FGM as a form of violence against women in its 2018 Women and Development Report, urging member states"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

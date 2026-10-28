@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0184",
+  "source_text": "Adult circumcision offers no protection and may increase risk (OR 2.71, 95% CI 1.05\u20136.98), possibly due to pre-existing epithelial changes.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adult circumcision offers no protection and may increase risk (OR 2.71, 95% CI 1.05\u20136.98), possibly due to pre-existing epithelial changes."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adult circumcision offers no protection and may increase risk (OR 2.71, 95% CI 1.05\u20136.98), possibly due to pre-existing epithelial changes.",
+      "span": {
+        "quote": "Adult circumcision offers no protection and may increase risk (OR 2.71, 95% CI 1.05\u20136.98), possibly due to pre-existing epithelial changes."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

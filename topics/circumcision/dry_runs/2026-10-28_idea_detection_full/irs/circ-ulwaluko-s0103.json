@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ulwaluko-s0103",
+  "source_text": "Historically, it enhanced social capital by instilling respect, unity, and consensus, enabling initiates to assume responsibilities that maintain societal order. [36]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Historically, it enhanced social capital by instilling respect, unity, and consensus, enabling initiates to assume responsibilities that mai"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Societal order.",
+      "span": {
+        "quote": "societal order."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Historically, it enhanced social capital by instilling respect, unity, and consensus, enabling initiates to assume responsibilities that.",
+      "span": {
+        "quote": "Historically, it enhanced social capital by instilling respect, unity, and consensus, enabling initiates to assume responsibilities that"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

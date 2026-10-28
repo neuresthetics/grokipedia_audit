@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0020",
+  "source_text": "These procedures are usually conducted in hospital or outpatient settings under local anesthesia like dorsal penile nerve block, with complication rates ranging from 0.2% to 0.6%, primarily minor bleeding or swelling. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These procedures are usually conducted in hospital or outpatient settings under local anesthesia like dorsal penile nerve block, with compli"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These procedures are usually conducted in hospital or outpatient settings under local anesthesia like dorsal penile nerve block, with complication rates ranging.",
+      "span": {
+        "quote": "These procedures are usually conducted in hospital or outpatient settings under local anesthesia like dorsal penile nerve block, with complication rates ranging"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

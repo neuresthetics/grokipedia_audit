@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0081",
+  "source_text": "A 2017 systematic review reported similar infant rates of approximately 0.4%, with most events minor and immediately treatable and moderate or serious complications around 1 in 3000. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2017 systematic review reported similar infant rates of approximately 0.4%, with most events minor and immediately treatable and moderate"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2017 systematic review reported similar infant rates of approximately 0.4%, with most events minor and immediately treatable and moderate or serious complicat.",
+      "span": {
+        "quote": "A 2017 systematic review reported similar infant rates of approximately 0.4%, with most events minor and immediately treatable and moderate or serious complicat"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0193",
+  "source_text": "Empirical reviews, such as those in the Oxford Journal of Legal Studies, emphasized that equating the practices risks diluting FGM eradication campaigns, which have reduced prevalence rates in certain practicing countries (e.g., from over 50% to under 30% in some per UNICEF data as of 2020), without parallel scrutiny yielding bans on male circumcision. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical reviews, such as those in the Oxford Journal of Legal Studies, emphasized that equating the practices risks diluting FGM eradicati"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Equating the practices risks diluting FGM eradication campaigns, which have reduced prevalence rates in certain practicing countries (e.g., from over 50% to und.",
+      "span": {
+        "quote": "equating the practices risks diluting FGM eradication campaigns, which have reduced prevalence rates in certain practicing countries (e.g., from over 50% to und"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical reviews, such as those in the Oxford Journal of Legal Studies.",
+      "span": {
+        "quote": "Empirical reviews, such as those in the Oxford Journal of Legal Studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per UNICEF data as of 2020.",
+      "span": {
+        "quote": "per UNICEF data as of 2020"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per UNICEF data as of 2020"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

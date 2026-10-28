@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0036",
+  "source_text": "This aligns with broader cultural normalization, where the circumcised state is viewed as standard and desirable in social and intimate contexts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This aligns with broader cultural normalization, where the circumcised state is viewed as standard and desirable in social and intimate cont"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This aligns with broader cultural normalization, where the circumcised state is viewed as standard and desirable in social and intimate contexts.",
+      "span": {
+        "quote": "This aligns with broader cultural normalization, where the circumcised state is viewed as standard and desirable in social and intimate contexts."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

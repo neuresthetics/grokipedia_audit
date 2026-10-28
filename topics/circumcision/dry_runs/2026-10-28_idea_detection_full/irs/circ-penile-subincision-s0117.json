@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0117",
+  "source_text": "However, documented cases of severe complications, such as infections and excessive bleeding in unsupervised settings\u2014as in a 2014 Northern Territory incident involving multiple boys\u2014underscore risks amplified by minors' inability to refuse or seek recourse. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, documented cases of severe complications, such as infections and excessive bleeding in unsupervised settings\u2014as in a 2014 Northern"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, documented cases of severe complications, such as infections and excessive bleeding in unsupervised settings\u2014as in a 2014 Northern Territory incident i.",
+      "span": {
+        "quote": "However, documented cases of severe complications, such as infections and excessive bleeding in unsupervised settings\u2014as in a 2014 Northern Territory incident i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

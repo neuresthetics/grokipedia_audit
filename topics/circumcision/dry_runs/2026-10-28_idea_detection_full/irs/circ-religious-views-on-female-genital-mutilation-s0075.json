@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0075",
+  "source_text": "Similarly, Indonesia's Majelis Ulama Indonesia (MUI) issued Fatwa No. 28/DSN-MUI/III/2003 and reaffirmed in subsequent statements that mild khitan perempuan (female circumcision), such as a superficial cut without removal, is makrumah and not forbidden, provided it adheres to health guidelines and avoids excess. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, Indonesia's Majelis Ulama Indonesia (MUI) issued Fatwa No. 28/DSN-MUI/III/2003 and reaffirmed in subsequent statements that mild"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, Indonesia's Majelis Ulama Indonesia (MUI) issued Fatwa No. 28/DSN-MUI/III/2003 and reaffirmed in subsequent statements that mild khitan perempuan (fe.",
+      "span": {
+        "quote": "Similarly, Indonesia's Majelis Ulama Indonesia (MUI) issued Fatwa No. 28/DSN-MUI/III/2003 and reaffirmed in subsequent statements that mild khitan perempuan (fe"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

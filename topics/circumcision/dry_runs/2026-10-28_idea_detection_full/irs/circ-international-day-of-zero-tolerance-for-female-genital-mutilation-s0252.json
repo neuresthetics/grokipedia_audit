@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0252",
+  "source_text": "Proposals for harm reduction, including medicalized \"cutting\" to reduce infection risks, have faced backlash for risking normalization, with WHO and UNICEF rejecting them as perpetuating violence under the guise of pragmatism. [80]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proposals for harm reduction, including medicalized \"cutting\" to reduce infection risks, have faced backlash for risking normalization, with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proposals for harm reduction, including medicalized \"cutting\" to reduce infection risks, have faced backlash for risking normalization, with WHO and UNICEF reje.",
+      "span": {
+        "quote": "Proposals for harm reduction, including medicalized \"cutting\" to reduce infection risks, have faced backlash for risking normalization, with WHO and UNICEF reje"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

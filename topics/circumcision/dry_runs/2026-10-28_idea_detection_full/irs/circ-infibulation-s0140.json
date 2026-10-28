@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-infibulation-s0140",
+  "source_text": "These claims tie into broader social harmony, where the practice is said to uphold family honor, prevent social stigma from perceived unchastity, and facilitate bride eligibility in marriage markets.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims tie into broader social harmony, where the practice is said to uphold family honor, prevent social stigma from perceived unchas"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ie into broader social harmony, where the practice is said to uphold family honor, prevent social stigma from perceived unchastity, and facilitate bride eligibi.",
+      "span": {
+        "quote": "ie into broader social harmony, where the practice is said to uphold family honor, prevent social stigma from perceived unchastity, and facilitate bride eligibi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

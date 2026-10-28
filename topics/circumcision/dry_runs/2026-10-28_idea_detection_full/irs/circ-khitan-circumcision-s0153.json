@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0153",
+  "source_text": "Beyond HIV and UTIs, secondary analyses from the African RCTs indicate modest reductions in acquisition of other sexually transmitted infections (STIs), including herpes simplex virus type 2 (by 28-34%) and high-risk HPV strains (by 32-35%), as well as syphilis in some observational data. [69] [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Beyond HIV and UTIs, secondary analyses from the African RCTs indicate modest reductions in acquisition of other sexually transmitted infect"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Beyond HIV and UTIs, secondary analyses from the African RCTs indicate modest reductions in acquisition of other sexually transmitted infections (STIs), includi.",
+      "span": {
+        "quote": "Beyond HIV and UTIs, secondary analyses from the African RCTs indicate modest reductions in acquisition of other sexually transmitted infections (STIs), includi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

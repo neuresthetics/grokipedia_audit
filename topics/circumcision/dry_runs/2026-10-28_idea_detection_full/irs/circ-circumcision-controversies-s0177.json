@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0177",
+  "source_text": "These practices blend cultural identity with hygiene rationales but carry elevated risks, including sepsis in 56.2% of cases, genital mutilation in 26.7%, dehydration in 11.4%, and penile amputation in 5.7% among treated complications. [117]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These practices blend cultural identity with hygiene rationales but carry elevated risks, including sepsis in 56.2% of cases, genital mutila"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These practices blend cultural identity with hygiene rationales but carry elevated risks, including sepsis in 56.2% of cases, genital mutilation in 26.7%, dehyd.",
+      "span": {
+        "quote": "These practices blend cultural identity with hygiene rationales but carry elevated risks, including sepsis in 56.2% of cases, genital mutilation in 26.7%, dehyd"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

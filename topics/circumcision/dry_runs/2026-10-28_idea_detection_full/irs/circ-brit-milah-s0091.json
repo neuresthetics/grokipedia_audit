@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0091",
+  "source_text": "Maimonides (Guide for the Perplexed 3:49) gives two reasons: primarily, circumcision moderates excessive lust without harming procreative function, directing sexuality toward holiness (marriage, continuity).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Maimonides (Guide for the Perplexed 3:49) gives two reasons: primarily, circumcision moderates excessive lust without harming procreative fu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Maimonides (Guide for the Perplexed 3:49) gives two reasons: primarily, circumcision moderates excessive lust without harming procreative function, directing se.",
+      "span": {
+        "quote": "Maimonides (Guide for the Perplexed 3:49) gives two reasons: primarily, circumcision moderates excessive lust without harming procreative function, directing se"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0121",
+  "source_text": "Transmission of bloodborne pathogens such as HIV or hepatitis B via shared instruments represents another vector for immediate harm, though empirical data on prevalence remains limited by ethical constraints on direct observation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Transmission of bloodborne pathogens such as HIV or hepatitis B via shared instruments represents another vector for immediate harm, though"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Transmission of bloodborne pathogens such as HIV or hepatitis B via shared instruments represents another vector for immediate harm, though empirical data on pr.",
+      "span": {
+        "quote": "Transmission of bloodborne pathogens such as HIV or hepatitis B via shared instruments represents another vector for immediate harm, though empirical data on pr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

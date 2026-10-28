@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-clitoridectomy-s0190",
+  "source_text": "These assertions stem from traditional beliefs that the procedure marks maturity and reduces perceived promiscuity, with supporters in Ethiopian, Kenyan, and Indonesian contexts citing it as essential for cultural identity and family honor. [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These assertions stem from traditional beliefs that the procedure marks maturity and reduces perceived promiscuity, with supporters in Ethio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These assertions stem from traditional beliefs that the procedure marks maturity and reduces perceived promiscuity, with supporters in Ethiopian, Kenyan, and In.",
+      "span": {
+        "quote": "These assertions stem from traditional beliefs that the procedure marks maturity and reduces perceived promiscuity, with supporters in Ethiopian, Kenyan, and In"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing it as essential for cultural identity and family honor.",
+      "span": {
+        "quote": "citing it as essential for cultural identity and family honor"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing it as essential for cultural identity and family honor"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

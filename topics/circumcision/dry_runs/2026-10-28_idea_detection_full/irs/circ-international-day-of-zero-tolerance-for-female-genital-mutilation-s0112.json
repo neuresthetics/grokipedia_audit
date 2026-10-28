@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0112",
+  "source_text": "Immediate physical risks of female genital mutilation (FGM) arise primarily from procedures performed without anesthesia, using non-sterile instruments, often by untrained practitioners, leading to acute complications during or shortly after the cutting. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate physical risks of female genital mutilation (FGM) arise primarily from procedures performed without anesthesia, using non-sterile"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate physical risks of female genital mutilation (FGM) arise primarily from procedures performed without anesthesia, using non-sterile instruments, often b.",
+      "span": {
+        "quote": "Immediate physical risks of female genital mutilation (FGM) arise primarily from procedures performed without anesthesia, using non-sterile instruments, often b"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

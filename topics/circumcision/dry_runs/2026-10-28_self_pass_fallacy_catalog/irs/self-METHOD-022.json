@@ -1,0 +1,59 @@
+{
+  "passage_id": "self-METHOD-022",
+  "source_text": "Look-alikes: relying on genuine experts within their field who broadly agree, which is the case the source says most appeals to authority fall under, applies here.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Look-alikes: relying on genuine experts within their field who broadly agree, which is the case the source says most appeals to authority fa"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Look-alikes: relying on genuine experts within their field who broadly agree, which is the case the source says most appeals to authority fall under, applies he.",
+      "span": {
+        "quote": "Look-alikes: relying on genuine experts within their field who broadly agree, which is the case the source says most appeals to authority fall under, applies he"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

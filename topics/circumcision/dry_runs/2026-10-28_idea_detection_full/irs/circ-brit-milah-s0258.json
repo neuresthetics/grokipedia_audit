@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-milah-s0258",
+  "source_text": "Secular ethicists, drawing from principles of bodily integrity and informed consent, contend that non-therapeutic infant circumcision violates the child's fundamental right to autonomy by permanently altering healthy genital tissue without the individual's future consent, framing it as an iatrogenic injury imposed for cultural or parental preferences. [124]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Secular ethicists, drawing from principles of bodily integrity and informed consent, contend that non-therapeutic infant circumcision violat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-therapeutic infant circumcision violates the child's fundamental right to autonomy by permanently altering healthy genital tissue without the individual's f.",
+      "span": {
+        "quote": "non-therapeutic infant circumcision violates the child's fundamental right to autonomy by permanently altering healthy genital tissue without the individual's f"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Secular ethicists, drawing from principles of bodily integrity and informed consent.",
+      "span": {
+        "quote": "Secular ethicists, drawing from principles of bodily integrity and informed consent"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

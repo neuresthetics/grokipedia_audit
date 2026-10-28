@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-forced-circumcision-s0264",
+  "source_text": "Circumcision also correlates with decreased penile cancer rates, historically linked to chronic inflammation or poor hygiene under the foreskin, with studies estimating up to a 3-10 fold lower incidence among circumcised males. [119] [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision also correlates with decreased penile cancer rates, historically linked to chronic inflammation or poor hygiene under the fores"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision also correlates with decreased penile cancer rates, historically linked to chronic inflammation or poor hygiene under the foreskin, with studies es.",
+      "span": {
+        "quote": "Circumcision also correlates with decreased penile cancer rates, historically linked to chronic inflammation or poor hygiene under the foreskin, with studies es"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to chronic inflammation or poor hygiene under the foreskin.",
+      "span": {
+        "quote": "linked to chronic inflammation or poor hygiene under the foreskin"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to chronic inflammation or poor hygiene under the foreskin"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to chronic inflammation or poor hygiene under the foreskin",
+          "span": {
+            "quote": "linked to chronic inflammation or poor hygiene under the foreskin"
+          }
+        }
+      ]
+    }
+  ]
+}

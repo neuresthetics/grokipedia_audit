@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-mohel-s0138",
+  "source_text": "Mitigation strategies emphasize mohel certification through rigorous apprenticeships covering anatomy, aseptic technique, and emergency response, often integrating medical oversight; for instance, mohels with physician credentials report near-zero complication rates in controlled settings. [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mitigation strategies emphasize mohel certification through rigorous apprenticeships covering anatomy, aseptic technique, and emergency resp"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mohel certification through rigorous apprenticeships covering anatomy, aseptic technique, and emergency response, often integrating medical oversight;.",
+      "span": {
+        "quote": "mohel certification through rigorous apprenticeships covering anatomy, aseptic technique, and emergency response, often integrating medical oversight;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Mitigation strategies.",
+      "span": {
+        "quote": "Mitigation strategies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0251",
+  "source_text": "Ethical defenses note VMMC's voluntary adult nature, informed consent protocols, and WHO endorsement as a complement\u2014not replacement\u2014to ABC (abstinence, behavior change, condoms) strategies, with complication rates under 1% in scaled programs. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical defenses note VMMC's voluntary adult nature, informed consent protocols, and WHO endorsement as a complement\u2014not replacement\u2014to ABC"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethical defenses note VMMC's voluntary adult nature, informed consent protocols, and WHO endorsement as a complement\u2014not replacement\u2014to ABC (abstinence, behavio.",
+      "span": {
+        "quote": "Ethical defenses note VMMC's voluntary adult nature, informed consent protocols, and WHO endorsement as a complement\u2014not replacement\u2014to ABC (abstinence, behavio"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

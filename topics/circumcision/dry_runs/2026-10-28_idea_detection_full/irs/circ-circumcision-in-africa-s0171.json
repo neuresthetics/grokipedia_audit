@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0171",
+  "source_text": "Subsequent trials in Kisumu, Kenya (2,784 men aged 18-24), and Rakai, Uganda (4,996 men aged 15-49), confirmed similar protective effects of 51-60% against HIV infection, with no significant increase in risky sexual behavior. [70] [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Subsequent trials in Kisumu, Kenya (2,784 men aged 18-24), and Rakai, Uganda (4,996 men aged 15-49), confirmed similar protective effects of"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Subsequent trials in Kisumu, Kenya (2,784 men aged 18-24), and Rakai, Uganda (4,996 men aged 15-49), confirmed similar protective effects of 51-60% against HIV.",
+      "span": {
+        "quote": "Subsequent trials in Kisumu, Kenya (2,784 men aged 18-24), and Rakai, Uganda (4,996 men aged 15-49), confirmed similar protective effects of 51-60% against HIV "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

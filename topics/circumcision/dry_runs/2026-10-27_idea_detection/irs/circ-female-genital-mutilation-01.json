@@ -1,0 +1,88 @@
+{
+  "passage_id": "circ-female-genital-mutilation-01",
+  "source_text": "These attitudes persist because women, having undergone FGM themselves, normalize it as a shared experience that confers social capital, as qualitative data from Mali indicate that circumcised women report stronger community bonds and perceived moral standing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These attitudes persist because women... normalize it as a shared experience that confers social capital"
+      },
+      "claim_ids": [
+        "c_normalize",
+        "c_persist",
+        "c_mali"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_normalize",
+      "text": "Women who underwent FGM normalize it as a shared experience that confers social capital.",
+      "span": {
+        "quote": "women, having undergone FGM themselves, normalize it as a shared experience that confers social capital"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c_mali",
+      "text": "Qualitative data from Mali indicate circumcised women report stronger community bonds and perceived moral standing.",
+      "span": {
+        "quote": "qualitative data from Mali indicate that circumcised women report stronger community bonds and perceived moral standing"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c_persist",
+      "text": "These attitudes persist because of that normalization.",
+      "span": {
+        "quote": "These attitudes persist because"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true,
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "causes",
+      "source": "c_normalize",
+      "target": "c_persist",
+      "span": {
+        "quote": "These attitudes persist because women"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_mali",
+      "target": "c_normalize",
+      "span": {
+        "quote": "as qualitative data from Mali indicate"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c_mali",
+      "target": "c_persist",
+      "span": {
+        "quote": "qualitative data from Mali"
+      },
+      "warrant": "inductive"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

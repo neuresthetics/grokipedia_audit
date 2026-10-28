@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-020",
+  "source_text": "**Reuse:** typed-break mindset; invariants (no silent sense-shift; no depends_on cycle; non-proof notes don\u2019t settle). Optional geometric_break_ref (e.g. F001) on a pilot pattern. **Do not:** treat F001\u2013F080 as SoT; import bias-hardening/dual-case/consent into verdicts; require Definition/Axiom/Proof nodes for informal passages.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**Reuse:** typed-break mindset; invariants (no silent sense-shift; no depends_on cycle; non-proof notes don\u2019t settle). Optional geometric_br"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "**Reuse:** typed-break mindset; invariants (no silent sense-shift; no depends_on cycle; non-proof notes don\u2019t settle). Optional geometric_break_ref (e.g. F001).",
+      "span": {
+        "quote": "**Reuse:** typed-break mindset; invariants (no silent sense-shift; no depends_on cycle; non-proof notes don\u2019t settle). Optional geometric_break_ref (e.g. F001) "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

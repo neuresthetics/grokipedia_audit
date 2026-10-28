@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0144",
+  "source_text": "In regions such as Somaliland, elderly women hold authoritative roles in perpetuating FGC, viewing it as a mechanism for social cohesion, marriage eligibility, and cultural continuity rather than mere subjugation. [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In regions such as Somaliland, elderly women hold authoritative roles in perpetuating FGC, viewing it as a mechanism for social cohesion, ma"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In regions such as Somaliland, elderly women hold authoritative roles in perpetuating FGC, viewing it as a mechanism for social cohesion, marriage eligibility,.",
+      "span": {
+        "quote": "In regions such as Somaliland, elderly women hold authoritative roles in perpetuating FGC, viewing it as a mechanism for social cohesion, marriage eligibility, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

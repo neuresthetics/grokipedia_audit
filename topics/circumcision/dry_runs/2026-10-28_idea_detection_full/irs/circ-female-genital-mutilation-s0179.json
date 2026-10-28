@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0179",
+  "source_text": "Risk severity varies by FGM type: type I (clitoridectomy) and type IV (piercings or scraping) carry lower but still significant bleeding and infection risks from minimal tissue disruption, while type III (infibulation) elevates dangers through extensive suturing, fostering urinary obstruction and necrotic tissue formation. [29]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Risk severity varies by FGM type: type I (clitoridectomy) and type IV (piercings or scraping) carry lower but still significant bleeding and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Risk severity varies by FGM type: type I (clitoridectomy) and type IV (piercings or scraping) carry lower but still significant bleeding and infection risks fro.",
+      "span": {
+        "quote": "Risk severity varies by FGM type: type I (clitoridectomy) and type IV (piercings or scraping) carry lower but still significant bleeding and infection risks fro"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

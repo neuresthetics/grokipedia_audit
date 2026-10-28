@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0080",
+  "source_text": "Such accounts, while limited by small sample sizes and cultural context, provide counterpoints to predominant narratives of harm, suggesting variability in individual outcomes based on procedure type and personal resilience.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such accounts, while limited by small sample sizes and cultural context, provide counterpoints to predominant narratives of harm, suggesting"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such accounts, while limited by small sample sizes and cultural context, provide counterpoints to predominant narratives of harm, suggesting variability in indi.",
+      "span": {
+        "quote": "Such accounts, while limited by small sample sizes and cultural context, provide counterpoints to predominant narratives of harm, suggesting variability in indi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

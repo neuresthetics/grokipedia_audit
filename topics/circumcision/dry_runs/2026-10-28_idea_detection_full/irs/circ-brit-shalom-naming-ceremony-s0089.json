@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0089",
+  "source_text": "Personal anxieties over the vulnerability of newborns further drive choices, with some parents deferring any decision to the child at maturity (e.g., age 13 per bar mitzvah customs) to mitigate immediate distress while preserving ritual welcoming. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Personal anxieties over the vulnerability of newborns further drive choices, with some parents deferring any decision to the child at maturi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Personal anxieties over the vulnerability of newborns further drive choices, with some parents deferring any decision to the child at maturity (e.g., age 13 per.",
+      "span": {
+        "quote": "Personal anxieties over the vulnerability of newborns further drive choices, with some parents deferring any decision to the child at maturity (e.g., age 13 per"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per bar mitzvah customs) to mitigate immediate distress while preserving ritual.",
+      "span": {
+        "quote": "per bar mitzvah customs) to mitigate immediate distress while preserving ritual"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per bar mitzvah customs) to mitigate immediate distress while preserving ritual"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

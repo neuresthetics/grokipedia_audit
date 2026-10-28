@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-of-minors-in-south-korea-s0059",
+  "source_text": "Societal norms in South Korea treat male circumcision as a routine medical intervention, often justified by beliefs in improved hygiene, prevention of balanoposthitis, reduced risk of penile cancer, and lower STI transmission risk, although it is not strictly necessary with good hygiene practices, with minimal public controversy surrounding parental choices for minors. [19] [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Societal norms in South Korea treat male circumcision as a routine medical intervention, often justified by beliefs in improved hygiene, pre"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Societal norms in South Korea treat male circumcision as a routine medical intervention, often justified by beliefs in improved hygiene, prevention of balanopos.",
+      "span": {
+        "quote": "Societal norms in South Korea treat male circumcision as a routine medical intervention, often justified by beliefs in improved hygiene, prevention of balanopos"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

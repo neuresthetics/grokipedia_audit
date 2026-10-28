@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0179",
+  "source_text": "In Indonesia, female religious leaders issued declarations in the early 2020s deeming non-medical FGM haram (forbidden), emphasizing its lack of basis in Islamic texts and calling for its abandonment. [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Indonesia, female religious leaders issued declarations in the early 2020s deeming non-medical FGM haram (forbidden), emphasizing its lac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Indonesia, female religious leaders issued declarations in the early 2020s deeming non-medical FGM haram (forbidden), emphasizing its lack of basis in Islami.",
+      "span": {
+        "quote": "In Indonesia, female religious leaders issued declarations in the early 2020s deeming non-medical FGM haram (forbidden), emphasizing its lack of basis in Islami"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

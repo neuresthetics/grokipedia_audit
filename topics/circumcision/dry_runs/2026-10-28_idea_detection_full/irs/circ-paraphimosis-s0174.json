@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-paraphimosis-s0174",
+  "source_text": "Performed electively after initial stabilization, it involves excision of the prepuce under local or general anesthesia, with excellent outcomes in preventing future episodes, as paraphimosis does not recur following a proper circumcision. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed electively after initial stabilization, it involves excision of the prepuce under local or general anesthesia, with excellent outc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed electively after initial stabilization, it involves excision of the prepuce under local or general anesthesia, with excellent outcomes in preventing f.",
+      "span": {
+        "quote": "Performed electively after initial stabilization, it involves excision of the prepuce under local or general anesthesia, with excellent outcomes in preventing f"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0227",
+  "source_text": "Priah, involving manual tearing of the inner mucosal layer, can contribute to adhesions or skin bridges in 1-2% of cases if healing is improper, as the aggressive separation of tissue layers increases raw surface area prone to scarring. [113]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Priah, involving manual tearing of the inner mucosal layer, can contribute to adhesions or skin bridges in 1-2% of cases if healing is impro"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Priah, involving manual tearing of the inner mucosal layer, can contribute to adhesions or skin bridges in 1-2% of cases if healing is improper, as the aggressi.",
+      "span": {
+        "quote": "Priah, involving manual tearing of the inner mucosal layer, can contribute to adhesions or skin bridges in 1-2% of cases if healing is improper, as the aggressi"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

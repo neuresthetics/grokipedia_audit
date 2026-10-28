@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-foreskin-man-s0086",
+  "source_text": "However, the applicability to low-prevalence regions like the United States remains limited, as the trials targeted populations with HIV prevalence exceeding 10-15%, and modeling suggests modest absolute risk reductions (e.g., less than 1% lifetime benefit for non-MSM men) in settings with lower heterosexual transmission rates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, the applicability to low-prevalence regions like the United States remains limited, as the trials targeted populations with HIV pre"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Modest absolute risk reductions (e.g., less than 1% lifetime benefit for non-MSM men) in settings with lower heterosexual transmission rates.",
+      "span": {
+        "quote": "modest absolute risk reductions (e.g., less than 1% lifetime benefit for non-MSM men) in settings with lower heterosexual transmission rates."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "However, the applicability to low-prevalence regions like the United States remains limited, as the trials targeted populations with HIV prevalence exceeding 10.",
+      "span": {
+        "quote": "However, the applicability to low-prevalence regions like the United States remains limited, as the trials targeted populations with HIV prevalence exceeding 10"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggests"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

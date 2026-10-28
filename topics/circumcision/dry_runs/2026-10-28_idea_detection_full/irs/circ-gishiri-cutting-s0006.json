@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0006",
+  "source_text": "These fistulas manifest as chronic urinary incontinence, severe pain, recurrent infections, and social isolation, with affected women frequently requiring complex reconstructive surgery. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These fistulas manifest as chronic urinary incontinence, severe pain, recurrent infections, and social isolation, with affected women freque"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These fistulas manifest as chronic urinary incontinence, severe pain, recurrent infections, and social isolation, with affected women frequently requiring compl.",
+      "span": {
+        "quote": "These fistulas manifest as chronic urinary incontinence, severe pain, recurrent infections, and social isolation, with affected women frequently requiring compl"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

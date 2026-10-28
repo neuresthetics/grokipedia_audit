@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ulwaluko-s0183",
+  "source_text": "This perspective prioritizes the ritual's holistic transformative elements\u2014beyond mere circumcision to include seclusion, teachings on responsibility, and communal bonding\u2014over isolated health concerns, which they attribute to deviations from time-honored methods rather than inherent flaws.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective prioritizes the ritual's holistic transformative elements\u2014beyond mere circumcision to include seclusion, teachings on respo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective prioritizes the ritual's holistic transformative elements\u2014beyond mere circumcision to include seclusion, teachings on responsibility, and commu.",
+      "span": {
+        "quote": "This perspective prioritizes the ritual's holistic transformative elements\u2014beyond mere circumcision to include seclusion, teachings on responsibility, and commu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

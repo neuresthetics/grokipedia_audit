@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0181",
+  "source_text": "Traditionalists view Ulwaluko as indispensable for instilling moral discipline, cultural identity, and resilience in young Xhosa males, arguing it counters the perceived erosion of values from Western influences and urbanization.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditionalists view Ulwaluko as indispensable for instilling moral discipline, cultural identity, and resilience in young Xhosa males, argu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditionalists view Ulwaluko as indispensable for instilling moral discipline, cultural identity, and resilience in young Xhosa males, arguing it counters the.",
+      "span": {
+        "quote": "Traditionalists view Ulwaluko as indispensable for instilling moral discipline, cultural identity, and resilience in young Xhosa males, arguing it counters the "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

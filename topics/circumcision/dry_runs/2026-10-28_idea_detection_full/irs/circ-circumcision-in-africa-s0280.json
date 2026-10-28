@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0280",
+  "source_text": "Surveys across sub-Saharan Africa report 50\u201387% male acceptance of VMMC for HIV prevention, reflecting local prioritization of empirical health benefits amid cultural traditions that already include circumcision in many ethnic groups. [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Surveys across sub-Saharan Africa report 50\u201387% male acceptance of VMMC for HIV prevention, reflecting local prioritization of empirical hea"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Surveys across sub-Saharan Africa report 50\u201387% male acceptance of VMMC for HIV prevention, reflecting local prioritization of empirical health benefits amid cu.",
+      "span": {
+        "quote": "Surveys across sub-Saharan Africa report 50\u201387% male acceptance of VMMC for HIV prevention, reflecting local prioritization of empirical health benefits amid cu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0128",
+  "source_text": "Bohra adherents link khafd to religious obligations derived from Ismaili traditions, viewing it as essential for spiritual purity and distinguishing their sect from other Muslims who do not perform it.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Bohra adherents link khafd to religious obligations derived from Ismaili traditions, viewing it as essential for spiritual purity and distin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bohra adherents link khafd to religious obligations derived from Ismaili traditions, viewing it as essential for spiritual purity and distinguishing their sect.",
+      "span": {
+        "quote": "Bohra adherents link khafd to religious obligations derived from Ismaili traditions, viewing it as essential for spiritual purity and distinguishing their sect "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

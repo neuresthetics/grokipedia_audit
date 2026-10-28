@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0196",
+  "source_text": "Neonatal circumcision specifically mitigates risks of phimosis and paraphimosis, conditions requiring later surgical intervention in up to 10% of uncircumcised boys by adolescence. [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision specifically mitigates risks of phimosis and paraphimosis, conditions requiring later surgical intervention in up to 1"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision specifically mitigates risks of phimosis and paraphimosis, conditions requiring later surgical intervention in up to 10% of uncircumcised.",
+      "span": {
+        "quote": "Neonatal circumcision specifically mitigates risks of phimosis and paraphimosis, conditions requiring later surgical intervention in up to 10% of uncircumcised "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

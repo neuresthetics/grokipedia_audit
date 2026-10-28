@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-foreskin-s0289",
+  "source_text": "Systematic reviews confirm no adverse impacts on sexual function, sensitivity, or satisfaction from circumcision, countering claims of foreskin-specific erogenous loss, as glans keratinization does not demonstrably impair overall penile sensation in controlled studies. [38] [161]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews confirm no adverse impacts on sexual function, sensitivity, or satisfaction from circumcision, countering claims of fores"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of foreskin-specific erogenous loss, as glans keratinization does not demonstrably impair overall penile sensation in controlled studies.",
+      "span": {
+        "quote": "of foreskin-specific erogenous loss, as glans keratinization does not demonstrably impair overall penile sensation in controlled studies."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews confirm no adverse impacts on sexual function, sensitivity, or satisfaction from circumcision, countering.",
+      "span": {
+        "quote": "Systematic reviews confirm no adverse impacts on sexual function, sensitivity, or satisfaction from circumcision, countering"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

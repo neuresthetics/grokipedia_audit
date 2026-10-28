@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0066",
+  "source_text": "However, the UN Committee on the Rights of the Child has clarified in communications, such as CRC/C/83/D/23/2017 (adopted March 2020), that while circumcision constitutes an interference with physical integrity, it does not per se violate the CRC if demonstrably in the child's best interests, assessed case-by-case; the committee rejected a blanket prohibition in that instance, weighing factors like cultural context and low complication rates (under 1% in controlled settings).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, the UN Committee on the Rights of the Child has clarified in communications, such as CRC/C/83/D/23/2017 (adopted March 2020), that"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, the UN Committee on the Rights of the Child has clarified in communications, such as CRC/C/83/D/23/2017 (adopted March 2020), that while circumcision c.",
+      "span": {
+        "quote": "However, the UN Committee on the Rights of the Child has clarified in communications, such as CRC/C/83/D/23/2017 (adopted March 2020), that while circumcision c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per se violate the CRC if demonstrably in the child's best interests.",
+      "span": {
+        "quote": "per se violate the CRC if demonstrably in the child's best interests"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per se violate the CRC if demonstrably in the child's best interests"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0158",
+  "source_text": "The Ashley Montagu Resolution advocated for the World Court at The Hague to issue an advisory opinion declaring non-therapeutic genital mutilation of children a violation of the Universal Declaration of Human Rights and the UN Convention on the Rights of the Child, framing such practices as torture or cruel treatment under Articles 5, 19, 24, and 37 of those instruments. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Ashley Montagu Resolution advocated for the World Court at The Hague to issue an advisory opinion declaring non-therapeutic genital muti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Ashley Montagu Resolution advocated for the World Court at The Hague to issue an advisory opinion declaring non-therapeutic genital mutilation of children a.",
+      "span": {
+        "quote": "The Ashley Montagu Resolution advocated for the World Court at The Hague to issue an advisory opinion declaring non-therapeutic genital mutilation of children a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "An advisory opinion declaring non-therapeutic genital mutilatio.",
+      "span": {
+        "quote": "an advisory opinion declaring non-therapeutic genital mutilatio"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "an advisory opinion declaring non-therapeutic genital mutila"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

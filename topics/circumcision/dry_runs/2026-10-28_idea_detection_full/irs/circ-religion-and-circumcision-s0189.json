@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0189",
+  "source_text": "However, this proxy consent is contested when procedures lack therapeutic urgency, with critics noting inconsistencies in applying \"best interest\" selectively to endorse permanent alterations absent imminent harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, this proxy consent is contested when procedures lack therapeutic urgency, with critics noting inconsistencies in applying \"best int"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, this proxy consent is contested when procedures lack therapeutic urgency, with critics noting inconsistencies in applying \"best interest\" selectively t.",
+      "span": {
+        "quote": "However, this proxy consent is contested when procedures lack therapeutic urgency, with critics noting inconsistencies in applying \"best interest\" selectively t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0227",
+  "source_text": "These STI reductions extend indirect benefits to female partners through decreased HPV transmission, a primary cause of cervical cancer, which imposes a heavy burden in sub-Saharan Africa where screening and vaccination coverage remain limited.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These STI reductions extend indirect benefits to female partners through decreased HPV transmission, a primary cause of cervical cancer, whi"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These STI reductions extend indirect benefits to female partners through decreased HPV transmission, a primary cause of cervical cancer, which imposes a heavy b.",
+      "span": {
+        "quote": "These STI reductions extend indirect benefits to female partners through decreased HPV transmission, a primary cause of cervical cancer, which imposes a heavy b"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

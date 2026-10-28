@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0009",
+  "source_text": "Medicalization\u2014performing FGM in clinical settings by health workers\u2014has increased in some areas, potentially reducing certain immediate risks but failing to mitigate long-term harms or address the practice's underlying violations of bodily autonomy. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medicalization\u2014performing FGM in clinical settings by health workers\u2014has increased in some areas, potentially reducing certain immediate ris"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicalization\u2014performing FGM in clinical settings by health workers\u2014has increased in some areas, potentially reducing certain immediate risks but failing to mi.",
+      "span": {
+        "quote": "Medicalization\u2014performing FGM in clinical settings by health workers\u2014has increased in some areas, potentially reducing certain immediate risks but failing to mi"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

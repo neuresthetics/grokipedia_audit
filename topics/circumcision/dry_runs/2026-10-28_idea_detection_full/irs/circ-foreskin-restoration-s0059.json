@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0059",
+  "source_text": "Men pursue foreskin restoration primarily to address perceived physical, sexual, and psychological harms from prior circumcision, including reduced sensitivity, keratinization of the glans, and diminished sexual pleasure. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Men pursue foreskin restoration primarily to address perceived physical, sexual, and psychological harms from prior circumcision, including"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Men pursue foreskin restoration primarily to address perceived physical, sexual, and psychological harms from prior circumcision, including reduced sensitivity,.",
+      "span": {
+        "quote": "Men pursue foreskin restoration primarily to address perceived physical, sexual, and psychological harms from prior circumcision, including reduced sensitivity,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

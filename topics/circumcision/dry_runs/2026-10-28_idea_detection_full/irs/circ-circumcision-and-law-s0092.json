@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0092",
+  "source_text": "Sweden enacted the Circumcision of Boys Act (2001:499) on June 1, 2001, permitting ritual circumcision only by licensed physicians or specially authorized lay persons (such as mohels), mandating anesthesia for infants under two months, and requiring parental consent with medical oversight to minimize risks.07737-1/fulltext) The Swedish Ombudsman for Children, Fredrik Malmberg, echoed the Nordic joint stance in September 2013 by urging a ban on infant male circumcision, arguing it contravenes children's rights despite regulatory safeguards.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sweden enacted the Circumcision of Boys Act (2001:499) on June 1, 2001, permitting ritual circumcision only by licensed physicians or specia"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sweden enacted the Circumcision of Boys Act (2001:499) on June 1, 2001, permitting ritual circumcision only by licensed physicians or specially authorized lay p.",
+      "span": {
+        "quote": "Sweden enacted the Circumcision of Boys Act (2001:499) on June 1, 2001, permitting ritual circumcision only by licensed physicians or specially authorized lay p"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0085",
+  "source_text": "Health-related motivations also feature prominently, with parents citing documented risks of circumcision complications\u2014such as infection, excessive bleeding, or improper healing, which occur in approximately 0.4% of infant cases per comprehensive reviews\u2014alongside concerns over acute pain and possible long-term psychological effects from early trauma. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Health-related motivations also feature prominently, with parents citing documented risks of circumcision complications\u2014such as infection, e"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Health-related motivations also feature prominently, with parents citing documented risks of circumcision complications\u2014such as infection, excessive bleeding, o.",
+      "span": {
+        "quote": "Health-related motivations also feature prominently, with parents citing documented risks of circumcision complications\u2014such as infection, excessive bleeding, o"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing documented risks of circumcision complications\u2014such as infection.",
+      "span": {
+        "quote": "citing documented risks of circumcision complications\u2014such as infection"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per comprehensive reviews\u2014alongside concerns over acute pain and possible long-term.",
+      "span": {
+        "quote": "per comprehensive reviews\u2014alongside concerns over acute pain and possible long-term"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing documented risks of circumcision complications\u2014such as infection"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per comprehensive reviews\u2014alongside concerns over acute pain and possible long-term"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0270",
+  "source_text": "For instance, assertions of severe physical harm from neonatal circumcision are refuted by data indicating adverse event rates of 0.2\u20130.6% for minor complications, with serious issues occurring in fewer than 0.01% of cases when performed by trained providers. [154]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, assertions of severe physical harm from neonatal circumcision are refuted by data indicating adverse event rates of 0.2\u20130.6% f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, assertions of severe physical harm from neonatal circumcision are refuted by data indicating adverse event rates of 0.2\u20130.6% for minor complicatio.",
+      "span": {
+        "quote": "For instance, assertions of severe physical harm from neonatal circumcision are refuted by data indicating adverse event rates of 0.2\u20130.6% for minor complicatio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0237",
+  "source_text": "Advocates for communal prerogatives argue that prohibiting circumcision would undermine religious practices central to Judaism (brit milah) and Islam, potentially eroding minority rights and parental proxy decision-making, which empirical data shows correlates with overall child welfare in stable families. [107]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocates for communal prerogatives argue that prohibiting circumcision would undermine religious practices central to Judaism (brit milah)"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prohibiting circumcision would undermine religious practices central to Judaism (brit milah) and Islam, potentially eroding minority rights and parental proxy d.",
+      "span": {
+        "quote": "prohibiting circumcision would undermine religious practices central to Judaism (brit milah) and Islam, potentially eroding minority rights and parental proxy d"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Advocates for communal prerogatives.",
+      "span": {
+        "quote": "Advocates for communal prerogatives"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

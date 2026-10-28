@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0171",
+  "source_text": "The persistence of FGM in Sudan despite documented harms underscores its role in collective social utility, such as reinforcing group identity and marriage market value, over individual welfare; qualitative research in rural areas shows transmission driven by intergenerational pressure for conformity, not substantiated personal gains, with over 87% prevalence historically tied to these dynamics rather than hygiene or behavioral outcomes. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The persistence of FGM in Sudan despite documented harms underscores its role in collective social utility, such as reinforcing group identi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The persistence of FGM in Sudan despite documented harms underscores its role in collective social utility, such as reinforcing group identity and marriage mark.",
+      "span": {
+        "quote": "The persistence of FGM in Sudan despite documented harms underscores its role in collective social utility, such as reinforcing group identity and marriage mark"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to these dynamics rather than hygiene or behavioral outcomes.",
+      "span": {
+        "quote": "tied to these dynamics rather than hygiene or behavioral outcomes"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to these dynamics rather than hygiene or behavioral outcomes"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to these dynamics rather than hygiene or behavioral outcomes",
+          "span": {
+            "quote": "tied to these dynamics rather than hygiene or behavioral outcomes"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "passage_id": "circ-religion-and-circumcision-01",
+  "source_text": "The Apostle Paul argued that reliance on circumcision nullifies the benefits of faith in Christ, emphasizing instead a spiritual \"circumcision of the heart\" by the Holy Spirit (Romans 2:25-29; Galatians 5:2-6).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "reliance on circumcision nullifies the benefits of faith in Christ"
+      },
+      "claim_ids": [
+        "c_nullifies",
+        "c_heart"
+      ],
+      "speaker": "paul"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_nullifies",
+      "text": "Reliance on circumcision nullifies the benefits of faith in Christ.",
+      "span": {
+        "quote": "reliance on circumcision nullifies the benefits of faith in Christ"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_heart",
+      "text": "What matters is a spiritual circumcision of the heart by the Holy Spirit.",
+      "span": {
+        "quote": "spiritual \"circumcision of the heart\" by the Holy Spirit"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_heart",
+      "target": "c_nullifies",
+      "span": {
+        "quote": "emphasizing instead a spiritual \"circumcision of the heart\""
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "agents": [
+    {
+      "id": "paul",
+      "name_span": {
+        "quote": "The Apostle Paul"
+      },
+      "traits": []
+    }
+  ],
+  "terms": [
+    {
+      "id": "t_circ",
+      "surface": "circumcision",
+      "senses": [
+        {
+          "id": "s_physical",
+          "gloss": "physical genital cutting"
+        },
+        {
+          "id": "s_spiritual",
+          "gloss": "metaphorical circumcision of the heart"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "term_id": "t_circ",
+      "claim_id": "c_nullifies",
+      "sense_id": "s_physical",
+      "span": {
+        "quote": "reliance on circumcision"
+      }
+    },
+    {
+      "term_id": "t_circ",
+      "claim_id": "c_heart",
+      "sense_id": "s_spiritual",
+      "span": {
+        "quote": "circumcision of the heart"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

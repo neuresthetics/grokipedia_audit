@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0062",
+  "source_text": "The comic was distributed to voters and featured prominently in campaign materials to build public opposition to infant circumcision, with Hess arguing in advocacy that such procedures violated the child's right to bodily integrity unless performed with informed consent after age 18. [1] [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The comic was distributed to voters and featured prominently in campaign materials to build public opposition to infant circumcision, with H"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The comic was distributed to voters and featured prominently in campaign materials to build public opposition to infant circumcision, with Hess arguing in advoc.",
+      "span": {
+        "quote": "The comic was distributed to voters and featured prominently in campaign materials to build public opposition to infant circumcision, with Hess arguing in advoc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

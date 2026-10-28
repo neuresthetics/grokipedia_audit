@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0127",
+  "source_text": "Empirical data from limited clinical observations underscore higher infection rates in non-sterile environments, with historical accounts noting deaths from sepsis in pre-contact eras, though modern secrecy complicates quantification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data from limited clinical observations underscore higher infection rates in non-sterile environments, with historical accounts no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data from limited clinical observations underscore higher infection rates in non-sterile environments, with historical accounts noting deaths from sep.",
+      "span": {
+        "quote": "Empirical data from limited clinical observations underscore higher infection rates in non-sterile environments, with historical accounts noting deaths from sep"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0089",
+  "source_text": "Fertility may be indirectly affected if ejaculate trajectory is uncontrolled, potentially reducing deposition in the vaginal canal, though empirical confirmation is sparse. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Fertility may be indirectly affected if ejaculate trajectory is uncontrolled, potentially reducing deposition in the vaginal canal, though e"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Fertility may be indirectly affected if ejaculate trajectory is uncontrolled, potentially reducing deposition in the vaginal canal, though empirical confirmatio.",
+      "span": {
+        "quote": "Fertility may be indirectly affected if ejaculate trajectory is uncontrolled, potentially reducing deposition in the vaginal canal, though empirical confirmatio"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

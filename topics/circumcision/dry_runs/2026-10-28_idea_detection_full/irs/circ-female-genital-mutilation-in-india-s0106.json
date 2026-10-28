@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0106",
+  "source_text": "Dyspareunia, or painful intercourse, is reported in up to 30-50% of affected women in global Type 1 cases, attributed to scar contracture and reduced lubrication, with analogous findings in Bohra surveys where participants described ongoing discomfort during sexual activity. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Dyspareunia, or painful intercourse, is reported in up to 30-50% of affected women in global Type 1 cases, attributed to scar contracture an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Dyspareunia, or painful intercourse, is reported in up to 30-50% of affected women in global Type 1 cases, attributed to scar contracture and reduced lubricatio.",
+      "span": {
+        "quote": "Dyspareunia, or painful intercourse, is reported in up to 30-50% of affected women in global Type 1 cases, attributed to scar contracture and reduced lubricatio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0266",
+  "source_text": "Meatal stenosis, a narrowing of the urethral opening, represents one of the most commonly reported long-term complications following circumcision, with incidence rates estimated at 8-10% globally among circumcised males, particularly when the procedure is performed in the first year of life. [115]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meatal stenosis, a narrowing of the urethral opening, represents one of the most commonly reported long-term complications following circumc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meatal stenosis, a narrowing of the urethral opening, represents one of the most commonly reported long-term complications following circumcision, with incidenc.",
+      "span": {
+        "quote": "Meatal stenosis, a narrowing of the urethral opening, represents one of the most commonly reported long-term complications following circumcision, with incidenc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

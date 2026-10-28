@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0015",
+  "source_text": "In legal and ethical analyses, forced circumcision aligns with definitions of assault or mutilation in systems prioritizing consent, as evidenced by cases in initiation schools where males are abducted and operated upon against their protests. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In legal and ethical analyses, forced circumcision aligns with definitions of assault or mutilation in systems prioritizing consent, as evid"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In legal and ethical analyses, forced circumcision aligns with definitions of assault or mutilation in systems prioritizing consent, as evidenced by cases in in.",
+      "span": {
+        "quote": "In legal and ethical analyses, forced circumcision aligns with definitions of assault or mutilation in systems prioritizing consent, as evidenced by cases in in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

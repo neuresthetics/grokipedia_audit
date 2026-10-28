@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0317",
+  "source_text": "Advocacy responses to the decline have emphasized education on established health benefits, such as reduced urinary tract infections and certain sexually transmitted infections, while urging policymakers to address coverage gaps. [184]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocacy responses to the decline have emphasized education on established health benefits, such as reduced urinary tract infections and cer"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Education on established health benefits, such as reduced urinary tract infections and certain sexually transmitted infections, while urging policymakers to add.",
+      "span": {
+        "quote": "education on established health benefits, such as reduced urinary tract infections and certain sexually transmitted infections, while urging policymakers to add"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Advocacy responses to the decline have.",
+      "span": {
+        "quote": "Advocacy responses to the decline have"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

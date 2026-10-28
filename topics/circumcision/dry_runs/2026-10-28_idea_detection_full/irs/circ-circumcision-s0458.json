@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0458",
+  "source_text": "Adult choices match trial efficacy, while infant procedures rely on parental proxy amid low risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adult choices match trial efficacy, while infant procedures rely on parental proxy amid low risks."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adult choices match trial efficacy, while infant procedures rely on parental proxy amid low risks.",
+      "span": {
+        "quote": "Adult choices match trial efficacy, while infant procedures rely on parental proxy amid low risks."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0193",
+  "source_text": "Obstetric risks include prolonged labor (by up to 2.3 times in type III FGM), postpartum hemorrhage, perineal tears, and elevated cesarean needs, alongside newborn outcomes like stillbirths and early neonatal deaths, as evidenced in prospective studies from Sudan and Ethiopia. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Obstetric risks include prolonged labor (by up to 2.3 times in type III FGM), postpartum hemorrhage, perineal tears, and elevated cesarean n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Obstetric risks include prolonged labor (by up to 2.3 times in type III FGM), postpartum hemorrhage, perineal tears, and elevated cesarean needs, alongside newb.",
+      "span": {
+        "quote": "Obstetric risks include prolonged labor (by up to 2.3 times in type III FGM), postpartum hemorrhage, perineal tears, and elevated cesarean needs, alongside newb"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0238",
+  "source_text": "In New York City, from 2000 to 2011, health authorities documented 11 cases of laboratory-confirmed HSV infection in male newborns following ritual circumcisions involving MBP performed outside hospitals, with two infants dying and the remaining nine developing symptoms such as seizures, requiring antiviral treatment and extended hospitalization. [115]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In New York City, from 2000 to 2011, health authorities documented 11 cases of laboratory-confirmed HSV infection in male newborns following"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In New York City, from 2000 to 2011, health authorities documented 11 cases of laboratory-confirmed HSV infection in male newborns following ritual circumcision.",
+      "span": {
+        "quote": "In New York City, from 2000 to 2011, health authorities documented 11 cases of laboratory-confirmed HSV infection in male newborns following ritual circumcision"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

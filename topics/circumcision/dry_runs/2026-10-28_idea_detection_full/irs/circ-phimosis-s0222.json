@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0222",
+  "source_text": "These are less invasive than circumcision, preserving natural anatomy and gliding function, though 10-30% may require circumcision if symptoms persist.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These are less invasive than circumcision, preserving natural anatomy and gliding function, though 10-30% may require circumcision if sympto"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These are less invasive than circumcision, preserving natural anatomy and gliding function, though 10-30% may require circumcision if symptoms persist.",
+      "span": {
+        "quote": "These are less invasive than circumcision, preserving natural anatomy and gliding function, though 10-30% may require circumcision if symptoms persist."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

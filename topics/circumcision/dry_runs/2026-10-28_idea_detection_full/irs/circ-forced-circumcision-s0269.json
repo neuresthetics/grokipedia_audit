@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-s0269",
+  "source_text": "Islamic tradition mandates khitan as a sunnah practice, often in infancy or early childhood, to promote cleanliness (fitrah) and emulate the Prophet Muhammad, with scholars like those in the Hanafi and Shafi'i schools defending it as preserving prophetic custom despite non-consent. [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Islamic tradition mandates khitan as a sunnah practice, often in infancy or early childhood, to promote cleanliness (fitrah) and emulate the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Islamic tradition mandates khitan as a sunnah practice, often in infancy or early childhood, to promote cleanliness (fitrah) and emulate the Prophet Muhammad, w.",
+      "span": {
+        "quote": "Islamic tradition mandates khitan as a sunnah practice, often in infancy or early childhood, to promote cleanliness (fitrah) and emulate the Prophet Muhammad, w"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

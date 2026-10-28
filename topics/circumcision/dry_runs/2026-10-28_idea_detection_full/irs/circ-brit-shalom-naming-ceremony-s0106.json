@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0106",
+  "source_text": "Ethically, advocates for Brit Shalom emphasize infant bodily autonomy and the principle of informed consent, viewing circumcision as a non-therapeutic alteration of healthy tissue that violates the child's right to an intact body, akin to arguments advanced in bioethics literature against irreversible procedures without medical necessity. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethically, advocates for Brit Shalom emphasize infant bodily autonomy and the principle of informed consent, viewing circumcision as a non-t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infant bodily autonomy and the principle of informed consent, viewing circumcision as a non-therapeutic alteration of healthy tissue that violates the child's r.",
+      "span": {
+        "quote": "infant bodily autonomy and the principle of informed consent, viewing circumcision as a non-therapeutic alteration of healthy tissue that violates the child's r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethically, advocates for Brit Shalom.",
+      "span": {
+        "quote": "Ethically, advocates for Brit Shalom"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

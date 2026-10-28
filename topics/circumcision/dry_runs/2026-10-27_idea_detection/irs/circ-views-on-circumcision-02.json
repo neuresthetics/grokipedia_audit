@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-views-on-circumcision-02",
+  "source_text": "Thus, rights-based defenses prioritize familial liberty and tradition as counterweights to individualistic absolutism, grounded in the causal reality that early stewardship maximizes child flourishing without viable infant alternatives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Thus, rights-based defenses prioritize familial liberty and tradition... grounded in the causal reality that early stewardship maximizes child flourishing"
+      },
+      "claim_ids": [
+        "c_steward",
+        "c_prioritize",
+        "c_no_alt"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_steward",
+      "text": "Early stewardship maximizes child flourishing.",
+      "span": {
+        "quote": "early stewardship maximizes child flourishing"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    },
+    {
+      "id": "c_no_alt",
+      "text": "There are no viable infant alternatives (to that stewardship framing).",
+      "span": {
+        "quote": "without viable infant alternatives"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c_prioritize",
+      "text": "Rights-based defenses should prioritize familial liberty and tradition as counterweights to individualistic absolutism.",
+      "span": {
+        "quote": "rights-based defenses prioritize familial liberty and tradition as counterweights to individualistic absolutism"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "causes",
+      "source": "c_steward",
+      "target": "c_prioritize",
+      "span": {
+        "quote": "grounded in the causal reality that early stewardship maximizes child flourishing"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_no_alt",
+      "target": "c_prioritize",
+      "span": {
+        "quote": "without viable infant alternatives"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

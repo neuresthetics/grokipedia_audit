@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0126",
+  "source_text": "Scholars recommend early childhood to minimize discomfort and ensure hygienic benefits during development, viewing it as kinder to the child than delaying until adolescence. [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scholars recommend early childhood to minimize discomfort and ensure hygienic benefits during development, viewing it as kinder to the child"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scholars recommend early childhood to minimize discomfort and ensure hygienic benefits during development, viewing it as kinder to the child than delaying until.",
+      "span": {
+        "quote": "Scholars recommend early childhood to minimize discomfort and ensure hygienic benefits during development, viewing it as kinder to the child than delaying until"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

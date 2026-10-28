@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0090",
+  "source_text": "Such outcomes are culturally reinforced as curative for amenorrhea or other gynecological ailments, with women seeking the procedure postpartum or during reproductive challenges in northern Nigeria and southern Niger. [29]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such outcomes are culturally reinforced as curative for amenorrhea or other gynecological ailments, with women seeking the procedure postpar"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such outcomes are culturally reinforced as curative for amenorrhea or other gynecological ailments, with women seeking the procedure postpartum or during reprod.",
+      "span": {
+        "quote": "Such outcomes are culturally reinforced as curative for amenorrhea or other gynecological ailments, with women seeking the procedure postpartum or during reprod"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

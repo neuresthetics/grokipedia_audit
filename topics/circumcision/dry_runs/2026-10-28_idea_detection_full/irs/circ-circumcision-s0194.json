@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0194",
+  "source_text": "Neonatal and infant circumcision yields no differences in sexual arousal, orgasm intensity, or overall satisfaction compared to uncircumcised men, with quantitative sensory testing confirming undiminished thresholds for touch, pain, and warmth. [115] [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal and infant circumcision yields no differences in sexual arousal, orgasm intensity, or overall satisfaction compared to uncircumcise"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal and infant circumcision yields no differences in sexual arousal, orgasm intensity, or overall satisfaction compared to uncircumcised men, with quantita.",
+      "span": {
+        "quote": "Neonatal and infant circumcision yields no differences in sexual arousal, orgasm intensity, or overall satisfaction compared to uncircumcised men, with quantita"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

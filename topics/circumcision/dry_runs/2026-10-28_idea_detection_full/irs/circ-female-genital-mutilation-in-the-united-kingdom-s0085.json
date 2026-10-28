@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0085",
+  "source_text": "These encounters highlighted the procedure's health risks, including infections, hemorrhage, and long-term urinary and sexual dysfunction, and raised alarms about its occurrence within British communities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These encounters highlighted the procedure's health risks, including infections, hemorrhage, and long-term urinary and sexual dysfunction, a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These encounters highlighted the procedure's health risks, including infections, hemorrhage, and long-term urinary and sexual dysfunction, and raised alarms abo.",
+      "span": {
+        "quote": "These encounters highlighted the procedure's health risks, including infections, hemorrhage, and long-term urinary and sexual dysfunction, and raised alarms abo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

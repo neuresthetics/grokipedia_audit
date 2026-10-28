@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0069",
+  "source_text": "Ahmadu reported experiencing no sexual dysfunction post-excision, asserting that it shifted emphasis toward vaginal orgasms via g-spot stimulation, which she claimed improved pleasure compared to clitoral-focused sensations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ahmadu reported experiencing no sexual dysfunction post-excision, asserting that it shifted emphasis toward vaginal orgasms via g-spot stimu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "she"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Improved pleasure compared to clitoral-focused sensations.",
+      "span": {
+        "quote": "improved pleasure compared to clitoral-focused sensations."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "she",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ahmadu reported experiencing no sexual dysfunction post-excision, asserting that it shifted emphasis toward vaginal orgasms via g-spot stimulation, which she.",
+      "span": {
+        "quote": "Ahmadu reported experiencing no sexual dysfunction post-excision, asserting that it shifted emphasis toward vaginal orgasms via g-spot stimulation, which she"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "she"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claimed"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

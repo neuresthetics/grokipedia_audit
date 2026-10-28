@@ -1,0 +1,68 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0049",
+  "source_text": "In Islamic traditions, male circumcision is regarded as enhancing bodily perfection and cleanliness, aligning with the concept of fitrah, the innate disposition of humans, by removing the foreskin to prevent accumulation of impurities like smegma and urine residues, thereby promoting a purified and refined appearance. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Islamic traditions, male circumcision is regarded as enhancing bodily perfection and cleanliness, aligning with the concept of fitrah, th"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bodily perfection and cleanliness, aligning with the concept of fitrah, the innate disposition of humans, by removing the foreskin to prevent accumulation of im.",
+      "span": {
+        "quote": "bodily perfection and cleanliness, aligning with the concept of fitrah, the innate disposition of humans, by removing the foreskin to prevent accumulation of im"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Promoting a purified and refined appearance. [25].",
+      "span": {
+        "quote": "promoting a purified and refined appearance. [25]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "prevent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

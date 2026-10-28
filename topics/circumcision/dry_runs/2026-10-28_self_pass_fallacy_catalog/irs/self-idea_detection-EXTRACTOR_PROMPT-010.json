@@ -1,0 +1,158 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-010",
+  "source_text": "5. **Association, no person-attack required.** Passage: \u201cThis housing plan is associated with a developer who once supported the last failure, so it must be a bad plan.\u201d Emit an agent trait (\u201cassociated with\u201d / \u201conce supported\u201d), supports into \u201cmust be a bad plan\u201d, and ignores if an object-level reason is brushed aside. attacks_person is optional and not required.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "5. **Association, no person-attack required.** Passage: \u201cThis housing plan is associated with a developer who once supported the last failur"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "5. **Association, no person-attack required.** Passage: \u201cThis housing plan is associated with a developer who once supported the last failure.",
+      "span": {
+        "quote": "5. **Association, no person-attack required.** Passage: \u201cThis housing plan is associated with a developer who once supported the last failure"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c2",
+      "text": "It must be a bad plan.\u201d Emit an agent trait (\u201cassociated with\u201d / \u201conce supported\u201d), supports into \u201cmust be a bad plan\u201d, and ignores if an object-level reason is.",
+      "span": {
+        "quote": "it must be a bad plan.\u201d Emit an agent trait (\u201cassociated with\u201d / \u201conce supported\u201d), supports into \u201cmust be a bad plan\u201d, and ignores if an object-level reason is"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "Associated with a developer who once supported the last failure.",
+      "span": {
+        "quote": "associated with a developer who once supported the last failure"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c5",
+      "text": "This housing plan is associated with a developer who once support.",
+      "span": {
+        "quote": "This housing plan is associated with a developer who once support"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Association"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "brushed aside"
+      }
+    },
+    {
+      "id": "e5",
+      "type": "supports",
+      "source": "c4",
+      "target": "c2",
+      "span": {
+        "quote": "associated with a developer who once supported the last failure"
+      }
+    },
+    {
+      "id": "e6",
+      "type": "instantiates",
+      "source": "c5",
+      "target": "c2",
+      "span": {
+        "quote": "This housing plan is associated with a developer who once su"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with a developer who once supported the last failure",
+          "span": {
+            "quote": "associated with a developer who once supported the last failure"
+          }
+        }
+      ]
+    }
+  ]
+}

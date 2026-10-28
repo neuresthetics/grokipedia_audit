@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0280",
+  "source_text": "Scholarly critiques, such as those in bioethics journals, reinforce these positions by questioning the proportionality of ritual obligations against documented procedural complications, estimated at 1-2% for minor issues and rarer severe outcomes like penile damage. [124]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scholarly critiques, such as those in bioethics journals, reinforce these positions by questioning the proportionality of ritual obligations"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scholarly critiques, such as those in bioethics journals, reinforce these positions by questioning the proportionality of ritual obligations against documented.",
+      "span": {
+        "quote": "Scholarly critiques, such as those in bioethics journals, reinforce these positions by questioning the proportionality of ritual obligations against documented "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

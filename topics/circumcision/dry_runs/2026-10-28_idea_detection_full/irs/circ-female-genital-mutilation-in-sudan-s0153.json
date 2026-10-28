@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0153",
+  "source_text": "Sudanese hospital data indicate cesarean section rates of 33.8% for Type 3 FGM cases, versus 10.8% for Type 2, reflecting heightened risks of prolonged labor and emergency interventions. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sudanese hospital data indicate cesarean section rates of 33.8% for Type 3 FGM cases, versus 10.8% for Type 2, reflecting heightened risks o"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sudanese hospital data indicate cesarean section rates of 33.8% for Type 3 FGM cases, versus 10.8% for Type 2, reflecting heightened risks of prolonged labor an.",
+      "span": {
+        "quote": "Sudanese hospital data indicate cesarean section rates of 33.8% for Type 3 FGM cases, versus 10.8% for Type 2, reflecting heightened risks of prolonged labor an"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

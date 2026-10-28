@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-s0235",
+  "source_text": "Opponents of strict autonomy protections counter that communal rights, including parental authority and religious freedoms, justify the practice as a means of integrating the child into familial and societal structures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents of strict autonomy protections counter that communal rights, including parental authority and religious freedoms, justify the prac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "opponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Opponents of strict autonomy protections counter that communal rights, including parental authority and religious freedoms, justify the practice as a means of i.",
+      "span": {
+        "quote": "Opponents of strict autonomy protections counter that communal rights, including parental authority and religious freedoms, justify the practice as a means of i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

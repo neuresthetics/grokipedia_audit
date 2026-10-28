@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-METHOD-006",
+  "source_text": "Charity has a limit: use it to find what the speaker meant, not to rewrite a passage that clearly meets the conditions. If the strongest version has no problem, stop here: there is no issue.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Charity has a limit: use it to find what the speaker meant, not to rewrite a passage that clearly meets the conditions. If the strongest ver"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Charity has a limit: use it to find what the speaker meant, not to rewrite a passage that clearly meets the conditions. If the strongest version has no problem,.",
+      "span": {
+        "quote": "Charity has a limit: use it to find what the speaker meant, not to rewrite a passage that clearly meets the conditions. If the strongest version has no problem,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "passage_id": "circ-redundant-prepuce-s0106",
+  "source_text": "Chronic inflammation and poor hygiene have been associated with a higher risk of penile cancer, though this link is rare and often mediated by conditions such as balanitis xerotica obliterans; circumcision reduces this risk. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Chronic inflammation and poor hygiene have been associated with a higher risk of penile cancer, though this link is rare and often mediated"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Chronic inflammation and poor hygiene have been associated with a higher risk of penile cancer, though this link is rare and often mediated by conditions such a.",
+      "span": {
+        "quote": "Chronic inflammation and poor hygiene have been associated with a higher risk of penile cancer, though this link is rare and often mediated by conditions such a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with a higher risk of penile cancer.",
+      "span": {
+        "quote": "associated with a higher risk of penile cancer"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with a higher risk of penile cancer"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with a higher risk of penile cancer",
+          "span": {
+            "quote": "associated with a higher risk of penile cancer"
+          }
+        }
+      ]
+    }
+  ]
+}

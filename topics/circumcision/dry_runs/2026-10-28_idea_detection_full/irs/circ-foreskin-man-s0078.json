@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0078",
+  "source_text": "Villainous figures like Doctor Foreskin Cutter invoke hygiene and disease prevention to justify the practice, but Foreskin Man counters that proper cleaning achieves equivalent hygiene without surgery, while HIV risks can be mitigated through behavioral measures like condom use rather than preemptively altering genitalia. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Villainous figures like Doctor Foreskin Cutter invoke hygiene and disease prevention to justify the practice, but Foreskin Man counters that"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Villainous figures like Doctor Foreskin Cutter invoke hygiene and disease prevention to justify the practice, but Foreskin Man counters that proper cleaning ach.",
+      "span": {
+        "quote": "Villainous figures like Doctor Foreskin Cutter invoke hygiene and disease prevention to justify the practice, but Foreskin Man counters that proper cleaning ach"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

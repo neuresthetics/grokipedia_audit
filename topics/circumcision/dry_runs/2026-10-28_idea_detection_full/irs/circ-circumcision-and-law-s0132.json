@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0132",
+  "source_text": "Advocacy groups such as the Anti-Defamation League urged rejection, emphasizing that the ban could set a precedent threatening longstanding religious practices. [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocacy groups such as the Anti-Defamation League urged rejection, emphasizing that the ban could set a precedent threatening longstanding"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rejection, emphasizing that the ban could set a precedent threatening longstanding religious practices.",
+      "span": {
+        "quote": "rejection, emphasizing that the ban could set a precedent threatening longstanding religious practices."
+      },
+      "role": "recommendation",
+      "hedge": "weak",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Advocacy groups such as the Anti-Defamation League.",
+      "span": {
+        "quote": "Advocacy groups such as the Anti-Defamation League"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "urged"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

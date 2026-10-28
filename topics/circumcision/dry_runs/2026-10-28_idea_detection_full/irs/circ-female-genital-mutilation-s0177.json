@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0177",
+  "source_text": "Infections, including tetanus (especially in areas with low vaccination coverage), sepsis, and transmission of HIV or hepatitis via shared blades, frequently develop from open wounds. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infections, including tetanus (especially in areas with low vaccination coverage), sepsis, and transmission of HIV or hepatitis via shared b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infections, including tetanus (especially in areas with low vaccination coverage), sepsis, and transmission of HIV or hepatitis via shared blades, frequently de.",
+      "span": {
+        "quote": "Infections, including tetanus (especially in areas with low vaccination coverage), sepsis, and transmission of HIV or hepatitis via shared blades, frequently de"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

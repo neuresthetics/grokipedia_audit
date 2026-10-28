@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0166",
+  "source_text": "Causal mechanisms stem from anatomical disruption and associated trauma, independent of confounding social factors in migrant contexts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Causal mechanisms stem from anatomical disruption and associated trauma, independent of confounding social factors in migrant contexts."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Causal mechanisms stem from anatomical disruption and associated trauma, independent of confounding social factors in migrant contexts.",
+      "span": {
+        "quote": "Causal mechanisms stem from anatomical disruption and associated trauma, independent of confounding social factors in migrant contexts."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

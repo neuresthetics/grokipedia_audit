@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0079",
+  "source_text": "Anesthesia is absent in most cases, rendering the 1-2 minute intervention acutely painful, with post-procedure application of substances like black powder to staunch bleeding rather than medical dressings. [14] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anesthesia is absent in most cases, rendering the 1-2 minute intervention acutely painful, with post-procedure application of substances lik"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anesthesia is absent in most cases, rendering the 1-2 minute intervention acutely painful, with post-procedure application of substances like black powder to st.",
+      "span": {
+        "quote": "Anesthesia is absent in most cases, rendering the 1-2 minute intervention acutely painful, with post-procedure application of substances like black powder to st"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

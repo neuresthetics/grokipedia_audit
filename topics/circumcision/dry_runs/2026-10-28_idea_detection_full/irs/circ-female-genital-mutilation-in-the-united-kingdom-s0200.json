@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0200",
+  "source_text": "Obstetric costs are amplified by FGM's association with prolonged labor, hemorrhage, and tears, necessitating specialized maternity care that exceeds standard deliveries and contributes to broader NHS pressures in specialties like gynaecology and urology. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Obstetric costs are amplified by FGM's association with prolonged labor, hemorrhage, and tears, necessitating specialized maternity care tha"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Obstetric costs are amplified by FGM's association with prolonged labor, hemorrhage, and tears, necessitating specialized maternity care that exceeds standard d.",
+      "span": {
+        "quote": "Obstetric costs are amplified by FGM's association with prolonged labor, hemorrhage, and tears, necessitating specialized maternity care that exceeds standard d"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

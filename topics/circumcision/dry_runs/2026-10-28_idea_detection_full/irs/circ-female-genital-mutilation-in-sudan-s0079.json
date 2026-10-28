@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0079",
+  "source_text": "Influential institutions like Egypt's Al-Azhar University have issued mixed fatwas on the matter, with earlier rulings in the 1980s and 1990s permitting mild forms of female \"circumcision\" (khitan al-banat) as culturally acceptable if not excessive, influencing Sudanese clerics who view it as permissible under fiqh traditions. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Influential institutions like Egypt's Al-Azhar University have issued mixed fatwas on the matter, with earlier rulings in the 1980s and 1990"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Influential institutions like Egypt's Al-Azhar University have issued mixed fatwas on the matter, with earlier rulings in the 1980s and 1990s permitting mild fo.",
+      "span": {
+        "quote": "Influential institutions like Egypt's Al-Azhar University have issued mixed fatwas on the matter, with earlier rulings in the 1980s and 1990s permitting mild fo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0263",
+  "source_text": "In traditional male circumcision rites across sub-Saharan Africa, such as those among the Xhosa in South Africa's Eastern Cape, the procedure is conducted on adolescent boys, typically aged 12-18, as a mandatory initiation into manhood, often bypassing individual informed consent due to overriding cultural and peer pressures that stigmatize uncircumcised males. [122]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In traditional male circumcision rites across sub-Saharan Africa, such as those among the Xhosa in South Africa's Eastern Cape, the procedur"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In traditional male circumcision rites across sub-Saharan Africa, such as those among the Xhosa in South Africa's Eastern Cape, the procedure is conducted on ad.",
+      "span": {
+        "quote": "In traditional male circumcision rites across sub-Saharan Africa, such as those among the Xhosa in South Africa's Eastern Cape, the procedure is conducted on ad"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

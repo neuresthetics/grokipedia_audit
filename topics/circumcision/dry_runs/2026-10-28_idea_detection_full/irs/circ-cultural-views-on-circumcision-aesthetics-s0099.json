@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0099",
+  "source_text": "In 20th-century United States medical discourse, circumcision was frequently advocated for enhancing genital hygiene by minimizing smegma accumulation beneath the foreskin, which was portrayed as promoting a cleaner appearance compared to the intact state. [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In 20th-century United States medical discourse, circumcision was frequently advocated for enhancing genital hygiene by minimizing smegma ac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In 20th-century United States medical discourse, circumcision was frequently advocated for enhancing genital hygiene by minimizing smegma accumulation beneath t.",
+      "span": {
+        "quote": "In 20th-century United States medical discourse, circumcision was frequently advocated for enhancing genital hygiene by minimizing smegma accumulation beneath t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

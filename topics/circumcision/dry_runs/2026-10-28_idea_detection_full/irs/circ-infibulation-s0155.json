@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-infibulation-s0155",
+  "source_text": "Psychological harms include elevated rates of post-traumatic stress disorder (PTSD), with prevalence of 20-40% among survivors in community-based studies from infibulation-prevalent regions, alongside anxiety and depressive disorders linked to procedural trauma and chronic pain. [69] [75]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological harms include elevated rates of post-traumatic stress disorder (PTSD), with prevalence of 20-40% among survivors in community-"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological harms include elevated rates of post-traumatic stress disorder (PTSD), with prevalence of 20-40% among survivors in community-based studies from i.",
+      "span": {
+        "quote": "Psychological harms include elevated rates of post-traumatic stress disorder (PTSD), with prevalence of 20-40% among survivors in community-based studies from i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to procedural trauma and chronic pain.",
+      "span": {
+        "quote": "linked to procedural trauma and chronic pain"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to procedural trauma and chronic pain"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to procedural trauma and chronic pain",
+          "span": {
+            "quote": "linked to procedural trauma and chronic pain"
+          }
+        }
+      ]
+    }
+  ]
+}

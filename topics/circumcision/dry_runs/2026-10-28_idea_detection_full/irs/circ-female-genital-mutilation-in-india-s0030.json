@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0030",
+  "source_text": "This framing persists despite opposition, as evidenced by Bohra women's testimonies in surveys describing the procedure as a \"small prick\" for spiritual eligibility, rejecting mutilation rhetoric as culturally alien. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This framing persists despite opposition, as evidenced by Bohra women's testimonies in surveys describing the procedure as a \"small prick\" f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This framing persists despite opposition, as evidenced by Bohra women's testimonies in surveys describing the procedure as a \"small prick\" for spiritual eligibi.",
+      "span": {
+        "quote": "This framing persists despite opposition, as evidenced by Bohra women's testimonies in surveys describing the procedure as a \"small prick\" for spiritual eligibi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

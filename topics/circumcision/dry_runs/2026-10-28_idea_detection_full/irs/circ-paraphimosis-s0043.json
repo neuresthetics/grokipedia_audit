@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-paraphimosis-s0043",
+  "source_text": "In infancy, the inner foreskin remains fused to the glans by synechiae, a normal physiological adhesion that protects the developing structures and constitutes physiologic phimosis.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In infancy, the inner foreskin remains fused to the glans by synechiae, a normal physiological adhesion that protects the developing structu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In infancy, the inner foreskin remains fused to the glans by synechiae, a normal physiological adhesion that protects the developing structures and constitutes.",
+      "span": {
+        "quote": "In infancy, the inner foreskin remains fused to the glans by synechiae, a normal physiological adhesion that protects the developing structures and constitutes "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

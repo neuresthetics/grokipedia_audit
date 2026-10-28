@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-brit-milah-s0289",
+  "source_text": "Medical bodies have evaluated neonatal circumcision through empirical lenses, generally concluding preventive benefits exceed procedural risks when performed competently, though without mandating it universally.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical bodies have evaluated neonatal circumcision through empirical lenses, generally concluding preventive benefits exceed procedural ris"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "medical_bodies"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medical bodies have evaluated neonatal circumcision through empirical lenses, generally concluding preventive benefits exceed procedural risks when performed co.",
+      "span": {
+        "quote": "Medical bodies have evaluated neonatal circumcision through empirical lenses, generally concluding preventive benefits exceed procedural risks when performed co"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "Medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Medical bodies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

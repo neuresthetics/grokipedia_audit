@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-011",
+  "source_text": "id, member_ids[], selection_time (before_data\\|after_data\\|unknown), stated_in_text, direction (favors\\|against\\|mixed), prior_prediction (bool\\|null).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "id, member_ids[], selection_time (before_data\\|after_data\\|unknown), stated_in_text, direction (favors\\|against\\|mixed), prior_prediction (b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Id, member_ids[], selection_time (before_data\\|after_data\\|unknown), stated_in_text, direction (favors\\|against\\|mixed), prior_prediction (bool\\|null).",
+      "span": {
+        "quote": "id, member_ids[], selection_time (before_data\\|after_data\\|unknown), stated_in_text, direction (favors\\|against\\|mixed), prior_prediction (bool\\|null)."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

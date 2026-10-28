@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0104",
+  "source_text": "In a review of obstetric morbidity, 13% of 1,443 VVF cases among Hausa women in northern Nigeria were directly attributed to gishiri cuts, particularly in older patients seeking treatment for perceived vaginal tightness or obstructed labor. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a review of obstetric morbidity, 13% of 1,443 VVF cases among Hausa women in northern Nigeria were directly attributed to gishiri cuts, p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a review of obstetric morbidity, 13% of 1,443 VVF cases among Hausa women in northern Nigeria were directly attributed to gishiri cuts, particularly in older.",
+      "span": {
+        "quote": "In a review of obstetric morbidity, 13% of 1,443 VVF cases among Hausa women in northern Nigeria were directly attributed to gishiri cuts, particularly in older"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0187",
+  "source_text": "Policy restrictions have reinforced this trend, with secular majorities viewing non-therapeutic circumcision as infringing on bodily autonomy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Policy restrictions have reinforced this trend, with secular majorities viewing non-therapeutic circumcision as infringing on bodily autonom"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Policy restrictions have reinforced this trend, with secular majorities viewing non-therapeutic circumcision as infringing on bodily autonomy.",
+      "span": {
+        "quote": "Policy restrictions have reinforced this trend, with secular majorities viewing non-therapeutic circumcision as infringing on bodily autonomy."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

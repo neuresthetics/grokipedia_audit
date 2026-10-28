@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-restoration-device-s0175",
+  "source_text": "Nonetheless, the consistency across self-reports aligns with histological observations that prolonged glans exposure post-circumcision leads to keratin accumulation, which restoration may reverse through coverage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Nonetheless, the consistency across self-reports aligns with histological observations that prolonged glans exposure post-circumcision leads"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nonetheless, the consistency across self-reports aligns with histological observations that prolonged glans exposure post-circumcision leads to keratin accumula.",
+      "span": {
+        "quote": "Nonetheless, the consistency across self-reports aligns with histological observations that prolonged glans exposure post-circumcision leads to keratin accumula"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

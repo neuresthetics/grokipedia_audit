@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0213",
+  "source_text": "The American Urological Association (AUA) maintains that neonatal circumcision offers potential medical benefits alongside risks, advising parents to weigh these through informed discussion with providers.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Urological Association (AUA) maintains that neonatal circumcision offers potential medical benefits alongside risks, advising p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision offers potential medical benefits alongside risks, advising parents to weigh these through informed discussion with providers.",
+      "span": {
+        "quote": "neonatal circumcision offers potential medical benefits alongside risks, advising parents to weigh these through informed discussion with providers."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Urological Association (AUA).",
+      "span": {
+        "quote": "The American Urological Association (AUA)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintains"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

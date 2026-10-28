@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0201",
+  "source_text": "Complications from male circumcision are infrequent, especially when performed neonatally by trained providers.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complications from male circumcision are infrequent, especially when performed neonatally by trained providers."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complications from male circumcision are infrequent, especially when performed neonatally by trained providers.",
+      "span": {
+        "quote": "Complications from male circumcision are infrequent, especially when performed neonatally by trained providers."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

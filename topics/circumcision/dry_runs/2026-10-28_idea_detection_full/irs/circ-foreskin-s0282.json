@@ -1,0 +1,102 @@
+{
+  "passage_id": "circ-foreskin-s0282",
+  "source_text": "The American Academy of Pediatrics (AAP) maintains that the health benefits of newborn male circumcision outweigh the risks, though not sufficiently to recommend it universally, leaving the decision to parents following informed discussion of evidence. [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP) maintains that the health benefits of newborn male circumcision outweigh the risks, though not suff"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E health benefits of newborn male circumcision outweigh the risks, though not sufficiently to recommend it universally, leaving the decision to parents followin.",
+      "span": {
+        "quote": "e health benefits of newborn male circumcision outweigh the risks, though not sufficiently to recommend it universally, leaving the decision to parents followin"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Academy of Pediatrics (AAP).",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintains"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

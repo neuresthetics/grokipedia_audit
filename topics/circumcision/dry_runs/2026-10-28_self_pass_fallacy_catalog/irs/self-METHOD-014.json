@@ -1,0 +1,69 @@
+{
+  "passage_id": "self-METHOD-014",
+  "source_text": "Passage: \"Dr. Reyes says the bridge needs new bearings, and she points to the corrosion readings in the inspection report. But Reyes was fired from her last job for showing up late, so we can ignore her bridge argument.\"",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Passage: \"Dr. Reyes says the bridge needs new bearings, and she points to the corrosion readings in the inspection report. But Reyes was fir"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "she"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Passage: \"Dr. Reyes says the bridge needs new bearings, and she points to the corrosion readings in the inspection report. But Reyes was fired from her last job.",
+      "span": {
+        "quote": "Passage: \"Dr. Reyes says the bridge needs new bearings, and she points to the corrosion readings in the inspection report. But Reyes was fired from her last job"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "she"
+    },
+    {
+      "id": "c2",
+      "text": "We can ignore her bridge argument.\".",
+      "span": {
+        "quote": "we can ignore her bridge argument.\""
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "she",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "ignore"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

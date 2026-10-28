@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0067",
+  "source_text": "A subsequent view in CRC/C/96/D/169/2021 (2023) similarly held that non-medically indicated circumcision does not automatically breach rights absent aggravating factors, underscoring no general treaty-based ban. [34] [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A subsequent view in CRC/C/96/D/169/2021 (2023) similarly held that non-medically indicated circumcision does not automatically breach right"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A subsequent view in CRC/C/96/D/169/2021 (2023) similarly held that non-medically indicated circumcision does not automatically breach rights absent aggravating.",
+      "span": {
+        "quote": "A subsequent view in CRC/C/96/D/169/2021 (2023) similarly held that non-medically indicated circumcision does not automatically breach rights absent aggravating"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

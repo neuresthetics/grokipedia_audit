@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0152",
+  "source_text": "Reproductive physical harms include vesico-vaginal fistulas, postpartum hemorrhage, and obstructed labor, exacerbated by FGM-related scarring that impedes vaginal delivery. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reproductive physical harms include vesico-vaginal fistulas, postpartum hemorrhage, and obstructed labor, exacerbated by FGM-related scarrin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reproductive physical harms include vesico-vaginal fistulas, postpartum hemorrhage, and obstructed labor, exacerbated by FGM-related scarring that impedes vagin.",
+      "span": {
+        "quote": "Reproductive physical harms include vesico-vaginal fistulas, postpartum hemorrhage, and obstructed labor, exacerbated by FGM-related scarring that impedes vagin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

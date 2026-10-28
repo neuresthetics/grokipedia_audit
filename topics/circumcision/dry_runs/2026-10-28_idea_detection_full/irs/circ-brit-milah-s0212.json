@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-brit-milah-s0212",
+  "source_text": "Three major RCTs conducted between 2005 and 2007\u2014one in South Africa showing 60% efficacy, one in Kenya with 53%, and one in Uganda with 51%\u2014provided high-quality evidence prompting World Health Organization recommendations for voluntary medical male circumcision in high-prevalence settings. [101] [102]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Three major RCTs conducted between 2005 and 2007\u2014one in South Africa showing 60% efficacy, one in Kenya with 53%, and one in Uganda with 51%"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Three major RCTs conducted between 2005 and 2007\u2014one in South Africa showing 60% efficacy, one in Kenya with 53%, and one in Uganda with 51%\u2014provided high-quali.",
+      "span": {
+        "quote": "Three major RCTs conducted between 2005 and 2007\u2014one in South Africa showing 60% efficacy, one in Kenya with 53%, and one in Uganda with 51%\u2014provided high-quali"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

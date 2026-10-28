@@ -1,0 +1,66 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-009",
+  "source_text": "4. **Dialogue, second speaker.** Passage: \u201cRin wrote, \u2018The levy is paid.\u2019 Sol replied, \u2018You voted against the levy last year, therefore ignore that letter.\u2019\u201d Two speakers and at least one inferential edge. Not a single report.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "4. **Dialogue, second speaker.** Passage: \u201cRin wrote, \u2018The levy is paid.\u2019 Sol replied, \u2018You voted against the levy last year, therefore igno"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "4. **Dialogue, second speaker.** Passage: \u201cRin wrote, \u2018The levy is paid.\u2019 Sol replied, \u2018You voted against the levy last year.",
+      "span": {
+        "quote": "4. **Dialogue, second speaker.** Passage: \u201cRin wrote, \u2018The levy is paid.\u2019 Sol replied, \u2018You voted against the levy last year"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Ignore that letter.\u2019\u201d Two speakers and at least one inferential edge. Not a single report.",
+      "span": {
+        "quote": "ignore that letter.\u2019\u201d Two speakers and at least one inferential edge. Not a single report."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "therefore"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "ignore"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

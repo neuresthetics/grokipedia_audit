@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0214",
+  "source_text": "In pediatric series, success rates exceed 90%, with 163 of 176 boys achieving full retractability without recurrence at follow-up, and lower overall complication rates compared to circumcision except for transient edema. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In pediatric series, success rates exceed 90%, with 163 of 176 boys achieving full retractability without recurrence at follow-up, and lower"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In pediatric series, success rates exceed 90%, with 163 of 176 boys achieving full retractability without recurrence at follow-up, and lower overall complicatio.",
+      "span": {
+        "quote": "In pediatric series, success rates exceed 90%, with 163 of 176 boys achieving full retractability without recurrence at follow-up, and lower overall complicatio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

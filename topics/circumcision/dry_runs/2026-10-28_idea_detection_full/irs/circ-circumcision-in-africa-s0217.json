@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0217",
+  "source_text": "Population-level impacts include averted infections: modeling from WHO-supported programs estimates 3-5 million HIV cases prevented by 2020 through cumulative circumcisions exceeding 30 million.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Population-level impacts include averted infections: modeling from WHO-supported programs estimates 3-5 million HIV cases prevented by 2020"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Population-level impacts include averted infections: modeling from WHO-supported programs estimates 3-5 million HIV cases prevented by 2020 through cumulative c.",
+      "span": {
+        "quote": "Population-level impacts include averted infections: modeling from WHO-supported programs estimates 3-5 million HIV cases prevented by 2020 through cumulative c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

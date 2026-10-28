@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ulwaluko-s0207",
+  "source_text": "Projections indicate persistence among Xhosa communities, driven by identity formation benefits, provided reforms address verifiable complications through verifiable training efficacy rather than unsubstantiated bans. [82]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Projections indicate persistence among Xhosa communities, driven by identity formation benefits, provided reforms address verifiable complic"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Projections indicate persistence among Xhosa communities, driven by identity formation benefits, provided reforms address verifiable complications through verif.",
+      "span": {
+        "quote": "Projections indicate persistence among Xhosa communities, driven by identity formation benefits, provided reforms address verifiable complications through verif"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated bans.",
+      "span": {
+        "quote": "unsubstantiated bans"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated bans"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

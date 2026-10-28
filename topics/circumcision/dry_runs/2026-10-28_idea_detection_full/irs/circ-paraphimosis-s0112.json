@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-paraphimosis-s0112",
+  "source_text": "Epidemiologically, paraphimosis is more prevalent in regions with low neonatal circumcision rates, such as parts of Europe, compared to the United States, where circumcision reduces incidence by eliminating the foreskin.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Epidemiologically, paraphimosis is more prevalent in regions with low neonatal circumcision rates, such as parts of Europe, compared to the"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Epidemiologically, paraphimosis is more prevalent in regions with low neonatal circumcision rates, such as parts of Europe, compared to the United States, where.",
+      "span": {
+        "quote": "Epidemiologically, paraphimosis is more prevalent in regions with low neonatal circumcision rates, such as parts of Europe, compared to the United States, where"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0005",
+  "source_text": "The mechanism underlying this protection stems from the removal of the foreskin, which harbors Langerhans cells susceptible to HIV entry and provides a moist environment conducive to viral persistence during heterosexual intercourse, thereby diminishing the biological vulnerability to infection via causal pathways independent of behavioral changes. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The mechanism underlying this protection stems from the removal of the foreskin, which harbors Langerhans cells susceptible to HIV entry and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Otection stems from the removal of the foreskin, which harbors Langerhans cells susceptible to HIV entry and provides a moist environment conducive to viral per.",
+      "span": {
+        "quote": "otection stems from the removal of the foreskin, which harbors Langerhans cells susceptible to HIV entry and provides a moist environment conducive to viral per"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Diminishing the biological vulnerability to infection via causal pathways independent of behavioral changes. [6].",
+      "span": {
+        "quote": "diminishing the biological vulnerability to infection via causal pathways independent of behavioral changes. [6]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

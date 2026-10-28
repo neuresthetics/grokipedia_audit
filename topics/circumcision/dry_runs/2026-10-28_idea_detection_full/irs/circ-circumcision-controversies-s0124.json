@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0124",
+  "source_text": "Claims of normalized harms to sexual function lack causal substantiation from high-quality data.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of normalized harms to sexual function lack causal substantiation from high-quality data."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of normalized harms to sexual function lack causal substantiation from high-quality data.",
+      "span": {
+        "quote": "of normalized harms to sexual function lack causal substantiation from high-quality data."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

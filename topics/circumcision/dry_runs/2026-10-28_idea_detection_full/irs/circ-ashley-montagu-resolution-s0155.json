@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0155",
+  "source_text": "Subsequent reflections in advocacy literature highlighted the resolution's role in galvanizing intactivist networks rather than prompting paradigm shifts in academia, where empirical defenses of circumcision's hygiene and disease-prevention claims\u2014drawing from observational data on HIV and STI reductions\u2014continued unabated. [28]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Subsequent reflections in advocacy literature highlighted the resolution's role in galvanizing intactivist networks rather than prompting pa"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "\u2014drawing from observational data on HIV and STI reductions\u2014continued unabated.",
+      "span": {
+        "quote": "\u2014drawing from observational data on HIV and STI reductions\u2014continued unabated."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "E resolution's role in galvanizing intactivist networks rather than prompting paradigm shifts in academia, where empirical defenses of circumcision's hygiene an.",
+      "span": {
+        "quote": "e resolution's role in galvanizing intactivist networks rather than prompting paradigm shifts in academia, where empirical defenses of circumcision's hygiene an"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

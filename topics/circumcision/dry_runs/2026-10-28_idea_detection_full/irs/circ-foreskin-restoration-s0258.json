@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0258",
+  "source_text": "This procedure, performed on approximately 1.3 million newborns annually in the United States as of 2010 data, lacks medical necessity in most cases and inflicts irreversible harm, prioritizing parental or cultural preferences over the child's right to bodily integrity. [46]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This procedure, performed on approximately 1.3 million newborns annually in the United States as of 2010 data, lacks medical necessity in mo"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This procedure, performed on approximately 1.3 million newborns annually in the United States as of 2010 data, lacks medical necessity in most cases and inflict.",
+      "span": {
+        "quote": "This procedure, performed on approximately 1.3 million newborns annually in the United States as of 2010 data, lacks medical necessity in most cases and inflict"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0195",
+  "source_text": "A key study testing the keratinization hypothesis directly is Bossio et al. (2016) in The Journal of Urology, which used quantitative sensory testing on 62 men (30 neonatally circumcised, 32 intact) and found no differences in touch, pain, warmth, or heat-pain thresholds at the glans or other penile sites between groups.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A key study testing the keratinization hypothesis directly is Bossio et al. (2016) in The Journal of Urology, which used quantitative sensor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A key study testing the keratinization hypothesis directly is Bossio et al. (2016) in The Journal of Urology, which used quantitative sensory testing on 62 men.",
+      "span": {
+        "quote": "A key study testing the keratinization hypothesis directly is Bossio et al. (2016) in The Journal of Urology, which used quantitative sensory testing on 62 men "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

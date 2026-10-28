@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0242",
+  "source_text": "The Montagu Resolution's inclusion of male procedures sets it apart, as evidenced by debates in peer-reviewed analyses questioning moral equivalence due to differing health data\u2014FGM linked to severe complications like hemorrhage (up to 15% in some types) versus male circumcision's lower risks but contested benefits like HIV reduction (60% efficacy in adult trials per WHO, 2007).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Montagu Resolution's inclusion of male procedures sets it apart, as evidenced by debates in peer-reviewed analyses questioning moral equ"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Montagu Resolution's inclusion of male procedures sets it apart, as evidenced by debates in peer-reviewed analyses questioning moral equivalence due to diff.",
+      "span": {
+        "quote": "The Montagu Resolution's inclusion of male procedures sets it apart, as evidenced by debates in peer-reviewed analyses questioning moral equivalence due to diff"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per WHO.",
+      "span": {
+        "quote": "per WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to severe complications like hemorrhage (up to 15% in some.",
+      "span": {
+        "quote": "linked to severe complications like hemorrhage (up to 15% in some"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to severe complications like hemorrhage (up to 15% in some"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to severe complications like hemorrhage (up to 15% in some ",
+          "span": {
+            "quote": "linked to severe complications like hemorrhage (up to 15% in some"
+          }
+        }
+      ]
+    }
+  ]
+}

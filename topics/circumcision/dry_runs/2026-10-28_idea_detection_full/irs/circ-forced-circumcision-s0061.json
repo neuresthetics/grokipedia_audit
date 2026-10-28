@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0061",
+  "source_text": "This imposition ties manhood to ancestral connection, yet perpetuates non-consensual harm amid ongoing regulatory efforts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This imposition ties manhood to ancestral connection, yet perpetuates non-consensual harm amid ongoing regulatory efforts."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This imposition ties manhood to ancestral connection, yet perpetuates non-consensual harm amid ongoing regulatory efforts.",
+      "span": {
+        "quote": "This imposition ties manhood to ancestral connection, yet perpetuates non-consensual harm amid ongoing regulatory efforts."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

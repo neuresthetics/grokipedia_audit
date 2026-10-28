@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0312",
+  "source_text": "From a first-principles ethical framework emphasizing autonomy as a core principle in bioethics, infant circumcision contravenes the requirement for voluntary, informed agreement to procedures altering functional anatomy, as the foreskin serves protective, sensory, and immunological roles without posing inherent harm if left intact. [141]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From a first-principles ethical framework emphasizing autonomy as a core principle in bioethics, infant circumcision contravenes the require"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From a first-principles ethical framework emphasizing autonomy as a core principle in bioethics, infant circumcision contravenes the requirement for voluntary,.",
+      "span": {
+        "quote": "From a first-principles ethical framework emphasizing autonomy as a core principle in bioethics, infant circumcision contravenes the requirement for voluntary, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

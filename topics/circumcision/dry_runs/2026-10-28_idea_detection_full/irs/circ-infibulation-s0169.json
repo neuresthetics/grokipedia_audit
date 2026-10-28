@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0169",
+  "source_text": "Postcolonial analyses contend that campaigns against the practice echo historical efforts to \"civilize\" non-Western customs, disregarding how communities perceive infibulation as adaptive to local social ecologies of marriage and fidelity. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Postcolonial analyses contend that campaigns against the practice echo historical efforts to \"civilize\" non-Western customs, disregarding ho"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Campaigns against the practice echo historical efforts to \"civilize\" non-Western customs, disregarding how communities perceive infibulation as adaptive to loca.",
+      "span": {
+        "quote": "campaigns against the practice echo historical efforts to \"civilize\" non-Western customs, disregarding how communities perceive infibulation as adaptive to loca"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Postcolonial analyses.",
+      "span": {
+        "quote": "Postcolonial analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

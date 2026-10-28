@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0126",
+  "source_text": "This belief aligns with broader rationales cited in surveys of Bohra women, where moderating or curbing sexual desire is invoked to ensure lifelong fidelity and uphold family honor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This belief aligns with broader rationales cited in surveys of Bohra women, where moderating or curbing sexual desire is invoked to ensure l"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This belief aligns with broader rationales cited in surveys of Bohra women, where moderating or curbing sexual desire is invoked to ensure lifelong fidelity and.",
+      "span": {
+        "quote": "This belief aligns with broader rationales cited in surveys of Bohra women, where moderating or curbing sexual desire is invoked to ensure lifelong fidelity and"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

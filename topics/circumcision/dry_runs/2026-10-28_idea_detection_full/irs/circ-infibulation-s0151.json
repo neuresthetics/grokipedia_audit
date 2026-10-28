@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0151",
+  "source_text": "Long-term physical sequelae encompass chronic pelvic pain from neuromas and scar tissue, recurrent urinary tract infections and incontinence due to urethral distortion, and vesicovaginal fistulas exacerbated by obstructed voiding. [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term physical sequelae encompass chronic pelvic pain from neuromas and scar tissue, recurrent urinary tract infections and incontinence"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term physical sequelae encompass chronic pelvic pain from neuromas and scar tissue, recurrent urinary tract infections and incontinence due to urethral dis.",
+      "span": {
+        "quote": "Long-term physical sequelae encompass chronic pelvic pain from neuromas and scar tissue, recurrent urinary tract infections and incontinence due to urethral dis"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

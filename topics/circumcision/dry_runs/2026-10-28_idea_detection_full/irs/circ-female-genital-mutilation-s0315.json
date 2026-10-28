@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0315",
+  "source_text": "Studies indicate that up to 50% of women subjected to certain FGM types in regions like Sudan experience sexual dysfunction, with procedures often conducted without anesthesia on minors using unsterilized tools, leading to documented deaths from excessive bleeding.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies indicate that up to 50% of women subjected to certain FGM types in regions like Sudan experience sexual dysfunction, with procedures"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies indicate that up to 50% of women subjected to certain FGM types in regions like Sudan experience sexual dysfunction, with procedures often conducted wit.",
+      "span": {
+        "quote": "Studies indicate that up to 50% of women subjected to certain FGM types in regions like Sudan experience sexual dysfunction, with procedures often conducted wit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

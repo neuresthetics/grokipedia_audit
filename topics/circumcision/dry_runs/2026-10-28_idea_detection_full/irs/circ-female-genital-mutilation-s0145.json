@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0145",
+  "source_text": "The Hanbali school views it as obligatory for males but an honorable (makrumah) act for females, per Ibn Qudamah's Al-Mughni, while the Hanafi and Maliki schools classify it as recommended (sunnah) or honorable without mandating it. [23]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Hanbali school views it as obligatory for males but an honorable (makrumah) act for females, per Ibn Qudamah's Al-Mughni, while the Hana"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Hanbali school views it as obligatory for males but an honorable (makrumah) act for females, per Ibn Qudamah's Al-Mughni, while the Hanafi and Maliki school.",
+      "span": {
+        "quote": "The Hanbali school views it as obligatory for males but an honorable (makrumah) act for females, per Ibn Qudamah's Al-Mughni, while the Hanafi and Maliki school"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per Ibn Qudamah's Al-Mughni.",
+      "span": {
+        "quote": "per Ibn Qudamah's Al-Mughni"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per Ibn Qudamah's Al-Mughni"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0104",
+  "source_text": "Randomized trials demonstrate that male circumcision decreases heterosexual HIV acquisition by 53-60% and lowers transmission risks for herpes simplex virus type 2 and human papillomavirus, thereby protecting uncircumcised partners and reducing overall community STI prevalence without relying solely on individual behavioral changes. [68] [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized trials demonstrate that male circumcision decreases heterosexual HIV acquisition by 53-60% and lowers transmission risks for herp"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Randomized trials demonstrate that male circumcision decreases heterosexual HIV acquisition by 53-60% and lowers transmission risks for herpes simplex virus typ.",
+      "span": {
+        "quote": "Randomized trials demonstrate that male circumcision decreases heterosexual HIV acquisition by 53-60% and lowers transmission risks for herpes simplex virus typ"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Protecting uncircumcised partners and reducing overall community STI prevalence without relying solely on individual behavioral changes. [68] [69].",
+      "span": {
+        "quote": "protecting uncircumcised partners and reducing overall community STI prevalence without relying solely on individual behavioral changes. [68] [69]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

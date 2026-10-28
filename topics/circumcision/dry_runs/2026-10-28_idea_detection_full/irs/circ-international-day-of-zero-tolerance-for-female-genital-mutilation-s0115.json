@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0115",
+  "source_text": "Hemorrhage is among the most critical immediate threats, potentially fatal if major blood vessels are cut, with reports documenting deaths from uncontrolled bleeding in settings lacking medical intervention. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hemorrhage is among the most critical immediate threats, potentially fatal if major blood vessels are cut, with reports documenting deaths f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hemorrhage is among the most critical immediate threats, potentially fatal if major blood vessels are cut, with reports documenting deaths from uncontrolled ble.",
+      "span": {
+        "quote": "Hemorrhage is among the most critical immediate threats, potentially fatal if major blood vessels are cut, with reports documenting deaths from uncontrolled ble"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

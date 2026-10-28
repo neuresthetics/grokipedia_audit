@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0278",
+  "source_text": "Mid-2000s randomized trials in South Africa (2005), Kenya, and Uganda (2007) showed voluntary medical male circumcision (VMMC) reduced heterosexual HIV risk in men by about 60%.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mid-2000s randomized trials in South Africa (2005), Kenya, and Uganda (2007) showed voluntary medical male circumcision (VMMC) reduced heter"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mid-2000s randomized trials in South Africa (2005), Kenya, and Uganda (2007) showed voluntary medical male circumcision (VMMC) reduced heterosexual HIV risk in.",
+      "span": {
+        "quote": "Mid-2000s randomized trials in South Africa (2005), Kenya, and Uganda (2007) showed voluntary medical male circumcision (VMMC) reduced heterosexual HIV risk in "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0214",
+  "source_text": "Models project that scaling VMMC, combined with other strategies, could avert up to 3.4 million new infections by 2025.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Models project that scaling VMMC, combined with other strategies, could avert up to 3.4 million new infections by 2025."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Models project that scaling VMMC, combined with other strategies, could avert up to 3.4 million new infections by 2025.",
+      "span": {
+        "quote": "Models project that scaling VMMC, combined with other strategies, could avert up to 3.4 million new infections by 2025."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

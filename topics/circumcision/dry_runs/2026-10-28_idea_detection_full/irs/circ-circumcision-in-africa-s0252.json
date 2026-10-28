@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0252",
+  "source_text": "These ceremonies, prevalent in ethnic groups across eastern and southern Africa, carry cultural significance tied to identity, social status, and community bonding, but are associated with elevated complication rates ranging from 35% to 48% in observed studies, including infections, excessive bleeding, and penile injuries. [115] [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These ceremonies, prevalent in ethnic groups across eastern and southern Africa, carry cultural significance tied to identity, social status"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These ceremonies, prevalent in ethnic groups across eastern and southern Africa, carry cultural significance tied to identity, social status, and community bond.",
+      "span": {
+        "quote": "These ceremonies, prevalent in ethnic groups across eastern and southern Africa, carry cultural significance tied to identity, social status, and community bond"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Tied to identity.",
+      "span": {
+        "quote": "tied to identity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to identity"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to identity",
+          "span": {
+            "quote": "tied to identity"
+          }
+        }
+      ]
+    }
+  ]
+}

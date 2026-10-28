@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0080",
+  "source_text": "Post-procedure isolation or aftercare in cultural settings focuses on wound monitoring, but without antibiotics, bacterial ingress poses an elevated short-term risk.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Post-procedure isolation or aftercare in cultural settings focuses on wound monitoring, but without antibiotics, bacterial ingress poses an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Post-procedure isolation or aftercare in cultural settings focuses on wound monitoring, but without antibiotics, bacterial ingress poses an elevated short-term.",
+      "span": {
+        "quote": "Post-procedure isolation or aftercare in cultural settings focuses on wound monitoring, but without antibiotics, bacterial ingress poses an elevated short-term "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,1756 @@
+[
+  {
+    "passage_id": "circ-ashley-montagu-resolution-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-brit-shalom-naming-ceremony-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-circumcision-and-hiv-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-circumcision-and-law-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-circumcision-controversies-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "possible_issue",
+        "reason": "possible issue; missing fact: whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted",
+        "span_bindings": [
+          {
+            "atom": "exists_claim",
+            "name": "exists_claim",
+            "var": "K",
+            "id": "c_reduces",
+            "quote": "neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition"
+          },
+          {
+            "atom": "exists_edge",
+            "name": "appeals_to_source",
+            "var": "E_auth",
+            "id": "e1",
+            "quote": "citing systematic reviews"
+          },
+          {
+            "atom": "predicate",
+            "name": "experts_substantially_disagree",
+            "var": null,
+            "id": null,
+            "quote": "citing systematic reviews",
+            "open": true
+          },
+          {
+            "atom": "predicate",
+            "name": "authority_treated_as_settling",
+            "var": null,
+            "id": null,
+            "quote": "neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition"
+          }
+        ],
+        "missing_fact": "whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted"
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_forbid matched: popularity_not_decisive",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-circumcision-controversies-02",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-circumcision-controversies-03",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_forbid matched: tentative_hypothesis_for_testing",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-ethics-of-circumcision-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-ethics-of-circumcision-02",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-female-genital-mutilation-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_forbid matched: authority_one_piece_among_others",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_forbid matched: popularity_one_piece_among_others",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-forced-circumcision-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-foreskin-man-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-foreskin-restoration-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-religion-and-circumcision-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "possible_issue",
+        "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage",
+        "span_bindings": [
+          {
+            "atom": "predicate",
+            "name": "term_occurs_at_least",
+            "var": null,
+            "id": null,
+            "quote": "reliance on circumcision"
+          },
+          {
+            "atom": "predicate",
+            "name": "sense_shift",
+            "var": null,
+            "id": null,
+            "quote": "reliance on circumcision"
+          },
+          {
+            "atom": "predicate",
+            "name": "conclusion_requires_sense_identity",
+            "var": null,
+            "id": null,
+            "quote": "reliance on circumcision"
+          }
+        ],
+        "missing_fact": "whether the full text supplies the unmet support"
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-views-on-circumcision-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "possible_issue",
+        "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage",
+        "span_bindings": [
+          {
+            "atom": "exists_claim",
+            "name": "exists_claim",
+            "var": "U",
+            "id": "c_longit",
+            "quote": "empirical data from longitudinal studies showing no evidence of widespread mental health harm attributable to neonatal circumcision"
+          },
+          {
+            "atom": "exists_claim",
+            "name": "exists_claim",
+            "var": "K",
+            "id": "c_no_harm",
+            "quote": "no evidence of widespread mental health harm attributable to neonatal circumcision"
+          },
+          {
+            "atom": "exists_edge",
+            "name": "supports",
+            "var": null,
+            "id": "e2",
+            "quote": "showing no evidence of widespread mental health harm"
+          },
+          {
+            "atom": "predicate",
+            "name": "absence_of_proof_used_as_proof",
+            "var": null,
+            "id": null,
+            "quote": "showing no evidence of widespread mental health harm"
+          },
+          {
+            "atom": "predicate",
+            "name": "no_thorough_search_shown",
+            "var": null,
+            "id": null,
+            "quote": "empirical data from longitudinal studies showing no evidence of widespread mental health harm attributable to neonatal circumcision"
+          }
+        ],
+        "missing_fact": "whether the full text supplies the unmet support"
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-views-on-circumcision-02",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  },
+  {
+    "passage_id": "circ-women-unaffected-by-female-genital-cutting-01",
+    "ok": true,
+    "errors": [],
+    "results": [
+      {
+        "entry_id": "ad-hominem",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-authority",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "equivocation",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-cause",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "begging-the-question",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "cherry-picking",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "straw-man",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "argument-from-ignorance",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "hasty-generalization",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "slippery-slope",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "false-dilemma",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "appeal-to-the-people",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      },
+      {
+        "entry_id": "guilt-by-association",
+        "verdict": "no_issue",
+        "reason": "no issue; ir_pattern did not match",
+        "span_bindings": [],
+        "missing_fact": null
+      }
+    ]
+  }
+]

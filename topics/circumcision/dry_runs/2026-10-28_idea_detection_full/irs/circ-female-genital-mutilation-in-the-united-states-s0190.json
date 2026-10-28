@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0190",
+  "source_text": "Within weeks, the AAP retracted the suggestion, clarifying that it did not endorse any form of female genital cutting and reaffirming its opposition to procedures lacking medical justification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Within weeks, the AAP retracted the suggestion, clarifying that it did not endorse any form of female genital cutting and reaffirming its op"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Within weeks, the AAP retracted the suggestion, clarifying that it did not endorse any form of female genital cutting and reaffirming its opposition to procedur.",
+      "span": {
+        "quote": "Within weeks, the AAP retracted the suggestion, clarifying that it did not endorse any form of female genital cutting and reaffirming its opposition to procedur"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

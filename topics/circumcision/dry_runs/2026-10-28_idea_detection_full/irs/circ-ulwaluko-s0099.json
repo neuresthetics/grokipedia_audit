@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0099",
+  "source_text": "Ulwaluko reinforces kinship ties in Xhosa society through broad family and communal participation, involving extended relatives, friends, and elders in overseeing the process, which cultivates shared cultural experiences and intergenerational solidarity. [17] [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ulwaluko reinforces kinship ties in Xhosa society through broad family and communal participation, involving extended relatives, friends, an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ulwaluko reinforces kinship ties in Xhosa society through broad family and communal participation, involving extended relatives, friends, and elders in overseei.",
+      "span": {
+        "quote": "Ulwaluko reinforces kinship ties in Xhosa society through broad family and communal participation, involving extended relatives, friends, and elders in overseei"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

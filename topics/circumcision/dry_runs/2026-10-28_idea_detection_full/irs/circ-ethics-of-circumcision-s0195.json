@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0195",
+  "source_text": "This perspective emphasizes absolute risk reductions, noting that neonatal UTI incidence is approximately 1% in uncircumcised males versus 0.1-0.2% in circumcised ones, and penile cancer rates remain exceedingly low (less than 1 in 100,000 annually in developed nations), arguing these do not justify universal application. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective emphasizes absolute risk reductions, noting that neonatal UTI incidence is approximately 1% in uncircumcised males versus 0"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bsolute risk reductions, noting that neonatal UTI incidence is approximately 1% in uncircumcised males versus 0.1-0.2% in circumcised ones, and penile cancer ra.",
+      "span": {
+        "quote": "bsolute risk reductions, noting that neonatal UTI incidence is approximately 1% in uncircumcised males versus 0.1-0.2% in circumcised ones, and penile cancer ra"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This perspective emphasizes absolute risk reductions.",
+      "span": {
+        "quote": "This perspective emphasizes absolute risk reductions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "This perspective emphasizes absolute risk reductions"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0144",
+  "source_text": "Protection extends beyond infancy, with a 6.6-fold reduction in boys aged 1 to 16 years. [74] [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Protection extends beyond infancy, with a 6.6-fold reduction in boys aged 1 to 16 years. [74] [77]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Protection extends beyond infancy, with a 6.6-fold reduction in boys aged 1 to 16 years. [74] [77].",
+      "span": {
+        "quote": "Protection extends beyond infancy, with a 6.6-fold reduction in boys aged 1 to 16 years. [74] [77]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

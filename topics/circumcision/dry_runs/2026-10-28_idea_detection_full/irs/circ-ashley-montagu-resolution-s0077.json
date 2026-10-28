@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0077",
+  "source_text": "The Ashley Montagu Resolution, adopted by acclamation at the Fourth International Symposium on Sexual Mutilations in Lausanne, Switzerland, on August 11, 1996, constitutes a petition to the World Court at The Hague declaring genital mutilations of children\u2014encompassing both female and male forms\u2014as violations of international human rights instruments. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Ashley Montagu Resolution, adopted by acclamation at the Fourth International Symposium on Sexual Mutilations in Lausanne, Switzerland,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Ashley Montagu Resolution, adopted by acclamation at the Fourth International Symposium on Sexual Mutilations in Lausanne, Switzerland, on August 11, 1996,.",
+      "span": {
+        "quote": "The Ashley Montagu Resolution, adopted by acclamation at the Fourth International Symposium on Sexual Mutilations in Lausanne, Switzerland, on August 11, 1996, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

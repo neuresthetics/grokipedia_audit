@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0048",
+  "source_text": "This resolution explicitly calls for intensified efforts to eradicate FGM by addressing its roots in gender inequality and harmful traditions, aligning with the UN's broader human rights architecture that frames the practice as a form of violence against women and girls.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This resolution explicitly calls for intensified efforts to eradicate FGM by addressing its roots in gender inequality and harmful tradition"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This resolution explicitly calls for intensified efforts to eradicate FGM by addressing its roots in gender inequality and harmful traditions, aligning with the.",
+      "span": {
+        "quote": "This resolution explicitly calls for intensified efforts to eradicate FGM by addressing its roots in gender inequality and harmful traditions, aligning with the"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0214",
+  "source_text": "Dawoodi Bohra Women for Religious Freedom (DBWRF), established in May 2017 by women from India's Dawoodi Bohra community, campaigns to safeguard khafz\u2014a ritual entailing the excision of the clitoral prepuce\u2014as an integral religious and cultural observance tied to spiritual purification and hygiene. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Dawoodi Bohra Women for Religious Freedom (DBWRF), established in May 2017 by women from India's Dawoodi Bohra community, campaigns to safeg"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Dawoodi Bohra Women for Religious Freedom (DBWRF), established in May 2017 by women from India's Dawoodi Bohra community, campaigns to safeguard khafz\u2014a ritual.",
+      "span": {
+        "quote": "Dawoodi Bohra Women for Religious Freedom (DBWRF), established in May 2017 by women from India's Dawoodi Bohra community, campaigns to safeguard khafz\u2014a ritual "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to spiritual purification and hygiene.",
+      "span": {
+        "quote": "tied to spiritual purification and hygiene"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to spiritual purification and hygiene"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to spiritual purification and hygiene",
+          "span": {
+            "quote": "tied to spiritual purification and hygiene"
+          }
+        }
+      ]
+    }
+  ]
+}

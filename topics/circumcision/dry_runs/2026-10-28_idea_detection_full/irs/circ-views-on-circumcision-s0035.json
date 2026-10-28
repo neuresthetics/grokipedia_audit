@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0035",
+  "source_text": "Guru Nanak and subsequent gurus critiqued such practices as distractions from true devotion, emphasizing equality and rejection of external symbols imposed by other traditions. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Guru Nanak and subsequent gurus critiqued such practices as distractions from true devotion, emphasizing equality and rejection of external"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Guru Nanak and subsequent gurus critiqued such practices as distractions from true devotion, emphasizing equality and rejection of external symbols imposed by o.",
+      "span": {
+        "quote": "Guru Nanak and subsequent gurus critiqued such practices as distractions from true devotion, emphasizing equality and rejection of external symbols imposed by o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

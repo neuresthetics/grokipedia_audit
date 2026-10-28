@@ -1,0 +1,116 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0269",
+  "source_text": "A 2022 modeling analysis across 13 countries found VMMC cost-effective (defined as less than three times the gross domestic product per capita per disability-adjusted life year averted) in 62% of scenarios with adult HIV incidence exceeding 1.5 per 100 person-years, with effectiveness increasing in higher-incidence areas due to greater absolute risk reduction.00515-0/fulltext) The World Health Organization's 2023 review of programmatic data from priority countries affirmed VMMC as highly cost-effective or cost-saving in nearly all evaluated scenarios, attributing this to low per-procedure costs (typically $50\u2013150) and the intervention's one-time nature, which averts lifelong treatment expenses estimated at $1,000\u20132,000 annually per person on antiretrovirals. [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2022 modeling analysis across 13 countries found VMMC cost-effective (defined as less than three times the gross domestic product per capi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2022 modeling analysis across 13 countries found VMMC cost-effective (defined as less than three times the gross domestic product per capita per disability-ad.",
+      "span": {
+        "quote": "A 2022 modeling analysis across 13 countries found VMMC cost-effective (defined as less than three times the gross domestic product per capita per disability-ad"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per capita per disability-adjusted life year averted) in 62% of scenarios with adult.",
+      "span": {
+        "quote": "per capita per disability-adjusted life year averted) in 62% of scenarios with adult"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per 100 person-years.",
+      "span": {
+        "quote": "per 100 person-years"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c5",
+      "text": "A 2022 modeling analysis across 13 countries found VMMC cost-e.",
+      "span": {
+        "quote": "A 2022 modeling analysis across 13 countries found VMMC cost-e"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per capita per disability-adjusted life year averted) in 62% of scenarios with adult"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per 100 person-years"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "instantiates",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "A 2022 modeling analysis across 13 countries found VMMC cost"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

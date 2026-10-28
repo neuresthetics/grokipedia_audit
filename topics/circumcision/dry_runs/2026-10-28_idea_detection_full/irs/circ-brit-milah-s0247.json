@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0247",
+  "source_text": "This incident adds to prior documented clusters, reinforcing public health concerns about the practice in ultra-Orthodox communities where it persists.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This incident adds to prior documented clusters, reinforcing public health concerns about the practice in ultra-Orthodox communities where i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This incident adds to prior documented clusters, reinforcing public health concerns about the practice in ultra-Orthodox communities where it persists.",
+      "span": {
+        "quote": "This incident adds to prior documented clusters, reinforcing public health concerns about the practice in ultra-Orthodox communities where it persists."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

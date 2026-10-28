@@ -1,0 +1,74 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0076",
+  "source_text": "Hygiene and aesthetic ideals further underpin justifications, as the procedure is said to eliminate \"bad smells,\" prevent abnormal clitoral growth, and promote cleanliness aligned with Islamic purity norms, rendering uncut women (solima in Mandinka) impure, disrespectful, or unfit for prayer and social interactions. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hygiene and aesthetic ideals further underpin justifications, as the procedure is said to eliminate \"bad smells,\" prevent abnormal clitoral"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hygiene and aesthetic ideals further underpin justifications, as the procedure is said to eliminate \"bad smells,\" prevent abnormal clitoral growth, and promote.",
+      "span": {
+        "quote": "Hygiene and aesthetic ideals further underpin justifications, as the procedure is said to eliminate \"bad smells,\" prevent abnormal clitoral growth, and promote "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with Islamic purity norms.",
+      "span": {
+        "quote": "aligned with Islamic purity norms"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with Islamic purity norms"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with Islamic purity norms",
+          "span": {
+            "quote": "aligned with Islamic purity norms"
+          }
+        }
+      ]
+    }
+  ]
+}

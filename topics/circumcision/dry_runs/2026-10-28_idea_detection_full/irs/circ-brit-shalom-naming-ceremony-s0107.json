@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0107",
+  "source_text": "In Jewish contexts, some progressive rabbis and scholars reinterpret the biblical covenant (Genesis 17:10-14) as symbolic rather than requiring physical cutting, proposing Brit Shalom as a faithful alternative that honors peace (shalom) over ritual injury, while acknowledging halachic traditions that deem uncircumcised males ineligible for certain communal roles. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Jewish contexts, some progressive rabbis and scholars reinterpret the biblical covenant (Genesis 17:10-14) as symbolic rather than requir"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Jewish contexts, some progressive rabbis and scholars reinterpret the biblical covenant (Genesis 17:10-14) as symbolic rather than requiring physical cutting.",
+      "span": {
+        "quote": "In Jewish contexts, some progressive rabbis and scholars reinterpret the biblical covenant (Genesis 17:10-14) as symbolic rather than requiring physical cutting"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

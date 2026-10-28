@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0058",
+  "source_text": "Physical effects of female genital mutilation/cutting (FGM/C) in The Gambia include immediate complications such as hemorrhage, acute anemia, and infections like tetanus, cystitis, and septicaemia, reported in 12.6% of cases seeking prompt medical attention after the procedure. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Physical effects of female genital mutilation/cutting (FGM/C) in The Gambia include immediate complications such as hemorrhage, acute anemia"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Physical effects of female genital mutilation/cutting (FGM/C) in The Gambia include immediate complications such as hemorrhage, acute anemia, and infections lik.",
+      "span": {
+        "quote": "Physical effects of female genital mutilation/cutting (FGM/C) in The Gambia include immediate complications such as hemorrhage, acute anemia, and infections lik"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0277",
+  "source_text": "UNAIDS-supported simulations forecast that maintaining VMMC through 2030 could avert 2\u20135 million infections across eastern and southern Africa, with cumulative savings exceeding program costs by factors of 2\u201310 under 3\u20135% discount rates, assuming stable heterosexual transmission dynamics. [134]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "UNAIDS-supported simulations forecast that maintaining VMMC through 2030 could avert 2\u20135 million infections across eastern and southern Afri"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "UNAIDS-supported simulations forecast that maintaining VMMC through 2030 could avert 2\u20135 million infections across eastern and southern Africa, with cumulative.",
+      "span": {
+        "quote": "UNAIDS-supported simulations forecast that maintaining VMMC through 2030 could avert 2\u20135 million infections across eastern and southern Africa, with cumulative "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0185",
+  "source_text": "Traditional tribal justifications, evident in African immigrant groups, portray FGM as an initiatory passage conferring social legitimacy and averting promiscuity, with continuity maintained through elder authority despite migration. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional tribal justifications, evident in African immigrant groups, portray FGM as an initiatory passage conferring social legitimacy an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rough elder authority despite migration.",
+      "span": {
+        "quote": "rough elder authority despite migration."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Traditional tribal justifications, evident in African immigrant groups, portray FGM as an initiatory passage conferring social legitimacy and averting promiscui.",
+      "span": {
+        "quote": "Traditional tribal justifications, evident in African immigrant groups, portray FGM as an initiatory passage conferring social legitimacy and averting promiscui"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintained"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

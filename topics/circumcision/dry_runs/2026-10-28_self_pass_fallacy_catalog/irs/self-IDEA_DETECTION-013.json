@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-013",
+  "source_text": "A saved checker report (python3 -m idea_detection --json) can be rendered the same way. Pass --ir when the report has no source_text:",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A saved checker report (python3 -m idea_detection --json) can be rendered the same way. Pass --ir when the report has no source_text:"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A saved checker report (python3 -m idea_detection --json) can be rendered the same way. Pass --ir when the report has no source_text:.",
+      "span": {
+        "quote": "A saved checker report (python3 -m idea_detection --json) can be rendered the same way. Pass --ir when the report has no source_text:"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

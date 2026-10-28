@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0073",
+  "source_text": "Penile cancer, though rare (incidence around 1 in 100,000 in developed countries), occurs almost exclusively in uncircumcised men, with rates near zero among those circumcised neonatally or in childhood.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penile cancer, though rare (incidence around 1 in 100,000 in developed countries), occurs almost exclusively in uncircumcised men, with rate"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penile cancer, though rare (incidence around 1 in 100,000 in developed countries), occurs almost exclusively in uncircumcised men, with rates near zero among th.",
+      "span": {
+        "quote": "Penile cancer, though rare (incidence around 1 in 100,000 in developed countries), occurs almost exclusively in uncircumcised men, with rates near zero among th"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

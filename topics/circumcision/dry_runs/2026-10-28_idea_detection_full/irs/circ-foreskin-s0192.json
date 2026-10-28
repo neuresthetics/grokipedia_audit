@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0192",
+  "source_text": "This association is attributed partly to decreased chronic inflammation and HPV persistence under the foreskin. [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This association is attributed partly to decreased chronic inflammation and HPV persistence under the foreskin. [97]"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This association is attributed partly to decreased chronic inflammation and HPV persistence under the foreskin. [97].",
+      "span": {
+        "quote": "This association is attributed partly to decreased chronic inflammation and HPV persistence under the foreskin. [97]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

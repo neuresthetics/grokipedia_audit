@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ulwaluko-s0097",
+  "source_text": "While these values sustain cultural continuity\u2014practiced by over 80% of Xhosa males as of recent surveys\u2014they have drawn critique for entrenching hierarchical gender expectations, such as male primacy in provision, potentially at odds with egalitarian modern ideals, yet empirical persistence underscores their adaptive fit within enduring Xhosa social fabrics. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While these values sustain cultural continuity\u2014practiced by over 80% of Xhosa males as of recent surveys\u2014they have drawn critique for entren"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While these values sustain cultural continuity\u2014practiced by over 80% of Xhosa males as of recent surveys\u2014they have drawn critique for entrenching hierarchical g.",
+      "span": {
+        "quote": "While these values sustain cultural continuity\u2014practiced by over 80% of Xhosa males as of recent surveys\u2014they have drawn critique for entrenching hierarchical g"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

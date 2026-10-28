@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-pilot-pattern_language-note-01",
+  "source_text": "Every matched atom must bind a span.quote at eval time. Patterns must not contradict required_conditions / legitimate_lookalikes prose.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Every matched atom must bind a span.quote at eval time. Patterns must not contradict required_conditions / legitimate_lookalikes prose."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Every matched atom must bind a span.quote at eval time. Patterns must not contradict required_conditions / legitimate_lookalikes prose.",
+      "span": {
+        "quote": "Every matched atom must bind a span.quote at eval time. Patterns must not contradict required_conditions / legitimate_lookalikes prose."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

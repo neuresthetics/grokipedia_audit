@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0184",
+  "source_text": "In Egypt, Coptic Pope Tawadros II signed declarations on April 16, 2021, committing to zero tolerance for FGM, alongside support for family planning, in partnership with national efforts to combat the practice prevalent among both Muslim and Christian communities. [93]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Egypt, Coptic Pope Tawadros II signed declarations on April 16, 2021, committing to zero tolerance for FGM, alongside support for family"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Egypt, Coptic Pope Tawadros II signed declarations on April 16, 2021, committing to zero tolerance for FGM, alongside support for family planning, in partner.",
+      "span": {
+        "quote": "In Egypt, Coptic Pope Tawadros II signed declarations on April 16, 2021, committing to zero tolerance for FGM, alongside support for family planning, in partner"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

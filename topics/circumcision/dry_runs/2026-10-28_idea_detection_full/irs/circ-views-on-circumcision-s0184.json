@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0184",
+  "source_text": "This analogy persists despite fundamental disparities: FGM offers no established health benefits and entails severe complications including urinary issues and increased mortality risks, whereas voluntary medical male circumcision (VMMC) demonstrates empirical benefits such as reduced heterosexual HIV acquisition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This analogy persists despite fundamental disparities: FGM offers no established health benefits and entails severe complications including"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This analogy persists despite fundamental disparities: FGM offers no established health benefits and entails severe complications including urinary issues and i.",
+      "span": {
+        "quote": "This analogy persists despite fundamental disparities: FGM offers no established health benefits and entails severe complications including urinary issues and i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-clitoridectomy-s0016",
+  "source_text": "Practitioners in affected regions often employ neutral or affirmative terms like sunna (from Islamic tradition meaning \"customary practice\") to frame it as a rite of passage analogous to male circumcision, rejecting \"mutilation\" as a culturally biased imposition by Western observers. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners in affected regions often employ neutral or affirmative terms like sunna (from Islamic tradition meaning \"customary practice\")"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners in affected regions often employ neutral or affirmative terms like sunna (from Islamic tradition meaning \"customary practice\") to frame it as a ri.",
+      "span": {
+        "quote": "Practitioners in affected regions often employ neutral or affirmative terms like sunna (from Islamic tradition meaning \"customary practice\") to frame it as a ri"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Biased imposition by Western observers.",
+      "span": {
+        "quote": "biased imposition by Western observers"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "biased imposition by Western observers"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Practitioners in aff"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased imposition by Western observers",
+          "span": {
+            "quote": "biased imposition by Western observers"
+          }
+        }
+      ]
+    }
+  ]
+}

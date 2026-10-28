@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0308",
+  "source_text": "The ethical debate on consent and autonomy in neonatal circumcision centers on the procedure's performance on infants incapable of providing informed consent, raising questions about violations of bodily integrity and the right to self-determination over irreversible modifications to healthy tissue. [139]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The ethical debate on consent and autonomy in neonatal circumcision centers on the procedure's performance on infants incapable of providing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The ethical debate on consent and autonomy in neonatal circumcision centers on the procedure's performance on infants incapable of providing informed consent, r.",
+      "span": {
+        "quote": "The ethical debate on consent and autonomy in neonatal circumcision centers on the procedure's performance on infants incapable of providing informed consent, r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-foreskin-s0176",
+  "source_text": "These device-based approaches reduce operative time to minutes and bleeding incidence compared to freehand methods, with minor complications reported in under 0.5% of medically performed infant cases. [91]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These device-based approaches reduce operative time to minutes and bleeding incidence compared to freehand methods, with minor complications"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These device-based approaches reduce operative time to minutes and bleeding incidence compared to freehand methods, with minor complications reported in under 0.",
+      "span": {
+        "quote": "These device-based approaches reduce operative time to minutes and bleeding incidence compared to freehand methods, with minor complications reported in under 0"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

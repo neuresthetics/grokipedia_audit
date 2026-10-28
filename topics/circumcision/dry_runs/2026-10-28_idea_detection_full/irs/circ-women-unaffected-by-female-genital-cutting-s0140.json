@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0140",
+  "source_text": "These findings imply that anti-FGC campaigns may amplify harms through stigmatization and eroded healthcare trust, prioritizing ideological uniformity over context-specific evidence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings imply that anti-FGC campaigns may amplify harms through stigmatization and eroded healthcare trust, prioritizing ideological"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings imply that anti-FGC campaigns may amplify harms through stigmatization and eroded healthcare trust, prioritizing ideological uniformity over cont.",
+      "span": {
+        "quote": "These findings imply that anti-FGC campaigns may amplify harms through stigmatization and eroded healthcare trust, prioritizing ideological uniformity over cont"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

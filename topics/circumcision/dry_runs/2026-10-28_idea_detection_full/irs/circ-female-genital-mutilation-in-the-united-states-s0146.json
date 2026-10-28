@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0146",
+  "source_text": "Type III (infibulation) inflicts the most severe procedural damage by narrowing the vaginal orifice through cutting and repositioning the labia minora or majora, with or without clitoridectomy, frequently causing urinary retention, genital ulcers, and delayed wound healing due to stitched or scarred tissue.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type III (infibulation) inflicts the most severe procedural damage by narrowing the vaginal orifice through cutting and repositioning the la"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Type III (infibulation) inflicts the most severe procedural damage by narrowing the vaginal orifice through cutting and repositioning the labia minora or majora.",
+      "span": {
+        "quote": "Type III (infibulation) inflicts the most severe procedural damage by narrowing the vaginal orifice through cutting and repositioning the labia minora or majora"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

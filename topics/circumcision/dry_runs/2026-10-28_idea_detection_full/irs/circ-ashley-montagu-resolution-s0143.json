@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0143",
+  "source_text": "These appeals aimed to harness the moral and diplomatic authority of supranational entities to pressure governments into legislative reforms, emphasizing empirical evidence of long-term physical and psychological harms documented in symposium proceedings, such as increased risks of infection, sexual dysfunction, and trauma.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These appeals aimed to harness the moral and diplomatic authority of supranational entities to pressure governments into legislative reforms"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These appeals aimed to harness the moral and diplomatic authority of supranational entities to pressure governments into legislative reforms, emphasizing empiri.",
+      "span": {
+        "quote": "These appeals aimed to harness the moral and diplomatic authority of supranational entities to pressure governments into legislative reforms, emphasizing empiri"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

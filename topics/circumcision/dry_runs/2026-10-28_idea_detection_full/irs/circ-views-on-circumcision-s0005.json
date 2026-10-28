@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0005",
+  "source_text": "Proponents, including bodies like the American Academy of Pediatrics, argue that these preventive health benefits outweigh the risks for newborns in contexts where the procedure is culturally normative, justifying access without parental regret. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents, including bodies like the American Academy of Pediatrics, argue that these preventive health benefits outweigh the risks for new"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ese preventive health benefits outweigh the risks for newborns in contexts where the procedure is culturally normative, justifying access without parental regre.",
+      "span": {
+        "quote": "ese preventive health benefits outweigh the risks for newborns in contexts where the procedure is culturally normative, justifying access without parental regre"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents, including bodies like the American Academy of Pediatrics.",
+      "span": {
+        "quote": "Proponents, including bodies like the American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0023",
+  "source_text": "Long-term health effects stem causally from the anatomical disruption, including chronic urinary tract infections, menstrual difficulties, keloid scar formation, and increased obstetric risks such as postpartum hemorrhage and neonatal mortality, as documented in cohort studies across affected populations. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term health effects stem causally from the anatomical disruption, including chronic urinary tract infections, menstrual difficulties, k"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term health effects stem causally from the anatomical disruption, including chronic urinary tract infections, menstrual difficulties, keloid scar formation.",
+      "span": {
+        "quote": "Long-term health effects stem causally from the anatomical disruption, including chronic urinary tract infections, menstrual difficulties, keloid scar formation"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

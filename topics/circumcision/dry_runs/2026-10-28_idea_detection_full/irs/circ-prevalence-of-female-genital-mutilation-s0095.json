@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-female-genital-mutilation-s0095",
+  "source_text": "For example, a narration in Sunan Abu Dawud states that the Prophet Muhammad recommended circumcision for women as an \"honor\" but cautioned against excess, aligning with interpretations in the Shafi'i school of jurisprudence that view it as obligatory or recommended to promote chastity and hygiene.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, a narration in Sunan Abu Dawud states that the Prophet Muhammad recommended circumcision for women as an \"honor\" but cautioned"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, a narration in Sunan Abu Dawud states that the Prophet Muhammad recommended circumcision for women as an \"honor\" but cautioned against excess, alig.",
+      "span": {
+        "quote": "For example, a narration in Sunan Abu Dawud states that the Prophet Muhammad recommended circumcision for women as an \"honor\" but cautioned against excess, alig"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0128",
+  "source_text": "Psychological distress, when present, correlates more strongly with migration-induced acculturation stress or anti-FGC campaigns than the cutting event itself, per longitudinal self-reports. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological distress, when present, correlates more strongly with migration-induced acculturation stress or anti-FGC campaigns than the cu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological distress, when present, correlates more strongly with migration-induced acculturation stress or anti-FGC campaigns than the cutting event itself,.",
+      "span": {
+        "quote": "Psychological distress, when present, correlates more strongly with migration-induced acculturation stress or anti-FGC campaigns than the cutting event itself, "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per longitudinal self-reports.",
+      "span": {
+        "quote": "per longitudinal self-reports"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per longitudinal self-reports"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

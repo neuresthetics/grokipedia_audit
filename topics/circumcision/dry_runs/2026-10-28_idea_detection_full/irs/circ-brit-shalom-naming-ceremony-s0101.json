@@ -1,0 +1,90 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0101",
+  "source_text": "Proponents of Brit Shalom argue that forgoing neonatal circumcision avoids documented procedural risks, including bleeding, infection, and rare but severe complications such as penile damage, which occur in approximately 1-2% of cases according to systematic reviews of surgical outcomes. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of Brit Shalom argue that forgoing neonatal circumcision avoids documented procedural risks, including bleeding, infection, and r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Forgoing neonatal circumcision avoids documented procedural risks, including bleeding, infection, and rare but severe complications such as penile damage, which.",
+      "span": {
+        "quote": "forgoing neonatal circumcision avoids documented procedural risks, including bleeding, infection, and rare but severe complications such as penile damage, which"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of Brit Shalom.",
+      "span": {
+        "quote": "Proponents of Brit Shalom"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "According to systematic reviews of surgical outcomes.",
+      "span": {
+        "quote": "according to systematic reviews of surgical outcomes"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "according to systematic reviews of surgical outcomes"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Proponents of Brit Shalom argue that forgoing neonatal circumcision avoids docum"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

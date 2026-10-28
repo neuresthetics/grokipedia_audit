@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0184",
+  "source_text": "Genital ulcers, dermoid cysts, and keloid scarring are also common, particularly in types II and III FGM, where extensive tissue removal promotes abnormal healing. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Genital ulcers, dermoid cysts, and keloid scarring are also common, particularly in types II and III FGM, where extensive tissue removal pro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Genital ulcers, dermoid cysts, and keloid scarring are also common, particularly in types II and III FGM, where extensive tissue removal promotes abnormal heali.",
+      "span": {
+        "quote": "Genital ulcers, dermoid cysts, and keloid scarring are also common, particularly in types II and III FGM, where extensive tissue removal promotes abnormal heali"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

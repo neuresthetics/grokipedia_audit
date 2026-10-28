@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0003",
+  "source_text": "Globally, while over 230 million women and girls have undergone some form of FGM, infibulation represents the most severe variant, concentrated in specific ethnic groups and persisting despite international condemnation as a human rights violation with no medical benefits. [5] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Globally, while over 230 million women and girls have undergone some form of FGM, infibulation represents the most severe variant, concentra"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Globally, while over 230 million women and girls have undergone some form of FGM, infibulation represents the most severe variant, concentrated in specific ethn.",
+      "span": {
+        "quote": "Globally, while over 230 million women and girls have undergone some form of FGM, infibulation represents the most severe variant, concentrated in specific ethn"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

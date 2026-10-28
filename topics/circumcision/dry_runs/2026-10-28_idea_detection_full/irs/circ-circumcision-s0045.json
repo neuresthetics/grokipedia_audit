@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0045",
+  "source_text": "Newborns undergoing circumcision show pain indicators such as elevated heart rate, blood pressure, cortisol, and cry duration, confirming procedural pain without analgesia. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Newborns undergoing circumcision show pain indicators such as elevated heart rate, blood pressure, cortisol, and cry duration, confirming pr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Newborns undergoing circumcision show pain indicators such as elevated heart rate, blood pressure, cortisol, and cry duration, confirming procedural pain withou.",
+      "span": {
+        "quote": "Newborns undergoing circumcision show pain indicators such as elevated heart rate, blood pressure, cortisol, and cry duration, confirming procedural pain withou"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

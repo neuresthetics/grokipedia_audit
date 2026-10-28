@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0150",
+  "source_text": "Incontinence, predominantly mixed type, is most prevalent among those with Type 3 FGM, alongside hydronephrosis from obstructed urinary flow.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Incontinence, predominantly mixed type, is most prevalent among those with Type 3 FGM, alongside hydronephrosis from obstructed urinary flow"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Incontinence, predominantly mixed type, is most prevalent among those with Type 3 FGM, alongside hydronephrosis from obstructed urinary flow.",
+      "span": {
+        "quote": "Incontinence, predominantly mixed type, is most prevalent among those with Type 3 FGM, alongside hydronephrosis from obstructed urinary flow."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

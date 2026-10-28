@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-of-minors-in-south-korea-s0021",
+  "source_text": "These arguments invoke broader human rights principles, emphasizing that parental authority, while recognized in family law, should not exempt irreversible alterations to a child's body from scrutiny under constitutional standards of personal dignity and security.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These arguments invoke broader human rights principles, emphasizing that parental authority, while recognized in family law, should not exem"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These arguments invoke broader human rights principles, emphasizing that parental authority, while recognized in family law, should not exempt irreversible alte.",
+      "span": {
+        "quote": "These arguments invoke broader human rights principles, emphasizing that parental authority, while recognized in family law, should not exempt irreversible alte"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

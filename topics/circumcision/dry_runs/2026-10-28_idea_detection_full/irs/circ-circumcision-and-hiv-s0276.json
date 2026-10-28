@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0276",
+  "source_text": "Long-term projections from dynamic epidemic models underscore VMMC's potential for sustained impact if coverage reaches 90% among non-circumcised adult males in priority countries.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term projections from dynamic epidemic models underscore VMMC's potential for sustained impact if coverage reaches 90% among non-circum"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term projections from dynamic epidemic models underscore VMMC's potential for sustained impact if coverage reaches 90% among non-circumcised adult males in.",
+      "span": {
+        "quote": "Long-term projections from dynamic epidemic models underscore VMMC's potential for sustained impact if coverage reaches 90% among non-circumcised adult males in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

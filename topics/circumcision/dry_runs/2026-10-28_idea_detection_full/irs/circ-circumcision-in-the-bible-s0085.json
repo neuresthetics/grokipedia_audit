@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-in-the-bible-s0085",
+  "source_text": "In Galatians 5:1\u20136, Paul warns the Galatian churches against submitting to circumcision as a requirement for salvation, asserting that Christ has set believers free and that they should stand firm in that liberty without returning to a yoke of slavery.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Galatians 5:1\u20136, Paul warns the Galatian churches against submitting to circumcision as a requirement for salvation, asserting that Chris"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Galatians 5:1\u20136, Paul warns the Galatian churches against submitting to circumcision as a requirement for salvation, asserting that Christ has set believers.",
+      "span": {
+        "quote": "In Galatians 5:1\u20136, Paul warns the Galatian churches against submitting to circumcision as a requirement for salvation, asserting that Christ has set believers "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

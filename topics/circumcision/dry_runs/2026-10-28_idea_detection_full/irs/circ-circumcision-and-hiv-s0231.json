@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0231",
+  "source_text": "Another review of VMMC rollout data found minimal early resumption of sex post-procedure (median 26\u201340 days, aligning with healing guidelines) and no sustained uptick in risk compensation, attributing any minor perceptions of invulnerability to counseling failures rather than inherent effects. [113]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Another review of VMMC rollout data found minimal early resumption of sex post-procedure (median 26\u201340 days, aligning with healing guideline"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Another review of VMMC rollout data found minimal early resumption of sex post-procedure (median 26\u201340 days, aligning with healing guidelines) and no sustained.",
+      "span": {
+        "quote": "Another review of VMMC rollout data found minimal early resumption of sex post-procedure (median 26\u201340 days, aligning with healing guidelines) and no sustained "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

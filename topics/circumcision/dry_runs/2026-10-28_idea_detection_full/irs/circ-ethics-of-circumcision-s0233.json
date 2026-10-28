@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0233",
+  "source_text": "Evidence-based neutrality in these processes requires prioritizing peer-reviewed data over emotive or unsubstantiated claims, such as exaggerated complication rates unsupported by large cohort studies showing serious adverse events below 1%. [145]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Evidence-based neutrality in these processes requires prioritizing peer-reviewed data over emotive or unsubstantiated claims, such as exagge"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", such as exaggerated complication rates unsupported by large cohort studies showing serious adverse events below 1%.",
+      "span": {
+        "quote": ", such as exaggerated complication rates unsupported by large cohort studies showing serious adverse events below 1%."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Evidence-based neutrality in these processes requires prioritizing peer-reviewed data over emotive or unsubstantiated.",
+      "span": {
+        "quote": "Evidence-based neutrality in these processes requires prioritizing peer-reviewed data over emotive or unsubstantiated"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated claims.",
+      "span": {
+        "quote": "unsubstantiated claims"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-the-bible-s0134",
+  "source_text": "Believers are united with Christ in his death, where the \"body of the flesh\" is put off, and are raised to new life, rendering external circumcision unnecessary and non-salvific.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Believers are united with Christ in his death, where the \"body of the flesh\" is put off, and are raised to new life, rendering external circ"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Believers are united with Christ in his death, where the \"body of the flesh\" is put off, and are raised to new life, rendering external circumcision unnecessary.",
+      "span": {
+        "quote": "Believers are united with Christ in his death, where the \"body of the flesh\" is put off, and are raised to new life, rendering external circumcision unnecessary"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

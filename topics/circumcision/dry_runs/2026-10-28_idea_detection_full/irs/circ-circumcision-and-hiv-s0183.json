@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0183",
+  "source_text": "Emerging data have explored VMMC's potential benefits for men who have sex with men (MSM), with a 2024 study indicating up to 91% risk reduction for predominantly insertive partners, though evidence remains limited outside heterosexual epidemics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Emerging data have explored VMMC's potential benefits for men who have sex with men (MSM), with a 2024 study indicating up to 91% risk reduc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Emerging data have explored VMMC's potential benefits for men who have sex with men (MSM), with a 2024 study indicating up to 91% risk reduction for predominant.",
+      "span": {
+        "quote": "Emerging data have explored VMMC's potential benefits for men who have sex with men (MSM), with a 2024 study indicating up to 91% risk reduction for predominant"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

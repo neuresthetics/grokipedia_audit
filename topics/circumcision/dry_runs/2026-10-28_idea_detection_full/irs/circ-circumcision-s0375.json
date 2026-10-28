@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0375",
+  "source_text": "It highlights ethical concerns for non-therapeutic procedures without compelling need, while advising analgesia and informed consent if performed.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It highlights ethical concerns for non-therapeutic procedures without compelling need, while advising analgesia and informed consent if perf"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It highlights ethical concerns for non-therapeutic procedures without compelling need, while advising analgesia and informed consent if performed.",
+      "span": {
+        "quote": "It highlights ethical concerns for non-therapeutic procedures without compelling need, while advising analgesia and informed consent if performed."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

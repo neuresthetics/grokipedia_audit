@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0122",
+  "source_text": "Complications like sepsis and amputation arise from non-sterile conditions, prompting regulatory efforts in places like South Africa, where the practice is constitutionally shielded as cultural expression despite risks. [68] [64]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complications like sepsis and amputation arise from non-sterile conditions, prompting regulatory efforts in places like South Africa, where"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complications like sepsis and amputation arise from non-sterile conditions, prompting regulatory efforts in places like South Africa, where the practice is cons.",
+      "span": {
+        "quote": "Complications like sepsis and amputation arise from non-sterile conditions, prompting regulatory efforts in places like South Africa, where the practice is cons"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

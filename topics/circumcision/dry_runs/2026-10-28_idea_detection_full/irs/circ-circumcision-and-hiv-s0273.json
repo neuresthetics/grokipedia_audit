@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0273",
+  "source_text": "One analysis estimated VMMC's cost per infection averted at $1,096 versus $6,790 for treatment-as-prevention, reflecting VMMC's upstream preventive impact on incident cases without ongoing drug requirements. [133]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "One analysis estimated VMMC's cost per infection averted at $1,096 versus $6,790 for treatment-as-prevention, reflecting VMMC's upstream pre"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "One analysis estimated VMMC's cost per infection averted at $1,096 versus $6,790 for treatment-as-prevention, reflecting VMMC's upstream preventive impact on in.",
+      "span": {
+        "quote": "One analysis estimated VMMC's cost per infection averted at $1,096 versus $6,790 for treatment-as-prevention, reflecting VMMC's upstream preventive impact on in"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per infection averted at $1.",
+      "span": {
+        "quote": "per infection averted at $1"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per infection averted at $1"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-forced-circumcision-s0238",
+  "source_text": "This perspective holds that deferring to parents respects the child's embeddedness in a community, where traditions foster identity and cohesion, outweighing abstract autonomy claims for pre-verbal infants incapable of independent judgment.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective holds that deferring to parents respects the child's embeddedness in a community, where traditions foster identity and cohe"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For pre-verbal infants incapable of independent judgment.",
+      "span": {
+        "quote": "for pre-verbal infants incapable of independent judgment."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This perspective holds that deferring to parents respects the child's embeddedness in a community, where traditions foster identity and cohesion, outweighing ab.",
+      "span": {
+        "quote": "This perspective holds that deferring to parents respects the child's embeddedness in a community, where traditions foster identity and cohesion, outweighing ab"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

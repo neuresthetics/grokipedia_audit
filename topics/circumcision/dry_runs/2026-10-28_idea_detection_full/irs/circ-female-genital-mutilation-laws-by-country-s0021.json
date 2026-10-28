@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0021",
+  "source_text": "Prevalent in parts of East Africa and the Horn (e.g., Somalia, Sudan), it is the most severe form, often necessitating deinfibulation for intercourse or delivery, though reinfibulation post-childbirth persists despite WHO discouragement due to exacerbated health risks. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prevalent in parts of East Africa and the Horn (e.g., Somalia, Sudan), it is the most severe form, often necessitating deinfibulation for in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prevalent in parts of East Africa and the Horn (e.g., Somalia, Sudan), it is the most severe form, often necessitating deinfibulation for intercourse or deliver.",
+      "span": {
+        "quote": "Prevalent in parts of East Africa and the Horn (e.g., Somalia, Sudan), it is the most severe form, often necessitating deinfibulation for intercourse or deliver"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

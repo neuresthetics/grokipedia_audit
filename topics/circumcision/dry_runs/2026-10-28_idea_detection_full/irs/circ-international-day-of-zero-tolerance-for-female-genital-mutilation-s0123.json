@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0123",
+  "source_text": "Female genital mutilation (FGM) leads to a range of chronic physical health issues stemming from tissue damage, scarring, and interference with normal anatomical function.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) leads to a range of chronic physical health issues stemming from tissue damage, scarring, and interference w"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) leads to a range of chronic physical health issues stemming from tissue damage, scarring, and interference with normal anatomica.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) leads to a range of chronic physical health issues stemming from tissue damage, scarring, and interference with normal anatomica"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

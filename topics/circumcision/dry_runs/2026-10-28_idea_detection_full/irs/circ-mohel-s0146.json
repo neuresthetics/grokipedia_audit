@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-mohel-s0146",
+  "source_text": "From a first-principles ethical standpoint, infant circumcision fails the principle of autonomy because the child is incapable of informed consent, rendering the act a unilateral imposition that forecloses future choice. [78]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From a first-principles ethical standpoint, infant circumcision fails the principle of autonomy because the child is incapable of informed c"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From a first-principles ethical standpoint, infant circumcision fails the principle of autonomy.",
+      "span": {
+        "quote": "From a first-principles ethical standpoint, infant circumcision fails the principle of autonomy"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The child is incapable of informed consent, rendering the act a unilateral imposition that forecloses future choice. [78].",
+      "span": {
+        "quote": "the child is incapable of informed consent, rendering the act a unilateral imposition that forecloses future choice. [78]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "because the child is incapable of informed consent, rendering the ac"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

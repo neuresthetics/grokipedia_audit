@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-007",
+  "source_text": "Charity lives in the **extractor** (plus normalizer), not the checker: hedges stay hedges; recommendations that rest only on a causal effect assert that effect; defaults are procedural; supply the strongest plausible unstated premise and mark unstated: true.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Charity lives in the **extractor** (plus normalizer), not the checker: hedges stay hedges; recommendations that rest only on a causal effect"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Effect;.",
+      "span": {
+        "quote": "effect;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Charity lives in the **extractor** (plus normalizer), not the checker: hedges stay hedges; recommendations that rest only on a causal effect.",
+      "span": {
+        "quote": "Charity lives in the **extractor** (plus normalizer), not the checker: hedges stay hedges; recommendations that rest only on a causal effect"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0041",
+  "source_text": "A 2011 systematic review and meta-analysis of case-control studies found men circumcised neonatally or in youth had an odds ratio of 0.33 (95% CI 0.13-0.83) for invasive penile cancer compared to uncircumcised men, attributing part of the effect to reduced human papillomavirus (HPV) persistence and chronic inflammation. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2011 systematic review and meta-analysis of case-control studies found men circumcised neonatally or in youth had an odds ratio of 0.33 (9"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2011 systematic review and meta-analysis of case-control studies found men circumcised neonatally or in youth had an odds ratio of 0.33 (95% CI 0.13-0.83) for.",
+      "span": {
+        "quote": "A 2011 systematic review and meta-analysis of case-control studies found men circumcised neonatally or in youth had an odds ratio of 0.33 (95% CI 0.13-0.83) for"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0376",
+  "source_text": "Courts reference policy statements from the American Academy of Pediatrics (AAP), which in 2012 concluded preventive health benefits\u2014reduced penile cancer (lifetime risk drop from 1 in 100,000 to near zero), HIV acquisition (60% relative reduction in heterosexual transmission), and urinary tract infections\u2014outweigh risks but do not warrant universal policy. [196] [197]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Courts reference policy statements from the American Academy of Pediatrics (AAP), which in 2012 concluded preventive health benefits\u2014reduced"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Preventive health benefits\u2014reduced penile cancer (lifetime risk drop from 1 in 100,000 to near zero), HIV acquisition (60% relative reduction in heterosexual tr.",
+      "span": {
+        "quote": "preventive health benefits\u2014reduced penile cancer (lifetime risk drop from 1 in 100,000 to near zero), HIV acquisition (60% relative reduction in heterosexual tr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Courts reference policy statements from the American Academy of Pediatrics (AAP), which in 2012.",
+      "span": {
+        "quote": "Courts reference policy statements from the American Academy of Pediatrics (AAP), which in 2012"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concluded"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

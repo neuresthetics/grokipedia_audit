@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0091",
+  "source_text": "The absence of such extensions aligned with prevailing legal norms limiting UK courts' authority to foreign territories, though this overlooked the border-transcending nature of child harm, where procedural trauma and long-term health sequelae\u2014such as infection risks, chronic pain, and obstetric complications\u2014manifest irrespective of location.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The absence of such extensions aligned with prevailing legal norms limiting UK courts' authority to foreign territories, though this overloo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The absence of such extensions aligned with prevailing legal norms limiting UK courts' authority to foreign territories, though this overlooked the border-trans.",
+      "span": {
+        "quote": "The absence of such extensions aligned with prevailing legal norms limiting UK courts' authority to foreign territories, though this overlooked the border-trans"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with prevailing legal norms limiting UK courts' authority to.",
+      "span": {
+        "quote": "aligned with prevailing legal norms limiting UK courts' authority to"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with prevailing legal norms limiting UK courts' authority to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with prevailing legal norms limiting UK courts' authority to ",
+          "span": {
+            "quote": "aligned with prevailing legal norms limiting UK courts' authority to"
+          }
+        }
+      ]
+    }
+  ]
+}

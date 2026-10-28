@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0121",
+  "source_text": "This shift causally heightens infection vectors\u2014such as balanitis or phimosis-related issues\u2014that were less selective pressures in pre-agricultural epochs, where post-reproductive mortality from penile infections did not impede gene propagation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This shift causally heightens infection vectors\u2014such as balanitis or phimosis-related issues\u2014that were less selective pressures in pre-agric"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This shift causally heightens infection vectors\u2014such as balanitis or phimosis-related issues\u2014that were less selective pressures in pre-agricultural epochs, wher.",
+      "span": {
+        "quote": "This shift causally heightens infection vectors\u2014such as balanitis or phimosis-related issues\u2014that were less selective pressures in pre-agricultural epochs, wher"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0257",
+  "source_text": "Indirect benefits to women via reduced community prevalence were hypothesized but not demonstrated in trial endpoints.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Indirect benefits to women via reduced community prevalence were hypothesized but not demonstrated in trial endpoints."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Indirect benefits to women via reduced community prevalence were hypothesized but not demonstrated in trial endpoints.",
+      "span": {
+        "quote": "Indirect benefits to women via reduced community prevalence were hypothesized but not demonstrated in trial endpoints."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

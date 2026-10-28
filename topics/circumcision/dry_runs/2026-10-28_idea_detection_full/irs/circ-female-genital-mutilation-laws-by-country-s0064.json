@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0064",
+  "source_text": "The comment underscores FGM's incompatibility with human rights standards, citing immediate and long-term health risks like hemorrhage, infection, and psychological trauma, and calls for harmonization of laws across borders to address cross-community practices.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The comment underscores FGM's incompatibility with human rights standards, citing immediate and long-term health risks like hemorrhage, infe"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The comment underscores FGM's incompatibility with human rights standards, citing immediate and long-term health risks like hemorrhage, infection, and psycholog.",
+      "span": {
+        "quote": "The comment underscores FGM's incompatibility with human rights standards, citing immediate and long-term health risks like hemorrhage, infection, and psycholog"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing immediate and long-term health risks like hemorrhage.",
+      "span": {
+        "quote": "citing immediate and long-term health risks like hemorrhage"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing immediate and long-term health risks like hemorrhage"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

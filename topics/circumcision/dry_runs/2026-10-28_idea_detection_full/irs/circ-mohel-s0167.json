@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-mohel-s0167",
+  "source_text": "This resolution drew criticism from bioethicists for inadequately protecting non-consenting infants, as parental religious conviction may override disclosed perils, perpetuating a practice where empirical harm\u2014evidenced by clustered infections tracing to individual mohels\u2014outweighs unsubstantiated ritual claims. [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This resolution drew criticism from bioethicists for inadequately protecting non-consenting infants, as parental religious conviction may ov"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Nviction may override disclosed perils, perpetuating a practice where empirical harm\u2014evidenced by clustered infections tracing to individual mohels\u2014outweighs un.",
+      "span": {
+        "quote": "nviction may override disclosed perils, perpetuating a practice where empirical harm\u2014evidenced by clustered infections tracing to individual mohels\u2014outweighs un"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated ritual claims.",
+      "span": {
+        "quote": "unsubstantiated ritual claims"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated ritual claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

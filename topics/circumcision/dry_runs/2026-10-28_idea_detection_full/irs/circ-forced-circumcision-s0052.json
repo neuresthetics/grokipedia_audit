@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0052",
+  "source_text": "Elders perform the procedure using traditional tools, with community enforcement ensuring participation; resisters face ostracism, public shaming, or abduction-like coercion during seasonal peaks, as seen in reports of forced operations on unwilling individuals.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Elders perform the procedure using traditional tools, with community enforcement ensuring participation; resisters face ostracism, public sh"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Elders perform the procedure using traditional tools, with community enforcement ensuring participation; resisters face ostracism, public shaming, or abduction-.",
+      "span": {
+        "quote": "Elders perform the procedure using traditional tools, with community enforcement ensuring participation; resisters face ostracism, public shaming, or abduction-"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

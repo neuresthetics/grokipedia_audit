@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0161",
+  "source_text": "Involving over 10,000 men in South Africa, Kenya, and Uganda, the trials stopped early due to efficacy, with follow-up confirming protection for at least two years. [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Involving over 10,000 men in South Africa, Kenya, and Uganda, the trials stopped early due to efficacy, with follow-up confirming protection"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Involving over 10,000 men in South Africa, Kenya, and Uganda, the trials stopped early due to efficacy, with follow-up confirming protection for at least two ye.",
+      "span": {
+        "quote": "Involving over 10,000 men in South Africa, Kenya, and Uganda, the trials stopped early due to efficacy, with follow-up confirming protection for at least two ye"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0143",
+  "source_text": "Figures such as Claire Coutinho have called FGM an \"abhorrent act\" requiring firm enforcement.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Figures such as Claire Coutinho have called FGM an \"abhorrent act\" requiring firm enforcement."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Figures such as Claire Coutinho have called FGM an \"abhorrent act\" requiring firm enforcement.",
+      "span": {
+        "quote": "Figures such as Claire Coutinho have called FGM an \"abhorrent act\" requiring firm enforcement."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

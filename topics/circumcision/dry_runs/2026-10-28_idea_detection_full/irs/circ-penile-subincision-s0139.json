@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0139",
+  "source_text": "In Western body modification subcultures, influenced by the \"modern primitives\" movement of the 1990s onward\u2014which seeks to revive tribal aesthetics through voluntary alterations\u2014penile subincision is occasionally self-performed or sought from specialized practitioners for reasons including aesthetic reconfiguration, enhanced urination mechanics, or intensified sexual sensations via exposure of the urethra. [42]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Western body modification subcultures, influenced by the \"modern primitives\" movement of the 1990s onward\u2014which seeks to revive tribal ae"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Western body modification subcultures, influenced by the \"modern primitives\" movement of the 1990s onward\u2014which seeks to revive tribal aesthetics through vol.",
+      "span": {
+        "quote": "In Western body modification subcultures, influenced by the \"modern primitives\" movement of the 1990s onward\u2014which seeks to revive tribal aesthetics through vol"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

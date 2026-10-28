@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-mohel-s0159",
+  "source_text": "They contend that historical rabbinic consensus, as reiterated in 19th-century responsa amid early germ theory debates, supports direct oral contact unless the mohel is known to carry disease, prioritizing religious observance over secular risk assessments.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They contend that historical rabbinic consensus, as reiterated in 19th-century responsa amid early germ theory debates, supports direct oral"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Istorical rabbinic consensus, as reiterated in 19th-century responsa amid early germ theory debates, supports direct oral contact unless the mohel is known to c.",
+      "span": {
+        "quote": "istorical rabbinic consensus, as reiterated in 19th-century responsa amid early germ theory debates, supports direct oral contact unless the mohel is known to c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

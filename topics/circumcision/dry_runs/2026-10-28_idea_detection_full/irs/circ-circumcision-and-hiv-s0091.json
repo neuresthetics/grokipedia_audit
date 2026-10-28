@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0091",
+  "source_text": "Quantitative models estimate that these biological modifications account for the observed 60% reduction in HIV acquisition risk in randomized controlled trials, primarily by curtailing the initial viral inoculum's access to high-yield target cells during the brief exposure window of intercourse. [41] [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Quantitative models estimate that these biological modifications account for the observed 60% reduction in HIV acquisition risk in randomize"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Quantitative models estimate that these biological modifications account for the observed 60% reduction in HIV acquisition risk in randomized controlled trials,.",
+      "span": {
+        "quote": "Quantitative models estimate that these biological modifications account for the observed 60% reduction in HIV acquisition risk in randomized controlled trials,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

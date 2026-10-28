@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-milah-s0259",
+  "source_text": "They invoke the harm principle, asserting that even modest risks\u2014such as infection (0.2-0.6% incidence), excessive skin removal, or reduced sensitivity\u2014outweigh prophylactic benefits like lowered urinary tract infection rates (from 1% to 0.1-0.2% in infancy) or heterosexual HIV transmission reduction (by 50-60% in high-prevalence areas), which can be achieved through hygiene, condoms, or adult choice without ethical compromise. [125]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They invoke the harm principle, asserting that even modest risks\u2014such as infection (0.2-0.6% incidence), excessive skin removal, or reduced"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "They invoke the harm principle, asserting that even modest risks\u2014such as infection (0.2-0.6% incidence), excessive skin removal, or reduced sensitivity\u2014outweigh.",
+      "span": {
+        "quote": "They invoke the harm principle, asserting that even modest risks\u2014such as infection (0.2-0.6% incidence), excessive skin removal, or reduced sensitivity\u2014outweigh"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

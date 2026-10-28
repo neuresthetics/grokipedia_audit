@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-man-s0113",
+  "source_text": "He noted that the superhero's Aryan-like appearance reflects his own Germanic heritage and emphasized that Foreskin Man intervenes to protect Jewish infants from what he describes as genital mutilation, framing the narrative as advocacy for child protection rather than ethnic animus. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "He noted that the superhero's Aryan-like appearance reflects his own Germanic heritage and emphasized that Foreskin Man intervenes to protec"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "he"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Foreskin Man intervenes to protect Jewish infants from what he describes as genital mutilation, framing the narrative as advocacy for child protection rather th.",
+      "span": {
+        "quote": "Foreskin Man intervenes to protect Jewish infants from what he describes as genital mutilation, framing the narrative as advocacy for child protection rather th"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "He noted that the superhero's Aryan-like appearance reflects his own Germanic heritage and.",
+      "span": {
+        "quote": "He noted that the superhero's Aryan-like appearance reflects his own Germanic heritage and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

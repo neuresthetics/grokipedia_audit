@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0143",
+  "source_text": "This right is enshrined in international human rights frameworks, such as the United Nations Convention on the Rights of the Child, which prioritizes the protection of children's physical integrity against non-essential interventions. [76]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This right is enshrined in international human rights frameworks, such as the United Nations Convention on the Rights of the Child, which pr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This right is enshrined in international human rights frameworks, such as the United Nations Convention on the Rights of the Child, which prioritizes the protec.",
+      "span": {
+        "quote": "This right is enshrined in international human rights frameworks, such as the United Nations Convention on the Rights of the Child, which prioritizes the protec"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

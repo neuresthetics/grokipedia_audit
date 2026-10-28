@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0168",
+  "source_text": "This environmental causality underscores how cultural persistence can embody practical responses to historical exigencies, validating continuity where no overriding harm is empirically demonstrated.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This environmental causality underscores how cultural persistence can embody practical responses to historical exigencies, validating contin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This environmental causality underscores how cultural persistence can embody practical responses to historical exigencies, validating continuity where no overri.",
+      "span": {
+        "quote": "This environmental causality underscores how cultural persistence can embody practical responses to historical exigencies, validating continuity where no overri"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

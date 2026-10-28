@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-004",
+  "source_text": "The flat report on each node is the ordinary check_passage result. Nesting does not rewrite it. stress / outcome say what the peel added.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The flat report on each node is the ordinary check_passage result. Nesting does not rewrite it. stress / outcome say what the peel added."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The flat report on each node is the ordinary check_passage result. Nesting does not rewrite it. stress / outcome say what the peel added.",
+      "span": {
+        "quote": "The flat report on each node is the ordinary check_passage result. Nesting does not rewrite it. stress / outcome say what the peel added."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

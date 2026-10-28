@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0193",
+  "source_text": "Positions vary by jurisdiction, with some medical ethics bodies viewing routine religious circumcision as deferrable to respect emerging self-determination.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Positions vary by jurisdiction, with some medical ethics bodies viewing routine religious circumcision as deferrable to respect emerging sel"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Positions vary by jurisdiction, with some medical ethics bodies viewing routine religious circumcision as deferrable to respect emerging self-determination.",
+      "span": {
+        "quote": "Positions vary by jurisdiction, with some medical ethics bodies viewing routine religious circumcision as deferrable to respect emerging self-determination."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

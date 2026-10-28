@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-clitoridectomy-s0008",
+  "source_text": "Efforts to eradicate clitoridectomy face resistance from entrenched social structures that perpetuate it as a prerequisite for marriageability or community acceptance, despite near-universal condemnation by medical bodies and bans under international human rights frameworks. [8] [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Efforts to eradicate clitoridectomy face resistance from entrenched social structures that perpetuate it as a prerequisite for marriageabili"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "medical_bodies"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Efforts to eradicate clitoridectomy face resistance from entrenched social structures that perpetuate it as a prerequisite for marriageability or community acce.",
+      "span": {
+        "quote": "Efforts to eradicate clitoridectomy face resistance from entrenched social structures that perpetuate it as a prerequisite for marriageability or community acce"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c3",
+      "text": "A prerequisite for marriageability or community acceptance.",
+      "span": {
+        "quote": "a prerequisite for marriageability or community acceptance"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "medical bodies"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "a prerequisite for marriageability or community acceptance"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

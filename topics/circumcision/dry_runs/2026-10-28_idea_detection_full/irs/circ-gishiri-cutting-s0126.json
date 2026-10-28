@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0126",
+  "source_text": "This practice, often performed by traditional barbers using unsterilized razors or broken glass to address perceived vaginal narrowing or infections, carries risks of immediate hemorrhage and sepsis, as the cuts penetrate sensitive mucosal tissues without anesthesia or aseptic conditions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice, often performed by traditional barbers using unsterilized razors or broken glass to address perceived vaginal narrowing or in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice, often performed by traditional barbers using unsterilized razors or broken glass to address perceived vaginal narrowing or infections, carries ri.",
+      "span": {
+        "quote": "This practice, often performed by traditional barbers using unsterilized razors or broken glass to address perceived vaginal narrowing or infections, carries ri"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

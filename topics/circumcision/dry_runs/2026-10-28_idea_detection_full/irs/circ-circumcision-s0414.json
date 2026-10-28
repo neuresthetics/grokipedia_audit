@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-s0414",
+  "source_text": "They note that postponing until adulthood increases procedural complexity and pain, potentially forgoing benefits like reduced HIV risk\u2014shown at 60% efficacy against heterosexual acquisition in African trials. [75] [232]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They note that postponing until adulthood increases procedural complexity and pain, potentially forgoing benefits like reduced HIV risk\u2014show"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "They note that postponing until adulthood increases procedural complexity and pain, potentially forgoing benefits like reduced HIV risk\u2014shown at 60% efficacy ag.",
+      "span": {
+        "quote": "They note that postponing until adulthood increases procedural complexity and pain, potentially forgoing benefits like reduced HIV risk\u2014shown at 60% efficacy ag"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

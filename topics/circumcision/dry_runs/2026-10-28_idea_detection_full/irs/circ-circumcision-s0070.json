@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-s0070",
+  "source_text": "Pain is effectively controlled with over-the-counter analgesics like ibuprofen or acetaminophen, ice packs to reduce swelling, loose clothing, and rest.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pain is effectively controlled with over-the-counter analgesics like ibuprofen or acetaminophen, ice packs to reduce swelling, loose clothin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pain is effectively controlled with over-the-counter analgesics like ibuprofen or acetaminophen, ice packs to reduce swelling, loose clothing, and rest.",
+      "span": {
+        "quote": "Pain is effectively controlled with over-the-counter analgesics like ibuprofen or acetaminophen, ice packs to reduce swelling, loose clothing, and rest."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

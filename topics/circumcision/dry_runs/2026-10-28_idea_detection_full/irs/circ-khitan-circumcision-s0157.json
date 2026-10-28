@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0157",
+  "source_text": "These advantages are context-dependent, with HIV prevention most pronounced in high-prevalence heterosexual epidemics, though UTI and cancer risk reductions apply more universally across low- and high-income settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These advantages are context-dependent, with HIV prevention most pronounced in high-prevalence heterosexual epidemics, though UTI and cancer"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These advantages are context-dependent, with HIV prevention most pronounced in high-prevalence heterosexual epidemics, though UTI and cancer risk reductions app.",
+      "span": {
+        "quote": "These advantages are context-dependent, with HIV prevention most pronounced in high-prevalence heterosexual epidemics, though UTI and cancer risk reductions app"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "These advantages are context-dependent.",
+      "span": {
+        "quote": "These advantages are context-dependent"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "These advantages are context-dependent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

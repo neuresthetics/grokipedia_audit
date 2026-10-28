@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-s0258",
+  "source_text": "Sayre's 1870 presentation to the American Medical Association and later publications extended this to prophylaxis, advocating routine newborn circumcision to prevent urinary tract problems and neuromuscular disorders, thus embedding it in U.S. pediatric surgery.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sayre's 1870 presentation to the American Medical Association and later publications extended this to prophylaxis, advocating routine newbor"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sentation to the American Medical Association and later publications extended this to prophylaxis, advocating routine newborn circumcision to prevent urinary tr.",
+      "span": {
+        "quote": "sentation to the American Medical Association and later publications extended this to prophylaxis, advocating routine newborn circumcision to prevent urinary tr"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Embedding it in U.S. pediatric surgery.",
+      "span": {
+        "quote": "embedding it in U.S. pediatric surgery."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "prevent"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

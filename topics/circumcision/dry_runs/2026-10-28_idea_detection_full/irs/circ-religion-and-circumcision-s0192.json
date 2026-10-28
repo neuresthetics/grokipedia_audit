@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0192",
+  "source_text": "Empirical ethical analyses suggest weighing future autonomy interests\u2014treating the child as an ideal agent likely to value intact genitals\u2014against immediate communal bonds, often favoring delay to resolve consent deficits. [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical ethical analyses suggest weighing future autonomy interests\u2014treating the child as an ideal agent likely to value intact genitals\u2014a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Weighing future autonomy interests\u2014treating the child as an ideal agent likely to value intact genitals\u2014against immediate communal bonds, often favoring delay t.",
+      "span": {
+        "quote": "weighing future autonomy interests\u2014treating the child as an ideal agent likely to value intact genitals\u2014against immediate communal bonds, often favoring delay t"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical ethical analyses.",
+      "span": {
+        "quote": "Empirical ethical analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggest"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-forced-circumcision-s0060",
+  "source_text": "Participants report valuing the status gain but acknowledge involuntary elements, including bans on seeking medical aid post-procedure to prove resilience, contributing to high complication rates: in Eastern Cape seasons of 2014-2015, over 32 deaths occurred from sepsis, dehydration, and mutilations linked to reused knives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Participants report valuing the status gain but acknowledge involuntary elements, including bans on seeking medical aid post-procedure to pr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Participants report valuing the status gain but acknowledge involuntary elements, including bans on seeking medical aid post-procedure to prove resilience, cont.",
+      "span": {
+        "quote": "Participants report valuing the status gain but acknowledge involuntary elements, including bans on seeking medical aid post-procedure to prove resilience, cont"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to reused knives.",
+      "span": {
+        "quote": "linked to reused knives"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to reused knives"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to reused knives",
+          "span": {
+            "quote": "linked to reused knives"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0110",
+  "source_text": "Chronic urinary tract infections (UTIs) affect women with FGM at elevated rates, linked to urethral distortion and poor hygiene due to scarred, narrowed anatomy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Chronic urinary tract infections (UTIs) affect women with FGM at elevated rates, linked to urethral distortion and poor hygiene due to scarr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Chronic urinary tract infections (UTIs) affect women with FGM at elevated rates, linked to urethral distortion and poor hygiene due to scarred, narrowed anatomy.",
+      "span": {
+        "quote": "Chronic urinary tract infections (UTIs) affect women with FGM at elevated rates, linked to urethral distortion and poor hygiene due to scarred, narrowed anatomy"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to urethral distortion and poor hygiene due to scarred.",
+      "span": {
+        "quote": "linked to urethral distortion and poor hygiene due to scarred"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to urethral distortion and poor hygiene due to scarred"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to urethral distortion and poor hygiene due to scarred",
+          "span": {
+            "quote": "linked to urethral distortion and poor hygiene due to scarred"
+          }
+        }
+      ]
+    }
+  ]
+}

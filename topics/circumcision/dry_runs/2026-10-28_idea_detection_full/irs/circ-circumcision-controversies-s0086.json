@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0086",
+  "source_text": "The frequently cited assertion that the foreskin contains over 20,000 nerve endings (often specified as specialized fine-touch variants) originates from advocacy literature, notably a 1997 article by Paul Fleiss referencing older observations such as the 1932 Bazett et al. study on nerve densities per square centimeter.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The frequently cited assertion that the foreskin contains over 20,000 nerve endings (often specified as specialized fine-touch variants) ori"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "paul"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The frequently cited assertion that the foreskin contains over 20,000 nerve endings (often specified as specialized fine-touch variants) originates from advocac.",
+      "span": {
+        "quote": "The frequently cited assertion that the foreskin contains over 20,000 nerve endings (often specified as specialized fine-touch variants) originates from advocac"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per square centimeter.",
+      "span": {
+        "quote": "per square centimeter"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per square centimeter"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

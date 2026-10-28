@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0060",
+  "source_text": "Severe acute complications, such as significant penile injury or partial amputation, are exceedingly rare, with incidence rates estimated at 0.04% for penile injury and lower for amputation, on the order of 1 in 500,000 to 1 million circumcisions in hospital settings. [38] [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Severe acute complications, such as significant penile injury or partial amputation, are exceedingly rare, with incidence rates estimated at"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Severe acute complications, such as significant penile injury or partial amputation, are exceedingly rare, with incidence rates estimated at 0.04% for penile in.",
+      "span": {
+        "quote": "Severe acute complications, such as significant penile injury or partial amputation, are exceedingly rare, with incidence rates estimated at 0.04% for penile in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

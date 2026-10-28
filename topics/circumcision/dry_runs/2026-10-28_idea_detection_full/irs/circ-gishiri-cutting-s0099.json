@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0099",
+  "source_text": "Infection poses an acute risk owing to the use of unsterilized instruments and non-aseptic conditions typical of traditional settings. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infection poses an acute risk owing to the use of unsterilized instruments and non-aseptic conditions typical of traditional settings. [24]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infection poses an acute risk owing to the use of unsterilized instruments and non-aseptic conditions typical of traditional settings. [24].",
+      "span": {
+        "quote": "Infection poses an acute risk owing to the use of unsterilized instruments and non-aseptic conditions typical of traditional settings. [24]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

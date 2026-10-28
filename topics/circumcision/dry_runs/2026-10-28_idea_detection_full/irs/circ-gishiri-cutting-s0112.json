@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0112",
+  "source_text": "In northern Nigerian cohorts, gishiri-related VVF accounted for up to 6.2% of cases as the second most common etiology after prolonged labor, underscoring its role in sustained physiological disability.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In northern Nigerian cohorts, gishiri-related VVF accounted for up to 6.2% of cases as the second most common etiology after prolonged labor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In northern Nigerian cohorts, gishiri-related VVF accounted for up to 6.2% of cases as the second most common etiology after prolonged labor, underscoring its r.",
+      "span": {
+        "quote": "In northern Nigerian cohorts, gishiri-related VVF accounted for up to 6.2% of cases as the second most common etiology after prolonged labor, underscoring its r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

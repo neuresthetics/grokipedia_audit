@@ -1,0 +1,68 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0020",
+  "source_text": "No credible medical evidence supports health benefits, despite cultural assertions in practicing communities that procedures reduce promiscuity or enhance hygiene; such claims lack causal substantiation and are contradicted by physiological data showing impaired genital function without compensatory gains. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No credible medical evidence supports health benefits, despite cultural assertions in practicing communities that procedures reduce promiscu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Lack causal substantiation and are contradicted by physiological data showing impaired genital function without compensatory gains.",
+      "span": {
+        "quote": "lack causal substantiation and are contradicted by physiological data showing impaired genital function without compensatory gains."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "No credible medical evidence supports health benefits, despite cultural assertions in practicing communities that procedures reduce promiscuity or enhance hygie.",
+      "span": {
+        "quote": "No credible medical evidence supports health benefits, despite cultural assertions in practicing communities that procedures reduce promiscuity or enhance hygie"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "reduce"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

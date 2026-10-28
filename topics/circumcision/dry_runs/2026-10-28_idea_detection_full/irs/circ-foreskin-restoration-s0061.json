@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0061",
+  "source_text": "Participants reported attributing adverse outcomes like painful erections, decreased gliding action during intercourse, and lowered orgasm intensity to circumcision, prompting non-surgical stretching to approximate natural foreskin functions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Participants reported attributing adverse outcomes like painful erections, decreased gliding action during intercourse, and lowered orgasm i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Participants reported attributing adverse outcomes like painful erections, decreased gliding action during intercourse, and lowered orgasm intensity to circumci.",
+      "span": {
+        "quote": "Participants reported attributing adverse outcomes like painful erections, decreased gliding action during intercourse, and lowered orgasm intensity to circumci"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

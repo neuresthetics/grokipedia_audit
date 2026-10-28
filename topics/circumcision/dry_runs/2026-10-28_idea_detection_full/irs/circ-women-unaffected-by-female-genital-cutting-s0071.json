@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0071",
+  "source_text": "Ahmadu has cited her personal observations and ethnographic research to dispute claims of universal sexual impairment, noting that circumcised women in her studies, including herself, achieved orgasms and sexual satisfaction without difficulty.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ahmadu has cited her personal observations and ethnographic research to dispute claims of universal sexual impairment, noting that circumcis"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of universal sexual impairment, noting that circumcised women in her studies, including herself, achieved orgasms and sexual satisfaction without difficulty.",
+      "span": {
+        "quote": "of universal sexual impairment, noting that circumcised women in her studies, including herself, achieved orgasms and sexual satisfaction without difficulty."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ahmadu has cited her personal observations and ethnographic research to dispute.",
+      "span": {
+        "quote": "Ahmadu has cited her personal observations and ethnographic research to dispute"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0089",
+  "source_text": "These claims stem from anecdotal practitioner experiences and cultural beliefs, without controlled verification, and are applied to symptoms like itching, boils, or genital pain.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims stem from anecdotal practitioner experiences and cultural beliefs, without controlled verification, and are applied to symptoms"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Stem from anecdotal practitioner experiences and cultural beliefs, without controlled verification, and are applied to symptoms like itching, boils, or genital.",
+      "span": {
+        "quote": "stem from anecdotal practitioner experiences and cultural beliefs, without controlled verification, and are applied to symptoms like itching, boils, or genital "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0071",
+  "source_text": "Philo of Alexandria (ca. 20 BCE\u201350 CE), a Hellenistic Jewish philosopher, defended circumcision allegorically as spiritual purification while acknowledging Greek disdain, arguing it curbed sensual excess without impairing function.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Philo of Alexandria (ca. 20 BCE\u201350 CE), a Hellenistic Jewish philosopher, defended circumcision allegorically as spiritual purification whil"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Philo of Alexandria (ca. 20 BCE\u201350 CE), a Hellenistic Jewish philosopher, defended circumcision allegorically as spiritual purification while acknowledging Gree.",
+      "span": {
+        "quote": "Philo of Alexandria (ca. 20 BCE\u201350 CE), a Hellenistic Jewish philosopher, defended circumcision allegorically as spiritual purification while acknowledging Gree"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0234",
+  "source_text": "Overall, the absence of verifiable risk compensation supports VMMC's net protective role, though ongoing behavioral counseling remains recommended to mitigate any perceptual risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, the absence of verifiable risk compensation supports VMMC's net protective role, though ongoing behavioral counseling remains recom"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, the absence of verifiable risk compensation supports VMMC's net protective role, though ongoing behavioral counseling remains recommended to mitigate a.",
+      "span": {
+        "quote": "Overall, the absence of verifiable risk compensation supports VMMC's net protective role, though ongoing behavioral counseling remains recommended to mitigate a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

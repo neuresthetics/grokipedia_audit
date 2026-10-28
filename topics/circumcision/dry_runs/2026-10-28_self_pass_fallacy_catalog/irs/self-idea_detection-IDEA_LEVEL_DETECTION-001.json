@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-001",
+  "source_text": "**Status:** repo layer under idea_detection/. Does not change published fallacies.json (pilot patterns stay in a side file). METHOD.md stays the human procedure; it only links here. **Constraints:** vanilla catalog; no MINDSPACE; no new Latin names; catalog (~221) is source of truth.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**Status:** repo layer under idea_detection/. Does not change published fallacies.json (pilot patterns stay in a side file). METHOD.md stays"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "**Status:** repo layer under idea_detection/. Does not change published fallacies.json (pilot patterns stay in a side file). METHOD.md stays the human procedure.",
+      "span": {
+        "quote": "**Status:** repo layer under idea_detection/. Does not change published fallacies.json (pilot patterns stay in a side file). METHOD.md stays the human procedure"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

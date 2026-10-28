@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0195",
+  "source_text": "Selection bias arises from volunteer participants, who exhibited lower baseline HIV prevalence (e.g., 2\u20136% in trial cohorts versus 10\u201320% community rates) and potentially safer behaviors due to motivation for trial entry, questioning internal validity and raising doubts about randomization balancing unmeasured confounders like partner HIV status or concurrent STI treatment. [101]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Selection bias arises from volunteer participants, who exhibited lower baseline HIV prevalence (e.g., 2\u20136% in trial cohorts versus 10\u201320% co"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Selection bias arises from volunteer participants, who exhibited lower baseline HIV prevalence (e.g., 2\u20136% in trial cohorts versus 10\u201320% community rates) and p.",
+      "span": {
+        "quote": "Selection bias arises from volunteer participants, who exhibited lower baseline HIV prevalence (e.g., 2\u20136% in trial cohorts versus 10\u201320% community rates) and p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

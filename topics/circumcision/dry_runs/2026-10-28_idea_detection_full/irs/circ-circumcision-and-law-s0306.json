@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0306",
+  "source_text": "Non-therapeutic infant male circumcision is not recommended routinely by the RACP, citing low incidence of preventable diseases, complication rates ranging from 0.4% to 16% (median 1.5%), and ethical concerns over the child's inability to consent to a non-reversible procedure with debated functional implications of the foreskin. [166]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Non-therapeutic infant male circumcision is not recommended routinely by the RACP, citing low incidence of preventable diseases, complicatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-therapeutic infant male circumcision is not recommended routinely by the RACP, citing low incidence of preventable diseases, complication rates ranging from.",
+      "span": {
+        "quote": "Non-therapeutic infant male circumcision is not recommended routinely by the RACP, citing low incidence of preventable diseases, complication rates ranging from"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing low incidence of preventable diseases.",
+      "span": {
+        "quote": "citing low incidence of preventable diseases"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing low incidence of preventable diseases"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

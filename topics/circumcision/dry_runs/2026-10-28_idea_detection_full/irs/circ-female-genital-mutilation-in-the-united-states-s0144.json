@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0144",
+  "source_text": "These harms arise from cutting healthy genital tissue without anesthesia or medical oversight, often using rudimentary tools. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These harms arise from cutting healthy genital tissue without anesthesia or medical oversight, often using rudimentary tools. [25]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These harms arise from cutting healthy genital tissue without anesthesia or medical oversight, often using rudimentary tools. [25].",
+      "span": {
+        "quote": "These harms arise from cutting healthy genital tissue without anesthesia or medical oversight, often using rudimentary tools. [25]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0241",
+  "source_text": "For example, in Zimbabwe (2014\u20132017), adolescents aged 10\u201314 experienced 0.35 moderate/severe AEs per 100, including elevated infection risks threefold higher than adults aged 20 and older.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, in Zimbabwe (2014\u20132017), adolescents aged 10\u201314 experienced 0.35 moderate/severe AEs per 100, including elevated infection risk"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, in Zimbabwe (2014\u20132017), adolescents aged 10\u201314 experienced 0.35 moderate/severe AEs per 100, including elevated infection risks threefold higher t.",
+      "span": {
+        "quote": "For example, in Zimbabwe (2014\u20132017), adolescents aged 10\u201314 experienced 0.35 moderate/severe AEs per 100, including elevated infection risks threefold higher t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100.",
+      "span": {
+        "quote": "per 100"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

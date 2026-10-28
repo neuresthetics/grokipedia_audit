@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0064",
+  "source_text": "Article 24 prioritizes the child's right to the highest attainable health standard and obligates abolition of traditional practices prejudicial to health (Article 24.3), which some interpret to encompass ritual circumcision given evidence of its non-essential nature and potential harms like meatal stenosis (occurring in 5-10% of cases) and keritinization of the glans.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Article 24 prioritizes the child's right to the highest attainable health standard and obligates abolition of traditional practices prejudic"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Article 24 prioritizes the child's right to the highest attainable health standard and obligates abolition of traditional practices prejudicial to health (Artic.",
+      "span": {
+        "quote": "Article 24 prioritizes the child's right to the highest attainable health standard and obligates abolition of traditional practices prejudicial to health (Artic"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

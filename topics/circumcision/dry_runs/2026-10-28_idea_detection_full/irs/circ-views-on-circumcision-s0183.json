@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0183",
+  "source_text": "By the 2010s, the movement rebranded under the term \"intactivism,\" emphasizing intact genitalia as a human rights issue, with organizations like Intaction\u2014founded by Anthony Losquadro in New York\u2014gaining prominence through campaigns framing male circumcision as a form of genital mutilation akin to female genital mutilation (FGM). [108]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the 2010s, the movement rebranded under the term \"intactivism,\" emphasizing intact genitalia as a human rights issue, with organizations"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By the 2010s, the movement rebranded under the term \"intactivism,\" emphasizing intact genitalia as a human rights issue, with organizations like Intaction\u2014found.",
+      "span": {
+        "quote": "By the 2010s, the movement rebranded under the term \"intactivism,\" emphasizing intact genitalia as a human rights issue, with organizations like Intaction\u2014found"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

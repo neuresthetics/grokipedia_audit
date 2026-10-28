@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0056",
+  "source_text": "These beliefs lack religious mandate, as neither the Quran nor the Bible prescribes FGM, and major Islamic and Christian doctrines remain silent on it, with some clerics issuing fatwas against the practice. [4] [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These beliefs lack religious mandate, as neither the Quran nor the Bible prescribes FGM, and major Islamic and Christian doctrines remain si"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These beliefs lack religious mandate, as neither the Quran nor the Bible prescribes FGM, and major Islamic and Christian doctrines remain silent on it, with som.",
+      "span": {
+        "quote": "These beliefs lack religious mandate, as neither the Quran nor the Bible prescribes FGM, and major Islamic and Christian doctrines remain silent on it, with som"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

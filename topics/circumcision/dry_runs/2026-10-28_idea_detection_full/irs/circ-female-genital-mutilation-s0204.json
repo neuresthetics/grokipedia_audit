@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0204",
+  "source_text": "Sexual dysfunction is prevalent among FGM survivors, manifesting as dyspareunia, reduced arousal, lubrication deficits, and diminished orgasmic capacity, as measured by the Female Sexual Function Index (FSFI) in comparative studies.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sexual dysfunction is prevalent among FGM survivors, manifesting as dyspareunia, reduced arousal, lubrication deficits, and diminished orgas"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sexual dysfunction is prevalent among FGM survivors, manifesting as dyspareunia, reduced arousal, lubrication deficits, and diminished orgasmic capacity, as mea.",
+      "span": {
+        "quote": "Sexual dysfunction is prevalent among FGM survivors, manifesting as dyspareunia, reduced arousal, lubrication deficits, and diminished orgasmic capacity, as mea"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

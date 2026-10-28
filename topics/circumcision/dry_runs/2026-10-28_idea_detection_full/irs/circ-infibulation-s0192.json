@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-infibulation-s0192",
+  "source_text": "These disparities in procedure, evidence profile, and physiological impact underpin differing societal and legal treatments: male circumcision remains routine and medically endorsed in contexts like the U.S. and religious communities for its net benefits, while infibulation faces universal condemnation and prohibition under international human rights frameworks due to its demonstrable harm without offsetting gains. [92] [93]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These disparities in procedure, evidence profile, and physiological impact underpin differing societal and legal treatments: male circumcisi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These disparities in procedure, evidence profile, and physiological impact underpin differing societal and legal treatments: male circumcision remains routine a.",
+      "span": {
+        "quote": "These disparities in procedure, evidence profile, and physiological impact underpin differing societal and legal treatments: male circumcision remains routine a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These disparities in procedure.",
+      "span": {
+        "quote": "These disparities in procedure"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "These disparities in procedure"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

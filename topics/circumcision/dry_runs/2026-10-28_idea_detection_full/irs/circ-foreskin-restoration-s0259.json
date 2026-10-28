@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0259",
+  "source_text": "Ethicists assert that such interventions breach core principles like non-maleficence and respect for autonomy, as infants cannot provide consent and future adults may experience regret, evidenced by the existence of restoration communities. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethicists assert that such interventions breach core principles like non-maleficence and respect for autonomy, as infants cannot provide con"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such interventions breach core principles like non-maleficence and respect for autonomy, as infants cannot provide consent and future adults may experience regr.",
+      "span": {
+        "quote": "such interventions breach core principles like non-maleficence and respect for autonomy, as infants cannot provide consent and future adults may experience regr"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

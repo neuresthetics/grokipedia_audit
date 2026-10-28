@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0054",
+  "source_text": "Similarly, in northern Ghana's Kassena-Nankana ethnic group, it is tied to notions of tidiness and maturity, marking the transition to womanhood by aligning the body with societal standards of propriety. [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, in northern Ghana's Kassena-Nankana ethnic group, it is tied to notions of tidiness and maturity, marking the transition to woman"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, in northern Ghana's Kassena-Nankana ethnic group, it is tied to notions of tidiness and maturity, marking the transition to womanhood by aligning the.",
+      "span": {
+        "quote": "Similarly, in northern Ghana's Kassena-Nankana ethnic group, it is tied to notions of tidiness and maturity, marking the transition to womanhood by aligning the"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to notions of tidiness and maturity.",
+      "span": {
+        "quote": "tied to notions of tidiness and maturity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to notions of tidiness and maturity"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to notions of tidiness and maturity",
+          "span": {
+            "quote": "tied to notions of tidiness and maturity"
+          }
+        }
+      ]
+    }
+  ]
+}

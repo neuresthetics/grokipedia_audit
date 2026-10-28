@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0028",
+  "source_text": "The incision depth and length mirror traditional forms but are precisely controlled to expose the urethral lumen while preserving erectile function, with healing accelerated by modern hygiene\u2014typically 2-4 weeks\u2014though long-term risks like stricture formation remain unaddressed by empirical medical endorsement, as the procedure lacks recognized therapeutic utility in contemporary urology.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The incision depth and length mirror traditional forms but are precisely controlled to expose the urethral lumen while preserving erectile f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The incision depth and length mirror traditional forms but are precisely controlled to expose the urethral lumen while preserving erectile function, with healin.",
+      "span": {
+        "quote": "The incision depth and length mirror traditional forms but are precisely controlled to expose the urethral lumen while preserving erectile function, with healin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

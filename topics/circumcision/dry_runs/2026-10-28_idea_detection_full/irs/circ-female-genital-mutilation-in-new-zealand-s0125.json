@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0125",
+  "source_text": "Critics from empirical and assimilationist viewpoints emphasize that FGM's harms\u2014evidenced by the need for surgical reversals in New Zealand clinics and global studies linking it to increased maternal mortality\u2014transcend cultural boundaries, demanding policy focus on integration and deterrence rather than equivocal \"dialogue\" that risks normalizing violence. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics from empirical and assimilationist viewpoints emphasize that FGM's harms\u2014evidenced by the need for surgical reversals in New Zealand"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FGM's harms\u2014evidenced by the need for surgical reversals in New Zealand clinics and global studies linking it to increased maternal mortality\u2014transcend cultural.",
+      "span": {
+        "quote": "FGM's harms\u2014evidenced by the need for surgical reversals in New Zealand clinics and global studies linking it to increased maternal mortality\u2014transcend cultural"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics from empirical and assimilationist viewpoints.",
+      "span": {
+        "quote": "Critics from empirical and assimilationist viewpoints"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

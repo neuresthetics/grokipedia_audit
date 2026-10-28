@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0183",
+  "source_text": "Long-term physical consequences of female genital mutilation (FGM) include chronic genital infections, such as recurrent vaginal and urinary tract infections, as well as pelvic inflammatory disease resulting from scarring and obstructed anatomy. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term physical consequences of female genital mutilation (FGM) include chronic genital infections, such as recurrent vaginal and urinary"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term physical consequences of female genital mutilation (FGM) include chronic genital infections, such as recurrent vaginal and urinary tract infections, a.",
+      "span": {
+        "quote": "Long-term physical consequences of female genital mutilation (FGM) include chronic genital infections, such as recurrent vaginal and urinary tract infections, a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

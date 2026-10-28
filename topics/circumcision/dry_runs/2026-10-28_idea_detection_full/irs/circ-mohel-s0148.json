@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0148",
+  "source_text": "This autonomy deficit is compounded by the procedure's elective nature in non-medical contexts, where parental decisions reflect communal traditions rather than the child's best interests, potentially infringing on the ethical duty of non-maleficence by introducing avoidable harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This autonomy deficit is compounded by the procedure's elective nature in non-medical contexts, where parental decisions reflect communal tr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This autonomy deficit is compounded by the procedure's elective nature in non-medical contexts, where parental decisions reflect communal traditions rather than.",
+      "span": {
+        "quote": "This autonomy deficit is compounded by the procedure's elective nature in non-medical contexts, where parental decisions reflect communal traditions rather than"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

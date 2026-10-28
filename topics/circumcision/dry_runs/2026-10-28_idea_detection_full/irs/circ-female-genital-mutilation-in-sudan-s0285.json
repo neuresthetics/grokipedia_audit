@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0285",
+  "source_text": "This sustains broader societal disparities, as affected women face chronic health complications\u2014including urogenital disorders, obstetric risks during childbirth, and psychological trauma\u2014that impair productivity and impose ongoing burdens on limited healthcare resources. [64]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This sustains broader societal disparities, as affected women face chronic health complications\u2014including urogenital disorders, obstetric ri"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This sustains broader societal disparities, as affected women face chronic health complications\u2014including urogenital disorders, obstetric risks during childbirt.",
+      "span": {
+        "quote": "This sustains broader societal disparities, as affected women face chronic health complications\u2014including urogenital disorders, obstetric risks during childbirt"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

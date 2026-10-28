@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-009",
+  "source_text": "Default depth is **unlimited**. Cycle detection is the bound. --max-depth is an ops safety valve (0 checks the seed only). It is not a product cap of 3.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Default depth is **unlimited**. Cycle detection is the bound. --max-depth is an ops safety valve (0 checks the seed only). It is not a produ"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Default depth is **unlimited**. Cycle detection is the bound. --max-depth is an ops safety valve (0 checks the seed only). It is not a product cap of 3.",
+      "span": {
+        "quote": "Default depth is **unlimited**. Cycle detection is the bound. --max-depth is an ops safety valve (0 checks the seed only). It is not a product cap of 3."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-stapler-circumcision-s0211",
+  "source_text": "These early studies on stapler devices established the technique's feasibility and safety in Chinese medical practice, facilitating wider adoption.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These early studies on stapler devices established the technique's feasibility and safety in Chinese medical practice, facilitating wider ad"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These early studies on stapler devices established the technique's feasibility and safety in Chinese medical practice, facilitating wider adoption.",
+      "span": {
+        "quote": "These early studies on stapler devices established the technique's feasibility and safety in Chinese medical practice, facilitating wider adoption."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

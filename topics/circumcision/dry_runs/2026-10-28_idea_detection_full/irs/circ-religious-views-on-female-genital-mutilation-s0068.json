@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0068",
+  "source_text": "Empirical review of major collections like Sahih al-Bukhari and Sahih Muslim reveals no sahih (authentic) Hadiths explicitly mandating FGM, unlike the robust chains supporting male circumcision as fitrah (innate disposition) in Sahih Muslim 257.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical review of major collections like Sahih al-Bukhari and Sahih Muslim reveals no sahih (authentic) Hadiths explicitly mandating FGM,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical review of major collections like Sahih al-Bukhari and Sahih Muslim reveals no sahih (authentic) Hadiths explicitly mandating FGM, unlike the robust ch.",
+      "span": {
+        "quote": "Empirical review of major collections like Sahih al-Bukhari and Sahih Muslim reveals no sahih (authentic) Hadiths explicitly mandating FGM, unlike the robust ch"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-01",
+  "source_text": "They contend that purported health benefits, such as reduced urinary tract infections (UTIs) in infancy and lower heterosexual HIV transmission rates later in life, can be mitigated through hygiene practices and safe sex, rendering the intervention unnecessary and disproportionate to its harms.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "purported health benefits... can be mitigated through hygiene practices and safe sex, rendering the intervention unnecessary and disproportionate to its harms"
+      },
+      "claim_ids": [
+        "c_benefits",
+        "c_mitigate",
+        "c_unnec"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_benefits",
+      "text": "Purported benefits include reduced infant UTIs and lower heterosexual HIV transmission later in life.",
+      "span": {
+        "quote": "purported health benefits, such as reduced urinary tract infections (UTIs) in infancy and lower heterosexual HIV transmission rates later in life"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c_mitigate",
+      "text": "Those benefits can be mitigated through hygiene practices and safe sex.",
+      "span": {
+        "quote": "can be mitigated through hygiene practices and safe sex"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c_unnec",
+      "text": "The intervention is unnecessary and disproportionate to its harms.",
+      "span": {
+        "quote": "rendering the intervention unnecessary and disproportionate to its harms"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_mitigate",
+      "target": "c_unnec",
+      "span": {
+        "quote": "can be mitigated through hygiene practices and safe sex, rendering the intervention unnecessary"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "depends_on",
+      "source": "c_unnec",
+      "target": "c_benefits",
+      "span": {
+        "quote": "purported health benefits"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

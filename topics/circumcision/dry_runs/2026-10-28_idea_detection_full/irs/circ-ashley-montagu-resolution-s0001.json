@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0001",
+  "source_text": "The Ashley Montagu Resolution is a 1996 declaration adopted by acclamation at the Fourth International Symposium on Sexual Mutilations, held at the University of Lausanne in Switzerland, petitioning the International Court of Justice to rule that non-therapeutic genital cutting of children\u2014encompassing both female genital mutilation and male circumcision\u2014violates core provisions of the United Nations Universal Declaration of Human Rights and the Convention on the Rights of the Child, including bans on torture, cruel treatment, and harmful traditional practices. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Ashley Montagu Resolution is a 1996 declaration adopted by acclamation at the Fourth International Symposium on Sexual Mutilations, held"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Ashley Montagu Resolution is a 1996 declaration adopted by acclamation at the Fourth International Symposium on Sexual Mutilations, held at the University o.",
+      "span": {
+        "quote": "The Ashley Montagu Resolution is a 1996 declaration adopted by acclamation at the Fourth International Symposium on Sexual Mutilations, held at the University o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A 1996 declaration adopted by acclamation at the Fourth Intern.",
+      "span": {
+        "quote": "a 1996 declaration adopted by acclamation at the Fourth Intern"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a 1996 declaration adopted by acclamation at the Fourth Inte"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

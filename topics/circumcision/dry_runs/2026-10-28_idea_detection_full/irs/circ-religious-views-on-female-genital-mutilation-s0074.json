@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0074",
+  "source_text": "Egypt's Dar al-Ifta, in its 2007 international conference proceedings, ruled that female circumcision is permissible and recommended (musta\u1e25abb) when limited to non-harmful forms, aligning with traditional views on purification and chastity. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Egypt's Dar al-Ifta, in its 2007 international conference proceedings, ruled that female circumcision is permissible and recommended (musta\u1e25"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Egypt's Dar al-Ifta, in its 2007 international conference proceedings, ruled that female circumcision is permissible and recommended (musta\u1e25abb) when limited to.",
+      "span": {
+        "quote": "Egypt's Dar al-Ifta, in its 2007 international conference proceedings, ruled that female circumcision is permissible and recommended (musta\u1e25abb) when limited to"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

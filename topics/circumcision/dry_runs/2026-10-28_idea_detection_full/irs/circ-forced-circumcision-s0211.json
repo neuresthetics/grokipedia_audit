@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0211",
+  "source_text": "In a non-binding recommendation, the Parliamentary Assembly of the Council of Europe adopted Resolution 1952 (2013) on \"Children's right to physical integrity,\" asserting that non-therapeutic circumcision of boys for religious reasons violates the child's physical integrity and potentially Article 3 of the European Convention on Human Rights (prohibition of inhuman or degrading treatment). [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a non-binding recommendation, the Parliamentary Assembly of the Council of Europe adopted Resolution 1952 (2013) on \"Children's right to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a non-binding recommendation, the Parliamentary Assembly of the Council of Europe adopted Resolution 1952 (2013) on \"Children's right to physical integrity,\".",
+      "span": {
+        "quote": "In a non-binding recommendation, the Parliamentary Assembly of the Council of Europe adopted Resolution 1952 (2013) on \"Children's right to physical integrity,\""
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

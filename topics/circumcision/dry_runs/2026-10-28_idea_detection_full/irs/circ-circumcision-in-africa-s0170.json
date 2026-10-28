@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0170",
+  "source_text": "The first trial, in Orange Farm, South Africa, enrolled 3,274 uncircumcised men aged 18-24 and found a 60% efficacy after an interim analysis prompted early termination in 2005. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The first trial, in Orange Farm, South Africa, enrolled 3,274 uncircumcised men aged 18-24 and found a 60% efficacy after an interim analysi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The first trial, in Orange Farm, South Africa, enrolled 3,274 uncircumcised men aged 18-24 and found a 60% efficacy after an interim analysis prompted early ter.",
+      "span": {
+        "quote": "The first trial, in Orange Farm, South Africa, enrolled 3,274 uncircumcised men aged 18-24 and found a 60% efficacy after an interim analysis prompted early ter"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

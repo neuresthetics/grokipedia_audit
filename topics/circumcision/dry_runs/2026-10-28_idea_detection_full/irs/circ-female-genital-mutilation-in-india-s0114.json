@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0114",
+  "source_text": "No comprehensive Indian cohorts exist to quantify prevalence, highlighting reliance on global meta-analyses that associate Type 1 FGM with 1.5-2 times higher odds of mood disorders, adjusted for confounders like socioeconomic status.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No comprehensive Indian cohorts exist to quantify prevalence, highlighting reliance on global meta-analyses that associate Type 1 FGM with 1"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No comprehensive Indian cohorts exist to quantify prevalence, highlighting reliance on global meta-analyses that associate Type 1 FGM with 1.5-2 times higher od.",
+      "span": {
+        "quote": "No comprehensive Indian cohorts exist to quantify prevalence, highlighting reliance on global meta-analyses that associate Type 1 FGM with 1.5-2 times higher od"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

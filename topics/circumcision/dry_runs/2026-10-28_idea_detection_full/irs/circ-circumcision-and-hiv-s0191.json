@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0191",
+  "source_text": "Proponents counter that objective HIV seroconversion outcomes and comparable self-reported behaviors across arms mitigate these concerns, as confirmed by subsequent Cochrane reviews assessing overall low risk of bias.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents counter that objective HIV seroconversion outcomes and comparable self-reported behaviors across arms mitigate these concerns, as"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents counter that objective HIV seroconversion outcomes and comparable self-reported behaviors across arms mitigate these concerns, as confirmed by subseq.",
+      "span": {
+        "quote": "Proponents counter that objective HIV seroconversion outcomes and comparable self-reported behaviors across arms mitigate these concerns, as confirmed by subseq"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Cochrane.",
+      "span": {
+        "quote": "Cochrane"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Cochrane"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0064",
+  "source_text": "Keratinization of the glans and inner mucosal remnants, a physiological response to exposure post-circumcision, has been hypothesized to alter sensitivity, but meta-analyses of sexual function outcomes find no consistent link to erectile dysfunction, premature ejaculation, or overall sexual satisfaction impairment. [41] [42]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Keratinization of the glans and inner mucosal remnants, a physiological response to exposure post-circumcision, has been hypothesized to alt"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Keratinization of the glans and inner mucosal remnants, a physiological response to exposure post-circumcision, has been hypothesized to alter sensitivity, but.",
+      "span": {
+        "quote": "Keratinization of the glans and inner mucosal remnants, a physiological response to exposure post-circumcision, has been hypothesized to alter sensitivity, but "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

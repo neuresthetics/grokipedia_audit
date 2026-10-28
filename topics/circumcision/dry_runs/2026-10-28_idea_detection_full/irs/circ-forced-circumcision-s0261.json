@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-s0261",
+  "source_text": "These findings, extrapolated by advocates to broader contexts, include reductions in human papillomavirus (HPV) transmission and associated cervical cancer risks in female partners, as well as lower incidences of herpes simplex virus type 2.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings, extrapolated by advocates to broader contexts, include reductions in human papillomavirus (HPV) transmission and associated"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings, extrapolated by advocates to broader contexts, include reductions in human papillomavirus (HPV) transmission and associated cervical cancer risk.",
+      "span": {
+        "quote": "These findings, extrapolated by advocates to broader contexts, include reductions in human papillomavirus (HPV) transmission and associated cervical cancer risk"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0171",
+  "source_text": "Similarly, circumcised males have a 68% lower prevalence of balanitis, an inflammatory condition of the glans penis, contributing to decreased overall infectious disease burden in populations with high circumcision rates. [109]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, circumcised males have a 68% lower prevalence of balanitis, an inflammatory condition of the glans penis, contributing to decreas"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, circumcised males have a 68% lower prevalence of balanitis, an inflammatory condition of the glans penis, contributing to decreased overall infectiou.",
+      "span": {
+        "quote": "Similarly, circumcised males have a 68% lower prevalence of balanitis, an inflammatory condition of the glans penis, contributing to decreased overall infectiou"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0095",
+  "source_text": "Hemorrhage represents a primary acute risk of FGM procedures in Nigeria, occurring in 17% to 62% of cases due to vascular damage from cutting without hemostatic measures, with profuse bleeding documented in local case reports. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hemorrhage represents a primary acute risk of FGM procedures in Nigeria, occurring in 17% to 62% of cases due to vascular damage from cuttin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hemorrhage represents a primary acute risk of FGM procedures in Nigeria, occurring in 17% to 62% of cases due to vascular damage from cutting without hemostatic.",
+      "span": {
+        "quote": "Hemorrhage represents a primary acute risk of FGM procedures in Nigeria, occurring in 17% to 62% of cases due to vascular damage from cutting without hemostatic"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

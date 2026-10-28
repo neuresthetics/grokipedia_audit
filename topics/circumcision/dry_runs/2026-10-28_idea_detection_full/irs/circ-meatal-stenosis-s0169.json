@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0169",
+  "source_text": "Another 2024 study found approximately 10% of circumcisions resulted in meatal stenosis, based on meatal diameter measurements, challenging lower meta-analytic estimates by highlighting underdiagnosis in asymptomatic cases. [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Another 2024 study found approximately 10% of circumcisions resulted in meatal stenosis, based on meatal diameter measurements, challenging"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Another 2024 study found approximately 10% of circumcisions resulted in meatal stenosis, based on meatal diameter measurements, challenging lower meta-analytic.",
+      "span": {
+        "quote": "Another 2024 study found approximately 10% of circumcisions resulted in meatal stenosis, based on meatal diameter measurements, challenging lower meta-analytic "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

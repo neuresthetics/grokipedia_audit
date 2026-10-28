@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0148",
+  "source_text": "Practitioners, often traditional birth attendants or barbers using unsterilized blades, incise the anterior vaginal wall to enlarge the canal, claiming it facilitates easier delivery and restores fertility based on observed short-term relief in symptoms among women post-procedure. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners, often traditional birth attendants or barbers using unsterilized blades, incise the anterior vaginal wall to enlarge the cana"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners, often traditional birth attendants or barbers using unsterilized blades, incise the anterior vaginal wall to enlarge the canal, claiming it facil.",
+      "span": {
+        "quote": "Practitioners, often traditional birth attendants or barbers using unsterilized blades, incise the anterior vaginal wall to enlarge the canal, claiming it facil"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-clitoridectomy-s0214",
+  "source_text": "Empirical assessments reveal no evidence of purported benefits like reduced promiscuity, positioning the practice as discriminatory violence rather than neutral tradition. [105]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical assessments reveal no evidence of purported benefits like reduced promiscuity, positioning the practice as discriminatory violence"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical assessments reveal no evidence of purported benefits like reduced promiscuity, positioning the practice as discriminatory violence rather than neutral.",
+      "span": {
+        "quote": "Empirical assessments reveal no evidence of purported benefits like reduced promiscuity, positioning the practice as discriminatory violence rather than neutral"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of purported benefits like reduced promiscuity.",
+      "span": {
+        "quote": "no evidence of purported benefits like reduced promiscuity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of purported benefits like reduced promiscuity"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

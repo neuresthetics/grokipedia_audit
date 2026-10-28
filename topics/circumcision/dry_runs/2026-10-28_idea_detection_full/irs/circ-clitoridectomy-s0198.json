@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-clitoridectomy-s0198",
+  "source_text": "Prospective studies, including those tracking sexual function in over 1,000 women across Mali and Sierra Leone, find no improvement in obstetric outcomes\u2014infant mortality remains comparable or higher due to infibulation complications\u2014and report diminished clitoral sensation in 70-80% of cases, challenging moderation claims without substantiating fidelity effects. [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prospective studies, including those tracking sexual function in over 1,000 women across Mali and Sierra Leone, find no improvement in obste"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Without substantiating fidelity effects.",
+      "span": {
+        "quote": "without substantiating fidelity effects."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Stetric outcomes\u2014infant mortality remains comparable or higher due to infibulation complications\u2014and report diminished clitoral sensation in 70-80% of cases, ch.",
+      "span": {
+        "quote": "stetric outcomes\u2014infant mortality remains comparable or higher due to infibulation complications\u2014and report diminished clitoral sensation in 70-80% of cases, ch"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "due to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

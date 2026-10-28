@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0044",
+  "source_text": "Systematic reviews confirm that childhood or adolescent circumcision confers this reduction, potentially mediated by decreased phimosis and balanitis, which promote carcinogenic conditions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews confirm that childhood or adolescent circumcision confers this reduction, potentially mediated by decreased phimosis and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews confirm that childhood or adolescent circumcision confers this reduction, potentially mediated by decreased phimosis and balanitis, which pro.",
+      "span": {
+        "quote": "Systematic reviews confirm that childhood or adolescent circumcision confers this reduction, potentially mediated by decreased phimosis and balanitis, which pro"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

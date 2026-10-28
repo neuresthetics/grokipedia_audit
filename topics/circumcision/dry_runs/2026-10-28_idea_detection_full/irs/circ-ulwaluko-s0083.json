@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0083",
+  "source_text": "Adherents to Xhosa customs regard ulwaluko as indispensable for forging genuine masculinity, essential for navigating life's demands with honor and fortitude. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adherents to Xhosa customs regard ulwaluko as indispensable for forging genuine masculinity, essential for navigating life's demands with ho"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adherents to Xhosa customs regard ulwaluko as indispensable for forging genuine masculinity, essential for navigating life's demands with honor and fortitude. [.",
+      "span": {
+        "quote": "Adherents to Xhosa customs regard ulwaluko as indispensable for forging genuine masculinity, essential for navigating life's demands with honor and fortitude. ["
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

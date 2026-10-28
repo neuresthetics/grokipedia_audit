@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-foreskin-man-s0073",
+  "source_text": "Psychological impacts are also central to the comic's claims, illustrated through characters experiencing trauma, rage, or existential distress traceable to their circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological impacts are also central to the comic's claims, illustrated through characters experiencing trauma, rage, or existential distr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", illustrated through characters experiencing trauma, rage, or existential distress traceable to their circumcision.",
+      "span": {
+        "quote": ", illustrated through characters experiencing trauma, rage, or existential distress traceable to their circumcision."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Psychological impacts are also central to the comic's.",
+      "span": {
+        "quote": "Psychological impacts are also central to the comic's"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

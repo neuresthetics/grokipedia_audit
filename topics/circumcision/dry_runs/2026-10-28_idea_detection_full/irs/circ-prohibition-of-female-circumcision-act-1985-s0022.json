@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0022",
+  "source_text": "Health professionals in UK hospitals encountered acute and chronic complications from these procedures, including immediate risks of hemorrhage, shock, localized infections, septicemia, and urinary tract damage, as well as long-term issues such as scarring, cysts, chronic pelvic pain, dyspareunia, and renal disease from recurrent infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Health professionals in UK hospitals encountered acute and chronic complications from these procedures, including immediate risks of hemorrh"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Health professionals in UK hospitals encountered acute and chronic complications from these procedures, including immediate risks of hemorrhage, shock, localize.",
+      "span": {
+        "quote": "Health professionals in UK hospitals encountered acute and chronic complications from these procedures, including immediate risks of hemorrhage, shock, localize"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

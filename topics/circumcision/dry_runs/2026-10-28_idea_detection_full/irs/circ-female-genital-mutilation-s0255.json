@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0255",
+  "source_text": "This shift, accelerating in the 1970s, involved health professionals like nurses and doctors, ostensibly to reduce immediate dangers such as hemorrhage and infection, though long-term harms remained unaddressed.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This shift, accelerating in the 1970s, involved health professionals like nurses and doctors, ostensibly to reduce immediate dangers such as"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This shift, accelerating in the 1970s, involved health professionals like nurses and doctors, ostensibly to reduce immediate dangers such as hemorrhage and infe.",
+      "span": {
+        "quote": "This shift, accelerating in the 1970s, involved health professionals like nurses and doctors, ostensibly to reduce immediate dangers such as hemorrhage and infe"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0042",
+  "source_text": "Observational studies in sub-Saharan Africa, conducted before the scale-up of voluntary medical male circumcision programs, frequently reported lower HIV prevalence and incidence among circumcised men compared to uncircumcised men in heterosexual populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Observational studies in sub-Saharan Africa, conducted before the scale-up of voluntary medical male circumcision programs, frequently repor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Observational studies in sub-Saharan Africa, conducted before the scale-up of voluntary medical male circumcision programs, frequently reported lower HIV preval.",
+      "span": {
+        "quote": "Observational studies in sub-Saharan Africa, conducted before the scale-up of voluntary medical male circumcision programs, frequently reported lower HIV preval"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

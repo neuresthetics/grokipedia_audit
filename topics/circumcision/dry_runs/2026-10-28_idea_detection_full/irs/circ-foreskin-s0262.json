@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-s0262",
+  "source_text": "Critics of parental proxy consent emphasize that it is ethically limited to procedures demonstrably benefiting the child's health, not prophylactic or aesthetic ones where risks\u2014such as infection, reduced sensitivity, or psychological impact\u2014may persist without offsetting certainty of gain.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of parental proxy consent emphasize that it is ethically limited to procedures demonstrably benefiting the child's health, not proph"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It is ethically limited to procedures demonstrably benefiting the child's health, not prophylactic or aesthetic ones where risks\u2014such as infection, reduced sens.",
+      "span": {
+        "quote": "it is ethically limited to procedures demonstrably benefiting the child's health, not prophylactic or aesthetic ones where risks\u2014such as infection, reduced sens"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of parental proxy consent.",
+      "span": {
+        "quote": "Critics of parental proxy consent"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

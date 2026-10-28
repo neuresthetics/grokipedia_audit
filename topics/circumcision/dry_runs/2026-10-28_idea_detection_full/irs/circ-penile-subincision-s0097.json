@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0097",
+  "source_text": "However, the procedure's irreversibility and associated vulnerabilities\u2014such as altered urination and ejaculation patterns\u2014can impose ongoing adaptations in daily hygiene and intimacy, with anecdotal modern self-performed cases reporting mixed outcomes including regret over diminished sensation or reversibility limitations. [28]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, the procedure's irreversibility and associated vulnerabilities\u2014such as altered urination and ejaculation patterns\u2014can impose ongoin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, the procedure's irreversibility and associated vulnerabilities\u2014such as altered urination and ejaculation patterns\u2014can impose ongoing adaptations in dai.",
+      "span": {
+        "quote": "However, the procedure's irreversibility and associated vulnerabilities\u2014such as altered urination and ejaculation patterns\u2014can impose ongoing adaptations in dai"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

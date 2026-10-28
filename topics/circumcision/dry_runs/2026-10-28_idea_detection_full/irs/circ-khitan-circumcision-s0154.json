@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0154",
+  "source_text": "Circumcision further lowers the risk of penile transmission of HPV to female partners, potentially decreasing cervical cancer incidence, based on cohort studies showing halved odds of oncogenic HPV carriage in circumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision further lowers the risk of penile transmission of HPV to female partners, potentially decreasing cervical cancer incidence, bas"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision further lowers the risk of penile transmission of HPV to female partners, potentially decreasing cervical cancer incidence, based on cohort studies.",
+      "span": {
+        "quote": "Circumcision further lowers the risk of penile transmission of HPV to female partners, potentially decreasing cervical cancer incidence, based on cohort studies"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

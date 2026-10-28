@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0089",
+  "source_text": "Paul cursed any who preached a contrary gospel including circumcision mandates, viewing it as distorting the message of freedom in Christ.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Paul cursed any who preached a contrary gospel including circumcision mandates, viewing it as distorting the message of freedom in Christ."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "paul"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Paul cursed any who preached a contrary gospel including circumcision mandates, viewing it as distorting the message of freedom in Christ.",
+      "span": {
+        "quote": "Paul cursed any who preached a contrary gospel including circumcision mandates, viewing it as distorting the message of freedom in Christ."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0151",
+  "source_text": "Penalties were significantly strengthened, with the maximum term of imprisonment on indictment raised from five years under the 1985 Act to 14 years, signaling a heightened emphasis on deterrence given the procedure's severe, lifelong health consequences such as pain, infection, and complications in childbirth. [43] [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penalties were significantly strengthened, with the maximum term of imprisonment on indictment raised from five years under the 1985 Act to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penalties were significantly strengthened, with the maximum term of imprisonment on indictment raised from five years under the 1985 Act to 14 years, signaling.",
+      "span": {
+        "quote": "Penalties were significantly strengthened, with the maximum term of imprisonment on indictment raised from five years under the 1985 Act to 14 years, signaling "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0126",
+  "source_text": "This tension highlights a reliance on deontological principles over consequentialist evaluations, where the absence of provable detriment challenges the urgency of prohibiting a procedure performed on millions without substantiated regret.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This tension highlights a reliance on deontological principles over consequentialist evaluations, where the absence of provable detriment ch"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This tension highlights a reliance on deontological principles over consequentialist evaluations, where the absence of provable detriment challenges the urgency.",
+      "span": {
+        "quote": "This tension highlights a reliance on deontological principles over consequentialist evaluations, where the absence of provable detriment challenges the urgency"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

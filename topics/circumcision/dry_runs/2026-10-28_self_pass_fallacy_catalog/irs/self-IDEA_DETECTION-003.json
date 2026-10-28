@@ -1,0 +1,37 @@
+{
+  "passage_id": "self-IDEA_DETECTION-003",
+  "source_text": "Patterns for thirteen pilot entries live in idea_detection/pilot_ir_patterns.json. They are not merged into fallacies.json. The layer does not add fallacy names and does not use MINDSPACE.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Patterns for thirteen pilot entries live in idea_detection/pilot_ir_patterns.json. They are not merged into fallacies.json. The layer does n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Patterns for thirteen pilot entries live in idea_detection/pilot_ir_patterns.json. They are not merged into fallacies.json. The layer does not add fallacy names.",
+      "span": {
+        "quote": "Patterns for thirteen pilot entries live in idea_detection/pilot_ir_patterns.json. They are not merged into fallacies.json. The layer does not add fallacy names"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

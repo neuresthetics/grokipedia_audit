@@ -1,0 +1,103 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0011",
+  "source_text": "The original Act thus served as a foundational but limited step in addressing a procedure linked to severe physical and psychological harms, including infection, chronic pain, and obstetric complications, without broader preventive or jurisdictional expansions realized only in successor laws.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The original Act thus served as a foundational but limited step in addressing a procedure linked to severe physical and psychological harms,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The original Act.",
+      "span": {
+        "quote": "The original Act"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Served as a foundational but limited step in addressing a procedure linked to severe physical and psychological harms, including infection, chronic pain, and ob.",
+      "span": {
+        "quote": "served as a foundational but limited step in addressing a procedure linked to severe physical and psychological harms, including infection, chronic pain, and ob"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Linked to severe physical and psychological harms.",
+      "span": {
+        "quote": "linked to severe physical and psychological harms"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "linked to"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "linked to severe physical and psychological harms"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to severe physical and psychological harms",
+          "span": {
+            "quote": "linked to severe physical and psychological harms"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0047",
+  "source_text": "Meta-analyses of observational data have synthesized these findings, often confirming a protective association in heterosexual men, though with heterogeneity due to study design and epidemic context.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses of observational data have synthesized these findings, often confirming a protective association in heterosexual men, though w"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses of observational data have synthesized these findings, often confirming a protective association in heterosexual men, though with heterogeneity du.",
+      "span": {
+        "quote": "Meta-analyses of observational data have synthesized these findings, often confirming a protective association in heterosexual men, though with heterogeneity du"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

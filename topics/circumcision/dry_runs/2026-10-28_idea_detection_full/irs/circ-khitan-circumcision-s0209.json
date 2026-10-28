@@ -1,0 +1,67 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0209",
+  "source_text": "Culturally and religiously, khitan emphasizes ritual purity and hygiene as a prophetic tradition (sunnah) without intent to suppress sexual capacity, whereas FGC frequently serves to enforce premarital chastity and reduce female sexual autonomy, reflecting disparate motivations rooted in gender control rather than equivalent male practices. [13] [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Culturally and religiously, khitan emphasizes ritual purity and hygiene as a prophetic tradition (sunnah) without intent to suppress sexual"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ritual purity and hygiene as a prophetic tradition (sunnah) without intent to suppress sexual capacity, whereas FGC frequently serves to enforce premarital chas.",
+      "span": {
+        "quote": "ritual purity and hygiene as a prophetic tradition (sunnah) without intent to suppress sexual capacity, whereas FGC frequently serves to enforce premarital chas"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Culturally and religiously, khitan.",
+      "span": {
+        "quote": "Culturally and religiously, khitan"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "reduce"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

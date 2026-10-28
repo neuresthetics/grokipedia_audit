@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0096",
+  "source_text": "Severe pain accompanies the procedure, stemming from the acute trauma to sensitive vaginal tissues, often exacerbated by the absence of anesthesia. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Severe pain accompanies the procedure, stemming from the acute trauma to sensitive vaginal tissues, often exacerbated by the absence of anes"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Severe pain accompanies the procedure, stemming from the acute trauma to sensitive vaginal tissues, often exacerbated by the absence of anesthesia. [31].",
+      "span": {
+        "quote": "Severe pain accompanies the procedure, stemming from the acute trauma to sensitive vaginal tissues, often exacerbated by the absence of anesthesia. [31]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

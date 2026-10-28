@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0225",
+  "source_text": "Courts have consistently rejected broader intrusions, viewing circumcision as within permissible parental discretion rather than neglect, though critics argue this threshold inadequately protects against iatrogenic injury in the absence of medical necessity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Courts have consistently rejected broader intrusions, viewing circumcision as within permissible parental discretion rather than neglect, th"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is threshold inadequately protects against iatrogenic injury in the absence of medical necessity.",
+      "span": {
+        "quote": "is threshold inadequately protects against iatrogenic injury in the absence of medical necessity."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Courts have consistently rejected broader intrusions, viewing circumcision as within permissible parental discretion rather than neglect, though critics.",
+      "span": {
+        "quote": "Courts have consistently rejected broader intrusions, viewing circumcision as within permissible parental discretion rather than neglect, though critics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "critics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

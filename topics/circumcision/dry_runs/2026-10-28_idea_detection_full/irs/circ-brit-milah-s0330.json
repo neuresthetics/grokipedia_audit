@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0330",
+  "source_text": "In regions with strong religious observance, such as parts of the United States and Israel, the practice fosters intergenerational transmission of tradition, with surveys indicating over 90% compliance in traditional sectors, contributing to sustained demographic cohesion amid assimilation pressures. [175]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In regions with strong religious observance, such as parts of the United States and Israel, the practice fosters intergenerational transmiss"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In regions with strong religious observance, such as parts of the United States and Israel, the practice fosters intergenerational transmission of tradition, wi.",
+      "span": {
+        "quote": "In regions with strong religious observance, such as parts of the United States and Israel, the practice fosters intergenerational transmission of tradition, wi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

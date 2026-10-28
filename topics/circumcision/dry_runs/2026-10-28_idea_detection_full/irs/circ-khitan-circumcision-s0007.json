@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0007",
+  "source_text": "No robust data supports claims of diminished sexual function or satisfaction post-circumcision, countering anecdotal assertions of harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No robust data supports claims of diminished sexual function or satisfaction post-circumcision, countering anecdotal assertions of harm."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of diminished sexual function or satisfaction post-circumcision, countering anecdotal assertions of harm.",
+      "span": {
+        "quote": "of diminished sexual function or satisfaction post-circumcision, countering anecdotal assertions of harm."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No robust data supports.",
+      "span": {
+        "quote": "No robust data supports"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

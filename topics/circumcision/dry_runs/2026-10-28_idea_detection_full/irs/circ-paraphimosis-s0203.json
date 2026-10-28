@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-paraphimosis-s0203",
+  "source_text": "Elective circumcision is advised for individuals with recurrent paraphimosis or persistent phimosis unresponsive to conservative treatments, eliminating the foreskin and thereby preventing future episodes in high-risk groups such as those with balanitis xerotica obliterans or cultural predispositions to delayed intervention. [43]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Elective circumcision is advised for individuals with recurrent paraphimosis or persistent phimosis unresponsive to conservative treatments,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Elective circumcision is advised for individuals with recurrent paraphimosis or persistent phimosis unresponsive to conservative treatments, eliminating the for.",
+      "span": {
+        "quote": "Elective circumcision is advised for individuals with recurrent paraphimosis or persistent phimosis unresponsive to conservative treatments, eliminating the for"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Preventing future episodes in high-risk groups such as those with balanitis xerotica obliterans or cultural predispositions to delayed intervention. [43].",
+      "span": {
+        "quote": "preventing future episodes in high-risk groups such as those with balanitis xerotica obliterans or cultural predispositions to delayed intervention. [43]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

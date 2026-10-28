@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0102",
+  "source_text": "The rite upholds social structure by affirming elder authority during seclusion and teachings, while post-initiation integration grants returning men participatory rights in communal rituals, discussions, and governance, clarifying hierarchical roles and promoting stability. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The rite upholds social structure by affirming elder authority during seclusion and teachings, while post-initiation integration grants retu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The rite upholds social structure by affirming elder authority during seclusion and teachings, while post-initiation integration grants returning men participat.",
+      "span": {
+        "quote": "The rite upholds social structure by affirming elder authority during seclusion and teachings, while post-initiation integration grants returning men participat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

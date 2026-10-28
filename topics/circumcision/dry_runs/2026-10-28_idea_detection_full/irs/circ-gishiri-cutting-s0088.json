@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0088",
+  "source_text": "For obstetric concerns, traditional accounts describe successful outcomes in easing prolonged labor, where the incision is said to \"unblock the presenting part\" of the fetus, reducing delivery complications and prolapse risks. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For obstetric concerns, traditional accounts describe successful outcomes in easing prolonged labor, where the incision is said to \"unblock"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For obstetric concerns, traditional accounts describe successful outcomes in easing prolonged labor, where the incision is said to \"unblock the presenting part\".",
+      "span": {
+        "quote": "For obstetric concerns, traditional accounts describe successful outcomes in easing prolonged labor, where the incision is said to \"unblock the presenting part\""
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

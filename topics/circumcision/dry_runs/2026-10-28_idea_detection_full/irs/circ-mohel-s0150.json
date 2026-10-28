@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-mohel-s0150",
+  "source_text": "Human rights scholars further classify non-therapeutic circumcision as a form of medical violence, arguing that it discriminates against male infants by denying them the same protections afforded to female counterparts under laws banning female genital cutting, regardless of severity differences. [75]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Human rights scholars further classify non-therapeutic circumcision as a form of medical violence, arguing that it discriminates against mal"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Human rights scholars further classify non-therapeutic circumcision as a form of medical violence, arguing that it discriminates against male infants by denying.",
+      "span": {
+        "quote": "Human rights scholars further classify non-therapeutic circumcision as a form of medical violence, arguing that it discriminates against male infants by denying"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

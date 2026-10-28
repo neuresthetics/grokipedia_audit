@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0115",
+  "source_text": "Incomplete foreskin retraction at age 12 years is commonly still physiological and does not necessitate circumcision in asymptomatic boys; the condition frequently resolves spontaneously or with conservative measures such as topical corticosteroids, with surgery indicated only for severe symptoms (pain, recurrent infections, or difficulty voiding) or after failure of medical therapy, following evaluation by a pediatrician or urologist. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Incomplete foreskin retraction at age 12 years is commonly still physiological and does not necessitate circumcision in asymptomatic boys; t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Incomplete foreskin retraction at age 12 years is commonly still physiological and does not necessitate circumcision in asymptomatic boys; the condition frequen.",
+      "span": {
+        "quote": "Incomplete foreskin retraction at age 12 years is commonly still physiological and does not necessitate circumcision in asymptomatic boys; the condition frequen"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

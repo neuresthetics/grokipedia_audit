@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0135",
+  "source_text": "Reviews of clinical data indicate diverse health impacts rather than inevitable severe consequences, with evidence from multiple studies showing that complications are not the norm and vary by practitioner skill and post-procedure care. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reviews of clinical data indicate diverse health impacts rather than inevitable severe consequences, with evidence from multiple studies sho"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reviews of clinical data indicate diverse health impacts rather than inevitable severe consequences, with evidence from multiple studies showing that complicati.",
+      "span": {
+        "quote": "Reviews of clinical data indicate diverse health impacts rather than inevitable severe consequences, with evidence from multiple studies showing that complicati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

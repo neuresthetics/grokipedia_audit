@@ -1,0 +1,66 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-008",
+  "source_text": "3. **Dialogue / quotation.** Passage: Alex said, \u201cThe plant violates the permit.\u201d Blair answered, \u201cYou skipped the maintenance logs, so the permit point can be set aside.\u201d Bad: one report with no speakers. Emit Alex\u2019s claim and Blair\u2019s claims with separate speakers, plus supports or ignores from the reply into setting the permit point aside.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "3. **Dialogue / quotation.** Passage: Alex said, \u201cThe plant violates the permit.\u201d Blair answered, \u201cYou skipped the maintenance logs, so the"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "3. **Dialogue / quotation.** Passage: Alex said, \u201cThe plant violates the permit.\u201d Blair answered, \u201cYou skipped the maintenance logs.",
+      "span": {
+        "quote": "3. **Dialogue / quotation.** Passage: Alex said, \u201cThe plant violates the permit.\u201d Blair answered, \u201cYou skipped the maintenance logs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "The permit point can be set aside.\u201d Bad: one report with no speakers. Emit Alex\u2019s claim and Blair\u2019s claims with separate speakers, plus supports or ignores from.",
+      "span": {
+        "quote": "the permit point can be set aside.\u201d Bad: one report with no speakers. Emit Alex\u2019s claim and Blair\u2019s claims with separate speakers, plus supports or ignores from"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "set aside"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

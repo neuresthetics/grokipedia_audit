@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0261",
+  "source_text": "A 2022 evaluation using multiple models (Goals-ASM, Thembisa, EMOD) estimated up to 83,000 infections prevented from 2010\u20132020 in select contexts, highlighting variability due to local epidemiology and program reach.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2022 evaluation using multiple models (Goals-ASM, Thembisa, EMOD) estimated up to 83,000 infections prevented from 2010\u20132020 in select con"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2022 evaluation using multiple models (Goals-ASM, Thembisa, EMOD) estimated up to 83,000 infections prevented from 2010\u20132020 in select contexts, highlighting.",
+      "span": {
+        "quote": "A 2022 evaluation using multiple models (Goals-ASM, Thembisa, EMOD) estimated up to 83,000 infections prevented from 2010\u20132020 in select contexts, highlighting "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

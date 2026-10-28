@@ -1,0 +1,87 @@
+{
+  "tip": "f304b80",
+  "tip_full": "f304b807d945c708be21d0495bc56c4076931dcd",
+  "n_seeds": 450,
+  "n_ok": 450,
+  "n_failures": 0,
+  "stress": {
+    "survives": 1,
+    "breaks": 449
+  },
+  "outcome": {
+    "open": 424,
+    "flagged": 25,
+    "survives": 1
+  },
+  "breaks_flagged": 25,
+  "breaks_open": 424,
+  "depth": {
+    "max_overall": 3,
+    "mean_of_per_tree_max": 1.3111,
+    "mean_all_checked_nodes": 1.0342,
+    "per_tree_max_hist": {
+      "1": 329,
+      "2": 102,
+      "3": 19
+    },
+    "trees_with_checked_depth_gt_0": 450
+  },
+  "n_checked_nodes_total": 1463,
+  "n_peels_total": 2672,
+  "peels_with_checked_child": 1013,
+  "peels_empty_expander": 590,
+  "peel_kind_hist": {
+    "cite": 2039,
+    "atom": 442,
+    "premise": 148,
+    "excerpt": 43
+  },
+  "aggregate_hist_checked_nodes": {
+    "possible_issue": 1233,
+    "flag": 57,
+    "no_issue": 1
+  },
+  "trees_with_hard_flag_anywhere": 25,
+  "possible_issue_still_open_at_leaves": 458,
+  "stop_reason_hist": {
+    "empty_expander": 818,
+    "cycle": 1775,
+    "hard_flag": 42,
+    "confirmed_no_issue": 1
+  },
+  "empty_expander_peels": 590,
+  "empty_expander_trees": 220,
+  "context_map": {
+    "path": "/workspace/gta_repo/topics/circumcision/dry_runs/2026-10-28_idea_detection_full/contexts.jsonl",
+    "lines": 1032,
+    "snapshot_window": 450,
+    "cite": 582,
+    "missing_cite_lines": 24,
+    "missing_cite_unique_passage_ids": 16,
+    "missing_cite_passage_ids": [
+      "circ-female-genital-mutilation-s0145",
+      "circ-female-genital-mutilation-s0196",
+      "circ-female-genital-mutilation-s0221",
+      "circ-female-genital-mutilation-s0323",
+      "circ-views-on-circumcision-s0003",
+      "circ-views-on-circumcision-s0069",
+      "circ-views-on-circumcision-s0070",
+      "circ-views-on-circumcision-s0074",
+      "circ-views-on-circumcision-s0078",
+      "circ-views-on-circumcision-s0083",
+      "circ-views-on-circumcision-s0090",
+      "circ-views-on-circumcision-s0094",
+      "circ-views-on-circumcision-s0104",
+      "circ-views-on-circumcision-s0108",
+      "circ-views-on-circumcision-s0188",
+      "circ-views-on-circumcision-s0190"
+    ],
+    "note": "README cites 20 missing ref numbers; jsonl has 24 MISSING-marked cite lines (some multi-ref / multi-target)."
+  },
+  "method_records": 1295,
+  "max_depth_cli": null,
+  "unlimited": true,
+  "local_only": true,
+  "pushed": false,
+  "elapsed_note": "single run ~3.1s wall clock"
+}

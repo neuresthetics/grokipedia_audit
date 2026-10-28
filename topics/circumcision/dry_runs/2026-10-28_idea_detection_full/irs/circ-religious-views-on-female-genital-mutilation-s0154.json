@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0154",
+  "source_text": "In many African traditional religions, particularly animist belief systems prevalent in West and East Africa prior to widespread Abrahamic influences, female genital mutilation (FGM) serves as a foundational rite of passage integrating girls into womanhood and communal spiritual frameworks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In many African traditional religions, particularly animist belief systems prevalent in West and East Africa prior to widespread Abrahamic i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In many African traditional religions, particularly animist belief systems prevalent in West and East Africa prior to widespread Abrahamic influences, female ge.",
+      "span": {
+        "quote": "In many African traditional religions, particularly animist belief systems prevalent in West and East Africa prior to widespread Abrahamic influences, female ge"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

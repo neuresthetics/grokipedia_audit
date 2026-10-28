@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-of-minors-in-south-korea-s0020",
+  "source_text": "Advocates argue that the lack of statutory prohibitions permits parental actions to override a minor's right to physical integrity in non-consensual circumcision absent medical necessity or the child's informed consent, framing such procedures as unjustified interventions. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Advocates argue that the lack of statutory prohibitions permits parental actions to override a minor's right to physical integrity in non-co"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E lack of statutory prohibitions permits parental actions to override a minor's right to physical integrity in non-consensual circumcision absent medical necess.",
+      "span": {
+        "quote": "e lack of statutory prohibitions permits parental actions to override a minor's right to physical integrity in non-consensual circumcision absent medical necess"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0097",
+  "source_text": "These claims, while highlighting procedural similarities, apply to infant contexts where long-term sensory or psychological harms are alleged but lack uniform empirical validation across cohorts. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims, while highlighting procedural similarities, apply to infant contexts where long-term sensory or psychological harms are allege"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", while highlighting procedural similarities, apply to infant contexts where long-term sensory or psychological harms are alleged but lack uniform empirical val.",
+      "span": {
+        "quote": ", while highlighting procedural similarities, apply to infant contexts where long-term sensory or psychological harms are alleged but lack uniform empirical val"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

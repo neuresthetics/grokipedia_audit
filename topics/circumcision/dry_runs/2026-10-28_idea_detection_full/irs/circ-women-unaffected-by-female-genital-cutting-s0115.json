@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0115",
+  "source_text": "Type IV encompasses pricking, piercing, or scraping without excision, yielding negligible physical health findings in reviews, with no documented long-term morbidity in empirical data from regions like Indonesia where such forms predominate. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type IV encompasses pricking, piercing, or scraping without excision, yielding negligible physical health findings in reviews, with no docum"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Type IV encompasses pricking, piercing, or scraping without excision, yielding negligible physical health findings in reviews, with no documented long-term morb.",
+      "span": {
+        "quote": "Type IV encompasses pricking, piercing, or scraping without excision, yielding negligible physical health findings in reviews, with no documented long-term morb"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

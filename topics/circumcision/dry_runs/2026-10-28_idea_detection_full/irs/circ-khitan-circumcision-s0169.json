@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0169",
+  "source_text": "Case series document severe outcomes, including glandular necrosis, penile amputation, and fatalities from hemorrhage or sepsis; one review of ritual cases reported tetanus and death in 750 child procedures. [73] [52]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Case series document severe outcomes, including glandular necrosis, penile amputation, and fatalities from hemorrhage or sepsis; one review"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Case series document severe outcomes, including glandular necrosis, penile amputation, and fatalities from hemorrhage or sepsis; one review of ritual cases repo.",
+      "span": {
+        "quote": "Case series document severe outcomes, including glandular necrosis, penile amputation, and fatalities from hemorrhage or sepsis; one review of ritual cases repo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-001",
+  "source_text": "You extract an **Idea IR** graph from one passage. You do **not** name fallacies or give verdicts. A separate deterministic checker will match catalog patterns. Any fallacy label or \u201cthis is a fallacy\u201d sentence you emit is **ignored**.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "You extract an **Idea IR** graph from one passage. You do **not** name fallacies or give verdicts. A separate deterministic checker will mat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "You extract an **Idea IR** graph from one passage. You do **not** name fallacies or give verdicts. A separate deterministic checker will match catalog patterns.",
+      "span": {
+        "quote": "You extract an **Idea IR** graph from one passage. You do **not** name fallacies or give verdicts. A separate deterministic checker will match catalog patterns."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

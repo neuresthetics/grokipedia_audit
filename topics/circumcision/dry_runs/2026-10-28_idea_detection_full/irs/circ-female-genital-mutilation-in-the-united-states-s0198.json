@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0198",
+  "source_text": "Internal debates within pediatrics and obstetrics have centered on rejecting harm-reduction rationales, with consensus that no level of cutting yields benefits outweighing harms, prioritizing evidence-based opposition over cultural relativism.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Internal debates within pediatrics and obstetrics have centered on rejecting harm-reduction rationales, with consensus that no level of cutt"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Internal debates within pediatrics and obstetrics have centered on rejecting harm-reduction rationales, with consensus that no level of cutting yields benefits.",
+      "span": {
+        "quote": "Internal debates within pediatrics and obstetrics have centered on rejecting harm-reduction rationales, with consensus that no level of cutting yields benefits "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

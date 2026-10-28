@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0170",
+  "source_text": "Population-level reductions in urinary tract infections (UTIs) and balanitis provide public health benefits from male circumcision, as meta-analyses indicate circumcised males experience a lifetime UTI risk of 1 in 12 compared to 1 in 3 for uncircumcised males, with neonatal circumcision conferring a 10-fold protective effect against infant UTIs. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Population-level reductions in urinary tract infections (UTIs) and balanitis provide public health benefits from male circumcision, as meta-"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Population-level reductions in urinary tract infections (UTIs) and balanitis provide public health benefits from male circumcision, as meta-analyses indicate ci.",
+      "span": {
+        "quote": "Population-level reductions in urinary tract infections (UTIs) and balanitis provide public health benefits from male circumcision, as meta-analyses indicate ci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

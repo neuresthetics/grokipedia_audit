@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-brit-milah-s0243",
+  "source_text": "Recent surveillance in New York identified four additional neonatal herpes cases linked to MBP as of 2020, underscoring persistent transmission despite awareness campaigns and alternatives like sterile pipettes or gauze for suction. [119]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Recent surveillance in New York identified four additional neonatal herpes cases linked to MBP as of 2020, underscoring persistent transmiss"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Recent surveillance in New York identified four additional neonatal herpes cases linked to MBP as of 2020, underscoring persistent transmission despite awarenes.",
+      "span": {
+        "quote": "Recent surveillance in New York identified four additional neonatal herpes cases linked to MBP as of 2020, underscoring persistent transmission despite awarenes"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to MBP as of 2020.",
+      "span": {
+        "quote": "linked to MBP as of 2020"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to MBP as of 2020"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to MBP as of 2020",
+          "span": {
+            "quote": "linked to MBP as of 2020"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0146",
+  "source_text": "Historical fatwas reflect this, such as Egypt's former Grand Mufti Sheikh Hussein Mohammad Makhlouf's endorsement of mild excision as permissible under Shafi'i principles, and a 1959 Egyptian decree by religious scholars including Grand Mufti Hassan Ma'mun regulating it as a partial procedure for health reasons rather than outright banning it. [23]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Historical fatwas reflect this, such as Egypt's former Grand Mufti Sheikh Hussein Mohammad Makhlouf's endorsement of mild excision as permis"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Historical fatwas reflect this, such as Egypt's former Grand Mufti Sheikh Hussein Mohammad Makhlouf's endorsement of mild excision as permissible under Shafi'i.",
+      "span": {
+        "quote": "Historical fatwas reflect this, such as Egypt's former Grand Mufti Sheikh Hussein Mohammad Makhlouf's endorsement of mild excision as permissible under Shafi'i "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

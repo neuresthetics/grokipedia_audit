@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0188",
+  "source_text": "Legal frameworks reinforced this divide, with over 30 countries criminalizing FGM under international treaties like the 1997 Maputo Protocol, imposing penalties up to life imprisonment, whereas male circumcision remains legally protected in jurisdictions honoring parental religious rights, such as the U.S. and Israel, absent evidence of equivalent harm. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legal frameworks reinforced this divide, with over 30 countries criminalizing FGM under international treaties like the 1997 Maputo Protocol"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Legal frameworks reinforced this divide, with over 30 countries criminalizing FGM under international treaties like the 1997 Maputo Protocol, imposing penalties.",
+      "span": {
+        "quote": "Legal frameworks reinforced this divide, with over 30 countries criminalizing FGM under international treaties like the 1997 Maputo Protocol, imposing penalties"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-014",
+  "source_text": "METHOD records for flag and possible-issue rows are the flat records plus layer_path and peel_path. The first lines stay **idea_detection assist / lead-to-check**. substitute_for_hand_method stays false, including when a hard flag has closed spans. A possible-issue leaf is not promoted to a flag because a deeper layer exists; only the child checker's own flag is a flag.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "METHOD records for flag and possible-issue rows are the flat records plus layer_path and peel_path. The first lines stay **idea_detection as"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Th. The first lines stay **idea_detection assist / lead-to-check**. substitute_for_hand_method stays false, including when a hard flag has closed spans. A possi.",
+      "span": {
+        "quote": "th. The first lines stay **idea_detection assist / lead-to-check**. substitute_for_hand_method stays false, including when a hard flag has closed spans. A possi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "A deeper layer exists; only the child checker's own flag is a flag.",
+      "span": {
+        "quote": "a deeper layer exists; only the child checker's own flag is a flag."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "because a deeper layer exists; only the child checker's own flag is"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

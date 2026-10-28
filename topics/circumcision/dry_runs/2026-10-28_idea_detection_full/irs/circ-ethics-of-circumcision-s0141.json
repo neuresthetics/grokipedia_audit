@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0141",
+  "source_text": "The American College of Nurse-Midwives (ACNM) issued a 2024 position statement emphasizing that newborn male circumcision is not routinely recommended, advocating instead for evidence-based, unbiased shared decision-making to enable parents to elect or decline the procedure based on comprehensive information.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American College of Nurse-Midwives (ACNM) issued a 2024 position statement emphasizing that newborn male circumcision is not routinely r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American College of Nurse-Midwives (ACNM) issued a 2024 position statement emphasizing that newborn male circumcision is not routinely recommended, advocati.",
+      "span": {
+        "quote": "The American College of Nurse-Midwives (ACNM) issued a 2024 position statement emphasizing that newborn male circumcision is not routinely recommended, advocati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

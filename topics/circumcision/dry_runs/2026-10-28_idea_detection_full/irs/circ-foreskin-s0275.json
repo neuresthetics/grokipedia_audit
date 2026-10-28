@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-foreskin-s0275",
+  "source_text": "Intactivist narratives promoting the foreskin as possessing uniquely dense nerve endings for erotogenic purposes are contradicted by histological studies revealing lower specialized nerve density compared to the glans, with no empirical link to superior pleasure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intactivist narratives promoting the foreskin as possessing uniquely dense nerve endings for erotogenic purposes are contradicted by histolo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intactivist narratives promoting the foreskin as possessing uniquely dense nerve endings for erotogenic purposes are contradicted by histological studies reveal.",
+      "span": {
+        "quote": "Intactivist narratives promoting the foreskin as possessing uniquely dense nerve endings for erotogenic purposes are contradicted by histological studies reveal"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

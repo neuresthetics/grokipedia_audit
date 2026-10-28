@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0136",
+  "source_text": "A 2018 Danish nationwide cohort study reported 10- to 26-fold higher hospital-diagnosed rates in circumcised boys. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2018 Danish nationwide cohort study reported 10- to 26-fold higher hospital-diagnosed rates in circumcised boys. [70]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2018 Danish nationwide cohort study reported 10- to 26-fold higher hospital-diagnosed rates in circumcised boys. [70].",
+      "span": {
+        "quote": "A 2018 Danish nationwide cohort study reported 10- to 26-fold higher hospital-diagnosed rates in circumcised boys. [70]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

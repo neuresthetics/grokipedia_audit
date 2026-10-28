@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-019",
+  "source_text": "- Only listed outside-text conditions may be satisfied by CK or stated fact; all others from text. - Unmet outside-text \u2192 **possible issue**, not flag. - text_detectable: \"no\" (confirmation bias, selective attention, availability, rationalization) \u2192 **never flag**. - Excerpt boundary: support may lie past excerpt \u2192 at most possible issue. - Contested scholarly readings \u2192 possible issue + named reading (METHOD (b)).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- Only listed outside-text conditions may be satisfied by CK or stated fact; all others from text. - Unmet outside-text \u2192 **possible issue**"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "- Only listed outside-text conditions may be satisfied by CK or stated fact; all others from text. - Unmet outside-text \u2192 **possible issue**, not flag. - text_d.",
+      "span": {
+        "quote": "- Only listed outside-text conditions may be satisfied by CK or stated fact; all others from text. - Unmet outside-text \u2192 **possible issue**, not flag. - text_d"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

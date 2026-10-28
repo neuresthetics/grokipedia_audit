@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0188",
+  "source_text": "In 2010, the American Academy of Pediatrics (AAP) issued a policy statement suggesting that a \"ritual genital nick\" of minimal extent might serve as a culturally sensitive compromise to discourage more severe forms of female genital cutting among immigrant families, framing it as a potential harm-reduction strategy. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In 2010, the American Academy of Pediatrics (AAP) issued a policy statement suggesting that a \"ritual genital nick\" of minimal extent might"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In 2010, the American Academy of Pediatrics (AAP) issued a policy statement suggesting that a \"ritual genital nick\" of minimal extent might serve as a culturall.",
+      "span": {
+        "quote": "In 2010, the American Academy of Pediatrics (AAP) issued a policy statement suggesting that a \"ritual genital nick\" of minimal extent might serve as a culturall"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

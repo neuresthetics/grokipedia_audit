@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0087",
+  "source_text": "REQUESTS that all national governments pass legislation prohibiting the practice of torture, cruelty, inhuman, and degrading treatment inherent in the genital mutilations of children conducted as socio-cultural or religious customs, constituting de facto violations of these instruments.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "REQUESTS that all national governments pass legislation prohibiting the practice of torture, cruelty, inhuman, and degrading treatment inher"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "REQUESTS that all national governments pass legislation prohibiting the practice of torture, cruelty, inhuman, and degrading treatment inherent in the genital m.",
+      "span": {
+        "quote": "REQUESTS that all national governments pass legislation prohibiting the practice of torture, cruelty, inhuman, and degrading treatment inherent in the genital m"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "These instruments.",
+      "span": {
+        "quote": "these instruments"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "these instruments"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

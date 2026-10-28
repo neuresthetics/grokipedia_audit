@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0062",
+  "source_text": "Neonatal procedures exhibit lower overall risks than those in adolescents or adults, with reduced blood loss (typically <5 mL versus up to 100 mL in adults) due to smaller penile size and immature vascularity, alongside faster healing and fewer infections. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal procedures exhibit lower overall risks than those in adolescents or adults, with reduced blood loss (typically <5 mL versus up to 1"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal procedures exhibit lower overall risks than those in adolescents or adults, with reduced blood loss (typically <5 mL versus up to 100 mL in adults) due.",
+      "span": {
+        "quote": "Neonatal procedures exhibit lower overall risks than those in adolescents or adults, with reduced blood loss (typically <5 mL versus up to 100 mL in adults) due"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

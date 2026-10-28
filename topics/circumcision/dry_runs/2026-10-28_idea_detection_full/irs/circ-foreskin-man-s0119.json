@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-foreskin-man-s0119",
+  "source_text": "Critics of the Foreskin Man comic have argued that its portrayal of circumcisers as monstrous villains promotes demonization of parents and medical practitioners who view the procedure as a routine health or cultural practice, thereby exaggerating the ethical stakes beyond empirical realities of low complication rates\u2014typically under 1% for adverse events in controlled settings. [74]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of the Foreskin Man comic have argued that its portrayal of circumcisers as monstrous villains promotes demonization of parents and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "An comic have argued that its portrayal of circumcisers as monstrous villains promotes demonization of parents and medical practitioners who view the procedure.",
+      "span": {
+        "quote": "an comic have argued that its portrayal of circumcisers as monstrous villains promotes demonization of parents and medical practitioners who view the procedure "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c2",
+      "text": "Exaggerating the ethical stakes beyond empirical realities of low complication rates\u2014typically under 1% for adverse events in controlled settings. [74].",
+      "span": {
+        "quote": "exaggerating the ethical stakes beyond empirical realities of low complication rates\u2014typically under 1% for adverse events in controlled settings. [74]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

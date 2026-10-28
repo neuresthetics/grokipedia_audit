@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0280",
+  "source_text": "Women with FGM experience reduced sexual satisfaction and dyspareunia at rates 2-3 times higher than uncircumcised peers, per quantitative reviews, with type III (infibulation) correlating to pain during intercourse in over 70% of cases. [136]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Women with FGM experience reduced sexual satisfaction and dyspareunia at rates 2-3 times higher than uncircumcised peers, per quantitative r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Women with FGM experience reduced sexual satisfaction and dyspareunia at rates 2-3 times higher than uncircumcised peers, per quantitative reviews, with type II.",
+      "span": {
+        "quote": "Women with FGM experience reduced sexual satisfaction and dyspareunia at rates 2-3 times higher than uncircumcised peers, per quantitative reviews, with type II"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per quantitative reviews.",
+      "span": {
+        "quote": "per quantitative reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per quantitative reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-s0233",
+  "source_text": "Legal scholars like J. Steven Svoboda have framed infant male circumcision as a human rights violation under frameworks prioritizing bodily inviolability, noting that it meets definitions of unnecessary surgery in many jurisdictions and lacks the therapeutic justification required for parental override.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legal scholars like J. Steven Svoboda have framed infant male circumcision as a human rights violation under frameworks prioritizing bodily"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Legal scholars like J. Steven Svoboda have framed infant male circumcision as a human rights violation under frameworks prioritizing bodily inviolability, notin.",
+      "span": {
+        "quote": "Legal scholars like J. Steven Svoboda have framed infant male circumcision as a human rights violation under frameworks prioritizing bodily inviolability, notin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

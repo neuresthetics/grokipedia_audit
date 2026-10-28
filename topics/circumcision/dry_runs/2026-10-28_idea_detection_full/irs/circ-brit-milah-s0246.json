@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0246",
+  "source_text": "The case, reported in multiple sources including The Jerusalem Post, highlights the ongoing risk of neonatal herpes transmission from the mohel's mouth to the infant despite awareness and regulatory efforts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The case, reported in multiple sources including The Jerusalem Post, highlights the ongoing risk of neonatal herpes transmission from the mo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The case, reported in multiple sources including The Jerusalem Post, highlights the ongoing risk of neonatal herpes transmission from the mohel's mouth to the i.",
+      "span": {
+        "quote": "The case, reported in multiple sources including The Jerusalem Post, highlights the ongoing risk of neonatal herpes transmission from the mohel's mouth to the i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

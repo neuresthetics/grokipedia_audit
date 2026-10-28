@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0005",
+  "source_text": "South African authorities have responded with legislation mandating registration of initiation schools and collaboration with health professionals, yet enforcement remains inconsistent, perpetuating preventable harms despite the rite's cultural entrenchment. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "South African authorities have responded with legislation mandating registration of initiation schools and collaboration with health profess"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "South African authorities have responded with legislation mandating registration of initiation schools and collaboration with health professionals, yet enforcem.",
+      "span": {
+        "quote": "South African authorities have responded with legislation mandating registration of initiation schools and collaboration with health professionals, yet enforcem"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-brit-milah-s0220",
+  "source_text": "The American Academy of Pediatrics, in its 2012 policy statement reaffirmed in subsequent reviews, concludes that these cumulative preventive health benefits\u2014encompassing UTIs, STIs, and dermatologic issues\u2014outweigh procedural risks for newborns, justifying access to the procedure under appropriate medical conditions. [108]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics, in its 2012 policy statement reaffirmed in subsequent reviews, concludes that these cumulative preventiv"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ese cumulative preventive health benefits\u2014encompassing UTIs, STIs, and dermatologic issues\u2014outweigh procedural risks for newborns, justifying access to the proc.",
+      "span": {
+        "quote": "ese cumulative preventive health benefits\u2014encompassing UTIs, STIs, and dermatologic issues\u2014outweigh procedural risks for newborns, justifying access to the proc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Academy of Pediatrics, in its 2012 policy statement reaffirmed in subsequent reviews.",
+      "span": {
+        "quote": "The American Academy of Pediatrics, in its 2012 policy statement reaffirmed in subsequent reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concludes"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

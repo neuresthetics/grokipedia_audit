@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0118",
+  "source_text": "Immediate health outcomes commonly include swelling, excessive bleeding, and infections such as sepsis, arising from non-sterile tools and inadequate post-operative hygiene. [38] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate health outcomes commonly include swelling, excessive bleeding, and infections such as sepsis, arising from non-sterile tools and i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate health outcomes commonly include swelling, excessive bleeding, and infections such as sepsis, arising from non-sterile tools and inadequate post-opera.",
+      "span": {
+        "quote": "Immediate health outcomes commonly include swelling, excessive bleeding, and infections such as sepsis, arising from non-sterile tools and inadequate post-opera"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

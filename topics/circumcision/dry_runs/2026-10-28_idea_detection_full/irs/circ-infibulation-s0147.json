@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0147",
+  "source_text": "Immediate complications of infibulation, a severe form of Type III female genital mutilation involving excision of the clitoris and labia with suturing to narrow the vaginal opening, include excessive hemorrhage from vascular damage during the procedure, tetanus and other wound infections due to non-sterile instruments, and urinary retention from swelling and obstruction. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate complications of infibulation, a severe form of Type III female genital mutilation involving excision of the clitoris and labia wi"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate complications of infibulation, a severe form of Type III female genital mutilation involving excision of the clitoris and labia with suturing to narro.",
+      "span": {
+        "quote": "Immediate complications of infibulation, a severe form of Type III female genital mutilation involving excision of the clitoris and labia with suturing to narro"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

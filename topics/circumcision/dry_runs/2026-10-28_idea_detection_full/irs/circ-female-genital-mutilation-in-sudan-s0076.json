@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0076",
+  "source_text": "These hadiths, such as narrations attributed to Umm Atiyyah describing a \"sunna\" cutting for women, are classified by many scholars as weak (da'if) due to issues in their chains of transmission and lack of corroboration in authentic sources like Sahih Bukhari or Muslim. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These hadiths, such as narrations attributed to Umm Atiyyah describing a \"sunna\" cutting for women, are classified by many scholars as weak"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These hadiths, such as narrations attributed to Umm Atiyyah describing a \"sunna\" cutting for women, are classified by many scholars as weak (da'if) due to issue.",
+      "span": {
+        "quote": "These hadiths, such as narrations attributed to Umm Atiyyah describing a \"sunna\" cutting for women, are classified by many scholars as weak (da'if) due to issue"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

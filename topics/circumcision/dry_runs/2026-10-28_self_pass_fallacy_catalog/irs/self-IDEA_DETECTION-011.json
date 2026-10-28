@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-011",
+  "source_text": "The short checker report is a verdict and a reason. A METHOD record is the audit shape in METHOD.md: the passage quote, the catalog entry name and id, each required condition, each legitimate look-alike, and the verdict. idea_detection/record.py renders that shape from checker rows plus fallacies.json. It does not rewrite METHOD, and it is not a hand review.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The short checker report is a verdict and a reason. A METHOD record is the audit shape in METHOD.md: the passage quote, the catalog entry na"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The short checker report is a verdict and a reason. A METHOD record is the audit shape in METHOD.md: the passage quote, the catalog entry name and id, each requ.",
+      "span": {
+        "quote": "The short checker report is a verdict and a reason. A METHOD record is the audit shape in METHOD.md: the passage quote, the catalog entry name and id, each requ"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

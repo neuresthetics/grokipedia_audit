@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0104",
+  "source_text": "Defenders within practicing communities frequently rationalize FGM as a means to control female sexuality, ensuring premarital chastity and marital fidelity by reducing sexual desire or \"hypersexuality,\" which is believed to align with ideals of modesty and femininity. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Defenders within practicing communities frequently rationalize FGM as a means to control female sexuality, ensuring premarital chastity and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Defenders within practicing communities frequently rationalize FGM as a means to control female sexuality, ensuring premarital chastity and marital fidelity by.",
+      "span": {
+        "quote": "Defenders within practicing communities frequently rationalize FGM as a means to control female sexuality, ensuring premarital chastity and marital fidelity by "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

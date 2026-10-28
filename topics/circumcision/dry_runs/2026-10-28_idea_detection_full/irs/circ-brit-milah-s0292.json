@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-brit-milah-s0292",
+  "source_text": "Both bodies distinguish standard excision from MBP, with AAP and CDC highlighting MBP's herpes transmission potential (e.g., 11-24 cases per year in NYC pre-regulation, per health data) and urging alternatives, though without banning the ritual element. [126] [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Both bodies distinguish standard excision from MBP, with AAP and CDC highlighting MBP's herpes transmission potential (e.g., 11-24 cases per"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Both bodies distinguish standard excision from MBP, with AAP and CDC highlighting MBP's herpes transmission potential (e.g., 11-24 cases per year in NYC pre-reg.",
+      "span": {
+        "quote": "Both bodies distinguish standard excision from MBP, with AAP and CDC highlighting MBP's herpes transmission potential (e.g., 11-24 cases per year in NYC pre-reg"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "Per year in NYC pre-regulation.",
+      "span": {
+        "quote": "per year in NYC pre-regulation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "per year in NYC pre-regulation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0131",
+  "source_text": "Common minor complications include bleeding (0.08%\u20130.18%), local infection (0.06%), and penile injury (0.04%), while serious events such as excessive bleeding requiring intervention or penile damage occur at rates below 0.1% in hospital-based settings. [68]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Common minor complications include bleeding (0.08%\u20130.18%), local infection (0.06%), and penile injury (0.04%), while serious events such as"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Common minor complications include bleeding (0.08%\u20130.18%), local infection (0.06%), and penile injury (0.04%), while serious events such as excessive bleeding r.",
+      "span": {
+        "quote": "Common minor complications include bleeding (0.08%\u20130.18%), local infection (0.06%), and penile injury (0.04%), while serious events such as excessive bleeding r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

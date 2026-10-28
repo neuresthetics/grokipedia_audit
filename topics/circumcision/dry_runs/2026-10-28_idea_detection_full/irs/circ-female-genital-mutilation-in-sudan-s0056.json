@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0056",
+  "source_text": "In northern areas like Haj-Yousif and Shendi, surveys indicate that 69-75% of supporting women cite adherence to social custom as the key driver, linking the practice directly to improved prospects in arranged unions and community integration.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In northern areas like Haj-Yousif and Shendi, surveys indicate that 69-75% of supporting women cite adherence to social custom as the key dr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In northern areas like Haj-Yousif and Shendi, surveys indicate that 69-75% of supporting women cite adherence to social custom as the key driver, linking the pr.",
+      "span": {
+        "quote": "In northern areas like Haj-Yousif and Shendi, surveys indicate that 69-75% of supporting women cite adherence to social custom as the key driver, linking the pr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0373",
+  "source_text": "The Canadian Paediatric Society (CPS) 2015 statement does not recommend routine newborn circumcision, finding modest benefits like reduced urinary tract infections and balanitis do not outweigh risks or alternatives such as hygiene in low-HIV-prevalence settings. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Canadian Paediatric Society (CPS) 2015 statement does not recommend routine newborn circumcision, finding modest benefits like reduced u"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Canadian Paediatric Society (CPS) 2015 statement does not recommend routine newborn circumcision, finding modest benefits like reduced urinary tract infecti.",
+      "span": {
+        "quote": "The Canadian Paediatric Society (CPS) 2015 statement does not recommend routine newborn circumcision, finding modest benefits like reduced urinary tract infecti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

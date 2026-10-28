@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0078",
+  "source_text": "Anonymous self-reports in qualitative research from Egypt and Sudan similarly include women affirming no adverse impacts on fertility, childbirth, or sexual enjoyment.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anonymous self-reports in qualitative research from Egypt and Sudan similarly include women affirming no adverse impacts on fertility, child"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anonymous self-reports in qualitative research from Egypt and Sudan similarly include women affirming no adverse impacts on fertility, childbirth, or sexual enj.",
+      "span": {
+        "quote": "Anonymous self-reports in qualitative research from Egypt and Sudan similarly include women affirming no adverse impacts on fertility, childbirth, or sexual enj"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-phimosis-s0301",
+  "source_text": "Critics argue this pathologization stems from observer bias in circumcising medical traditions, where intact foreskins are scrutinized more rigorously, whereas first-principles evaluation prioritizes symptoms like pain or infection over mere non-retractability, underscoring the need for evidence-based thresholds to avoid conflating cultural preferences with clinical imperatives. [97]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics argue this pathologization stems from observer bias in circumcising medical traditions, where intact foreskins are scrutinized more"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is pathologization stems from observer bias in circumcising medical traditions, where intact foreskins are scrutinized more rigorously, whereas first-principles.",
+      "span": {
+        "quote": "is pathologization stems from observer bias in circumcising medical traditions, where intact foreskins are scrutinized more rigorously, whereas first-principles"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

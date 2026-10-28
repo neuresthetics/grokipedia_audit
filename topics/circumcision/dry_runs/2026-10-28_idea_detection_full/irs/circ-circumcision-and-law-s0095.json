@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0095",
+  "source_text": "In 2022, Health Minister Ingvild Kjerkol rejected calls from Save the Children for a legality review, affirming the law's balance of child protection with religious accommodation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In 2022, Health Minister Ingvild Kjerkol rejected calls from Save the Children for a legality review, affirming the law's balance of child p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In 2022, Health Minister Ingvild Kjerkol rejected calls from Save the Children for a legality review, affirming the law's balance of child protection with relig.",
+      "span": {
+        "quote": "In 2022, Health Minister Ingvild Kjerkol rejected calls from Save the Children for a legality review, affirming the law's balance of child protection with relig"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

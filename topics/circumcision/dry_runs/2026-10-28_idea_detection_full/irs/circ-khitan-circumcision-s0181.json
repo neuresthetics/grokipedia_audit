@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0181",
+  "source_text": "In traditional Islamic jurisprudence (e.g., Hanbali and Shafi'i schools), khitan is classified as wajib (obligatory) or mustahabb (recommended), justifying proxy consent by guardians without the infant's input, as the body is viewed as an amana (divine trust) subject to prophetic commands rather than absolute individual autonomy. [21] [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In traditional Islamic jurisprudence (e.g., Hanbali and Shafi'i schools), khitan is classified as wajib (obligatory) or mustahabb (recommend"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In traditional Islamic jurisprudence (e.g., Hanbali and Shafi'i schools), khitan is classified as wajib (obligatory) or mustahabb (recommended), justifying prox.",
+      "span": {
+        "quote": "In traditional Islamic jurisprudence (e.g., Hanbali and Shafi'i schools), khitan is classified as wajib (obligatory) or mustahabb (recommended), justifying prox"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0058",
+  "source_text": "In Guinea, cutting is believed to diminish sexual desire, thereby safeguarding virginity until marriage and reducing infidelity risks, with statements like \"if your clitoris is not removed... you may become addicted to men\" reflecting this view. [23]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Guinea, cutting is believed to diminish sexual desire, thereby safeguarding virginity until marriage and reducing infidelity risks, with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Guinea, cutting is believed to diminish sexual desire.",
+      "span": {
+        "quote": "In Guinea, cutting is believed to diminish sexual desire"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Safeguarding virginity until marriage and reducing infidelity risks, with statements like \"if your clitoris is not removed... you may become addicted to men\" re.",
+      "span": {
+        "quote": "safeguarding virginity until marriage and reducing infidelity risks, with statements like \"if your clitoris is not removed... you may become addicted to men\" re"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

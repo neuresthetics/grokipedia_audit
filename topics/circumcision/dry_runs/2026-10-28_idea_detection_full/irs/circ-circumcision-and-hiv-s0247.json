@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0247",
+  "source_text": "Methodological critiques are dismissed as denialism, given the trials' rigorous design, including intention-to-treat analyses and adjustments for behavior, which found no evidence of bias invalidating results. [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Methodological critiques are dismissed as denialism, given the trials' rigorous design, including intention-to-treat analyses and adjustment"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Methodological critiques are dismissed as denialism, given the trials' rigorous design, including intention-to-treat analyses and adjustments for behavior, whic.",
+      "span": {
+        "quote": "Methodological critiques are dismissed as denialism, given the trials' rigorous design, including intention-to-treat analyses and adjustments for behavior, whic"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of bias invalidating results.",
+      "span": {
+        "quote": "no evidence of bias invalidating results"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of bias invalidating results"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

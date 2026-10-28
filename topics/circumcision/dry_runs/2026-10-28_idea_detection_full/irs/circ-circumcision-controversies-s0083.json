@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0083",
+  "source_text": "Central to genital integrity claims is the foreskin's characterization as specialized erogenous tissue, containing dense concentrations of Meissner's corpuscles for fine-touch mechanoreception.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Central to genital integrity claims is the foreskin's characterization as specialized erogenous tissue, containing dense concentrations of M"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is the foreskin's characterization as specialized erogenous tissue, containing dense concentrations of Meissner's corpuscles for fine-touch mechanoreception.",
+      "span": {
+        "quote": "is the foreskin's characterization as specialized erogenous tissue, containing dense concentrations of Meissner's corpuscles for fine-touch mechanoreception."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Central to genital integrity.",
+      "span": {
+        "quote": "Central to genital integrity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

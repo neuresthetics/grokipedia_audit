@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-forced-circumcision-s0243",
+  "source_text": "Critics of autonomy-centric views, including some bioethicists, warn that overemphasizing individual rights could lead to state overreach into private spheres, potentially discriminating against religious minorities, while autonomy advocates rebut that true parental rights do not extend to proxying irreversible harms without evidence of net benefit. [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of autonomy-centric views, including some bioethicists, warn that overemphasizing individual rights could lead to state overreach in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics of autonomy-centric views, including some bioethicists, warn that overemphasizing individual rights could lead to state overreach into private spheres,.",
+      "span": {
+        "quote": "Critics of autonomy-centric views, including some bioethicists, warn that overemphasizing individual rights could lead to state overreach into private spheres, "
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

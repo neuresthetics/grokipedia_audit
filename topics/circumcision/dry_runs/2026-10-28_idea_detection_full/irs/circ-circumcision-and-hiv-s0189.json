@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0189",
+  "source_text": "These trials reported relative risk reductions of 60% (Auvert), 51% (Bailey), and 56% (Gray), leading to early termination upon interim analyses demonstrating statistical significance. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These trials reported relative risk reductions of 60% (Auvert), 51% (Bailey), and 56% (Gray), leading to early termination upon interim anal"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These trials reported relative risk reductions of 60% (Auvert), 51% (Bailey), and 56% (Gray), leading to early termination upon interim analyses demonstrating s.",
+      "span": {
+        "quote": "These trials reported relative risk reductions of 60% (Auvert), 51% (Bailey), and 56% (Gray), leading to early termination upon interim analyses demonstrating s"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

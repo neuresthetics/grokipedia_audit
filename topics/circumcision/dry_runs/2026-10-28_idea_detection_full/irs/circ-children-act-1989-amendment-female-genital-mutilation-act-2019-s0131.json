@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0131",
+  "source_text": "Cultural norms within practicing communities perpetuate resistance by framing FGM as an essential rite of passage or family honor obligation, discouraging reporting and cooperation. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural norms within practicing communities perpetuate resistance by framing FGM as an essential rite of passage or family honor obligation"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cultural norms within practicing communities perpetuate resistance by framing FGM as an essential rite of passage or family honor obligation, discouraging repor.",
+      "span": {
+        "quote": "Cultural norms within practicing communities perpetuate resistance by framing FGM as an essential rite of passage or family honor obligation, discouraging repor"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

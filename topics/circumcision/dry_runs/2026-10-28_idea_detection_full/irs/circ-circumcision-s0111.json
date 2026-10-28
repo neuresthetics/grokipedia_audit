@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0111",
+  "source_text": "Weighted analysis indicated an increase of 0.1 per 1,000 in unexplained SIDS mortality (95% CI: 0.03-0.16, t = 2.81, p = 0.01) for every 10% increase in circumcision rate.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Weighted analysis indicated an increase of 0.1 per 1,000 in unexplained SIDS mortality (95% CI: 0.03-0.16, t = 2.81, p = 0.01) for every 10%"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Weighted analysis indicated an increase of 0.1 per 1,000 in unexplained SIDS mortality (95% CI: 0.03-0.16, t = 2.81, p = 0.01) for every 10% increase in circumc.",
+      "span": {
+        "quote": "Weighted analysis indicated an increase of 0.1 per 1,000 in unexplained SIDS mortality (95% CI: 0.03-0.16, t = 2.81, p = 0.01) for every 10% increase in circumc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "An increase of 0.",
+      "span": {
+        "quote": "an increase of 0"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "an increase of 0"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

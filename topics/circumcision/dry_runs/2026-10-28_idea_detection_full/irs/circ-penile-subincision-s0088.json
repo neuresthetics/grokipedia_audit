@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0088",
+  "source_text": "The expanded urethral opening heightens susceptibility to sexually transmitted infections by exposing more mucosal surface to pathogens during intercourse, a risk amplified in unhealed or recurrently irritated tissues. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The expanded urethral opening heightens susceptibility to sexually transmitted infections by exposing more mucosal surface to pathogens duri"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The expanded urethral opening heightens susceptibility to sexually transmitted infections by exposing more mucosal surface to pathogens during intercourse, a ri.",
+      "span": {
+        "quote": "The expanded urethral opening heightens susceptibility to sexually transmitted infections by exposing more mucosal surface to pathogens during intercourse, a ri"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

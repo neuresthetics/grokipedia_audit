@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0040",
+  "source_text": "Sociological analyses affirm the rite's ongoing value in forging personal and communal identity, countering narratives of obsolescence by emphasizing its role in moral education and social cohesion, even as urban influences prompt hybrid forms.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sociological analyses affirm the rite's ongoing value in forging personal and communal identity, countering narratives of obsolescence by em"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sociological analyses affirm the rite's ongoing value in forging personal and communal identity, countering narratives of obsolescence by emphasizing its role i.",
+      "span": {
+        "quote": "Sociological analyses affirm the rite's ongoing value in forging personal and communal identity, countering narratives of obsolescence by emphasizing its role i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

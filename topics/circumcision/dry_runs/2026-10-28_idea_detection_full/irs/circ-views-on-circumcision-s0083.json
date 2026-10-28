@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0083",
+  "source_text": "Meta-analyses indicate a 68% lower prevalence of balanitis in circumcised males, with longitudinal studies showing up to 90% reductions in inflammatory episodes due to improved hygiene and elimination of the preputial microenvironment prone to infection. [53]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses indicate a 68% lower prevalence of balanitis in circumcised males, with longitudinal studies showing up to 90% reductions in i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses indicate a 68% lower prevalence of balanitis in circumcised males, with longitudinal studies showing up to 90% reductions in inflammatory episodes.",
+      "span": {
+        "quote": "Meta-analyses indicate a 68% lower prevalence of balanitis in circumcised males, with longitudinal studies showing up to 90% reductions in inflammatory episodes"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

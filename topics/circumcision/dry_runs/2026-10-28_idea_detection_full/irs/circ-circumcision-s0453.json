@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0453",
+  "source_text": "No higher rates of anxiety, depression, or behavioral problems appear compared to uncircumcised peers, countering anecdotal distress claims. [116] [248]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No higher rates of anxiety, depression, or behavioral problems appear compared to uncircumcised peers, countering anecdotal distress claims."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No higher rates of anxiety, depression, or behavioral problems appear compared to uncircumcised peers, countering anecdotal distress.",
+      "span": {
+        "quote": "No higher rates of anxiety, depression, or behavioral problems appear compared to uncircumcised peers, countering anecdotal distress"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

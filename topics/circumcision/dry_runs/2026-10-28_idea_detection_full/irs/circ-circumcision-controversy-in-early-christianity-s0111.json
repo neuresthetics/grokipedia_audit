@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0111",
+  "source_text": "This typology underscored that the old covenant's physical ordinances prefigured spiritual regeneration, obviating their ongoing necessity and guarding against legalism that denies Christ's sufficiency. [51]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This typology underscored that the old covenant's physical ordinances prefigured spiritual regeneration, obviating their ongoing necessity a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This typology underscored that the old covenant's physical ordinances prefigured spiritual regeneration, obviating their ongoing necessity and guarding against.",
+      "span": {
+        "quote": "This typology underscored that the old covenant's physical ordinances prefigured spiritual regeneration, obviating their ongoing necessity and guarding against "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

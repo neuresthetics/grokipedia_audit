@@ -1,0 +1,22 @@
+{
+  "passages": 98,
+  "irs_written": 98,
+  "irs_schema_ok": 98,
+  "irs_invalid": 0,
+  "checker_ok": 98,
+  "atom_flag": 0,
+  "atom_possible_issue": 4,
+  "atom_no_issue": 1270,
+  "passages_with_flag": 0,
+  "passages_with_possible_issue": 4,
+  "possible_issue_by_entry": {
+    "argument-from-ignorance": 1,
+    "appeal-to-authority": 2,
+    "guilt-by-association": 1
+  },
+  "flag_by_entry": {},
+  "extractor_models": {
+    "cue-extractor-v1": 98
+  },
+  "tip": "bfcbc8ba9afadf84688882c603a0e09f47722c55"
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0039",
+  "source_text": "This groundwork enabled unified platforms, highlighting parallels in procedure-induced trauma across genders.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This groundwork enabled unified platforms, highlighting parallels in procedure-induced trauma across genders."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This groundwork enabled unified platforms, highlighting parallels in procedure-induced trauma across genders.",
+      "span": {
+        "quote": "This groundwork enabled unified platforms, highlighting parallels in procedure-induced trauma across genders."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

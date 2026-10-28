@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0084",
+  "source_text": "In traditional Hausa-Fulani communities, practitioners of Yankan Gishiri report that the procedure alleviates symptoms attributed to vaginal narrowing or stenosis, such as painful intercourse (dyspareunia) and difficulty with penetration, by widening the vaginal canal.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In traditional Hausa-Fulani communities, practitioners of Yankan Gishiri report that the procedure alleviates symptoms attributed to vaginal"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In traditional Hausa-Fulani communities, practitioners of Yankan Gishiri report that the procedure alleviates symptoms attributed to vaginal narrowing or stenos.",
+      "span": {
+        "quote": "In traditional Hausa-Fulani communities, practitioners of Yankan Gishiri report that the procedure alleviates symptoms attributed to vaginal narrowing or stenos"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

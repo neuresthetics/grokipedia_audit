@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0021",
+  "source_text": "This framing positioned the circumcised state as enhancing overall bodily harmony in line with prophetic practices, though explicit visual descriptors remained tied to ritual purity rather than isolated aesthetics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This framing positioned the circumcised state as enhancing overall bodily harmony in line with prophetic practices, though explicit visual d"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This framing positioned the circumcised state as enhancing overall bodily harmony in line with prophetic practices, though explicit visual descriptors remained.",
+      "span": {
+        "quote": "This framing positioned the circumcised state as enhancing overall bodily harmony in line with prophetic practices, though explicit visual descriptors remained "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to ritual purity rather than isolated aesthetics.",
+      "span": {
+        "quote": "tied to ritual purity rather than isolated aesthetics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to ritual purity rather than isolated aesthetics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to ritual purity rather than isolated aesthetics",
+          "span": {
+            "quote": "tied to ritual purity rather than isolated aesthetics"
+          }
+        }
+      ]
+    }
+  ]
+}

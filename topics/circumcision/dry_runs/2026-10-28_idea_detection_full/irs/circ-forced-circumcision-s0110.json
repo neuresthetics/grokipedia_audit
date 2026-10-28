@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-forced-circumcision-s0110",
+  "source_text": "Gisu activists organized public imbalu processions into Mbale town, where ritual surgeons forcibly circumcised non-Gisu bystanders, often without anesthesia or consent, leading to severe trauma, infections, and deaths in some cases. [46]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Gisu activists organized public imbalu processions into Mbale town, where ritual surgeons forcibly circumcised non-Gisu bystanders, often wi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gisu activists organized public imbalu processions into Mbale town, where ritual surgeons forcibly circumcised non-Gisu bystanders, often without anesthesia or.",
+      "span": {
+        "quote": "Gisu activists organized public imbalu processions into Mbale town, where ritual surgeons forcibly circumcised non-Gisu bystanders, often without anesthesia or "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Activists organized public imbalu processions into Mbale.",
+      "span": {
+        "quote": "activists organized public imbalu processions into Mbale"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "activists organized public imbalu processions into Mbale"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Gisu activists organ"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activists organized public imbalu processions into Mbale ",
+          "span": {
+            "quote": "activists organized public imbalu processions into Mbale"
+          }
+        }
+      ]
+    }
+  ]
+}

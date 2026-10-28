@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0073",
+  "source_text": "Prescott collaborated with organizations such as the Institute of Humanistic Science, the Humanist Fellowship of San Diego, and the National Organization of Circumcision Information Resource Centers (NOCIRC) to refine and promote the resolution, framing it as a humanistic imperative against child genital modification practices worldwide. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prescott collaborated with organizations such as the Institute of Humanistic Science, the Humanist Fellowship of San Diego, and the National"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prescott collaborated with organizations such as the Institute of Humanistic Science, the Humanist Fellowship of San Diego, and the National Organization of Cir.",
+      "span": {
+        "quote": "Prescott collaborated with organizations such as the Institute of Humanistic Science, the Humanist Fellowship of San Diego, and the National Organization of Cir"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

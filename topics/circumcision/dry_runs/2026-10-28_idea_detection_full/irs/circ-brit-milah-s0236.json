@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-brit-milah-s0236",
+  "source_text": "This practice has been epidemiologically linked to neonatal HSV-1 infections, which carry high morbidity and mortality risks in newborns due to their immature immune systems; disseminated HSV can result in up to 30% fatality rates, with survivors often facing severe neurological damage. [115]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice has been epidemiologically linked to neonatal HSV-1 infections, which carry high morbidity and mortality risks in newborns due"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice has been epidemiologically linked to neonatal HSV-1 infections, which carry high morbidity and mortality risks in newborns due to their immature i.",
+      "span": {
+        "quote": "This practice has been epidemiologically linked to neonatal HSV-1 infections, which carry high morbidity and mortality risks in newborns due to their immature i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to neonatal HSV-1 infections.",
+      "span": {
+        "quote": "linked to neonatal HSV-1 infections"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to neonatal HSV-1 infections"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to neonatal HSV-1 infections",
+          "span": {
+            "quote": "linked to neonatal HSV-1 infections"
+          }
+        }
+      ]
+    }
+  ]
+}

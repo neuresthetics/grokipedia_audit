@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0152",
+  "source_text": "While some counter that cultural continuity justifies parental prerogative, ethicists rebut this by noting that rights to religious freedom do not extend to harming dependents, as evidenced by prohibitions on other irreversible rituals like scarring or tattooing minors.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some counter that cultural continuity justifies parental prerogative, ethicists rebut this by noting that rights to religious freedom"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While some counter that cultural continuity justifies parental prerogative, ethicists rebut this by noting that rights to religious freedom do not extend to har.",
+      "span": {
+        "quote": "While some counter that cultural continuity justifies parental prerogative, ethicists rebut this by noting that rights to religious freedom do not extend to har"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

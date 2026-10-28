@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0059",
+  "source_text": "The International Covenant on Civil and Political Rights (ICCPR, 1966), ratified by 173 states as of 2023, includes Article 7's absolute prohibition on torture or cruel, inhuman, or degrading treatment or punishment, which critics apply to circumcision's deliberate infliction of pain via incision and tissue excision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The International Covenant on Civil and Political Rights (ICCPR, 1966), ratified by 173 states as of 2023, includes Article 7's absolute pro"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The International Covenant on Civil and Political Rights (ICCPR, 1966), ratified by 173 states as of 2023, includes Article 7's absolute prohibition on torture.",
+      "span": {
+        "quote": "The International Covenant on Civil and Political Rights (ICCPR, 1966), ratified by 173 states as of 2023, includes Article 7's absolute prohibition on torture "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

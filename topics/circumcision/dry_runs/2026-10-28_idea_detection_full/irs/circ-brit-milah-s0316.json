@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-brit-milah-s0316",
+  "source_text": "The American Academy of Pediatrics' 2012 policy states that benefits outweigh risks, supporting parental decision-making without mandating regulation beyond standard medical consent. [126]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy states that benefits outweigh risks, supporting parental decision-making without mandating r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Academy of Pediatrics' 2012 policy states that benefits outweigh risks, supporting parental decision-making without mandating regulation beyond sta.",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy states that benefits outweigh risks, supporting parental decision-making without mandating regulation beyond sta"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

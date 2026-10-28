@@ -1,0 +1,70 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0129",
+  "source_text": "Drawing from the United Nations Convention on the Rights of the Child (UNCRC), ratified by 196 countries as of 2023, the resolution highlights Article 19, which mandates state protection of children from all forms of physical or mental violence, injury, or abuse, including while under parental care; it contends that parental or cultural practices of genital mutilation qualify as such maltreatment, necessitating legislative and educational interventions to prevent them. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Drawing from the United Nations Convention on the Rights of the Child (UNCRC), ratified by 196 countries as of 2023, the resolution highligh"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parental or cultural practices of genital mutilation qualify as such maltreatment, necessitating legislative and educational interventions to prevent them.",
+      "span": {
+        "quote": "parental or cultural practices of genital mutilation qualify as such maltreatment, necessitating legislative and educational interventions to prevent them."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Solution highlights Article 19, which mandates state protection of children from all forms of physical or mental violence, injury, or abuse, including while und.",
+      "span": {
+        "quote": "solution highlights Article 19, which mandates state protection of children from all forms of physical or mental violence, injury, or abuse, including while und"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contends"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "prevent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

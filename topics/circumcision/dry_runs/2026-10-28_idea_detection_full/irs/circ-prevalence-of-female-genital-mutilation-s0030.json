@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-prevalence-of-female-genital-mutilation-s0030",
+  "source_text": "For instance, in Indonesia, national data indicate that approximately 49% of girls aged 0-14 have undergone FGC, yet ethnographic studies describe most as symbolic rituals involving a drop of blood via pricking, leading critics to argue that such inclusions inflate global estimates without reflecting equivalent harm levels found in African excisional practices. [8] [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, in Indonesia, national data indicate that approximately 49% of girls aged 0-14 have undergone FGC, yet ethnographic studies de"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "National data indicate that approximately 49% of girls aged 0-14 have undergone FGC, yet ethnographic studies describe most as symbolic rituals involving a drop.",
+      "span": {
+        "quote": "national data indicate that approximately 49% of girls aged 0-14 have undergone FGC, yet ethnographic studies describe most as symbolic rituals involving a drop"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c2",
+      "text": "Such inclusions inflate global estimates without reflecting equivalent harm levels found in African excisional practices. [8] [9].",
+      "span": {
+        "quote": "such inclusions inflate global estimates without reflecting equivalent harm levels found in African excisional practices. [8] [9]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "For instance, in Indonesia, national data indicate that approximately 49% of gir"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

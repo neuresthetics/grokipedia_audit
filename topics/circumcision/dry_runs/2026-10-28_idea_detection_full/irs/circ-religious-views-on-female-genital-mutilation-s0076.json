@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0076",
+  "source_text": "These positions reflect interpretations prioritizing prophetic traditions over explicit Quranic mandates, though reliant on hadiths of debated authenticity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These positions reflect interpretations prioritizing prophetic traditions over explicit Quranic mandates, though reliant on hadiths of debat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These positions reflect interpretations prioritizing prophetic traditions over explicit Quranic mandates, though reliant on hadiths of debated authenticity.",
+      "span": {
+        "quote": "These positions reflect interpretations prioritizing prophetic traditions over explicit Quranic mandates, though reliant on hadiths of debated authenticity."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

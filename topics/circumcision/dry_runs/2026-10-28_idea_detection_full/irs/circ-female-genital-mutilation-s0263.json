@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0263",
+  "source_text": "It contravenes conventions such as the Convention on the Rights of the Child and the Convention on the Elimination of All Forms of Discrimination Against Women by denying bodily autonomy and reinforcing patriarchal control over female sexuality without equivalent male practices.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It contravenes conventions such as the Convention on the Rights of the Child and the Convention on the Elimination of All Forms of Discrimin"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It contravenes conventions such as the Convention on the Rights of the Child and the Convention on the Elimination of All Forms of Discrimination Against Women.",
+      "span": {
+        "quote": "It contravenes conventions such as the Convention on the Rights of the Child and the Convention on the Elimination of All Forms of Discrimination Against Women "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ulwaluko-s0039",
+  "source_text": "The HIV/AIDS epidemic intensified scrutiny of Ulwaluko, as public health campaigns promoted medical male circumcision for its demonstrated reduction in HIV acquisition risk\u2014supported by randomized controlled trials showing up to 60% efficacy\u2014yet highlighted risks in traditional methods due to unsterile tools and inadequate aftercare. [19] [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The HIV/AIDS epidemic intensified scrutiny of Ulwaluko, as public health campaigns promoted medical male circumcision for its demonstrated r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The HIV/AIDS epidemic intensified scrutiny of Ulwaluko, as public health campaigns promoted medical male circumcision for its demonstrated reduction in HIV acqu.",
+      "span": {
+        "quote": "The HIV/AIDS epidemic intensified scrutiny of Ulwaluko, as public health campaigns promoted medical male circumcision for its demonstrated reduction in HIV acqu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

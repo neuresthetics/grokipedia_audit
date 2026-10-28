@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0151",
+  "source_text": "A meta-analysis reported a post-circumcision rate of 0.66%, which was not statistically different from rates in uncircumcised males, suggesting potential overestimation in smaller cohorts or underreporting in controls. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A meta-analysis reported a post-circumcision rate of 0.66%, which was not statistically different from rates in uncircumcised males, suggest"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A meta-analysis reported a post-circumcision rate of 0.66%, which was not statistically different from rates in uncircumcised males, suggesting potential overes.",
+      "span": {
+        "quote": "A meta-analysis reported a post-circumcision rate of 0.66%, which was not statistically different from rates in uncircumcised males, suggesting potential overes"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

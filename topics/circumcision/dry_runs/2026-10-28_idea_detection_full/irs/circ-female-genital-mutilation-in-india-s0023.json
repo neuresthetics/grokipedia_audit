@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0023",
+  "source_text": "Community adherents often describe it as a \"tiny cut\" or symbolic prick performed in secrecy by female elders using rudimentary tools, distinguishing it semantically and procedurally from broader Western or international classifications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Community adherents often describe it as a \"tiny cut\" or symbolic prick performed in secrecy by female elders using rudimentary tools, disti"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Community adherents often describe it as a \"tiny cut\" or symbolic prick performed in secrecy by female elders using rudimentary tools, distinguishing it semanti.",
+      "span": {
+        "quote": "Community adherents often describe it as a \"tiny cut\" or symbolic prick performed in secrecy by female elders using rudimentary tools, distinguishing it semanti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

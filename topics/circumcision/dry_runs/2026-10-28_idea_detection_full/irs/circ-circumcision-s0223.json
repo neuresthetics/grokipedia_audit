@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0223",
+  "source_text": "Monitored cohorts show no significant risk compensation, with behaviors aligning to baselines.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Monitored cohorts show no significant risk compensation, with behaviors aligning to baselines."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Monitored cohorts show no significant risk compensation, with behaviors aligning to baselines.",
+      "span": {
+        "quote": "Monitored cohorts show no significant risk compensation, with behaviors aligning to baselines."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

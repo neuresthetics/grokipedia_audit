@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-004",
+  "source_text": "**Verdict rule:** flag iff every atom in ir_pattern binds with a quote span, no ir_forbid matches, outside-text gates pass, and family rules pick this entry. Soft questions for text_detectable: \"no\" only \u2014 never flags.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**Verdict rule:** flag iff every atom in ir_pattern binds with a quote span, no ir_forbid matches, outside-text gates pass, and family rules"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "**Verdict rule:** flag iff every atom in ir_pattern binds with a quote span, no ir_forbid matches, outside-text gates pass, and family rules pick this entry. So.",
+      "span": {
+        "quote": "**Verdict rule:** flag iff every atom in ir_pattern binds with a quote span, no ir_forbid matches, outside-text gates pass, and family rules pick this entry. So"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A quote span.",
+      "span": {
+        "quote": "a quote span"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a quote span"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

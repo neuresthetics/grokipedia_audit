@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0046",
+  "source_text": "The American Academy of Pediatrics (AAP) 2012 policy, reaffirmed in subsequent reviews, concludes that these cumulative benefits\u2014encompassing UTI prevention, STI reduction, and lower cancer risk\u2014outweigh procedural risks in newborns, supporting informed parental decision-making without universal recommendation. [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP) 2012 policy, reaffirmed in subsequent reviews, concludes that these cumulative benefits\u2014encompassin"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ese cumulative benefits\u2014encompassing UTI prevention, STI reduction, and lower cancer risk\u2014outweigh procedural risks in newborns, supporting informed parental de.",
+      "span": {
+        "quote": "ese cumulative benefits\u2014encompassing UTI prevention, STI reduction, and lower cancer risk\u2014outweigh procedural risks in newborns, supporting informed parental de"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Academy of Pediatrics (AAP) 2012 policy, reaffirmed in subsequent reviews.",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP) 2012 policy, reaffirmed in subsequent reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c5",
+      "text": "These cumulative benefits\u2014encompassing UTI prevention.",
+      "span": {
+        "quote": "these cumulative benefits\u2014encompassing UTI prevention"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concludes"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "instantiates",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "these cumulative benefits\u2014encompassing UTI prevention"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

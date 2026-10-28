@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-meatal-stenosis-s0158",
+  "source_text": "Critics of strong causal attribution to circumcision note its rarity in uncircumcised males but argue that confounding factors, including congenital meatal variations or smaller preoperative meatus diameter, may inflate observed associations without proving inevitability. [9] [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of strong causal attribution to circumcision note its rarity in uncircumcised males but argue that confounding factors, including co"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Confounding factors, including congenital meatal variations or smaller preoperative meatus diameter, may inflate observed associations without proving inevitabi.",
+      "span": {
+        "quote": "confounding factors, including congenital meatal variations or smaller preoperative meatus diameter, may inflate observed associations without proving inevitabi"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of strong causal attribution to circumcision note its rarity in uncircumcised males but.",
+      "span": {
+        "quote": "Critics of strong causal attribution to circumcision note its rarity in uncircumcised males but"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Critics of strong causal attribution to circumcision note its rarity in uncircum"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

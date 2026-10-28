@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0232",
+  "source_text": "These results hold despite potential underreporting biases in self-reported behaviors, as HIV incidence trends in circumcised cohorts remained 50\u201360% lower than expected without compensation.00360-0/fulltext)",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These results hold despite potential underreporting biases in self-reported behaviors, as HIV incidence trends in circumcised cohorts remain"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These results hold despite potential underreporting biases in self-reported behaviors, as HIV incidence trends in circumcised cohorts remained 50\u201360% lower than.",
+      "span": {
+        "quote": "These results hold despite potential underreporting biases in self-reported behaviors, as HIV incidence trends in circumcised cohorts remained 50\u201360% lower than"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0167",
+  "source_text": "Similar mechanisms elevate risks for other STIs, such as herpes simplex virus and syphilis, though absolute risks remain modulated by behavioral factors. [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similar mechanisms elevate risks for other STIs, such as herpes simplex virus and syphilis, though absolute risks remain modulated by behavi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similar mechanisms elevate risks for other STIs, such as herpes simplex virus and syphilis, though absolute risks remain modulated by behavioral factors. [89].",
+      "span": {
+        "quote": "Similar mechanisms elevate risks for other STIs, such as herpes simplex virus and syphilis, though absolute risks remain modulated by behavioral factors. [89]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

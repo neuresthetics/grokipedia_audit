@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0030",
+  "source_text": "By the late 1930s, following the 1936 Anglo-Egyptian Treaty, efforts intensified under figures like Elaine Hills-Young, who banned all circumcision by trained midwives in 1937 and emphasized the practice's unhygienic and damaging effects through education. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the late 1930s, following the 1936 Anglo-Egyptian Treaty, efforts intensified under figures like Elaine Hills-Young, who banned all circu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E practice's unhygienic and damaging effects through education.",
+      "span": {
+        "quote": "e practice's unhygienic and damaging effects through education."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "By the late 1930s, following the 1936 Anglo-Egyptian Treaty, efforts intensified under figures like Elaine Hills-Young, who banned all circumcision by trained m.",
+      "span": {
+        "quote": "By the late 1930s, following the 1936 Anglo-Egyptian Treaty, efforts intensified under figures like Elaine Hills-Young, who banned all circumcision by trained m"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

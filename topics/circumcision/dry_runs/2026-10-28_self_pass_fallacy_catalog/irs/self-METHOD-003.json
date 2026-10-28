@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-METHOD-003",
+  "source_text": "A machine-checkable companion lives in idea_detection/ and is summarized in IDEA_DETECTION.md. It does not replace this procedure. An extractor may propose an Idea IR; only the deterministic checker may issue a verdict.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A machine-checkable companion lives in idea_detection/ and is summarized in IDEA_DETECTION.md. It does not replace this procedure. An extrac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A machine-checkable companion lives in idea_detection/ and is summarized in IDEA_DETECTION.md. It does not replace this procedure. An extractor may propose an I.",
+      "span": {
+        "quote": "A machine-checkable companion lives in idea_detection/ and is summarized in IDEA_DETECTION.md. It does not replace this procedure. An extractor may propose an I"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

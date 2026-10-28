@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0020",
+  "source_text": "By the 1990s, international organizations amplified these initiatives; WHO issued a 1995 policy statement classifying FGM as a violation of human rights with no health benefits, while UNICEF launched community-based programs in high-prevalence areas, reporting shifts in attitudes in pilot villages in Burkina Faso and Mali. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the 1990s, international organizations amplified these initiatives; WHO issued a 1995 policy statement classifying FGM as a violation of"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By the 1990s, international organizations amplified these initiatives; WHO issued a 1995 policy statement classifying FGM as a violation of human rights with no.",
+      "span": {
+        "quote": "By the 1990s, international organizations amplified these initiatives; WHO issued a 1995 policy statement classifying FGM as a violation of human rights with no"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0200",
+  "source_text": "Rebuttals emphasize ecological consistency with pre-trial hypotheses and modeling validations, asserting that unblinded designs, while imperfect, represent pragmatic superiority over non-randomized alternatives prone to confounding. [102]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rebuttals emphasize ecological consistency with pre-trial hypotheses and modeling validations, asserting that unblinded designs, while imper"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ecological consistency with pre-trial hypotheses and modeling validations, asserting that unblinded designs, while imperfect, represent pragmatic superiority ov.",
+      "span": {
+        "quote": "ecological consistency with pre-trial hypotheses and modeling validations, asserting that unblinded designs, while imperfect, represent pragmatic superiority ov"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

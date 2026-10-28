@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0017",
+  "source_text": "More invasive than Type I, it accounts for a significant portion of cases in regions like West Africa and is linked to higher risks of hemorrhage, urinary issues, and childbirth complications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "More invasive than Type I, it accounts for a significant portion of cases in regions like West Africa and is linked to higher risks of hemor"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "More invasive than Type I, it accounts for a significant portion of cases in regions like West Africa and is linked to higher risks of hemorrhage, urinary issue.",
+      "span": {
+        "quote": "More invasive than Type I, it accounts for a significant portion of cases in regions like West Africa and is linked to higher risks of hemorrhage, urinary issue"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to higher risks of hemorrhage.",
+      "span": {
+        "quote": "linked to higher risks of hemorrhage"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to higher risks of hemorrhage"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to higher risks of hemorrhage",
+          "span": {
+            "quote": "linked to higher risks of hemorrhage"
+          }
+        }
+      ]
+    }
+  ]
+}

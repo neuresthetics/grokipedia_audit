@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-infibulation-s0244",
+  "source_text": "Local advocates report strong pushback from elders and religious leaders who view abandonment efforts as cultural erosion, with no national criminalization law enacted as of 2020 despite UN expert calls, allowing impunity and revival in rural areas. [123]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Local advocates report strong pushback from elders and religious leaders who view abandonment efforts as cultural erosion, with no national"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Local advocates report strong pushback from elders and religious leaders who view abandonment efforts as cultural erosion, with no national criminalization law.",
+      "span": {
+        "quote": "Local advocates report strong pushback from elders and religious leaders who view abandonment efforts as cultural erosion, with no national criminalization law "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0337",
+  "source_text": "However, critics contend that proxy consent for removing healthy tissue lacks validity, as it preempts the child's future right to self-determination over their body, a principle echoed in bioethics frameworks emphasizing autonomy for competent individuals.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, critics contend that proxy consent for removing healthy tissue lacks validity, as it preempts the child's future right to self-dete"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proxy consent for removing healthy tissue lacks validity, as it preempts the child's future right to self-determination over their body, a principle echoed in b.",
+      "span": {
+        "quote": "proxy consent for removing healthy tissue lacks validity, as it preempts the child's future right to self-determination over their body, a principle echoed in b"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

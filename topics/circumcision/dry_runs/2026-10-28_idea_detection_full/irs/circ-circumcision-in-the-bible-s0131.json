@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-in-the-bible-s0131",
+  "source_text": "Physical circumcision thus gives way to the spiritual reality it foreshadowed, where the removal of the sinful nature occurs not by human hands but through divine action in Christ. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Physical circumcision thus gives way to the spiritual reality it foreshadowed, where the removal of the sinful nature occurs not by human ha"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Physical circumcision.",
+      "span": {
+        "quote": "Physical circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Gives way to the spiritual reality it foreshadowed, where the removal of the sinful nature occurs not by human hands but through divine action in Christ. [27].",
+      "span": {
+        "quote": "gives way to the spiritual reality it foreshadowed, where the removal of the sinful nature occurs not by human hands but through divine action in Christ. [27]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0131",
+  "source_text": "Supporters frame the law as a Western imposition eroding sovereignty, with protests chanting \"Gambia is not for sale\" and decrying it as colonial interference, leading to legal challenges citing constitutional rights to religious and cultural freedoms under Sections 25 and 32. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Supporters frame the law as a Western imposition eroding sovereignty, with protests chanting \"Gambia is not for sale\" and decrying it as col"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Supporters frame the law as a Western imposition eroding sovereignty, with protests chanting \"Gambia is not for sale\" and decrying it as colonial interference,.",
+      "span": {
+        "quote": "Supporters frame the law as a Western imposition eroding sovereignty, with protests chanting \"Gambia is not for sale\" and decrying it as colonial interference, "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing constitutional rights to religious and cultural freedoms under Sections 25 and.",
+      "span": {
+        "quote": "citing constitutional rights to religious and cultural freedoms under Sections 25 and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing constitutional rights to religious and cultural freedoms under Sections 25 and"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

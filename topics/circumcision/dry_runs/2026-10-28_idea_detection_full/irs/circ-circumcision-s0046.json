@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0046",
+  "source_text": "Unanesthetized neonatal circumcision heightens pain responses in later vaccinations, with circumcised infants displaying more facial grimacing and crying than uncircumcised peers. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unanesthetized neonatal circumcision heightens pain responses in later vaccinations, with circumcised infants displaying more facial grimaci"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Unanesthetized neonatal circumcision heightens pain responses in later vaccinations, with circumcised infants displaying more facial grimacing and crying than u.",
+      "span": {
+        "quote": "Unanesthetized neonatal circumcision heightens pain responses in later vaccinations, with circumcised infants displaying more facial grimacing and crying than u"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

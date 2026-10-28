@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0239",
+  "source_text": "This disparity underscores procedural feasibility: infant circumcision is quicker, requires less anesthesia, and incurs lower costs, with analyses in high-prevalence HIV settings like Rwanda confirming neonatal approaches as more efficient than adult interventions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This disparity underscores procedural feasibility: infant circumcision is quicker, requires less anesthesia, and incurs lower costs, with an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This disparity underscores procedural feasibility: infant circumcision is quicker, requires less anesthesia, and incurs lower costs, with analyses in high-preva.",
+      "span": {
+        "quote": "This disparity underscores procedural feasibility: infant circumcision is quicker, requires less anesthesia, and incurs lower costs, with analyses in high-preva"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

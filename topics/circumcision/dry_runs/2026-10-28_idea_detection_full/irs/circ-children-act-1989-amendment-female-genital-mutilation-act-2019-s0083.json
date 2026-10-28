@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0083",
+  "source_text": "No evidence supports health benefits from FGM; systematic reviews affirm it confers zero medical advantages while imposing verifiable harms across physical, sexual, and mental domains. [18] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No evidence supports health benefits from FGM; systematic reviews affirm it confers zero medical advantages while imposing verifiable harms"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No evidence supports health benefits from FGM; systematic reviews affirm it confers zero medical advantages while imposing verifiable harms across physical, sex.",
+      "span": {
+        "quote": "No evidence supports health benefits from FGM; systematic reviews affirm it confers zero medical advantages while imposing verifiable harms across physical, sex"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence supports health benefits from FGM.",
+      "span": {
+        "quote": "No evidence supports health benefits from FGM"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "No evidence supports health benefits from FGM"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

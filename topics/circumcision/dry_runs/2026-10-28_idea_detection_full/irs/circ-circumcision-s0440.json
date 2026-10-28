@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0440",
+  "source_text": "Three major African trials with over 10,000 participants confirmed this, with efficacy sustained up to 24 months and no rise in risk behaviors. [87] [90] [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Three major African trials with over 10,000 participants confirmed this, with efficacy sustained up to 24 months and no rise in risk behavio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Three major African trials with over 10,000 participants confirmed this, with efficacy sustained up to 24 months and no rise in risk behaviors. [87] [90] [2].",
+      "span": {
+        "quote": "Three major African trials with over 10,000 participants confirmed this, with efficacy sustained up to 24 months and no rise in risk behaviors. [87] [90] [2]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

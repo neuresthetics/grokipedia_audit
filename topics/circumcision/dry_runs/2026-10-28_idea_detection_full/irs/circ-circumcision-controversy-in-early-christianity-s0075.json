@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0075",
+  "source_text": "The Judaizers, comprising Jewish Christians often affiliated with Pharisaic traditions, asserted that Gentile converts must undergo circumcision as an indispensable condition for salvation, viewing it as the gateway to obedience under the Mosaic Law. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Judaizers, comprising Jewish Christians often affiliated with Pharisaic traditions, asserted that Gentile converts must undergo circumci"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gentile converts must undergo circumcision as an indispensable condition for salvation, viewing it as the gateway to obedience under the Mosaic Law.",
+      "span": {
+        "quote": "Gentile converts must undergo circumcision as an indispensable condition for salvation, viewing it as the gateway to obedience under the Mosaic Law."
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The Judaizers, comprising Jewish Christians often affiliated with Pharisaic traditions.",
+      "span": {
+        "quote": "The Judaizers, comprising Jewish Christians often affiliated with Pharisaic traditions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "An indispensable condition for salvation.",
+      "span": {
+        "quote": "an indispensable condition for salvation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "asserted"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "an indispensable condition for salvation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

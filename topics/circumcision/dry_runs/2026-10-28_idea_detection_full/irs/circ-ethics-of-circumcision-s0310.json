@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0310",
+  "source_text": "Absolutist claims equating male circumcision to mutilation overlook data showing complication rates below 0.5% in hospital settings versus higher non-medical ritual risks, and fail to account for evolutionary and physiological roles of the foreskin that, while sensitive, do not preclude overall utility in disease prevention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Absolutist claims equating male circumcision to mutilation overlook data showing complication rates below 0.5% in hospital settings versus h"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Equating male circumcision to mutilation overlook data showing complication rates below 0.5% in hospital settings versus higher non-medical ritual risks, and fa.",
+      "span": {
+        "quote": "equating male circumcision to mutilation overlook data showing complication rates below 0.5% in hospital settings versus higher non-medical ritual risks, and fa"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

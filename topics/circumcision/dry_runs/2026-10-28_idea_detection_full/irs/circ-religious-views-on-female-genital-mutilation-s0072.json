@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0072",
+  "source_text": "These endorsements emphasize that such practices must avoid harm and are not obligatory, distinguishing them from more invasive procedures deemed bid'ah (innovation) or impermissible due to potential mutilation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These endorsements emphasize that such practices must avoid harm and are not obligatory, distinguishing them from more invasive procedures d"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such practices must avoid harm and are not obligatory, distinguishing them from more invasive procedures deemed bid'ah (innovation) or impermissible due to pote.",
+      "span": {
+        "quote": "such practices must avoid harm and are not obligatory, distinguishing them from more invasive procedures deemed bid'ah (innovation) or impermissible due to pote"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These endorsements emphasize that such practices must avoid harm a.",
+      "span": {
+        "quote": "These endorsements emphasize that such practices must avoid harm a"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "These endorsements emphasize that such practices must avoid"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

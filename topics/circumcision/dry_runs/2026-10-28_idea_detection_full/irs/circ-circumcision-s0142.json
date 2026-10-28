@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0142",
+  "source_text": "Circumcision reduces the incidence of urinary tract infections (UTIs) in male infants by approximately tenfold during the first year of life, with uncircumcised infants facing a 1% risk compared to 0.1% for circumcised ones, per meta-analyses of observational and randomized data. [73] [74]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision reduces the incidence of urinary tract infections (UTIs) in male infants by approximately tenfold during the first year of life"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision reduces the incidence of urinary tract infections (UTIs) in male infants by approximately tenfold during the first year of life, with uncircumcised.",
+      "span": {
+        "quote": "Circumcision reduces the incidence of urinary tract infections (UTIs) in male infants by approximately tenfold during the first year of life, with uncircumcised"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Per meta-analyses of observational and randomized data.",
+      "span": {
+        "quote": "per meta-analyses of observational and randomized data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per meta-analyses of observational and randomized data"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

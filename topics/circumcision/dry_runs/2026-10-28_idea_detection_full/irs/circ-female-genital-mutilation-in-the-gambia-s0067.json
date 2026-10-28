@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0067",
+  "source_text": "Girls citing FGC as most bothersome (16.8%) show lower PTSD rates (4.8%) and better functioning than those affected by other traumas (22.1%), indicating FGC's trauma may be overshadowed by broader adversities; physical complications like genital pain do not significantly correlate with PTSD attribution in this cohort. [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Girls citing FGC as most bothersome (16.8%) show lower PTSD rates (4.8%) and better functioning than those affected by other traumas (22.1%)"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Girls citing FGC as most bothersome (16.8%) show lower PTSD rates (4.8%) and better functioning than those affected by other traumas (22.1%), indicating FGC's t.",
+      "span": {
+        "quote": "Girls citing FGC as most bothersome (16.8%) show lower PTSD rates (4.8%) and better functioning than those affected by other traumas (22.1%), indicating FGC's t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing FGC as most bothersome (16.",
+      "span": {
+        "quote": "citing FGC as most bothersome (16"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing FGC as most bothersome (16"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

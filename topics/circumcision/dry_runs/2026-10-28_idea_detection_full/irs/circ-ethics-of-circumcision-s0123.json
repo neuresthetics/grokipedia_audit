@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0123",
+  "source_text": "The American Urological Association (AUA) holds that neonatal circumcision offers potential medical benefits and advantages, alongside acknowledged risks, and should be presented as a parental choice during prenatal counseling. [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Urological Association (AUA) holds that neonatal circumcision offers potential medical benefits and advantages, alongside ackno"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Urological Association (AUA) holds that neonatal circumcision offers potential medical benefits and advantages, alongside acknowledged risks, and s.",
+      "span": {
+        "quote": "The American Urological Association (AUA) holds that neonatal circumcision offers potential medical benefits and advantages, alongside acknowledged risks, and s"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

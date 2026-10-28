@@ -1,0 +1,67 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0151",
+  "source_text": "Modern critiques, drawn from clinical epidemiology, reject these claims for lacking controlled evidence of efficacy, attributing reported benefits to transient mechanical widening or misattribution of unrelated recoveries rather than addressing root causes like infections, malnutrition-induced pelvic deformities, or cephalopelvic disproportion from early childbearing. [36] [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Modern critiques, drawn from clinical epidemiology, reject these claims for lacking controlled evidence of efficacy, attributing reported be"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For lacking controlled evidence of efficacy, attributing reported benefits to transient mechanical widening or misattribution of unrelated recoveries rather tha.",
+      "span": {
+        "quote": "for lacking controlled evidence of efficacy, attributing reported benefits to transient mechanical widening or misattribution of unrelated recoveries rather tha"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Modern critiques, drawn from clinical epidemiology, reject these.",
+      "span": {
+        "quote": "Modern critiques, drawn from clinical epidemiology, reject these"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "causes"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

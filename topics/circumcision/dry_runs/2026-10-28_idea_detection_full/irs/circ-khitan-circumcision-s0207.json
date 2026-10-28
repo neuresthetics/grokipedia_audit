@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0207",
+  "source_text": "Complication rates for medically supervised male circumcision remain below 1% for serious adverse events, whereas FGC, predominantly non-sterile and non-clinical, correlates with morbidity rates exceeding 20% in untreated cases. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complication rates for medically supervised male circumcision remain below 1% for serious adverse events, whereas FGC, predominantly non-ste"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complication rates for medically supervised male circumcision remain below 1% for serious adverse events, whereas FGC, predominantly non-sterile and non-clinica.",
+      "span": {
+        "quote": "Complication rates for medically supervised male circumcision remain below 1% for serious adverse events, whereas FGC, predominantly non-sterile and non-clinica"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0229",
+  "source_text": "In sub-Saharan Africa, voluntary medical male circumcision (VMMC) programs have continued to expand as a public health strategy for HIV prevention, with a 2023 World Health Organization assessment confirming the procedure's cost-effectiveness and its capacity to reduce heterosexual HIV acquisition risk by up to 60%, prompting calls for sustained scale-up amid funding challenges. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In sub-Saharan Africa, voluntary medical male circumcision (VMMC) programs have continued to expand as a public health strategy for HIV prev"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In sub-Saharan Africa, voluntary medical male circumcision (VMMC) programs have continued to expand as a public health strategy for HIV prevention, with a 2023.",
+      "span": {
+        "quote": "In sub-Saharan Africa, voluntary medical male circumcision (VMMC) programs have continued to expand as a public health strategy for HIV prevention, with a 2023 "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

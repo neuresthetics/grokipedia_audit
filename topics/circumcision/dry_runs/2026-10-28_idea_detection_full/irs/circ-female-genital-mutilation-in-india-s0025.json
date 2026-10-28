@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0025",
+  "source_text": "Bohra representatives and supporters consistently reject equivalence to severe forms of female genital mutilation, such as African infibulation (WHO Type III), portraying khatna instead as a benign, non-deforming ritual confined to the prepuce without removal of the clitoris or labia, and arguing that anti-FGM campaigns conflate it with more harmful variants to impose external moral judgments. [16] [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Bohra representatives and supporters consistently reject equivalence to severe forms of female genital mutilation, such as African infibulat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bohra representatives and supporters consistently reject equivalence to severe forms of female genital mutilation, such as African infibulation (WHO Type III),.",
+      "span": {
+        "quote": "Bohra representatives and supporters consistently reject equivalence to severe forms of female genital mutilation, such as African infibulation (WHO Type III), "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

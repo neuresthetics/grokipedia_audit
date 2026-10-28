@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0103",
+  "source_text": "In contrast, medical bodies like the American Academy of Pediatrics (AAP) maintain that evidence from randomized trials and meta-analyses shows benefits outweigh risks, including a 90% reduction in penile cancer and approximately 90% lower UTI incidence (10-fold reduction) in the first year, positioning circumcision as a net positive for public health when performed neonatally under sterile conditions. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, medical bodies like the American Academy of Pediatrics (AAP) maintain that evidence from randomized trials and meta-analyses sh"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "medical_bodies"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Evidence from randomized trials and meta-analyses shows benefits outweigh risks, including a 90% reduction in penile cancer and approximately 90% lower UTI inci.",
+      "span": {
+        "quote": "evidence from randomized trials and meta-analyses shows benefits outweigh risks, including a 90% reduction in penile cancer and approximately 90% lower UTI inci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In contrast, medical bodies like the American Academy of Pediatrics (AAP).",
+      "span": {
+        "quote": "In contrast, medical bodies like the American Academy of Pediatrics (AAP)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c3",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c4",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c5",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "medical bodies"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

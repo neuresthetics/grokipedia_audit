@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0102",
+  "source_text": "For instance, in certain African and Middle Eastern contexts, it is viewed as essential for preserving cultural heritage against perceived colonial or global impositions that threaten traditional ways of life.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, in certain African and Middle Eastern contexts, it is viewed as essential for preserving cultural heritage against perceived c"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, in certain African and Middle Eastern contexts, it is viewed as essential for preserving cultural heritage against perceived colonial or global im.",
+      "span": {
+        "quote": "For instance, in certain African and Middle Eastern contexts, it is viewed as essential for preserving cultural heritage against perceived colonial or global im"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

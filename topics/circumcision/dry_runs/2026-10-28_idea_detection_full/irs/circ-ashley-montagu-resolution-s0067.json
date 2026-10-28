@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0067",
+  "source_text": "The event's focus on first-hand testimonies and data from affected communities, including panels on legal challenges and survivor accounts, reinforced arguments for universal protections, though critics later noted the symposium's affiliation with advocacy groups potentially influenced its consensus-driven resolutions. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The event's focus on first-hand testimonies and data from affected communities, including panels on legal challenges and survivor accounts,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The event's focus on first-hand testimonies and data from affected communities, including panels on legal challenges and survivor accounts, reinforced arguments.",
+      "span": {
+        "quote": "The event's focus on first-hand testimonies and data from affected communities, including panels on legal challenges and survivor accounts, reinforced arguments"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0377",
+  "source_text": "The British Medical Association (BMA) offers ethical guidance, requiring parental consent for non-therapeutic infant circumcision without clear medical indication, as it alters the body without child assent; doctors may decline if conflicting with judgment.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The British Medical Association (BMA) offers ethical guidance, requiring parental consent for non-therapeutic infant circumcision without cl"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The British Medical Association (BMA) offers ethical guidance, requiring parental consent for non-therapeutic infant circumcision without clear medical indicati.",
+      "span": {
+        "quote": "The British Medical Association (BMA) offers ethical guidance, requiring parental consent for non-therapeutic infant circumcision without clear medical indicati"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

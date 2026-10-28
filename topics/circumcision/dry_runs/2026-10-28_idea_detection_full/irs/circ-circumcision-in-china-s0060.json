@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-china-s0060",
+  "source_text": "Adherence to these measures, including avoidance of strenuous activity, contributes to high satisfaction rates exceeding 97% in reported cohorts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adherence to these measures, including avoidance of strenuous activity, contributes to high satisfaction rates exceeding 97% in reported coh"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adherence to these measures, including avoidance of strenuous activity, contributes to high satisfaction rates exceeding 97% in reported cohorts.",
+      "span": {
+        "quote": "Adherence to these measures, including avoidance of strenuous activity, contributes to high satisfaction rates exceeding 97% in reported cohorts."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

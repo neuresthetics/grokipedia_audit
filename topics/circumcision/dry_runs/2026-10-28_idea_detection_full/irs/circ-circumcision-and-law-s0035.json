@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0035",
+  "source_text": "The 1917 Code of Canon Law, while silent on explicit bans, inherited this legacy, omitting circumcision from sacramental or obligatory practices and aligning with teachings that non-therapeutic mutilation contravenes bodily integrity under natural law.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The 1917 Code of Canon Law, while silent on explicit bans, inherited this legacy, omitting circumcision from sacramental or obligatory pract"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The 1917 Code of Canon Law, while silent on explicit bans, inherited this legacy, omitting circumcision from sacramental or obligatory practices and aligning wi.",
+      "span": {
+        "quote": "The 1917 Code of Canon Law, while silent on explicit bans, inherited this legacy, omitting circumcision from sacramental or obligatory practices and aligning wi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

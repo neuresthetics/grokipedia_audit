@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0143",
+  "source_text": "Overcrowding in unregistered initiation schools, particularly illegal urban operations driven by commercialization, intensifies transmission of pathogens and strains limited resources, correlating with elevated national figures of 557 deaths and 214 amputations from 2006\u20132014, disproportionately in Eastern Cape provinces lacking traditional regulatory structures. [46]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overcrowding in unregistered initiation schools, particularly illegal urban operations driven by commercialization, intensifies transmission"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overcrowding in unregistered initiation schools, particularly illegal urban operations driven by commercialization, intensifies transmission of pathogens and st.",
+      "span": {
+        "quote": "Overcrowding in unregistered initiation schools, particularly illegal urban operations driven by commercialization, intensifies transmission of pathogens and st"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

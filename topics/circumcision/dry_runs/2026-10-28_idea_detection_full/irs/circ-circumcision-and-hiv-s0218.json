@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0218",
+  "source_text": "Program evaluations acknowledge these issues, recommending enhanced training for providers and independent oversight to safeguard consent, though persistent target-driven metrics continue to raise doubts about prioritization of numbers over ethical rigor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Program evaluations acknowledge these issues, recommending enhanced training for providers and independent oversight to safeguard consent, t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Program evaluations acknowledge these issues, recommending enhanced training for providers and independent oversight to safeguard consent, though persistent tar.",
+      "span": {
+        "quote": "Program evaluations acknowledge these issues, recommending enhanced training for providers and independent oversight to safeguard consent, though persistent tar"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

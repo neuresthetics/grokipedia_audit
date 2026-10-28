@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0145",
+  "source_text": "Returning to Jerusalem, Peter encountered opposition from \"those of the circumcision,\" Jewish believers who contested his association and shared meals with uncircumcised Gentiles, viewing it as a breach of purity norms tied to circumcision. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Returning to Jerusalem, Peter encountered opposition from \"those of the circumcision,\" Jewish believers who contested his association and sh"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Returning to Jerusalem, Peter encountered opposition from \"those of the circumcision,\" Jewish believers who contested his association and shared meals with unci.",
+      "span": {
+        "quote": "Returning to Jerusalem, Peter encountered opposition from \"those of the circumcision,\" Jewish believers who contested his association and shared meals with unci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Tied to circumcision.",
+      "span": {
+        "quote": "tied to circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "tied to circumcision"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to circumcision",
+          "span": {
+            "quote": "tied to circumcision"
+          }
+        }
+      ]
+    }
+  ]
+}

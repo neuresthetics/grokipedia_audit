@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-clitoridectomy-s0149",
+  "source_text": "Clitoridectomy, whether performed in medical contexts such as clitoral cancer treatment or cultural practices classified as Type I female genital mutilation/cutting (FGM/C), results in permanent loss of clitoral tissue and associated nerve endings, leading to diminished or absent clitoral sensation. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Clitoridectomy, whether performed in medical contexts such as clitoral cancer treatment or cultural practices classified as Type I female ge"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Clitoridectomy, whether performed in medical contexts such as clitoral cancer treatment or cultural practices classified as Type I female genital mutilation/cut.",
+      "span": {
+        "quote": "Clitoridectomy, whether performed in medical contexts such as clitoral cancer treatment or cultural practices classified as Type I female genital mutilation/cut"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

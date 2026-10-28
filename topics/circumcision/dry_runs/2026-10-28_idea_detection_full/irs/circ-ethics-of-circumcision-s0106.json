@@ -1,0 +1,67 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0106",
+  "source_text": "Critiques framing infant circumcision as inherently non-therapeutic, thus presumptively harmful, falter against precedents in preventive pediatric medicine, where procedures like heel-stick blood sampling for newborn metabolic screening inflict comparable or greater procedural pain yet are standard due to utility in averting conditions like phenylketonuria, which untreated causes intellectual disability in 1:10,000-15,000 births. [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques framing infant circumcision as inherently non-therapeutic, thus presumptively harmful, falter against precedents in preventive ped"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critiques framing infant circumcision as inherently non-therapeutic.",
+      "span": {
+        "quote": "Critiques framing infant circumcision as inherently non-therapeutic"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Presumptively harmful, falter against precedents in preventive pediatric medicine, where procedures like heel-stick blood sampling for newborn metabolic screeni.",
+      "span": {
+        "quote": "presumptively harmful, falter against precedents in preventive pediatric medicine, where procedures like heel-stick blood sampling for newborn metabolic screeni"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "inflict"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

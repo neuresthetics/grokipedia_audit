@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0069",
+  "source_text": "Circumcision in infancy reduces the risk of urinary tract infections (UTIs) by approximately 90%, with meta-analyses of observational studies indicating a 10-fold lower incidence in circumcised boys compared to uncircumcised boys during the first year of life. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision in infancy reduces the risk of urinary tract infections (UTIs) by approximately 90%, with meta-analyses of observational studie"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision in infancy reduces the risk of urinary tract infections (UTIs) by approximately 90%, with meta-analyses of observational studies indicating a 10-fo.",
+      "span": {
+        "quote": "Circumcision in infancy reduces the risk of urinary tract infections (UTIs) by approximately 90%, with meta-analyses of observational studies indicating a 10-fo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

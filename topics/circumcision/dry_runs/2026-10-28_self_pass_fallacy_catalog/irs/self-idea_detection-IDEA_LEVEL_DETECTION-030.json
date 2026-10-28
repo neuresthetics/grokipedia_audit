@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-030",
+  "source_text": "1. Checker and fixture eval: python3 -m idea_detection.eval_fixtures (METHOD example 1 flags ad-hominem; example 2 is no_issue on appeal-to-authority). 2. Review pilot_ir_patterns.json against prose conditions before any merge into fallacies.json. 3. Use EXTRACTOR_PROMPT.md for a dry-run extraction; diff vs hand fixtures. The checker, not the extractor, verdicts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "1. Checker and fixture eval: python3 -m idea_detection.eval_fixtures (METHOD example 1 flags ad-hominem; example 2 is no_issue on appeal-to-"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "1. Checker and fixture eval: python3 -m idea_detection.eval_fixtures (METHOD example 1 flags ad-hominem; example 2 is no_issue on appeal-to-authority). 2. Revie.",
+      "span": {
+        "quote": "1. Checker and fixture eval: python3 -m idea_detection.eval_fixtures (METHOD example 1 flags ad-hominem; example 2 is no_issue on appeal-to-authority). 2. Revie"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

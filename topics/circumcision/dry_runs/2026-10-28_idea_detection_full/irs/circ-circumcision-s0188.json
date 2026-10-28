@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0188",
+  "source_text": "These benefits extend to reducing balanoposthitis (glans and foreskin inflammation), which raises penile cancer risk (OR 3.82, 95% CI 1.61\u20139.06) through epithelial disruption and microbial overgrowth in uncircumcised men. [106]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These benefits extend to reducing balanoposthitis (glans and foreskin inflammation), which raises penile cancer risk (OR 3.82, 95% CI 1.61\u20139"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These benefits extend to reducing balanoposthitis (glans and foreskin inflammation), which raises penile cancer risk (OR 3.82, 95% CI 1.61\u20139.06) through epithel.",
+      "span": {
+        "quote": "These benefits extend to reducing balanoposthitis (glans and foreskin inflammation), which raises penile cancer risk (OR 3.82, 95% CI 1.61\u20139.06) through epithel"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-infibulation-s0174",
+  "source_text": "The United Nations General Assembly's 2012 resolution explicitly condemns female genital mutilation (FGM), including infibulation, as a violation of human dignity and fundamental freedoms, emphasizing its incompatibility with universal rights to life, security, and non-discrimination.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The United Nations General Assembly's 2012 resolution explicitly condemns female genital mutilation (FGM), including infibulation, as a viol"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The United Nations General Assembly's 2012 resolution explicitly condemns female genital mutilation (FGM), including infibulation, as a violation of human digni.",
+      "span": {
+        "quote": "The United Nations General Assembly's 2012 resolution explicitly condemns female genital mutilation (FGM), including infibulation, as a violation of human digni"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A violation of human dignity and fundamental freedoms.",
+      "span": {
+        "quote": "a violation of human dignity and fundamental freedoms"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a violation of human dignity and fundamental freedoms"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

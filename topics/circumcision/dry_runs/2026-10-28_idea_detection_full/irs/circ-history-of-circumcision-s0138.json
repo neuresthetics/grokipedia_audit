@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0138",
+  "source_text": "In the 19th century, Jewish emancipation in Europe prompted debates; Reform leaders like Abraham Geiger denounced circumcision as a \"barbaric blood rite\" incompatible with modernity, and some 1840s platforms proposed its abolition. [64]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the 19th century, Jewish emancipation in Europe prompted debates; Reform leaders like Abraham Geiger denounced circumcision as a \"barbari"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the 19th century, Jewish emancipation in Europe prompted debates; Reform leaders like Abraham Geiger denounced circumcision as a \"barbaric blood rite\" incomp.",
+      "span": {
+        "quote": "In the 19th century, Jewish emancipation in Europe prompted debates; Reform leaders like Abraham Geiger denounced circumcision as a \"barbaric blood rite\" incomp"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0178",
+  "source_text": "In response to declining U.S. neonatal circumcision rates\u2014dropping from approximately 65% in 2012 to around 60% by 2022 among certain demographics\u2014pro-circumcision advocates, including urological societies, have launched informational initiatives underscoring parental rights to weigh cultural, hygienic, and preventive factors in diverse populations. [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In response to declining U.S. neonatal circumcision rates\u2014dropping from approximately 65% in 2012 to around 60% by 2022 among certain demogr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In response to declining U.S. neonatal circumcision rates\u2014dropping from approximately 65% in 2012 to around 60% by 2022 among certain demographics\u2014pro-circumcis.",
+      "span": {
+        "quote": "In response to declining U.S. neonatal circumcision rates\u2014dropping from approximately 65% in 2012 to around 60% by 2022 among certain demographics\u2014pro-circumcis"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

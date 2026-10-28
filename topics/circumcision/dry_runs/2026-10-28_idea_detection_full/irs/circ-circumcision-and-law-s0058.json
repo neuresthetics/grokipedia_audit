@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0058",
+  "source_text": "Binding treaties amplify these contentions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Binding treaties amplify these contentions."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Binding treaties amplify these contentions.",
+      "span": {
+        "quote": "Binding treaties amplify these contentions."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

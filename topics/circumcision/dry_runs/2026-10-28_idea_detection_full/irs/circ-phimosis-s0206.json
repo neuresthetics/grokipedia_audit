@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0206",
+  "source_text": "Circumcision is often preferred in diabetic patients as the definitive treatment due to higher risks of recurrent infections and poor healing with conservative approaches.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision is often preferred in diabetic patients as the definitive treatment due to higher risks of recurrent infections and poor healin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision is often preferred in diabetic patients as the definitive treatment due to higher risks of recurrent infections and poor healing with conservative.",
+      "span": {
+        "quote": "Circumcision is often preferred in diabetic patients as the definitive treatment due to higher risks of recurrent infections and poor healing with conservative "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

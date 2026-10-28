@@ -1,0 +1,77 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-002",
+  "source_text": "A flat pass on excerpt IRs returns possible_issue whenever a pattern would have flagged, and it returns possible_issue when an outside-text predicate has no fact in the claim text. That is the checker doing what METHOD requires. Nested layers are how a client feeds the missing window back in and re-checks, instead of leaving every capped row as the last word.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A flat pass on excerpt IRs returns possible_issue whenever a pattern would have flagged, and it returns possible_issue when an outside-text"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ext.",
+      "span": {
+        "quote": "ext."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "A flat pass on excerpt IRs returns possible_issue whenever a pattern would have flagged, and it returns possible_issue when an outside-text predicate has no fac.",
+      "span": {
+        "quote": "A flat pass on excerpt IRs returns possible_issue whenever a pattern would have flagged, and it returns possible_issue when an outside-text predicate has no fac"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "A flat pass on excerpt IRs returns possible_issue whenever a p.",
+      "span": {
+        "quote": "A flat pass on excerpt IRs returns possible_issue whenever a p"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "A flat pass on excerpt IRs returns possible_issue whenever a"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

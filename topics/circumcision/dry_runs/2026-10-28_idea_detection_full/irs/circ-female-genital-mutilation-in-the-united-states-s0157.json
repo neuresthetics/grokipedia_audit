@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0157",
+  "source_text": "Among Somali women in the U.S., FGM/C correlates with adverse reproductive sequelae, including complications from scarred tissue impeding natural labor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among Somali women in the U.S., FGM/C correlates with adverse reproductive sequelae, including complications from scarred tissue impeding na"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among Somali women in the U.S., FGM/C correlates with adverse reproductive sequelae, including complications from scarred tissue impeding natural labor.",
+      "span": {
+        "quote": "Among Somali women in the U.S., FGM/C correlates with adverse reproductive sequelae, including complications from scarred tissue impeding natural labor."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

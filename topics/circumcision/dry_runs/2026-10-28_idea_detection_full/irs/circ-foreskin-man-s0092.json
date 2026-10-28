@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0092",
+  "source_text": "Adverse events from neonatal circumcision occur at rates of 0.2-2%, predominantly minor issues such as bleeding, infection, or adhesions, with severe complications (e.g., significant hemorrhage or penile injury) below 0.5% in hospital settings using clamps like Gomco or Plastibell. [56] [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adverse events from neonatal circumcision occur at rates of 0.2-2%, predominantly minor issues such as bleeding, infection, or adhesions, wi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adverse events from neonatal circumcision occur at rates of 0.2-2%, predominantly minor issues such as bleeding, infection, or adhesions, with severe complicati.",
+      "span": {
+        "quote": "Adverse events from neonatal circumcision occur at rates of 0.2-2%, predominantly minor issues such as bleeding, infection, or adhesions, with severe complicati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

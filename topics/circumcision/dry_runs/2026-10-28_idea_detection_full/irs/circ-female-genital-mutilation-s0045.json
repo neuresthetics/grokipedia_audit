@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0045",
+  "source_text": "Health consequences of Type I FGM include immediate risks like severe bleeding and urinary retention, alongside long-term issues such as dyspareunia, keloid scarring, and increased susceptibility to urinary tract infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Health consequences of Type I FGM include immediate risks like severe bleeding and urinary retention, alongside long-term issues such as dys"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Health consequences of Type I FGM include immediate risks like severe bleeding and urinary retention, alongside long-term issues such as dyspareunia, keloid sca.",
+      "span": {
+        "quote": "Health consequences of Type I FGM include immediate risks like severe bleeding and urinary retention, alongside long-term issues such as dyspareunia, keloid sca"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

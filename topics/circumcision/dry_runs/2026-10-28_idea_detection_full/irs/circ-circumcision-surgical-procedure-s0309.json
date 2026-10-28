@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0309",
+  "source_text": "Proponents of infant circumcision, including the American Academy of Pediatrics (AAP) in its 2012 policy statement, argue that parents hold proxy decision-making authority, justified by potential preventive health benefits such as reduced urinary tract infections and sexually transmitted diseases, which they contend outweigh ethical concerns when weighed against the child's best interests. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of infant circumcision, including the American Academy of Pediatrics (AAP) in its 2012 policy statement, argue that parents hold"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parents hold proxy decision-making authority, justified by potential preventive health benefits such as reduced urinary tract infections and sexually transmitte.",
+      "span": {
+        "quote": "parents hold proxy decision-making authority, justified by potential preventive health benefits such as reduced urinary tract infections and sexually transmitte"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of infant circumcision, including the American Academy of Pediatrics (AAP) in its 2012 policy statement.",
+      "span": {
+        "quote": "Proponents of infant circumcision, including the American Academy of Pediatrics (AAP) in its 2012 policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c4",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c5",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

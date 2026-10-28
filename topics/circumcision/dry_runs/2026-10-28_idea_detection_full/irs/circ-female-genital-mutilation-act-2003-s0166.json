@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0166",
+  "source_text": "Infertility risks are substantiated by cohort studies linking FGM to tubal blockages and dyspareunia, with one review of Egyptian and Sudanese data reporting odds ratios of 2.5 for primary infertility in women with Type II or III procedures. [66]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infertility risks are substantiated by cohort studies linking FGM to tubal blockages and dyspareunia, with one review of Egyptian and Sudane"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infertility risks are substantiated by cohort studies linking FGM to tubal blockages and dyspareunia, with one review of Egyptian and Sudanese data reporting od.",
+      "span": {
+        "quote": "Infertility risks are substantiated by cohort studies linking FGM to tubal blockages and dyspareunia, with one review of Egyptian and Sudanese data reporting od"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

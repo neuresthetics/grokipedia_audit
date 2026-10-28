@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0199",
+  "source_text": "Claims of evolutionary advantages, such as higher fertility in cut women, derive from correlational data in small samples but fail replication under controlled analysis, confounded by variables like polygamy and nutrition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of evolutionary advantages, such as higher fertility in cut women, derive from correlational data in small samples but fail replicati"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of evolutionary advantages, such as higher fertility in cut women, derive from correlational data in small samples but fail replication under controlled analysi.",
+      "span": {
+        "quote": "of evolutionary advantages, such as higher fertility in cut women, derive from correlational data in small samples but fail replication under controlled analysi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

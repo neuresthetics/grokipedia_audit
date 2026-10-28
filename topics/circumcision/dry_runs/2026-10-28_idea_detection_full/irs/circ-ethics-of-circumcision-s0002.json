@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0002",
+  "source_text": "Opponents contend that non-therapeutic circumcision constitutes an irreversible violation of the child's bodily integrity and right to informed consent, as it removes healthy, functional tissue without immediate medical necessity and inflicts acute pain and potential long-term complications such as infection, excessive scarring, or diminished sexual sensitivity. [3] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents contend that non-therapeutic circumcision constitutes an irreversible violation of the child's bodily integrity and right to infor"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-therapeutic circumcision constitutes an irreversible violation of the child's bodily integrity and right to informed consent, as it removes healthy, functio.",
+      "span": {
+        "quote": "non-therapeutic circumcision constitutes an irreversible violation of the child's bodily integrity and right to informed consent, as it removes healthy, functio"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

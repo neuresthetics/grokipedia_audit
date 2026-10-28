@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0216",
+  "source_text": "In Judaism, brit milah, performed on the eighth day post-birth as per Genesis 17:10-14, symbolizes eternal alliance with God and has sustained Jewish continuity amid persecution, with rabbinic authorities rejecting equivalence to FGM as it preserves sexual function and pleasure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Judaism, brit milah, performed on the eighth day post-birth as per Genesis 17:10-14, symbolizes eternal alliance with God and has sustain"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Judaism, brit milah, performed on the eighth day post-birth as per Genesis 17:10-14, symbolizes eternal alliance with God and has sustained Jewish continuity.",
+      "span": {
+        "quote": "In Judaism, brit milah, performed on the eighth day post-birth as per Genesis 17:10-14, symbolizes eternal alliance with God and has sustained Jewish continuity"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per Genesis 17:10-14.",
+      "span": {
+        "quote": "per Genesis 17:10-14"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per Genesis 17:10-14"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

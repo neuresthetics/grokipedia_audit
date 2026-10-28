@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-015",
+  "source_text": "Aligns with METHOD: condition 2 is outside-text; if the illegitimacy disjunct is neither stated nor CK \u2192 **possible issue**, not flag. Genuine-expert look-alike \u2192 **no issue** (METHOD example 2).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Aligns with METHOD: condition 2 is outside-text; if the illegitimacy disjunct is neither stated nor CK \u2192 **possible issue**, not flag. Genui"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Aligns with METHOD: condition 2 is outside-text; if the illegitimacy disjunct is neither stated nor CK \u2192 **possible issue**, not flag. Genuine-expert look-alike.",
+      "span": {
+        "quote": "Aligns with METHOD: condition 2 is outside-text; if the illegitimacy disjunct is neither stated nor CK \u2192 **possible issue**, not flag. Genuine-expert look-alike"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

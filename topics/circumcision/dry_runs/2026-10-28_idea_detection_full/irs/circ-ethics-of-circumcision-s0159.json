@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0159",
+  "source_text": "In Israel, where neonatal male circumcision is nearly universal, it physically embodies this covenant, fostering a sense of belonging and shared heritage among practitioners. [101]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Israel, where neonatal male circumcision is nearly universal, it physically embodies this covenant, fostering a sense of belonging and sh"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Israel, where neonatal male circumcision is nearly universal, it physically embodies this covenant, fostering a sense of belonging and shared heritage among.",
+      "span": {
+        "quote": "In Israel, where neonatal male circumcision is nearly universal, it physically embodies this covenant, fostering a sense of belonging and shared heritage among "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

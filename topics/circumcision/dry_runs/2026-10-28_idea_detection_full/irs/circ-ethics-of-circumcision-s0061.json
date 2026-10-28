@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0061",
+  "source_text": "No confirmed deaths directly attributable to neonatal circumcision have been documented in modern, regulated medical environments, though historical or non-medical settings report isolated fatalities from hemorrhage or overwhelming infection.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No confirmed deaths directly attributable to neonatal circumcision have been documented in modern, regulated medical environments, though hi"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No confirmed deaths directly attributable to neonatal circumcision have been documented in modern, regulated medical environments, though historical or non-medi.",
+      "span": {
+        "quote": "No confirmed deaths directly attributable to neonatal circumcision have been documented in modern, regulated medical environments, though historical or non-medi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

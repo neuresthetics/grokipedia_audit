@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0015",
+  "source_text": "After 21 months, HIV incidence was 1.42% in the circumcision group versus 3.57% in the control group, yielding a relative risk reduction of 60% (adjusted hazard ratio 0.40, 95% CI 0.24-0.68).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "After 21 months, HIV incidence was 1.42% in the circumcision group versus 3.57% in the control group, yielding a relative risk reduction of"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "After 21 months, HIV incidence was 1.42% in the circumcision group versus 3.57% in the control group, yielding a relative risk reduction of 60% (adjusted hazard.",
+      "span": {
+        "quote": "After 21 months, HIV incidence was 1.42% in the circumcision group versus 3.57% in the control group, yielding a relative risk reduction of 60% (adjusted hazard"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

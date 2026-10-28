@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0077",
+  "source_text": "The Talmud (Nedarim 32a) presents dual rationales\u2014one associating circumcision with restraint from sin via physical reminder, the other with human perfection\u2014while earlier sources like Philo interpret it as purification, removing impurities symbolized by the foreskin to achieve ritual and moral cleanliness. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Talmud (Nedarim 32a) presents dual rationales\u2014one associating circumcision with restraint from sin via physical reminder, the other with"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Talmud (Nedarim 32a) presents dual rationales\u2014one associating circumcision with restraint from sin via physical reminder, the other with human perfection\u2014wh.",
+      "span": {
+        "quote": "The Talmud (Nedarim 32a) presents dual rationales\u2014one associating circumcision with restraint from sin via physical reminder, the other with human perfection\u2014wh"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

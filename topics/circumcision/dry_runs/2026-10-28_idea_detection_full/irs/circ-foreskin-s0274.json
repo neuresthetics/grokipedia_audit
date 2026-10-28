@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0274",
+  "source_text": "Systematic reviews of level 1++ evidence, including trials with 1,500\u20131,995 men, show no significant differences in erectile function, sensitivity, or satisfaction between circumcised and uncircumcised men, and some indicate benefits like improved lubrication and reduced premature ejaculation. [153]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews of level 1++ evidence, including trials with 1,500\u20131,995 men, show no significant differences in erectile function, sensi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews of level 1++ evidence, including trials with 1,500\u20131,995 men, show no significant differences in erectile function, sensitivity, or satisfact.",
+      "span": {
+        "quote": "Systematic reviews of level 1++ evidence, including trials with 1,500\u20131,995 men, show no significant differences in erectile function, sensitivity, or satisfact"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

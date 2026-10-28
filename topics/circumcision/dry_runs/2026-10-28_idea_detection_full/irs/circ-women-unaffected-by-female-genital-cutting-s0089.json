@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0089",
+  "source_text": "In a comparison of 130 sexually active women with FGC and 130 without in Iran, no significant differences emerged in overall sexual function scores, though type-specific variations existed.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a comparison of 130 sexually active women with FGC and 130 without in Iran, no significant differences emerged in overall sexual function"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a comparison of 130 sexually active women with FGC and 130 without in Iran, no significant differences emerged in overall sexual function scores, though type.",
+      "span": {
+        "quote": "In a comparison of 130 sexually active women with FGC and 130 without in Iran, no significant differences emerged in overall sexual function scores, though type"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

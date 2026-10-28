@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0167",
+  "source_text": "Performed by a trained mohel, the act involves a sterile lancet prick to draw the requisite drop without incising tissue, rendering it minimally invasive and typically painless for adults. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed by a trained mohel, the act involves a sterile lancet prick to draw the requisite drop without incising tissue, rendering it minim"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed by a trained mohel, the act involves a sterile lancet prick to draw the requisite drop without incising tissue, rendering it minimally invasive and ty.",
+      "span": {
+        "quote": "Performed by a trained mohel, the act involves a sterile lancet prick to draw the requisite drop without incising tissue, rendering it minimally invasive and ty"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

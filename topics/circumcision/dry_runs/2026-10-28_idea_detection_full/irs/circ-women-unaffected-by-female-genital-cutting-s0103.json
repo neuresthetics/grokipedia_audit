@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0103",
+  "source_text": "Type I procedures, involving partial or total removal of the clitoral prepuce and/or glans, exhibit the lowest reported rates of long-term physical complications among FGC variants, with clinical data indicating rare chronic scarring, keloid formation, or infertility when performed asepticly. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type I procedures, involving partial or total removal of the clitoral prepuce and/or glans, exhibit the lowest reported rates of long-term p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Type I procedures, involving partial or total removal of the clitoral prepuce and/or glans, exhibit the lowest reported rates of long-term physical complication.",
+      "span": {
+        "quote": "Type I procedures, involving partial or total removal of the clitoral prepuce and/or glans, exhibit the lowest reported rates of long-term physical complication"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

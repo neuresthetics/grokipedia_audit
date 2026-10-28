@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0082",
+  "source_text": "Psychological sequelae, empirically linked to the trauma of the procedure and its lifelong repercussions, encompass post-traumatic stress disorder (PTSD), anxiety, depression, and somatic disorders, with studies reporting higher prevalence among FGM survivors compared to uncircumcised peers, independent of socioeconomic confounders. [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological sequelae, empirically linked to the trauma of the procedure and its lifelong repercussions, encompass post-traumatic stress di"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological sequelae, empirically linked to the trauma of the procedure and its lifelong repercussions, encompass post-traumatic stress disorder (PTSD), anxie.",
+      "span": {
+        "quote": "Psychological sequelae, empirically linked to the trauma of the procedure and its lifelong repercussions, encompass post-traumatic stress disorder (PTSD), anxie"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to the trauma of the procedure and its lifelong repercussions.",
+      "span": {
+        "quote": "linked to the trauma of the procedure and its lifelong repercussions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to the trauma of the procedure and its lifelong repercussions"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to the trauma of the procedure and its lifelong repercussions",
+          "span": {
+            "quote": "linked to the trauma of the procedure and its lifelong repercussions"
+          }
+        }
+      ]
+    }
+  ]
+}

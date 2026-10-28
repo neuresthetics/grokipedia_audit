@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0103",
+  "source_text": "These initiatives highlight circumcision's role in elective hygiene improvements, framing the removal of the foreskin as diminishing opportunities for debris buildup that could detract from a clean visual presentation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These initiatives highlight circumcision's role in elective hygiene improvements, framing the removal of the foreskin as diminishing opportu"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These initiatives highlight circumcision's role in elective hygiene improvements, framing the removal of the foreskin as diminishing opportunities for debris bu.",
+      "span": {
+        "quote": "These initiatives highlight circumcision's role in elective hygiene improvements, framing the removal of the foreskin as diminishing opportunities for debris bu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

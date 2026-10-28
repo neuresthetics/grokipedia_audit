@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0255",
+  "source_text": "Rabbinic sources emphasize its performance on the eighth day as a moral imperative that transcends temporal concerns, permissible even on Shabbat unless the infant's health is at risk, underscoring the ethical priority of fulfilling divine will over potential discomfort. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rabbinic sources emphasize its performance on the eighth day as a moral imperative that transcends temporal concerns, permissible even on Sh"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Its performance on the eighth day as a moral imperative that transcends temporal concerns, permissible even on Shabbat unless the infant's health is at risk, un.",
+      "span": {
+        "quote": "its performance on the eighth day as a moral imperative that transcends temporal concerns, permissible even on Shabbat unless the infant's health is at risk, un"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

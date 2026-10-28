@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0203",
+  "source_text": "In neonatal circumcision, overall adverse event rates are low, ranging from 0.2-1.5% for minor issues and below 0.5% for severe events like glans amputation or necrosis, based on systematic reviews of U.S. medical settings with trained providers. [102] [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In neonatal circumcision, overall adverse event rates are low, ranging from 0.2-1.5% for minor issues and below 0.5% for severe events like"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In neonatal circumcision, overall adverse event rates are low, ranging from 0.2-1.5% for minor issues and below 0.5% for severe events like glans amputation or.",
+      "span": {
+        "quote": "In neonatal circumcision, overall adverse event rates are low, ranging from 0.2-1.5% for minor issues and below 0.5% for severe events like glans amputation or "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

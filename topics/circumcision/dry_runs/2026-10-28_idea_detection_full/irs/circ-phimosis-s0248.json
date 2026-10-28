@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-phimosis-s0248",
+  "source_text": "However, post-circumcision complications, though infrequent (rates <5% in systematic reviews), may include persistent meatal stenosis or altered sensation, underscoring the need for individualized management to minimize enduring impacts. [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, post-circumcision complications, though infrequent (rates <5% in systematic reviews), may include persistent meatal stenosis or alt"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, post-circumcision complications, though infrequent (rates <5% in systematic reviews), may include persistent meatal stenosis or altered sensation, unde.",
+      "span": {
+        "quote": "However, post-circumcision complications, though infrequent (rates <5% in systematic reviews), may include persistent meatal stenosis or altered sensation, unde"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

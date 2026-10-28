@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0160",
+  "source_text": "These convictions reinforce hierarchical gender dynamics, where the ritual's infliction of permanent alteration causally binds women to patriarchal oversight through embodied markers of compliance and group identity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These convictions reinforce hierarchical gender dynamics, where the ritual's infliction of permanent alteration causally binds women to patr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These convictions reinforce hierarchical gender dynamics, where the ritual's infliction of permanent alteration causally binds women to patriarchal oversight th.",
+      "span": {
+        "quote": "These convictions reinforce hierarchical gender dynamics, where the ritual's infliction of permanent alteration causally binds women to patriarchal oversight th"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

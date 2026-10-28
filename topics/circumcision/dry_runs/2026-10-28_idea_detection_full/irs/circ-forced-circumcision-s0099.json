@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0099",
+  "source_text": "The process, viewed by Ottoman authorities as a means of empire-building and loyalty extraction, severed familial ties and imposed permanent physical alteration without consent, with contemporary European captives' accounts highlighting the trauma of such impositions in Mediterranean contexts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The process, viewed by Ottoman authorities as a means of empire-building and loyalty extraction, severed familial ties and imposed permanent"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The process, viewed by Ottoman authorities as a means of empire-building and loyalty extraction, severed familial ties and imposed permanent physical alteration.",
+      "span": {
+        "quote": "The process, viewed by Ottoman authorities as a means of empire-building and loyalty extraction, severed familial ties and imposed permanent physical alteration"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

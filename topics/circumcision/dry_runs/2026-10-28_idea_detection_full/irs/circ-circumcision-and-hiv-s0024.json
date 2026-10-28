@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0024",
+  "source_text": "The trial found no increase in adverse sexual behaviors, supporting circumcision's role without compensatory risk-taking. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The trial found no increase in adverse sexual behaviors, supporting circumcision's role without compensatory risk-taking. [18]"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The trial found no increase in adverse sexual behaviors, supporting circumcision's role without compensatory risk-taking. [18].",
+      "span": {
+        "quote": "The trial found no increase in adverse sexual behaviors, supporting circumcision's role without compensatory risk-taking. [18]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

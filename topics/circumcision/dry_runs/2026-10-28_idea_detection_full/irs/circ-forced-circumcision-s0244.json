@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0244",
+  "source_text": "Ongoing philosophical discourse questions whether communal benefits, such as reduced HIV transmission in high-prevalence areas (e.g., 60% efficacy in randomized trials from sub-Saharan Africa), justify non-consensual acts, though these are contested for applicability to low-risk infant contexts in developed nations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ongoing philosophical discourse questions whether communal benefits, such as reduced HIV transmission in high-prevalence areas (e.g., 60% ef"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ongoing philosophical discourse questions whether communal benefits, such as reduced HIV transmission in high-prevalence areas (e.g., 60% efficacy in randomized.",
+      "span": {
+        "quote": "Ongoing philosophical discourse questions whether communal benefits, such as reduced HIV transmission in high-prevalence areas (e.g., 60% efficacy in randomized"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

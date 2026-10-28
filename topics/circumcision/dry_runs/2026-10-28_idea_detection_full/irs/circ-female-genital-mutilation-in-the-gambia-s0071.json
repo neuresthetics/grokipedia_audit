@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0071",
+  "source_text": "This process, involving seclusion and instruction from elder women, is believed to instill essential virtues such as respect (horomo), secrecy (suturo), and endurance (sabati), collectively known as \"knowing the eye,\" preparing girls for roles in marriage and motherhood while reinforcing community values of obedience and discretion. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This process, involving seclusion and instruction from elder women, is believed to instill essential virtues such as respect (horomo), secre"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This process, involving seclusion and instruction from elder women, is believed to instill essential virtues such as respect (horomo), secrecy (suturo), and end.",
+      "span": {
+        "quote": "This process, involving seclusion and instruction from elder women, is believed to instill essential virtues such as respect (horomo), secrecy (suturo), and end"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

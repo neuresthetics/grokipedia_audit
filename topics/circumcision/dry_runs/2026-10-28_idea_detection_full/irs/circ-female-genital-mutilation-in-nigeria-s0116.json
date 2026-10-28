@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0116",
+  "source_text": "This increases perineal tear risks and neonatal distress from hypoxia during extended parturition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This increases perineal tear risks and neonatal distress from hypoxia during extended parturition."
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This increases perineal tear risks and neonatal distress from hypoxia during extended parturition.",
+      "span": {
+        "quote": "This increases perineal tear risks and neonatal distress from hypoxia during extended parturition."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

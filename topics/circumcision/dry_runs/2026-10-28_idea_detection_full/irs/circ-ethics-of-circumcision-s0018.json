@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0018",
+  "source_text": "Performed by barbers, religious specialists, or physicians, it symbolizes purification and submission to God, with studies of communal practices reporting low severe complication incidences (under 1%) when conducted by skilled local experts, facilitating its widespread adoption across diverse Muslim populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed by barbers, religious specialists, or physicians, it symbolizes purification and submission to God, with studies of communal pract"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed by barbers, religious specialists, or physicians, it symbolizes purification and submission to God, with studies of communal practices reporting low s.",
+      "span": {
+        "quote": "Performed by barbers, religious specialists, or physicians, it symbolizes purification and submission to God, with studies of communal practices reporting low s"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

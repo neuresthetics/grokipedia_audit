@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0037",
+  "source_text": "Orthodox Judaism maintains that the brit milah, including circumcision, constitutes a binding biblical commandment (Genesis 17:10-14), rendering Brit Shalom an invalid substitute for male infants, as it omits the required surgical act central to the covenant. [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Orthodox Judaism maintains that the brit milah, including circumcision, constitutes a binding biblical commandment (Genesis 17:10-14), rende"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E brit milah, including circumcision, constitutes a binding biblical commandment (Genesis 17:10-14), rendering Brit Shalom an invalid substitute for male infant.",
+      "span": {
+        "quote": "e brit milah, including circumcision, constitutes a binding biblical commandment (Genesis 17:10-14), rendering Brit Shalom an invalid substitute for male infant"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

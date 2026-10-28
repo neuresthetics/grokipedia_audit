@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-penile-subincision-s0132",
+  "source_text": "This tension reflects broader global contentions in multicultural contexts, where empirical harm evidence from peer-reviewed cases challenges unsubstantiated claims of net cultural benefit, urging evidence-based policies over deference to tradition alone.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This tension reflects broader global contentions in multicultural contexts, where empirical harm evidence from peer-reviewed cases challenge"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of net cultural benefit, urging evidence-based policies over deference to tradition alone.",
+      "span": {
+        "quote": "of net cultural benefit, urging evidence-based policies over deference to tradition alone."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This tension reflects broader global contentions in multicultural contexts, where empirical harm evidence from peer-reviewed cases challenges unsubstantiated.",
+      "span": {
+        "quote": "This tension reflects broader global contentions in multicultural contexts, where empirical harm evidence from peer-reviewed cases challenges unsubstantiated"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated claims of net cultural benefit.",
+      "span": {
+        "quote": "unsubstantiated claims of net cultural benefit"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated claims of net cultural benefit"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

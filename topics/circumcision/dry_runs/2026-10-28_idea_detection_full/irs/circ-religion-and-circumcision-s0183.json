@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0183",
+  "source_text": "Proponents of deferring circumcision until adulthood highlight it as a form of iatrogenic injury, removing functional foreskin tissue\u2014estimated at 30-50 cm\u00b2 in adulthood\u2014that serves protective, sensory, and immunological roles, without compensating medical necessity for newborns in low-risk settings. [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of deferring circumcision until adulthood highlight it as a form of iatrogenic injury, removing functional foreskin tissue\u2014estima"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents of deferring circumcision until adulthood highlight it as a form of iatrogenic injury, removing functional foreskin tissue\u2014estimated at 30-50 cm\u00b2 in.",
+      "span": {
+        "quote": "Proponents of deferring circumcision until adulthood highlight it as a form of iatrogenic injury, removing functional foreskin tissue\u2014estimated at 30-50 cm\u00b2 in "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

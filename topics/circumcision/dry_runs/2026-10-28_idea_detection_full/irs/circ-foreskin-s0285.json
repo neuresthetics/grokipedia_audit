@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-foreskin-s0285",
+  "source_text": "Recent interviews with AAP task force members in 2025 have raised doubts about the policy's emphasis, noting potential overstatement of benefits relative to complications such as infection, bleeding, and meatal stenosis (occurring in up to 0.2-2% of cases per meta-analyses). [158]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Recent interviews with AAP task force members in 2025 have raised doubts about the policy's emphasis, noting potential overstatement of bene"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Recent interviews with AAP task force members in 2025 have raised doubts about the policy's emphasis, noting potential overstatement of benefits relative to com.",
+      "span": {
+        "quote": "Recent interviews with AAP task force members in 2025 have raised doubts about the policy's emphasis, noting potential overstatement of benefits relative to com"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "Per meta-analyses.",
+      "span": {
+        "quote": "per meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

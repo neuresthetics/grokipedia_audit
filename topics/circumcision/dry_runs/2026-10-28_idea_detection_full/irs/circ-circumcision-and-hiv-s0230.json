@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0230",
+  "source_text": "A 2021 meta-analysis of 13 studies involving heterosexual men concluded no association between medical male circumcision and increased risky behaviors, such as condomless sex (odds ratio 0.94, 95% CI 0.82\u20131.07) or multiple partners (OR 1.05, 95% CI 0.92\u20131.20). [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2021 meta-analysis of 13 studies involving heterosexual men concluded no association between medical male circumcision and increased risky"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No association between medical male circumcision and increased risky behaviors, such as condomless sex (odds ratio 0.94, 95% CI 0.82\u20131.07) or multiple partners.",
+      "span": {
+        "quote": "no association between medical male circumcision and increased risky behaviors, such as condomless sex (odds ratio 0.94, 95% CI 0.82\u20131.07) or multiple partners "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "A 2021 meta-analysis of 13 studies involving heterosexual men.",
+      "span": {
+        "quote": "A 2021 meta-analysis of 13 studies involving heterosexual men"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concluded"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

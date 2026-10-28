@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0055",
+  "source_text": "By the mid-20th century, the procedure fell into disrepute amid advancing psychiatric understanding and ethical scrutiny, supplanted by less invasive therapies, though its historical use underscores era-specific causal attributions of genital anatomy to neuropsychiatric symptoms without empirical validation beyond anecdotal reports.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the mid-20th century, the procedure fell into disrepute amid advancing psychiatric understanding and ethical scrutiny, supplanted by less"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By the mid-20th century, the procedure fell into disrepute amid advancing psychiatric understanding and ethical scrutiny, supplanted by less invasive therapies,.",
+      "span": {
+        "quote": "By the mid-20th century, the procedure fell into disrepute amid advancing psychiatric understanding and ethical scrutiny, supplanted by less invasive therapies,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

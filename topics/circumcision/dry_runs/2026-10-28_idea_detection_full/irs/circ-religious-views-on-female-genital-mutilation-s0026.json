@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0026",
+  "source_text": "Female genital mutilation (FGM) is predominantly driven by cultural imperatives such as rites of passage into womanhood, enforcement of premarital chastity, and enhancement of marriageability within ethnic communities, rather than explicit religious mandates. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Female genital mutilation (FGM) is predominantly driven by cultural imperatives such as rites of passage into womanhood, enforcement of prem"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) is predominantly driven by cultural imperatives such as rites of passage into womanhood, enforcement of premarital chastity, and.",
+      "span": {
+        "quote": "Female genital mutilation (FGM) is predominantly driven by cultural imperatives such as rites of passage into womanhood, enforcement of premarital chastity, and"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

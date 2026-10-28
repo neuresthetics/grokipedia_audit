@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0099",
+  "source_text": "Updated in 2020, the guidelines\u2014\"Preventing HIV through safe voluntary medical male circumcision for adolescents and adults\"\u2014incorporate evidence on surgical techniques, including device-based methods for faster procedures, adolescent-specific counseling to ensure informed consent, and integration with sexual health services, while modeling estimates that sustained VMMC scale-up could avert up to 3.3 million HIV infections in eastern and southern Africa by 2025. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Updated in 2020, the guidelines\u2014\"Preventing HIV through safe voluntary medical male circumcision for adolescents and adults\"\u2014incorporate evi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Updated in 2020, the guidelines\u2014\"Preventing HIV through safe voluntary medical male circumcision for adolescents and adults\"\u2014incorporate evidence on surgical te.",
+      "span": {
+        "quote": "Updated in 2020, the guidelines\u2014\"Preventing HIV through safe voluntary medical male circumcision for adolescents and adults\"\u2014incorporate evidence on surgical te"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

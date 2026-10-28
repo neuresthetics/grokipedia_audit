@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0057",
+  "source_text": "Taddio et al. (1995, 1997) found unanesthetized procedures spike cortisol 2\u20134 times baseline with prolonged distress; EMLA and DPNB lessen but do not erase pain, while sucrose offers limited aid. [36] [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Taddio et al. (1995, 1997) found unanesthetized procedures spike cortisol 2\u20134 times baseline with prolonged distress; EMLA and DPNB lessen b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Taddio et al. (1995, 1997) found unanesthetized procedures spike cortisol 2\u20134 times baseline with prolonged distress; EMLA and DPNB lessen but do not erase pain.",
+      "span": {
+        "quote": "Taddio et al. (1995, 1997) found unanesthetized procedures spike cortisol 2\u20134 times baseline with prolonged distress; EMLA and DPNB lessen but do not erase pain"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

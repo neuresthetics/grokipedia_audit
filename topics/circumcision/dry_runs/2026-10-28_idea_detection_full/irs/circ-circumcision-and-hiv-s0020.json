@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0020",
+  "source_text": "Post-trial surveillance confirmed sustained protection, with incidence of 0.50 per 100 person-years in circumcised men versus 1.93 in uncircumcised men, and no evidence of risk compensation. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Post-trial surveillance confirmed sustained protection, with incidence of 0.50 per 100 person-years in circumcised men versus 1.93 in uncirc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Post-trial surveillance confirmed sustained protection, with incidence of 0.50 per 100 person-years in circumcised men versus 1.93 in uncircumcised men, and no.",
+      "span": {
+        "quote": "Post-trial surveillance confirmed sustained protection, with incidence of 0.50 per 100 person-years in circumcised men versus 1.93 in uncircumcised men, and no "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of risk compensation.",
+      "span": {
+        "quote": "no evidence of risk compensation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per 100 person-years in circumcised men versus 1.",
+      "span": {
+        "quote": "per 100 person-years in circumcised men versus 1"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of risk compensation"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per 100 person-years in circumcised men versus 1"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

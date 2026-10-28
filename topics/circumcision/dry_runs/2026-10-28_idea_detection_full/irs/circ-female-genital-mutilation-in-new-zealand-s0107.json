@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0107",
+  "source_text": "Through periodic reporting to the CEDAW and CRC committees, New Zealand affirms compliance via domestic frameworks and initiatives, though the treaties underscore an unqualified duty to eradicate FGM, rejecting exemptions that prioritize tradition over empirical harms to physical and psychological well-being.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Through periodic reporting to the CEDAW and CRC committees, New Zealand affirms compliance via domestic frameworks and initiatives, though t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Through periodic reporting to the CEDAW and CRC committees, New Zealand affirms compliance via domestic frameworks and initiatives, though the treaties undersco.",
+      "span": {
+        "quote": "Through periodic reporting to the CEDAW and CRC committees, New Zealand affirms compliance via domestic frameworks and initiatives, though the treaties undersco"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

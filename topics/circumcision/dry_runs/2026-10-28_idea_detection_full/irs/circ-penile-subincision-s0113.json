@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-penile-subincision-s0113",
+  "source_text": "Organizations advocating genital autonomy, such as the Australasian Institute for Genital Autonomy, argue this violates children's bodily integrity, equating it morally to prohibited female genital cutting and citing UN Convention on the Rights of the Child (CRC) Articles 19 and 24 against harmful traditional practices performed without therapeutic necessity. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Organizations advocating genital autonomy, such as the Australasian Institute for Genital Autonomy, argue this violates children's bodily in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is violates children's bodily integrity, equating it morally to prohibited female genital cutting and citing UN Convention on the Rights of the Child (CRC) Arti.",
+      "span": {
+        "quote": "is violates children's bodily integrity, equating it morally to prohibited female genital cutting and citing UN Convention on the Rights of the Child (CRC) Arti"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Organizations advocating genital autonomy, such as the Australasian Institute for Genital Autonomy.",
+      "span": {
+        "quote": "Organizations advocating genital autonomy, such as the Australasian Institute for Genital Autonomy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing UN Convention on the Rights of the Child (CRC) Articles 19 and 24 against.",
+      "span": {
+        "quote": "citing UN Convention on the Rights of the Child (CRC) Articles 19 and 24 against"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing UN Convention on the Rights of the Child (CRC) Articles 19 and 24 against"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

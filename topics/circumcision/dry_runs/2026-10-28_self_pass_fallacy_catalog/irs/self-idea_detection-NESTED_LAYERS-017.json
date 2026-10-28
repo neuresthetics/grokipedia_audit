@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-017",
+  "source_text": "- {passage_id}.txt \u2014 snapshot window for an excerpt peel. - {passage_id}.json \u2014 one context record, a list, or a bare Idea IR used as the child. - {passage_id}/{target_id}.json or .txt \u2014 one peel target.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- {passage_id}.txt \u2014 snapshot window for an excerpt peel. - {passage_id}.json \u2014 one context record, a list, or a bare Idea IR used as the ch"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "- {passage_id}.txt \u2014 snapshot window for an excerpt peel. - {passage_id}.json \u2014 one context record, a list, or a bare Idea IR used as the child. - {passage_id}/.",
+      "span": {
+        "quote": "- {passage_id}.txt \u2014 snapshot window for an excerpt peel. - {passage_id}.json \u2014 one context record, a list, or a bare Idea IR used as the child. - {passage_id}/"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

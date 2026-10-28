@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0206",
+  "source_text": "Ethical debates surrounding non-therapeutic infant male circumcision center on violations of bodily integrity and autonomy, as the procedure permanently removes functional tissue from a non-consenting minor without immediate medical necessity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical debates surrounding non-therapeutic infant male circumcision center on violations of bodily integrity and autonomy, as the procedure"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethical debates surrounding non-therapeutic infant male circumcision center on violations of bodily integrity and autonomy, as the procedure permanently removes.",
+      "span": {
+        "quote": "Ethical debates surrounding non-therapeutic infant male circumcision center on violations of bodily integrity and autonomy, as the procedure permanently removes"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

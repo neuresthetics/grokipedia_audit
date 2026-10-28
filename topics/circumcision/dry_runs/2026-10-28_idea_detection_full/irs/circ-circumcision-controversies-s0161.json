@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0161",
+  "source_text": "This practice sustains ethnic and faith-based identity, especially in diverse or minority settings, mirroring Jewish uses as a resilient communal marker.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice sustains ethnic and faith-based identity, especially in diverse or minority settings, mirroring Jewish uses as a resilient com"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice sustains ethnic and faith-based identity, especially in diverse or minority settings, mirroring Jewish uses as a resilient communal marker.",
+      "span": {
+        "quote": "This practice sustains ethnic and faith-based identity, especially in diverse or minority settings, mirroring Jewish uses as a resilient communal marker."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

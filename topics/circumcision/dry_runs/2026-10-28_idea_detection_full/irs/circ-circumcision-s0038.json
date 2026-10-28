@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-circumcision-s0038",
+  "source_text": "Voluntary medical male circumcision (VMMC) for adolescent boys and men in high-HIV-prevalence areas, backed by randomized trials demonstrating 50\u201360% risk reduction, is recommended by the WHO for public health, though debated in low-prevalence settings due to modest absolute benefits. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Voluntary medical male circumcision (VMMC) for adolescent boys and men in high-HIV-prevalence areas, backed by randomized trials demonstrati"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Voluntary medical male circumcision (VMMC) for adolescent boys and men in high-HIV-prevalence areas, backed by randomized trials demonstrating 50\u201360% risk reduc.",
+      "span": {
+        "quote": "Voluntary medical male circumcision (VMMC) for adolescent boys and men in high-HIV-prevalence areas, backed by randomized trials demonstrating 50\u201360% risk reduc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Backed by randomized trials demonstrating 50\u201360% risk reduction.",
+      "span": {
+        "quote": "backed by randomized trials demonstrating 50\u201360% risk reduction"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "backed by randomized trials demonstrating 50\u201360% risk reduction"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "backed"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "backed by randomized trials demonstrating 50\u201360% risk reduction",
+          "span": {
+            "quote": "backed by randomized trials demonstrating 50\u201360% risk reduction"
+          }
+        }
+      ]
+    }
+  ]
+}

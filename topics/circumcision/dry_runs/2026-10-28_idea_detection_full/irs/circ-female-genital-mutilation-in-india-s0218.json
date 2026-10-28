@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0218",
+  "source_text": "Opposing legislative prohibitions, the organization asserts that such measures violate India's constitutional guarantees of religious practice (Articles 25 and 26), cultural minority rights (Article 29), and gender equality (Article 14), as male circumcision remains unregulated despite analogous bodily alteration.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opposing legislative prohibitions, the organization asserts that such measures violate India's constitutional guarantees of religious practi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such measures violate India's constitutional guarantees of religious practice (Articles 25 and 26), cultural minority rights (Article 29), and gender equality (.",
+      "span": {
+        "quote": "such measures violate India's constitutional guarantees of religious practice (Articles 25 and 26), cultural minority rights (Article 29), and gender equality ("
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opposing legislative prohibitions, the organization.",
+      "span": {
+        "quote": "Opposing legislative prohibitions, the organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "asserts"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

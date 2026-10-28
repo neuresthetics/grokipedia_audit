@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0260",
+  "source_text": "From a human rights framework, infant circumcision is viewed as a violation of the right to physical integrity, comparable to protections against non-consensual bodily modifications in other contexts. [148]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From a human rights framework, infant circumcision is viewed as a violation of the right to physical integrity, comparable to protections ag"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From a human rights framework, infant circumcision is viewed as a violation of the right to physical integrity, comparable to protections against non-consensual.",
+      "span": {
+        "quote": "From a human rights framework, infant circumcision is viewed as a violation of the right to physical integrity, comparable to protections against non-consensual"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

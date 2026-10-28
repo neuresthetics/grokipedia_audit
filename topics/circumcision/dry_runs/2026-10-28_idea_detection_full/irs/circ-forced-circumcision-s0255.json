@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-forced-circumcision-s0255",
+  "source_text": "They cite empirical data on acute risks, including a 1-3% complication rate in neonates per systematic reviews, and long-term effects like reduced penile sensitivity documented in surveys such as the 2011-2012 Global Survey of Circumcision Harms, which reported over 1,000 respondents experiencing dissatisfaction or dysfunction. [111]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They cite empirical data on acute risks, including a 1-3% complication rate in neonates per systematic reviews, and long-term effects like r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "They cite empirical data on acute risks, including a 1-3% complication rate in neonates per systematic reviews, and long-term effects like reduced penile sensit.",
+      "span": {
+        "quote": "They cite empirical data on acute risks, including a 1-3% complication rate in neonates per systematic reviews, and long-term effects like reduced penile sensit"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per systematic reviews.",
+      "span": {
+        "quote": "per systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

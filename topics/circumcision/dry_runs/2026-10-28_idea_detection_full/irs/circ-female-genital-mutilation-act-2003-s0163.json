@@ -1,0 +1,102 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0163",
+  "source_text": "A 2025 WHO-commissioned meta-analysis of over 50 studies further documents elevated incidences of keloid scarring, chronic pain, and fistulas, with no evidence of offsetting medical advantages.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2025 WHO-commissioned meta-analysis of over 50 studies further documents elevated incidences of keloid scarring, chronic pain, and fistula"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2025 WHO-commissioned meta-analysis of over 50 studies further documents elevated incidences of keloid scarring, chronic pain, and fistulas, with no evidence.",
+      "span": {
+        "quote": "A 2025 WHO-commissioned meta-analysis of over 50 studies further documents elevated incidences of keloid scarring, chronic pain, and fistulas, with no evidence "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of offsetting medical advantages.",
+      "span": {
+        "quote": "no evidence of offsetting medical advantages"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of offsetting medical advantages"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

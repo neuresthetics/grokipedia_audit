@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-cost-of-circumcision-surgery-in-chaozhou-s0026",
+  "source_text": "Culturally, male circumcision is often viewed as unfamiliar and sensitive in Chinese society, with many parents and individuals expressing reluctance toward early infant or childhood procedures due to misconceptions about its necessity, benefits, or risks. [11] [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Culturally, male circumcision is often viewed as unfamiliar and sensitive in Chinese society, with many parents and individuals expressing r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Culturally, male circumcision is often viewed as unfamiliar and sensitive in Chinese society, with many parents and individuals expressing reluctance toward ear.",
+      "span": {
+        "quote": "Culturally, male circumcision is often viewed as unfamiliar and sensitive in Chinese society, with many parents and individuals expressing reluctance toward ear"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Many parents and individuals expressing reluctance.",
+      "span": {
+        "quote": "many parents and individuals expressing reluctance"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "many parents and individuals expressing reluctance"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

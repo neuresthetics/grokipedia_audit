@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0316",
+  "source_text": "Legal-ethical analyses further highlight tensions, noting that while U.S. courts generally uphold parental consent for circumcision absent abuse, international bodies like the Royal Dutch Medical Association (2010) deem routine neonatal circumcision a violation of children's rights under the UN Convention on the Rights of the Child, prioritizing autonomy over tradition. [52]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legal-ethical analyses further highlight tensions, noting that while U.S. courts generally uphold parental consent for circumcision absent a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Legal-ethical analyses further highlight tensions, noting that while U.S. courts generally uphold parental consent for circumcision absent abuse, international.",
+      "span": {
+        "quote": "Legal-ethical analyses further highlight tensions, noting that while U.S. courts generally uphold parental consent for circumcision absent abuse, international "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

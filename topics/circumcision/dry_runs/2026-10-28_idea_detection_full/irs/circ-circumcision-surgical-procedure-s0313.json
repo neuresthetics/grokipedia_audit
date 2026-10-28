@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0313",
+  "source_text": "Ethicists like J. Steven Svoboda argue that such acts infringe on the infant's fundamental human right to bodily integrity, comparable to female genital cutting, which is universally condemned despite analogous cultural rationales; they assert that deferring the decision until adulthood respects the principle of non-maleficence by avoiding unnecessary risks like infection (occurring in up to 10% of cases per some reviews) or surgical complications. [139] [140]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethicists like J. Steven Svoboda argue that such acts infringe on the infant's fundamental human right to bodily integrity, comparable to fe"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such acts infringe on the infant's fundamental human right to bodily integrity, comparable to female genital cutting, which is universally condemned despite ana.",
+      "span": {
+        "quote": "such acts infringe on the infant's fundamental human right to bodily integrity, comparable to female genital cutting, which is universally condemned despite ana"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethicists like J. Steven Svoboda.",
+      "span": {
+        "quote": "Ethicists like J. Steven Svoboda"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c3",
+      "text": "Per some reviews) or surgical complications.",
+      "span": {
+        "quote": "per some reviews) or surgical complications"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per some reviews) or surgical complications"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

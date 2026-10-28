@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-brit-milah-s0275",
+  "source_text": "Within Jewish communities, a minority of activists, including groups promoting Brit Shalom\u2014a non-surgical naming ceremony as an alternative \"covenant of peace\"\u2014challenge brit milah as an archaic custom incompatible with modern ethics, arguing it contravenes Jewish values of pikuach nefesh (saving life) when risks are weighed against unproven benefits. [136] [137]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Within Jewish communities, a minority of activists, including groups promoting Brit Shalom\u2014a non-surgical naming ceremony as an alternative"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Within Jewish communities, a minority of activists, including groups promoting Brit Shalom\u2014a non-surgical naming ceremony as an alternative \"covenant of peace\"\u2014.",
+      "span": {
+        "quote": "Within Jewish communities, a minority of activists, including groups promoting Brit Shalom\u2014a non-surgical naming ceremony as an alternative \"covenant of peace\"\u2014"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unproven benefits.",
+      "span": {
+        "quote": "unproven benefits"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Activists.",
+      "span": {
+        "quote": "activists"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unproven benefits"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "activists"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Within Jewish commun"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activists",
+          "span": {
+            "quote": "activists"
+          }
+        }
+      ]
+    }
+  ]
+}

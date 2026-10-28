@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0114",
+  "source_text": "These risks stem directly from surgical intervention on delicate tissue, but empirical data indicate they are mitigated by trained providers and sterile technique, yielding a net harm far below 1% in controlled settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These risks stem directly from surgical intervention on delicate tissue, but empirical data indicate they are mitigated by trained providers"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These risks stem directly from surgical intervention on delicate tissue, but empirical data indicate they are mitigated by trained providers and sterile techniq.",
+      "span": {
+        "quote": "These risks stem directly from surgical intervention on delicate tissue, but empirical data indicate they are mitigated by trained providers and sterile techniq"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

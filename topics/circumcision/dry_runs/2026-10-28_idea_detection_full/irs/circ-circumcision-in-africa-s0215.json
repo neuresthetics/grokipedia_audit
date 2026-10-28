@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0215",
+  "source_text": "A 2025 analysis of Demographic and Health Surveys data from 2003-2023 across sub-Saharan Africa found male circumcision associated with significantly lower HIV prevalence odds (adjusted OR: 0.45, 95% CI: 0.42-0.48), correlating with program rollout and no substantial risk compensation inflating infections. [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2025 analysis of Demographic and Health Surveys data from 2003-2023 across sub-Saharan Africa found male circumcision associated with sign"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2025 analysis of Demographic and Health Surveys data from 2003-2023 across sub-Saharan Africa found male circumcision associated with significantly lower HIV.",
+      "span": {
+        "quote": "A 2025 analysis of Demographic and Health Surveys data from 2003-2023 across sub-Saharan Africa found male circumcision associated with significantly lower HIV "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with significantly lower HIV prevalence odds (adjusted OR: 0.",
+      "span": {
+        "quote": "associated with significantly lower HIV prevalence odds (adjusted OR: 0"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with significantly lower HIV prevalence odds (adjusted OR: 0"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with significantly lower HIV prevalence odds (adjusted OR: 0",
+          "span": {
+            "quote": "associated with significantly lower HIV prevalence odds (adjusted OR: 0"
+          }
+        }
+      ]
+    }
+  ]
+}

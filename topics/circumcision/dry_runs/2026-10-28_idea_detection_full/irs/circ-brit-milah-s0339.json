@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0339",
+  "source_text": "Overall, while brit milah bolsters resilience in observant enclaves, persistent secular encroachments in Europe risk marginalizing Orthodox communities, prompting some families to relocate to more permissive jurisdictions like the UK or Israel, where the practice enjoys broader societal acceptance. [179]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, while brit milah bolsters resilience in observant enclaves, persistent secular encroachments in Europe risk marginalizing Orthodox"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, while brit milah bolsters resilience in observant enclaves, persistent secular encroachments in Europe risk marginalizing Orthodox communities, prompti.",
+      "span": {
+        "quote": "Overall, while brit milah bolsters resilience in observant enclaves, persistent secular encroachments in Europe risk marginalizing Orthodox communities, prompti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

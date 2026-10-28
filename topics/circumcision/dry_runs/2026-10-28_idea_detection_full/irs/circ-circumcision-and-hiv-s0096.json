@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0096",
+  "source_text": "These trials, conducted between 2002 and 2007, involved over 10,000 participants and showed consistent efficacy against heterosexual transmission, prompting WHO to position VMMC as an additional, efficacious intervention alongside condom promotion, HIV testing, and antiretroviral therapy, while emphasizing that it offers only partial protection and does not eliminate risk.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These trials, conducted between 2002 and 2007, involved over 10,000 participants and showed consistent efficacy against heterosexual transmi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These trials, conducted between 2002 and 2007, involved over 10,000 participants and showed consistent efficacy against heterosexual transmission, prompting WHO.",
+      "span": {
+        "quote": "These trials, conducted between 2002 and 2007, involved over 10,000 participants and showed consistent efficacy against heterosexual transmission, prompting WHO"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0238",
+  "source_text": "Neonatal timing also facilitates higher uptake rates, as evidenced by U.S. newborn circumcision prevalence declining from 64.5% in 1979 to 58.3% in 2010, yet remaining far higher than voluntary adult rates estimated at 3 per 1,000 males annually, primarily driven by medical necessity rather than preventive intent. [149] [105]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal timing also facilitates higher uptake rates, as evidenced by U.S. newborn circumcision prevalence declining from 64.5% in 1979 to 5"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal timing also facilitates higher uptake rates, as evidenced by U.S. newborn circumcision prevalence declining from 64.5% in 1979 to 58.3% in 2010, yet re.",
+      "span": {
+        "quote": "Neonatal timing also facilitates higher uptake rates, as evidenced by U.S. newborn circumcision prevalence declining from 64.5% in 1979 to 58.3% in 2010, yet re"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

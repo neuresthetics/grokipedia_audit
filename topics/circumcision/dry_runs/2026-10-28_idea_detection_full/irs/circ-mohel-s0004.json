@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0004",
+  "source_text": "The role of the mohel evolved from familial practices in biblical times to a formalized profession requiring expertise in both surgical technique and Jewish law (halakha), ensuring the procedure's ritual efficacy and minimal risk to the infant. [2] [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The role of the mohel evolved from familial practices in biblical times to a formalized profession requiring expertise in both surgical tech"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The role of the mohel evolved from familial practices in biblical times to a formalized profession requiring expertise in both surgical technique and Jewish law.",
+      "span": {
+        "quote": "The role of the mohel evolved from familial practices in biblical times to a formalized profession requiring expertise in both surgical technique and Jewish law"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0263",
+  "source_text": "In this vein, sanitarian John Harvey Kellogg's 1881 treatise Plain Facts for Old and Young endorsed circumcision without anesthesia for boys to discourage masturbation\u2014seen as a source of moral and physical decline\u2014while promoting genital hygiene through the procedure's pain as a deterrent. [157]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In this vein, sanitarian John Harvey Kellogg's 1881 treatise Plain Facts for Old and Young endorsed circumcision without anesthesia for boys"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In this vein, sanitarian John Harvey Kellogg's 1881 treatise Plain Facts for Old and Young endorsed circumcision without anesthesia for boys to discourage mastu.",
+      "span": {
+        "quote": "In this vein, sanitarian John Harvey Kellogg's 1881 treatise Plain Facts for Old and Young endorsed circumcision without anesthesia for boys to discourage mastu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

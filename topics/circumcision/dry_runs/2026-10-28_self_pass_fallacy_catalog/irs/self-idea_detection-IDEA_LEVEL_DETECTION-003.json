@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-003",
+  "source_text": "METHOD already thinks in ideas (quote \u2192 strongest reading \u2192 conditions \u2192 look-alikes \u2192 verdict). Algorithmic detection still needs: (1) a typed **Idea IR** of claims and support relations, (2) catalog conditions as **predicates over that IR**, (3) a hard split so an LLM may **extract** IR but only the **checker** may issue a flag, justified by predicates + quoted spans.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "METHOD already thinks in ideas (quote \u2192 strongest reading \u2192 conditions \u2192 look-alikes \u2192 verdict). Algorithmic detection still needs: (1) a ty"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Conditions \u2192 look-alikes \u2192 verdict). Algorithmic detection still needs: (1) a typed **Idea IR** of claims and support relations, (2) catalog conditions as **pre.",
+      "span": {
+        "quote": "conditions \u2192 look-alikes \u2192 verdict). Algorithmic detection still needs: (1) a typed **Idea IR** of claims and support relations, (2) catalog conditions as **pre"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "An LLM may **extract** IR but only the **checker** may issue a flag, justified by predicates + quoted spans.",
+      "span": {
+        "quote": "an LLM may **extract** IR but only the **checker** may issue a flag, justified by predicates + quoted spans."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

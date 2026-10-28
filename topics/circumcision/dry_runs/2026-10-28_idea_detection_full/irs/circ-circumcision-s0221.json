@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0221",
+  "source_text": "Sustained implementation in South Africa and Malawi post-2022 has prevented infections while delivering health and economic gains, assuming stable epidemiology. [127]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sustained implementation in South Africa and Malawi post-2022 has prevented infections while delivering health and economic gains, assuming"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sustained implementation in South Africa and Malawi post-2022 has prevented infections while delivering health and economic gains, assuming stable epidemiology.",
+      "span": {
+        "quote": "Sustained implementation in South Africa and Malawi post-2022 has prevented infections while delivering health and economic gains, assuming stable epidemiology."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

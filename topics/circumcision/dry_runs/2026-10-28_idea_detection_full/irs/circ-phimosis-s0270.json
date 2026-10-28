@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0270",
+  "source_text": "In secular Western Europe and much of Latin America (circumcision <20%), cultural preference for bodily autonomy favors conservative treatments like steroid creams or stretching over prophylactic surgery, viewing routine circumcision as unnecessary absent pathology. [82] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In secular Western Europe and much of Latin America (circumcision <20%), cultural preference for bodily autonomy favors conservative treatme"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In secular Western Europe and much of Latin America (circumcision <20%), cultural preference for bodily autonomy favors conservative treatments like steroid cre.",
+      "span": {
+        "quote": "In secular Western Europe and much of Latin America (circumcision <20%), cultural preference for bodily autonomy favors conservative treatments like steroid cre"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

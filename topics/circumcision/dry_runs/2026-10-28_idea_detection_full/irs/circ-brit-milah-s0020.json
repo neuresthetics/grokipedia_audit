@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0020",
+  "source_text": "While ancient Israelites would not have known this scientifically, the alignment is cited as evidence of practical wisdom in the biblical prescription, making the rite safer in pre-modern conditions without contemporary interventions like vitamin K supplementation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While ancient Israelites would not have known this scientifically, the alignment is cited as evidence of practical wisdom in the biblical pr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While ancient Israelites would not have known this scientifically, the alignment is cited as evidence of practical wisdom in the biblical prescription, making t.",
+      "span": {
+        "quote": "While ancient Israelites would not have known this scientifically, the alignment is cited as evidence of practical wisdom in the biblical prescription, making t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

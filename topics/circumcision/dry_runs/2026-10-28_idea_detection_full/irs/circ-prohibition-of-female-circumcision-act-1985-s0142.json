@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0142",
+  "source_text": "While ethical scrutiny of non-therapeutic infant male circumcision persists\u2014citing potential loss of erogenous tissue and autonomy violations\u2014the absence of equivalent regulation does not negate FGM's empirically greater morbidity, as evidenced by global health data showing FGM's complication rates far exceeding those of male circumcision (e.g., up to 15-30% acute issues in some FGM types versus under 1% for males in controlled settings). [9] [42]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While ethical scrutiny of non-therapeutic infant male circumcision persists\u2014citing potential loss of erogenous tissue and autonomy violation"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While ethical scrutiny of non-therapeutic infant male circumcision persists\u2014citing potential loss of erogenous tissue and autonomy violations\u2014the absence of equ.",
+      "span": {
+        "quote": "While ethical scrutiny of non-therapeutic infant male circumcision persists\u2014citing potential loss of erogenous tissue and autonomy violations\u2014the absence of equ"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing potential loss of erogenous tissue and autonomy violations\u2014the absence of.",
+      "span": {
+        "quote": "citing potential loss of erogenous tissue and autonomy violations\u2014the absence of"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing potential loss of erogenous tissue and autonomy violations\u2014the absence of"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

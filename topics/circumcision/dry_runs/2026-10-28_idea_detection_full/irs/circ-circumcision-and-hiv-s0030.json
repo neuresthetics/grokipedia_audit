@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0030",
+  "source_text": "A 2008 meta-analysis of 18 studies found no overall protective effect of circumcision against HIV or other sexually transmitted infections in MSM, though subgroup analyses indicated a potential association in pre-highly active antiretroviral therapy (HAART) era studies. [20]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2008 meta-analysis of 18 studies found no overall protective effect of circumcision against HIV or other sexually transmitted infections i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2008 meta-analysis of 18 studies found no overall protective effect of circumcision against HIV or other sexually transmitted infections in MSM, though subgro.",
+      "span": {
+        "quote": "A 2008 meta-analysis of 18 studies found no overall protective effect of circumcision against HIV or other sexually transmitted infections in MSM, though subgro"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

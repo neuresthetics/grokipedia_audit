@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0208",
+  "source_text": "While some observational data suggest heightened nociceptive sensitivity to later stimuli (e.g., vaccinations at 4-6 months), this reflects procedural sensitization rather than psychological trauma encoding, and does not manifest as conscious memory or avoidance behaviors.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some observational data suggest heightened nociceptive sensitivity to later stimuli (e.g., vaccinations at 4-6 months), this reflects"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Eightened nociceptive sensitivity to later stimuli (e.g., vaccinations at 4-6 months), this reflects procedural sensitization rather than psychological trauma e.",
+      "span": {
+        "quote": "eightened nociceptive sensitivity to later stimuli (e.g., vaccinations at 4-6 months), this reflects procedural sensitization rather than psychological trauma e"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "While some observational data.",
+      "span": {
+        "quote": "While some observational data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggest"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

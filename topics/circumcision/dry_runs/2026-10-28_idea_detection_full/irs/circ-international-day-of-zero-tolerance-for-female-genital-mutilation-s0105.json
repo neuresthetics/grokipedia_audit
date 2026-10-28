@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0105",
+  "source_text": "Practitioners and supporters cite social conformity as a core justification, arguing that uncircumcised girls face ostracism, diminished marriage prospects, or lower dowry values, thereby perpetuating the practice through economic and communal pressures rather than individual choice. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners and supporters cite social conformity as a core justification, arguing that uncircumcised girls face ostracism, diminished mar"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners and supporters cite social conformity as a core justification, arguing that uncircumcised girls face ostracism, diminished marriage prospects, or.",
+      "span": {
+        "quote": "Practitioners and supporters cite social conformity as a core justification, arguing that uncircumcised girls face ostracism, diminished marriage prospects, or "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Perpetuating the practice through economic and communal pressures rather than individual choice. [32].",
+      "span": {
+        "quote": "perpetuating the practice through economic and communal pressures rather than individual choice. [32]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

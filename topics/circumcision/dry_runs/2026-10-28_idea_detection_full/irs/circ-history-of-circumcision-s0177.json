@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0177",
+  "source_text": "In the mid-20th century, public health rationales for male circumcision emphasized prevention of urinary tract infections (UTIs), phimosis, and balanitis, with studies indicating a 10-fold reduction in UTIs among circumcised male infants in the first year of life compared to uncircumcised peers. [82]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the mid-20th century, public health rationales for male circumcision emphasized prevention of urinary tract infections (UTIs), phimosis,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prevention of urinary tract infections (UTIs), phimosis, and balanitis, with studies indicating a 10-fold reduction in UTIs among circumcised male infants in th.",
+      "span": {
+        "quote": "prevention of urinary tract infections (UTIs), phimosis, and balanitis, with studies indicating a 10-fold reduction in UTIs among circumcised male infants in th"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In the mid-20th century, public health rationales for male circumcision.",
+      "span": {
+        "quote": "In the mid-20th century, public health rationales for male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

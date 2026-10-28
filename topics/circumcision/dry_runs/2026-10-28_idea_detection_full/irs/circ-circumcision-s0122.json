@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0122",
+  "source_text": "Additionally, circumcised boys in non-Muslim families showed an increased likelihood of developing ADHD (HR = 1.81; 95% CI: 1.11\u20132.96).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additionally, circumcised boys in non-Muslim families showed an increased likelihood of developing ADHD (HR = 1.81; 95% CI: 1.11\u20132.96)."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additionally, circumcised boys in non-Muslim families showed an increased likelihood of developing ADHD (HR = 1.81; 95% CI: 1.11\u20132.96).",
+      "span": {
+        "quote": "Additionally, circumcised boys in non-Muslim families showed an increased likelihood of developing ADHD (HR = 1.81; 95% CI: 1.11\u20132.96)."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

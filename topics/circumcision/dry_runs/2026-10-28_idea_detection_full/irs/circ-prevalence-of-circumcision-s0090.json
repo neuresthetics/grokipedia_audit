@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0090",
+  "source_text": "Three randomized controlled trials conducted between 2005 and 2007\u2014in Rakai, Uganda; Orange Farm, South Africa; and Kisumu, Kenya\u2014demonstrated that voluntary medical male circumcision (VMMC) reduces the risk of HIV acquisition by heterosexual men by approximately 50-60% compared to uncircumcised controls, with no evidence of delayed protection or behavioral risk compensation offsetting benefits. [45] [46] [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Three randomized controlled trials conducted between 2005 and 2007\u2014in Rakai, Uganda; Orange Farm, South Africa; and Kisumu, Kenya\u2014demonstrat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Three randomized controlled trials conducted between 2005 and 2007\u2014in Rakai, Uganda; Orange Farm, South Africa; and Kisumu, Kenya\u2014demonstrated that voluntary me.",
+      "span": {
+        "quote": "Three randomized controlled trials conducted between 2005 and 2007\u2014in Rakai, Uganda; Orange Farm, South Africa; and Kisumu, Kenya\u2014demonstrated that voluntary me"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "No evidence of delayed protection or behavioral risk compensation.",
+      "span": {
+        "quote": "no evidence of delayed protection or behavioral risk compensation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of delayed protection or behavioral risk compensation"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

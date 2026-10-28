@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0006",
+  "source_text": "These programs have scaled up to perform tens of millions of procedures, aiming to avert new infections, though traditional practices persist and contribute to ongoing public health challenges from botched operations. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These programs have scaled up to perform tens of millions of procedures, aiming to avert new infections, though traditional practices persis"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These programs have scaled up to perform tens of millions of procedures, aiming to avert new infections, though traditional practices persist and contribute to.",
+      "span": {
+        "quote": "These programs have scaled up to perform tens of millions of procedures, aiming to avert new infections, though traditional practices persist and contribute to "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

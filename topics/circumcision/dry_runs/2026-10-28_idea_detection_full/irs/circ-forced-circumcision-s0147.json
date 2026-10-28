@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0147",
+  "source_text": "These practices frequently lack anesthesia and sterile conditions, leading to documented complications including infections, excessive bleeding, and psychological trauma from the non-consensual nature and public humiliation. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These practices frequently lack anesthesia and sterile conditions, leading to documented complications including infections, excessive bleed"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These practices frequently lack anesthesia and sterile conditions, leading to documented complications including infections, excessive bleeding, and psychologic.",
+      "span": {
+        "quote": "These practices frequently lack anesthesia and sterile conditions, leading to documented complications including infections, excessive bleeding, and psychologic"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

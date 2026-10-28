@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0140",
+  "source_text": "Such cases remain exceedingly rare, with procedures often conducted outside regulated medical settings, heightening risks of hemorrhage, infection, and long-term urinary strictures, as noted in forensic and anthropological reviews. [17]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such cases remain exceedingly rare, with procedures often conducted outside regulated medical settings, heightening risks of hemorrhage, inf"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such cases remain exceedingly rare, with procedures often conducted outside regulated medical settings, heightening risks of hemorrhage, infection, and long-ter.",
+      "span": {
+        "quote": "Such cases remain exceedingly rare, with procedures often conducted outside regulated medical settings, heightening risks of hemorrhage, infection, and long-ter"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

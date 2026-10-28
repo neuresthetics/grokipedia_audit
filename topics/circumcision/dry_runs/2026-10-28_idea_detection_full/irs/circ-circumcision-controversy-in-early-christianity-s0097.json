@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0097",
+  "source_text": "This underscored that ritual status held no salvific weight post-Christ, prioritizing ethical faithfulness over physical marks. [47] [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This underscored that ritual status held no salvific weight post-Christ, prioritizing ethical faithfulness over physical marks. [47] [48]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This underscored that ritual status held no salvific weight post-Christ, prioritizing ethical faithfulness over physical marks. [47] [48].",
+      "span": {
+        "quote": "This underscored that ritual status held no salvific weight post-Christ, prioritizing ethical faithfulness over physical marks. [47] [48]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

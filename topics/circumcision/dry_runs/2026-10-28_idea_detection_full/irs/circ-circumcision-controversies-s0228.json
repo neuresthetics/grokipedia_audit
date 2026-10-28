@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0228",
+  "source_text": "In the United States, Health Secretary Robert F. Kennedy Jr. asserted in October 2025 a potential link between infant circumcision\u2014often involving post-procedure acetaminophen (Tylenol) use\u2014and increased autism risk, citing limited studies but lacking causal evidence. [150]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States, Health Secretary Robert F. Kennedy Jr. asserted in October 2025 a potential link between infant circumcision\u2014often inv"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In October 2025 a potential link between infant circumcision\u2014often involving post-procedure acetaminophen (Tylenol) use\u2014and increased autism risk, citing limite.",
+      "span": {
+        "quote": "in October 2025 a potential link between infant circumcision\u2014often involving post-procedure acetaminophen (Tylenol) use\u2014and increased autism risk, citing limite"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In the United States, Health Secretary Robert F. Kennedy Jr.",
+      "span": {
+        "quote": "In the United States, Health Secretary Robert F. Kennedy Jr."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing limited studies but lacking causal evidence.",
+      "span": {
+        "quote": "citing limited studies but lacking causal evidence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "asserted"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing limited studies but lacking causal evidence"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

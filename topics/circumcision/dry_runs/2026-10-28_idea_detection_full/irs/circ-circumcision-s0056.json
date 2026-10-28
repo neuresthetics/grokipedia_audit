@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0056",
+  "source_text": "Studies like Grunau and Craig (1987, 1990) confirm neonatal pain via grimacing, cry patterns, and heart-rate shifts akin to major surgery. [34] [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies like Grunau and Craig (1987, 1990) confirm neonatal pain via grimacing, cry patterns, and heart-rate shifts akin to major surgery. ["
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies like Grunau and Craig (1987, 1990) confirm neonatal pain via grimacing, cry patterns, and heart-rate shifts akin to major surgery. [34] [35].",
+      "span": {
+        "quote": "Studies like Grunau and Craig (1987, 1990) confirm neonatal pain via grimacing, cry patterns, and heart-rate shifts akin to major surgery. [34] [35]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0033",
+  "source_text": "Critics counter that such neutral phrasing minimizes the procedure's severity and medical harm, potentially undermining efforts to eradicate it, as evidenced in legal contexts like the 2017 U.S. case against Dr. Jumana Nagarwala, where terminology influenced debates on prosecutorial framing. [15] [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics counter that such neutral phrasing minimizes the procedure's severity and medical harm, potentially undermining efforts to eradicate"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics counter that such neutral phrasing minimizes the procedure's severity and medical harm, potentially undermining efforts to eradicate it, as evidenced in.",
+      "span": {
+        "quote": "Critics counter that such neutral phrasing minimizes the procedure's severity and medical harm, potentially undermining efforts to eradicate it, as evidenced in"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-redundant-prepuce-s0101",
+  "source_text": "A common complication is recurrent balanoposthitis, an inflammation of the glans and foreskin, which occurs almost exclusively in uncircumcised males and is often linked to poor hygiene or trapped debris under the prepuce. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A common complication is recurrent balanoposthitis, an inflammation of the glans and foreskin, which occurs almost exclusively in uncircumci"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A common complication is recurrent balanoposthitis, an inflammation of the glans and foreskin, which occurs almost exclusively in uncircumcised males and is oft.",
+      "span": {
+        "quote": "A common complication is recurrent balanoposthitis, an inflammation of the glans and foreskin, which occurs almost exclusively in uncircumcised males and is oft"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to poor hygiene or trapped debris under the prepuce.",
+      "span": {
+        "quote": "linked to poor hygiene or trapped debris under the prepuce"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to poor hygiene or trapped debris under the prepuce"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to poor hygiene or trapped debris under the prepuce",
+          "span": {
+            "quote": "linked to poor hygiene or trapped debris under the prepuce"
+          }
+        }
+      ]
+    }
+  ]
+}

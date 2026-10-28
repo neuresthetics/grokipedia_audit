@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0030",
+  "source_text": "Buddhism similarly holds no doctrinal requirement for circumcision, maintaining a neutral to oppositional stance rooted in the precept of avoiding harm (ahimsa or non-injury). [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Buddhism similarly holds no doctrinal requirement for circumcision, maintaining a neutral to oppositional stance rooted in the precept of av"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Buddhism similarly holds no doctrinal requirement for circumcision, maintaining a neutral to oppositional stance rooted in the precept of avoiding harm (ahimsa.",
+      "span": {
+        "quote": "Buddhism similarly holds no doctrinal requirement for circumcision, maintaining a neutral to oppositional stance rooted in the precept of avoiding harm (ahimsa "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0027",
+  "source_text": "In Britain and the United States, physicians like Thomas Allinson in the 1880s labeled routine male circumcision a \"barbarous\" intervention lacking empirical justification, arguing it caused more harm than the masturbation it purported to prevent. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Britain and the United States, physicians like Thomas Allinson in the 1880s labeled routine male circumcision a \"barbarous\" intervention"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Britain and the United States, physicians like Thomas Allinson in the 1880s labeled routine male circumcision a \"barbarous\" intervention lacking empirical ju.",
+      "span": {
+        "quote": "In Britain and the United States, physicians like Thomas Allinson in the 1880s labeled routine male circumcision a \"barbarous\" intervention lacking empirical ju"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-IDEA_DETECTION-002",
+  "source_text": "A **flag** requires every pattern atom to bind a quote from the passage, no forbid to match, and the catalog gates to allow it. text_detectable: no (confirmation bias, selective attention, availability heuristic, rationalization) is never a flag. Unmet outside-text conditions are at most **possible issue**. Excerpt boundaries and contested readings cap a match the same way.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A **flag** requires every pattern atom to bind a quote from the passage, no forbid to match, and the catalog gates to allow it. text_detecta"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A **flag** requires every pattern atom to bind a quote from the passage, no forbid to match, and the catalog gates to allow it. text_detectable: no (confirmatio.",
+      "span": {
+        "quote": "A **flag** requires every pattern atom to bind a quote from the passage, no forbid to match, and the catalog gates to allow it. text_detectable: no (confirmatio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A **flag** requires every pattern atom to bind a quote from th.",
+      "span": {
+        "quote": "A **flag** requires every pattern atom to bind a quote from th"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "A **flag** requires every pattern atom to bind a quote from"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

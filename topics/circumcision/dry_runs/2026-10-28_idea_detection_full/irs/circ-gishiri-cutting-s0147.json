@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0147",
+  "source_text": "In Hausa communities of northern Nigeria and southern Niger, traditional defenses of gishiri cutting portray it as a vital ethnomedical intervention to address \"gishiri disease,\" a culturally recognized condition involving perceived vaginal narrowing that manifests as dyspareunia, infertility, amenorrhea, genital prolapse, or obstructed labor. [36] [28]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Hausa communities of northern Nigeria and southern Niger, traditional defenses of gishiri cutting portray it as a vital ethnomedical inte"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Hausa communities of northern Nigeria and southern Niger, traditional defenses of gishiri cutting portray it as a vital ethnomedical intervention to address.",
+      "span": {
+        "quote": "In Hausa communities of northern Nigeria and southern Niger, traditional defenses of gishiri cutting portray it as a vital ethnomedical intervention to address "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0059",
+  "source_text": "Claims of sensitivity loss often stem from lower-quality retrospective surveys prone to recall bias, lacking empirical support from randomized or controlled designs.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of sensitivity loss often stem from lower-quality retrospective surveys prone to recall bias, lacking empirical support from randomiz"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of sensitivity loss often stem from lower-quality retrospective surveys prone to recall bias, lacking empirical support from randomized or controlled designs.",
+      "span": {
+        "quote": "of sensitivity loss often stem from lower-quality retrospective surveys prone to recall bias, lacking empirical support from randomized or controlled designs."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

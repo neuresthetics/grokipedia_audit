@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0042",
+  "source_text": "Pro-medicalization arguments, often rooted in cultural accommodation, lack empirical support for safety gains and overlook how such shifts reinforce gender-based control mechanisms absent in male counterparts. [21] [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pro-medicalization arguments, often rooted in cultural accommodation, lack empirical support for safety gains and overlook how such shifts r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pro-medicalization arguments, often rooted in cultural accommodation, lack empirical support for safety gains and overlook how such shifts reinforce gender-base.",
+      "span": {
+        "quote": "Pro-medicalization arguments, often rooted in cultural accommodation, lack empirical support for safety gains and overlook how such shifts reinforce gender-base"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

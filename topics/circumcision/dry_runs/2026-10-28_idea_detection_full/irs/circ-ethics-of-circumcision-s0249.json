@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0249",
+  "source_text": "The first trial, in Kisumu, Kenya (ANRS 1265), enrolled 2,784 HIV-negative men aged 18-24 and found a 60% reduction in HIV incidence over 24 months in the circumcised group compared to controls (hazard ratio 0.40; 95% CI 0.24-0.68). [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The first trial, in Kisumu, Kenya (ANRS 1265), enrolled 2,784 HIV-negative men aged 18-24 and found a 60% reduction in HIV incidence over 24"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The first trial, in Kisumu, Kenya (ANRS 1265), enrolled 2,784 HIV-negative men aged 18-24 and found a 60% reduction in HIV incidence over 24 months in the circu.",
+      "span": {
+        "quote": "The first trial, in Kisumu, Kenya (ANRS 1265), enrolled 2,784 HIV-negative men aged 18-24 and found a 60% reduction in HIV incidence over 24 months in the circu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

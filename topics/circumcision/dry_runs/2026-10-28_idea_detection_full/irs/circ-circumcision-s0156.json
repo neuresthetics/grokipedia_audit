@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-s0156",
+  "source_text": "Methodological limitations in retrospective observational designs have also been noted by researchers including Van Howe.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Methodological limitations in retrospective observational designs have also been noted by researchers including Van Howe."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "researchers",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Methodological limitations in retrospective observational designs have also been noted by researchers including Van Howe.",
+      "span": {
+        "quote": "Methodological limitations in retrospective observational designs have also been noted by researchers including Van Howe."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "researchers"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

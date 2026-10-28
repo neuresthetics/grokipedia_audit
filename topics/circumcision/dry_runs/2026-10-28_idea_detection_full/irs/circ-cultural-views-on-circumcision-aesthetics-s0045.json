@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0045",
+  "source_text": "This resistance gained prominence in a 2012 Cologne regional court ruling, which classified circumcision on minors for non-medical reasons as a breach of bodily integrity, framing it as an infringement on the child's natural physical autonomy and sparking debates that highlighted aesthetic and ethical concerns over genital alteration. [22] [23]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This resistance gained prominence in a 2012 Cologne regional court ruling, which classified circumcision on minors for non-medical reasons a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This resistance gained prominence in a 2012 Cologne regional court ruling, which classified circumcision on minors for non-medical reasons as a breach of bodily.",
+      "span": {
+        "quote": "This resistance gained prominence in a 2012 Cologne regional court ruling, which classified circumcision on minors for non-medical reasons as a breach of bodily"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

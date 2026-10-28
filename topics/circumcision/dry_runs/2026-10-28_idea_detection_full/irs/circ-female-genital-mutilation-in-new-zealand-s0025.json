@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0025",
+  "source_text": "Long-term effects, documented in systematic reviews and cohort studies, encompass chronic urinary tract infections, vaginal fistulas, keloid scar formation, menstrual difficulties, infertility, obstetric complications such as perineal tears and postpartum hemorrhage, increased neonatal mortality, dyspareunia, reduced sexual satisfaction, and mental health disorders including anxiety, depression, and post-traumatic stress. [5] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term effects, documented in systematic reviews and cohort studies, encompass chronic urinary tract infections, vaginal fistulas, keloid"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term effects, documented in systematic reviews and cohort studies, encompass chronic urinary tract infections, vaginal fistulas, keloid scar formation, men.",
+      "span": {
+        "quote": "Long-term effects, documented in systematic reviews and cohort studies, encompass chronic urinary tract infections, vaginal fistulas, keloid scar formation, men"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

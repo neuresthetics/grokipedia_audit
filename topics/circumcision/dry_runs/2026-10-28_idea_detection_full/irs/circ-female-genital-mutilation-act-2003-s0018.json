@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0018",
+  "source_text": "Concurrently, medical reports from bodies such as the British Medical Association documented FGM's severe health consequences, including hemorrhage, infection, and long-term psychological trauma, fueling parliamentary and governmental calls for reform to extend jurisdiction extraterritorially and enhance deterrence. [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Concurrently, medical reports from bodies such as the British Medical Association documented FGM's severe health consequences, including hem"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Concurrently, medical reports from bodies such as the British Medical Association documented FGM's severe health consequences, including hemorrhage, infection,.",
+      "span": {
+        "quote": "Concurrently, medical reports from bodies such as the British Medical Association documented FGM's severe health consequences, including hemorrhage, infection, "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

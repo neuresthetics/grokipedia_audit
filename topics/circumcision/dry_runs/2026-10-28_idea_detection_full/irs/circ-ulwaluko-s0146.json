@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0146",
+  "source_text": "Post-procedure reliance on non-medical \"natural healing\" by untrained attendants, eschewing timely clinical intervention, sustains complications like sepsis in 56.2% of hospital-admitted cases, underscoring how resistance to hybrid medical-traditional approaches perpetuates variability absent in vetted practices. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Post-procedure reliance on non-medical \"natural healing\" by untrained attendants, eschewing timely clinical intervention, sustains complicat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Post-procedure reliance on non-medical \"natural healing\" by untrained attendants, eschewing timely clinical intervention, sustains complications like sepsis in.",
+      "span": {
+        "quote": "Post-procedure reliance on non-medical \"natural healing\" by untrained attendants, eschewing timely clinical intervention, sustains complications like sepsis in "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

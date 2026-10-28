@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0199",
+  "source_text": "Parallel research reaffirmed broader health benefits, including a 10-fold reduction in urinary tract infections (UTIs) in infancy, lower incidence of human papillomavirus (HPV) and herpes simplex virus type 2 (HSV-2) infections (30-40% and 28-34% reductions, respectively), and decreased penile cancer risk due to reduced phimosis and chronic inflammation. [93]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parallel research reaffirmed broader health benefits, including a 10-fold reduction in urinary tract infections (UTIs) in infancy, lower inc"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parallel research reaffirmed broader health benefits, including a 10-fold reduction in urinary tract infections (UTIs) in infancy, lower incidence of human papi.",
+      "span": {
+        "quote": "Parallel research reaffirmed broader health benefits, including a 10-fold reduction in urinary tract infections (UTIs) in infancy, lower incidence of human papi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

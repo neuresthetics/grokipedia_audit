@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0212",
+  "source_text": "In many African and Middle Eastern societies, it marks transition to manhood, often performed in adolescence with communal support, contrasting with the secretive, non-consensual nature of FGM, and epidemiological data show male circumcision correlates with lower HIV transmission rates in high-prevalence areas without equivalent benefits for FGM. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In many African and Middle Eastern societies, it marks transition to manhood, often performed in adolescence with communal support, contrast"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In many African and Middle Eastern societies, it marks transition to manhood, often performed in adolescence with communal support, contrasting with the secreti.",
+      "span": {
+        "quote": "In many African and Middle Eastern societies, it marks transition to manhood, often performed in adolescence with communal support, contrasting with the secreti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

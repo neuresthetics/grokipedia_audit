@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0129",
+  "source_text": "In traditional brit milah, anesthesia is not employed, as the procedure is performed swiftly by a trained mohel on the eighth day after birth, minimizing duration and relying on the infant's natural resilience, with a few drops of wine administered orally as a symbolic and mild analgesic. [55] [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In traditional brit milah, anesthesia is not employed, as the procedure is performed swiftly by a trained mohel on the eighth day after birt"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In traditional brit milah, anesthesia is not employed, as the procedure is performed swiftly by a trained mohel on the eighth day after birth, minimizing durati.",
+      "span": {
+        "quote": "In traditional brit milah, anesthesia is not employed, as the procedure is performed swiftly by a trained mohel on the eighth day after birth, minimizing durati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

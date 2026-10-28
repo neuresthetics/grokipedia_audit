@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-mohel-s0163",
+  "source_text": "Critics, including medical bodies like the New York City Department of Health, highlight that infants' immature immune systems amplify severity, with HSV causing potentially lethal encephalitis, and note the absence of proven benefits from oral suction beyond placebo or outdated theories, as sterile aspiration yields equivalent hemostasis without viral exposure risk.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics, including medical bodies like the New York City Department of Health, highlight that infants' immature immune systems amplify sever"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics, including medical bodies like the New York City Department of Health, highlight that infants' immature immune systems amplify severity, with HSV causin.",
+      "span": {
+        "quote": "Critics, including medical bodies like the New York City Department of Health, highlight that infants' immature immune systems amplify severity, with HSV causin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "medical bodies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

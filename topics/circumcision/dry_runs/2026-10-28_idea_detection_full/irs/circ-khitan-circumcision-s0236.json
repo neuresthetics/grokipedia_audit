@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0236",
+  "source_text": "In ritual circumcision settings prevalent in Muslim-majority regions, recent studies underscore elevated complication risks when procedures occur outside medical facilities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In ritual circumcision settings prevalent in Muslim-majority regions, recent studies underscore elevated complication risks when procedures"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In ritual circumcision settings prevalent in Muslim-majority regions, recent studies underscore elevated complication risks when procedures occur outside medica.",
+      "span": {
+        "quote": "In ritual circumcision settings prevalent in Muslim-majority regions, recent studies underscore elevated complication risks when procedures occur outside medica"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

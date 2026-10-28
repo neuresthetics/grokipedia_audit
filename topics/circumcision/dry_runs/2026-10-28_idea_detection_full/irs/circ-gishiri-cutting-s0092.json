@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0092",
+  "source_text": "The Gishiri cut, involving a deep incision into the anterior or posterior vaginal wall using a knife or razor blade, frequently results in excessive bleeding due to the vascular nature of the tissue involved. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Gishiri cut, involving a deep incision into the anterior or posterior vaginal wall using a knife or razor blade, frequently results in e"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Gishiri cut, involving a deep incision into the anterior or posterior vaginal wall using a knife or razor blade, frequently results in excessive bleeding du.",
+      "span": {
+        "quote": "The Gishiri cut, involving a deep incision into the anterior or posterior vaginal wall using a knife or razor blade, frequently results in excessive bleeding du"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

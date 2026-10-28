@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0013",
+  "source_text": "This type is the least extensive but still results in permanent alteration and associated complications such as pain, infection, and reduced sexual function.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This type is the least extensive but still results in permanent alteration and associated complications such as pain, infection, and reduced"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This type is the least extensive but still results in permanent alteration and associated complications such as pain, infection, and reduced sexual function.",
+      "span": {
+        "quote": "This type is the least extensive but still results in permanent alteration and associated complications such as pain, infection, and reduced sexual function."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

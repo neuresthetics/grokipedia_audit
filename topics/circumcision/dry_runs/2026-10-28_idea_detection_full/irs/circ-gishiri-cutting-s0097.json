@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0097",
+  "source_text": "Swelling and edema in the affected area are also prevalent, potentially causing urinary retention or difficulty with micturition shortly after the cut.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Swelling and edema in the affected area are also prevalent, potentially causing urinary retention or difficulty with micturition shortly aft"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Swelling and edema in the affected area are also prevalent, potentially causing urinary retention or difficulty with micturition shortly after the cut.",
+      "span": {
+        "quote": "Swelling and edema in the affected area are also prevalent, potentially causing urinary retention or difficulty with micturition shortly after the cut."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0010",
+  "source_text": "Awareness efforts against female genital mutilation (FGM) originated in the 1920s in Egypt, where local feminists, intellectuals, and medical professionals campaigned against the practice known as pharaonic circumcision, criticizing it as a harmful tradition incompatible with modern health standards. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Awareness efforts against female genital mutilation (FGM) originated in the 1920s in Egypt, where local feminists, intellectuals, and medica"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Awareness efforts against female genital mutilation (FGM) originated in the 1920s in Egypt, where local feminists, intellectuals, and medical professionals camp.",
+      "span": {
+        "quote": "Awareness efforts against female genital mutilation (FGM) originated in the 1920s in Egypt, where local feminists, intellectuals, and medical professionals camp"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

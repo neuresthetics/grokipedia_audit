@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0176",
+  "source_text": "A 2013 study in the United States found that circumcised men were less likely to use condoms during vaginal sex compared to uncircumcised men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2013 study in the United States found that circumcised men were less likely to use condoms during vaginal sex compared to uncircumcised me"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2013 study in the United States found that circumcised men were less likely to use condoms during vaginal sex compared to uncircumcised men.",
+      "span": {
+        "quote": "A 2013 study in the United States found that circumcised men were less likely to use condoms during vaginal sex compared to uncircumcised men."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

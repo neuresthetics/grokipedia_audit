@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0009",
+  "source_text": "Proponents invoke unproven or context-specific benefits like reduced HIV transmission in high-prevalence areas, yet critics cite elevated complication risks\u2014up to 20-fold higher in non-infants\u2014and ethical parallels to other non-consensual body modifications. [4] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents invoke unproven or context-specific benefits like reduced HIV transmission in high-prevalence areas, yet critics cite elevated co"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents invoke unproven or context-specific benefits like reduced HIV transmission in high-prevalence areas, yet critics cite elevated complication risks\u2014up.",
+      "span": {
+        "quote": "Proponents invoke unproven or context-specific benefits like reduced HIV transmission in high-prevalence areas, yet critics cite elevated complication risks\u2014up "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unproven or context-specific benefits like.",
+      "span": {
+        "quote": "unproven or context-specific benefits like"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unproven or context-specific benefits like"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

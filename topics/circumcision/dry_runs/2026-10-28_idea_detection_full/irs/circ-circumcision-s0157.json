@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0157",
+  "source_text": "A 1995 study found a 75% false positive rate for detecting UTIs in intact boys, compared to 0% for circumcised boys, highlighting potential diagnostic bias from contamination in urine samples from uncircumcised infants. [86]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 1995 study found a 75% false positive rate for detecting UTIs in intact boys, compared to 0% for circumcised boys, highlighting potential"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 1995 study found a 75% false positive rate for detecting UTIs in intact boys, compared to 0% for circumcised boys, highlighting potential diagnostic bias from.",
+      "span": {
+        "quote": "A 1995 study found a 75% false positive rate for detecting UTIs in intact boys, compared to 0% for circumcised boys, highlighting potential diagnostic bias from"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

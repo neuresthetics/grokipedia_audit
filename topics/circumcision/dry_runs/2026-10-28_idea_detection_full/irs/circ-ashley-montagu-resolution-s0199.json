@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0199",
+  "source_text": "These benefits are endorsed by major health organizations, including the World Health Organization and Centers for Disease Control and Prevention, which recommend male circumcision as a public health intervention in high-HIV-prevalence settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These benefits are endorsed by major health organizations, including the World Health Organization and Centers for Disease Control and Preve"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These benefits are endorsed by major health organizations, including the World Health Organization and Centers for Disease Control and Prevention, which recomme.",
+      "span": {
+        "quote": "These benefits are endorsed by major health organizations, including the World Health Organization and Centers for Disease Control and Prevention, which recomme"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

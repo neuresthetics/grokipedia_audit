@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-foreskin-man-s0115",
+  "source_text": "Supporters, including Jewish opponents of circumcision, have echoed this by highlighting groups such as Jews Against Circumcision, which oppose the procedure on ethical grounds while affirming Jewish identity, as evidence that the critique addresses ritual harm irrespective of perpetrator's background. [72] [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Supporters, including Jewish opponents of circumcision, have echoed this by highlighting groups such as Jews Against Circumcision, which opp"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Supporters, including Jewish opponents of circumcision, have echoed this by highlighting groups such as Jews Against Circumcision, which oppose the procedure on.",
+      "span": {
+        "quote": "Supporters, including Jewish opponents of circumcision, have echoed this by highlighting groups such as Jews Against Circumcision, which oppose the procedure on"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

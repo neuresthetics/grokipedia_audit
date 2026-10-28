@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-foreskin-s0278",
+  "source_text": "Bodily autonomy appeals in advocacy are seen as ideologically driven opinions overriding evidence-based parental decision-making and public health considerations, such as AAP and CDC endorsements of the procedure's net benefits outweighing risks by ratios up to 100:1. [153]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Bodily autonomy appeals in advocacy are seen as ideologically driven opinions overriding evidence-based parental decision-making and public"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bodily autonomy appeals in advocacy are seen as ideologically driven opinions overriding evidence-based parental decision-making and public health consideration.",
+      "span": {
+        "quote": "Bodily autonomy appeals in advocacy are seen as ideologically driven opinions overriding evidence-based parental decision-making and public health consideration"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

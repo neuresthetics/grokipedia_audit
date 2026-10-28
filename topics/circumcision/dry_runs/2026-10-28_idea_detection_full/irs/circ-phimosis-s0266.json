@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0266",
+  "source_text": "A Danish cohort study of uncircumcised boys under a foreskin-preserving policy found surprisingly high morbidity from phimosis, including adhesions and infections, underscoring risks in regions avoiding routine circumcision. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A Danish cohort study of uncircumcised boys under a foreskin-preserving policy found surprisingly high morbidity from phimosis, including ad"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Danish cohort study of uncircumcised boys under a foreskin-preserving policy found surprisingly high morbidity from phimosis, including adhesions and infectio.",
+      "span": {
+        "quote": "A Danish cohort study of uncircumcised boys under a foreskin-preserving policy found surprisingly high morbidity from phimosis, including adhesions and infectio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

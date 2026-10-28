@@ -1,0 +1,77 @@
+{
+  "passage_id": "self-METHOD-019",
+  "source_text": "Passage: \"Every national health agency and the large reviews of the trial data agree that serious side effects from this vaccine are rare, so I'm not worried about getting it.\"",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Passage: \"Every national health agency and the large reviews of the trial data agree that serious side effects from this vaccine are rare, s"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Passage: \"Every national health agency and the large reviews of the trial data agree that serious side effects from this vaccine are rare.",
+      "span": {
+        "quote": "Passage: \"Every national health agency and the large reviews of the trial data agree that serious side effects from this vaccine are rare"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "I'm not worried about getting it.\".",
+      "span": {
+        "quote": "I'm not worried about getting it.\""
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "This vaccine are rare.",
+      "span": {
+        "quote": "this vaccine are rare"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "this vaccine are rare"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0108",
+  "source_text": "Labeling circumcision non-therapeutic overlooks its analogous preventive ontology, supported by modeling showing lifetime HIV risk reduction of 16% across U.S. demographics via neonatal timing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Labeling circumcision non-therapeutic overlooks its analogous preventive ontology, supported by modeling showing lifetime HIV risk reduction"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Labeling circumcision non-therapeutic overlooks its analogous preventive ontology, supported by modeling showing lifetime HIV risk reduction of 16% across U.S.",
+      "span": {
+        "quote": "Labeling circumcision non-therapeutic overlooks its analogous preventive ontology, supported by modeling showing lifetime HIV risk reduction of 16% across U.S. "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

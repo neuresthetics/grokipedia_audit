@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-009",
+  "source_text": "METHOD example 1 flags ad-hominem. METHOD example 2 is no_issue on appeal-to-authority (the illegitimacy condition is not met, and the expert-agreement look-alike matches).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "METHOD example 1 flags ad-hominem. METHOD example 2 is no_issue on appeal-to-authority (the illegitimacy condition is not met, and the exper"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "METHOD example 1 flags ad-hominem. METHOD example 2 is no_issue on appeal-to-authority (the illegitimacy condition is not met, and the expert-agreement look-ali.",
+      "span": {
+        "quote": "METHOD example 1 flags ad-hominem. METHOD example 2 is no_issue on appeal-to-authority (the illegitimacy condition is not met, and the expert-agreement look-ali"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

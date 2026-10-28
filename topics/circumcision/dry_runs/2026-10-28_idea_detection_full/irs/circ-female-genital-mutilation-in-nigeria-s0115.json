@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0115",
+  "source_text": "Reproductively, FGM correlates with prolonged labor durations, often 1.5 to 2 times longer in affected Nigerian women, due to inelastic scar tissue resisting cervical dilation and fetal descent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reproductively, FGM correlates with prolonged labor durations, often 1.5 to 2 times longer in affected Nigerian women, due to inelastic scar"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reproductively, FGM correlates with prolonged labor durations, often 1.5 to 2 times longer in affected Nigerian women, due to inelastic scar tissue resisting ce.",
+      "span": {
+        "quote": "Reproductively, FGM correlates with prolonged labor durations, often 1.5 to 2 times longer in affected Nigerian women, due to inelastic scar tissue resisting ce"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

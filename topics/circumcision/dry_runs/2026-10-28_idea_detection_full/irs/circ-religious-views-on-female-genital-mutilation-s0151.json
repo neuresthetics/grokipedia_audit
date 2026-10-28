@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0151",
+  "source_text": "Israel's Chief Rabbinate, overseeing religious standards, has issued no endorsements and aligns with broader Jewish condemnation of the practice as non-halakhic, reinforcing its opposition through general rulings against elective genital alterations beyond male brit milah. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Israel's Chief Rabbinate, overseeing religious standards, has issued no endorsements and aligns with broader Jewish condemnation of the prac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Israel's Chief Rabbinate, overseeing religious standards, has issued no endorsements and aligns with broader Jewish condemnation of the practice as non-halakhic.",
+      "span": {
+        "quote": "Israel's Chief Rabbinate, overseeing religious standards, has issued no endorsements and aligns with broader Jewish condemnation of the practice as non-halakhic"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

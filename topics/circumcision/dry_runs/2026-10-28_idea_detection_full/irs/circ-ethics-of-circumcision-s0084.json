@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0084",
+  "source_text": "Intactivist perspectives frame circumcision as a prima facie violation of genital autonomy, equating it to non-consensual body modification that deprives the individual of choice over sensitive erogenous tissue, with long-term implications for sexual sensation and identity. [51]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intactivist perspectives frame circumcision as a prima facie violation of genital autonomy, equating it to non-consensual body modification"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intactivist perspectives frame circumcision as a prima facie violation of genital autonomy, equating it to non-consensual body modification that deprives the in.",
+      "span": {
+        "quote": "Intactivist perspectives frame circumcision as a prima facie violation of genital autonomy, equating it to non-consensual body modification that deprives the in"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

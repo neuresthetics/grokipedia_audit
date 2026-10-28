@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0057",
+  "source_text": "Systematic analyses indicate no robust causal association between circumcision and long-term sexual dysfunction, with high-quality prospective studies and meta-analyses finding no differences in erectile function or satisfaction compared to uncircumcised controls. [43]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic analyses indicate no robust causal association between circumcision and long-term sexual dysfunction, with high-quality prospecti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic analyses indicate no robust causal association between circumcision and long-term sexual dysfunction, with high-quality prospective studies and meta-.",
+      "span": {
+        "quote": "Systematic analyses indicate no robust causal association between circumcision and long-term sexual dysfunction, with high-quality prospective studies and meta-"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0193",
+  "source_text": "The World Health Organization (WHO) explicitly states that FGM yields no health advantages, with Nigerian cohort studies confirming associations with heightened infertility risks\u2014contradicting assertions of fertility enhancement\u2014and no improvements in genital hygiene, as scarring often exacerbates bacterial infections rather than preventing them. [4] [64]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization (WHO) explicitly states that FGM yields no health advantages, with Nigerian cohort studies confirming associat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization (WHO) explicitly states that FGM yields no health advantages, with Nigerian cohort studies confirming associations with heightened.",
+      "span": {
+        "quote": "The World Health Organization (WHO) explicitly states that FGM yields no health advantages, with Nigerian cohort studies confirming associations with heightened"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

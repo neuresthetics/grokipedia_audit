@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0181",
+  "source_text": "This effect stems from removing the foreskin, which can accumulate smegma, foster chronic inflammation, and enable human papillomavirus (HPV) persistence\u2014cofactors in penile carcinogenesis\u2014as indicated by lower HPV prevalence (OR 0.57, 95% CI 0.46\u20130.70) in circumcised men. [106] [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This effect stems from removing the foreskin, which can accumulate smegma, foster chronic inflammation, and enable human papillomavirus (HPV"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This effect stems from removing the foreskin, which can accumulate smegma, foster chronic inflammation, and enable human papillomavirus (HPV) persistence\u2014cofact.",
+      "span": {
+        "quote": "This effect stems from removing the foreskin, which can accumulate smegma, foster chronic inflammation, and enable human papillomavirus (HPV) persistence\u2014cofact"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

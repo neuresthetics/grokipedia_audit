@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0098",
+  "source_text": "Parental rights encompass transmitting cultural or religious traditions via such decisions when empirical data does not establish net harm, aligning with professional guidelines that defer to family values in proxy consent absent overriding medical contraindications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parental rights encompass transmitting cultural or religious traditions via such decisions when empirical data does not establish net harm,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parental rights encompass transmitting cultural or religious traditions via such decisions when empirical data does not establish net harm, aligning with profes.",
+      "span": {
+        "quote": "Parental rights encompass transmitting cultural or religious traditions via such decisions when empirical data does not establish net harm, aligning with profes"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

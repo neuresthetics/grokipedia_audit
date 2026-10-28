@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0035",
+  "source_text": "In the UK context leading to 1985 legislation, medical consensus, including from bodies like the British Medical Association, rejected any equivalence to male circumcision or medical justification, viewing FGM as non-therapeutic mutilation inflicting irreversible harm on minors incapable of consent, akin to child abuse rather than cultural relativism. [5] [15]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the UK context leading to 1985 legislation, medical consensus, including from bodies like the British Medical Association, rejected any e"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the UK context leading to 1985 legislation, medical consensus, including from bodies like the British Medical Association, rejected any equivalence to male c.",
+      "span": {
+        "quote": "In the UK context leading to 1985 legislation, medical consensus, including from bodies like the British Medical Association, rejected any equivalence to male c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

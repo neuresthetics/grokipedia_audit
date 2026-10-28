@@ -1,0 +1,68 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0074",
+  "source_text": "Local beliefs emphasize FGM's role in controlling female sexuality to preserve purity and prevent promiscuity, with many Gambians asserting that uncut girls \"like men too much\" or risk premarital sex, pregnancy, or infidelity, thus safeguarding family honor and marital fidelity. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Local beliefs emphasize FGM's role in controlling female sexuality to preserve purity and prevent promiscuity, with many Gambians asserting"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "GM's role in controlling female sexuality to preserve purity and prevent promiscuity, with many Gambians asserting that uncut girls \"like men too much\" or risk.",
+      "span": {
+        "quote": "GM's role in controlling female sexuality to preserve purity and prevent promiscuity, with many Gambians asserting that uncut girls \"like men too much\" or risk "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Safeguarding family honor and marital fidelity. [16].",
+      "span": {
+        "quote": "safeguarding family honor and marital fidelity. [16]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "prevent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

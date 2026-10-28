@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0122",
+  "source_text": "Studies in Nigeria have documented impaired sexual functioning among women subjected to female genital mutilation (FGM), including reduced vaginal lubrication and dyspareunia during intercourse.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies in Nigeria have documented impaired sexual functioning among women subjected to female genital mutilation (FGM), including reduced v"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies in Nigeria have documented impaired sexual functioning among women subjected to female genital mutilation (FGM), including reduced vaginal lubrication a.",
+      "span": {
+        "quote": "Studies in Nigeria have documented impaired sexual functioning among women subjected to female genital mutilation (FGM), including reduced vaginal lubrication a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

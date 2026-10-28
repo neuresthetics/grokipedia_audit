@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0087",
+  "source_text": "Counterarguments emphasize that pediatric care routinely entails non-consensual acts, such as vaccinations or heel pricks for metabolic screening, justified not by absolute autonomy\u2014which infants cannot exercise\u2014but by fiduciary duties to secure future health capacities, provided the intervention's rationale withstands scrutiny under harm-avoidance standards. [54] [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Counterarguments emphasize that pediatric care routinely entails non-consensual acts, such as vaccinations or heel pricks for metabolic scre"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pediatric care routinely entails non-consensual acts, such as vaccinations or heel pricks for metabolic screening, justified not by absolute autonomy\u2014which infa.",
+      "span": {
+        "quote": "pediatric care routinely entails non-consensual acts, such as vaccinations or heel pricks for metabolic screening, justified not by absolute autonomy\u2014which infa"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

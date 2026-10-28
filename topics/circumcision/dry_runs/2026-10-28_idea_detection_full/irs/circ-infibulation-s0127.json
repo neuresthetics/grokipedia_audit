@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0127",
+  "source_text": "Performed typically between ages 5 and 12, infibulation constitutes a collective rite of passage initiating girls into womanhood, embedding them in communal rituals that affirm ethnic identity and group cohesion against outsiders. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed typically between ages 5 and 12, infibulation constitutes a collective rite of passage initiating girls into womanhood, embedding"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed typically between ages 5 and 12, infibulation constitutes a collective rite of passage initiating girls into womanhood, embedding them in communal rit.",
+      "span": {
+        "quote": "Performed typically between ages 5 and 12, infibulation constitutes a collective rite of passage initiating girls into womanhood, embedding them in communal rit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

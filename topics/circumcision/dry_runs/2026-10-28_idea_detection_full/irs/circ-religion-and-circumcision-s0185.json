@@ -1,0 +1,70 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0185",
+  "source_text": "In religious contexts, this raises questions of whether communal rituals justify overriding individual genital integrity, with scholars arguing that liberal frameworks prioritize personal rights over group claims to prevent coerced belonging.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In religious contexts, this raises questions of whether communal rituals justify overriding individual genital integrity, with scholars argu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "scholars"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O prevent coerced belonging.",
+      "span": {
+        "quote": "o prevent coerced belonging."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Is raises questions of whether communal rituals justify overriding individual genital integrity, with scholars arguing that liberal frameworks prioritize person.",
+      "span": {
+        "quote": "is raises questions of whether communal rituals justify overriding individual genital integrity, with scholars arguing that liberal frameworks prioritize person"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "prevent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

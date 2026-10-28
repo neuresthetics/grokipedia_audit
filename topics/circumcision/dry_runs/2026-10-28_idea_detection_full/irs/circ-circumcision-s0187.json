@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0187",
+  "source_text": "It eliminates paraphimosis, an emergency where the foreskin traps behind the glans, causing edema and vascular compromise. [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It eliminates paraphimosis, an emergency where the foreskin traps behind the glans, causing edema and vascular compromise. [112]"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It eliminates paraphimosis, an emergency where the foreskin traps behind the glans, causing edema and vascular compromise. [112].",
+      "span": {
+        "quote": "It eliminates paraphimosis, an emergency where the foreskin traps behind the glans, causing edema and vascular compromise. [112]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

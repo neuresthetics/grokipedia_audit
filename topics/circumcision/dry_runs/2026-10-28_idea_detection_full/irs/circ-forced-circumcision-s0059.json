@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0059",
+  "source_text": "For the Xhosa of South Africa, the Ulwaluko ritual enforces circumcision on adolescent boys via parental coercion and communal expectation, where refusal invites physical ejection from homes, public derision as a \"boy\" or \"coward,\" and familial humiliation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For the Xhosa of South Africa, the Ulwaluko ritual enforces circumcision on adolescent boys via parental coercion and communal expectation,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For the Xhosa of South Africa, the Ulwaluko ritual enforces circumcision on adolescent boys via parental coercion and communal expectation, where refusal invite.",
+      "span": {
+        "quote": "For the Xhosa of South Africa, the Ulwaluko ritual enforces circumcision on adolescent boys via parental coercion and communal expectation, where refusal invite"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

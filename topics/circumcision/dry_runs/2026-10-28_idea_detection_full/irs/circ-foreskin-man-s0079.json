@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-man-s0079",
+  "source_text": "Issue #3, set in Kenya, specifically challenges mass circumcision campaigns promoted for HIV reduction (citing trials showing around 60% efficacy), portraying them as coercive and ineffective against broader transmission dynamics, prioritizing the infant's right to an unaltered body over probabilistic health gains.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Issue #3, set in Kenya, specifically challenges mass circumcision campaigns promoted for HIV reduction (citing trials showing around 60% eff"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Issue #3, set in Kenya, specifically challenges mass circumcision campaigns promoted for HIV reduction (citing trials showing around 60% efficacy), portraying t.",
+      "span": {
+        "quote": "Issue #3, set in Kenya, specifically challenges mass circumcision campaigns promoted for HIV reduction (citing trials showing around 60% efficacy), portraying t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing trials showing around 60% efficacy.",
+      "span": {
+        "quote": "citing trials showing around 60% efficacy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing trials showing around 60% efficacy"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

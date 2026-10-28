@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0220",
+  "source_text": "In July 2018, DBWRF intervened as a party in the Supreme Court of India during hearings on Sunita Tiwari v. Union of India, representing thousands of Bohra women through an accepted impleadment application that underscored khafz's divergence from mutilative practices and its affirmative role in communal well-being.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In July 2018, DBWRF intervened as a party in the Supreme Court of India during hearings on Sunita Tiwari v. Union of India, representing tho"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In July 2018, DBWRF intervened as a party in the Supreme Court of India during hearings on Sunita Tiwari v. Union of India, representing thousands of Bohra wome.",
+      "span": {
+        "quote": "In July 2018, DBWRF intervened as a party in the Supreme Court of India during hearings on Sunita Tiwari v. Union of India, representing thousands of Bohra wome"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

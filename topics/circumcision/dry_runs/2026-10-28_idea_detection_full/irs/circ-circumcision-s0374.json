@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0374",
+  "source_text": "Similarly, the Royal Australasian College of Physicians (RACP) 2022 position opposes routine infant male circumcision (under 12 months), as adult HIV prevention benefits do not apply in low-prevalence areas like Australia and New Zealand.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, the Royal Australasian College of Physicians (RACP) 2022 position opposes routine infant male circumcision (under 12 months), as"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, the Royal Australasian College of Physicians (RACP) 2022 position opposes routine infant male circumcision (under 12 months), as adult HIV prevention.",
+      "span": {
+        "quote": "Similarly, the Royal Australasian College of Physicians (RACP) 2022 position opposes routine infant male circumcision (under 12 months), as adult HIV prevention"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

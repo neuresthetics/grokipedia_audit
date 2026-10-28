@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-018",
+  "source_text": "- Invent a fact, a claim, or an edge so a gap can close. - Treat expander text as common knowledge unless it is attached to the peeled claim from a record the client wrote. - Clear text_detectable: no or a contested reading. - Edit fallacies.json or METHOD.md. - Fetch grokipedia, the web, or a snapshot store. The client writes the map.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- Invent a fact, a claim, or an edge so a gap can close. - Treat expander text as common knowledge unless it is attached to the peeled claim"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "- Invent a fact, a claim, or an edge.",
+      "span": {
+        "quote": "- Invent a fact, a claim, or an edge"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A gap can close. - Treat expander text as common knowledge unless it is attached to the peeled claim from a record the client wrote. - Clear text_detectable: no.",
+      "span": {
+        "quote": "a gap can close. - Treat expander text as common knowledge unless it is attached to the peeled claim from a record the client wrote. - Clear text_detectable: no"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

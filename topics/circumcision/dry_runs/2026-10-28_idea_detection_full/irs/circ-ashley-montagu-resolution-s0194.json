@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0194",
+  "source_text": "Ultimately, while the resolution amplified calls for universal genital autonomy, opponents maintained that causal realism demands proportionate condemnation based on verifiable harms, not ideological parity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ultimately, while the resolution amplified calls for universal genital autonomy, opponents maintained that causal realism demands proportion"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Causal realism demands proportionate condemnation based on verifiable harms, not ideological parity.",
+      "span": {
+        "quote": "causal realism demands proportionate condemnation based on verifiable harms, not ideological parity."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ultimately, while the resolution amplified calls for universal genital autonomy, opponents.",
+      "span": {
+        "quote": "Ultimately, while the resolution amplified calls for universal genital autonomy, opponents"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintained"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0160",
+  "source_text": "Three randomized controlled trials in sub-Saharan Africa (2005\u20132007) showed voluntary medical male circumcision reduces HIV acquisition risk in heterosexual men by approximately 60%. [87] [88] [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Three randomized controlled trials in sub-Saharan Africa (2005\u20132007) showed voluntary medical male circumcision reduces HIV acquisition risk"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Three randomized controlled trials in sub-Saharan Africa (2005\u20132007) showed voluntary medical male circumcision reduces HIV acquisition risk in heterosexual men.",
+      "span": {
+        "quote": "Three randomized controlled trials in sub-Saharan Africa (2005\u20132007) showed voluntary medical male circumcision reduces HIV acquisition risk in heterosexual men"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

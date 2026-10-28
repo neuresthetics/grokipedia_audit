@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0132",
+  "source_text": "Immediate post-procedure harms, observed in case series, encompass excessive bleeding, wound dehiscence, and urinary retention, often compounded by application of unverified herbal poultices that introduce bacterial contamination. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate post-procedure harms, observed in case series, encompass excessive bleeding, wound dehiscence, and urinary retention, often compou"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate post-procedure harms, observed in case series, encompass excessive bleeding, wound dehiscence, and urinary retention, often compounded by application.",
+      "span": {
+        "quote": "Immediate post-procedure harms, observed in case series, encompass excessive bleeding, wound dehiscence, and urinary retention, often compounded by application "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

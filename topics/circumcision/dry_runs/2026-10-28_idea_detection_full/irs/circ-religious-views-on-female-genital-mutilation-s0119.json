@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0119",
+  "source_text": "This stance aligns with the church's emphasis on protecting human dignity, viewing FGM as incompatible with Christian teachings on the sanctity of the body.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This stance aligns with the church's emphasis on protecting human dignity, viewing FGM as incompatible with Christian teachings on the sanct"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This stance aligns with the church's emphasis on protecting human dignity, viewing FGM as incompatible with Christian teachings on the sanctity of the body.",
+      "span": {
+        "quote": "This stance aligns with the church's emphasis on protecting human dignity, viewing FGM as incompatible with Christian teachings on the sanctity of the body."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

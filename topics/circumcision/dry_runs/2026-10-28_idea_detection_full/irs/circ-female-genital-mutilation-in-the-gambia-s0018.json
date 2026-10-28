@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0018",
+  "source_text": "Among the Sarahule, it occurs in infancy without elaborate ceremony but is viewed as essential for purity; Fula subgroups similarly emphasize sealing to guarantee fidelity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among the Sarahule, it occurs in infancy without elaborate ceremony but is viewed as essential for purity; Fula subgroups similarly emphasiz"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sealing to guarantee fidelity.",
+      "span": {
+        "quote": "sealing to guarantee fidelity."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Among the Sarahule, it occurs in infancy without elaborate ceremony but is viewed as essential for purity; Fula subgroups similarly.",
+      "span": {
+        "quote": "Among the Sarahule, it occurs in infancy without elaborate ceremony but is viewed as essential for purity; Fula subgroups similarly"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

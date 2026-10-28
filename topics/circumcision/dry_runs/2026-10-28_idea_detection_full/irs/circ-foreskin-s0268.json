@@ -1,0 +1,78 @@
+{
+  "passage_id": "circ-foreskin-s0268",
+  "source_text": "Critiques of anti-circumcision advocacy, often referred to as intactivism, center on its reliance on low-quality evidence, selective interpretation of data, and unsubstantiated claims that contradict high-quality scientific studies supporting the procedure's benefits and minimal risks. [153]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques of anti-circumcision advocacy, often referred to as intactivism, center on its reliance on low-quality evidence, selective interpr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Contradict high-quality scientific studies supporting the procedure's benefits and minimal risks.",
+      "span": {
+        "quote": "contradict high-quality scientific studies supporting the procedure's benefits and minimal risks."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critiques of anti-circumcision advocacy, often referred to as intactivism, center on its reliance on low-quality evidence, selective interpretation of data, and.",
+      "span": {
+        "quote": "Critiques of anti-circumcision advocacy, often referred to as intactivism, center on its reliance on low-quality evidence, selective interpretation of data, and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated claims that contradict high-quality.",
+      "span": {
+        "quote": "unsubstantiated claims that contradict high-quality"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated claims that contradict high-quality"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

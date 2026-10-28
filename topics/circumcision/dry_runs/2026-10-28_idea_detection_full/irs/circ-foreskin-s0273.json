@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0273",
+  "source_text": "Claims regarding diminished sexual function and pleasure post-circumcision have been challenged as based on methodologically flawed surveys, such as small-sample or self-reported studies prone to bias, rather than robust RCTs involving thousands of participants. [153]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims regarding diminished sexual function and pleasure post-circumcision have been challenged as based on methodologically flawed surveys,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regarding diminished sexual function and pleasure post-circumcision have been challenged as based on methodologically flawed surveys, such as small-sample or se.",
+      "span": {
+        "quote": "regarding diminished sexual function and pleasure post-circumcision have been challenged as based on methodologically flawed surveys, such as small-sample or se"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

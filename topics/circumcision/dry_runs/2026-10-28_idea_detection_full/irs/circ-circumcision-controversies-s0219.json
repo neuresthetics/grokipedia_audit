@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0219",
+  "source_text": "Such alliances underscored communal commitments to covenantal rites in Judaism and sunnah in Islam, framing circumcision as integral to identity resilient against secular encroachments.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such alliances underscored communal commitments to covenantal rites in Judaism and sunnah in Islam, framing circumcision as integral to iden"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such alliances underscored communal commitments to covenantal rites in Judaism and sunnah in Islam, framing circumcision as integral to identity resilient again.",
+      "span": {
+        "quote": "Such alliances underscored communal commitments to covenantal rites in Judaism and sunnah in Islam, framing circumcision as integral to identity resilient again"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

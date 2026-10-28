@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0025",
+  "source_text": "Empirical data from medical reviews confirm no health benefits, with harms persisting lifelong and exacerbating in contexts of inadequate healthcare access, underscoring the procedure's incompatibility with physiological function.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data from medical reviews confirm no health benefits, with harms persisting lifelong and exacerbating in contexts of inadequate he"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data from medical reviews confirm no health benefits, with harms persisting lifelong and exacerbating in contexts of inadequate healthcare access, und.",
+      "span": {
+        "quote": "Empirical data from medical reviews confirm no health benefits, with harms persisting lifelong and exacerbating in contexts of inadequate healthcare access, und"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

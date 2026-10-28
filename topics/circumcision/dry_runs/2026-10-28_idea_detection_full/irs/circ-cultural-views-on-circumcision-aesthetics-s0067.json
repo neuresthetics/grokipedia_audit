@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0067",
+  "source_text": "Hindu perspectives in India prioritize the intact body as integral to its inherent wholeness, discouraging non-therapeutic alterations that could disrupt this natural integrity and often associating circumcision with extraneous practices.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hindu perspectives in India prioritize the intact body as integral to its inherent wholeness, discouraging non-therapeutic alterations that"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hindu perspectives in India prioritize the intact body as integral to its inherent wholeness, discouraging non-therapeutic alterations that could disrupt this n.",
+      "span": {
+        "quote": "Hindu perspectives in India prioritize the intact body as integral to its inherent wholeness, discouraging non-therapeutic alterations that could disrupt this n"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

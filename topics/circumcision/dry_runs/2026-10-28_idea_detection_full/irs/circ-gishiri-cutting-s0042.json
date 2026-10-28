@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0042",
+  "source_text": "Traditional beliefs hold that such conditions, termed \"ba hanya\" (no way) or \"goriya\" (a tumor-like blockage), arise from imbalances in bodily humors, infections, or even psychological factors like marital discord, necessitating incision to restore patency and harmony. [23] [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional beliefs hold that such conditions, termed \"ba hanya\" (no way) or \"goriya\" (a tumor-like blockage), arise from imbalances in bodi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditional beliefs hold that such conditions, termed \"ba hanya\" (no way) or \"goriya\" (a tumor-like blockage), arise from imbalances in bodily humors, infection.",
+      "span": {
+        "quote": "Traditional beliefs hold that such conditions, termed \"ba hanya\" (no way) or \"goriya\" (a tumor-like blockage), arise from imbalances in bodily humors, infection"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0031",
+  "source_text": "Similarly, a 2011 systematic review reported inconsistent findings across 29 studies, with some showing increased HIV odds among circumcised MSM, potentially due to confounding factors like behavioral differences or higher-risk sexual practices among uncircumcised groups.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, a 2011 systematic review reported inconsistent findings across 29 studies, with some showing increased HIV odds among circumcised"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, a 2011 systematic review reported inconsistent findings across 29 studies, with some showing increased HIV odds among circumcised MSM, potentially du.",
+      "span": {
+        "quote": "Similarly, a 2011 systematic review reported inconsistent findings across 29 studies, with some showing increased HIV odds among circumcised MSM, potentially du"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

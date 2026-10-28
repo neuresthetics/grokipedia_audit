@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0278",
+  "source_text": "Observational studies in MSM yield mixed results, with some finding no association or increased risk, underscoring that circumcision does not mitigate HIV transmission in primary MSM transmission routes. [163] [157]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Observational studies in MSM yield mixed results, with some finding no association or increased risk, underscoring that circumcision does no"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Observational studies in MSM yield mixed results, with some finding no association or increased risk, underscoring that circumcision does not mitigate HIV trans.",
+      "span": {
+        "quote": "Observational studies in MSM yield mixed results, with some finding no association or increased risk, underscoring that circumcision does not mitigate HIV trans"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

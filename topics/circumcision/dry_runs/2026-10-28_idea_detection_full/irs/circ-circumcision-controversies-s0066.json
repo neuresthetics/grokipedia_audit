@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0066",
+  "source_text": "Population-level implementation in high-incidence settings has correlated with HIV incidence declines; for instance, modeling from Ugandan trial data projected that sustained VMMC uptake could avert up to 20% of new infections in priority countries by controlling for behavioral confounders like partner concurrency. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Population-level implementation in high-incidence settings has correlated with HIV incidence declines; for instance, modeling from Ugandan t"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Population-level implementation in high-incidence settings has correlated with HIV incidence declines; for instance, modeling from Ugandan trial data projected.",
+      "span": {
+        "quote": "Population-level implementation in high-incidence settings has correlated with HIV incidence declines; for instance, modeling from Ugandan trial data projected "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0072",
+  "source_text": "For instance, modeling for a cohort of 1,000 circumcised newborns projected prevention of approximately 100-200 UTIs in infancy alone (given a baseline 1% incidence reduced to 0.1%), alongside lifetime reductions in penile cancer (3-22 cases averted per 100,000) and certain STIs, against 2-10 minor adverse events per 1,000 procedures. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, modeling for a cohort of 1,000 circumcised newborns projected prevention of approximately 100-200 UTIs in infancy alone (given"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, modeling for a cohort of 1,000 circumcised newborns projected prevention of approximately 100-200 UTIs in infancy alone (given a baseline 1% incid.",
+      "span": {
+        "quote": "For instance, modeling for a cohort of 1,000 circumcised newborns projected prevention of approximately 100-200 UTIs in infancy alone (given a baseline 1% incid"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100.",
+      "span": {
+        "quote": "per 100"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

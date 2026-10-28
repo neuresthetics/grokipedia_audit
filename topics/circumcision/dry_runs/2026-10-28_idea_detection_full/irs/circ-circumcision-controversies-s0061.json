@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0061",
+  "source_text": "Mitigations include standardized use of local anesthesia, such as dorsal penile nerve block or ring blocks with lidocaine, which has been recommended since the 1990s and effectively minimizes procedural pain when combined with sucrose pacifiers or swaddling. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Mitigations include standardized use of local anesthesia, such as dorsal penile nerve block or ring blocks with lidocaine, which has been re"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mitigations include standardized use of local anesthesia, such as dorsal penile nerve block or ring blocks with lidocaine, which has been recommended.",
+      "span": {
+        "quote": "Mitigations include standardized use of local anesthesia, such as dorsal penile nerve block or ring blocks with lidocaine, which has been recommended"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The 1990s and effectively minimizes procedural pain when combined with sucrose pacifiers or swaddling. [45].",
+      "span": {
+        "quote": "the 1990s and effectively minimizes procedural pain when combined with sucrose pacifiers or swaddling. [45]"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since the 1990s and effectively minimizes procedural pain when com"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

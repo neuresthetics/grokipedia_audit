@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-s0409",
+  "source_text": "Opponents of non-therapeutic infant male circumcision argue that it violates the child's bodily autonomy by permanently removing healthy foreskin tissue\u2014estimated to contain over 20,000 nerve endings\u2014without the infant's consent. [229]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents of non-therapeutic infant male circumcision argue that it violates the child's bodily autonomy by permanently removing healthy for"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It violates the child's bodily autonomy by permanently removing healthy foreskin tissue\u2014estimated to contain over 20,000 nerve endings\u2014without the infant's cons.",
+      "span": {
+        "quote": "it violates the child's bodily autonomy by permanently removing healthy foreskin tissue\u2014estimated to contain over 20,000 nerve endings\u2014without the infant's cons"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opponents of non-therapeutic infant male circumcision.",
+      "span": {
+        "quote": "Opponents of non-therapeutic infant male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

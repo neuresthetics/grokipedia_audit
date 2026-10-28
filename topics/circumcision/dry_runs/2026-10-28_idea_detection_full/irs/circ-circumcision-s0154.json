@@ -1,0 +1,90 @@
+{
+  "passage_id": "circ-circumcision-s0154",
+  "source_text": "Critiques of the evidence for UTI risk reduction emphasize potential confounders, such as selection bias in premature infants who face elevated UTI risks (3-8.5% versus 0.7-2% in term infants) from NICU interventions like catheterization and physiological immaturity, yet are typically deferred from neonatal circumcision due to instability; modeling suggests this confounding could account for a fourfold observed difference absent a genuine effect. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques of the evidence for UTI risk reduction emphasize potential confounders, such as selection bias in premature infants who face eleva"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Potential confounders, such as selection bias in premature infants who face elevated UTI risks (3-8.5% versus 0.7-2% in term infants) from NICU interventions li.",
+      "span": {
+        "quote": "potential confounders, such as selection bias in premature infants who face elevated UTI risks (3-8.5% versus 0.7-2% in term infants) from NICU interventions li"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critiques of the evidence for UTI risk reduction.",
+      "span": {
+        "quote": "Critiques of the evidence for UTI risk reduction"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "due to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

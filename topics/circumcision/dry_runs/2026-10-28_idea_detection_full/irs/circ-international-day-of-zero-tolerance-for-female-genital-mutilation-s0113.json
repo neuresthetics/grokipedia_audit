@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0113",
+  "source_text": "These include severe pain, excessive hemorrhage, and hypovolemic shock from blood loss, as the clitoris and labia contain rich vascular supplies that can be severed without proper hemostasis. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These include severe pain, excessive hemorrhage, and hypovolemic shock from blood loss, as the clitoris and labia contain rich vascular supp"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These include severe pain, excessive hemorrhage, and hypovolemic shock from blood loss, as the clitoris and labia contain rich vascular supplies that can be sev.",
+      "span": {
+        "quote": "These include severe pain, excessive hemorrhage, and hypovolemic shock from blood loss, as the clitoris and labia contain rich vascular supplies that can be sev"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

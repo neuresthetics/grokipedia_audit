@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-stapler-circumcision-s0209",
+  "source_text": "It demonstrated an average operative time of 7.7 minutes and a low complication rate of 4.8% (3 cases: 1 intraoperative bleeding, 2 delayed staple fallout), with the device using 18 stainless steel staples for anastomosis.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It demonstrated an average operative time of 7.7 minutes and a low complication rate of 4.8% (3 cases: 1 intraoperative bleeding, 2 delayed"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It demonstrated an average operative time of 7.7 minutes and a low complication rate of 4.8% (3 cases: 1 intraoperative bleeding, 2 delayed staple fallout), wit.",
+      "span": {
+        "quote": "It demonstrated an average operative time of 7.7 minutes and a low complication rate of 4.8% (3 cases: 1 intraoperative bleeding, 2 delayed staple fallout), wit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

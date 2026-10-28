@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0159",
+  "source_text": "It urged national governments to enact prohibitive legislation, integrate anti-mutilation education into public health curricula, and petition international bodies for enforcement, building on prior WHO resolutions against harmful traditional practices from 1994. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It urged national governments to enact prohibitive legislation, integrate anti-mutilation education into public health curricula, and petiti"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "National governments to enact prohibitive legislation, integrate anti-mutilation education into public health curricula, and petition international bodies for e.",
+      "span": {
+        "quote": "national governments to enact prohibitive legislation, integrate anti-mutilation education into public health curricula, and petition international bodies for e"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

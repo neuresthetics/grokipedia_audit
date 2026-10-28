@@ -1,0 +1,137 @@
+{
+  "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-004",
+  "source_text": "1. **Hedges:** \u201clikely / may / suspect / should be investigated\u201d \u2192 hedge: \"weak\". Do not upgrade to settled truth. 2. **Recommendations** whose only rationale is a causal effect \u2192 claim that effect (asserts_cause: true if bare); keep role: \"recommendation\" and scope: \"action\" unless they assert settled truth. 3. **Defaults / burden / null hypothesis / house rules** \u2192 role: \"default_rule\", scope: \"procedural\". Not truth claims. 4. **Illustrations / jokes** \u2192 role: \"illustration\". Do not attach supports unless the speaker clearly relies on them. 5. **Unstated premises:** supply the most plausible one the speaker would accept; set unstated: true. Prefer the reading that makes the argument better (charity), not a straw reading. 6. **Common knowledge:** set common_knowledge: true only if an educated general reader would know it without lookup; if reviewers could reasonably differ, leave false. 7. **Excerpts:** do not import memory of text outside the given passage. 8. **Dialogues:** set speaker per claim; each participant\u2019s steps are separate. 9. **No argument:** reports, teaching prompts, satire without a participant advancing an argument \u2192 steps[].no_argument: true, claims as report only. 10. **Anti-collapse:** if the passage has a premise\u2192conclusion cue (so, must, therefore, thus, dismiss, ignore), do **not** emit only role: \"report\" with zero edges. Prefer under-specified claims and edges over an empty report. 11. **Quoted adversary:** when a quoted speaker is answered, emit separate speakers and at least one inferential edge (supports, attacks_claim, attacks_person, or ignores). 12. **Association:** \u201cassociated with / once supported / backed by\u201d offered for an evaluative conclusion \u2192 agents + trait, a supports edge into that conclusion, and optional ignores of object-level reasons. Do **not** require attacks_person.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "1. **Hedges:** \u201clikely / may / suspect / should be investigated\u201d \u2192 hedge: \"weak\". Do not upgrade to settled truth. 2. **Recommendations** wh"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "* reports, teaching prompts, satire without a participant advancing an argument \u2192 steps[].no_argument: true, claims as report only. 10. **Anti-collapse:** if th.",
+      "span": {
+        "quote": "* reports, teaching prompts, satire without a participant advancing an argument \u2192 steps[].no_argument: true, claims as report only. 10. **Anti-collapse:** if th"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c2",
+      "text": "Dismiss, ignore), do **not** emit only role: \"report\" with zero edges. Prefer under-specified claims and edges over an empty report. 11. **Quoted adversary:** w.",
+      "span": {
+        "quote": "dismiss, ignore), do **not** emit only role: \"report\" with zero edges. Prefer under-specified claims and edges over an empty report. 11. **Quoted adversary:** w"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Per claim.",
+      "span": {
+        "quote": "per claim"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c4",
+      "text": "Associated with / once supported / backed by\u201d offered for an evaluative.",
+      "span": {
+        "quote": "associated with / once supported / backed by\u201d offered for an evaluative"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "per claim"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Association"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "dismiss"
+      }
+    },
+    {
+      "id": "e5",
+      "type": "supports",
+      "source": "c4",
+      "target": "c2",
+      "span": {
+        "quote": "associated with / once supported / backed by\u201d offered for an evaluative"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with / once supported / backed by\u201d offered for an evaluative ",
+          "span": {
+            "quote": "associated with / once supported / backed by\u201d offered for an evaluative"
+          }
+        }
+      ]
+    }
+  ]
+}

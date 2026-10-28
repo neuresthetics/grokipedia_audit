@@ -1,0 +1,67 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0318",
+  "source_text": "While acknowledging potential biases in Western advocacy, such as selective outrage, universalist frameworks emphasize causal realities: FGM inflicts verifiable physical and psychological damage without health benefits, undermining claims of cultural equivalence when individual rights to life and security are at stake. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While acknowledging potential biases in Western advocacy, such as selective outrage, universalist frameworks emphasize causal realities: FGM"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Causal realities:.",
+      "span": {
+        "quote": "causal realities:"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "While acknowledging potential biases in Western advocacy, such as selective outrage, universalist frameworks.",
+      "span": {
+        "quote": "While acknowledging potential biases in Western advocacy, such as selective outrage, universalist frameworks"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "inflicts"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-mohel-s0172",
+  "source_text": "Jewish organizations, including the Central Rabbinical Congress, challenged the rule in federal court, contending it infringed on First Amendment rights to free exercise of religion and free speech by coercing disclosure of unproven risks and burdening a millennia-old ritual.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Jewish organizations, including the Central Rabbinical Congress, challenged the rule in federal court, contending it infringed on First Amen"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Jewish organizations, including the Central Rabbinical Congress, challenged the rule in federal court, contending it infringed on First Amendment rights to free.",
+      "span": {
+        "quote": "Jewish organizations, including the Central Rabbinical Congress, challenged the rule in federal court, contending it infringed on First Amendment rights to free"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unproven risks and burdening a millennia-old.",
+      "span": {
+        "quote": "unproven risks and burdening a millennia-old"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unproven risks and burdening a millennia-old"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

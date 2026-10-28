@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0274",
+  "source_text": "This view gains traction in jurisdictions like those influenced by European medical associations, which deem routine IMC unjustifiable on ethical grounds.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This view gains traction in jurisdictions like those influenced by European medical associations, which deem routine IMC unjustifiable on et"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This view gains traction in jurisdictions like those influenced by European medical associations, which deem routine IMC unjustifiable on ethical grounds.",
+      "span": {
+        "quote": "This view gains traction in jurisdictions like those influenced by European medical associations, which deem routine IMC unjustifiable on ethical grounds."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Medical associations.",
+      "span": {
+        "quote": "medical associations"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "medical associations"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

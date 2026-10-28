@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-IDEA_DETECTION-008",
+  "source_text": "METHOD.md stays the procedure for hand audits, including Genius Study audits. This layer does not rewrite it.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "METHOD.md stays the procedure for hand audits, including Genius Study audits. This layer does not rewrite it."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "METHOD.md stays the procedure for hand audits, including Genius Study audits. This layer does not rewrite it.",
+      "span": {
+        "quote": "METHOD.md stays the procedure for hand audits, including Genius Study audits. This layer does not rewrite it."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "passage_id": "circ-foreskin-s0163",
+  "source_text": "Penile cancer, though rare (global incidence ~1 per 100,000 males annually), shows a strong association with retained foreskin, with meta-analyses indicating odds ratios as low as 0.33 for invasive disease in those circumcised early in life, linked to chronic inflammation, HPV persistence, and poor hygiene in the subpreputial area. [84] [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Penile cancer, though rare (global incidence ~1 per 100,000 males annually), shows a strong association with retained foreskin, with meta-an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Penile cancer, though rare (global incidence ~1 per 100,000 males annually), shows a strong association with retained foreskin, with meta-analyses indicating od.",
+      "span": {
+        "quote": "Penile cancer, though rare (global incidence ~1 per 100,000 males annually), shows a strong association with retained foreskin, with meta-analyses indicating od"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100.",
+      "span": {
+        "quote": "per 100"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Linked to chronic inflammation.",
+      "span": {
+        "quote": "linked to chronic inflammation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "linked to chronic inflammation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to chronic inflammation",
+          "span": {
+            "quote": "linked to chronic inflammation"
+          }
+        }
+      ]
+    }
+  ]
+}

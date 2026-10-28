@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-001",
+  "source_text": "Companion to the flat checker. METHOD.md stays the human procedure. This file is the machine layer, the same way IDEA_LEVEL_DETECTION.md is. It does not change published fallacies.json verdicts or meanings, and it does not loosen ir_forbid or the precision-first gates in check.py.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Companion to the flat checker. METHOD.md stays the human procedure. This file is the machine layer, the same way IDEA_LEVEL_DETECTION.md is."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Companion to the flat checker. METHOD.md stays the human procedure. This file is the machine layer, the same way IDEA_LEVEL_DETECTION.md is. It does not change.",
+      "span": {
+        "quote": "Companion to the flat checker. METHOD.md stays the human procedure. This file is the machine layer, the same way IDEA_LEVEL_DETECTION.md is. It does not change "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

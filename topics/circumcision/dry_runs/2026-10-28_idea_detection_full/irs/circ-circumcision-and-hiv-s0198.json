@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0198",
+  "source_text": "Generalizability debates underscore the trials' restriction to high-prevalence (3\u201320% adult HIV), low-circumcision (<10%) sub-Saharan African settings among monogamous or low-partner-count men, limiting extrapolation to low-prevalence regions, female-to-male transmission assumptions, or populations with diverse sexual networks; observational data from diverse ecologies often yield weaker or null associations, prompting arguments that RCTs overestimate population-level causal effects absent real-world confounders like variable surgical quality or uptake barriers. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Generalizability debates underscore the trials' restriction to high-prevalence (3\u201320% adult HIV), low-circumcision (<10%) sub-Saharan Africa"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Generalizability debates underscore the trials' restriction to high-prevalence (3\u201320% adult HIV), low-circumcision (<10%) sub-Saharan African settings among mon.",
+      "span": {
+        "quote": "Generalizability debates underscore the trials' restriction to high-prevalence (3\u201320% adult HIV), low-circumcision (<10%) sub-Saharan African settings among mon"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

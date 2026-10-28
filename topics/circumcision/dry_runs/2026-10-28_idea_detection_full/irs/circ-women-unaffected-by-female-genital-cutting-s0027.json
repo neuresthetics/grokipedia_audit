@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0027",
+  "source_text": "The mutilation narrative, dominant in Western human rights and media discourses, posits inherent physical, sexual, and psychological devastation, often extrapolating from severe Type III infibulation cases (prevalent in <10% of instances globally) to all forms, while downplaying self-reports of normalcy. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The mutilation narrative, dominant in Western human rights and media discourses, posits inherent physical, sexual, and psychological devasta"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The mutilation narrative, dominant in Western human rights and media discourses, posits inherent physical, sexual, and psychological devastation, often extrapol.",
+      "span": {
+        "quote": "The mutilation narrative, dominant in Western human rights and media discourses, posits inherent physical, sexual, and psychological devastation, often extrapol"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

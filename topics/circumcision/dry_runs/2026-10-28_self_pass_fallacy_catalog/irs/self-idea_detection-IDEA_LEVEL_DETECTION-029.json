@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-029",
+  "source_text": "1. Bootstrap patterns for the pilot set (originally eight; the post-e2e batch adds five). Compile remaining prose conditions later with span verification. 2. Geometric node taxonomy optional.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "1. Bootstrap patterns for the pilot set (originally eight; the post-e2e batch adds five). Compile remaining prose conditions later with span"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "1. Bootstrap patterns for the pilot set (originally eight; the post-e2e batch adds five). Compile remaining prose conditions later with span verification. 2. Ge.",
+      "span": {
+        "quote": "1. Bootstrap patterns for the pilot set (originally eight; the post-e2e batch adds five). Compile remaining prose conditions later with span verification. 2. Ge"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

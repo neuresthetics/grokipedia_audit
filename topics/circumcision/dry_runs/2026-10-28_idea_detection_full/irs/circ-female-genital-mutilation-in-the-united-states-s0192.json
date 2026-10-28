@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0192",
+  "source_text": "Subsequent AAP guidance, including a 2020 clinical report, classifies female genital mutilation/cutting (FGM/C) as medically unnecessary and harmful, emphasizing the need for pediatricians to educate against it and report suspected cases as child abuse. [68]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Subsequent AAP guidance, including a 2020 clinical report, classifies female genital mutilation/cutting (FGM/C) as medically unnecessary and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Subsequent AAP guidance, including a 2020 clinical report, classifies female genital mutilation/cutting (FGM/C) as medically unnecessary and harmful, emphasizin.",
+      "span": {
+        "quote": "Subsequent AAP guidance, including a 2020 clinical report, classifies female genital mutilation/cutting (FGM/C) as medically unnecessary and harmful, emphasizin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

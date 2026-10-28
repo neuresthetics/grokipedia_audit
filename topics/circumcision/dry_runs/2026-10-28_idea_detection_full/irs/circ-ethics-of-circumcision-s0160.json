@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0160",
+  "source_text": "Similarly, among Muslims, the practice functions as a key rite of passage that integrates the individual into the broader community, often celebrated with familial and social gatherings that strengthen ethnic and religious ties. [102]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, among Muslims, the practice functions as a key rite of passage that integrates the individual into the broader community, often c"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, among Muslims, the practice functions as a key rite of passage that integrates the individual into the broader community, often celebrated with famil.",
+      "span": {
+        "quote": "Similarly, among Muslims, the practice functions as a key rite of passage that integrates the individual into the broader community, often celebrated with famil"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

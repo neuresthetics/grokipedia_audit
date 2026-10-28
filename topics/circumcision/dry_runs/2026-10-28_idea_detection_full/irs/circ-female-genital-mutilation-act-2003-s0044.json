@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0044",
+  "source_text": "This enactment prioritized empirical harm documentation over relativist accommodations for custom, informed by interdisciplinary input from health experts and international bodies underscoring the practice's incompatibility with bodily integrity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This enactment prioritized empirical harm documentation over relativist accommodations for custom, informed by interdisciplinary input from"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This enactment prioritized empirical harm documentation over relativist accommodations for custom, informed by interdisciplinary input from health experts and i.",
+      "span": {
+        "quote": "This enactment prioritized empirical harm documentation over relativist accommodations for custom, informed by interdisciplinary input from health experts and i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

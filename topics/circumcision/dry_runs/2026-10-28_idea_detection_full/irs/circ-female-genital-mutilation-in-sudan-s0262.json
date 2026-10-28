@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0262",
+  "source_text": "Cultural relativists argue that female genital mutilation (FGM) in Sudan functions as an adaptive cultural practice reinforcing social cohesion, family honor, and marriage eligibility within tightly knit communities, where deviation risks ostracism and economic disadvantage for girls and their kin. [58]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural relativists argue that female genital mutilation (FGM) in Sudan functions as an adaptive cultural practice reinforcing social cohes"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Female genital mutilation (FGM) in Sudan functions as an adaptive cultural practice reinforcing social cohesion, family honor, and marriage eligibility within t.",
+      "span": {
+        "quote": "female genital mutilation (FGM) in Sudan functions as an adaptive cultural practice reinforcing social cohesion, family honor, and marriage eligibility within t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

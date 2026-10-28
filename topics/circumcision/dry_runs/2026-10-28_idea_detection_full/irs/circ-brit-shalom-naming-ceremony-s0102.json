@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0102",
+  "source_text": "They contend that purported health benefits, such as reduced urinary tract infections (UTIs) in infancy and lower heterosexual HIV transmission rates later in life, can be mitigated through hygiene practices and safe sex, rendering the intervention unnecessary and disproportionate to its harms. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "They contend that purported health benefits, such as reduced urinary tract infections (UTIs) in infancy and lower heterosexual HIV transmiss"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Purported health benefits, such as reduced urinary tract infections (UTIs) in infancy and lower heterosexual HIV transmission rates later in life, can be mitiga.",
+      "span": {
+        "quote": "purported health benefits, such as reduced urinary tract infections (UTIs) in infancy and lower heterosexual HIV transmission rates later in life, can be mitiga"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

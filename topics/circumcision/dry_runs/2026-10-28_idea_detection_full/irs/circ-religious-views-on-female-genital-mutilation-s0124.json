@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0124",
+  "source_text": "Anglican leaders have similarly opposed FGM through ecumenical efforts, with churches in regions like Kenya and Tanzania collaborating on campaigns to eradicate it, citing biblical principles of wholeness and justice. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anglican leaders have similarly opposed FGM through ecumenical efforts, with churches in regions like Kenya and Tanzania collaborating on ca"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anglican leaders have similarly opposed FGM through ecumenical efforts, with churches in regions like Kenya and Tanzania collaborating on campaigns to eradicate.",
+      "span": {
+        "quote": "Anglican leaders have similarly opposed FGM through ecumenical efforts, with churches in regions like Kenya and Tanzania collaborating on campaigns to eradicate"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing biblical principles of wholeness and justice.",
+      "span": {
+        "quote": "citing biblical principles of wholeness and justice"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing biblical principles of wholeness and justice"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

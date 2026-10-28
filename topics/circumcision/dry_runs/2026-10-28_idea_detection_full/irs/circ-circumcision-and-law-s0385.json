@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0385",
+  "source_text": "Such outcomes reflect causal realism in law: where parental intent aligns with prevailing medical literature showing modest aggregate benefits (e.g., CDC estimates of 1 in 100 HIV risk reduction in high-prevalence settings), courts avoid overriding decisions absent acute harm. [200]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such outcomes reflect causal realism in law: where parental intent aligns with prevailing medical literature showing modest aggregate benefi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such outcomes reflect causal realism in law: where parental intent aligns with prevailing medical literature showing modest aggregate benefits (e.g., CDC estima.",
+      "span": {
+        "quote": "Such outcomes reflect causal realism in law: where parental intent aligns with prevailing medical literature showing modest aggregate benefits (e.g., CDC estima"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

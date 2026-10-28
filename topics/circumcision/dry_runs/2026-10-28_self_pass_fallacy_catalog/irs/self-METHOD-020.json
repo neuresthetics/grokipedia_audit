@@ -1,0 +1,57 @@
+{
+  "passage_id": "self-METHOD-020",
+  "source_text": "Strongest reading: The relevant experts broadly agree, on the basis of trial data, that serious side effects are rare; so the risk is low.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Strongest reading: The relevant experts broadly agree, on the basis of trial data, that serious side effects are rare; so the risk is low."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Strongest reading: The relevant experts broadly agree, on the basis of trial data, that serious side effects are rare.",
+      "span": {
+        "quote": "Strongest reading: The relevant experts broadly agree, on the basis of trial data, that serious side effects are rare"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "The risk is low.",
+      "span": {
+        "quote": "the risk is low."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

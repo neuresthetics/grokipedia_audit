@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0241",
+  "source_text": "Proponents of adult timing emphasize autonomy, arguing that individuals can weigh risks and benefits post-puberty, potentially avoiding irreversible decisions made by surrogates; however, empirical data reveal low voluntary uptake, suggesting many uncircumcised males forgo the procedure despite established preventive benefits against urinary tract infections (UTIs) in infancy and HIV acquisition later in life, with randomized trials showing 60% risk reduction from adult circumcision but limited real-world adoption outside targeted campaigns. [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of adult timing emphasize autonomy, arguing that individuals can weigh risks and benefits post-puberty, potentially avoiding irre"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Utonomy, arguing that individuals can weigh risks and benefits post-puberty, potentially avoiding irreversible decisions made by surrogates;.",
+      "span": {
+        "quote": "utonomy, arguing that individuals can weigh risks and benefits post-puberty, potentially avoiding irreversible decisions made by surrogates;"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of adult timing.",
+      "span": {
+        "quote": "Proponents of adult timing"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Proponents of adult timing emphasize autonomy, arguing that individuals can weig"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

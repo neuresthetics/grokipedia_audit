@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0074",
+  "source_text": "The resolution recommends that member states enact legislation prohibiting non-therapeutic medical interventions on children, explicitly including \"the circumcision of young boys for non-therapeutic reasons\" alongside female genital mutilation and non-essential surgeries on intersex children, unless such procedures are deemed medically necessary to safeguard the child's health. [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution recommends that member states enact legislation prohibiting non-therapeutic medical interventions on children, explicitly inc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The resolution recommends that member states enact legislation prohibiting non-therapeutic medical interventions on children, explicitly including \"the circumci.",
+      "span": {
+        "quote": "The resolution recommends that member states enact legislation prohibiting non-therapeutic medical interventions on children, explicitly including \"the circumci"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

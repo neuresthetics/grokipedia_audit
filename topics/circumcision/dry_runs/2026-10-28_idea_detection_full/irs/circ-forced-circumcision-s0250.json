@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-forced-circumcision-s0250",
+  "source_text": "Key organizations include Intact America, established in 2008 to shift public perceptions via media campaigns and policy advocacy, and Doctors Opposing Circumcision (DOC), a professional network asserting that circumcision inflicts unnecessary pain, risks complications like infection or excessive tissue removal, and deprives individuals of erogenous tissue without proven net health benefits. [113] [114]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Key organizations include Intact America, established in 2008 to shift public perceptions via media campaigns and policy advocacy, and Docto"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Key organizations include Intact America, established in 2008 to shift public perceptions via media campaigns and policy advocacy, and Doctors Opposing Circumci.",
+      "span": {
+        "quote": "Key organizations include Intact America, established in 2008 to shift public perceptions via media campaigns and policy advocacy, and Doctors Opposing Circumci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-milah-s0235",
+  "source_text": "Metzitzah b'Peh (MBP) entails the mohel applying direct oral suction to the circumcision wound to draw blood, thereby exposing the infant to potential pathogens present in the mohel's oral cavity, including herpes simplex virus type 1 (HSV-1), which is prevalent in over 50% of adults and often asymptomatic. [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Metzitzah b'Peh (MBP) entails the mohel applying direct oral suction to the circumcision wound to draw blood, thereby exposing the infant to"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Metzitzah b'Peh (MBP) entails the mohel applying direct oral suction to the circumcision wound to draw blood.",
+      "span": {
+        "quote": "Metzitzah b'Peh (MBP) entails the mohel applying direct oral suction to the circumcision wound to draw blood"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Exposing the infant to potential pathogens present in the mohel's oral cavity, including herpes simplex virus type 1 (HSV-1), which is prevalent in over 50% of.",
+      "span": {
+        "quote": "exposing the infant to potential pathogens present in the mohel's oral cavity, including herpes simplex virus type 1 (HSV-1), which is prevalent in over 50% of "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

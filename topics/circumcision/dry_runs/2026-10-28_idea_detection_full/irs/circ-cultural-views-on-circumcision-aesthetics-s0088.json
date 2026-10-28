@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0088",
+  "source_text": "In Hindu traditions, male circumcision lacks scriptural endorsement and is often regarded as contrary to the natural integrity of the body, which is seen as divinely ordained without need for such modifications, implying a cultural preference for the unaltered genital form as the normative aesthetic. [52]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Hindu traditions, male circumcision lacks scriptural endorsement and is often regarded as contrary to the natural integrity of the body,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Hindu traditions, male circumcision lacks scriptural endorsement and is often regarded as contrary to the natural integrity of the body, which is seen as div.",
+      "span": {
+        "quote": "In Hindu traditions, male circumcision lacks scriptural endorsement and is often regarded as contrary to the natural integrity of the body, which is seen as div"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

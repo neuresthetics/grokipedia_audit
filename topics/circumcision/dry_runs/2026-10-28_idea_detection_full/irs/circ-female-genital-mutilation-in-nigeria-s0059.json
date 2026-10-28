@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0059",
+  "source_text": "Empirical studies contradict these claims, finding no association between FGM and delayed sexual debut, preserved virginity, or increased marital fidelity, thus debunking causal links to reduced promiscuity. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical studies contradict these claims, finding no association between FGM and delayed sexual debut, preserved virginity, or increased ma"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical studies contradict these claims, finding no association between FGM and delayed sexual debut, preserved virginity, or increased marital fidelity.",
+      "span": {
+        "quote": "Empirical studies contradict these claims, finding no association between FGM and delayed sexual debut, preserved virginity, or increased marital fidelity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Debunking causal links to reduced promiscuity. [25].",
+      "span": {
+        "quote": "debunking causal links to reduced promiscuity. [25]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

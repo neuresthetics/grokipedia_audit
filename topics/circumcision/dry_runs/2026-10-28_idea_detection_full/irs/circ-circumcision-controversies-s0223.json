@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0223",
+  "source_text": "In contrast, voluntary medical male circumcision (VMMC) programs in Africa maintain low adverse event rates, with intraoperative complications at approximately 0.2% and moderate or severe events below 1% post-procedure across large-scale implementations. [146]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, voluntary medical male circumcision (VMMC) programs in Africa maintain low adverse event rates, with intraoperative complicatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Low adverse event rates, with intraoperative complications at approximately 0.2% and moderate or severe events below 1% post-procedure across large-scale implem.",
+      "span": {
+        "quote": "low adverse event rates, with intraoperative complications at approximately 0.2% and moderate or severe events below 1% post-procedure across large-scale implem"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In contrast, voluntary medical male circumcision (VMMC) programs in Africa.",
+      "span": {
+        "quote": "In contrast, voluntary medical male circumcision (VMMC) programs in Africa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

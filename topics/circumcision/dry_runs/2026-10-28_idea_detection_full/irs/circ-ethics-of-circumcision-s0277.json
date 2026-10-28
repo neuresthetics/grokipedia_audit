@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0277",
+  "source_text": "Among men who have sex with men (MSM), efficacy is context-dependent and limited; meta-analyses show protection primarily for insertive partners in low- and middle-income countries (relative risk 0.58), but no benefit in high-income settings or for receptive anal intercourse, where exposure occurs via the ungloved penis.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among men who have sex with men (MSM), efficacy is context-dependent and limited; meta-analyses show protection primarily for insertive part"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among men who have sex with men (MSM), efficacy is context-dependent and limited; meta-analyses show protection primarily for insertive partners in low- and mid.",
+      "span": {
+        "quote": "Among men who have sex with men (MSM), efficacy is context-dependent and limited; meta-analyses show protection primarily for insertive partners in low- and mid"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-circumcision-s0273",
+  "source_text": "The American Academy of Pediatrics (AAP) in 1971 found no valid medical indications for neonatal circumcision, a stance reaffirmed in 1975 that contributed to U.S. newborn rates dropping from 64.5% in 1979 to 58.3% by 2010, amid immigration from low-prevalence areas and advocacy efforts. [164] [165]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP) in 1971 found no valid medical indications for neonatal circumcision, a stance reaffirmed in 1975 t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Academy of Pediatrics (AAP) in 1971 found no valid medical indications for neonatal circumcision, a stance reaffirmed in 1975 that contributed to U.",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP) in 1971 found no valid medical indications for neonatal circumcision, a stance reaffirmed in 1975 that contributed to U"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

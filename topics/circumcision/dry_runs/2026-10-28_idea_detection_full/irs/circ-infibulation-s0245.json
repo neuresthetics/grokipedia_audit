@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0245",
+  "source_text": "Similar patterns emerge in other Sahelian contexts, where fatwas or informal religious endorsements occasionally frame infibulation as compatible with Islamic purity norms, countering global anti-FGM campaigns.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similar patterns emerge in other Sahelian contexts, where fatwas or informal religious endorsements occasionally frame infibulation as compa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similar patterns emerge in other Sahelian contexts, where fatwas or informal religious endorsements occasionally frame infibulation as compatible with Islamic p.",
+      "span": {
+        "quote": "Similar patterns emerge in other Sahelian contexts, where fatwas or informal religious endorsements occasionally frame infibulation as compatible with Islamic p"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

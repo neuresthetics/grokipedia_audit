@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-forced-circumcision-s0177",
+  "source_text": "In high HIV-prevalence regions of sub-Saharan Africa, three randomized controlled trials demonstrated that adult voluntary medical male circumcision reduces heterosexual HIV acquisition in men by 50-60%, prompting World Health Organization recommendations for scale-up in those settings. [78]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high HIV-prevalence regions of sub-Saharan Africa, three randomized controlled trials demonstrated that adult voluntary medical male circ"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high HIV-prevalence regions of sub-Saharan Africa, three randomized controlled trials demonstrated that adult voluntary medical male circumcision reduces het.",
+      "span": {
+        "quote": "In high HIV-prevalence regions of sub-Saharan Africa, three randomized controlled trials demonstrated that adult voluntary medical male circumcision reduces het"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

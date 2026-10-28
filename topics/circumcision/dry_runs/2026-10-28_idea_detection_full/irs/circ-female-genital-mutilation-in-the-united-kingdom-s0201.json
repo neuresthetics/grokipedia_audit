@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0201",
+  "source_text": "The predominance of psychological and chronic physical burdens underscores a societal cost beyond acute interventions, with potential underestimation from unmet needs, as enhanced FGM datasets from 2015 onward reveal only partial attendance patterns.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The predominance of psychological and chronic physical burdens underscores a societal cost beyond acute interventions, with potential undere"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The predominance of psychological and chronic physical burdens underscores a societal cost beyond acute interventions, with potential underestimation from unmet.",
+      "span": {
+        "quote": "The predominance of psychological and chronic physical burdens underscores a societal cost beyond acute interventions, with potential underestimation from unmet"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

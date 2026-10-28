@@ -1,0 +1,70 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0194",
+  "source_text": "Opponents of routine male circumcision contend that it constitutes an elective procedure lacking sufficient medical necessity for healthy newborns, as the conditions it aims to prevent\u2014such as urinary tract infections (UTIs), penile cancer, and certain sexually transmitted infections (STIs)\u2014occur infrequently enough in uncircumcised populations to render the intervention non-essential. [6] [124]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents of routine male circumcision contend that it constitutes an elective procedure lacking sufficient medical necessity for healthy ne"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It constitutes an elective procedure lacking sufficient medical necessity for healthy newborns, as the conditions it aims to prevent\u2014such as urinary tract infec.",
+      "span": {
+        "quote": "it constitutes an elective procedure lacking sufficient medical necessity for healthy newborns, as the conditions it aims to prevent\u2014such as urinary tract infec"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Opponents of routine male circumcision.",
+      "span": {
+        "quote": "Opponents of routine male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "prevent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

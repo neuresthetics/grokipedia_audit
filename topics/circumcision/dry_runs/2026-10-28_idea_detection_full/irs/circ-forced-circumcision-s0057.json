@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0057",
+  "source_text": "Performed by non-medical specialists, the procedure heightens infection risks in remote settings, underscoring the mandatory nature absent viable opt-out paths.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed by non-medical specialists, the procedure heightens infection risks in remote settings, underscoring the mandatory nature absent v"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed by non-medical specialists, the procedure heightens infection risks in remote settings, underscoring the mandatory nature absent viable opt-out paths.",
+      "span": {
+        "quote": "Performed by non-medical specialists, the procedure heightens infection risks in remote settings, underscoring the mandatory nature absent viable opt-out paths."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

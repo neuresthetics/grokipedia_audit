@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0215",
+  "source_text": "The group distinguishes khafz from female genital mutilation, which it denounces, portraying the former as a non-harmful procedure comparable to male circumcision that confers community cohesion and personal fulfillment without impairing function or health.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The group distinguishes khafz from female genital mutilation, which it denounces, portraying the former as a non-harmful procedure comparabl"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The group distinguishes khafz from female genital mutilation, which it denounces, portraying the former as a non-harmful procedure comparable to male circumcisi.",
+      "span": {
+        "quote": "The group distinguishes khafz from female genital mutilation, which it denounces, portraying the former as a non-harmful procedure comparable to male circumcisi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0101",
+  "source_text": "No associations were found with HIV acquisition (AOR=0.95) or sexually transmitted infections (RR=1.07), underscoring minimal impact on infectious disease transmission across types.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No associations were found with HIV acquisition (AOR=0.95) or sexually transmitted infections (RR=1.07), underscoring minimal impact on infe"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No associations were found with HIV acquisition (AOR=0.95) or sexually transmitted infections (RR=1.07), underscoring minimal impact on infectious disease trans.",
+      "span": {
+        "quote": "No associations were found with HIV acquisition (AOR=0.95) or sexually transmitted infections (RR=1.07), underscoring minimal impact on infectious disease trans"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

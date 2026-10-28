@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0252",
+  "source_text": "Critics' reliance on selective or low-quality data is contrasted with the robustness of RCT evidence, underscoring VMMC's role in causal reduction of female-to-male transmission in high-prevalence heterosexual epidemics.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics' reliance on selective or low-quality data is contrasted with the robustness of RCT evidence, underscoring VMMC's role in causal red"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics' reliance on selective or low-quality data is contrasted with the robustness of RCT evidence, underscoring VMMC's role in causal reduction of female-to-.",
+      "span": {
+        "quote": "Critics' reliance on selective or low-quality data is contrasted with the robustness of RCT evidence, underscoring VMMC's role in causal reduction of female-to-"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCT.",
+      "span": {
+        "quote": "RCT"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCT"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

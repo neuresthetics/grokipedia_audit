@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0187",
+  "source_text": "Defenders invoke parental proxy authority, asserting that decisions in the child's best interest, including religious upbringing, align with legal standards like the UN Convention on the Rights of the Child (Articles 14, 20, 30), which accommodate cultural practices when welfare is not prejudiced. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Defenders invoke parental proxy authority, asserting that decisions in the child's best interest, including religious upbringing, align with"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Defenders invoke parental proxy authority, asserting that decisions in the child's best interest, including religious upbringing, align with legal standards lik.",
+      "span": {
+        "quote": "Defenders invoke parental proxy authority, asserting that decisions in the child's best interest, including religious upbringing, align with legal standards lik"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

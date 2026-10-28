@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0004",
+  "source_text": "Others prefer uncircumcised for the natural look, foreskin gliding sensation, and potentially greater stimulation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Others prefer uncircumcised for the natural look, foreskin gliding sensation, and potentially greater stimulation."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Others prefer uncircumcised for the natural look, foreskin gliding sensation, and potentially greater stimulation.",
+      "span": {
+        "quote": "Others prefer uncircumcised for the natural look, foreskin gliding sensation, and potentially greater stimulation."
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0155",
+  "source_text": "Critical atheist views portray this biblical covenant, where Yahweh commands Abraham to circumcise every male infant's foreskin as an eternal sign, as divine endorsement of non-consensual genital mutilation, criticizing the practice for lacking medical necessity, causing potential harm to sexual function, infringing on bodily autonomy, and deeming religious justification insufficient against human rights. [102]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critical atheist views portray this biblical covenant, where Yahweh commands Abraham to circumcise every male infant's foreskin as an eterna"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critical atheist views portray this biblical covenant, where Yahweh commands Abraham to circumcise every male infant's foreskin as an eternal sign, as divine en.",
+      "span": {
+        "quote": "Critical atheist views portray this biblical covenant, where Yahweh commands Abraham to circumcise every male infant's foreskin as an eternal sign, as divine en"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This biblical covenant.",
+      "span": {
+        "quote": "this biblical covenant"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "this biblical covenant"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

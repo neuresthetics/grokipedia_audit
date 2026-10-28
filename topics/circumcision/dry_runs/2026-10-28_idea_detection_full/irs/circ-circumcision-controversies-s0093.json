@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0093",
+  "source_text": "These findings indicate that while the foreskin contributes unique gliding sensations and fine-touch elements, its removal does not result in broad sensory loss according to rigorous research.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings indicate that while the foreskin contributes unique gliding sensations and fine-touch elements, its removal does not result i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings indicate that while the foreskin contributes unique gliding sensations and fine-touch elements, its removal does not result in broad sensory loss.",
+      "span": {
+        "quote": "These findings indicate that while the foreskin contributes unique gliding sensations and fine-touch elements, its removal does not result in broad sensory loss"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "According to rigorous research.",
+      "span": {
+        "quote": "according to rigorous research"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "according to rigorous research"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

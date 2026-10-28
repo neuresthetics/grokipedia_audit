@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0034",
+  "source_text": "A 2019 analysis of studies primarily from high-prevalence settings found circumcision linked to 23% lower odds of HIV infection overall among MSM, with stronger effects (up to 29% reduction) in regions with higher HIV endemicity, though protective estimates weakened after adjusting for confounders such as sexual role (insertive vs. receptive).30038-5/fulltext) A 2024 meta-analysis of 62 observational studies reported a 23% reduction in HIV acquisition risk for circumcised gay and bisexual men, but emphasized that this effect was primarily observed among primarily insertive (PI) MSM, with odds ratios as low as 0.57 in unadjusted models for this subgroup, compared to null or weaker effects for versatile or receptive partners where anal transmission predominates. [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2019 analysis of studies primarily from high-prevalence settings found circumcision linked to 23% lower odds of HIV infection overall amon"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is effect was primarily observed among primarily insertive (PI) MSM, with odds ratios as low as 0.57 in unadjusted models for this subgroup, compared to null or.",
+      "span": {
+        "quote": "is effect was primarily observed among primarily insertive (PI) MSM, with odds ratios as low as 0.57 in unadjusted models for this subgroup, compared to null or"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Sertive vs. receptive).30038-5/fulltext) A 2024 meta-analysis of 62 observational studies reported a 23% reduction in HIV acquisition risk for circumcised gay a.",
+      "span": {
+        "quote": "sertive vs. receptive).30038-5/fulltext) A 2024 meta-analysis of 62 observational studies reported a 23% reduction in HIV acquisition risk for circumcised gay a"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Linked to 23% lower odds of HIV infection overall among MSM.",
+      "span": {
+        "quote": "linked to 23% lower odds of HIV infection overall among MSM"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "linked to 23% lower odds of HIV infection overall among MSM"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to 23% lower odds of HIV infection overall among MSM",
+          "span": {
+            "quote": "linked to 23% lower odds of HIV infection overall among MSM"
+          }
+        }
+      ]
+    }
+  ]
+}

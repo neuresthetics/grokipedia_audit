@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0022",
+  "source_text": "The term \"mutilation\" highlights the irreversible harm and lack of consent, particularly when performed on minors, and is standard in international health frameworks like those of WHO and UNFPA to underscore non-therapeutic injury. [12] [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The term \"mutilation\" highlights the irreversible harm and lack of consent, particularly when performed on minors, and is standard in intern"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The term \"mutilation\" highlights the irreversible harm and lack of consent, particularly when performed on minors, and is standard in international health frame.",
+      "span": {
+        "quote": "The term \"mutilation\" highlights the irreversible harm and lack of consent, particularly when performed on minors, and is standard in international health frame"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0024",
+  "source_text": "Immediate health risks include severe pain, excessive bleeding (hemorrhage), shock, urinary retention due to swelling and inflammation, wound infection, tetanus, and sepsis from unsterile conditions. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate health risks include severe pain, excessive bleeding (hemorrhage), shock, urinary retention due to swelling and inflammation, woun"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate health risks include severe pain, excessive bleeding (hemorrhage), shock, urinary retention due to swelling and inflammation, wound infection, tetanus.",
+      "span": {
+        "quote": "Immediate health risks include severe pain, excessive bleeding (hemorrhage), shock, urinary retention due to swelling and inflammation, wound infection, tetanus"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

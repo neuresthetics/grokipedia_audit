@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-006",
+  "source_text": "request carries passage_id, root_id, lookup_ids (generated id, supplied id, ancestors), target_id, claim_id, kind, quote, depth, and entry_ids.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "request carries passage_id, root_id, lookup_ids (generated id, supplied id, ancestors), target_id, claim_id, kind, quote, depth, and entry_i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Request carries passage_id, root_id, lookup_ids (generated id, supplied id, ancestors), target_id, claim_id, kind, quote, depth, and entry_ids.",
+      "span": {
+        "quote": "request carries passage_id, root_id, lookup_ids (generated id, supplied id, ancestors), target_id, claim_id, kind, quote, depth, and entry_ids."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

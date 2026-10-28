@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-s0143",
+  "source_text": "The American Academy of Pediatrics' 2012 policy identified this as a key benefit, estimating 111 circumcisions needed to prevent one UTI in healthy boys. [75] [76]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy identified this as a key benefit, estimating 111 circumcisions needed to prevent one UTI in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Academy of Pediatrics' 2012 policy identified this as a key benefit, estimating 111 circumcisions needed to prevent one UTI in healthy boys. [75] [.",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy identified this as a key benefit, estimating 111 circumcisions needed to prevent one UTI in healthy boys. [75] ["
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0064",
+  "source_text": "This adoption marked a formal consolidation of anti-mutilation advocacy, building on prior symposia since 1989 and urging medical bodies, governments, and the United Nations to prohibit non-therapeutic procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This adoption marked a formal consolidation of anti-mutilation advocacy, building on prior symposia since 1989 and urging medical bodies, go"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "medical_bodies"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This adoption marked a formal consolidation of anti-mutilation advocacy, building on prior symposia.",
+      "span": {
+        "quote": "This adoption marked a formal consolidation of anti-mutilation advocacy, building on prior symposia"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "1989 and urging medical bodies, governments, and the United Nations to prohibit non-therapeutic procedures.",
+      "span": {
+        "quote": "1989 and urging medical bodies, governments, and the United Nations to prohibit non-therapeutic procedures."
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    },
+    {
+      "id": "c3",
+      "text": "Medical bodies.",
+      "span": {
+        "quote": "medical bodies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "medical_bodies"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "since 1989 and urging medical bodies, governments, and the United"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "medical bodies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

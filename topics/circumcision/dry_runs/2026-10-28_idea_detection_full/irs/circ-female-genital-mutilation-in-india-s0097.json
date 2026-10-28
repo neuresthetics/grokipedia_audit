@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0097",
+  "source_text": "Immediate physical risks of khatna, the form of female genital cutting practiced in the Dawoodi Bohra community, include severe pain due to the absence of anesthesia during the procedure, which involves excision of the clitoral hood using a non-sterile razor by untrained community women on girls typically aged 6-8. [16] [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Immediate physical risks of khatna, the form of female genital cutting practiced in the Dawoodi Bohra community, include severe pain due to"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate physical risks of khatna, the form of female genital cutting practiced in the Dawoodi Bohra community, include severe pain due to the absence of anest.",
+      "span": {
+        "quote": "Immediate physical risks of khatna, the form of female genital cutting practiced in the Dawoodi Bohra community, include severe pain due to the absence of anest"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "passage_id": "circ-circumcision-controversies-01",
+  "source_text": "Proponents, often citing systematic reviews, argue that neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition, with bodies like the American Academy of Pediatrics concluding in 2012 that benefits outweigh risks, though not sufficiently to recommend universal adoption.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition"
+      },
+      "claim_ids": [
+        "c_reduces",
+        "c_reviews"
+      ],
+      "speaker": "proponents"
+    },
+    {
+      "id": "s2",
+      "span": {
+        "quote": "American Academy of Pediatrics concluding in 2012 that benefits outweigh risks, though not sufficiently to recommend universal adoption"
+      },
+      "claim_ids": [
+        "c_aap",
+        "c_not_universal"
+      ],
+      "speaker": "aap"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_reviews",
+      "text": "Systematic reviews support risk-reduction claims for neonatal circumcision.",
+      "span": {
+        "quote": "citing systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c_reduces",
+      "text": "Neonatal circumcision reduces risks of UTIs, penile cancer, and heterosexual HIV acquisition.",
+      "span": {
+        "quote": "neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_aap",
+      "text": "The AAP concluded in 2012 that benefits outweigh risks.",
+      "span": {
+        "quote": "American Academy of Pediatrics concluding in 2012 that benefits outweigh risks"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "aap",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_not_universal",
+      "text": "Those benefits are not sufficient to recommend universal adoption.",
+      "span": {
+        "quote": "not sufficiently to recommend universal adoption"
+      },
+      "role": "recommendation",
+      "hedge": "weak",
+      "scope": "action",
+      "speaker": "aap"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c_reviews",
+      "target": "c_reduces",
+      "span": {
+        "quote": "citing systematic reviews"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_reduces",
+      "target": "c_aap",
+      "span": {
+        "quote": "benefits outweigh risks"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c_aap",
+      "target": "c_not_universal",
+      "span": {
+        "quote": "American Academy of Pediatrics concluding in 2012"
+      },
+      "warrant": "inductive"
+    }
+  ],
+  "agents": [
+    {
+      "id": "aap",
+      "name_span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "traits": []
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

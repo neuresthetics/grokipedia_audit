@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0128",
+  "source_text": "Prioritizing observable utilities over subjective proxies, the procedure's net causal effect favors reduced disease transmission over unsubstantiated pleasure deficits.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Prioritizing observable utilities over subjective proxies, the procedure's net causal effect favors reduced disease transmission over unsubs"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prioritizing observable utilities over subjective proxies, the procedure's net causal effect favors reduced disease transmission over unsubstantiated pleasure d.",
+      "span": {
+        "quote": "Prioritizing observable utilities over subjective proxies, the procedure's net causal effect favors reduced disease transmission over unsubstantiated pleasure d"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated pleasure deficits.",
+      "span": {
+        "quote": "unsubstantiated pleasure deficits"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated pleasure deficits"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

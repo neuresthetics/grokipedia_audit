@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0058",
+  "source_text": "Symbolic purity and aesthetic standards further underpin the practice, with communities perceiving FGM as a way to achieve cleanliness and beauty by removing what is viewed as unclean external genitalia, thus symbolizing moral and physical refinement. [15] [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Symbolic purity and aesthetic standards further underpin the practice, with communities perceiving FGM as a way to achieve cleanliness and b"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Mbolic purity and aesthetic standards further underpin the practice, with communities perceiving FGM as a way to achieve cleanliness and beauty by removing what.",
+      "span": {
+        "quote": "mbolic purity and aesthetic standards further underpin the practice, with communities perceiving FGM as a way to achieve cleanliness and beauty by removing what"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Symbolizing moral and physical refinement. [15] [11].",
+      "span": {
+        "quote": "symbolizing moral and physical refinement. [15] [11]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

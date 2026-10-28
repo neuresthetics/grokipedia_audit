@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0037",
+  "source_text": "Some proponents of harm reduction view symbolic pricking as a culturally sensitive alternative to more severe forms, potentially easing abandonment by fulfilling social norms with minimal physical alteration. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some proponents of harm reduction view symbolic pricking as a culturally sensitive alternative to more severe forms, potentially easing aban"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Some proponents of harm reduction view symbolic pricking as a culturally sensitive alternative to more severe forms, potentially easing abandonment by fulfillin.",
+      "span": {
+        "quote": "Some proponents of harm reduction view symbolic pricking as a culturally sensitive alternative to more severe forms, potentially easing abandonment by fulfillin"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

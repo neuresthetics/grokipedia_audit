@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0182",
+  "source_text": "Additional stated purposes include aesthetic modification to align with ideals of feminine beauty, initiation into womanhood as a rite of passage, and conformity to group norms for marriageability or ethnic identity. [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional stated purposes include aesthetic modification to align with ideals of feminine beauty, initiation into womanhood as a rite of pa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additional stated purposes include aesthetic modification to align with ideals of feminine beauty, initiation into womanhood as a rite of passage, and conformit.",
+      "span": {
+        "quote": "Additional stated purposes include aesthetic modification to align with ideals of feminine beauty, initiation into womanhood as a rite of passage, and conformit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

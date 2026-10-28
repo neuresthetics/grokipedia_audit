@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0161",
+  "source_text": "Sexual dysfunction, including dyspareunia, reduced arousal, and lubrication deficits, is prevalent; WHNS data indicate affected U.S. women experience more sexual health problems, causally tied to clitoral removal and vaginal narrowing in higher-type procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sexual dysfunction, including dyspareunia, reduced arousal, and lubrication deficits, is prevalent; WHNS data indicate affected U.S. women e"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sexual dysfunction, including dyspareunia, reduced arousal, and lubrication deficits, is prevalent; WHNS data indicate affected U.S. women experience more sexua.",
+      "span": {
+        "quote": "Sexual dysfunction, including dyspareunia, reduced arousal, and lubrication deficits, is prevalent; WHNS data indicate affected U.S. women experience more sexua"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to clitoral removal and vaginal narrowing in higher-type.",
+      "span": {
+        "quote": "tied to clitoral removal and vaginal narrowing in higher-type"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to clitoral removal and vaginal narrowing in higher-type"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to clitoral removal and vaginal narrowing in higher-type ",
+          "span": {
+            "quote": "tied to clitoral removal and vaginal narrowing in higher-type"
+          }
+        }
+      ]
+    }
+  ]
+}

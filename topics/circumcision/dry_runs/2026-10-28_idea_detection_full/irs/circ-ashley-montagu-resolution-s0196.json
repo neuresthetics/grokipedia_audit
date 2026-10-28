@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0196",
+  "source_text": "Scientific studies have identified several health benefits associated with male circumcision, particularly in reducing the risk of certain infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scientific studies have identified several health benefits associated with male circumcision, particularly in reducing the risk of certain i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scientific studies have identified several health benefits associated with male circumcision, particularly in reducing the risk of certain infections.",
+      "span": {
+        "quote": "Scientific studies have identified several health benefits associated with male circumcision, particularly in reducing the risk of certain infections."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with male circumcision.",
+      "span": {
+        "quote": "associated with male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with male circumcision"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with male circumcision",
+          "span": {
+            "quote": "associated with male circumcision"
+          }
+        }
+      ]
+    }
+  ]
+}

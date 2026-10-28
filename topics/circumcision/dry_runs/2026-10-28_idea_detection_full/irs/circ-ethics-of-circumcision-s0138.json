@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0138",
+  "source_text": "In October 2025, scholars including former contributors to U.S. circumcision policy guidelines expressed doubts about longstanding recommendations, urging a renewed ethical and scientific review amid mounting controversies over neonatal procedures, though no formal consensus reversal has occurred. [88]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In October 2025, scholars including former contributors to U.S. circumcision policy guidelines expressed doubts about longstanding recommend"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "scholars",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In October 2025, scholars including former contributors to U.S. circumcision policy guidelines expressed doubts about longstanding recommendations, urging a ren.",
+      "span": {
+        "quote": "In October 2025, scholars including former contributors to U.S. circumcision policy guidelines expressed doubts about longstanding recommendations, urging a ren"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "scholars"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

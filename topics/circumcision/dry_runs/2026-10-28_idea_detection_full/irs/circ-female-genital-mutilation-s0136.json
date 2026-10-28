@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0136",
+  "source_text": "In Kenyan Maasai and Somali groups, surveys reveal that fear of gossip and loss of marriageability drives many procedures, illustrating how the practice sustains unequal power structures by commodifying female bodies within kinship networks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Kenyan Maasai and Somali groups, surveys reveal that fear of gossip and loss of marriageability drives many procedures, illustrating how"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Kenyan Maasai and Somali groups, surveys reveal that fear of gossip and loss of marriageability drives many procedures, illustrating how the practice sustain.",
+      "span": {
+        "quote": "In Kenyan Maasai and Somali groups, surveys reveal that fear of gossip and loss of marriageability drives many procedures, illustrating how the practice sustain"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

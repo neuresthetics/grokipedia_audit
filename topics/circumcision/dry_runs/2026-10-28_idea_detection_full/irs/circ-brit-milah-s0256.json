@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-milah-s0256",
+  "source_text": "Proponents argue this ritual instills communal identity and ethical formation from birth, with parental authority extending to irreversible acts that secure the child's religious inheritance, akin to other parental decisions in child-rearing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents argue this ritual instills communal identity and ethical formation from birth, with parental authority extending to irreversible"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is ritual instills communal identity and ethical formation from birth, with parental authority extending to irreversible acts that secure the child's religious.",
+      "span": {
+        "quote": "is ritual instills communal identity and ethical formation from birth, with parental authority extending to irreversible acts that secure the child's religious "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

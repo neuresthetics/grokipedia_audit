@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0242",
+  "source_text": "Beyond HSV-1, MBP introduces risks of other bloodborne or oral pathogens, such as bacteria or viruses from the mohel's saliva, though HSV remains the most documented vector due to its prevalence and neonatal virulence. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Beyond HSV-1, MBP introduces risks of other bloodborne or oral pathogens, such as bacteria or viruses from the mohel's saliva, though HSV re"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Beyond HSV-1, MBP introduces risks of other bloodborne or oral pathogens, such as bacteria or viruses from the mohel's saliva, though HSV remains the most docum.",
+      "span": {
+        "quote": "Beyond HSV-1, MBP introduces risks of other bloodborne or oral pathogens, such as bacteria or viruses from the mohel's saliva, though HSV remains the most docum"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

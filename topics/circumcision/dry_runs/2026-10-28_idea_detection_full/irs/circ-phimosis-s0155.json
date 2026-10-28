@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0155",
+  "source_text": "Circumcision (full or partial removal of the foreskin) remains the definitive treatment for refractory or complicated cases, permanently eliminating phimosis and associated risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision (full or partial removal of the foreskin) remains the definitive treatment for refractory or complicated cases, permanently eli"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision (full or partial removal of the foreskin) remains the definitive treatment for refractory or complicated cases, permanently eliminating phimosis an.",
+      "span": {
+        "quote": "Circumcision (full or partial removal of the foreskin) remains the definitive treatment for refractory or complicated cases, permanently eliminating phimosis an"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

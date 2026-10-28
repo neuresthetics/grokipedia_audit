@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0089",
+  "source_text": "This legislation marked the first national ban, prompted by President Yahya Jammeh's public declaration in November 2015 that FGM was \"un-Islamic\" and would no longer be tolerated, framing the prohibition in religious terms to align with the country's predominantly Muslim population.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This legislation marked the first national ban, prompted by President Yahya Jammeh's public declaration in November 2015 that FGM was \"un-Is"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This legislation marked the first national ban, prompted by President Yahya Jammeh's public declaration in November 2015 that FGM was \"un-Islamic\" and would no.",
+      "span": {
+        "quote": "This legislation marked the first national ban, prompted by President Yahya Jammeh's public declaration in November 2015 that FGM was \"un-Islamic\" and would no "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

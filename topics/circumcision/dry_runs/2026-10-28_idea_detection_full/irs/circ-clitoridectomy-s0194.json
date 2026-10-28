@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0194",
+  "source_text": "Medical reviews contradict this, documenting elevated short-term risks of urinary tract infections, wound sepsis, and tetanus\u2014rates up to 20-30% in non-sterile settings\u2014without evidence of long-term preventive benefits over standard sanitation practices. [94]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medical reviews contradict this, documenting elevated short-term risks of urinary tract infections, wound sepsis, and tetanus\u2014rates up to 20"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medical reviews contradict this, documenting elevated short-term risks of urinary tract infections, wound sepsis, and tetanus\u2014rates up to 20-30% in non-sterile.",
+      "span": {
+        "quote": "Medical reviews contradict this, documenting elevated short-term risks of urinary tract infections, wound sepsis, and tetanus\u2014rates up to 20-30% in non-sterile "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0130",
+  "source_text": "This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates.",
+      "span": {
+        "quote": "This approach avoids potential complications from anesthetics, such as delayed healing or allergic reactions in neonates."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

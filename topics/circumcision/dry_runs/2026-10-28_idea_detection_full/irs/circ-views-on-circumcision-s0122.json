@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0122",
+  "source_text": "The analogy to FGM is contested on grounds that FGM procedures, such as clitoridectomy, confer no health benefits and are universally condemned by bodies like the World Health Organization for severe complications, whereas male circumcision has documented preventive effects against certain infections, rendering the comparison ethically asymmetric.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The analogy to FGM is contested on grounds that FGM procedures, such as clitoridectomy, confer no health benefits and are universally condem"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The analogy to FGM is contested on grounds that FGM procedures, such as clitoridectomy, confer no health benefits and are universally condemned by bodies like t.",
+      "span": {
+        "quote": "The analogy to FGM is contested on grounds that FGM procedures, such as clitoridectomy, confer no health benefits and are universally condemned by bodies like t"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

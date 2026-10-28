@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0215",
+  "source_text": "Some interpretations also posit enhanced male sexual pleasure from a narrowed vaginal opening and alignment with femininity by excising perceived masculine clitoral features.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some interpretations also posit enhanced male sexual pleasure from a narrowed vaginal opening and alignment with femininity by excising perc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Some interpretations also posit enhanced male sexual pleasure from a narrowed vaginal opening and alignment with femininity by excising perceived masculine clit.",
+      "span": {
+        "quote": "Some interpretations also posit enhanced male sexual pleasure from a narrowed vaginal opening and alignment with femininity by excising perceived masculine clit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

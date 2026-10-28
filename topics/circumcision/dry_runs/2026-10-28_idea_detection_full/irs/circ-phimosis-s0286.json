@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0286",
+  "source_text": "A 2023 study using a stretching device reported 81% success in adults at 24-month follow-up, underscoring viable non-surgical paths that mitigate risks of surgical regret or functional loss. [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2023 study using a stretching device reported 81% success in adults at 24-month follow-up, underscoring viable non-surgical paths that mit"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2023 study using a stretching device reported 81% success in adults at 24-month follow-up, underscoring viable non-surgical paths that mitigate risks of surgi.",
+      "span": {
+        "quote": "A 2023 study using a stretching device reported 81% success in adults at 24-month follow-up, underscoring viable non-surgical paths that mitigate risks of surgi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

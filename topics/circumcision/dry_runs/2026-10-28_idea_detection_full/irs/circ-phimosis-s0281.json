@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-phimosis-s0281",
+  "source_text": "Complications, though uncommon (occurring in 1-5% of cases), include bleeding, infection, and meatal stenosis, with systematic reviews highlighting higher risks in neonatal or non-specialist settings. [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complications, though uncommon (occurring in 1-5% of cases), include bleeding, infection, and meatal stenosis, with systematic reviews highl"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complications, though uncommon (occurring in 1-5% of cases), include bleeding, infection, and meatal stenosis, with systematic reviews highlighting higher risks.",
+      "span": {
+        "quote": "Complications, though uncommon (occurring in 1-5% of cases), include bleeding, infection, and meatal stenosis, with systematic reviews highlighting higher risks"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

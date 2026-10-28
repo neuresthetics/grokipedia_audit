@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0192",
+  "source_text": "U.S. studies also link higher circumcision rates to parents with greater education levels, who cite familiarity with evidence on preventive health outcomes like reduced urinary tract infections and certain STIs, countering narratives of inverse correlations in less informed populations. [127]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "U.S. studies also link higher circumcision rates to parents with greater education levels, who cite familiarity with evidence on preventive"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "U.S. studies also link higher circumcision rates to parents with greater education levels, who cite familiarity with evidence on preventive health outcomes like.",
+      "span": {
+        "quote": "U.S. studies also link higher circumcision rates to parents with greater education levels, who cite familiarity with evidence on preventive health outcomes like"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

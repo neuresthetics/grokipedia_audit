@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0180",
+  "source_text": "Additional acute injuries encompass genital ulcers, lacerations to adjacent structures like the urethra or vagina, and fracture of the clitoris during excision. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional acute injuries encompass genital ulcers, lacerations to adjacent structures like the urethra or vagina, and fracture of the clito"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additional acute injuries encompass genital ulcers, lacerations to adjacent structures like the urethra or vagina, and fracture of the clitoris during excision.",
+      "span": {
+        "quote": "Additional acute injuries encompass genital ulcers, lacerations to adjacent structures like the urethra or vagina, and fracture of the clitoris during excision."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

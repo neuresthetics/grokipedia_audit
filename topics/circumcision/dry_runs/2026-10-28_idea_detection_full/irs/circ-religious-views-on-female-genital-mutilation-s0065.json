@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0065",
+  "source_text": "However, this Hadith is classified as ahad (singularly narrated) and lacks the mutawatir (mass-transmitted) status that elevates male circumcision to a confirmed Sunnah practice.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, this Hadith is classified as ahad (singularly narrated) and lacks the mutawatir (mass-transmitted) status that elevates male circum"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, this Hadith is classified as ahad (singularly narrated) and lacks the mutawatir (mass-transmitted) status that elevates male circumcision to a confirme.",
+      "span": {
+        "quote": "However, this Hadith is classified as ahad (singularly narrated) and lacks the mutawatir (mass-transmitted) status that elevates male circumcision to a confirme"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

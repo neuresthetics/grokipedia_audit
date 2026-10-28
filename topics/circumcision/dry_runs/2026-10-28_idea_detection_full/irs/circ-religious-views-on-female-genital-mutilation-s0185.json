@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0185",
+  "source_text": "These statements framed FGM as incompatible with religious teachings on human dignity, contributing to broader religious mobilization.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These statements framed FGM as incompatible with religious teachings on human dignity, contributing to broader religious mobilization."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These statements framed FGM as incompatible with religious teachings on human dignity, contributing to broader religious mobilization.",
+      "span": {
+        "quote": "These statements framed FGM as incompatible with religious teachings on human dignity, contributing to broader religious mobilization."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

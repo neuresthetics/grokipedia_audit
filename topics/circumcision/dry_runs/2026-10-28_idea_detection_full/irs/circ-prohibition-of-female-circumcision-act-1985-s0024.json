@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0024",
+  "source_text": "Psychological sequelae, including trauma-induced aversion to sexual activity and marital distress, were also reported, underscoring the causal harms of non-therapeutic excision without anesthesia or sterile conditions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological sequelae, including trauma-induced aversion to sexual activity and marital distress, were also reported, underscoring the caus"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological sequelae, including trauma-induced aversion to sexual activity and marital distress, were also reported, underscoring the causal harms of non-ther.",
+      "span": {
+        "quote": "Psychological sequelae, including trauma-induced aversion to sexual activity and marital distress, were also reported, underscoring the causal harms of non-ther"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

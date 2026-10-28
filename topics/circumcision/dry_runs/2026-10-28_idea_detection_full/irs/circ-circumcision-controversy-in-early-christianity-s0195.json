@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0195",
+  "source_text": "Early Christian interpreters, echoing Paul, viewed it as evidence that external rites alone cannot confer spiritual status, a view substantiated by the inefficacy of physical circumcision without corresponding obedience, as critiqued in Jeremiah 4:4 and Ezekiel 44:7.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Early Christian interpreters, echoing Paul, viewed it as evidence that external rites alone cannot confer spiritual status, a view substanti"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Early Christian interpreters, echoing Paul, viewed it as evidence that external rites alone cannot confer spiritual status, a view substantiated by the ineffica.",
+      "span": {
+        "quote": "Early Christian interpreters, echoing Paul, viewed it as evidence that external rites alone cannot confer spiritual status, a view substantiated by the ineffica"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

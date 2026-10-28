@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-forced-circumcision-s0232",
+  "source_text": "Ethicists such as Brian D. Earp contend that such interventions infringe on self-determination, drawing parallels to prohibitions on other non-consensual modifications, and emphasize that proxy consent by parents does not override the child's prospective autonomy. [105]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethicists such as Brian D. Earp contend that such interventions infringe on self-determination, drawing parallels to prohibitions on other n"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such interventions infringe on self-determination, drawing parallels to prohibitions on other non-consensual modifications, and emphasize that proxy consent by.",
+      "span": {
+        "quote": "such interventions infringe on self-determination, drawing parallels to prohibitions on other non-consensual modifications, and emphasize that proxy consent by "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethicists such as Brian D. Earp.",
+      "span": {
+        "quote": "Ethicists such as Brian D. Earp"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

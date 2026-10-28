@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0208",
+  "source_text": "Proponents of absolutism emphasize causal links between FGM and irreversible harms, rejecting medicalization as a false safeguard that sustains demand, while enforcement advocates call for enhanced surveillance of clinics and community reporting incentives to avoid underground proliferation without excusing the practice's persistence. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of absolutism emphasize causal links between FGM and irreversible harms, rejecting medicalization as a false safeguard that susta"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Causal links between FGM and irreversible harms, rejecting medicalization as a false safeguard that sustains demand, while enforcement advocates call for enhanc.",
+      "span": {
+        "quote": "causal links between FGM and irreversible harms, rejecting medicalization as a false safeguard that sustains demand, while enforcement advocates call for enhanc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of absolutism.",
+      "span": {
+        "quote": "Proponents of absolutism"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

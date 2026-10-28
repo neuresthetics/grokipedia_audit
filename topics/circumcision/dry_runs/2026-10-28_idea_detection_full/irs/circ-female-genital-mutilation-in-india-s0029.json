@@ -1,0 +1,75 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0029",
+  "source_text": "The terminological divergence underscores perceptual gaps: while international bodies and Indian activists invoke \"mutilation\" to evoke harm and advocate prohibition, community narratives prioritize cultural continuity, with khatna invoked in intra-community discourse as an innocuous rite of passage, not a violation warranting the pejorative \"FGM\" label that homogenizes disparate practices. [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The terminological divergence underscores perceptual gaps: while international bodies and Indian activists invoke \"mutilation\" to evoke harm"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The terminological divergence underscores perceptual gaps: while international bodies and Indian activists invoke \"mutilation\" to evoke harm and advocate prohib.",
+      "span": {
+        "quote": "The terminological divergence underscores perceptual gaps: while international bodies and Indian activists invoke \"mutilation\" to evoke harm and advocate prohib"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Activists invoke \"mutilation\" to evoke harm and advocate.",
+      "span": {
+        "quote": "activists invoke \"mutilation\" to evoke harm and advocate"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "activists invoke \"mutilation\" to evoke harm and advocate"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "The terminological d"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activists invoke \"mutilation\" to evoke harm and advocate ",
+          "span": {
+            "quote": "activists invoke \"mutilation\" to evoke harm and advocate"
+          }
+        }
+      ]
+    }
+  ]
+}

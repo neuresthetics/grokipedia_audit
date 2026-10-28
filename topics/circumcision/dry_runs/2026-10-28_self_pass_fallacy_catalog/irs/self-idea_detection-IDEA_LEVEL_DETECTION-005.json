@@ -1,0 +1,37 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-005",
+  "source_text": "Rhetorical surface cues (insult lexicon, \u201ceveryone knows\u201d) are **optional weak priors** that may reorder which entries to check first. They never satisfy a condition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rhetorical surface cues (insult lexicon, \u201ceveryone knows\u201d) are **optional weak priors** that may reorder which entries to check first. They"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rhetorical surface cues (insult lexicon, \u201ceveryone knows\u201d) are **optional weak priors** that may reorder which entries to check first. They never satisfy a cond.",
+      "span": {
+        "quote": "Rhetorical surface cues (insult lexicon, \u201ceveryone knows\u201d) are **optional weak priors** that may reorder which entries to check first. They never satisfy a cond"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

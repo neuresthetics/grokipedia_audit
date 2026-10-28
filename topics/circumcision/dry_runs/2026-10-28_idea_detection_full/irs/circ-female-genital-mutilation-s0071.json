@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0071",
+  "source_text": "Sexual dysfunction, including dyspareunia and reduced lubrication, affects over 70% of infibulated women per clinical reports from Sudanese refugees.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sexual dysfunction, including dyspareunia and reduced lubrication, affects over 70% of infibulated women per clinical reports from Sudanese"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sexual dysfunction, including dyspareunia and reduced lubrication, affects over 70% of infibulated women per clinical reports from Sudanese refugees.",
+      "span": {
+        "quote": "Sexual dysfunction, including dyspareunia and reduced lubrication, affects over 70% of infibulated women per clinical reports from Sudanese refugees."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per clinical reports from Sudanese refugees.",
+      "span": {
+        "quote": "per clinical reports from Sudanese refugees"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per clinical reports from Sudanese refugees"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

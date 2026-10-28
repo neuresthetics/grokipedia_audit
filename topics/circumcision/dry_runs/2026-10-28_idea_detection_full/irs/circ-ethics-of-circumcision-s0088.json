@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0088",
+  "source_text": "This framework holds that while autonomy rights vest at birth, their enforcement defers to proxies until maturity, barring procedures demonstrably gratuitous or disproportionately invasive; thus, circumcision's ethical standing hinges on whether its rationale elevates it above mere tradition into permissible welfare enhancement, without presuming infant veto power over all somatic changes. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This framework holds that while autonomy rights vest at birth, their enforcement defers to proxies until maturity, barring procedures demons"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This framework holds that while autonomy rights vest at birth, their enforcement defers to proxies until maturity, barring procedures demonstrably gratuitous or.",
+      "span": {
+        "quote": "This framework holds that while autonomy rights vest at birth, their enforcement defers to proxies until maturity, barring procedures demonstrably gratuitous or"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Circumcision's ethical standing hinges on whether its rationale elevates it above mere tradition into permissible welfare enhancement, without presuming infant.",
+      "span": {
+        "quote": "circumcision's ethical standing hinges on whether its rationale elevates it above mere tradition into permissible welfare enhancement, without presuming infant "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "This framework holds that while autonomy rights vest at birth.",
+      "span": {
+        "quote": "This framework holds that while autonomy rights vest at birth"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "This framework holds that while autonomy rights vest at birt"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

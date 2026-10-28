@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0176",
+  "source_text": "Such views contrast external characterizations of mutilation, prioritizing empirical continuity of lineage beliefs over biomedical critiques.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such views contrast external characterizations of mutilation, prioritizing empirical continuity of lineage beliefs over biomedical critiques"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such views contrast external characterizations of mutilation, prioritizing empirical continuity of lineage beliefs over biomedical critiques.",
+      "span": {
+        "quote": "Such views contrast external characterizations of mutilation, prioritizing empirical continuity of lineage beliefs over biomedical critiques."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

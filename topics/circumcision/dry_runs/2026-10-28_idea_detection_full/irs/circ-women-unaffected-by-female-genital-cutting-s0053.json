@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0053",
+  "source_text": "For instance, among groups in Guinea, FGC is justified as promoting purity and beauty, aligning with cultural ideals of proper female form. [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, among groups in Guinea, FGC is justified as promoting purity and beauty, aligning with cultural ideals of proper female form."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, among groups in Guinea, FGC is justified as promoting purity and beauty, aligning with cultural ideals of proper female form. [21].",
+      "span": {
+        "quote": "For instance, among groups in Guinea, FGC is justified as promoting purity and beauty, aligning with cultural ideals of proper female form. [21]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

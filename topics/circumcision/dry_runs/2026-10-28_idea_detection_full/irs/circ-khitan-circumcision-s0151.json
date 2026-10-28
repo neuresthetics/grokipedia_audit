@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0151",
+  "source_text": "Systematic evidence also links circumcision to a lower lifetime risk of penile cancer, which is rare but strongly associated with chronic inflammation, phimosis, and human papillomavirus (HPV) persistence under the foreskin.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic evidence also links circumcision to a lower lifetime risk of penile cancer, which is rare but strongly associated with chronic in"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic evidence also links circumcision to a lower lifetime risk of penile cancer, which is rare but strongly associated with chronic inflammation, phimosis.",
+      "span": {
+        "quote": "Systematic evidence also links circumcision to a lower lifetime risk of penile cancer, which is rare but strongly associated with chronic inflammation, phimosis"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with chronic inflammation.",
+      "span": {
+        "quote": "associated with chronic inflammation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with chronic inflammation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with chronic inflammation",
+          "span": {
+            "quote": "associated with chronic inflammation"
+          }
+        }
+      ]
+    }
+  ]
+}

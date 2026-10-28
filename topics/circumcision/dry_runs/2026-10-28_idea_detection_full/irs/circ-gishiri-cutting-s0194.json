@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0194",
+  "source_text": "Conversely, reductions in the practice are driven by heightened awareness of its complications, particularly vesicovaginal fistulas (VVF), with data from northern Nigerian hospitals indicating that Gishiri cuts account for up to 15% of pediatric VVF cases among girls under 13, often resulting from hemorrhage, infection, or tissue necrosis post-procedure. [4] [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conversely, reductions in the practice are driven by heightened awareness of its complications, particularly vesicovaginal fistulas (VVF), w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Conversely, reductions in the practice are driven by heightened awareness of its complications, particularly vesicovaginal fistulas (VVF), with data from northe.",
+      "span": {
+        "quote": "Conversely, reductions in the practice are driven by heightened awareness of its complications, particularly vesicovaginal fistulas (VVF), with data from northe"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

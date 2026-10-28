@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0079",
+  "source_text": "These acts differ from consensual adult body modifications by occurring non-consensually on minors and serving sociocultural control functions rather than aesthetic preferences.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These acts differ from consensual adult body modifications by occurring non-consensually on minors and serving sociocultural control functio"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These acts differ from consensual adult body modifications by occurring non-consensually on minors and serving sociocultural control functions rather than aesth.",
+      "span": {
+        "quote": "These acts differ from consensual adult body modifications by occurring non-consensually on minors and serving sociocultural control functions rather than aesth"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

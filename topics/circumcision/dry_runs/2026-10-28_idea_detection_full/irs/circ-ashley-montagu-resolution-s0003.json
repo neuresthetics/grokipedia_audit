@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0003",
+  "source_text": "Drafted by developmental neuropsychologist James W. Prescott and named in honor of British-American anthropologist Montague Francis Ashley Montagu (1905\u20131999), the resolution pays tribute to Montagu's lifelong advocacy for child well-being, the primacy of affectionate touch in neurodevelopment, and opposition to dehumanizing customs, framing genital cutting as antithetical to these principles. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Drafted by developmental neuropsychologist James W. Prescott and named in honor of British-American anthropologist Montague Francis Ashley M"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Drafted by developmental neuropsychologist James W. Prescott and named in honor of British-American anthropologist Montague Francis Ashley Montagu (1905\u20131999),.",
+      "span": {
+        "quote": "Drafted by developmental neuropsychologist James W. Prescott and named in honor of British-American anthropologist Montague Francis Ashley Montagu (1905\u20131999), "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0174",
+  "source_text": "This preservationist ethos underscores a causal logic among adherents: unperformed rituals risk spiritual disequilibrium or social ostracism, embedding the practice in intergenerational transmission of worldview against globalizing pressures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This preservationist ethos underscores a causal logic among adherents: unperformed rituals risk spiritual disequilibrium or social ostracism"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This preservationist ethos underscores a causal logic among adherents: unperformed rituals risk spiritual disequilibrium or social ostracism, embedding the prac.",
+      "span": {
+        "quote": "This preservationist ethos underscores a causal logic among adherents: unperformed rituals risk spiritual disequilibrium or social ostracism, embedding the prac"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

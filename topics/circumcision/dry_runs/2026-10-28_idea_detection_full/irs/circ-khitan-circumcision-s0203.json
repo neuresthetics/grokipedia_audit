@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0203",
+  "source_text": "The World Health Organization classifies FGC into four types, from clitoridectomy (Type I) to infibulation (Type III, involving narrowing of the vaginal opening), none of which align anatomically or functionally with the localized removal in khitan.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization classifies FGC into four types, from clitoridectomy (Type I) to infibulation (Type III, involving narrowing of"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization classifies FGC into four types, from clitoridectomy (Type I) to infibulation (Type III, involving narrowing of the vaginal opening.",
+      "span": {
+        "quote": "The World Health Organization classifies FGC into four types, from clitoridectomy (Type I) to infibulation (Type III, involving narrowing of the vaginal opening"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0156",
+  "source_text": "A prospective cohort study of 420 primigravida women at Omdurman Maternity Hospital in Sudan found that 76.9% of those who had undergone FGM reported dyspareunia, compared to significantly lower rates in uncircumcised women (p < 0.001), with type III infibulation (prevalent in 67.8% of cases) contributing to scarring and adhesions that exacerbate painful intercourse. [32]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A prospective cohort study of 420 primigravida women at Omdurman Maternity Hospital in Sudan found that 76.9% of those who had undergone FGM"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A prospective cohort study of 420 primigravida women at Omdurman Maternity Hospital in Sudan found that 76.9% of those who had undergone FGM reported dyspareuni.",
+      "span": {
+        "quote": "A prospective cohort study of 420 primigravida women at Omdurman Maternity Hospital in Sudan found that 76.9% of those who had undergone FGM reported dyspareuni"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

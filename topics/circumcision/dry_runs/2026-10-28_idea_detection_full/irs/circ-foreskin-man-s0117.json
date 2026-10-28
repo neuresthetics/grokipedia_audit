@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-foreskin-man-s0117",
+  "source_text": "This defense positions the comic within a broader intactivist framework prioritizing minors' rights to bodily integrity over unrestricted parental or religious authority, without documented causal ties to anti-Semitic incidents.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This defense positions the comic within a broader intactivist framework prioritizing minors' rights to bodily integrity over unrestricted pa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This defense positions the comic within a broader intactivist framework prioritizing minors' rights to bodily integrity over unrestricted parental or religious.",
+      "span": {
+        "quote": "This defense positions the comic within a broader intactivist framework prioritizing minors' rights to bodily integrity over unrestricted parental or religious "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0189",
+  "source_text": "This position drew immediate backlash from critics, including medical ethicists and advocacy groups, who argued it undermined opposition to any non-therapeutic genital alteration and risked normalizing harm under the guise of cultural accommodation. [84]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This position drew immediate backlash from critics, including medical ethicists and advocacy groups, who argued it undermined opposition to"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It undermined opposition to any non-therapeutic genital alteration and risked normalizing harm under the guise of cultural accommodation.",
+      "span": {
+        "quote": "it undermined opposition to any non-therapeutic genital alteration and risked normalizing harm under the guise of cultural accommodation."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "This position drew immediate backlash from critics, including medical ethicists and advocacy groups, who.",
+      "span": {
+        "quote": "This position drew immediate backlash from critics, including medical ethicists and advocacy groups, who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

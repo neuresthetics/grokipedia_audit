@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0283",
+  "source_text": "Jewish authorities have consistently affirmed brit milah as a core religious obligation mandated by Torah law (Genesis 17:10-14), performed on the eighth day after birth barring health contraindications, and have resisted secular challenges framing it as child harm. [145]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Jewish authorities have consistently affirmed brit milah as a core religious obligation mandated by Torah law (Genesis 17:10-14), performed"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Jewish authorities have consistently affirmed brit milah as a core religious obligation mandated by Torah law (Genesis 17:10-14), performed on the eighth day af.",
+      "span": {
+        "quote": "Jewish authorities have consistently affirmed brit milah as a core religious obligation mandated by Torah law (Genesis 17:10-14), performed on the eighth day af"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

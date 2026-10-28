@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0129",
+  "source_text": "For instance, the American Academy of Pediatrics' 2012 policy statement explicitly affirms that \"parents have the right to make the decision\" for their newborns, emphasizing informed consent over absolutist non-intervention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, the American Academy of Pediatrics' 2012 policy statement explicitly affirms that \"parents have the right to make the decision"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, the American Academy of Pediatrics' 2012 policy statement explicitly affirms that \"parents have the right to make the decision\" for their newborns.",
+      "span": {
+        "quote": "For instance, the American Academy of Pediatrics' 2012 policy statement explicitly affirms that \"parents have the right to make the decision\" for their newborns"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

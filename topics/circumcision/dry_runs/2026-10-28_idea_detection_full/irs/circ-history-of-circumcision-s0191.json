@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0191",
+  "source_text": "The first trial, conducted in Orange Farm, South Africa, from 2002 to 2003, involved 3,274 uncircumcised men aged 18-24 and demonstrated a 60% reduction in HIV incidence over 21 months compared to controls. [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The first trial, conducted in Orange Farm, South Africa, from 2002 to 2003, involved 3,274 uncircumcised men aged 18-24 and demonstrated a 6"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The first trial, conducted in Orange Farm, South Africa, from 2002 to 2003, involved 3,274 uncircumcised men aged 18-24 and demonstrated a 60% reduction in HIV.",
+      "span": {
+        "quote": "The first trial, conducted in Orange Farm, South Africa, from 2002 to 2003, involved 3,274 uncircumcised men aged 18-24 and demonstrated a 60% reduction in HIV "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

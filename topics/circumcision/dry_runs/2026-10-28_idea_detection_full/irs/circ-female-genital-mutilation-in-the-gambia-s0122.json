@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0122",
+  "source_text": "Proponents of female genital mutilation (FGM) in The Gambia defend the practice as an integral component of cultural identity and social cohesion, viewing it as a rite of passage that marks a girl's transition to womanhood and ensures her eligibility for marriage within ethnic communities such as the Mandinka, Fula, and Jola. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of female genital mutilation (FGM) in The Gambia defend the practice as an integral component of cultural identity and social coh"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents of female genital mutilation (FGM) in The Gambia defend the practice as an integral component of cultural identity and social cohesion, viewing it as.",
+      "span": {
+        "quote": "Proponents of female genital mutilation (FGM) in The Gambia defend the practice as an integral component of cultural identity and social cohesion, viewing it as"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

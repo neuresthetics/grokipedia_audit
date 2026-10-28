@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0134",
+  "source_text": "Subsequent studies have reported higher rates, especially when diagnosis relies on systematic examination rather than hospital records of symptomatic cases.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Subsequent studies have reported higher rates, especially when diagnosis relies on systematic examination rather than hospital records of sy"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Subsequent studies have reported higher rates, especially when diagnosis relies on systematic examination rather than hospital records of symptomatic cases.",
+      "span": {
+        "quote": "Subsequent studies have reported higher rates, especially when diagnosis relies on systematic examination rather than hospital records of symptomatic cases."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

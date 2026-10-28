@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0057",
+  "source_text": "The cut aims to \"widen\" the vagina or relieve perceived obstructions, with no standardized depth or extent, leading to variable tissue damage including potential urethral involvement.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The cut aims to \"widen\" the vagina or relieve perceived obstructions, with no standardized depth or extent, leading to variable tissue damag"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The cut aims to \"widen\" the vagina or relieve perceived obstructions, with no standardized depth or extent, leading to variable tissue damage including potentia.",
+      "span": {
+        "quote": "The cut aims to \"widen\" the vagina or relieve perceived obstructions, with no standardized depth or extent, leading to variable tissue damage including potentia"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

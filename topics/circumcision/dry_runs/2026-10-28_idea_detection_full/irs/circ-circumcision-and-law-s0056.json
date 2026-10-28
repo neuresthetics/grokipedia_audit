@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0056",
+  "source_text": "Article 12's protection against arbitrary interference with privacy is also invoked, as the procedure alters genitalia\u2014a core aspect of private bodily domain\u2014irrevocably.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Article 12's protection against arbitrary interference with privacy is also invoked, as the procedure alters genitalia\u2014a core aspect of priv"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Article 12's protection against arbitrary interference with privacy is also invoked, as the procedure alters genitalia\u2014a core aspect of private bodily domain\u2014ir.",
+      "span": {
+        "quote": "Article 12's protection against arbitrary interference with privacy is also invoked, as the procedure alters genitalia\u2014a core aspect of private bodily domain\u2014ir"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

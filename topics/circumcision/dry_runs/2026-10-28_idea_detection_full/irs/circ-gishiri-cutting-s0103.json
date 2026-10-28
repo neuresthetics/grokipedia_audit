@@ -1,0 +1,74 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0103",
+  "source_text": "Gishiri cutting, a procedure entailing incision into the anterior vaginal wall, is strongly associated with the development of vesico-vaginal fistulae (VVF), a chronic condition characterized by an abnormal opening between the bladder and vagina that results in continuous involuntary urinary leakage. [24]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Gishiri cutting, a procedure entailing incision into the anterior vaginal wall, is strongly associated with the development of vesico-vagina"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gishiri cutting, a procedure entailing incision into the anterior vaginal wall, is strongly associated with the development of vesico-vaginal fistulae (VVF), a.",
+      "span": {
+        "quote": "Gishiri cutting, a procedure entailing incision into the anterior vaginal wall, is strongly associated with the development of vesico-vaginal fistulae (VVF), a "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with the development of vesico-vaginal fistulae (VVF.",
+      "span": {
+        "quote": "associated with the development of vesico-vaginal fistulae (VVF"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with the development of vesico-vaginal fistulae (VVF"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with the development of vesico-vaginal fistulae (VVF",
+          "span": {
+            "quote": "associated with the development of vesico-vaginal fistulae (VVF"
+          }
+        }
+      ]
+    }
+  ]
+}

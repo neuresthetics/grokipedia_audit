@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0222",
+  "source_text": "Adverse events remain rare and mild, comparable to minor surgeries, despite some surveillance gaps. [128]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Adverse events remain rare and mild, comparable to minor surgeries, despite some surveillance gaps. [128]"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Adverse events remain rare and mild, comparable to minor surgeries, despite some surveillance gaps. [128].",
+      "span": {
+        "quote": "Adverse events remain rare and mild, comparable to minor surgeries, despite some surveillance gaps. [128]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

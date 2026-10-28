@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-ulwaluko-s0130",
+  "source_text": "Empirical benefits of male circumcision, applicable to properly performed Ulwaluko, include a 60% reduction in heterosexual HIV acquisition risk for men, as established by randomized controlled trials in sub-Saharan Africa and endorsed by the World Health Organization for voluntary medical programs; South African data align with these findings, showing lower HIV incidence among circumcised males. [42] [43]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical benefits of male circumcision, applicable to properly performed Ulwaluko, include a 60% reduction in heterosexual HIV acquisition"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical benefits of male circumcision, applicable to properly performed Ulwaluko, include a 60% reduction in heterosexual HIV acquisition risk for men, as est.",
+      "span": {
+        "quote": "Empirical benefits of male circumcision, applicable to properly performed Ulwaluko, include a 60% reduction in heterosexual HIV acquisition risk for men, as est"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0117",
+  "source_text": "The debates centered on whether circumcision\u2014symbolizing full incorporation into the Mosaic covenant\u2014was requisite for Gentile salvation and church membership, with Judaizers, identified as believing Pharisees, arguing affirmatively that \"it was necessary to circumcise them and to direct them to observe the law of Moses.\" [36] [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The debates centered on whether circumcision\u2014symbolizing full incorporation into the Mosaic covenant\u2014was requisite for Gentile salvation and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The debates centered on whether circumcision\u2014symbolizing full incorporation into the Mosaic covenant\u2014was requisite for Gentile salvation and church membership,.",
+      "span": {
+        "quote": "The debates centered on whether circumcision\u2014symbolizing full incorporation into the Mosaic covenant\u2014was requisite for Gentile salvation and church membership, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

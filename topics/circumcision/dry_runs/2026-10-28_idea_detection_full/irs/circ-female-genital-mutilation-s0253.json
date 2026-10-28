@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0253",
+  "source_text": "In Kenya, for instance, Jomo Kenyatta, the nation's founding president, explicitly promoted FGM in the 1950s and 1960s as a symbol of resistance against colonial suppression, linking group ceremonies to anti-colonial nationalism and embedding the practice deeper in post-independence ethnic rituals. [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Kenya, for instance, Jomo Kenyatta, the nation's founding president, explicitly promoted FGM in the 1950s and 1960s as a symbol of resist"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Kenya, for instance, Jomo Kenyatta, the nation's founding president, explicitly promoted FGM in the 1950s and 1960s as a symbol of resistance against colonia.",
+      "span": {
+        "quote": "In Kenya, for instance, Jomo Kenyatta, the nation's founding president, explicitly promoted FGM in the 1950s and 1960s as a symbol of resistance against colonia"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

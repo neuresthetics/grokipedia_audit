@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0169",
+  "source_text": "Subsequent interim proceedings in November 2019 saw the court acknowledge documented health hazards, including pain and potential complications, while probing the practice's scriptural basis and societal impact.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Subsequent interim proceedings in November 2019 saw the court acknowledge documented health hazards, including pain and potential complicati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Subsequent interim proceedings in November 2019 saw the court acknowledge documented health hazards, including pain and potential complications, while probing t.",
+      "span": {
+        "quote": "Subsequent interim proceedings in November 2019 saw the court acknowledge documented health hazards, including pain and potential complications, while probing t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

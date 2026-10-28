@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0218",
+  "source_text": "Unlike male circumcision, which has evidence for reducing certain infections, studies find no comparable protective effects for FGM against HIV or other pathogens, with correlations sometimes cited by proponents dismissed as inconclusive due to confounding factors like overall healthcare access.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unlike male circumcision, which has evidence for reducing certain infections, studies find no comparable protective effects for FGM against"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Unlike male circumcision, which has evidence for reducing certain infections, studies find no comparable protective effects for FGM against HIV or other pathoge.",
+      "span": {
+        "quote": "Unlike male circumcision, which has evidence for reducing certain infections, studies find no comparable protective effects for FGM against HIV or other pathoge"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

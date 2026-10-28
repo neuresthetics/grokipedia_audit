@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0032",
+  "source_text": "By the late 20th century, epidemiological data from fistula repair centers indicated gishiri cutting contributed to 2-15% of vesicovaginal fistula (VVF) cases in northern Nigeria, with higher estimates in specific locales like Kano and Sokoto states. [18] [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By the late 20th century, epidemiological data from fistula repair centers indicated gishiri cutting contributed to 2-15% of vesicovaginal f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By the late 20th century, epidemiological data from fistula repair centers indicated gishiri cutting contributed to 2-15% of vesicovaginal fistula (VVF) cases i.",
+      "span": {
+        "quote": "By the late 20th century, epidemiological data from fistula repair centers indicated gishiri cutting contributed to 2-15% of vesicovaginal fistula (VVF) cases i"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

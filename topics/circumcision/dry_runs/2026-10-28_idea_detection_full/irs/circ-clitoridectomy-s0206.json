@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-clitoridectomy-s0206",
+  "source_text": "Long-term physical complications encompass chronic urinary tract infections, keloid scar formation, dyspareunia, and obstetric issues such as prolonged labor and increased cesarean section needs, evidenced by meta-analyses showing odds ratios of 1.3-1.5 for perinatal mortality in affected women compared to unaffected controls. [76] [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term physical complications encompass chronic urinary tract infections, keloid scar formation, dyspareunia, and obstetric issues such a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term physical complications encompass chronic urinary tract infections, keloid scar formation, dyspareunia, and obstetric issues such as prolonged labor an.",
+      "span": {
+        "quote": "Long-term physical complications encompass chronic urinary tract infections, keloid scar formation, dyspareunia, and obstetric issues such as prolonged labor an"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

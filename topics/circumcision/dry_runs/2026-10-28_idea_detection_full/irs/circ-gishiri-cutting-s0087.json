@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0087",
+  "source_text": "Reports from practitioners also assert efficacy in treating infertility, with the cut purportedly facilitating conception by addressing supposed obstructions or tightness preventing sperm access or implantation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Reports from practitioners also assert efficacy in treating infertility, with the cut purportedly facilitating conception by addressing supp"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Efficacy in treating infertility, with the cut purportedly facilitating conception by addressing supposed obstructions or tightness preventing sperm access or i.",
+      "span": {
+        "quote": "efficacy in treating infertility, with the cut purportedly facilitating conception by addressing supposed obstructions or tightness preventing sperm access or i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Reports from practitioners also.",
+      "span": {
+        "quote": "Reports from practitioners also"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

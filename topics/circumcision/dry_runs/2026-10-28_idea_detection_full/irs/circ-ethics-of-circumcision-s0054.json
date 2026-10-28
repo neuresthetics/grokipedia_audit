@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0054",
+  "source_text": "High-quality prospective analyses, including those from randomized trials with follow-up, find no differences in erectile function, sensitivity, or intercourse satisfaction compared to uncircumcised controls, countering claims of harm with null or positive associations in validated metrics. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "High-quality prospective analyses, including those from randomized trials with follow-up, find no differences in erectile function, sensitiv"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of harm with null or positive associations in validated metrics.",
+      "span": {
+        "quote": "of harm with null or positive associations in validated metrics."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Uding those from randomized trials with follow-up, find no differences in erectile function, sensitivity, or intercourse satisfaction compared to uncircumcised.",
+      "span": {
+        "quote": "uding those from randomized trials with follow-up, find no differences in erectile function, sensitivity, or intercourse satisfaction compared to uncircumcised "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

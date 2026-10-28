@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0148",
+  "source_text": "Similar misconceptions appear in some Christian, Jewish, and traditional groups, associating FGM with religious purity or requirements absent from core doctrines.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similar misconceptions appear in some Christian, Jewish, and traditional groups, associating FGM with religious purity or requirements absen"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similar misconceptions appear in some Christian, Jewish, and traditional groups, associating FGM with religious purity or requirements absent from core doctrine.",
+      "span": {
+        "quote": "Similar misconceptions appear in some Christian, Jewish, and traditional groups, associating FGM with religious purity or requirements absent from core doctrine"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

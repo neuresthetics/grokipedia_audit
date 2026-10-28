@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0139",
+  "source_text": "Summer sessions, increasingly attempted amid climatic shifts, heighten septic risks due to elevated temperatures impairing wound recovery, while inadequate shelter in overcrowded sites compounds these vulnerabilities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Summer sessions, increasingly attempted amid climatic shifts, heighten septic risks due to elevated temperatures impairing wound recovery, w"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Summer sessions, increasingly attempted amid climatic shifts, heighten septic risks due to elevated temperatures impairing wound recovery, while inadequate shel.",
+      "span": {
+        "quote": "Summer sessions, increasingly attempted amid climatic shifts, heighten septic risks due to elevated temperatures impairing wound recovery, while inadequate shel"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0049",
+  "source_text": "These estimates align with pre-scale-up community data showing a 52% reduction (pooled IR 0.48, 95% CI 0.33\u20130.70), but effectiveness appeared slightly attenuated in lower-incidence settings, possibly reflecting selection biases or changing sexual networks. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These estimates align with pre-scale-up community data showing a 52% reduction (pooled IR 0.48, 95% CI 0.33\u20130.70), but effectiveness appeare"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These estimates align with pre-scale-up community data showing a 52% reduction (pooled IR 0.48, 95% CI 0.33\u20130.70), but effectiveness appeared slightly attenuate.",
+      "span": {
+        "quote": "These estimates align with pre-scale-up community data showing a 52% reduction (pooled IR 0.48, 95% CI 0.33\u20130.70), but effectiveness appeared slightly attenuate"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

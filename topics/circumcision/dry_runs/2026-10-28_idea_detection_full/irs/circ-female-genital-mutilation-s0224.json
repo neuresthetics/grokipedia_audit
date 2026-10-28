@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0224",
+  "source_text": "Overall, peer-reviewed consensus emphasizes that purported benefits lack rigorous support, often serving to medicalize cultural practices amid documented harms, with attempts to frame mild forms (e.g., ritual nicks) as low-risk overlooking ethical issues of non-consensual alteration and inconsistent standards compared to intact genitalia preservation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, peer-reviewed consensus emphasizes that purported benefits lack rigorous support, often serving to medicalize cultural practices am"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Purported benefits lack rigorous support, often serving to medicalize cultural practices amid documented harms, with attempts to frame mild forms (e.g., ritual.",
+      "span": {
+        "quote": "purported benefits lack rigorous support, often serving to medicalize cultural practices amid documented harms, with attempts to frame mild forms (e.g., ritual "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Overall, peer-reviewed consensus.",
+      "span": {
+        "quote": "Overall, peer-reviewed consensus"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

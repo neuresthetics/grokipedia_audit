@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0134",
+  "source_text": "It emphasizes that such mutilations, rooted in socio-cultural or religious customs rather than medical necessity, erode the child's inalienable rights without distinction of sex, religion, or origin, as per UDHR Article 2, and calls for global education to counter myths perpetuating these acts, prioritizing empirical harms like psychological trauma and sexual dysfunction over unsubstantiated benefits. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It emphasizes that such mutilations, rooted in socio-cultural or religious customs rather than medical necessity, erode the child's inaliena"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such mutilations, rooted in socio-cultural or religious customs rather than medical necessity, erode the child's inalienable rights without distinction of sex,.",
+      "span": {
+        "quote": "such mutilations, rooted in socio-cultural or religious customs rather than medical necessity, erode the child's inalienable rights without distinction of sex, "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated benefits.",
+      "span": {
+        "quote": "unsubstantiated benefits"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Per UDHR Article 2.",
+      "span": {
+        "quote": "per UDHR Article 2"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated benefits"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per UDHR Article 2"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

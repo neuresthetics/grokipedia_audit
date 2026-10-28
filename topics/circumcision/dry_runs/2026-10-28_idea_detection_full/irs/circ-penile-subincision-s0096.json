@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-penile-subincision-s0096",
+  "source_text": "On a personal level, the rite instills a profound sense of masculine identity and spiritual alignment with ancestral totems, as the modified penis is mythologically linked to fertility and creative beings in Dreamtime narratives, potentially yielding psychological fulfillment from cultural continuity. [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "On a personal level, the rite instills a profound sense of masculine identity and spiritual alignment with ancestral totems, as the modified"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "On a personal level, the rite instills a profound sense of masculine identity and spiritual alignment with ancestral totems, as the modified penis is mythologic.",
+      "span": {
+        "quote": "On a personal level, the rite instills a profound sense of masculine identity and spiritual alignment with ancestral totems, as the modified penis is mythologic"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to fertility and creative beings in Dreamtime narratives.",
+      "span": {
+        "quote": "linked to fertility and creative beings in Dreamtime narratives"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to fertility and creative beings in Dreamtime narratives"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to fertility and creative beings in Dreamtime narratives",
+          "span": {
+            "quote": "linked to fertility and creative beings in Dreamtime narratives"
+          }
+        }
+      ]
+    }
+  ]
+}

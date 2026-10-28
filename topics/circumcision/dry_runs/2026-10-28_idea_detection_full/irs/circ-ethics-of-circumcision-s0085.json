@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0085",
+  "source_text": "Analogies to female genital mutilation (FGM) underscore this, positing both as culturally driven cuttings infringing bodily inviolability, though bioethicists critique the comparison for overlooking graded differences in severity, intent, and outcomes\u2014FGM typically lacks any argued preventive rationale, rendering the ethical symmetry incomplete without equivalent evidence of net utility. [52]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Analogies to female genital mutilation (FGM) underscore this, positing both as culturally driven cuttings infringing bodily inviolability, t"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Preventive rationale, rendering the ethical symmetry incomplete without equivalent evidence of net utility.",
+      "span": {
+        "quote": "preventive rationale, rendering the ethical symmetry incomplete without equivalent evidence of net utility."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "N cuttings infringing bodily inviolability, though bioethicists critique the comparison for overlooking graded differences in severity, intent, and outcomes\u2014FGM.",
+      "span": {
+        "quote": "n cuttings infringing bodily inviolability, though bioethicists critique the comparison for overlooking graded differences in severity, intent, and outcomes\u2014FGM"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

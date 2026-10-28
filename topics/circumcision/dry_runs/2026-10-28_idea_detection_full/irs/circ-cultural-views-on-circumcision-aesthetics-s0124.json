@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0124",
+  "source_text": "A 2019 systematic review of 29 studies published in Sexual Medicine found that in the overwhelming majority of studies, women expressed a preference for circumcised penises.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2019 systematic review of 29 studies published in Sexual Medicine found that in the overwhelming majority of studies, women expressed a pr"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2019 systematic review of 29 studies published in Sexual Medicine found that in the overwhelming majority of studies, women expressed a preference for circumc.",
+      "span": {
+        "quote": "A 2019 systematic review of 29 studies published in Sexual Medicine found that in the overwhelming majority of studies, women expressed a preference for circumc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

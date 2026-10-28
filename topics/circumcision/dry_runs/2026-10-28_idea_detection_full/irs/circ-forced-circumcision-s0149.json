@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-forced-circumcision-s0149",
+  "source_text": "While proponents cite unsubstantiated beliefs in enhanced masculinity, hygiene, or physical prowess, the procedure's enforcement through peer and familial compulsion underscores its non-voluntary character for participants.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While proponents cite unsubstantiated beliefs in enhanced masculinity, hygiene, or physical prowess, the procedure's enforcement through pee"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While proponents cite unsubstantiated beliefs in enhanced masculinity, hygiene, or physical prowess, the procedure's enforcement through peer and familial compu.",
+      "span": {
+        "quote": "While proponents cite unsubstantiated beliefs in enhanced masculinity, hygiene, or physical prowess, the procedure's enforcement through peer and familial compu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated beliefs in enhanced masculinity.",
+      "span": {
+        "quote": "unsubstantiated beliefs in enhanced masculinity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated beliefs in enhanced masculinity"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

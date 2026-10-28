@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0177",
+  "source_text": "Proponents advocate this as a harm reduction strategy, arguing it parallels regulated practices like male circumcision or tattooing, where professional oversight reduces acute complications without endorsing the cultural norm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents advocate this as a harm reduction strategy, arguing it parallels regulated practices like male circumcision or tattooing, where p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proponents advocate this as a harm reduction strategy, arguing it parallels regulated practices like male circumcision or tattooing, where professional oversigh.",
+      "span": {
+        "quote": "Proponents advocate this as a harm reduction strategy, arguing it parallels regulated practices like male circumcision or tattooing, where professional oversigh"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

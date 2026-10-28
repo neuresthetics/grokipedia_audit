@@ -1,0 +1,68 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0130",
+  "source_text": "Critiques of the assumption that female genital cutting (FGC) invariably causes severe, lifelong harm emphasize variability in procedure types, contexts, and outcomes, drawing on empirical data that highlight confounding factors like stigma and discrimination.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critiques of the assumption that female genital cutting (FGC) invariably causes severe, lifelong harm emphasize variability in procedure typ"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Variability in procedure types, contexts, and outcomes, drawing on empirical data that highlight confounding factors like stigma and discrimination.",
+      "span": {
+        "quote": "variability in procedure types, contexts, and outcomes, drawing on empirical data that highlight confounding factors like stigma and discrimination."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Critiques of the assumption that female genital cutting (FGC) invariably causes severe, lifelong harm.",
+      "span": {
+        "quote": "Critiques of the assumption that female genital cutting (FGC) invariably causes severe, lifelong harm"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "causes"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

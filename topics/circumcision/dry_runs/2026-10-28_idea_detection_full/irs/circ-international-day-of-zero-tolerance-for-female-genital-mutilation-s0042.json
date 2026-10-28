@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0042",
+  "source_text": "Under the UN mandate, Member States are urged to condemn FGM unequivocally, enact and enforce comprehensive national laws prohibiting all forms of the practice, including extraterritorial provisions, and prosecute perpetrators while protecting victims and at-risk girls.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Under the UN mandate, Member States are urged to condemn FGM unequivocally, enact and enforce comprehensive national laws prohibiting all fo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O condemn FGM unequivocally, enact and enforce comprehensive national laws prohibiting all forms of the practice, including extraterritorial provisions, and pro.",
+      "span": {
+        "quote": "o condemn FGM unequivocally, enact and enforce comprehensive national laws prohibiting all forms of the practice, including extraterritorial provisions, and pro"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Under the UN mandate, Member States are.",
+      "span": {
+        "quote": "Under the UN mandate, Member States are"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "urged"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0230",
+  "source_text": "Metzitzah b'peh, direct oral suction of blood from the wound, introduces risks of herpes simplex virus type 1 (HSV-1) transmission from the mohel's mouth to the infant, with documented cases in New York City from 2000 to 2011 including 11 infections, two infant deaths, and additional severe illnesses such as encephalitis and organ failure. [115] [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Metzitzah b'peh, direct oral suction of blood from the wound, introduces risks of herpes simplex virus type 1 (HSV-1) transmission from the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Metzitzah b'peh, direct oral suction of blood from the wound, introduces risks of herpes simplex virus type 1 (HSV-1) transmission from the mohel's mouth to the.",
+      "span": {
+        "quote": "Metzitzah b'peh, direct oral suction of blood from the wound, introduces risks of herpes simplex virus type 1 (HSV-1) transmission from the mohel's mouth to the"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

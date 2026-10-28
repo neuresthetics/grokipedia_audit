@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-01",
+  "source_text": "Critics of this framing, including medical bodies, argue it conflates varying health risks and cultural contexts, but the resolution itself maintains a categorical stance against any non-voluntary childhood genital cutting.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "argue it conflates varying health risks and cultural contexts"
+      },
+      "claim_ids": [
+        "c_conflates"
+      ],
+      "speaker": "critics"
+    },
+    {
+      "id": "s2",
+      "span": {
+        "quote": "the resolution itself maintains a categorical stance against any non-voluntary childhood genital cutting"
+      },
+      "claim_ids": [
+        "c_categorical"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_conflates",
+      "text": "The framing conflates varying health risks and cultural contexts.",
+      "span": {
+        "quote": "it conflates varying health risks and cultural contexts"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_categorical",
+      "text": "The resolution maintains a categorical stance against any non-voluntary childhood genital cutting.",
+      "span": {
+        "quote": "maintains a categorical stance against any non-voluntary childhood genital cutting"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_claim",
+      "source": "c_conflates",
+      "target": "c_categorical",
+      "span": {
+        "quote": "Critics of this framing... argue it conflates"
+      },
+      "answered": false
+    }
+  ],
+  "agents": [
+    {
+      "id": "medical_bodies",
+      "name_span": {
+        "quote": "medical bodies"
+      },
+      "traits": []
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

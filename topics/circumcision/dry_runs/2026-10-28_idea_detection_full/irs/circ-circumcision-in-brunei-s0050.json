@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-brunei-s0050",
+  "source_text": "This approach adapts global evidence to Brunei's context, where male circumcision prevalence is estimated at 51.9% due to religious norms, potentially amplifying protective effects against HIV and other sexually transmitted infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This approach adapts global evidence to Brunei's context, where male circumcision prevalence is estimated at 51.9% due to religious norms, p"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This approach adapts global evidence to Brunei's context, where male circumcision prevalence is estimated at 51.9% due to religious norms, potentially amplifyin.",
+      "span": {
+        "quote": "This approach adapts global evidence to Brunei's context, where male circumcision prevalence is estimated at 51.9% due to religious norms, potentially amplifyin"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

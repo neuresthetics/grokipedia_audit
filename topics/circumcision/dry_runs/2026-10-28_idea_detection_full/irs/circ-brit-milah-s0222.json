@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-brit-milah-s0222",
+  "source_text": "Neonatal circumcision, including in the context of brit milah, carries risks of acute complications such as bleeding, infection, and penile injury, with overall rates reported between 0% and 3% in systematic reviews, though some studies document up to 16% in certain settings. [109] [110]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision, including in the context of brit milah, carries risks of acute complications such as bleeding, infection, and penile"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision, including in the context of brit milah, carries risks of acute complications such as bleeding, infection, and penile injury, with overall.",
+      "span": {
+        "quote": "Neonatal circumcision, including in the context of brit milah, carries risks of acute complications such as bleeding, infection, and penile injury, with overall"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

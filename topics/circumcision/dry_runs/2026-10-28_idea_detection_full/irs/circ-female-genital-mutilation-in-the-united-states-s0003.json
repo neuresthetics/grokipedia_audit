@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0003",
+  "source_text": "While the procedure offers no health benefits and inflicts immediate and long-term physical and psychological harm, including pain, infection, urinary issues, sexual dysfunction, and increased childbirth complications, enforcement remains challenging due to underreporting, victim reluctance, and cultural secrecy. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While the procedure offers no health benefits and inflicts immediate and long-term physical and psychological harm, including pain, infectio"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While the procedure offers no health benefits and inflicts immediate and long-term physical and psychological harm, including pain, infection, urinary issues, s.",
+      "span": {
+        "quote": "While the procedure offers no health benefits and inflicts immediate and long-term physical and psychological harm, including pain, infection, urinary issues, s"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0006",
+  "source_text": "Such incidents highlight causal links between ethnic power dynamics and physical coercion, with empirical accounts documenting family approvals in some cases but underscoring the trauma and legal impunity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such incidents highlight causal links between ethnic power dynamics and physical coercion, with empirical accounts documenting family approv"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such incidents highlight causal links between ethnic power dynamics and physical coercion, with empirical accounts documenting family approvals in some cases bu.",
+      "span": {
+        "quote": "Such incidents highlight causal links between ethnic power dynamics and physical coercion, with empirical accounts documenting family approvals in some cases bu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

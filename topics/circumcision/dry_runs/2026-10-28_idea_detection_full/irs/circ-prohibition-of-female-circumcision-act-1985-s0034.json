@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0034",
+  "source_text": "Cultural rationales for FGM, prevalent in certain African and Middle Eastern communities, often invoke social control of female sexuality, enhancement of marriage prospects through purported preservation of virginity, or rites of passage into womanhood, yet these lack substantiation against the procedure's documented physical and mental tolls, prioritizing unsubstantiated tradition over verifiable bodily integrity. [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural rationales for FGM, prevalent in certain African and Middle Eastern communities, often invoke social control of female sexuality, e"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cultural rationales for FGM, prevalent in certain African and Middle Eastern communities, often invoke social control of female sexuality, enhancement of marria.",
+      "span": {
+        "quote": "Cultural rationales for FGM, prevalent in certain African and Middle Eastern communities, often invoke social control of female sexuality, enhancement of marria"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated tradition over verifiable bodily.",
+      "span": {
+        "quote": "unsubstantiated tradition over verifiable bodily"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated tradition over verifiable bodily"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

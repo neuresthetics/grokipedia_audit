@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0267",
+  "source_text": "These proponents assert that empirical patterns of coercion\u2014evident in Sudanese communities where girls face familial pressure irrespective of personal consent\u2014justify overriding relativist deference to sovereignty, prioritizing protections akin to those against child labor or forced marriage, with UN bodies like UNICEF framing FGM as incompatible with the universal right to physical integrity under the Convention on the Rights of the Child.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These proponents assert that empirical patterns of coercion\u2014evident in Sudanese communities where girls face familial pressure irrespective"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical patterns of coercion\u2014evident in Sudanese communities where girls face familial pressure irrespective of personal consent\u2014justify overriding relativist.",
+      "span": {
+        "quote": "empirical patterns of coercion\u2014evident in Sudanese communities where girls face familial pressure irrespective of personal consent\u2014justify overriding relativist"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These proponents assert that empirical patterns of coercion\u2014eviden.",
+      "span": {
+        "quote": "These proponents assert that empirical patterns of coercion\u2014eviden"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "These proponents assert that empirical patterns of coercion\u2014"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

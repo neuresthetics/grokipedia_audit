@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0152",
+  "source_text": "These trials also reported 30-35% reductions in high-risk human papillomavirus (HPV) acquisition and 25-30% for herpes simplex virus type 2 (HSV-2), with meta-analyses affirming consistent STI risk reductions across populations. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These trials also reported 30-35% reductions in high-risk human papillomavirus (HPV) acquisition and 25-30% for herpes simplex virus type 2"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These trials also reported 30-35% reductions in high-risk human papillomavirus (HPV) acquisition and 25-30% for herpes simplex virus type 2 (HSV-2), with meta-a.",
+      "span": {
+        "quote": "These trials also reported 30-35% reductions in high-risk human papillomavirus (HPV) acquisition and 25-30% for herpes simplex virus type 2 (HSV-2), with meta-a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

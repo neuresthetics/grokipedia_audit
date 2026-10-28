@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0076",
+  "source_text": "Others reported no ongoing health problems or regrets, viewing the cutting as a normalized rite that conferred social maturity without impeding daily life or marital relations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Others reported no ongoing health problems or regrets, viewing the cutting as a normalized rite that conferred social maturity without imped"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Others reported no ongoing health problems or regrets, viewing the cutting as a normalized rite that conferred social maturity without impeding daily life or ma.",
+      "span": {
+        "quote": "Others reported no ongoing health problems or regrets, viewing the cutting as a normalized rite that conferred social maturity without impeding daily life or ma"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

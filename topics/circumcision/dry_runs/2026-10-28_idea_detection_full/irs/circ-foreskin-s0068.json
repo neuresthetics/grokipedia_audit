@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0068",
+  "source_text": "By maintaining a moist, insulated environment beneath the foreskin, the prepuce inhibits the keratinization process that occurs when the glans is chronically exposed to air and friction, as observed post-circumcision where the glans surface thickens and coarsens over time.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By maintaining a moist, insulated environment beneath the foreskin, the prepuce inhibits the keratinization process that occurs when the gla"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By maintaining a moist, insulated environment beneath the foreskin, the prepuce inhibits the keratinization process that occurs when the glans is chronically ex.",
+      "span": {
+        "quote": "By maintaining a moist, insulated environment beneath the foreskin, the prepuce inhibits the keratinization process that occurs when the glans is chronically ex"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

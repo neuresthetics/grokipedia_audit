@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0097",
+  "source_text": "Urinary retention arises shortly after from edema, clitoral swelling, or obstructive tissue flaps, impacting up to 60% in comparable African datasets incorporating Nigerian experiences. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Urinary retention arises shortly after from edema, clitoral swelling, or obstructive tissue flaps, impacting up to 60% in comparable African"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Urinary retention arises shortly after from edema, clitoral swelling, or obstructive tissue flaps, impacting up to 60% in comparable African datasets incorporat.",
+      "span": {
+        "quote": "Urinary retention arises shortly after from edema, clitoral swelling, or obstructive tissue flaps, impacting up to 60% in comparable African datasets incorporat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

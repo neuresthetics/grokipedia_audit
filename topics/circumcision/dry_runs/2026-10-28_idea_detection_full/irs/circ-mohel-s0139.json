@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-mohel-s0139",
+  "source_text": "Use of disposable sterile blades, local anesthesia (e.g., lidocaine cream), and immediate post-procedure petroleum gauze application prevent most infections and adhesions, with follow-up exams recommended within 24\u201348 hours. [74]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Use of disposable sterile blades, local anesthesia (e.g., lidocaine cream), and immediate post-procedure petroleum gauze application prevent"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Use of disposable sterile blades, local anesthesia (e.g., lidocaine cream), and immediate post-procedure petroleum gauze application prevent most infections and.",
+      "span": {
+        "quote": "Use of disposable sterile blades, local anesthesia (e.g., lidocaine cream), and immediate post-procedure petroleum gauze application prevent most infections and"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

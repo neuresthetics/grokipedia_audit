@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0004",
+  "source_text": "Common forms include Type I (clitoridectomy, removing the clitoral prepuce and/or glans) and Type II (excision, removing the clitoris and labia minora, sometimes with labia majora trimming), with rarer instances of Type IV variants like symbolic nicking or scraping; these are typically conducted by traditional practitioners on infants or girls under 15 using unsterilized tools, leading to immediate risks of hemorrhage, infection, and shock, alongside long-term complications such as chronic pain, urinary and menstrual disorders, sexual dysfunction, and obstructed labor increasing maternal and neonatal mortality. [4] [5] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Common forms include Type I (clitoridectomy, removing the clitoral prepuce and/or glans) and Type II (excision, removing the clitoris and la"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Common forms include Type I (clitoridectomy, removing the clitoral prepuce and/or glans) and Type II (excision, removing the clitoris and labia minora, sometime.",
+      "span": {
+        "quote": "Common forms include Type I (clitoridectomy, removing the clitoral prepuce and/or glans) and Type II (excision, removing the clitoris and labia minora, sometime"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

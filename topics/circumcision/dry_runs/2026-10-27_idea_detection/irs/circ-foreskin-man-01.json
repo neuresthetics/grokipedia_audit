@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-foreskin-man-01",
+  "source_text": "They contend that caricatures of mohels serve to satirize the specific act of infant surgery, akin to unflattering depictions in anti-female genital mutilation campaigns that do not elicit parallel charges of racism against those practitioners' ethnic groups.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "caricatures of mohels serve to satirize the specific act of infant surgery, akin to unflattering depictions in anti-female genital mutilation campaigns"
+      },
+      "claim_ids": [
+        "c_satire",
+        "c_fgm_analogue",
+        "c_no_racism"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_satire",
+      "text": "Caricatures of mohels satirize the specific act of infant surgery (not ethnicity as such).",
+      "span": {
+        "quote": "caricatures of mohels serve to satirize the specific act of infant surgery"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c_fgm_analogue",
+      "text": "Anti-FGM campaigns use unflattering depictions of practitioners.",
+      "span": {
+        "quote": "unflattering depictions in anti-female genital mutilation campaigns"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    },
+    {
+      "id": "c_no_racism",
+      "text": "Those anti-FGM depictions do not elicit parallel charges of racism against practitioners' ethnic groups.",
+      "span": {
+        "quote": "that do not elicit parallel charges of racism against those practitioners' ethnic groups"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c_fgm_analogue",
+      "target": "c_satire",
+      "span": {
+        "quote": "akin to unflattering depictions in anti-female genital mutilation campaigns"
+      },
+      "warrant": "inductive"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_no_racism",
+      "target": "c_satire",
+      "span": {
+        "quote": "do not elicit parallel charges of racism"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0311",
+  "source_text": "Parental prerogative under Article 14 persists absent demonstrable net harm, as affirmed in UNCRC analyses rejecting outright bans in favor of regulated practice, thereby integrating religious freedoms with health imperatives grounded in randomized trial outcomes rather than speculative autonomy projections. [144] [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parental prerogative under Article 14 persists absent demonstrable net harm, as affirmed in UNCRC analyses rejecting outright bans in favor"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parental prerogative under Article 14 persists absent demonstrable net harm, as affirmed in UNCRC analyses rejecting outright bans in favor of regulated practic.",
+      "span": {
+        "quote": "Parental prerogative under Article 14 persists absent demonstrable net harm, as affirmed in UNCRC analyses rejecting outright bans in favor of regulated practic"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Integrating religious freedoms with health imperatives grounded in randomized trial outcomes rather than speculative autonomy projections. [144] [83].",
+      "span": {
+        "quote": "integrating religious freedoms with health imperatives grounded in randomized trial outcomes rather than speculative autonomy projections. [144] [83]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

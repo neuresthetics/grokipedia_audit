@@ -1,0 +1,55 @@
+{
+  "passage_id": "circ-phimosis-s0288",
+  "source_text": "Yet, these benefits must be weighed against evidence from controlled trials indicating minimal long-term health gains for routine application in phimosis management. [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Yet, these benefits must be weighed against evidence from controlled trials indicating minimal long-term health gains for routine applicatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Yet, these benefits must be weighed against evidence from controlled trials indicating minimal long-term health gains for routine application in phimosis manage.",
+      "span": {
+        "quote": "Yet, these benefits must be weighed against evidence from controlled trials indicating minimal long-term health gains for routine application in phimosis manage"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "These benefits must be weighed against evidence from controlled tr.",
+      "span": {
+        "quote": "these benefits must be weighed against evidence from controlled tr"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "these benefits must be weighed against evidence from control"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

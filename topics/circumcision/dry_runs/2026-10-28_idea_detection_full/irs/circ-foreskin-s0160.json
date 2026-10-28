@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0160",
+  "source_text": "Urinary tract infections (UTIs) in male infants under one year are 10- to 20-fold more common in uncircumcised boys, with incidence rates of 1-4% versus 0.1-0.2% in circumcised counterparts, per multiple cohort studies and systematic reviews; this disparity arises from bacterial ascension via the preputial orifice. [81] [82]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Urinary tract infections (UTIs) in male infants under one year are 10- to 20-fold more common in uncircumcised boys, with incidence rates of"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Urinary tract infections (UTIs) in male infants under one year are 10- to 20-fold more common in uncircumcised boys, with incidence rates of 1-4% versus 0.1-0.2.",
+      "span": {
+        "quote": "Urinary tract infections (UTIs) in male infants under one year are 10- to 20-fold more common in uncircumcised boys, with incidence rates of 1-4% versus 0.1-0.2"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per multiple cohort studies and systematic reviews.",
+      "span": {
+        "quote": "per multiple cohort studies and systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per multiple cohort studies and systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

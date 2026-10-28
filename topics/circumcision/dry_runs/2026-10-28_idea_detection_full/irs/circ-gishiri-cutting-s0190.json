@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0190",
+  "source_text": "The persistence of Gishiri cutting among Hausa-Fulani communities in northern Nigeria stems from deeply held cultural beliefs that attribute obstructed labor, dyspareunia, and perceived vaginal narrowing\u2014a condition termed \"gishiri\"\u2014to supernatural or anatomical strictures requiring incision of the anterior vaginal wall for relief. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The persistence of Gishiri cutting among Hausa-Fulani communities in northern Nigeria stems from deeply held cultural beliefs that attribute"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The persistence of Gishiri cutting among Hausa-Fulani communities in northern Nigeria stems from deeply held cultural beliefs that attribute obstructed labor, d.",
+      "span": {
+        "quote": "The persistence of Gishiri cutting among Hausa-Fulani communities in northern Nigeria stems from deeply held cultural beliefs that attribute obstructed labor, d"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

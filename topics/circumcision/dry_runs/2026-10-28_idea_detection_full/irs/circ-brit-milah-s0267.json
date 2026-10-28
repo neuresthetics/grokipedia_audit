@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-brit-milah-s0267",
+  "source_text": "Activists contend that performing surgery on a non-consenting infant violates the principle of informed consent and the child's right to an intact body, framing brit milah as a form of genital cutting akin to other non-therapeutic alterations. [130] [124]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Activists contend that performing surgery on a non-consenting infant violates the principle of informed consent and the child's right to an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performing surgery on a non-consenting infant violates the principle of informed consent and the child's right to an intact body, framing brit milah as a form o.",
+      "span": {
+        "quote": "performing surgery on a non-consenting infant violates the principle of informed consent and the child's right to an intact body, framing brit milah as a form o"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Activists contend that performing surgery on a non-.",
+      "span": {
+        "quote": "Activists contend that performing surgery on a non-"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Activists contend that performing surgery on a non-"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Activists contend th"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "Activists contend that performing surgery on a non-",
+          "span": {
+            "quote": "Activists contend that performing surgery on a non-"
+          }
+        }
+      ]
+    }
+  ]
+}

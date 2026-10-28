@@ -1,0 +1,121 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0002",
+  "source_text": "Proponents, often citing systematic reviews, argue that neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition, with bodies like the American Academy of Pediatrics concluding in 2012 that benefits outweigh risks, though not sufficiently to recommend universal adoption. [3] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents, often citing systematic reviews, argue that neonatal circumcision reduces risks of urinary tract infections, penile cancer, and"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition, with bodies like the American Academy of Pedia.",
+      "span": {
+        "quote": "neonatal circumcision reduces risks of urinary tract infections, penile cancer, and heterosexual HIV acquisition, with bodies like the American Academy of Pedia"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents, often citing systematic reviews.",
+      "span": {
+        "quote": "Proponents, often citing systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "Citing systematic reviews.",
+      "span": {
+        "quote": "citing systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c4",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing systematic reviews"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "reduces"
+      }
+    },
+    {
+      "id": "e5",
+      "type": "attacks_claim",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "Proponents, often citing systematic reviews, argue that neonatal circumcision re"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

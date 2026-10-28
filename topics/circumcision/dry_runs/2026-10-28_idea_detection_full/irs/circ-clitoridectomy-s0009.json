@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0009",
+  "source_text": "Medicalization by clinicians in some regions has been proposed to mitigate harms but empirically fails to eliminate risks and may normalize the practice, underscoring causal links between the procedure's irreversibility and lifelong physiological and psychological detriment. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Medicalization by clinicians in some regions has been proposed to mitigate harms but empirically fails to eliminate risks and may normalize"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicalization by clinicians in some regions has been proposed to mitigate harms but empirically fails to eliminate risks and may normalize the practice, unders.",
+      "span": {
+        "quote": "Medicalization by clinicians in some regions has been proposed to mitigate harms but empirically fails to eliminate risks and may normalize the practice, unders"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

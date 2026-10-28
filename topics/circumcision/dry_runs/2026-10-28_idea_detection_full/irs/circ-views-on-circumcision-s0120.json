@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0120",
+  "source_text": "These claims often invoke ethical precedents from bioethics literature, positing that any non-therapeutic surgery on minors prioritizes adult preferences over the child's future self-determination.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims often invoke ethical precedents from bioethics literature, positing that any non-therapeutic surgery on minors prioritizes adul"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Often invoke ethical precedents from bioethics literature, positing that any non-therapeutic surgery on minors prioritizes adult preferences over the child's fu.",
+      "span": {
+        "quote": "often invoke ethical precedents from bioethics literature, positing that any non-therapeutic surgery on minors prioritizes adult preferences over the child's fu"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

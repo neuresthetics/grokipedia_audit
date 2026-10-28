@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0055",
+  "source_text": "A core justification is the enhancement of marriageability, where FGM is regarded as a prerequisite for securing dowries, marital alliances, and social acceptance, with uncircumcised girls often deemed impure or ineligible for marriage. [12] [11]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A core justification is the enhancement of marriageability, where FGM is regarded as a prerequisite for securing dowries, marital alliances,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A core justification is the enhancement of marriageability, where FGM is regarded as a prerequisite for securing dowries, marital alliances, and social acceptan.",
+      "span": {
+        "quote": "A core justification is the enhancement of marriageability, where FGM is regarded as a prerequisite for securing dowries, marital alliances, and social acceptan"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-milah-s0285",
+  "source_text": "Agudath Israel of America, a leading ultra-Orthodox organization, opposed New York City's 2012-2015 regulations requiring parental consent for MBP, arguing they violated religious freedom and lacked evidence of widespread harm, ultimately celebrating the 2015 rescission as a victory against governmental overreach that could erode brit milah entirely. [147] [148]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Agudath Israel of America, a leading ultra-Orthodox organization, opposed New York City's 2012-2015 regulations requiring parental consent f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Agudath Israel of America, a leading ultra-Orthodox organization, opposed New York City's 2012-2015 regulations requiring parental consent for MBP, arguing they.",
+      "span": {
+        "quote": "Agudath Israel of America, a leading ultra-Orthodox organization, opposed New York City's 2012-2015 regulations requiring parental consent for MBP, arguing they"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

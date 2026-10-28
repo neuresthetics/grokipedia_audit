@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0024",
+  "source_text": "These ceremonies, predating European contact by centuries and documented in ethnographic accounts from the 19th century onward, involved ritual seclusion, scarification, and oral traditions, with practitioners selected for ancestral knowledge; while modern analyses note elevated risks in unregulated contexts, historical continuity in experienced communal hands suggests adaptive safety mechanisms, such as herbal antiseptics, enabling generational persistence.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These ceremonies, predating European contact by centuries and documented in ethnographic accounts from the 19th century onward, involved rit"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Daptive safety mechanisms, such as herbal antiseptics, enabling generational persistence.",
+      "span": {
+        "quote": "daptive safety mechanisms, such as herbal antiseptics, enabling generational persistence."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ditions, with practitioners selected for ancestral knowledge; while modern analyses note elevated risks in unregulated contexts, historical continuity in experi.",
+      "span": {
+        "quote": "ditions, with practitioners selected for ancestral knowledge; while modern analyses note elevated risks in unregulated contexts, historical continuity in experi"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggests"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

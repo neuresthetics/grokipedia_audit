@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-restoration-device-s0206",
+  "source_text": "Psychologically, restorers frequently initiate the practice amid pre-existing emotional burdens from circumcision, such as dissatisfaction or distress (65.47%), depression (33.46%), and hopelessness (31.4%), which restoration partially alleviates for 67.03% but does not fully resolve for most.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychologically, restorers frequently initiate the practice amid pre-existing emotional burdens from circumcision, such as dissatisfaction o"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychologically, restorers frequently initiate the practice amid pre-existing emotional burdens from circumcision, such as dissatisfaction or distress (65.47%),.",
+      "span": {
+        "quote": "Psychologically, restorers frequently initiate the practice amid pre-existing emotional burdens from circumcision, such as dissatisfaction or distress (65.47%),"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

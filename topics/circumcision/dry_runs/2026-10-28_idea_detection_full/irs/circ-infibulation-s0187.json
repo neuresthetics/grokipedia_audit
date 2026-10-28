@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0187",
+  "source_text": "Additional empirical evidence links it to lower rates of urinary tract infections in infancy, penile cancer, and certain sexually transmitted infections like human papillomavirus.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Additional empirical evidence links it to lower rates of urinary tract infections in infancy, penile cancer, and certain sexually transmitte"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Additional empirical evidence links it to lower rates of urinary tract infections in infancy, penile cancer, and certain sexually transmitted infections like hu.",
+      "span": {
+        "quote": "Additional empirical evidence links it to lower rates of urinary tract infections in infancy, penile cancer, and certain sexually transmitted infections like hu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

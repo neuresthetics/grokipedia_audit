@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0148",
+  "source_text": "Similarly, Fink argued that the foreskin's inner mucosa, with its thin epithelial layer and abundance of target cells for HIV, could serve as a primary entry point for the virus during heterosexual intercourse, hypothesizing that its removal would diminish susceptibility.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, Fink argued that the foreskin's inner mucosa, with its thin epithelial layer and abundance of target cells for HIV, could serve a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E foreskin's inner mucosa, with its thin epithelial layer and abundance of target cells for HIV, could serve as a primary entry point for the virus during heter.",
+      "span": {
+        "quote": "e foreskin's inner mucosa, with its thin epithelial layer and abundance of target cells for HIV, could serve as a primary entry point for the virus during heter"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-forced-circumcision-s0041",
+  "source_text": "In modern contexts, extremist groups have invoked Islamic justifications for forced circumcisions on non-Muslims during conflicts, as seen in 2001 when militants in Ambon, Indonesia, subjected Christian men, women, and children to the procedure amid sectarian violence, citing religious purification despite mainstream scholarly consensus against compulsion in faith matters.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In modern contexts, extremist groups have invoked Islamic justifications for forced circumcisions on non-Muslims during conflicts, as seen i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In modern contexts, extremist groups have invoked Islamic justifications for forced circumcisions on non-Muslims during conflicts, as seen in 2001 when militant.",
+      "span": {
+        "quote": "In modern contexts, extremist groups have invoked Islamic justifications for forced circumcisions on non-Muslims during conflicts, as seen in 2001 when militant"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing religious purification despite mainstream scholarly consensus against compulsion.",
+      "span": {
+        "quote": "citing religious purification despite mainstream scholarly consensus against compulsion"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Extremist groups have invoked Islamic justifications for.",
+      "span": {
+        "quote": "extremist groups have invoked Islamic justifications for"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing religious purification despite mainstream scholarly consensus against compulsion"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "extremist groups have invoked Islamic justifications for"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "In modern contexts, "
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "extremist groups have invoked Islamic justifications for ",
+          "span": {
+            "quote": "extremist groups have invoked Islamic justifications for"
+          }
+        }
+      ]
+    }
+  ]
+}

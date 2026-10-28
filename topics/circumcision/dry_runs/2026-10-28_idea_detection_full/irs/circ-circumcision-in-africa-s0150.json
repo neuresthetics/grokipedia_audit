@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0150",
+  "source_text": "These practices persist alongside Islamic customs in regions like coastal Tanzania and eastern Ethiopia, where neonatal or childhood circumcision aligns with religious requirements, typically with lower complication rates due to earlier timing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These practices persist alongside Islamic customs in regions like coastal Tanzania and eastern Ethiopia, where neonatal or childhood circumc"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These practices persist alongside Islamic customs in regions like coastal Tanzania and eastern Ethiopia, where neonatal or childhood circumcision aligns with re.",
+      "span": {
+        "quote": "These practices persist alongside Islamic customs in regions like coastal Tanzania and eastern Ethiopia, where neonatal or childhood circumcision aligns with re"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

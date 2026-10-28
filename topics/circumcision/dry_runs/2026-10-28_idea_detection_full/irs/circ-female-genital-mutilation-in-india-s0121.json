@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0121",
+  "source_text": "Doctrinally, the female variant underscores modesty by mitigating desires, enabling Bohra women to access sacred sites like mosques, cemeteries, and the Kaaba\u2014privileges tied to demonstrated purity\u2014while distinguishing the sect's esoteric causality from broader Islamic norms. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Doctrinally, the female variant underscores modesty by mitigating desires, enabling Bohra women to access sacred sites like mosques, cemeter"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Doctrinally, the female variant underscores modesty by mitigating desires, enabling Bohra women to access sacred sites like mosques, cemeteries, and the Kaaba\u2014p.",
+      "span": {
+        "quote": "Doctrinally, the female variant underscores modesty by mitigating desires, enabling Bohra women to access sacred sites like mosques, cemeteries, and the Kaaba\u2014p"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to demonstrated purity\u2014while distinguishing the sect's esoteric.",
+      "span": {
+        "quote": "tied to demonstrated purity\u2014while distinguishing the sect's esoteric"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to demonstrated purity\u2014while distinguishing the sect's esoteric"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to demonstrated purity\u2014while distinguishing the sect's esoteric",
+          "span": {
+            "quote": "tied to demonstrated purity\u2014while distinguishing the sect's esoteric"
+          }
+        }
+      ]
+    }
+  ]
+}

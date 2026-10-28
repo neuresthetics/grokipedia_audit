@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0098",
+  "source_text": "Excessive bleeding can occur, as evidenced by a 2017 case in India where a Bohra girl bled heavily post-procedure, soaking three bedsheets and necessitating hospital intervention.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Excessive bleeding can occur, as evidenced by a 2017 case in India where a Bohra girl bled heavily post-procedure, soaking three bedsheets a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Excessive bleeding can occur, as evidenced by a 2017 case in India where a Bohra girl bled heavily post-procedure, soaking three bedsheets and necessitating hos.",
+      "span": {
+        "quote": "Excessive bleeding can occur, as evidenced by a 2017 case in India where a Bohra girl bled heavily post-procedure, soaking three bedsheets and necessitating hos"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

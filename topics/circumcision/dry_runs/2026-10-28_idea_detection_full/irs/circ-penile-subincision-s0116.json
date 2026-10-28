@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-penile-subincision-s0116",
+  "source_text": "Proponents, often from anthropological perspectives within Indigenous contexts, maintain that communal rites foster social cohesion and male identity, with boys culturally groomed to accept the procedure as a voluntary passage, implying a form of proxy consent through tradition. [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents, often from anthropological perspectives within Indigenous contexts, maintain that communal rites foster social cohesion and male"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Communal rites foster social cohesion and male identity, with boys culturally groomed to accept the procedure as a voluntary passage, implying a form of proxy c.",
+      "span": {
+        "quote": "communal rites foster social cohesion and male identity, with boys culturally groomed to accept the procedure as a voluntary passage, implying a form of proxy c"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents, often from anthropological perspectives within Indigenous contexts.",
+      "span": {
+        "quote": "Proponents, often from anthropological perspectives within Indigenous contexts"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

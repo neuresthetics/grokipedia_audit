@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0129",
+  "source_text": "Religious justifications, often invoked in Muslim-majority practicing communities, lack direct Quranic support\u2014FGM is absent from the text and stems from pre-Islamic tribal customs\u2014while major Islamic authorities, including Egypt's Al-Azhar University, have issued fatwas deeming it un-Islamic and harmful. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Religious justifications, often invoked in Muslim-majority practicing communities, lack direct Quranic support\u2014FGM is absent from the text a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Religious justifications, often invoked in Muslim-majority practicing communities, lack direct Quranic support\u2014FGM is absent from the text and stems from pre-Is.",
+      "span": {
+        "quote": "Religious justifications, often invoked in Muslim-majority practicing communities, lack direct Quranic support\u2014FGM is absent from the text and stems from pre-Is"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

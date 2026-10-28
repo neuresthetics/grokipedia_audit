@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0119",
+  "source_text": "In contrast, Orthodox Judaism categorically rejects Brit Shalom as a substitute for brit milah, maintaining that Genesis 17:10-14 mandates physical circumcision for covenantal inclusion, rendering uncircumcised males ineligible for full ritual participation until adulthood.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, Orthodox Judaism categorically rejects Brit Shalom as a substitute for brit milah, maintaining that Genesis 17:10-14 mandates p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, Orthodox Judaism categorically rejects Brit Shalom as a substitute for brit milah, maintaining that Genesis 17:10-14 mandates physical circumcision.",
+      "span": {
+        "quote": "In contrast, Orthodox Judaism categorically rejects Brit Shalom as a substitute for brit milah, maintaining that Genesis 17:10-14 mandates physical circumcision"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

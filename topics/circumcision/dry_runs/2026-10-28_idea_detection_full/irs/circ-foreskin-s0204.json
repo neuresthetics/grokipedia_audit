@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0204",
+  "source_text": "A 2014 analysis of U.S. hospital data reported 1.5 adverse events per 1,000 procedures, predominantly minor bleeding or adhesions, though underreporting may occur due to outpatient settings. [101]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2014 analysis of U.S. hospital data reported 1.5 adverse events per 1,000 procedures, predominantly minor bleeding or adhesions, though un"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2014 analysis of U.S. hospital data reported 1.5 adverse events per 1,000 procedures, predominantly minor bleeding or adhesions, though underreporting may occ.",
+      "span": {
+        "quote": "A 2014 analysis of U.S. hospital data reported 1.5 adverse events per 1,000 procedures, predominantly minor bleeding or adhesions, though underreporting may occ"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

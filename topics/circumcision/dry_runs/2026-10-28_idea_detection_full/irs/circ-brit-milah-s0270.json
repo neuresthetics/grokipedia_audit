@@ -1,0 +1,38 @@
+{
+  "passage_id": "circ-brit-milah-s0270",
+  "source_text": "Central claims include the assertion that brit milah inflicts unnecessary pain and carries risks such as infection, hemorrhage, and improper healing, with critics highlighting the frequent absence of effective anesthesia in traditional settings. [133] [134]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Central claims include the assertion that brit milah inflicts unnecessary pain and carries risks such as infection, hemorrhage, and improper"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Include the assertion that brit milah inflicts unnecessary pain and carries risks such as infection, hemorrhage, and improper healing, with critics highlighting.",
+      "span": {
+        "quote": "include the assertion that brit milah inflicts unnecessary pain and carries risks such as infection, hemorrhage, and improper healing, with critics highlighting"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0249",
+  "source_text": "In Egypt, British physician William Willcocks advocated against pharaonic circumcision in 1900, linking it to obstetric complications based on hospital data showing elevated maternal mortality rates of up to 20% in infibulated women.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Egypt, British physician William Willcocks advocated against pharaonic circumcision in 1900, linking it to obstetric complications based"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Egypt, British physician William Willcocks advocated against pharaonic circumcision in 1900, linking it to obstetric complications based on hospital data sho.",
+      "span": {
+        "quote": "In Egypt, British physician William Willcocks advocated against pharaonic circumcision in 1900, linking it to obstetric complications based on hospital data sho"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

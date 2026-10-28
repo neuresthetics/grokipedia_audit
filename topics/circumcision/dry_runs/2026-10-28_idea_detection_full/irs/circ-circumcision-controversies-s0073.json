@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0073",
+  "source_text": "In high-risk African settings, VMMC interventions have demonstrated epidemiological causality through time-series declines in incidence post-uptake, exceeding expectations from behavioral interventions alone, whereas low-prevalence contexts like Europe show minimal marginal gains due to already subdued transmission dynamics. [56]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high-risk African settings, VMMC interventions have demonstrated epidemiological causality through time-series declines in incidence post"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high-risk African settings, VMMC interventions have demonstrated epidemiological causality through time-series declines in incidence post-uptake, exceeding e.",
+      "span": {
+        "quote": "In high-risk African settings, VMMC interventions have demonstrated epidemiological causality through time-series declines in incidence post-uptake, exceeding e"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

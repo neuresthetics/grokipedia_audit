@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0030",
+  "source_text": "In the United States and Canada, cultural preferences have long favored the circumcised penis for its perceived visual tidiness, uniformity, and reduced foreskin prominence, often framed as aligning with modern hygiene standards.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States and Canada, cultural preferences have long favored the circumcised penis for its perceived visual tidiness, uniformity,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the United States and Canada, cultural preferences have long favored the circumcised penis for its perceived visual tidiness, uniformity, and reduced foreski.",
+      "span": {
+        "quote": "In the United States and Canada, cultural preferences have long favored the circumcised penis for its perceived visual tidiness, uniformity, and reduced foreski"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0185",
+  "source_text": "These complications arise causally from the non-sterile procedures and loss of protective mucosal barriers, leading to persistent inflammation and tissue damage over decades.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These complications arise causally from the non-sterile procedures and loss of protective mucosal barriers, leading to persistent inflammati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These complications arise causally from the non-sterile procedures and loss of protective mucosal barriers, leading to persistent inflammation and tissue damage.",
+      "span": {
+        "quote": "These complications arise causally from the non-sterile procedures and loss of protective mucosal barriers, leading to persistent inflammation and tissue damage"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

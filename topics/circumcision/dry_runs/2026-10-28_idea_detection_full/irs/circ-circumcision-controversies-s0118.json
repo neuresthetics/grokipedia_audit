@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0118",
+  "source_text": "In low-prevalence contexts, these benefits accrue cumulatively over lifetime exposure, outweighing surgical risks when discounting deontological objections and focusing on empirical causality.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In low-prevalence contexts, these benefits accrue cumulatively over lifetime exposure, outweighing surgical risks when discounting deontolog"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In low-prevalence contexts, these benefits accrue cumulatively over lifetime exposure, outweighing surgical risks when discounting deontological objections and.",
+      "span": {
+        "quote": "In low-prevalence contexts, these benefits accrue cumulatively over lifetime exposure, outweighing surgical risks when discounting deontological objections and "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

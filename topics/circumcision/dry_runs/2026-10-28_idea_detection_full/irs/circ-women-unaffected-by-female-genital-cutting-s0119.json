@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0119",
+  "source_text": "A cross-sectional study of 220 Egyptian women using the Female Sexual Function Index (FSFI) found no significant differences in overall sexual function scores between those who had undergone FGC (types I and II) and uncircumcised controls, including comparable ratings for desire, arousal, lubrication, orgasm, and satisfaction. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A cross-sectional study of 220 Egyptian women using the Female Sexual Function Index (FSFI) found no significant differences in overall sexu"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A cross-sectional study of 220 Egyptian women using the Female Sexual Function Index (FSFI) found no significant differences in overall sexual function scores b.",
+      "span": {
+        "quote": "A cross-sectional study of 220 Egyptian women using the Female Sexual Function Index (FSFI) found no significant differences in overall sexual function scores b"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

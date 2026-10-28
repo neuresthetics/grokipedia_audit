@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0245",
+  "source_text": "Hybrid models propose delaying non-therapeutic circumcision until adolescence or early adulthood for non-religious cases, balancing consent with evidence-based timing; yet, meta-analyses favor neonatal execution for maximizing net benefits, as delayed procedures not only amplify complication risks but also diminish early protections like UTI prevention, where uncircumcised infants face rates up to 1 in 3 lifetime versus 1 in 12 for circumcised males. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hybrid models propose delaying non-therapeutic circumcision until adolescence or early adulthood for non-religious cases, balancing consent"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hybrid models propose delaying non-therapeutic circumcision until adolescence or early adulthood for non-religious cases, balancing consent with evidence-based.",
+      "span": {
+        "quote": "Hybrid models propose delaying non-therapeutic circumcision until adolescence or early adulthood for non-religious cases, balancing consent with evidence-based "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

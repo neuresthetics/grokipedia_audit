@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0248",
+  "source_text": "Emerging discourses in diaspora settings occasionally invoke adult \"choice\" to reframe less severe cuttings, but for infibulation's irreversible narrowing, such normalization remains marginal and unsubstantiated by prevalence data, as the procedure's design targets prepubescent girls to enforce premarital chastity controls.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Emerging discourses in diaspora settings occasionally invoke adult \"choice\" to reframe less severe cuttings, but for infibulation's irrevers"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Emerging discourses in diaspora settings occasionally invoke adult \"choice\" to reframe less severe cuttings, but for infibulation's irreversible narrowing, such.",
+      "span": {
+        "quote": "Emerging discourses in diaspora settings occasionally invoke adult \"choice\" to reframe less severe cuttings, but for infibulation's irreversible narrowing, such"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated by prevalence data.",
+      "span": {
+        "quote": "unsubstantiated by prevalence data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated by prevalence data"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0172",
+  "source_text": "In the Middle East, practices are less widespread but persistent in Yemen (19% national rate, higher in rural areas) and Iraqi Kurdistan (8-38% varying by governorate), where milder Type I forms (e.g., clitoral hood nicking) predominate under \"sunna\" nomenclature, often justified by selective interpretations of Islamic texts despite lacking endorsement from major religious authorities. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the Middle East, practices are less widespread but persistent in Yemen (19% national rate, higher in rural areas) and Iraqi Kurdistan (8-"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the Middle East, practices are less widespread but persistent in Yemen (19% national rate, higher in rural areas) and Iraqi Kurdistan (8-38% varying by gover.",
+      "span": {
+        "quote": "In the Middle East, practices are less widespread but persistent in Yemen (19% national rate, higher in rural areas) and Iraqi Kurdistan (8-38% varying by gover"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

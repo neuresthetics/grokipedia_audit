@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-forced-circumcision-s0179",
+  "source_text": "The American Academy of Pediatrics' 2012 policy review concluded that overall health benefits (including UTI, STI, and cancer protections) outweigh procedural risks for newborns, though it stopped short of routine recommendation. [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy review concluded that overall health benefits (including UTI, STI, and cancer protections) o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall health benefits (including UTI, STI, and cancer protections) outweigh procedural risks for newborns, though it stopped short of routine recommendation.",
+      "span": {
+        "quote": "overall health benefits (including UTI, STI, and cancer protections) outweigh procedural risks for newborns, though it stopped short of routine recommendation."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The American Academy of Pediatrics' 2012 policy review.",
+      "span": {
+        "quote": "The American Academy of Pediatrics' 2012 policy review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "concluded"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

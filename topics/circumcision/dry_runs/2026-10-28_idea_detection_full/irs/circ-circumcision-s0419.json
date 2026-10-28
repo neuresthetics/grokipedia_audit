@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0419",
+  "source_text": "European groups, including the Royal Dutch Medical Association's 2010 stance, recommend delaying until age 16 for consent, citing insufficient net benefits over autonomy costs. [231] [234]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "European groups, including the Royal Dutch Medical Association's 2010 stance, recommend delaying until age 16 for consent, citing insufficie"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "European groups, including the Royal Dutch Medical Association's 2010 stance, recommend delaying until age 16 for consent, citing insufficient net benefits over.",
+      "span": {
+        "quote": "European groups, including the Royal Dutch Medical Association's 2010 stance, recommend delaying until age 16 for consent, citing insufficient net benefits over"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing insufficient net benefits over autonomy costs.",
+      "span": {
+        "quote": "citing insufficient net benefits over autonomy costs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing insufficient net benefits over autonomy costs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

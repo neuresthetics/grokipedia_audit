@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0009",
+  "source_text": "Public health initiatives, including community education and fistula repair programs, have sought to curb the practice by demonstrating its causal role in preventable disabilities, though cultural acceptance remains a barrier in Hausa-dominated regions. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Public health initiatives, including community education and fistula repair programs, have sought to curb the practice by demonstrating its"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Public health initiatives, including community education and fistula repair programs, have sought to curb the practice by demonstrating its causal role in preve.",
+      "span": {
+        "quote": "Public health initiatives, including community education and fistula repair programs, have sought to curb the practice by demonstrating its causal role in preve"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

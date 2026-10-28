@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-ulwaluko-s0154",
+  "source_text": "For example, investigations revealed illegal schools involving overcrowding, untrained cutters, and criminal elements, contributing to at least 153 fatalities nationwide from 2012 onward, with many cases tied to negligence rather than inherent rite elements. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, investigations revealed illegal schools involving overcrowding, untrained cutters, and criminal elements, contributing to at le"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, investigations revealed illegal schools involving overcrowding, untrained cutters, and criminal elements, contributing to at least 153 fatalities n.",
+      "span": {
+        "quote": "For example, investigations revealed illegal schools involving overcrowding, untrained cutters, and criminal elements, contributing to at least 153 fatalities n"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to negligence rather than inherent rite elements.",
+      "span": {
+        "quote": "tied to negligence rather than inherent rite elements"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to negligence rather than inherent rite elements"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to negligence rather than inherent rite elements",
+          "span": {
+            "quote": "tied to negligence rather than inherent rite elements"
+          }
+        }
+      ]
+    }
+  ]
+}

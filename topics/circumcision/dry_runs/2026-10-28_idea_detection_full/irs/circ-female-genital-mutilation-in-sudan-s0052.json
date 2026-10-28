@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0052",
+  "source_text": "In Sudanese communities, particularly in the northern regions, female genital mutilation (FGM) is primarily justified as a means to control female sexuality and ensure premarital chastity, with families and practitioners believing it curbs perceived excessive sexual desire and promotes fidelity within marriage. [12] [14]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Sudanese communities, particularly in the northern regions, female genital mutilation (FGM) is primarily justified as a means to control"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Sudanese communities, particularly in the northern regions, female genital mutilation (FGM) is primarily justified as a means to control female sexuality and.",
+      "span": {
+        "quote": "In Sudanese communities, particularly in the northern regions, female genital mutilation (FGM) is primarily justified as a means to control female sexuality and"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

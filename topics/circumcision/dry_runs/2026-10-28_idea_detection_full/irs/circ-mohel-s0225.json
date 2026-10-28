@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-mohel-s0225",
+  "source_text": "Such reporting, often in outlets like The New York Times and NPR, emphasizes regulatory clashes, such as 2012 proposals for parental consent forms, framing mohels as potential vectors for infection despite the practice's limited prevalence among the roughly 1,000 U.S. mohels.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such reporting, often in outlets like The New York Times and NPR, emphasizes regulatory clashes, such as 2012 proposals for parental consent"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regulatory clashes, such as 2012 proposals for parental consent forms, framing mohels as potential vectors for infection despite the practice's limited prevalen.",
+      "span": {
+        "quote": "regulatory clashes, such as 2012 proposals for parental consent forms, framing mohels as potential vectors for infection despite the practice's limited prevalen"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Such reporting, often in outlets like The New York Times and NPR.",
+      "span": {
+        "quote": "Such reporting, often in outlets like The New York Times and NPR"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

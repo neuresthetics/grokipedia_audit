@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0196",
+  "source_text": "A 2025 WHO-led study across multiple countries confirmed these multifaceted risks, emphasizing higher morbidity in infibulated women and calling for longitudinal data to quantify prevalence accurately. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2025 WHO-led study across multiple countries confirmed these multifaceted risks, emphasizing higher morbidity in infibulated women and cal"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2025 WHO-led study across multiple countries confirmed these multifaceted risks, emphasizing higher morbidity in infibulated women and calling for longitudina.",
+      "span": {
+        "quote": "A 2025 WHO-led study across multiple countries confirmed these multifaceted risks, emphasizing higher morbidity in infibulated women and calling for longitudina"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

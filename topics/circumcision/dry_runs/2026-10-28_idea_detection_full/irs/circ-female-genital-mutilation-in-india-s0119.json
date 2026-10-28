@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0119",
+  "source_text": "Community interpretations parallel khafd with male circumcision (khatna), viewing both as complementary rites of passage performed around age seven that instill self-control and sectarian loyalty, thereby sustaining high adherence rates\u2014evidenced by 56% of surveyed Bohra women attributing the practice to doctrinal requirements\u2014which bolsters intra-community cohesion and obedience to the Dai's interpretive authority. [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Community interpretations parallel khafd with male circumcision (khatna), viewing both as complementary rites of passage performed around ag"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Community interpretations parallel khafd with male circumcision (khatna), viewing both as complementary rites of passage performed around age seven that instill.",
+      "span": {
+        "quote": "Community interpretations parallel khafd with male circumcision (khatna), viewing both as complementary rites of passage performed around age seven that instill"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Sustaining high adherence rates\u2014evidenced by 56% of surveyed Bohra women attributing the practice to doctrinal requirements\u2014which bolsters intra-community cohes.",
+      "span": {
+        "quote": "sustaining high adherence rates\u2014evidenced by 56% of surveyed Bohra women attributing the practice to doctrinal requirements\u2014which bolsters intra-community cohes"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

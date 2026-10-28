@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0005",
+  "source_text": "Rooted in beliefs about preserving virginity, enhancing marriageability, and enforcing social norms, FGM persists despite empirical evidence of zero health benefits and demonstrable causal harm from anatomical disruption and psychological trauma. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rooted in beliefs about preserving virginity, enhancing marriageability, and enforcing social norms, FGM persists despite empirical evidence"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rooted in beliefs about preserving virginity, enhancing marriageability, and enforcing social norms, FGM persists despite empirical evidence of zero health bene.",
+      "span": {
+        "quote": "Rooted in beliefs about preserving virginity, enhancing marriageability, and enforcing social norms, FGM persists despite empirical evidence of zero health bene"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

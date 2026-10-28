@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0031",
+  "source_text": "Claims minimizing FGM/C as voluntary cultural choice lack empirical support, as procedures target non-consenting minors\u2014often infants or young girls\u2014causing immediate risks like hemorrhage and infection alongside long-term complications such as urinary issues, sexual dysfunction, and psychological trauma, corroborated by clinical outcomes in affected communities. [2] [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims minimizing FGM/C as voluntary cultural choice lack empirical support, as procedures target non-consenting minors\u2014often infants or you"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Minimizing FGM/C as voluntary cultural choice lack empirical support, as procedures target non-consenting minors\u2014often infants or young girls\u2014causing immediate.",
+      "span": {
+        "quote": "minimizing FGM/C as voluntary cultural choice lack empirical support, as procedures target non-consenting minors\u2014often infants or young girls\u2014causing immediate "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

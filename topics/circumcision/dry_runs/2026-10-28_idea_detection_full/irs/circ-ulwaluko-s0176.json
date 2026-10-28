@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ulwaluko-s0176",
+  "source_text": "Traditional leaders and cultural custodians mounted protests against these impositions, contending that they usurp communal authority embedded in indigenous customary law, which prioritizes collective rites over individualistic health safeguards, and risk diluting the transformative essence of ulwaluko by introducing external medical vetoes. [63] [60]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Traditional leaders and cultural custodians mounted protests against these impositions, contending that they usurp communal authority embedd"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Traditional leaders and cultural custodians mounted protests against these impositions, contending that they usurp communal authority embedded in indigenous cus.",
+      "span": {
+        "quote": "Traditional leaders and cultural custodians mounted protests against these impositions, contending that they usurp communal authority embedded in indigenous cus"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

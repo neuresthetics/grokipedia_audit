@@ -1,0 +1,90 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0233",
+  "source_text": "While isolated observational studies have suggested possible localized increases in partner numbers among newly circumcised youth, these lack causal controls and are outweighed by RCT evidence; critics' emphasis on hypothetical compensation has not been substantiated empirically, with modeling indicating that even moderate risk increases would erode observed HIV reductions, which persist in population data. [114]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While isolated observational studies have suggested possible localized increases in partner numbers among newly circumcised youth, these lac"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Possible localized increases in partner numbers among newly circumcised youth, these lack causal controls and are outweighed by RCT evidence;.",
+      "span": {
+        "quote": "possible localized increases in partner numbers among newly circumcised youth, these lack causal controls and are outweighed by RCT evidence;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "While isolated observational studies have.",
+      "span": {
+        "quote": "While isolated observational studies have"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "RCT.",
+      "span": {
+        "quote": "RCT"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggested"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "RCT"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "increases"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

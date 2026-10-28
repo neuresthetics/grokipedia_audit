@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0128",
+  "source_text": "Risk-benefit analyses of neonatal circumcision quantify net preventive gains, estimating benefits-to-risks ratios exceeding 100:1 when aggregating UTI, STI, and cancer averting effects against procedural complications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Risk-benefit analyses of neonatal circumcision quantify net preventive gains, estimating benefits-to-risks ratios exceeding 100:1 when aggre"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Risk-benefit analyses of neonatal circumcision quantify net preventive gains, estimating benefits-to-risks ratios exceeding 100:1 when aggregating UTI, STI, and.",
+      "span": {
+        "quote": "Risk-benefit analyses of neonatal circumcision quantify net preventive gains, estimating benefits-to-risks ratios exceeding 100:1 when aggregating UTI, STI, and"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

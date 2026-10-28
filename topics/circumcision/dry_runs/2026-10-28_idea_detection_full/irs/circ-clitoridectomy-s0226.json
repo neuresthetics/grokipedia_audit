@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-clitoridectomy-s0226",
+  "source_text": "The World Health Organization supports these frameworks through its 2024 guidelines on FGM prevention, classifying the practice as a human rights violation with no health benefits, and collaborates with UN agencies to advocate for treaty implementation, though it lacks binding enforcement authority. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization supports these frameworks through its 2024 guidelines on FGM prevention, classifying the practice as a human r"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization supports these frameworks through its 2024 guidelines on FGM prevention, classifying the practice as a human rights violation with.",
+      "span": {
+        "quote": "The World Health Organization supports these frameworks through its 2024 guidelines on FGM prevention, classifying the practice as a human rights violation with"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

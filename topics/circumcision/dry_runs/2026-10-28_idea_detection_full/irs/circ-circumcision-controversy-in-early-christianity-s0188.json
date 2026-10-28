@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0188",
+  "source_text": "In Romans 2:29, Paul states, \"But he is a Jew, which is one inwardly; and circumcision is that of the heart; in the spirit, and not in the letter; whose praise is not of men, but of God,\" contrasting superficial observance with authentic spiritual renewal.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Romans 2:29, Paul states, \"But he is a Jew, which is one inwardly; and circumcision is that of the heart; in the spirit, and not in the l"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Romans 2:29, Paul states, \"But he is a Jew, which is one inwardly; and circumcision is that of the heart; in the spirit, and not in the letter; whose praise.",
+      "span": {
+        "quote": "In Romans 2:29, Paul states, \"But he is a Jew, which is one inwardly; and circumcision is that of the heart; in the spirit, and not in the letter; whose praise "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

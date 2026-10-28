@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0060",
+  "source_text": "In lower-prevalence settings outside sub-Saharan Africa, such as North America and Europe, evidence relies on observational studies prone to confounders like sexual partnering patterns and condom use, yielding inconsistent associations between circumcision and reduced HIV risk. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In lower-prevalence settings outside sub-Saharan Africa, such as North America and Europe, evidence relies on observational studies prone to"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In lower-prevalence settings outside sub-Saharan Africa, such as North America and Europe, evidence relies on observational studies prone to confounders like se.",
+      "span": {
+        "quote": "In lower-prevalence settings outside sub-Saharan Africa, such as North America and Europe, evidence relies on observational studies prone to confounders like se"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

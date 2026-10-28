@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0086",
+  "source_text": "Surveys on sexual well-being further reveal that women with FGC often report orgasmic capacity comparable to or unaltered from uncut peers.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Surveys on sexual well-being further reveal that women with FGC often report orgasmic capacity comparable to or unaltered from uncut peers."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Surveys on sexual well-being further reveal that women with FGC often report orgasmic capacity comparable to or unaltered from uncut peers.",
+      "span": {
+        "quote": "Surveys on sexual well-being further reveal that women with FGC often report orgasmic capacity comparable to or unaltered from uncut peers."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

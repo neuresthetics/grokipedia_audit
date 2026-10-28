@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0264",
+  "source_text": "Relativists critique universalist interventions for hypocrisy, noting Western tolerance of analogous body modifications\u2014like male circumcision, performed on over a million U.S. infants annually without equivalent condemnation, or elective cosmetic surgeries such as labiaplasty\u2014while selectively targeting non-Western traditions, thereby revealing culturally biased standards rather than consistent ethical principles.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Relativists critique universalist interventions for hypocrisy, noting Western tolerance of analogous body modifications\u2014like male circumcisi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E circumcision, performed on over a million U.S. infants annually without equivalent condemnation, or elective cosmetic surgeries such as labiaplasty\u2014while sele.",
+      "span": {
+        "quote": "e circumcision, performed on over a million U.S. infants annually without equivalent condemnation, or elective cosmetic surgeries such as labiaplasty\u2014while sele"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Revealing culturally biased standards rather than consistent ethical principles.",
+      "span": {
+        "quote": "revealing culturally biased standards rather than consistent ethical principles."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Biased standards rather than consistent ethical.",
+      "span": {
+        "quote": "biased standards rather than consistent ethical"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "biased standards rather than consistent ethical"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Relativists critique"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "biased standards rather than consistent ethical ",
+          "span": {
+            "quote": "biased standards rather than consistent ethical"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-012",
+  "source_text": "stress is survives or breaks (flagged and open break). Empty expansion of a no_issue node does not manufacture a gap.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "stress is survives or breaks (flagged and open break). Empty expansion of a no_issue node does not manufacture a gap."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Stress is survives or breaks (flagged and open break). Empty expansion of a no_issue node does not manufacture a gap.",
+      "span": {
+        "quote": "stress is survives or breaks (flagged and open break). Empty expansion of a no_issue node does not manufacture a gap."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

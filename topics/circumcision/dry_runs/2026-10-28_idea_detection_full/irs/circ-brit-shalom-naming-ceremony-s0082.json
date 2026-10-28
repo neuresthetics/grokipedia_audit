@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0082",
+  "source_text": "Parents elect Brit Shalom as an alternative to Brit Milah primarily due to ethical objections to neonatal circumcision, emphasizing the procedure's status as a non-therapeutic surgery performed without the infant's consent, which they regard as a violation of bodily autonomy and an infliction of unnecessary pain and potential trauma. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parents elect Brit Shalom as an alternative to Brit Milah primarily due to ethical objections to neonatal circumcision, emphasizing the proc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parents elect Brit Shalom as an alternative to Brit Milah primarily due to ethical objections to neonatal circumcision, emphasizing the procedure's status as a.",
+      "span": {
+        "quote": "Parents elect Brit Shalom as an alternative to Brit Milah primarily due to ethical objections to neonatal circumcision, emphasizing the procedure's status as a "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

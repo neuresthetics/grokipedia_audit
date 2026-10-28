@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0017",
+  "source_text": "It is justified culturally to ensure virginity, prevent promiscuity, control female sexuality, enhance cleanliness and aesthetic beauty, and uphold family honor, with uncut girls facing stigma as immature or unclean, often barring them from social ceremonies. [6] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "It is justified culturally to ensure virginity, prevent promiscuity, control female sexuality, enhance cleanliness and aesthetic beauty, and"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It is justified culturally to ensure virginity, prevent promiscuity, control female sexuality, enhance cleanliness and aesthetic beauty, and uphold family honor.",
+      "span": {
+        "quote": "It is justified culturally to ensure virginity, prevent promiscuity, control female sexuality, enhance cleanliness and aesthetic beauty, and uphold family honor"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

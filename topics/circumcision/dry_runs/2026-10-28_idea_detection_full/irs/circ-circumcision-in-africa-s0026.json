@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0026",
+  "source_text": "Across these traditions, circumcision symbolizes purification and endurance, yet empirical data highlight complications like hemorrhage and sepsis from untrained practitioners, prompting governmental interventions in countries such as South Africa to regulate but not eradicate the customs. [16]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Across these traditions, circumcision symbolizes purification and endurance, yet empirical data highlight complications like hemorrhage and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Across these traditions, circumcision symbolizes purification and endurance, yet empirical data highlight complications like hemorrhage and sepsis from untraine.",
+      "span": {
+        "quote": "Across these traditions, circumcision symbolizes purification and endurance, yet empirical data highlight complications like hemorrhage and sepsis from untraine"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

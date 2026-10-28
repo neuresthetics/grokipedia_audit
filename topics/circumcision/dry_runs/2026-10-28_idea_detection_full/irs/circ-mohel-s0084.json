@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0084",
+  "source_text": "The brit milah procedure integrates surgical precision with prescribed ritual elements, ensuring compliance with halachic requirements while minimizing trauma to the infant.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The brit milah procedure integrates surgical precision with prescribed ritual elements, ensuring compliance with halachic requirements while"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The brit milah procedure integrates surgical precision with prescribed ritual elements, ensuring compliance with halachic requirements while minimizing trauma t.",
+      "span": {
+        "quote": "The brit milah procedure integrates surgical precision with prescribed ritual elements, ensuring compliance with halachic requirements while minimizing trauma t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

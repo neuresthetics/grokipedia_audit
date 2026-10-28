@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0085",
+  "source_text": "Post-circumcision, the exposed glans penis and coronal sulcus undergo adaptive keratinization, thickening the epithelial layer and reducing permeability to viral particles, as evidenced by increased transepithelial resistance and decreased HIV penetration in keratinized versus mucosal tissues. [49]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Post-circumcision, the exposed glans penis and coronal sulcus undergo adaptive keratinization, thickening the epithelial layer and reducing"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Post-circumcision, the exposed glans penis and coronal sulcus undergo adaptive keratinization, thickening the epithelial layer and reducing permeability to vira.",
+      "span": {
+        "quote": "Post-circumcision, the exposed glans penis and coronal sulcus undergo adaptive keratinization, thickening the epithelial layer and reducing permeability to vira"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

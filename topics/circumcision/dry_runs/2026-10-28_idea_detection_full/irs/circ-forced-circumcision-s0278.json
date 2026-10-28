@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-forced-circumcision-s0278",
+  "source_text": "Critics of this view, including bodies like the WHO, maintain a distinction based on harm severity, noting FGC's absence of benefits and higher morbidity (e.g., up to 15% immediate complication rates in some settings) compared to male circumcision's debated advantages, such as a 60% reduction in heterosexual HIV acquisition in randomized trials from high-prevalence areas. [126] [128]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of this view, including bodies like the WHO, maintain a distinction based on harm severity, noting FGC's absence of benefits and hig"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Distinction based on harm severity, noting FGC's absence of benefits and higher morbidity (e.g., up to 15% immediate complication rates in some settings) compar.",
+      "span": {
+        "quote": "distinction based on harm severity, noting FGC's absence of benefits and higher morbidity (e.g., up to 15% immediate complication rates in some settings) compar"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of this view, including bodies like the WHO.",
+      "span": {
+        "quote": "Critics of this view, including bodies like the WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

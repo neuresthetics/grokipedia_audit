@@ -1,0 +1,71 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0084",
+  "source_text": "Early Christian patristic writings, such as those of John Chrysostom, echo the Apostle Paul's characterization of physical circumcision advocates as promoters of \"mutilation,\" portraying the procedure as an unnecessary alteration of the flesh that contrasts with God's original design redeemed through Christ's spiritual circumcision. [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Early Christian patristic writings, such as those of John Chrysostom, echo the Apostle Paul's characterization of physical circumcision advo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Early Christian patristic writings, such as those of John Chrysostom, echo the Apostle Paul's characterization of physical circumcision advocates as promoters o.",
+      "span": {
+        "quote": "Early Christian patristic writings, such as those of John Chrysostom, echo the Apostle Paul's characterization of physical circumcision advocates as promoters o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "terms": [
+    {
+      "id": "t_circ",
+      "surface": "circumcision",
+      "senses": [
+        {
+          "id": "physical",
+          "gloss": "genital cutting / brit milah"
+        },
+        {
+          "id": "spiritual",
+          "gloss": "metaphorical circumcision of the heart"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "term_id": "t_circ",
+      "sense_id": "physical",
+      "claim_id": "c1",
+      "span": {
+        "quote": "circumcision"
+      }
+    },
+    {
+      "term_id": "t_circ",
+      "sense_id": "spiritual",
+      "claim_id": "c1",
+      "span": {
+        "quote": "circumcision"
+      }
+    }
+  ]
+}

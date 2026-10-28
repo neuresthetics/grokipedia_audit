@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0157",
+  "source_text": "Psychologically, women subjected to clitoridectomy exhibit higher prevalence of post-traumatic stress disorder (PTSD), depression, and anxiety, attributed to procedural trauma, chronic pain, and cultural stigma. [78] [79]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychologically, women subjected to clitoridectomy exhibit higher prevalence of post-traumatic stress disorder (PTSD), depression, and anxie"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychologically, women subjected to clitoridectomy exhibit higher prevalence of post-traumatic stress disorder (PTSD), depression, and anxiety, attributed to pr.",
+      "span": {
+        "quote": "Psychologically, women subjected to clitoridectomy exhibit higher prevalence of post-traumatic stress disorder (PTSD), depression, and anxiety, attributed to pr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

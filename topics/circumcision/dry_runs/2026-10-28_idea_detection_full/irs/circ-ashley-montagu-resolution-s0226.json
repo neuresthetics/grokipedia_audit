@@ -1,0 +1,58 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0226",
+  "source_text": "By petitioning the World Court at The Hague to declare such acts incompatible with the Universal Declaration of Human Rights (particularly Articles 5 and 25 on protection from torture and the right to health) and the UN Convention on the Rights of the Child (Articles 19, 24, and 37 on safeguards against harm and cruel treatment), it elevated intactivist arguments from ethical advocacy to a call for enforceable international law. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "By petitioning the World Court at The Hague to declare such acts incompatible with the Universal Declaration of Human Rights (particularly A"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "intactivists"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "By petitioning the World Court at The Hague to declare such acts incompatible with the Universal Declaration of Human Rights (particularly Articles 5 and 25 on.",
+      "span": {
+        "quote": "By petitioning the World Court at The Hague to declare such acts incompatible with the Universal Declaration of Human Rights (particularly Articles 5 and 25 on "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    },
+    {
+      "id": "c2",
+      "text": "A call for enforceable international law.",
+      "span": {
+        "quote": "a call for enforceable international law"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a call for enforceable international law"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

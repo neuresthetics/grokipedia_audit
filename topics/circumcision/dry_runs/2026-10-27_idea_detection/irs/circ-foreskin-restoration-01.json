@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-foreskin-restoration-01",
+  "source_text": "Proponents of restoration contend that IMC permanently alters healthy genital tissue without the individual's consent, removing specialized erogenous structures such as the ridged bands and inner mucosal lining, which contribute to sexual function and sensation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "IMC permanently alters healthy genital tissue without the individual's consent, removing specialized erogenous structures"
+      },
+      "claim_ids": [
+        "c_alters",
+        "c_structures",
+        "c_function"
+      ],
+      "speaker": "restoration_proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c_structures",
+      "text": "IMC removes specialized erogenous structures such as the ridged bands and inner mucosal lining.",
+      "span": {
+        "quote": "removing specialized erogenous structures such as the ridged bands and inner mucosal lining"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "restoration_proponents"
+    },
+    {
+      "id": "c_function",
+      "text": "Those structures contribute to sexual function and sensation.",
+      "span": {
+        "quote": "which contribute to sexual function and sensation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "restoration_proponents"
+    },
+    {
+      "id": "c_alters",
+      "text": "IMC permanently alters healthy genital tissue without the individual's consent.",
+      "span": {
+        "quote": "IMC permanently alters healthy genital tissue without the individual's consent"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "restoration_proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c_structures",
+      "target": "c_alters",
+      "span": {
+        "quote": "removing specialized erogenous structures"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c_function",
+      "target": "c_alters",
+      "span": {
+        "quote": "contribute to sexual function and sensation"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "charity_applied": true
+  }
+}

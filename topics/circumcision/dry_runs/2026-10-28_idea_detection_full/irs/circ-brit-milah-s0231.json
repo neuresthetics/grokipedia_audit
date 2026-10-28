@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0231",
+  "source_text": "HSV-1 prevalence exceeds 50% in U.S. adults, enabling asymptomatic carriers to transmit the virus via mucosal contact, as evidenced by genomic sequencing linking strains from mohels to affected neonates. [116]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "HSV-1 prevalence exceeds 50% in U.S. adults, enabling asymptomatic carriers to transmit the virus via mucosal contact, as evidenced by genom"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "HSV-1 prevalence exceeds 50% in U.S. adults, enabling asymptomatic carriers to transmit the virus via mucosal contact, as evidenced by genomic sequencing linkin.",
+      "span": {
+        "quote": "HSV-1 prevalence exceeds 50% in U.S. adults, enabling asymptomatic carriers to transmit the virus via mucosal contact, as evidenced by genomic sequencing linkin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

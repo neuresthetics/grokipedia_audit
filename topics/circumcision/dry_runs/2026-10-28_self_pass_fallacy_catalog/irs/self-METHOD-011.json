@@ -1,0 +1,102 @@
+{
+  "passage_id": "self-METHOD-011",
+  "source_text": "**(g) Give a verdict.** - **Flag**: every condition is met from the text and no look-alike applies. - **Possible issue**: the text meets the conditions it can, but at least one condition depends on context that is not in the text, or a look-alike might apply. Say exactly what would settle it. - **No issue**: a condition fails, or a look-alike applies. - **No argument.** A passage that makes no argument, or only reports, quotes, teaches or satirises someone else's argument, is no issue. Record the fallacy it displays or mentions, if any, in the reported_fallacy field, so that a skim of the verdicts still shows it. - **Dialogues and exchanges.** Score each participant's argument separately. A participant who advances an argument in direct speech is scored even when the author is satirising it (note the satire). Use \"no argument\" only when the passage's own voice narrates, teaches or mocks without a participant advancing the argument. An argument quoted inside a report, review, lesson or exercise (the passage's own voice is reporting, reviewing or teaching, as in \"identify the flaw in Ben's reply\") is no argument; record it under reported_fallacy. - **Rebuttals and straw men.** When a passage rebuts a view, the rebuttal's own logic is judged under the usual steps. Whether the rebutted view is fairly attributed is a straw-man check, made only when a specific opponent and their words are identifiable in the passage. - **Rhetorical notes (not fallacies).** Charged or sectarian wording, invective, and unsupported accusations that no inference rests on go in a \"rhetorical notes\" field, not in a fallacy flag. They do not change the verdict. - **Other errors (not fallacies).** Arithmetic slips, wrong figures and factual mistakes that are not reasoning errors go in a separate \"other errors\" note. They do not change the verdict. - **Correct use of a fallacy name, or a fair reduction to absurdity.** If the speaker correctly identifies or rebuts a fallacy, or argues by reduction to absurdity from the opponent's own stated principle, the verdict is no issue. Record the entry they invoked, so the reader can see it was checked.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "**(g) Give a verdict.** - **Flag**: every condition is met from the text and no look-alike applies. - **Possible issue**: the text meets the"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A passage that makes no argument, or only reports, quotes, teaches or satirises someone else's argument, is no issue. Record the fallacy it displays or mentions.",
+      "span": {
+        "quote": "A passage that makes no argument, or only reports, quotes, teaches or satirises someone else's argument, is no issue. Record the fallacy it displays or mentions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c2",
+      "text": "The reader can see it was checked.",
+      "span": {
+        "quote": "the reader can see it was checked."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "A verdict.",
+      "span": {
+        "quote": "a verdict"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c2",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "instantiates",
+      "source": "c4",
+      "target": "c2",
+      "span": {
+        "quote": "a verdict"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

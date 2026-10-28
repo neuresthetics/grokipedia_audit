@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0275",
+  "source_text": "A systematic review of observational data indicated only a modest 20% reduction in HIV incidence among female partners of circumcised men, but this is confounded by factors such as reduced viral load in circumcised men and does not establish causation for female protection. [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A systematic review of observational data indicated only a modest 20% reduction in HIV incidence among female partners of circumcised men, b"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A systematic review of observational data indicated only a modest 20% reduction in HIV incidence among female partners of circumcised men, but this is confounde.",
+      "span": {
+        "quote": "A systematic review of observational data indicated only a modest 20% reduction in HIV incidence among female partners of circumcised men, but this is confounde"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic review.",
+      "span": {
+        "quote": "systematic review"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic review"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

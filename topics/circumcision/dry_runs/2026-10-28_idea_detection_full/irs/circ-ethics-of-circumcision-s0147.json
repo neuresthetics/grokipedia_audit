@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0147",
+  "source_text": "Circumcision removes the foreskin, which harbors a subpreputial space prone to bacterial colonization and microtears during intercourse that facilitate pathogen entry; post-circumcision, the exposed glans undergoes keratinization, forming a thicker epithelial layer that reduces susceptibility to abrasions and viral adhesion sites such as Langerhans cells concentrated in the inner foreskin. [94] [95]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision removes the foreskin, which harbors a subpreputial space prone to bacterial colonization and microtears during intercourse that"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision removes the foreskin, which harbors a subpreputial space prone to bacterial colonization and microtears during intercourse that facilitate pathogen.",
+      "span": {
+        "quote": "Circumcision removes the foreskin, which harbors a subpreputial space prone to bacterial colonization and microtears during intercourse that facilitate pathogen"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

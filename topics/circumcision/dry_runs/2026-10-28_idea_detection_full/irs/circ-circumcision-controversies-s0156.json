@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0156",
+  "source_text": "This ritual, executed by a trained mohel, symbolizes identity and continuity, particularly vital in diaspora contexts where it reinforces communal cohesion amid assimilation pressures. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This ritual, executed by a trained mohel, symbolizes identity and continuity, particularly vital in diaspora contexts where it reinforces co"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This ritual, executed by a trained mohel, symbolizes identity and continuity, particularly vital in diaspora contexts where it reinforces communal cohesion amid.",
+      "span": {
+        "quote": "This ritual, executed by a trained mohel, symbolizes identity and continuity, particularly vital in diaspora contexts where it reinforces communal cohesion amid"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

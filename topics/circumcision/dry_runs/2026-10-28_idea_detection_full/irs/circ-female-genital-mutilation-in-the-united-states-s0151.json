@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0151",
+  "source_text": "Studies tracking affected women demonstrate no reduction in genital infections and elevated complication rates compared to uncircumcised peers, underscoring the procedure's net physical detriment without empirical support for preventive claims.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies tracking affected women demonstrate no reduction in genital infections and elevated complication rates compared to uncircumcised pee"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In genital infections and elevated complication rates compared to uncircumcised peers, underscoring the procedure's net physical detriment without empirical sup.",
+      "span": {
+        "quote": "in genital infections and elevated complication rates compared to uncircumcised peers, underscoring the procedure's net physical detriment without empirical sup"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

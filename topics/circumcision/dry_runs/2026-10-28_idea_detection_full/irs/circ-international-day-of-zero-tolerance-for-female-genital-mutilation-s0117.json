@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0117",
+  "source_text": "In Type III FGM (infibulation), which involves narrowing the vaginal opening, additional risks include urinary retention due to swelling and obstructed flow, prolonged bleeding from suturing, and acute genital ulcers. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Type III FGM (infibulation), which involves narrowing the vaginal opening, additional risks include urinary retention due to swelling and"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Type III FGM (infibulation), which involves narrowing the vaginal opening, additional risks include urinary retention due to swelling and obstructed flow, pr.",
+      "span": {
+        "quote": "In Type III FGM (infibulation), which involves narrowing the vaginal opening, additional risks include urinary retention due to swelling and obstructed flow, pr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

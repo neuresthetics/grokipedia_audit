@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0326",
+  "source_text": "Circumcision is also associated with lower risks of penile cancer (odds ratio 0.33 in meta-analysis of case-control studies) and human papillomavirus (HPV)-related outcomes, though penile cancer remains exceedingly rare (1 in 100,000 annually in developed nations), necessitating over 900 circumcisions to prevent one case when performed neonatally. [17] [148]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision is also associated with lower risks of penile cancer (odds ratio 0.33 in meta-analysis of case-control studies) and human papil"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision is also associated with lower risks of penile cancer (odds ratio 0.33 in meta-analysis of case-control studies) and human papillomavirus (HPV)-rela.",
+      "span": {
+        "quote": "Circumcision is also associated with lower risks of penile cancer (odds ratio 0.33 in meta-analysis of case-control studies) and human papillomavirus (HPV)-rela"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with lower risks of penile cancer (odds ratio 0.",
+      "span": {
+        "quote": "associated with lower risks of penile cancer (odds ratio 0"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with lower risks of penile cancer (odds ratio 0"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with lower risks of penile cancer (odds ratio 0",
+          "span": {
+            "quote": "associated with lower risks of penile cancer (odds ratio 0"
+          }
+        }
+      ]
+    }
+  ]
+}

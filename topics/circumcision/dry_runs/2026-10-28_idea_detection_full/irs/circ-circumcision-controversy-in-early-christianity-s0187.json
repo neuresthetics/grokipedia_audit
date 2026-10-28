@@ -1,0 +1,71 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0187",
+  "source_text": "The doctrine of spiritual circumcision, primarily articulated by the Apostle Paul, posits that genuine covenant membership with God requires an inward transformation of the heart effected by the Holy Spirit, rather than adherence to the external rite of physical circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The doctrine of spiritual circumcision, primarily articulated by the Apostle Paul, posits that genuine covenant membership with God requires"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The doctrine of spiritual circumcision, primarily articulated by the Apostle Paul, posits that genuine covenant membership with God requires an inward transform.",
+      "span": {
+        "quote": "The doctrine of spiritual circumcision, primarily articulated by the Apostle Paul, posits that genuine covenant membership with God requires an inward transform"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "terms": [
+    {
+      "id": "t_circ",
+      "surface": "circumcision",
+      "senses": [
+        {
+          "id": "physical",
+          "gloss": "genital cutting / brit milah"
+        },
+        {
+          "id": "spiritual",
+          "gloss": "metaphorical circumcision of the heart"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "term_id": "t_circ",
+      "sense_id": "spiritual",
+      "claim_id": "c1",
+      "span": {
+        "quote": "circumcision"
+      }
+    },
+    {
+      "term_id": "t_circ",
+      "sense_id": "physical",
+      "claim_id": "c1",
+      "span": {
+        "quote": "circumcision"
+      }
+    }
+  ]
+}

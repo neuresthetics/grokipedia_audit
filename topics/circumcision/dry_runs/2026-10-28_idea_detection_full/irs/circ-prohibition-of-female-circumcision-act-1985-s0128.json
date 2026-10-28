@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0128",
+  "source_text": "The World Health Organization classifies all forms as mutilation due to the absence of health benefits and violation of bodily integrity, with studies showing no compensatory cultural gains outweighing these non-consensual injuries to minors. [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization classifies all forms as mutilation due to the absence of health benefits and violation of bodily integrity, wi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The World Health Organization classifies all forms as mutilation due to the absence of health benefits and violation of bodily integrity, with studies showing n.",
+      "span": {
+        "quote": "The World Health Organization classifies all forms as mutilation due to the absence of health benefits and violation of bodily integrity, with studies showing n"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "These non-consensual injuries to minors.",
+      "span": {
+        "quote": "these non-consensual injuries to minors"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "these non-consensual injuries to minors"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

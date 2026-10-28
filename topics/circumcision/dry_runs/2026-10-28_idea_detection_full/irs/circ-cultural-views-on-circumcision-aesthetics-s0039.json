@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0039",
+  "source_text": "Circumcision was absent from most tribal practices prior to European contact and is often regarded as an imposition of settler medical norms rather than an enhancement.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision was absent from most tribal practices prior to European contact and is often regarded as an imposition of settler medical norms"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision was absent from most tribal practices prior to European contact and is often regarded as an imposition of settler medical norms rather than an enha.",
+      "span": {
+        "quote": "Circumcision was absent from most tribal practices prior to European contact and is often regarded as an imposition of settler medical norms rather than an enha"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

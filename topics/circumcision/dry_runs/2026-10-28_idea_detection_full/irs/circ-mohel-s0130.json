@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-mohel-s0130",
+  "source_text": "Neonatal circumcision, as performed in the brit milah ritual by trained mohels, is associated with low rates of complications, typically ranging from 0% to 3% overall, with a median frequency of 1.5% for any adverse event in systematic reviews of procedures on infants under one year. [66] [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Neonatal circumcision, as performed in the brit milah ritual by trained mohels, is associated with low rates of complications, typically ran"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Neonatal circumcision, as performed in the brit milah ritual by trained mohels, is associated with low rates of complications, typically ranging from 0% to 3% o.",
+      "span": {
+        "quote": "Neonatal circumcision, as performed in the brit milah ritual by trained mohels, is associated with low rates of complications, typically ranging from 0% to 3% o"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with low rates of complications.",
+      "span": {
+        "quote": "associated with low rates of complications"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "systematic reviews"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with low rates of complications"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with low rates of complications",
+          "span": {
+            "quote": "associated with low rates of complications"
+          }
+        }
+      ]
+    }
+  ]
+}

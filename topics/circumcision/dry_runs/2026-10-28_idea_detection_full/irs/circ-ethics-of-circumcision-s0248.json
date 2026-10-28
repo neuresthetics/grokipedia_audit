@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0248",
+  "source_text": "Three randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 demonstrated that voluntary medical male circumcision (VMMC) reduces the risk of HIV acquisition in heterosexual men by approximately 60%.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Three randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 demonstrated that voluntary medical male circumcision (V"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Three randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 demonstrated that voluntary medical male circumcision (VMMC) reduces the ris.",
+      "span": {
+        "quote": "Three randomized controlled trials (RCTs) conducted in Africa between 2005 and 2007 demonstrated that voluntary medical male circumcision (VMMC) reduces the ris"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

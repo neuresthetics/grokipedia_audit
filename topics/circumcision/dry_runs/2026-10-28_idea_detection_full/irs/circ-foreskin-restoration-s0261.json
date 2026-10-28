@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0261",
+  "source_text": "Foreskin restoration, typically pursued by circumcised adults through non-surgical tissue expansion methods like tension devices, is framed ethically as an exercise of personal autonomy to mitigate prior non-consensual harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Foreskin restoration, typically pursued by circumcised adults through non-surgical tissue expansion methods like tension devices, is framed"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Foreskin restoration, typically pursued by circumcised adults through non-surgical tissue expansion methods like tension devices, is framed ethically as an exer.",
+      "span": {
+        "quote": "Foreskin restoration, typically pursued by circumcised adults through non-surgical tissue expansion methods like tension devices, is framed ethically as an exer"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "passage_id": "self-IDEA_DETECTION-005",
+  "source_text": "Each new pilot has an ir_forbid for the catalog look-alikes: a uniform population, a cautious or low-stakes generalization, or a selection-not-size doubt; a causal chain whose links are each given a mechanism, or line-drawing with no prediction; options that are not claimed to be the only ones, or a true dichotomy; expert agreement, a question about taste or popularity itself, popularity as one piece among others, or a non-decisive hedge; association offered only as disclosure or caution, or merits that are actually engaged. A slippery chain with no stated leap is at most possible issue (catalog outside-text condition on whether each later step is likely). A \u201cprobably\u201d hedge does not fill that gap. Hedge, default_rule, and precautionary mappings stay as in the extractor prompt.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Each new pilot has an ir_forbid for the catalog look-alikes: a uniform population, a cautious or low-stakes generalization, or a selection-n"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O be the only ones, or a true dichotomy;.",
+      "span": {
+        "quote": "o be the only ones, or a true dichotomy;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Autious or low-stakes generalization, or a selection-not-size doubt; a causal chain whose links are each given a mechanism, or line-drawing with no prediction;.",
+      "span": {
+        "quote": "autious or low-stakes generalization, or a selection-not-size doubt; a causal chain whose links are each given a mechanism, or line-drawing with no prediction; "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claimed"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

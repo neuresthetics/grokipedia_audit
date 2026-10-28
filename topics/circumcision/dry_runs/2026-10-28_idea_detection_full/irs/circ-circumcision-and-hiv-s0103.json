@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0103",
+  "source_text": "In October 2023, WHO reaffirmed VMMC's cost-effectiveness\u2014estimated at $2,000\u2013$4,000 per infection averted\u2014at current coverage levels below 60% in many priority countries, urging intensified efforts to achieve 90% coverage among males aged 15\u201329 to maximize population-level impact amid competing prevention priorities like pre-exposure prophylaxis. [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In October 2023, WHO reaffirmed VMMC's cost-effectiveness\u2014estimated at $2,000\u2013$4,000 per infection averted\u2014at current coverage levels below"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In October 2023, WHO reaffirmed VMMC's cost-effectiveness\u2014estimated at $2,000\u2013$4,000 per infection averted\u2014at current coverage levels below 60% in many priority.",
+      "span": {
+        "quote": "In October 2023, WHO reaffirmed VMMC's cost-effectiveness\u2014estimated at $2,000\u2013$4,000 per infection averted\u2014at current coverage levels below 60% in many priority"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Per infection averted\u2014at current coverage levels below 60% in many priority.",
+      "span": {
+        "quote": "per infection averted\u2014at current coverage levels below 60% in many priority"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "per infection averted\u2014at current coverage levels below 60% in many priority"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

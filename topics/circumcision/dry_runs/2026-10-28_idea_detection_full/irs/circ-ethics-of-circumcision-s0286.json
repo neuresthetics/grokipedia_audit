@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0286",
+  "source_text": "Implementation in infants also lacks community-level acceptability studies specific to HIV endpoints, complicating ethical justification beyond adult trial data. [168] [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Implementation in infants also lacks community-level acceptability studies specific to HIV endpoints, complicating ethical justification bey"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Implementation in infants also lacks community-level acceptability studies specific to HIV endpoints, complicating ethical justification beyond adult trial data.",
+      "span": {
+        "quote": "Implementation in infants also lacks community-level acceptability studies specific to HIV endpoints, complicating ethical justification beyond adult trial data"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

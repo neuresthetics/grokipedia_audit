@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0004",
+  "source_text": "While proponents within the community frame it as a religious rite paralleling male circumcision, promoting purity and discipline, critics highlight associated health risks including immediate pain, bleeding, infection, and potential long-term complications such as scarring and sexual dysfunction, notwithstanding claims of minimal harm in its localized form. [3] [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While proponents within the community frame it as a religious rite paralleling male circumcision, promoting purity and discipline, critics h"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of minimal harm in its localized form.",
+      "span": {
+        "quote": "of minimal harm in its localized form."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Tics highlight associated health risks including immediate pain, bleeding, infection, and potential long-term complications such as scarring and sexual dysfunct.",
+      "span": {
+        "quote": "tics highlight associated health risks including immediate pain, bleeding, infection, and potential long-term complications such as scarring and sexual dysfunct"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

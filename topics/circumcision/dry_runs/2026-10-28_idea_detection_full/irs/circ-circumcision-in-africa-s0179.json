@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0179",
+  "source_text": "Real-world implementation revealed logistical challenges, including moderate complication rates (1-2%) and the need for rigorous quality assurance, but population-level modeling affirmed net preventive impact when scaled efficiently.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Real-world implementation revealed logistical challenges, including moderate complication rates (1-2%) and the need for rigorous quality ass"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Real-world implementation revealed logistical challenges, including moderate complication rates (1-2%) and the need for rigorous quality assurance, but populati.",
+      "span": {
+        "quote": "Real-world implementation revealed logistical challenges, including moderate complication rates (1-2%) and the need for rigorous quality assurance, but populati"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

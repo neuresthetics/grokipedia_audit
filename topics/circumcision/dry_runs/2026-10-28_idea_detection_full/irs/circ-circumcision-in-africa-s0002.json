@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0002",
+  "source_text": "In sub-Saharan Africa, traditional circumcision often occurs during adolescence as an initiation into manhood, embedding social identity and masculinity norms, though it carries risks of severe complications like wound infections and deaths when performed by untrained practitioners. [1] [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In sub-Saharan Africa, traditional circumcision often occurs during adolescence as an initiation into manhood, embedding social identity and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In sub-Saharan Africa, traditional circumcision often occurs during adolescence as an initiation into manhood, embedding social identity and masculinity norms,.",
+      "span": {
+        "quote": "In sub-Saharan Africa, traditional circumcision often occurs during adolescence as an initiation into manhood, embedding social identity and masculinity norms, "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

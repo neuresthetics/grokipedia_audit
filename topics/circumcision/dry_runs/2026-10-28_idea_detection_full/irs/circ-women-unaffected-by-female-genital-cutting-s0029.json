@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0029",
+  "source_text": "For example, qualitative accounts from Sudanese and Kenyan women describe Type I or II cuttings as enhancing marital eligibility and community belonging without long-term detriment, attributing any complications to unskilled practitioners rather than the procedure itself.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For example, qualitative accounts from Sudanese and Kenyan women describe Type I or II cuttings as enhancing marital eligibility and communi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For example, qualitative accounts from Sudanese and Kenyan women describe Type I or II cuttings as enhancing marital eligibility and community belonging without.",
+      "span": {
+        "quote": "For example, qualitative accounts from Sudanese and Kenyan women describe Type I or II cuttings as enhancing marital eligibility and community belonging without"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

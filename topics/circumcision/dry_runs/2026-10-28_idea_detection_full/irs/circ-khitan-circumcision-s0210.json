@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0210",
+  "source_text": "Legally, this disparity manifests in global prohibitions on FGC\u2014criminalized in over 40 countries with penalties up to life imprisonment\u2014while male circumcision, including khitan, enjoys legal tolerance or endorsement in most jurisdictions, predicated on divergent harm-benefit profiles substantiated by medical consensus. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Legally, this disparity manifests in global prohibitions on FGC\u2014criminalized in over 40 countries with penalties up to life imprisonment\u2014whi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Legally, this disparity manifests in global prohibitions on FGC\u2014criminalized in over 40 countries with penalties up to life imprisonment\u2014while male circumcision.",
+      "span": {
+        "quote": "Legally, this disparity manifests in global prohibitions on FGC\u2014criminalized in over 40 countries with penalties up to life imprisonment\u2014while male circumcision"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

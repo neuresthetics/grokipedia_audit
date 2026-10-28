@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0181",
+  "source_text": "Surveys among Malaysian women who underwent such procedures report minimal or no perceived physical disruptions to daily life, sexual function, or childbirth, with practitioners citing hygiene and reduced scarring as benefits over traditional methods.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Surveys among Malaysian women who underwent such procedures report minimal or no perceived physical disruptions to daily life, sexual functi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Surveys among Malaysian women who underwent such procedures report minimal or no perceived physical disruptions to daily life, sexual function, or childbirth, w.",
+      "span": {
+        "quote": "Surveys among Malaysian women who underwent such procedures report minimal or no perceived physical disruptions to daily life, sexual function, or childbirth, w"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Citing hygiene and reduced scarring as benefits over traditional methods.",
+      "span": {
+        "quote": "citing hygiene and reduced scarring as benefits over traditional methods"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing hygiene and reduced scarring as benefits over traditional methods"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0133",
+  "source_text": "A meta-analysis across African cohorts reported women with FGM had 1.92 times higher odds of PTSD symptoms, including flashbacks and hypervigilance, persisting into adulthood.00542-9/fulltext) [41] Depression prevalence is 1.5-2 times greater, exacerbated by sexual dissatisfaction and social stigma, with qualitative studies noting themes of shame and loss of bodily autonomy. [2] [42]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A meta-analysis across African cohorts reported women with FGM had 1.92 times higher odds of PTSD symptoms, including flashbacks and hypervi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A meta-analysis across African cohorts reported women with FGM had 1.92 times higher odds of PTSD symptoms, including flashbacks and hypervigilance, persisting.",
+      "span": {
+        "quote": "A meta-analysis across African cohorts reported women with FGM had 1.92 times higher odds of PTSD symptoms, including flashbacks and hypervigilance, persisting "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

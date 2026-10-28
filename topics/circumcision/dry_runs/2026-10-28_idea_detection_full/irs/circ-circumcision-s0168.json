@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-s0168",
+  "source_text": "A Danish cohort study of 810,719 males found infant or childhood non-therapeutic circumcision did not reduce adult HIV or STI risks and actually increased overall STI rates (HR 1.53, 95% CI 1.24\u20131.89). [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A Danish cohort study of 810,719 males found infant or childhood non-therapeutic circumcision did not reduce adult HIV or STI risks and actu"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Danish cohort study of 810,719 males found infant or childhood non-therapeutic circumcision did not reduce adult HIV or STI risks and actually increased overa.",
+      "span": {
+        "quote": "A Danish cohort study of 810,719 males found infant or childhood non-therapeutic circumcision did not reduce adult HIV or STI risks and actually increased overa"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

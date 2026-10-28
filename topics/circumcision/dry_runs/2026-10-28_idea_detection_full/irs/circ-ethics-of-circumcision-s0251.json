@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0251",
+  "source_text": "The third trial, in Orange Farm, South Africa, with 3,274 men aged 18-24, showed a 61% reduction (hazard ratio 0.39; 95% CI 0.19-0.80) at interim analysis, leading to early trial termination.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The third trial, in Orange Farm, South Africa, with 3,274 men aged 18-24, showed a 61% reduction (hazard ratio 0.39; 95% CI 0.19-0.80) at in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The third trial, in Orange Farm, South Africa, with 3,274 men aged 18-24, showed a 61% reduction (hazard ratio 0.39; 95% CI 0.19-0.80) at interim analysis, lead.",
+      "span": {
+        "quote": "The third trial, in Orange Farm, South Africa, with 3,274 men aged 18-24, showed a 61% reduction (hazard ratio 0.39; 95% CI 0.19-0.80) at interim analysis, lead"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

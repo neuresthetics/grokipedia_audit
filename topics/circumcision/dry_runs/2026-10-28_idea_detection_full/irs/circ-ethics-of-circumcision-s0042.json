@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0042",
+  "source_text": "Circumcision substantially lowers the lifetime risk of penile cancer, a rare malignancy primarily linked to chronic inflammation and human papillomavirus (HPV) persistence in uncircumcised males.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision substantially lowers the lifetime risk of penile cancer, a rare malignancy primarily linked to chronic inflammation and human p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision substantially lowers the lifetime risk of penile cancer, a rare malignancy primarily linked to chronic inflammation and human papillomavirus (HPV).",
+      "span": {
+        "quote": "Circumcision substantially lowers the lifetime risk of penile cancer, a rare malignancy primarily linked to chronic inflammation and human papillomavirus (HPV) "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to chronic inflammation and human papillomavirus (HPV).",
+      "span": {
+        "quote": "linked to chronic inflammation and human papillomavirus (HPV)"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to chronic inflammation and human papillomavirus (HPV)"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to chronic inflammation and human papillomavirus (HPV) ",
+          "span": {
+            "quote": "linked to chronic inflammation and human papillomavirus (HPV)"
+          }
+        }
+      ]
+    }
+  ]
+}

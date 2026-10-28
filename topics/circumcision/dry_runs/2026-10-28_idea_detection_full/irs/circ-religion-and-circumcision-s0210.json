@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0210",
+  "source_text": "European human rights frameworks, including Article 9 of the European Convention on Human Rights, have upheld religious circumcision against blanket bans, as in a 2015 Dutch court dismissal of assault claims against parents, emphasizing proportionality and lack of severe risk when hygienically performed. [117]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "European human rights frameworks, including Article 9 of the European Convention on Human Rights, have upheld religious circumcision against"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gainst parents, emphasizing proportionality and lack of severe risk when hygienically performed.",
+      "span": {
+        "quote": "gainst parents, emphasizing proportionality and lack of severe risk when hygienically performed."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "S frameworks, including Article 9 of the European Convention on Human Rights, have upheld religious circumcision against blanket bans, as in a 2015 Dutch court.",
+      "span": {
+        "quote": "s frameworks, including Article 9 of the European Convention on Human Rights, have upheld religious circumcision against blanket bans, as in a 2015 Dutch court "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

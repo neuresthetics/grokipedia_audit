@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0004",
+  "source_text": "Central to the debate is the tension between parental authority and child autonomy: proponents argue that modest empirical benefits\u2014such as a 10-fold reduction in urinary tract infections during infancy and partial protection against heterosexual HIV acquisition in adulthood\u2014outweigh rare risks (estimated at 0.2-0.6% for adverse events), justifying proxy decision-making by guardians in line with cultural or familial values. [1] [2] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Central to the debate is the tension between parental authority and child autonomy: proponents argue that modest empirical benefits\u2014such as"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Modest empirical benefits\u2014such as a 10-fold reduction in urinary tract infections during infancy and partial protection against heterosexual HIV acquisition in.",
+      "span": {
+        "quote": "modest empirical benefits\u2014such as a 10-fold reduction in urinary tract infections during infancy and partial protection against heterosexual HIV acquisition in "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Central to the debate is the tension between parental authority and child autonomy: proponents.",
+      "span": {
+        "quote": "Central to the debate is the tension between parental authority and child autonomy: proponents"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0152",
+  "source_text": "In U.S. clinical contexts, immigrant patients present with sepsis and wound dehiscence linked to Type III procedures performed domestically or abroad, per hospital management reports. [66] [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In U.S. clinical contexts, immigrant patients present with sepsis and wound dehiscence linked to Type III procedures performed domestically"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In U.S. clinical contexts, immigrant patients present with sepsis and wound dehiscence linked to Type III procedures performed domestically or abroad, per hospi.",
+      "span": {
+        "quote": "In U.S. clinical contexts, immigrant patients present with sepsis and wound dehiscence linked to Type III procedures performed domestically or abroad, per hospi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per hospital management reports.",
+      "span": {
+        "quote": "per hospital management reports"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to Type III procedures performed domestically or abroad.",
+      "span": {
+        "quote": "linked to Type III procedures performed domestically or abroad"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per hospital management reports"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to Type III procedures performed domestically or abroad"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to Type III procedures performed domestically or abroad",
+          "span": {
+            "quote": "linked to Type III procedures performed domestically or abroad"
+          }
+        }
+      ]
+    }
+  ]
+}

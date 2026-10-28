@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0138",
+  "source_text": "Regional variations, such as less invasive forms in Indonesia tied to Islamic purity norms, still serve similar control functions, adapting to local gender ideologies without altering the underlying coercive logic.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regional variations, such as less invasive forms in Indonesia tied to Islamic purity norms, still serve similar control functions, adapting"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regional variations, such as less invasive forms in Indonesia tied to Islamic purity norms, still serve similar control functions, adapting to local gender ideo.",
+      "span": {
+        "quote": "Regional variations, such as less invasive forms in Indonesia tied to Islamic purity norms, still serve similar control functions, adapting to local gender ideo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Tied to Islamic purity norms.",
+      "span": {
+        "quote": "tied to Islamic purity norms"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "tied to Islamic purity norms"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to Islamic purity norms",
+          "span": {
+            "quote": "tied to Islamic purity norms"
+          }
+        }
+      ]
+    }
+  ]
+}

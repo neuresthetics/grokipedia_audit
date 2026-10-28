@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0020",
+  "source_text": "In Islamic traditions during the medieval period, hadith collections such as those in Sunan al-Fitra emphasized male circumcision (khitan) as one of the natural inclinations (fitrah) promoting bodily cleanliness and purity, aligning with broader ideals of hygiene that extended to aesthetic perceptions of a refined, groomed appearance. [9]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Islamic traditions during the medieval period, hadith collections such as those in Sunan al-Fitra emphasized male circumcision (khitan) a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Male circumcision (khitan) as one of the natural inclinations (fitrah) promoting bodily cleanliness and purity, aligning with broader ideals of hygiene that ext.",
+      "span": {
+        "quote": "male circumcision (khitan) as one of the natural inclinations (fitrah) promoting bodily cleanliness and purity, aligning with broader ideals of hygiene that ext"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In Islamic traditions during the medieval period, hadith collections such as those in Sunan al-Fitra.",
+      "span": {
+        "quote": "In Islamic traditions during the medieval period, hadith collections such as those in Sunan al-Fitra"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

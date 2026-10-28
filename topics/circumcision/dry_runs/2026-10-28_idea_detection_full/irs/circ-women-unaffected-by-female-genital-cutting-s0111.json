@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0111",
+  "source_text": "Type III, involving narrowing of the vaginal opening through excision and apposition of the labia, carries elevated immediate harm risks compared to Types I and II, including higher urine retention (median 31%) and potential for keloids, yet long-term physical health data indicate that deinfibulation or natural adaptation allows many women to maintain functionality without recurrent infections or fistulae. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type III, involving narrowing of the vaginal opening through excision and apposition of the labia, carries elevated immediate harm risks com"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Functionality without recurrent infections or fistulae.",
+      "span": {
+        "quote": "functionality without recurrent infections or fistulae."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Including higher urine retention (median 31%) and potential for keloids, yet long-term physical health data indicate that deinfibulation or natural adaptation a.",
+      "span": {
+        "quote": "including higher urine retention (median 31%) and potential for keloids, yet long-term physical health data indicate that deinfibulation or natural adaptation a"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Many women to maintain functionality without.",
+      "span": {
+        "quote": "many women to maintain functionality without"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "many women to maintain functionality without"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

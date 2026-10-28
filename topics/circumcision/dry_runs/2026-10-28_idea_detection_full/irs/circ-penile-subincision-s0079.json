@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0079",
+  "source_text": "Acute complications like hypovolemic shock from unchecked hemorrhage or early infection from non-sterile traditional implements have been noted in historical descriptions, though quantitative data remain limited owing to the ritualistic, non-medical nature of most cases. [22]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Acute complications like hypovolemic shock from unchecked hemorrhage or early infection from non-sterile traditional implements have been no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Acute complications like hypovolemic shock from unchecked hemorrhage or early infection from non-sterile traditional implements have been noted in historical de.",
+      "span": {
+        "quote": "Acute complications like hypovolemic shock from unchecked hemorrhage or early infection from non-sterile traditional implements have been noted in historical de"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

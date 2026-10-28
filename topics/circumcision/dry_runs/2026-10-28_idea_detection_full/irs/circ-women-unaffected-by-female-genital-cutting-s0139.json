@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0139",
+  "source_text": "Empirical links between FGC and systemic patriarchy remain weakly established, as practices are frequently initiated and controlled by women for social cohesion, not male dominance, and reports of fulfilling sexual lives post-cutting contradict narratives of inherent debilitation. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical links between FGC and systemic patriarchy remain weakly established, as practices are frequently initiated and controlled by women"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical links between FGC and systemic patriarchy remain weakly established, as practices are frequently initiated and controlled by women for social cohesion.",
+      "span": {
+        "quote": "Empirical links between FGC and systemic patriarchy remain weakly established, as practices are frequently initiated and controlled by women for social cohesion"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

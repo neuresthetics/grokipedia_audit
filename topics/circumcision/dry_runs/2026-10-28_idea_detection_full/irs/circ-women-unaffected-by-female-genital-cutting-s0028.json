@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0028",
+  "source_text": "Conversely, the cutting narrative differentiates by WHO typology\u2014Type I (clitoridectomy, affecting ~80% of cases in some regions) involves minimal tissue removal analogous to hoodectomy in cosmetic procedures, with longitudinal data showing no consistent links to reduced sexual satisfaction or fertility when controlled for socioeconomic factors. [13]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conversely, the cutting narrative differentiates by WHO typology\u2014Type I (clitoridectomy, affecting ~80% of cases in some regions) involves m"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Conversely, the cutting narrative differentiates by WHO typology\u2014Type I (clitoridectomy, affecting ~80% of cases in some regions) involves minimal tissue remova.",
+      "span": {
+        "quote": "Conversely, the cutting narrative differentiates by WHO typology\u2014Type I (clitoridectomy, affecting ~80% of cases in some regions) involves minimal tissue remova"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

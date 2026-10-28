@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0188",
+  "source_text": "Obstetric complications are prominent, encompassing prolonged labour, excessive postpartum bleeding, higher caesarean rates, and elevated newborn mortality; women with Type 3 FGM often require deinfibulation surgeries for safe delivery. [47]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Obstetric complications are prominent, encompassing prolonged labour, excessive postpartum bleeding, higher caesarean rates, and elevated ne"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Obstetric complications are prominent, encompassing prolonged labour, excessive postpartum bleeding, higher caesarean rates, and elevated newborn mortality; wom.",
+      "span": {
+        "quote": "Obstetric complications are prominent, encompassing prolonged labour, excessive postpartum bleeding, higher caesarean rates, and elevated newborn mortality; wom"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0024",
+  "source_text": "These terminological preferences often reflect cultural relativism rather than procedural neutrality, as the practices involve excision of nerve-rich tissue leading to documented sensory loss.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These terminological preferences often reflect cultural relativism rather than procedural neutrality, as the practices involve excision of n"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These terminological preferences often reflect cultural relativism rather than procedural neutrality, as the practices involve excision of nerve-rich tissue lea.",
+      "span": {
+        "quote": "These terminological preferences often reflect cultural relativism rather than procedural neutrality, as the practices involve excision of nerve-rich tissue lea"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

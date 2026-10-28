@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0241",
+  "source_text": "Some analyses of post-trial data in Uganda suggested circumcised men were less likely to abstain, interpreting this as disinhibition. [120]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some analyses of post-trial data in Uganda suggested circumcised men were less likely to abstain, interpreting this as disinhibition. [120]"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcised men were less likely to abstain, interpreting this as disinhibition.",
+      "span": {
+        "quote": "circumcised men were less likely to abstain, interpreting this as disinhibition."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Some analyses of post-trial data in Uganda.",
+      "span": {
+        "quote": "Some analyses of post-trial data in Uganda"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggested"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

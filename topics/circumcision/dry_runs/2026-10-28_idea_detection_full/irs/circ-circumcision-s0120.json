@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0120",
+  "source_text": "A Danish national cohort study found that, with a total of 4986 ASD cases, circumcised boys were more likely than intact boys to develop ASD before age 10 years regardless of cultural background (HR = 1.46; 95% CI: 1.11\u20131.93).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A Danish national cohort study found that, with a total of 4986 ASD cases, circumcised boys were more likely than intact boys to develop ASD"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Danish national cohort study found that, with a total of 4986 ASD cases, circumcised boys were more likely than intact boys to develop ASD before age 10 years.",
+      "span": {
+        "quote": "A Danish national cohort study found that, with a total of 4986 ASD cases, circumcised boys were more likely than intact boys to develop ASD before age 10 years"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

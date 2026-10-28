@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0314",
+  "source_text": "In contrast, defenders invoke parental rights under frameworks like the \"best interests\" standard, positing that evolutionary and epidemiological data on benefits\u2014such as a 60% reduction in HIV acquisition in heterosexual men per randomized trials\u2014permit anticipatory consent, though these benefits are contested as overstated for low-risk populations in non-endemic areas. [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, defenders invoke parental rights under frameworks like the \"best interests\" standard, positing that evolutionary and epidemiolo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contrast, defenders invoke parental rights under frameworks like the \"best interests\" standard, positing that evolutionary and epidemiological data on benefi.",
+      "span": {
+        "quote": "In contrast, defenders invoke parental rights under frameworks like the \"best interests\" standard, positing that evolutionary and epidemiological data on benefi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per randomized trials\u2014permit anticipatory consent.",
+      "span": {
+        "quote": "per randomized trials\u2014permit anticipatory consent"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per randomized trials\u2014permit anticipatory consent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

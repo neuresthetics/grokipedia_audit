@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0055",
+  "source_text": "The Act distinguishes female genital mutilation from male circumcision by focusing on the former's inherently non-therapeutic intent and disproportionate harms, absent in the latter when medically indicated. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The Act distinguishes female genital mutilation from male circumcision by focusing on the former's inherently non-therapeutic intent and dis"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Act distinguishes female genital mutilation from male circumcision by focusing on the former's inherently non-therapeutic intent and disproportionate harms,.",
+      "span": {
+        "quote": "The Act distinguishes female genital mutilation from male circumcision by focusing on the former's inherently non-therapeutic intent and disproportionate harms,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

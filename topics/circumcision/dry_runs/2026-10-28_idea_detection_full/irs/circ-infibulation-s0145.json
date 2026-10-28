@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0145",
+  "source_text": "Peer-reviewed analyses confirm the absence of physiological gains, attributing persistence to entrenched cultural norms rather than evidence-based utility.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Peer-reviewed analyses confirm the absence of physiological gains, attributing persistence to entrenched cultural norms rather than evidence"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Peer-reviewed analyses confirm the absence of physiological gains, attributing persistence to entrenched cultural norms rather than evidence-based utility.",
+      "span": {
+        "quote": "Peer-reviewed analyses confirm the absence of physiological gains, attributing persistence to entrenched cultural norms rather than evidence-based utility."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

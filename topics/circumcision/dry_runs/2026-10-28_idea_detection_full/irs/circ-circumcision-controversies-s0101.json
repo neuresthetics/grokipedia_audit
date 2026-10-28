@@ -1,0 +1,72 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0101",
+  "source_text": "In the case of neonatal circumcision, parental decisions reflect similar reasoning, supported by empirical data indicating limited decisional regret; a 2024 study in a U.S. pediatric urology clinic found that while approximately 20% of parents reported moderate regret\u2014comparable to rates for other elective pediatric surgeries\u2014strong remorse was infrequent, and most affirmed the choice aligned with family values or health considerations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the case of neonatal circumcision, parental decisions reflect similar reasoning, supported by empirical data indicating limited decisiona"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the case of neonatal circumcision, parental decisions reflect similar reasoning, supported by empirical data indicating limited decisional regret; a 2024 stu.",
+      "span": {
+        "quote": "In the case of neonatal circumcision, parental decisions reflect similar reasoning, supported by empirical data indicating limited decisional regret; a 2024 stu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Aligned with family values or health considerations.",
+      "span": {
+        "quote": "aligned with family values or health considerations"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "aligned with family values or health considerations"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "aligned"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "aligned with family values or health considerations",
+          "span": {
+            "quote": "aligned with family values or health considerations"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0009",
+  "source_text": "Though it secured endorsements from figures like Francis Crick and Jonas Salk and aimed to mobilize heads of state and organizations like Amnesty International, the petition yielded no formal ICJ ruling, and its undifferentiated condemnation of male neonatal circumcision as mutilation has drawn criticism for overlooking empirical evidence of benefits, including a 50\u201360% reduction in heterosexual HIV acquisition and lower urinary tract infection rates, as affirmed by health authorities in high-prevalence contexts. [2] [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Though it secured endorsements from figures like Francis Crick and Jonas Salk and aimed to mobilize heads of state and organizations like Am"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Though it secured endorsements from figures like Francis Crick and Jonas Salk and aimed to mobilize heads of state and organizations like Amnesty International,.",
+      "span": {
+        "quote": "Though it secured endorsements from figures like Francis Crick and Jonas Salk and aimed to mobilize heads of state and organizations like Amnesty International,"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

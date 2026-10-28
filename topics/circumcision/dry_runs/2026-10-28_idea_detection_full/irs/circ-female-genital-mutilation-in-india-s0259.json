@@ -1,0 +1,71 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0259",
+  "source_text": "Critics counter that even minimal cuttings inflict irreversible clitoral damage, as evidenced by MRI scans of Bohra women showing scarring and tissue alteration, and argue for universal recognition of psychological and physical harm irrespective of intent or severity. [94]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics counter that even minimal cuttings inflict irreversible clitoral damage, as evidenced by MRI scans of Bohra women showing scarring a"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For universal recognition of psychological and physical harm irrespective of intent or severity.",
+      "span": {
+        "quote": "for universal recognition of psychological and physical harm irrespective of intent or severity."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics counter that even minimal cuttings inflict irreversible clitoral damage, as evidenced by MRI scans of Bohra women showing scarring and tissue alteration.",
+      "span": {
+        "quote": "Critics counter that even minimal cuttings inflict irreversible clitoral damage, as evidenced by MRI scans of Bohra women showing scarring and tissue alteration"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "asserts_cause": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "inflict"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

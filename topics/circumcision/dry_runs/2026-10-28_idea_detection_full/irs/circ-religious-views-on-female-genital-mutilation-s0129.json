@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religious-views-on-female-genital-mutilation-s0129",
+  "source_text": "While some African Pentecostal communities exhibit cultural tolerance for milder forms due to syncretism, major Pentecostal denominations officially denounce all FGM variants as contrary to doctrines of creation and redemption.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some African Pentecostal communities exhibit cultural tolerance for milder forms due to syncretism, major Pentecostal denominations of"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While some African Pentecostal communities exhibit cultural tolerance for milder forms due to syncretism, major Pentecostal denominations officially denounce al.",
+      "span": {
+        "quote": "While some African Pentecostal communities exhibit cultural tolerance for milder forms due to syncretism, major Pentecostal denominations officially denounce al"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

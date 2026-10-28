@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0346",
+  "source_text": "Yet, no federal or state precedent has criminalized infant male circumcision, reflecting deference to traditions upheld by bodies like the American Academy of Pediatrics, which in 2012 deemed benefits (e.g., reduced urinary tract infections) sufficient to justify access but not routine recommendation. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Yet, no federal or state precedent has criminalized infant male circumcision, reflecting deference to traditions upheld by bodies like the A"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Yet, no federal or state precedent has criminalized infant male circumcision, reflecting deference to traditions upheld by bodies like the American Academy of P.",
+      "span": {
+        "quote": "Yet, no federal or state precedent has criminalized infant male circumcision, reflecting deference to traditions upheld by bodies like the American Academy of P"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

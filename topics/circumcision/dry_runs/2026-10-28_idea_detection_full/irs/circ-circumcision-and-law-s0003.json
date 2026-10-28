@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0003",
+  "source_text": "Empirical assessments of health outcomes inform these debates, with bodies like the American Academy of Pediatrics concluding that preventive benefits\u2014such as reduced risks of urinary tract infections and certain sexually transmitted infections\u2014marginally exceed procedural risks but do not warrant universal recommendation, a view echoed in legal considerations of proportionality.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical assessments of health outcomes inform these debates, with bodies like the American Academy of Pediatrics concluding that preventiv"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical assessments of health outcomes inform these debates, with bodies like the American Academy of Pediatrics concluding that preventive benefits\u2014such as r.",
+      "span": {
+        "quote": "Empirical assessments of health outcomes inform these debates, with bodies like the American Academy of Pediatrics concluding that preventive benefits\u2014such as r"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "These debates.",
+      "span": {
+        "quote": "these debates"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "these debates"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

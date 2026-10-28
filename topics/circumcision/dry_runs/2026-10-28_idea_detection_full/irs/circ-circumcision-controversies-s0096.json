@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0096",
+  "source_text": "Proponents of equivalence argue this reflects inconsistent application of autonomy ethics, where degree of tissue removal or cultural valence should not eclipse the principle of consent, urging parity in prohibiting irreversible modifications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of equivalence argue this reflects inconsistent application of autonomy ethics, where degree of tissue removal or cultural valenc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Is reflects inconsistent application of autonomy ethics, where degree of tissue removal or cultural valence should not eclipse the principle of consent, urging.",
+      "span": {
+        "quote": "is reflects inconsistent application of autonomy ethics, where degree of tissue removal or cultural valence should not eclipse the principle of consent, urging "
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of equivalence.",
+      "span": {
+        "quote": "Proponents of equivalence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

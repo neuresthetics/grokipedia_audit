@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0139",
+  "source_text": "Similarly, a October 2025 analysis argued that escalating debates necessitate rethinking circumcision policies to better align with evidence on risks and benefits.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, a October 2025 analysis argued that escalating debates necessitate rethinking circumcision policies to better align with evidence"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Escalating debates necessitate rethinking circumcision policies to better align with evidence on risks and benefits.",
+      "span": {
+        "quote": "escalating debates necessitate rethinking circumcision policies to better align with evidence on risks and benefits."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Similarly, a October 2025 analysis.",
+      "span": {
+        "quote": "Similarly, a October 2025 analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

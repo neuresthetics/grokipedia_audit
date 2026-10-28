@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0172",
+  "source_text": "In the United States, religious coalitions, including Jewish and Muslim organizations such as the Union of Orthodox Jewish Congregations and the Islamic Society of North America, have actively opposed legislative efforts to restrict neonatal circumcision, framing it as essential to religious tradition and parental authority; for instance, in 2011, these groups successfully challenged a proposed ban in San Francisco through legal action, preventing it from appearing on the ballot, highlighting exemptions for religious practice as unconstitutional otherwise. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States, religious coalitions, including Jewish and Muslim organizations such as the Union of Orthodox Jewish Congregations and"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the United States, religious coalitions, including Jewish and Muslim organizations such as the Union of Orthodox Jewish Congregations and the Islamic Society.",
+      "span": {
+        "quote": "In the United States, religious coalitions, including Jewish and Muslim organizations such as the Union of Orthodox Jewish Congregations and the Islamic Society"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

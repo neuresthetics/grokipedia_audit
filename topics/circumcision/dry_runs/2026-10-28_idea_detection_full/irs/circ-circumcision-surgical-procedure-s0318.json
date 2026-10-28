@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0318",
+  "source_text": "Sources opposing routine practice, often from European and Australian ethicists, emphasize empirical scrutiny over institutional biases favoring tradition, critiquing U.S.-centric policies like the AAP's for underweighting autonomy amid declining procedure rates (from 80% in 1979 to 58% by 2010). [143]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sources opposing routine practice, often from European and Australian ethicists, emphasize empirical scrutiny over institutional biases favo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical scrutiny over institutional biases favoring tradition, critiquing U.S.-centric policies like the AAP's for underweighting autonomy amid declining proc.",
+      "span": {
+        "quote": "empirical scrutiny over institutional biases favoring tradition, critiquing U.S.-centric policies like the AAP's for underweighting autonomy amid declining proc"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Sources opposing routine practice, often from European and Australian ethicists.",
+      "span": {
+        "quote": "Sources opposing routine practice, often from European and Australian ethicists"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0220",
+  "source_text": "Critics of voluntary medical male circumcision (VMMC) for HIV prevention have claimed that the procedure could induce behavioral risk compensation, whereby circumcised men perceive reduced personal risk and subsequently increase sexual risk-taking, such as engaging in more unprotected sex or having multiple partners, potentially offsetting protective benefits. [107]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of voluntary medical male circumcision (VMMC) for HIV prevention have claimed that the procedure could induce behavioral risk compen"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure could induce behavioral risk compensation, whereby circumcised men perceive reduced personal risk and subsequently increase sexual risk-taking, such.",
+      "span": {
+        "quote": "e procedure could induce behavioral risk compensation, whereby circumcised men perceive reduced personal risk and subsequently increase sexual risk-taking, such"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of voluntary medical male circumcision (VMMC) for HIV prevention have.",
+      "span": {
+        "quote": "Critics of voluntary medical male circumcision (VMMC) for HIV prevention have"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claimed"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "increase"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

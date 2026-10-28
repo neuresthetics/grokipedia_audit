@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0140",
+  "source_text": "In high-volume ritual practices like Israel's, mandatory reporting and hygiene protocols have sustained low adverse event rates, demonstrating that standardized training and prompt intervention\u2014such as cauterization for bleeding\u2014effectively minimize both acute and long-term risks like scarring or stricture.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high-volume ritual practices like Israel's, mandatory reporting and hygiene protocols have sustained low adverse event rates, demonstrati"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high-volume ritual practices like Israel's, mandatory reporting and hygiene protocols have sustained low adverse event rates, demonstrating that standardized.",
+      "span": {
+        "quote": "In high-volume ritual practices like Israel's, mandatory reporting and hygiene protocols have sustained low adverse event rates, demonstrating that standardized"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

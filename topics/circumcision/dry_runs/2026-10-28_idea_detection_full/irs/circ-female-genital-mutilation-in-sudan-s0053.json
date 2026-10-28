@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0053",
+  "source_text": "This rationale stems from the view that uncircumcised women are at higher risk of promiscuity, thereby reducing potential infidelity risks in familial alliances, as reported in ethnographic surveys where such control is seen as essential for maintaining social order.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This rationale stems from the view that uncircumcised women are at higher risk of promiscuity, thereby reducing potential infidelity risks i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This rationale stems from the view that uncircumcised women are at higher risk of promiscuity.",
+      "span": {
+        "quote": "This rationale stems from the view that uncircumcised women are at higher risk of promiscuity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Reducing potential infidelity risks in familial alliances, as reported in ethnographic surveys where such control is seen as essential for maintaining social or.",
+      "span": {
+        "quote": "reducing potential infidelity risks in familial alliances, as reported in ethnographic surveys where such control is seen as essential for maintaining social or"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

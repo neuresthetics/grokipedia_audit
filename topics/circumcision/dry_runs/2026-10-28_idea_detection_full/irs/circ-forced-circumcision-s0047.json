@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0047",
+  "source_text": "In sub-Saharan African tribal contexts, male circumcision frequently functions as a compulsory rite of passage marking the transition from boyhood to manhood, often performed on adolescents without their informed consent and enforced through intense social pressures or direct coercion.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In sub-Saharan African tribal contexts, male circumcision frequently functions as a compulsory rite of passage marking the transition from b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In sub-Saharan African tribal contexts, male circumcision frequently functions as a compulsory rite of passage marking the transition from boyhood to manhood, o.",
+      "span": {
+        "quote": "In sub-Saharan African tribal contexts, male circumcision frequently functions as a compulsory rite of passage marking the transition from boyhood to manhood, o"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

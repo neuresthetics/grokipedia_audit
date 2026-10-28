@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-stapler-circumcision-s0127",
+  "source_text": "Early complications of stapler circumcision are generally infrequent and less common than those associated with conventional circumcision, with overall rates reported around 2.7% in large prospective studies.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Early complications of stapler circumcision are generally infrequent and less common than those associated with conventional circumcision, w"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Early complications of stapler circumcision are generally infrequent and less common than those associated with conventional circumcision, with overall rates re.",
+      "span": {
+        "quote": "Early complications of stapler circumcision are generally infrequent and less common than those associated with conventional circumcision, with overall rates re"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with conventional circumcision.",
+      "span": {
+        "quote": "associated with conventional circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with conventional circumcision"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with conventional circumcision",
+          "span": {
+            "quote": "associated with conventional circumcision"
+          }
+        }
+      ]
+    }
+  ]
+}

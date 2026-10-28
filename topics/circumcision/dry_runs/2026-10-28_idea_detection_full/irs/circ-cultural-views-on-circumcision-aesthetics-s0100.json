@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0100",
+  "source_text": "This perspective positioned the exposed glans of circumcised penises as visually tidier and less susceptible to perceived uncleanliness, influencing routine neonatal procedures amid broader campaigns against masturbation and infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective positioned the exposed glans of circumcised penises as visually tidier and less susceptible to perceived uncleanliness, inf"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective positioned the exposed glans of circumcised penises as visually tidier and less susceptible to perceived uncleanliness, influencing routine neo.",
+      "span": {
+        "quote": "This perspective positioned the exposed glans of circumcised penises as visually tidier and less susceptible to perceived uncleanliness, influencing routine neo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

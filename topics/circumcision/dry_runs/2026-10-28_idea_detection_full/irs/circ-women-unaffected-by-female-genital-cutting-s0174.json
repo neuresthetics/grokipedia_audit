@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0174",
+  "source_text": "Empirical gaps persist, with high-quality longitudinal studies scarce, underscoring the need for context-specific evaluations beyond assumptive models of universal detriment.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical gaps persist, with high-quality longitudinal studies scarce, underscoring the need for context-specific evaluations beyond assumpt"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical gaps persist, with high-quality longitudinal studies scarce, underscoring the need for context-specific evaluations beyond assumptive models of univer.",
+      "span": {
+        "quote": "Empirical gaps persist, with high-quality longitudinal studies scarce, underscoring the need for context-specific evaluations beyond assumptive models of univer"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

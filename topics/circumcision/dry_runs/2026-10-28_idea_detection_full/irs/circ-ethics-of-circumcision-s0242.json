@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0242",
+  "source_text": "Regret dynamics further complicate this: while direct studies on adult regret for neonatal non-circumcision are sparse, surveys indicate that uncircumcised men rarely seek later intervention absent acute issues like phimosis, implying deferred decisions may forfeit cumulative protections, such as a 10-fold UTI risk reduction in the first year of life achievable only through early intervention. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regret dynamics further complicate this: while direct studies on adult regret for neonatal non-circumcision are sparse, surveys indicate tha"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regret dynamics further complicate this: while direct studies on adult regret for neonatal non-circumcision are sparse, surveys indicate that uncircumcised men.",
+      "span": {
+        "quote": "Regret dynamics further complicate this: while direct studies on adult regret for neonatal non-circumcision are sparse, surveys indicate that uncircumcised men "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

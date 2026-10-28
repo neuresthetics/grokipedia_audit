@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-stapler-circumcision-s0139",
+  "source_text": "Delayed complications of stapler circumcision are uncommon, with large studies reporting low rates of issues persisting beyond the initial recovery period.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Delayed complications of stapler circumcision are uncommon, with large studies reporting low rates of issues persisting beyond the initial r"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Delayed complications of stapler circumcision are uncommon, with large studies reporting low rates of issues persisting beyond the initial recovery period.",
+      "span": {
+        "quote": "Delayed complications of stapler circumcision are uncommon, with large studies reporting low rates of issues persisting beyond the initial recovery period."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

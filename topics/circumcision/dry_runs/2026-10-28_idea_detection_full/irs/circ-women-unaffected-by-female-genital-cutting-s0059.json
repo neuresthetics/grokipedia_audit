@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0059",
+  "source_text": "Among Mandinka communities in Gambia, FGC parallels male circumcision in promoting purity and marriage eligibility, often framed as a religious or customary duty to control impulses and uphold moral standards. [21]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among Mandinka communities in Gambia, FGC parallels male circumcision in promoting purity and marriage eligibility, often framed as a religi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among Mandinka communities in Gambia, FGC parallels male circumcision in promoting purity and marriage eligibility, often framed as a religious or customary dut.",
+      "span": {
+        "quote": "Among Mandinka communities in Gambia, FGC parallels male circumcision in promoting purity and marriage eligibility, often framed as a religious or customary dut"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

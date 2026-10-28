@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0083",
+  "source_text": "The European Parliament has addressed circumcision peripherally in reports on religious freedoms, noting its prevalence for non-medical reasons in several member states without recommending bans, while Catholic Church bodies like COMECE have warned in 2018 that criminalization could undermine broader fundamental rights protections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The European Parliament has addressed circumcision peripherally in reports on religious freedoms, noting its prevalence for non-medical reas"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The European Parliament has addressed circumcision peripherally in reports on religious freedoms, noting its prevalence for non-medical reasons in several membe.",
+      "span": {
+        "quote": "The European Parliament has addressed circumcision peripherally in reports on religious freedoms, noting its prevalence for non-medical reasons in several membe"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

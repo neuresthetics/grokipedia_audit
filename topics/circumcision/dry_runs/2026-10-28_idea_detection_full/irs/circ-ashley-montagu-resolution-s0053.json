@@ -1,0 +1,97 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0053",
+  "source_text": "Sessions emphasized an \"epidemic\" of unnecessary procedures, with estimates citing millions of annual cases globally, and critiqued medical literature for underreporting harms while overemphasizing unproven preventive benefits, such as against urinary tract infections, where absolute risk reductions were small (e.g., from 1% to 0.1% in neonates per some studies). [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Sessions emphasized an \"epidemic\" of unnecessary procedures, with estimates citing millions of annual cases globally, and critiqued medical"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "N \"epidemic\" of unnecessary procedures, with estimates citing millions of annual cases globally, and critiqued medical literature for underreporting harms while.",
+      "span": {
+        "quote": "n \"epidemic\" of unnecessary procedures, with estimates citing millions of annual cases globally, and critiqued medical literature for underreporting harms while"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unproven preventive benefits.",
+      "span": {
+        "quote": "unproven preventive benefits"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing millions of annual cases globally.",
+      "span": {
+        "quote": "citing millions of annual cases globally"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c4",
+      "text": "Per some studies.",
+      "span": {
+        "quote": "per some studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unproven preventive benefits"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing millions of annual cases globally"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "per some studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

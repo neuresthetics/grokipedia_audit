@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-infibulation-s0239",
+  "source_text": "However, critics argue that medicalization fails to address long-term complications like chronic pain, urinary issues, and obstetric fistula, while lending institutional legitimacy to the practice and potentially increasing its acceptance among educated families. [120]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, critics argue that medicalization fails to address long-term complications like chronic pain, urinary issues, and obstetric fistula"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Medicalization fails to address long-term complications like chronic pain, urinary issues, and obstetric fistula, while lending institutional legitimacy to the.",
+      "span": {
+        "quote": "medicalization fails to address long-term complications like chronic pain, urinary issues, and obstetric fistula, while lending institutional legitimacy to the "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

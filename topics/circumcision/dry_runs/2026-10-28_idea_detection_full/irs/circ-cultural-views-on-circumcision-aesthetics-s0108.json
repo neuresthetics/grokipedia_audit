@@ -1,0 +1,103 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0108",
+  "source_text": "In contrast, European medical perspectives typically assert that adequate hygiene of the intact foreskin can be maintained through regular cleaning, obviating the aesthetic alterations associated with circumcision without compromising cleanliness. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, European medical perspectives typically assert that adequate hygiene of the intact foreskin can be maintained through regular c"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Dequate hygiene of the intact foreskin can be maintained through regular cleaning, obviating the aesthetic alterations associated with circumcision without comp.",
+      "span": {
+        "quote": "dequate hygiene of the intact foreskin can be maintained through regular cleaning, obviating the aesthetic alterations associated with circumcision without comp"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In contrast, European medical perspectives typically.",
+      "span": {
+        "quote": "In contrast, European medical perspectives typically"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Associated with circumcision without compromising cleanliness.",
+      "span": {
+        "quote": "associated with circumcision without compromising cleanliness"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "associated with circumcision without compromising cleanliness"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with circumcision without compromising cleanliness",
+          "span": {
+            "quote": "associated with circumcision without compromising cleanliness"
+          }
+        }
+      ]
+    }
+  ]
+}

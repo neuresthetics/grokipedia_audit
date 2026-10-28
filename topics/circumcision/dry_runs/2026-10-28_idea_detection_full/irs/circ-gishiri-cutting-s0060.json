@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0060",
+  "source_text": "The entire intervention lasts minutes and is repeated if symptoms persist, exacerbating risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The entire intervention lasts minutes and is repeated if symptoms persist, exacerbating risks."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The entire intervention lasts minutes and is repeated if symptoms persist, exacerbating risks.",
+      "span": {
+        "quote": "The entire intervention lasts minutes and is repeated if symptoms persist, exacerbating risks."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

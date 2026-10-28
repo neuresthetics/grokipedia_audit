@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0176",
+  "source_text": "Critics of infant khitan argue that the procedure violates the principle of bodily integrity by surgically removing functional, healthy foreskin tissue from a non-consenting minor, constituting an irreversible alteration without immediate therapeutic justification. [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of infant khitan argue that the procedure violates the principle of bodily integrity by surgically removing functional, healthy fore"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure violates the principle of bodily integrity by surgically removing functional, healthy foreskin tissue from a non-consenting minor, constituting an i.",
+      "span": {
+        "quote": "e procedure violates the principle of bodily integrity by surgically removing functional, healthy foreskin tissue from a non-consenting minor, constituting an i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of infant khitan.",
+      "span": {
+        "quote": "Critics of infant khitan"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

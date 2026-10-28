@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0144",
+  "source_text": "Rural settings, by contrast, benefit from communal oversight and geographic isolation that enforce stricter adherence to protocols, yielding lower incident rates than urban dilutions where profit motives supplant elder-guided standards.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rural settings, by contrast, benefit from communal oversight and geographic isolation that enforce stricter adherence to protocols, yielding"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rural settings, by contrast, benefit from communal oversight and geographic isolation that enforce stricter adherence to protocols, yielding lower incident rate.",
+      "span": {
+        "quote": "Rural settings, by contrast, benefit from communal oversight and geographic isolation that enforce stricter adherence to protocols, yielding lower incident rate"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0090",
+  "source_text": "Systematic reviews correlating histological data with physiological measurements of sexual response conclude that free nerve endings and Meissner's corpuscles in the foreskin show no strong correlation with sexual pleasure or orgasm; tactile sensitivity of the glans decreases with arousal regardless of circumcision status.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews correlating histological data with physiological measurements of sexual response conclude that free nerve endings and Mei"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Free nerve endings and Meissner's corpuscles in the foreskin show no strong correlation with sexual pleasure or orgasm;.",
+      "span": {
+        "quote": "free nerve endings and Meissner's corpuscles in the foreskin show no strong correlation with sexual pleasure or orgasm;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews correlating histological data with physiological measurements of sexual response.",
+      "span": {
+        "quote": "Systematic reviews correlating histological data with physiological measurements of sexual response"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "conclude"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "correlation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

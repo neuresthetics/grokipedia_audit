@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0086",
+  "source_text": "The statement asserted that no health-related justifications exist for circumcising young boys in the Nordic context, where hygiene standards and medical practices render purported benefits negligible, and advocated deferring the procedure until the individual can provide informed consent, typically in adolescence or adulthood. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The statement asserted that no health-related justifications exist for circumcising young boys in the Nordic context, where hygiene standard"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "the_statement"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No health-related justifications exist for circumcising young boys in the Nordic context, where hygiene standards and medical practices render purported benefit.",
+      "span": {
+        "quote": "no health-related justifications exist for circumcising young boys in the Nordic context, where hygiene standards and medical practices render purported benefit"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "the_statement",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

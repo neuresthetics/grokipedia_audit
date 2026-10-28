@@ -1,0 +1,66 @@
+{
+  "passage_id": "self-IDEA_DETECTION-007",
+  "source_text": "Held-out scoring labels are hit, fp, clean, partial, wrong_possible, expected_outside, expected_charity, ir_gap, pattern_gap, contested_stay, and inside_miss (an inside miss that still needs ir_gap or pattern_gap). A wrong-label possible_issue is wrong_possible, not a hit. Genetic fallacy, bulverism, ad hoc rescue, and special pleading count as inside a pilot only when that id is itself a pilot. Guilt by association is a pilot, so its own name counts; it does not count as ad hominem. Details and the eight-pilot N=398 numbers: idea_detection/E2E_SUMMARY.md.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Held-out scoring labels are hit, fp, clean, partial, wrong_possible, expected_outside, expected_charity, ir_gap, pattern_gap, contested_stay"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ossible_issue is wrong_possible, not a hit. Genetic fallacy, bulverism, ad hoc rescue, and special pleading count as inside a pilot only when that id is itself.",
+      "span": {
+        "quote": "ossible_issue is wrong_possible, not a hit. Genetic fallacy, bulverism, ad hoc rescue, and special pleading count as inside a pilot only when that id is itself "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Its own name counts; it does not count as ad hominem. Details and the eight-pilot N=398 numbers: idea_detection/E2E_SUMMARY.md.",
+      "span": {
+        "quote": "its own name counts; it does not count as ad hominem. Details and the eight-pilot N=398 numbers: idea_detection/E2E_SUMMARY.md."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

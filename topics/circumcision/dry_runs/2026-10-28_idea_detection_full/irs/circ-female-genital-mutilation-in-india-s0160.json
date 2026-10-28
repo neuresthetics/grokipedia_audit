@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0160",
+  "source_text": "The petition contended that the practice constitutes gender discrimination by subjecting girls to non-consensual cutting of genital tissue, violating equality under Article 14 and the right to life and personal liberty under Article 21 of the Constitution, while also contravening international commitments like the UN Convention on the Rights of the Child.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The petition contended that the practice constitutes gender discrimination by subjecting girls to non-consensual cutting of genital tissue,"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E practice constitutes gender discrimination by subjecting girls to non-consensual cutting of genital tissue, violating equality under Article 14 and the right.",
+      "span": {
+        "quote": "e practice constitutes gender discrimination by subjecting girls to non-consensual cutting of genital tissue, violating equality under Article 14 and the right "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

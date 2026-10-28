@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0158",
+  "source_text": "Circumcision serves as a foundational rite in Jewish tradition, symbolizing the covenant between God and Abraham as described in Genesis 17:10-14, thereby reinforcing communal identity and continuity across generations. [100]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Circumcision serves as a foundational rite in Jewish tradition, symbolizing the covenant between God and Abraham as described in Genesis 17:"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Circumcision serves as a foundational rite in Jewish tradition, symbolizing the covenant between God and Abraham as described in Genesis 17:10-14.",
+      "span": {
+        "quote": "Circumcision serves as a foundational rite in Jewish tradition, symbolizing the covenant between God and Abraham as described in Genesis 17:10-14"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Reinforcing communal identity and continuity across generations. [100].",
+      "span": {
+        "quote": "reinforcing communal identity and continuity across generations. [100]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

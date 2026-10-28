@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0170",
+  "source_text": "In March 2007, the World Health Organization (WHO) and Joint United Nations Programme on HIV/AIDS (UNAIDS), following an expert consultation reviewing the trials, issued guidelines recognizing voluntary medical male circumcision (VMMC) as an efficacious additional intervention to reduce heterosexually transmitted HIV in men, particularly in 13 priority countries with HIV prevalence exceeding 15% in men aged 15+. [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In March 2007, the World Health Organization (WHO) and Joint United Nations Programme on HIV/AIDS (UNAIDS), following an expert consultation"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In March 2007, the World Health Organization (WHO) and Joint United Nations Programme on HIV/AIDS (UNAIDS), following an expert consultation reviewing the trial.",
+      "span": {
+        "quote": "In March 2007, the World Health Organization (WHO) and Joint United Nations Programme on HIV/AIDS (UNAIDS), following an expert consultation reviewing the trial"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

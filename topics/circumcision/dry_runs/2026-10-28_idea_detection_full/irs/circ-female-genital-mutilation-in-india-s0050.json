@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0050",
+  "source_text": "This resilience stemmed primarily from internal religious imperatives rather than external legal pressures, with successive Dai al-Mutlaq endorsing the ritual\u2014Daim al-Islam citing benefits like hygiene and urge control post-age seven\u2014outweighing nascent secular influences until diaspora activism intensified scrutiny in the 2010s. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This resilience stemmed primarily from internal religious imperatives rather than external legal pressures, with successive Dai al-Mutlaq en"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Control post-age seven\u2014outweighing nascent secular influences until diaspora activism intensified scrutiny in the 2010s.",
+      "span": {
+        "quote": "control post-age seven\u2014outweighing nascent secular influences until diaspora activism intensified scrutiny in the 2010s."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Rimarily from internal religious imperatives rather than external legal pressures, with successive Dai al-Mutlaq endorsing the ritual\u2014Daim al-Islam citing benef.",
+      "span": {
+        "quote": "rimarily from internal religious imperatives rather than external legal pressures, with successive Dai al-Mutlaq endorsing the ritual\u2014Daim al-Islam citing benef"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing benefits like hygiene and urge control post-age seven\u2014outweighing nascent.",
+      "span": {
+        "quote": "citing benefits like hygiene and urge control post-age seven\u2014outweighing nascent"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "urge"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing benefits like hygiene and urge control post-age seven\u2014outweighing nascent"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

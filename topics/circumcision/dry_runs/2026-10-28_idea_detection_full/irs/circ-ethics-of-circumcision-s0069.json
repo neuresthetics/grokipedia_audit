@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0069",
+  "source_text": "Risks primarily consist of minor procedural complications such as bleeding or infection, occurring in approximately 0.2-0.6% of cases when performed neonatally by trained providers, with severe adverse events rarer at less than 0.1%.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Risks primarily consist of minor procedural complications such as bleeding or infection, occurring in approximately 0.2-0.6% of cases when p"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Risks primarily consist of minor procedural complications such as bleeding or infection, occurring in approximately 0.2-0.6% of cases when performed neonatally.",
+      "span": {
+        "quote": "Risks primarily consist of minor procedural complications such as bleeding or infection, occurring in approximately 0.2-0.6% of cases when performed neonatally "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-021",
+  "source_text": "Passage: Reyes + corrosion readings; reply \u201cfired for lateness, so ignore her bridge argument.\u201d",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Passage: Reyes + corrosion readings; reply \u201cfired for lateness, so ignore her bridge argument.\u201d"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Passage: Reyes + corrosion readings; reply \u201cfired for lateness.",
+      "span": {
+        "quote": "Passage: Reyes + corrosion readings; reply \u201cfired for lateness"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Ignore her bridge argument.\u201d.",
+      "span": {
+        "quote": "ignore her bridge argument.\u201d"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "so"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "ignores",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "ignore"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

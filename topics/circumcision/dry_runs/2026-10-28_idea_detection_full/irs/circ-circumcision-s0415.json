@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-s0415",
+  "source_text": "Critics counter that proxy consent has limits for irreversible, non-essential procedures: unlike vaccinations for imminent threats, circumcision's benefits are marginal in low-risk settings (e.g., preventing one urinary tract infection per 100\u2013111 cases while risking two penile adhesions), and parents cannot override the child's future autonomy over intact tissue. [230]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics counter that proxy consent has limits for irreversible, non-essential procedures: unlike vaccinations for imminent threats, circumci"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics counter that proxy consent has limits for irreversible, non-essential procedures: unlike vaccinations for imminent threats, circumcision's benefits are.",
+      "span": {
+        "quote": "Critics counter that proxy consent has limits for irreversible, non-essential procedures: unlike vaccinations for imminent threats, circumcision's benefits are "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per 100\u2013111 cases while risking two penile adhesions.",
+      "span": {
+        "quote": "per 100\u2013111 cases while risking two penile adhesions"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per 100\u2013111 cases while risking two penile adhesions"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

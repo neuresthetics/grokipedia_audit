@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0006",
+  "source_text": "Opponents, often emphasizing bodily integrity and autonomy, contend that non-therapeutic infant circumcision constitutes an irreversible alteration without consent, potentially diminishing penile sensitivity and representing an ethical infringement, with calls to defer the decision until adulthood. [7] [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents, often emphasizing bodily integrity and autonomy, contend that non-therapeutic infant circumcision constitutes an irreversible alt"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-therapeutic infant circumcision constitutes an irreversible alteration without consent, potentially diminishing penile sensitivity and representing an ethic.",
+      "span": {
+        "quote": "non-therapeutic infant circumcision constitutes an irreversible alteration without consent, potentially diminishing penile sensitivity and representing an ethic"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opponents, often emphasizing bodily integrity and autonomy.",
+      "span": {
+        "quote": "Opponents, often emphasizing bodily integrity and autonomy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

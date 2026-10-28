@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0172",
+  "source_text": "WHO meta-reviews confirm zero net positive effects across Types I-III prevalent in Sudan, attributing continuation to normative inertia rather than evidence-based merits.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "WHO meta-reviews confirm zero net positive effects across Types I-III prevalent in Sudan, attributing continuation to normative inertia rath"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "WHO meta-reviews confirm zero net positive effects across Types I-III prevalent in Sudan, attributing continuation to normative inertia rather than evidence-bas.",
+      "span": {
+        "quote": "WHO meta-reviews confirm zero net positive effects across Types I-III prevalent in Sudan, attributing continuation to normative inertia rather than evidence-bas"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

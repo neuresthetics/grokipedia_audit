@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-010",
+  "source_text": "Term: id, surface, senses[{id,gloss}]. TermBinding: term_id, claim_id, sense_id, span. Checker: sense_shift if same surface, different sense_id, and conclusion needs identity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Term: id, surface, senses[{id,gloss}]. TermBinding: term_id, claim_id, sense_id, span. Checker: sense_shift if same surface, different sense"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Term: id, surface, senses[{id,gloss}]. TermBinding: term_id, claim_id, sense_id, span. Checker: sense_shift if same surface, different sense_id, and conclusion.",
+      "span": {
+        "quote": "Term: id, surface, senses[{id,gloss}]. TermBinding: term_id, claim_id, sense_id, span. Checker: sense_shift if same surface, different sense_id, and conclusion "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

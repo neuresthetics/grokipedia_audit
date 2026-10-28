@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0197",
+  "source_text": "Elders' insistence on tradition contrasts with evidence that communities historically abandon injurious customs through internal reckoning, as seen in declining voluntary cessation rates predating formal bans in select Nigerian locales, prioritizing causal evidence of suffering over unsubstantiated cultural imperatives. [19]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Elders' insistence on tradition contrasts with evidence that communities historically abandon injurious customs through internal reckoning,"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Elders' insistence on tradition contrasts with evidence that communities historically abandon injurious customs through internal reckoning, as seen in declining.",
+      "span": {
+        "quote": "Elders' insistence on tradition contrasts with evidence that communities historically abandon injurious customs through internal reckoning, as seen in declining"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated cultural imperatives.",
+      "span": {
+        "quote": "unsubstantiated cultural imperatives"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated cultural imperatives"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

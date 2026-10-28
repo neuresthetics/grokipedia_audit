@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0173",
+  "source_text": "These risks manifest during or shortly after the cutting and affect more than one in ten girls undergoing FGM, often occurring simultaneously.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These risks manifest during or shortly after the cutting and affect more than one in ten girls undergoing FGM, often occurring simultaneousl"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These risks manifest during or shortly after the cutting and affect more than one in ten girls undergoing FGM, often occurring simultaneously.",
+      "span": {
+        "quote": "These risks manifest during or shortly after the cutting and affect more than one in ten girls undergoing FGM, often occurring simultaneously."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

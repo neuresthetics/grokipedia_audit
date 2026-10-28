@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0208",
+  "source_text": "Some analyses contend that non-therapeutic male circumcision qualifies as such a practice, infringing on the child's right to physical integrity and best interests (Article 3), particularly given the procedure's risks without medical necessity. [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Some analyses contend that non-therapeutic male circumcision qualifies as such a practice, infringing on the child's right to physical integ"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Non-therapeutic male circumcision qualifies as such a practice, infringing on the child's right to physical integrity and best interests (Article 3), particular.",
+      "span": {
+        "quote": "non-therapeutic male circumcision qualifies as such a practice, infringing on the child's right to physical integrity and best interests (Article 3), particular"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

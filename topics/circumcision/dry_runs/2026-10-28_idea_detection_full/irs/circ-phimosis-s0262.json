@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0262",
+  "source_text": "In high-circumcision regions such as Muslim-majority countries (where rates approach 99-100%) and Israel, adult phimosis is virtually nonexistent due to near-universal neonatal or childhood circumcision performed for religious reasons. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In high-circumcision regions such as Muslim-majority countries (where rates approach 99-100%) and Israel, adult phimosis is virtually nonexi"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In high-circumcision regions such as Muslim-majority countries (where rates approach 99-100%) and Israel, adult phimosis is virtually nonexistent due to near-un.",
+      "span": {
+        "quote": "In high-circumcision regions such as Muslim-majority countries (where rates approach 99-100%) and Israel, adult phimosis is virtually nonexistent due to near-un"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

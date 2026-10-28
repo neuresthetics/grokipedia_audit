@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0193",
+  "source_text": "In adults and older children subjected to non-consensual procedures, such as ritual circumcisions, evidence indicates higher risks of post-traumatic stress disorder (PTSD) symptoms; for instance, a 2019 study of Filipino boys aged 11-16 found that 69% of those undergoing traditional \"Tuli\" ritual circumcision exhibited PTSD symptoms, compared to lower rates in medically circumcised peers, attributed to the procedure's coercive nature and lack of anesthesia. [88]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In adults and older children subjected to non-consensual procedures, such as ritual circumcisions, evidence indicates higher risks of post-t"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In adults and older children subjected to non-consensual procedures, such as ritual circumcisions, evidence indicates higher risks of post-traumatic stress diso.",
+      "span": {
+        "quote": "In adults and older children subjected to non-consensual procedures, such as ritual circumcisions, evidence indicates higher risks of post-traumatic stress diso"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0255",
+  "source_text": "Pooled data from the three trials yielded a relative risk reduction of 0.42 (95% CI 0.31-0.57), supporting causality through intention-to-treat and per-protocol analyses that controlled for confounders like sexual behavior. [151]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pooled data from the three trials yielded a relative risk reduction of 0.42 (95% CI 0.31-0.57), supporting causality through intention-to-tr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pooled data from the three trials yielded a relative risk reduction of 0.42 (95% CI 0.31-0.57), supporting causality through intention-to-treat and per-protocol.",
+      "span": {
+        "quote": "Pooled data from the three trials yielded a relative risk reduction of 0.42 (95% CI 0.31-0.57), supporting causality through intention-to-treat and per-protocol"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

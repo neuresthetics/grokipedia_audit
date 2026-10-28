@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0068",
+  "source_text": "General literature on FGM/C notes associations with anxiety, depression, and sexual dysfunction, potentially exacerbated by physical sequelae, but Gambia-specific data emphasize multifactorial mental health burdens rather than isolated FGC causation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "General literature on FGM/C notes associations with anxiety, depression, and sexual dysfunction, potentially exacerbated by physical sequela"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Multifactorial mental health burdens rather than isolated FGC causation.",
+      "span": {
+        "quote": "multifactorial mental health burdens rather than isolated FGC causation."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "General literature on FGM/C notes associations with anxiety, depression, and sexual dysfunction, potentially exacerbated by physical sequelae, but Gambia-specif.",
+      "span": {
+        "quote": "General literature on FGM/C notes associations with anxiety, depression, and sexual dysfunction, potentially exacerbated by physical sequelae, but Gambia-specif"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

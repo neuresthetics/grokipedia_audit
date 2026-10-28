@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-penile-subincision-s0085",
+  "source_text": "Scarring from inadequate healing, particularly in non-sterile or self-performed cases, may lead to urethral strictures or fistulas, narrowing the passage and causing obstructive symptoms such as weak stream or retention, though systematic data specific to subincision remains limited. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Scarring from inadequate healing, particularly in non-sterile or self-performed cases, may lead to urethral strictures or fistulas, narrowin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Scarring from inadequate healing, particularly in non-sterile or self-performed cases, may lead to urethral strictures or fistulas, narrowing the passage and ca.",
+      "span": {
+        "quote": "Scarring from inadequate healing, particularly in non-sterile or self-performed cases, may lead to urethral strictures or fistulas, narrowing the passage and ca"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

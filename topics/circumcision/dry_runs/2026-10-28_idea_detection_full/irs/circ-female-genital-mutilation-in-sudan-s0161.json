@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0161",
+  "source_text": "Psychologically, FGM in Sudan correlates with heightened anxiety and depression, with a study of 66 African immigrant women (including Sudanese) reporting 30% meeting criteria for anxiety disorders and 33% for depression, particularly among those with infibulation\u2014a form dominant in Sudan\u2014where vivid procedural memories predict worse outcomes (p < 0.05). [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychologically, FGM in Sudan correlates with heightened anxiety and depression, with a study of 66 African immigrant women (including Sudan"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychologically, FGM in Sudan correlates with heightened anxiety and depression, with a study of 66 African immigrant women (including Sudanese) reporting 30% m.",
+      "span": {
+        "quote": "Psychologically, FGM in Sudan correlates with heightened anxiety and depression, with a study of 66 African immigrant women (including Sudanese) reporting 30% m"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

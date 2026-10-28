@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0007",
+  "source_text": "Controversies surround the balance between cultural preservation and safety, with evidence of higher HIV transmission risks associated with non-medical circumcisions due to poor hygiene and delayed healing. [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Controversies surround the balance between cultural preservation and safety, with evidence of higher HIV transmission risks associated with"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Controversies surround the balance between cultural preservation and safety, with evidence of higher HIV transmission risks associated with non-medical circumci.",
+      "span": {
+        "quote": "Controversies surround the balance between cultural preservation and safety, with evidence of higher HIV transmission risks associated with non-medical circumci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with non-medical circumcisions due to poor hygiene and delayed.",
+      "span": {
+        "quote": "associated with non-medical circumcisions due to poor hygiene and delayed"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with non-medical circumcisions due to poor hygiene and delayed"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with non-medical circumcisions due to poor hygiene and delayed ",
+          "span": {
+            "quote": "associated with non-medical circumcisions due to poor hygiene and delayed"
+          }
+        }
+      ]
+    }
+  ]
+}

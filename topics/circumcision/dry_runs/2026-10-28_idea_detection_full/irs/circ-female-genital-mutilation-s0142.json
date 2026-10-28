@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0142",
+  "source_text": "Misconceptions persist in some Muslim communities linking FGM to religious requirements despite these textual weaknesses.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Misconceptions persist in some Muslim communities linking FGM to religious requirements despite these textual weaknesses."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Misconceptions persist in some Muslim communities linking FGM to religious requirements despite these textual weaknesses.",
+      "span": {
+        "quote": "Misconceptions persist in some Muslim communities linking FGM to religious requirements despite these textual weaknesses."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0088",
+  "source_text": "REQUESTS that all national governments and agencies educate health professionals, parents, and the public on the medical, psychological, sexual, and mental health hazards of such mutilations, while dispelling supporting myths and superstitions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "REQUESTS that all national governments and agencies educate health professionals, parents, and the public on the medical, psychological, sex"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "REQUESTS that all national governments and agencies educate health professionals, parents, and the public on the medical, psychological, sexual, and mental heal.",
+      "span": {
+        "quote": "REQUESTS that all national governments and agencies educate health professionals, parents, and the public on the medical, psychological, sexual, and mental heal"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

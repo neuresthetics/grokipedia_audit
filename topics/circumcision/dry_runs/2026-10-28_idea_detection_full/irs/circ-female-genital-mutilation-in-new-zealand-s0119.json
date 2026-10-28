@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0119",
+  "source_text": "For instance, some individuals recount Type 1 FGM as a non-traumatic family ritual akin to celebratory traditions, framing opposition as cultural insensitivity rather than harm prevention. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, some individuals recount Type 1 FGM as a non-traumatic family ritual akin to celebratory traditions, framing opposition as cul"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, some individuals recount Type 1 FGM as a non-traumatic family ritual akin to celebratory traditions, framing opposition as cultural insensitivity.",
+      "span": {
+        "quote": "For instance, some individuals recount Type 1 FGM as a non-traumatic family ritual akin to celebratory traditions, framing opposition as cultural insensitivity "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

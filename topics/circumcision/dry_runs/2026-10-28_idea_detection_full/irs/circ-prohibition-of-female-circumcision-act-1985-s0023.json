@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prohibition-of-female-circumcision-act-1985-s0023",
+  "source_text": "Obstetric challenges were particularly severe in infibulated cases, involving obstructed labor, perineal tears, and the need for surgical reinfibulation postpartum, often exacerbating maternal and neonatal morbidity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Obstetric challenges were particularly severe in infibulated cases, involving obstructed labor, perineal tears, and the need for surgical re"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Obstetric challenges were particularly severe in infibulated cases, involving obstructed labor, perineal tears, and the need for surgical reinfibulation postpar.",
+      "span": {
+        "quote": "Obstetric challenges were particularly severe in infibulated cases, involving obstructed labor, perineal tears, and the need for surgical reinfibulation postpar"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

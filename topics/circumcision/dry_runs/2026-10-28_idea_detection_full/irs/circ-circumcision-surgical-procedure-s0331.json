@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0331",
+  "source_text": "Disputes arise over underreporting in provider surveys and long-term effects like keratinization potentially reducing sensitivity, though prospective data show no consistent impact on sexual function.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Disputes arise over underreporting in provider surveys and long-term effects like keratinization potentially reducing sensitivity, though pr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Disputes arise over underreporting in provider surveys and long-term effects like keratinization potentially reducing sensitivity, though prospective data show.",
+      "span": {
+        "quote": "Disputes arise over underreporting in provider surveys and long-term effects like keratinization potentially reducing sensitivity, though prospective data show "
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

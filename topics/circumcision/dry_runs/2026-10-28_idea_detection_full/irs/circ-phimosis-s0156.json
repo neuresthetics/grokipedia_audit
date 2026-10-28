@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0156",
+  "source_text": "In adults undergoing circumcision for phimosis, postoperative pain is generally mild to moderate and managed effectively with analgesics; severe pain is rare and often complication-related (see the Circumcision article for details).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In adults undergoing circumcision for phimosis, postoperative pain is generally mild to moderate and managed effectively with analgesics; se"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In adults undergoing circumcision for phimosis, postoperative pain is generally mild to moderate and managed effectively with analgesics; severe pain is rare an.",
+      "span": {
+        "quote": "In adults undergoing circumcision for phimosis, postoperative pain is generally mild to moderate and managed effectively with analgesics; severe pain is rare an"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

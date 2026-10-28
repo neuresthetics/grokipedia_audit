@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0117",
+  "source_text": "In patrilineal societies emphasizing male lineage inheritance, infibulation is stated to promote fidelity and thereby bolster paternity certainty, aligning with cultural imperatives for verifiable descent lines. [59]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In patrilineal societies emphasizing male lineage inheritance, infibulation is stated to promote fidelity and thereby bolster paternity cert"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In patrilineal societies emphasizing male lineage inheritance, infibulation is stated to promote fidelity and.",
+      "span": {
+        "quote": "In patrilineal societies emphasizing male lineage inheritance, infibulation is stated to promote fidelity and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Bolster paternity certainty, aligning with cultural imperatives for verifiable descent lines. [59].",
+      "span": {
+        "quote": "bolster paternity certainty, aligning with cultural imperatives for verifiable descent lines. [59]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

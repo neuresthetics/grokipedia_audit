@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0122",
+  "source_text": "For instance, 71-83% of respondents preferred circumcised forms across various intimate activities, primarily due to aesthetic and hygienic attributes.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "For instance, 71-83% of respondents preferred circumcised forms across various intimate activities, primarily due to aesthetic and hygienic"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "For instance, 71-83% of respondents preferred circumcised forms across various intimate activities, primarily due to aesthetic and hygienic attributes.",
+      "span": {
+        "quote": "For instance, 71-83% of respondents preferred circumcised forms across various intimate activities, primarily due to aesthetic and hygienic attributes."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

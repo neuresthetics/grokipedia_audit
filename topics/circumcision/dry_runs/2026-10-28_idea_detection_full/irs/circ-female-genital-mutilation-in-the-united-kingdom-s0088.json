@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-kingdom-s0088",
+  "source_text": "Introduced as a private member's bill by Conservative MP Marion Roe, the legislation addressed documented instances of FGM being conducted by community practitioners on UK soil, often on girls under 15, and aimed to protect minors from what was described in debates as a harmful cultural import incompatible with British values.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Introduced as a private member's bill by Conservative MP Marion Roe, the legislation addressed documented instances of FGM being conducted b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Introduced as a private member's bill by Conservative MP Marion Roe, the legislation addressed documented instances of FGM being conducted by community practiti.",
+      "span": {
+        "quote": "Introduced as a private member's bill by Conservative MP Marion Roe, the legislation addressed documented instances of FGM being conducted by community practiti"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

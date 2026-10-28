@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0200",
+  "source_text": "In 2012, the American Academy of Pediatrics (AAP) updated its policy, concluding that these preventive benefits\u2014encompassing HIV, other STIs, and UTIs\u2014outweigh procedural risks (complication rate ~0.2-0.6% in neonatal settings), justifying access for parents though not routine universal recommendation. [94]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In 2012, the American Academy of Pediatrics (AAP) updated its policy, concluding that these preventive benefits\u2014encompassing HIV, other STIs"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In 2012, the American Academy of Pediatrics (AAP) updated its policy, concluding that these preventive benefits\u2014encompassing HIV, other STIs, and UTIs\u2014outweigh.",
+      "span": {
+        "quote": "In 2012, the American Academy of Pediatrics (AAP) updated its policy, concluding that these preventive benefits\u2014encompassing HIV, other STIs, and UTIs\u2014outweigh "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "These preventive benefits\u2014encompassing HIV.",
+      "span": {
+        "quote": "these preventive benefits\u2014encompassing HIV"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "instantiates",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "these preventive benefits\u2014encompassing HIV"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0209",
+  "source_text": "These films, released in the late 2000s and 2010s, contributed to broader media discussions on consent and harm, though empirical support for long-term claims often relies on anecdotal evidence rather than large-scale controlled studies.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These films, released in the late 2000s and 2010s, contributed to broader media discussions on consent and harm, though empirical support fo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Often relies on anecdotal evidence rather than large-scale controlled studies.",
+      "span": {
+        "quote": "often relies on anecdotal evidence rather than large-scale controlled studies."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These films, released in the late 2000s and 2010s, contributed to broader media discussions on consent and harm, though empirical support for long-term.",
+      "span": {
+        "quote": "These films, released in the late 2000s and 2010s, contributed to broader media discussions on consent and harm, though empirical support for long-term"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

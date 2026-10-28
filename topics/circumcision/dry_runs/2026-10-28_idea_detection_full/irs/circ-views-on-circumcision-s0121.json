@@ -1,0 +1,114 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0121",
+  "source_text": "Critics of these rights-based arguments contend that intactivist rhetoric over-relies on anecdotal reports of psychological trauma and body image dissatisfaction, with empirical data from longitudinal studies showing no evidence of widespread mental health harm attributable to neonatal circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics of these rights-based arguments contend that intactivist rhetoric over-relies on anecdotal reports of psychological trauma and body"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intactivist rhetoric over-relies on anecdotal reports of psychological trauma and body image dissatisfaction, with empirical data from longitudinal studies show.",
+      "span": {
+        "quote": "intactivist rhetoric over-relies on anecdotal reports of psychological trauma and body image dissatisfaction, with empirical data from longitudinal studies show"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Critics of these rights-based arguments.",
+      "span": {
+        "quote": "Critics of these rights-based arguments"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "No evidence of widespread mental health harm attributable to neonatal.",
+      "span": {
+        "quote": "no evidence of widespread mental health harm attributable to neonatal"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "asserts_cause": true
+    },
+    {
+      "id": "c4",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "no evidence of widespread mental health harm attributable to neonatal"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "attributable to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

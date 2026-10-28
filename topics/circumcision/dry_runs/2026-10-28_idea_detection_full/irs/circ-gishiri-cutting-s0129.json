@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0129",
+  "source_text": "Broader epidemiological data indicate that gishiri incisions account for 5.68% to 18% of urinary fistulas in affected regions, underscoring the causal link between the cutting and chronic incontinence, dyspareunia, and social isolation due to persistent urinary leakage. [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Broader epidemiological data indicate that gishiri incisions account for 5.68% to 18% of urinary fistulas in affected regions, underscoring"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Broader epidemiological data indicate that gishiri incisions account for 5.68% to 18% of urinary fistulas in affected regions, underscoring the causal link betw.",
+      "span": {
+        "quote": "Broader epidemiological data indicate that gishiri incisions account for 5.68% to 18% of urinary fistulas in affected regions, underscoring the causal link betw"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0192",
+  "source_text": "Similar results emerged from trials in Kisumu, Kenya (2002-2005, n=2,784 men, 51% reduction) and Rakai, Uganda (2002-2007, n=4,996 men, 55% reduction), confirming the protective effect against HIV-1 while showing no significant behavioral risk compensation. [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similar results emerged from trials in Kisumu, Kenya (2002-2005, n=2,784 men, 51% reduction) and Rakai, Uganda (2002-2007, n=4,996 men, 55%"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similar results emerged from trials in Kisumu, Kenya (2002-2005, n=2,784 men, 51% reduction) and Rakai, Uganda (2002-2007, n=4,996 men, 55% reduction), confirmi.",
+      "span": {
+        "quote": "Similar results emerged from trials in Kisumu, Kenya (2002-2005, n=2,784 men, 51% reduction) and Rakai, Uganda (2002-2007, n=4,996 men, 55% reduction), confirmi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

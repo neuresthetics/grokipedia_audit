@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0160",
+  "source_text": "Performed by untrained ingcibi (traditional surgeons) using unsterilized blades in bush encampments, ulwaluko involves weeks of seclusion, physical endurance tests, and cultural instruction, but carries elevated risks of infection, gangrene, and penile amputation due to poor hygiene and delayed medical care. [8]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Performed by untrained ingcibi (traditional surgeons) using unsterilized blades in bush encampments, ulwaluko involves weeks of seclusion, p"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Performed by untrained ingcibi (traditional surgeons) using unsterilized blades in bush encampments, ulwaluko involves weeks of seclusion, physical endurance te.",
+      "span": {
+        "quote": "Performed by untrained ingcibi (traditional surgeons) using unsterilized blades in bush encampments, ulwaluko involves weeks of seclusion, physical endurance te"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

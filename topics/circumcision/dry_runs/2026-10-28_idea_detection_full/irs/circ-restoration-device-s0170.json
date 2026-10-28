@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-restoration-device-s0170",
+  "source_text": "Practitioners describe the glans transitioning from a dry, thickened epithelial layer to a softer, mucosal-like state, potentially reactivating fine-touch nerve endings desensitized by chronic exposure. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners describe the glans transitioning from a dry, thickened epithelial layer to a softer, mucosal-like state, potentially reactivat"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners describe the glans transitioning from a dry, thickened epithelial layer to a softer, mucosal-like state, potentially reactivating fine-touch nerve.",
+      "span": {
+        "quote": "Practitioners describe the glans transitioning from a dry, thickened epithelial layer to a softer, mucosal-like state, potentially reactivating fine-touch nerve"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

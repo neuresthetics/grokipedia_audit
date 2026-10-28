@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0047",
+  "source_text": "Meta-analyses confirm these effects, with circumcision linked to lower odds of prevalent and incident HPV (OR ~0.70-0.80) and HSV-2 infections.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses confirm these effects, with circumcision linked to lower odds of prevalent and incident HPV (OR ~0.70-0.80) and HSV-2 infectio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses confirm these effects, with circumcision linked to lower odds of prevalent and incident HPV (OR ~0.70-0.80) and HSV-2 infections.",
+      "span": {
+        "quote": "Meta-analyses confirm these effects, with circumcision linked to lower odds of prevalent and incident HPV (OR ~0.70-0.80) and HSV-2 infections."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to lower odds of prevalent and incident HPV (OR ~0.",
+      "span": {
+        "quote": "linked to lower odds of prevalent and incident HPV (OR ~0"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to lower odds of prevalent and incident HPV (OR ~0"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to lower odds of prevalent and incident HPV (OR ~0",
+          "span": {
+            "quote": "linked to lower odds of prevalent and incident HPV (OR ~0"
+          }
+        }
+      ]
+    }
+  ]
+}

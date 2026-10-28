@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0066",
+  "source_text": "In the United States, where the practice gained popularity during the 20th century, it is often perceived as promoting cleanliness and enhancing aesthetic appeal. [47] [48]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the United States, where the practice gained popularity during the 20th century, it is often perceived as promoting cleanliness and enhan"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the United States, where the practice gained popularity during the 20th century, it is often perceived as promoting cleanliness and enhancing aesthetic appea.",
+      "span": {
+        "quote": "In the United States, where the practice gained popularity during the 20th century, it is often perceived as promoting cleanliness and enhancing aesthetic appea"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

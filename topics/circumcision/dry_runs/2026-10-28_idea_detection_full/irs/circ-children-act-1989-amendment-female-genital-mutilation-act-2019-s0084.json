@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-children-act-1989-amendment-female-genital-mutilation-act-2019-s0084",
+  "source_text": "The persistence of FGM despite these causally attributable damages stems from non-health rationales like cultural rites or social control, underscoring the disconnect between practice and empirical harm data, which prioritizes child bodily integrity over relativistic justifications.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The persistence of FGM despite these causally attributable damages stems from non-health rationales like cultural rites or social control, u"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The persistence of FGM despite these causally attributable damages stems from non-health rationales like cultural rites or social control, underscoring the disc.",
+      "span": {
+        "quote": "The persistence of FGM despite these causally attributable damages stems from non-health rationales like cultural rites or social control, underscoring the disc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

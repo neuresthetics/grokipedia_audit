@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0091",
+  "source_text": "High-quality evidence, including quantitative sensory testing, finds no significant overall difference in penile sensitivity between circumcised and uncircumcised men for stimuli relevant to sex, and no adverse effect on erectile function, orgasm ease, or sexual satisfaction for most men.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "High-quality evidence, including quantitative sensory testing, finds no significant overall difference in penile sensitivity between circumc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "High-quality evidence, including quantitative sensory testing, finds no significant overall difference in penile sensitivity between circumcised and uncircumcis.",
+      "span": {
+        "quote": "High-quality evidence, including quantitative sensory testing, finds no significant overall difference in penile sensitivity between circumcised and uncircumcis"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Most men.",
+      "span": {
+        "quote": "most men"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "most men"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

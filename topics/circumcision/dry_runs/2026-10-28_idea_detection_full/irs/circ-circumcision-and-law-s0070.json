@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0070",
+  "source_text": "These claims, primarily advanced in academic and advocacy literature rather than treaty body jurisprudence, face counterarguments that religious freedoms (e.g., ICCPR Article 18) and parental rights permit the practice, provided risks are minimized, as evidenced by the absence of international enforcement actions or prohibitions despite decades of debate.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims, primarily advanced in academic and advocacy literature rather than treaty body jurisprudence, face counterarguments that relig"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", primarily advanced in academic and advocacy literature rather than treaty body jurisprudence, face counterarguments that religious freedoms (e.g., ICCPR Artic.",
+      "span": {
+        "quote": ", primarily advanced in academic and advocacy literature rather than treaty body jurisprudence, face counterarguments that religious freedoms (e.g., ICCPR Artic"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

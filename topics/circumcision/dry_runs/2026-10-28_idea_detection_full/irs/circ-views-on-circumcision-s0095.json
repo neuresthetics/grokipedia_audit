@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0095",
+  "source_text": "Claims of glans keratinization leading to desensitization are overstated, as histological analyses reveal no substantial increase in keratin thickness or cornification following circumcision, with epithelial changes attributable more to individual variation than procedural exposure. [60]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of glans keratinization leading to desensitization are overstated, as histological analyses reveal no substantial increase in keratin"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of glans keratinization leading to desensitization are overstated, as histological analyses reveal no substantial increase in keratin thickness or cornification.",
+      "span": {
+        "quote": "of glans keratinization leading to desensitization are overstated, as histological analyses reveal no substantial increase in keratin thickness or cornification"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

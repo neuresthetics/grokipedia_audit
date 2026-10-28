@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0131",
+  "source_text": "Socially, khatna serves as a marker of community identity and integration, increasing marriageability within the endogamous Bohra group by signaling adherence to norms of chastity and readiness for marital roles.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Socially, khatna serves as a marker of community identity and integration, increasing marriageability within the endogamous Bohra group by s"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Socially, khatna serves as a marker of community identity and integration, increasing marriageability within the endogamous Bohra group by signaling adherence t.",
+      "span": {
+        "quote": "Socially, khatna serves as a marker of community identity and integration, increasing marriageability within the endogamous Bohra group by signaling adherence t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

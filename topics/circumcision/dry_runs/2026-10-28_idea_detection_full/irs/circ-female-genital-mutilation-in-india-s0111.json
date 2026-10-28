@@ -1,0 +1,93 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0111",
+  "source_text": "Psychological effects encompass trauma responses, with survivor accounts from a 2016-2017 Sahiyo survey of over 400 Bohra women in India revealing elevated reports of anxiety, shame, and sexual dissatisfaction linked to the procedure's violation of bodily autonomy, though self-selection bias in activist-led sampling tempers generalizability. [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Psychological effects encompass trauma responses, with survivor accounts from a 2016-2017 Sahiyo survey of over 400 Bohra women in India rev"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Psychological effects encompass trauma responses, with survivor accounts from a 2016-2017 Sahiyo survey of over 400 Bohra women in India revealing elevated repo.",
+      "span": {
+        "quote": "Psychological effects encompass trauma responses, with survivor accounts from a 2016-2017 Sahiyo survey of over 400 Bohra women in India revealing elevated repo"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Activist-led sampling tempers generalizability.",
+      "span": {
+        "quote": "activist-led sampling tempers generalizability"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to the procedure's violation of bodily autonomy.",
+      "span": {
+        "quote": "linked to the procedure's violation of bodily autonomy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "attacks_person",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "activist-led sampling tempers generalizability"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to the procedure's violation of bodily autonomy"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "Psychological effect"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activist-led sampling tempers generalizability",
+          "span": {
+            "quote": "activist-led sampling tempers generalizability"
+          }
+        }
+      ]
+    }
+  ]
+}

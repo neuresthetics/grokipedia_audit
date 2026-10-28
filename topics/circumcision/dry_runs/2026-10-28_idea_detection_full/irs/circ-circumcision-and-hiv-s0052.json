@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0052",
+  "source_text": "An early 2008 meta-analysis of pooled data from multiple studies found a nonsignificant reduction in HIV odds (OR approximately 0.80), concluding insufficient evidence for protection. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "An early 2008 meta-analysis of pooled data from multiple studies found a nonsignificant reduction in HIV odds (OR approximately 0.80), concl"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "An early 2008 meta-analysis of pooled data from multiple studies found a nonsignificant reduction in HIV odds (OR approximately 0.80), concluding insufficient e.",
+      "span": {
+        "quote": "An early 2008 meta-analysis of pooled data from multiple studies found a nonsignificant reduction in HIV odds (OR approximately 0.80), concluding insufficient e"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

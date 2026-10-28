@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0032",
+  "source_text": "In the 1970s, neuropsychologist James Prescott published analyses linking early genital cutting to sensory deprivation and behavioral disorders, citing animal studies and human surveys showing correlations with violence and emotional dysregulation. [12]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the 1970s, neuropsychologist James Prescott published analyses linking early genital cutting to sensory deprivation and behavioral disord"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the 1970s, neuropsychologist James Prescott published analyses linking early genital cutting to sensory deprivation and behavioral disorders, citing animal s.",
+      "span": {
+        "quote": "In the 1970s, neuropsychologist James Prescott published analyses linking early genital cutting to sensory deprivation and behavioral disorders, citing animal s"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing animal studies and human surveys showing correlations with violence and.",
+      "span": {
+        "quote": "citing animal studies and human surveys showing correlations with violence and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing animal studies and human surveys showing correlations with violence and"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0204",
+  "source_text": "Despite implementation challenges like supply shortages and demand generation, the evidence prompted integrations with other HIV strategies, including pre-exposure prophylaxis, underscoring circumcision's role in causal reduction of viral entry points rather than mere correlation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Despite implementation challenges like supply shortages and demand generation, the evidence prompted integrations with other HIV strategies,"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Despite implementation challenges like supply shortages and demand generation, the evidence prompted integrations with other HIV strategies, including pre-expos.",
+      "span": {
+        "quote": "Despite implementation challenges like supply shortages and demand generation, the evidence prompted integrations with other HIV strategies, including pre-expos"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-clitoridectomy-s0180",
+  "source_text": "In certain cultural and traditional contexts, particularly among communities in parts of Africa, the Middle East, and Asia where clitoridectomy (classified as Type I female genital mutilation/cutting) is practiced, proponents state that the procedure promotes hygiene by removing tissue believed to harbor dirt, smegma, or foul odors, thereby enhancing bodily cleanliness and social acceptability. [85] [86]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In certain cultural and traditional contexts, particularly among communities in parts of Africa, the Middle East, and Asia where clitoridect"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Oridectomy (classified as Type I female genital mutilation/cutting) is practiced, proponents state that the procedure promotes hygiene by removing tissue believ.",
+      "span": {
+        "quote": "oridectomy (classified as Type I female genital mutilation/cutting) is practiced, proponents state that the procedure promotes hygiene by removing tissue believ"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Enhancing bodily cleanliness and social acceptability. [85] [86].",
+      "span": {
+        "quote": "enhancing bodily cleanliness and social acceptability. [85] [86]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

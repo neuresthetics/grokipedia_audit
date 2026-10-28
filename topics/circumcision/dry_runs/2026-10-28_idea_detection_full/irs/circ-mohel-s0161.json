@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-mohel-s0161",
+  "source_text": "Public health data, however, documents causal links to neonatal herpes simplex virus type 1 (HSV-1) transmission, with the CDC reporting 11 laboratory-confirmed cases among male infants in New York City from 2006 to 2011 following circumcisions involving metzitzah b'peh, including two fatalities from disseminated HSV infection leading to organ failure and brain damage. [82]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Public health data, however, documents causal links to neonatal herpes simplex virus type 1 (HSV-1) transmission, with the CDC reporting 11"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Public health data, however, documents causal links to neonatal herpes simplex virus type 1 (HSV-1) transmission, with the CDC reporting 11 laboratory-confirmed.",
+      "span": {
+        "quote": "Public health data, however, documents causal links to neonatal herpes simplex virus type 1 (HSV-1) transmission, with the CDC reporting 11 laboratory-confirmed"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

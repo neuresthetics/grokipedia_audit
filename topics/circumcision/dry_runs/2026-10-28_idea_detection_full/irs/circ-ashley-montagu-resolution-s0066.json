@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0066",
+  "source_text": "Participants underscored the symmetry between male and female genital cuttings in terms of ethical concerns, rejecting cultural relativism where evidence showed no medical necessity for routine infant procedures. [27]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Participants underscored the symmetry between male and female genital cuttings in terms of ethical concerns, rejecting cultural relativism w"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Participants underscored the symmetry between male and female genital cuttings in terms of ethical concerns, rejecting cultural relativism where evidence showed.",
+      "span": {
+        "quote": "Participants underscored the symmetry between male and female genital cuttings in terms of ethical concerns, rejecting cultural relativism where evidence showed"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

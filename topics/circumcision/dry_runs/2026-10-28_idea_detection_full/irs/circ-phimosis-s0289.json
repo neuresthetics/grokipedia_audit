@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0289",
+  "source_text": "Institutional guidelines increasingly favor stepwise escalation\u2014starting with non-invasive methods\u2014reflecting a shift toward minimizing irreversible interventions absent compelling pathology.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Institutional guidelines increasingly favor stepwise escalation\u2014starting with non-invasive methods\u2014reflecting a shift toward minimizing irre"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Institutional guidelines increasingly favor stepwise escalation\u2014starting with non-invasive methods\u2014reflecting a shift toward minimizing irreversible interventio.",
+      "span": {
+        "quote": "Institutional guidelines increasingly favor stepwise escalation\u2014starting with non-invasive methods\u2014reflecting a shift toward minimizing irreversible interventio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

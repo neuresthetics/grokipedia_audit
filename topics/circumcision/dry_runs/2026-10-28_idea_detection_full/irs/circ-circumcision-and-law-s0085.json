@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0085",
+  "source_text": "In September 2013, the Ombudspersons for Children from Denmark, Finland, Iceland, Norway, and Sweden released a joint statement declaring non-therapeutic circumcision of boys a violation of children's rights under the UN Convention on the Rights of the Child, emphasizing the procedure's infringement on bodily integrity and self-determination. [45]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In September 2013, the Ombudspersons for Children from Denmark, Finland, Iceland, Norway, and Sweden released a joint statement declaring no"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In September 2013, the Ombudspersons for Children from Denmark, Finland, Iceland, Norway, and Sweden released a joint statement declaring non-therapeutic circum.",
+      "span": {
+        "quote": "In September 2013, the Ombudspersons for Children from Denmark, Finland, Iceland, Norway, and Sweden released a joint statement declaring non-therapeutic circum"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

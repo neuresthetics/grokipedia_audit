@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0224",
+  "source_text": "News media coverage of mohels predominantly focuses on controversies surrounding brit milah, particularly rare health risks from metzitzah b'peh (direct oral suction), amplifying isolated incidents like neonatal herpes cases in New York City between 2000 and 2012, which involved a small number of ultra-Orthodox practitioners.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "News media coverage of mohels predominantly focuses on controversies surrounding brit milah, particularly rare health risks from metzitzah b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "News media coverage of mohels predominantly focuses on controversies surrounding brit milah, particularly rare health risks from metzitzah b'peh (direct oral su.",
+      "span": {
+        "quote": "News media coverage of mohels predominantly focuses on controversies surrounding brit milah, particularly rare health risks from metzitzah b'peh (direct oral su"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

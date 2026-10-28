@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0155",
+  "source_text": "Type III FGM/C (infibulation), prevalent among immigrants from countries like Somalia and Sudan, causes extensive scarring that obstructs vaginal delivery, elevating cesarean delivery odds by approximately 55% according to systematic reviews of obstetric outcomes applicable to affected U.S. populations. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type III FGM/C (infibulation), prevalent among immigrants from countries like Somalia and Sudan, causes extensive scarring that obstructs va"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Type III FGM/C (infibulation), prevalent among immigrants from countries like Somalia and Sudan, causes extensive scarring that obstructs vaginal delivery, elev.",
+      "span": {
+        "quote": "Type III FGM/C (infibulation), prevalent among immigrants from countries like Somalia and Sudan, causes extensive scarring that obstructs vaginal delivery, elev"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "According to systematic reviews of obstetric outcomes applicable to affected U.",
+      "span": {
+        "quote": "according to systematic reviews of obstetric outcomes applicable to affected U"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "according to systematic reviews of obstetric outcomes applicable to affected U"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

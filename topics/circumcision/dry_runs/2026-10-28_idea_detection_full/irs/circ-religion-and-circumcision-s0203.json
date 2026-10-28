@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0203",
+  "source_text": "Religious leaders from Jewish, Muslim, and Christian groups condemned the bill as an unprecedented attack on freedom of religion protected by Iceland's constitution and the European Convention on Human Rights, warning it would isolate small faith communities numbering fewer than 1,500 Muslims and 100 Jews. [111] [112]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Religious leaders from Jewish, Muslim, and Christian groups condemned the bill as an unprecedented attack on freedom of religion protected b"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Religious leaders from Jewish, Muslim, and Christian groups condemned the bill as an unprecedented attack on freedom of religion protected by Iceland's constitu.",
+      "span": {
+        "quote": "Religious leaders from Jewish, Muslim, and Christian groups condemned the bill as an unprecedented attack on freedom of religion protected by Iceland's constitu"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

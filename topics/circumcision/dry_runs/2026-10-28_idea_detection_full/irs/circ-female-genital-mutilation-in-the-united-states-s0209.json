@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0209",
+  "source_text": "Relativism's claim of cultural equivalence debunks under scrutiny, as no parental \"right\" extends to mutilating minors, paralleling the historical rejection of other traditions like Chinese foot-binding or Indian sati, which were prohibited despite entrenched rationales of honor and purity. [88] [89]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Relativism's claim of cultural equivalence debunks under scrutiny, as no parental \"right\" extends to mutilating minors, paralleling the hist"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of cultural equivalence debunks under scrutiny, as no parental \"right\" extends to mutilating minors, paralleling the historical rejection of other traditions li.",
+      "span": {
+        "quote": "of cultural equivalence debunks under scrutiny, as no parental \"right\" extends to mutilating minors, paralleling the historical rejection of other traditions li"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

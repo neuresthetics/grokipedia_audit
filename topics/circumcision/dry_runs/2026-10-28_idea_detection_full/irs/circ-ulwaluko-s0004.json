@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0004",
+  "source_text": "While ulwaluko reinforces ethnic identity and social cohesion through empirical transmission of values across generations, it has drawn controversy for frequent complications, including sepsis, gangrene, and fatalities\u2014often exceeding dozens annually\u2014stemming from unlicensed practitioners, inadequate hygiene, and lack of medical oversight in rural settings. [3] [4] [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While ulwaluko reinforces ethnic identity and social cohesion through empirical transmission of values across generations, it has drawn cont"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While ulwaluko reinforces ethnic identity and social cohesion through empirical transmission of values across generations, it has drawn controversy for frequent.",
+      "span": {
+        "quote": "While ulwaluko reinforces ethnic identity and social cohesion through empirical transmission of values across generations, it has drawn controversy for frequent"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

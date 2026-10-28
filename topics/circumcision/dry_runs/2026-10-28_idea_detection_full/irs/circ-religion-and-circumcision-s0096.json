@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0096",
+  "source_text": "Hindu philosophical perspectives, rooted in concepts like ahimsa (non-violence) and reverence for the body as a temple (deha-devalaya), further discourage non-therapeutic modifications, equating them to unnecessary harm without soteriological value.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Hindu philosophical perspectives, rooted in concepts like ahimsa (non-violence) and reverence for the body as a temple (deha-devalaya), furt"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hindu philosophical perspectives, rooted in concepts like ahimsa (non-violence) and reverence for the body as a temple (deha-devalaya), further discourage non-t.",
+      "span": {
+        "quote": "Hindu philosophical perspectives, rooted in concepts like ahimsa (non-violence) and reverence for the body as a temple (deha-devalaya), further discourage non-t"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

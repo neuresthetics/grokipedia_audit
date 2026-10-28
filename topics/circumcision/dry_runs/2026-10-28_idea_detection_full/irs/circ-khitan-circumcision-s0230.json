@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0230",
+  "source_text": "A concurrent Centers for Disease Control and Prevention analysis reinforced this efficacy, estimating a 60% reduction in female-to-male transmission, while noting implementation gaps in priority countries where coverage remains below targets. [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A concurrent Centers for Disease Control and Prevention analysis reinforced this efficacy, estimating a 60% reduction in female-to-male tran"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A concurrent Centers for Disease Control and Prevention analysis reinforced this efficacy, estimating a 60% reduction in female-to-male transmission, while noti.",
+      "span": {
+        "quote": "A concurrent Centers for Disease Control and Prevention analysis reinforced this efficacy, estimating a 60% reduction in female-to-male transmission, while noti"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

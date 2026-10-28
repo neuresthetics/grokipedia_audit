@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0208",
+  "source_text": "No federal or Supreme Court ruling has curtailed religious circumcision, distinguishing it from prohibited practices like female genital cutting due to differences in health outcomes and cultural acceptance.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "No federal or Supreme Court ruling has curtailed religious circumcision, distinguishing it from prohibited practices like female genital cut"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No federal or Supreme Court ruling has curtailed religious circumcision, distinguishing it from prohibited practices like female genital cutting due to differen.",
+      "span": {
+        "quote": "No federal or Supreme Court ruling has curtailed religious circumcision, distinguishing it from prohibited practices like female genital cutting due to differen"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

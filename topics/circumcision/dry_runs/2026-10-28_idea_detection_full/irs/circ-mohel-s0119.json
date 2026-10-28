@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-mohel-s0119",
+  "source_text": "This benefit arises from the removal of the foreskin, which can harbor bacteria and facilitate ascending infections; meta-analyses of cohort studies confirm that uncircumcised infants face a 10-fold higher UTI incidence, though absolute risk remains low at approximately 1% in uncircumcised males versus 0.1-0.2% in circumcised ones.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This benefit arises from the removal of the foreskin, which can harbor bacteria and facilitate ascending infections; meta-analyses of cohort"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This benefit arises from the removal of the foreskin, which can harbor bacteria and facilitate ascending infections; meta-analyses of cohort studies confirm tha.",
+      "span": {
+        "quote": "This benefit arises from the removal of the foreskin, which can harbor bacteria and facilitate ascending infections; meta-analyses of cohort studies confirm tha"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-restoration-device-s0021",
+  "source_text": "Empirical success varied with consistency and initial skin availability, yielding partial coverage after months to years of daily application, though full restoration of pre-circumcision functionality remained unattainable due to irreversible loss of specialized inner mucosal tissue. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical success varied with consistency and initial skin availability, yielding partial coverage after months to years of daily applicatio"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical success varied with consistency and initial skin availability, yielding partial coverage after months to years of daily application, though full resto.",
+      "span": {
+        "quote": "Empirical success varied with consistency and initial skin availability, yielding partial coverage after months to years of daily application, though full resto"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

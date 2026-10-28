@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-mohel-s0154",
+  "source_text": "In philosophical terms, the procedure exemplifies a paternalistic overreach, where short-term communal benefits are imposed at the expense of long-term personal agency, with surveys indicating that a majority of adult men who experienced infant circumcision would not choose it for their own sons if given the option. [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In philosophical terms, the procedure exemplifies a paternalistic overreach, where short-term communal benefits are imposed at the expense o"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In philosophical terms, the procedure exemplifies a paternalistic overreach, where short-term communal benefits are imposed at the expense of long-term personal.",
+      "span": {
+        "quote": "In philosophical terms, the procedure exemplifies a paternalistic overreach, where short-term communal benefits are imposed at the expense of long-term personal"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

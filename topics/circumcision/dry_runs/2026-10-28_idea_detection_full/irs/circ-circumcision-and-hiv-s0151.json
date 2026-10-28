@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0151",
+  "source_text": "Among Nairobi truck drivers in Kenya, uncircumcised men exhibited significantly higher HIV seroprevalence (13% versus 3% in circumcised men), with prospective follow-up confirming elevated incidence linked to uncircumcised status after adjusting for confounders like sexual behavior.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Among Nairobi truck drivers in Kenya, uncircumcised men exhibited significantly higher HIV seroprevalence (13% versus 3% in circumcised men)"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Among Nairobi truck drivers in Kenya, uncircumcised men exhibited significantly higher HIV seroprevalence (13% versus 3% in circumcised men), with prospective f.",
+      "span": {
+        "quote": "Among Nairobi truck drivers in Kenya, uncircumcised men exhibited significantly higher HIV seroprevalence (13% versus 3% in circumcised men), with prospective f"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to uncircumcised status after adjusting for confounders like.",
+      "span": {
+        "quote": "linked to uncircumcised status after adjusting for confounders like"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to uncircumcised status after adjusting for confounders like"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to uncircumcised status after adjusting for confounders like ",
+          "span": {
+            "quote": "linked to uncircumcised status after adjusting for confounders like"
+          }
+        }
+      ]
+    }
+  ]
+}

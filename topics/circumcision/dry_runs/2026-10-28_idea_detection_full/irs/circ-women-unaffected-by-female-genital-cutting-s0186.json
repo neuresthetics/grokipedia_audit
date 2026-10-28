@@ -1,0 +1,80 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0186",
+  "source_text": "The WHO's April 2025 guidelines explicitly oppose health worker involvement, citing evidence from high-medicalization areas like Egypt where overall FGC persistence undermines abandonment efforts, with no proven net reduction in total harm.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The WHO's April 2025 guidelines explicitly oppose health worker involvement, citing evidence from high-medicalization areas like Egypt where"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The WHO's April 2025 guidelines explicitly oppose health worker involvement, citing evidence from high-medicalization areas like Egypt where overall FGC persist.",
+      "span": {
+        "quote": "The WHO's April 2025 guidelines explicitly oppose health worker involvement, citing evidence from high-medicalization areas like Egypt where overall FGC persist"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "Citing evidence from high-medicalization areas like Egypt where overall FGC persistence.",
+      "span": {
+        "quote": "citing evidence from high-medicalization areas like Egypt where overall FGC persistence"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing evidence from high-medicalization areas like Egypt where overall FGC persistence"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

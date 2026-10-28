@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0151",
+  "source_text": "Meta-analyses show a 68% reduction post-circumcision, alongside near-elimination of balanoposthitis. [80] [81] [77]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses show a 68% reduction post-circumcision, alongside near-elimination of balanoposthitis. [80] [81] [77]"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses show a 68% reduction post-circumcision, alongside near-elimination of balanoposthitis. [80] [81] [77].",
+      "span": {
+        "quote": "Meta-analyses show a 68% reduction post-circumcision, alongside near-elimination of balanoposthitis. [80] [81] [77]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

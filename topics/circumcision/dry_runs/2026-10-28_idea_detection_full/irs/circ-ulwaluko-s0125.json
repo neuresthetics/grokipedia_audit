@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ulwaluko-s0125",
+  "source_text": "A 2010 study of 105 boys admitted to hospitals in the Eastern Cape following traditional circumcision during Ulwaluko reported complication rates of sepsis in 56.2% of cases, genital mutilation in 26.7%, dehydration in 11.4%, and penile amputation in 5.7%; no deaths occurred in this sample, but sepsis and dehydration were identified as primary underlying factors in broader mortality data. [3] [39]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2010 study of 105 boys admitted to hospitals in the Eastern Cape following traditional circumcision during Ulwaluko reported complication"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2010 study of 105 boys admitted to hospitals in the Eastern Cape following traditional circumcision during Ulwaluko reported complication rates of sepsis in 5.",
+      "span": {
+        "quote": "A 2010 study of 105 boys admitted to hospitals in the Eastern Cape following traditional circumcision during Ulwaluko reported complication rates of sepsis in 5"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

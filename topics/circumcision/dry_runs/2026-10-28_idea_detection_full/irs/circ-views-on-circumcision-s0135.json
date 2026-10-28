@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0135",
+  "source_text": "Addressing bodily autonomy critiques, advocates note that infants inherently lack decisional capacity for any irreversible choices, from vaccinations (with efficacy rates up to 99% for measles) to orthodontic interventions, rendering parental proxy decisions indispensable for optimizing outcomes like circumcision's preventive effects, which are most efficacious when performed neonatally to avoid adolescent procedural trauma or reluctance. [73]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Addressing bodily autonomy critiques, advocates note that infants inherently lack decisional capacity for any irreversible choices, from vac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "proponents",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Addressing bodily autonomy critiques, advocates note that infants inherently lack decisional capacity for any irreversible choices, from vaccinations (with effi.",
+      "span": {
+        "quote": "Addressing bodily autonomy critiques, advocates note that infants inherently lack decisional capacity for any irreversible choices, from vaccinations (with effi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

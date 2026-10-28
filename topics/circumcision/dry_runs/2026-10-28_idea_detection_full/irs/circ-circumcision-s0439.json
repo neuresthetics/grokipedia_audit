@@ -1,0 +1,77 @@
+{
+  "passage_id": "circ-circumcision-s0439",
+  "source_text": "Randomized controlled trials (RCTs) show voluntary medical male circumcision reduces heterosexual HIV acquisition by about 60% in high-prevalence areas.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized controlled trials (RCTs) show voluntary medical male circumcision reduces heterosexual HIV acquisition by about 60% in high-preva"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Randomized controlled trials (RCTs) show voluntary medical male circumcision reduces heterosexual HIV acquisition by about 60% in high-prevalence areas.",
+      "span": {
+        "quote": "Randomized controlled trials (RCTs) show voluntary medical male circumcision reduces heterosexual HIV acquisition by about 60% in high-prevalence areas."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "Randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Randomized controlled trials"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

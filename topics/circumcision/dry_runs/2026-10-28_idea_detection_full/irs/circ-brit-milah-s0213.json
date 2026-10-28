@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-brit-milah-s0213",
+  "source_text": "Observational data and meta-analyses further indicate protective effects against human papillomavirus (HPV) and herpes simplex virus type 2 (HSV-2), with reductions of 30-35% for HPV and similar for HSV-2, though evidence for bacterial STIs like chlamydia and gonorrhea is weaker or absent. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Observational data and meta-analyses further indicate protective effects against human papillomavirus (HPV) and herpes simplex virus type 2"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Observational data and meta-analyses further indicate protective effects against human papillomavirus (HPV) and herpes simplex virus type 2 (HSV-2), with reduct.",
+      "span": {
+        "quote": "Observational data and meta-analyses further indicate protective effects against human papillomavirus (HPV) and herpes simplex virus type 2 (HSV-2), with reduct"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

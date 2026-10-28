@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0395",
+  "source_text": "Experts instrumental in prior AAP guidance expressed doubts in October 2025, urging a renewed ethical and scientific review due to accumulating controversies over long-term outcomes and autonomy, amid stable legal permissibility under parental rights without federal restrictions. [208]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Experts instrumental in prior AAP guidance expressed doubts in October 2025, urging a renewed ethical and scientific review due to accumulat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Experts instrumental in prior AAP guidance expressed doubts in October 2025, urging a renewed ethical and scientific review due to accumulating controversies ov.",
+      "span": {
+        "quote": "Experts instrumental in prior AAP guidance expressed doubts in October 2025, urging a renewed ethical and scientific review due to accumulating controversies ov"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

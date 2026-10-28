@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0051",
+  "source_text": "These claims emphasize that parental proxy consent cannot override the child's right to physical autonomy, framing circumcision as an unethical form of proxy-authorized surgery that inflicts pain and risks complications, including infection, hemorrhage, and reduced sexual sensitivity later in life.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These claims emphasize that parental proxy consent cannot override the child's right to physical autonomy, framing circumcision as an unethi"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Emphasize that parental proxy consent cannot override the child's right to physical autonomy, framing circumcision as an unethical form of proxy-authorized surg.",
+      "span": {
+        "quote": "emphasize that parental proxy consent cannot override the child's right to physical autonomy, framing circumcision as an unethical form of proxy-authorized surg"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

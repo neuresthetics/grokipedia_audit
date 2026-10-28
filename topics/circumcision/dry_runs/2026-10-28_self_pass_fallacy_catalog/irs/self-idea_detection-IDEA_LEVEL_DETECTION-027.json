@@ -1,0 +1,55 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-027",
+  "source_text": "- Gold: METHOD\u2019s 2 examples + look-alike suite; precision-first. - text_detectable: no suite \u2192 0 flags. - Ablate surface-only vs full checker (surface-only must FP more). - Proposed bar: FP(flag) \u2264 5% on look-alike suite. - Process, charity forbids, and miss taxonomy: DEV_PROCESS.md. Score a results CSV with python3 -m idea_detection.score_eval. The eight-pilot held-out numbers are E2E_SUMMARY.md.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "- Gold: METHOD\u2019s 2 examples + look-alike suite; precision-first. - text_detectable: no suite \u2192 0 flags. - Ablate surface-only vs full checke"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "- Gold: METHOD\u2019s 2 examples + look-alike suite; precision-first. - text_detectable: no suite \u2192 0 flags. - Ablate surface-only vs full checker (surface-only must.",
+      "span": {
+        "quote": "- Gold: METHOD\u2019s 2 examples + look-alike suite; precision-first. - text_detectable: no suite \u2192 0 flags. - Ablate surface-only vs full checker (surface-only must"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "A results CSV with python3 -m idea_detection.",
+      "span": {
+        "quote": "a results CSV with python3 -m idea_detection"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "instantiates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "a results CSV with python3 -m idea_detection"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

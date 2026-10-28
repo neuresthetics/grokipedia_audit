@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0077",
+  "source_text": "The resolution provoked significant opposition from Jewish and Muslim representatives, who argued it conflates male circumcision\u2014a procedure with documented medical benefits such as reduced urinary tract infections and certain sexually transmitted diseases\u2014with mutilatory practices lacking such evidence. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution provoked significant opposition from Jewish and Muslim representatives, who argued it conflates male circumcision\u2014a procedure"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "resolution"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It conflates male circumcision\u2014a procedure with documented medical benefits such as reduced urinary tract infections and certain sexually transmitted diseases\u2014w.",
+      "span": {
+        "quote": "it conflates male circumcision\u2014a procedure with documented medical benefits such as reduced urinary tract infections and certain sexually transmitted diseases\u2014w"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "The resolution provoked significant opposition from Jewish and Muslim representatives, who.",
+      "span": {
+        "quote": "The resolution provoked significant opposition from Jewish and Muslim representatives, who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    },
+    {
+      "id": "c3",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

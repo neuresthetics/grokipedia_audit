@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0209",
+  "source_text": "Intersections of psychological and sexual effects compound morbidity, with FGM-linked trauma exacerbating sexual aversion and low libido, per cohort data from sub-Saharan Africa.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intersections of psychological and sexual effects compound morbidity, with FGM-linked trauma exacerbating sexual aversion and low libido, pe"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intersections of psychological and sexual effects compound morbidity, with FGM-linked trauma exacerbating sexual aversion and low libido, per cohort data from s.",
+      "span": {
+        "quote": "Intersections of psychological and sexual effects compound morbidity, with FGM-linked trauma exacerbating sexual aversion and low libido, per cohort data from s"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per cohort data from sub-Saharan Africa.",
+      "span": {
+        "quote": "per cohort data from sub-Saharan Africa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per cohort data from sub-Saharan Africa"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

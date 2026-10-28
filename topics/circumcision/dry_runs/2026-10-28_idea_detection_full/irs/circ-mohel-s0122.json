@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-mohel-s0122",
+  "source_text": "Systematic reviews of these trials and observational data affirm the mechanism involves keratinization of the glans and reduced viral entry sites under the foreskin, conferring lifelong protection when performed neonatally, as evidenced by lower HIV prevalence in circumcised populations. [62]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Systematic reviews of these trials and observational data affirm the mechanism involves keratinization of the glans and reduced viral entry"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Systematic reviews of these trials and observational data affirm the mechanism involves keratinization of the glans and reduced viral entry sites under the fore.",
+      "span": {
+        "quote": "Systematic reviews of these trials and observational data affirm the mechanism involves keratinization of the glans and reduced viral entry sites under the fore"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Systematic reviews.",
+      "span": {
+        "quote": "Systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

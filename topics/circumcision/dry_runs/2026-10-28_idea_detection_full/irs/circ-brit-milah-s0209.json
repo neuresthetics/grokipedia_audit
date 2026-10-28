@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0209",
+  "source_text": "This benefit persists through at least the first two years, as evidenced by updated pediatric reviews analyzing longitudinal data.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This benefit persists through at least the first two years, as evidenced by updated pediatric reviews analyzing longitudinal data."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This benefit persists through at least the first two years, as evidenced by updated pediatric reviews analyzing longitudinal data.",
+      "span": {
+        "quote": "This benefit persists through at least the first two years, as evidenced by updated pediatric reviews analyzing longitudinal data."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

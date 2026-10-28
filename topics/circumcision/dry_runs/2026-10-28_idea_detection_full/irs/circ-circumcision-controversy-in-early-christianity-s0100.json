@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0100",
+  "source_text": "Paul's theology rejected mandatory circumcision for Gentile converts on the grounds that justification comes through faith in Christ's atoning work, not through observance of Mosaic rituals, which would impose the entire law as a yoke of bondage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Paul's theology rejected mandatory circumcision for Gentile converts on the grounds that justification comes through faith in Christ's atoni"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "paul",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Paul's theology rejected mandatory circumcision for Gentile converts on the grounds that justification comes through faith in Christ's atoning work, not through.",
+      "span": {
+        "quote": "Paul's theology rejected mandatory circumcision for Gentile converts on the grounds that justification comes through faith in Christ's atoning work, not through"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "paul"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0159",
+  "source_text": "Long-term urogenital issues persist, such as vesicovaginal and rectovaginal fistulas resulting from prolonged obstructed labor, alongside keloid formation from unhealed excision sites, particularly in Types II and III.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term urogenital issues persist, such as vesicovaginal and rectovaginal fistulas resulting from prolonged obstructed labor, alongside ke"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term urogenital issues persist, such as vesicovaginal and rectovaginal fistulas resulting from prolonged obstructed labor, alongside keloid formation from.",
+      "span": {
+        "quote": "Long-term urogenital issues persist, such as vesicovaginal and rectovaginal fistulas resulting from prolonged obstructed labor, alongside keloid formation from "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "generated": "2026-10-28",
+  "note": "flag + possible_issue only; assists / leads-to-check, not hand METHOD verdicts",
+  "n": 4,
+  "leads": [
+    {
+      "passage_id": "self-METHOD-007",
+      "article": "METHOD.md",
+      "kind": "doctrine",
+      "entry_id": "argument-from-ignorance",
+      "verdict": "possible_issue",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage",
+      "missing": null,
+      "spans": null,
+      "passage_preview": "**(c) Pick the most specific entry.** Use one label per step. - Check the entry's **Related, use only one per step** list and pick the single entry in that family that fits best. Do not stack labels from the same family. - Entries marked **"
+    },
+    {
+      "passage_id": "self-METHOD-012",
+      "article": "METHOD.md",
+      "kind": "doctrine",
+      "entry_id": "appeal-to-authority",
+      "verdict": "possible_issue",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted",
+      "missing": null,
+      "spans": null,
+      "passage_preview": "**(h) Recommended: a second reviewer.** A second reviewer, who has not seen the first reviewer's verdicts, re-checks each flag using steps (a) to (g). Report only the flags both reviewers agree on; list the disagreements separately as possi"
+    },
+    {
+      "passage_id": "self-METHOD-022",
+      "article": "METHOD.md",
+      "kind": "doctrine",
+      "entry_id": "appeal-to-authority",
+      "verdict": "possible_issue",
+      "reason": "possible issue; missing fact: whether the source is an expert on this question; whether experts substantially disagree; whether the source can be trusted; whether the source is misquoted",
+      "missing": null,
+      "spans": null,
+      "passage_preview": "Look-alikes: relying on genuine experts within their field who broadly agree, which is the case the source says most appeals to authority fall under, applies here."
+    },
+    {
+      "passage_id": "self-idea_detection-EXTRACTOR_PROMPT-010",
+      "article": "idea_detection/EXTRACTOR_PROMPT.md",
+      "kind": "doctrine",
+      "entry_id": "guilt-by-association",
+      "verdict": "possible_issue",
+      "reason": "possible issue; excerpt boundary \u2014 support may lie outside the passage",
+      "missing": null,
+      "spans": null,
+      "passage_preview": "5. **Association, no person-attack required.** Passage: \u201cThis housing plan is associated with a developer who once supported the last failure, so it must be a bad plan.\u201d Emit an agent trait (\u201cassociated with\u201d / \u201conce supported\u201d), supports i"
+    }
+  ]
+}

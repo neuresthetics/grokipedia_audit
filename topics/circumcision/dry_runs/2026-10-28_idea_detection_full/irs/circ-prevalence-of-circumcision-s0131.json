@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0131",
+  "source_text": "Procedures are predominantly non-medical, conducted at home or by informal providers, with complications reported in up to 10% of cases in Pakistan due to unskilled operators. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Procedures are predominantly non-medical, conducted at home or by informal providers, with complications reported in up to 10% of cases in P"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Procedures are predominantly non-medical, conducted at home or by informal providers, with complications reported in up to 10% of cases in Pakistan due to unski.",
+      "span": {
+        "quote": "Procedures are predominantly non-medical, conducted at home or by informal providers, with complications reported in up to 10% of cases in Pakistan due to unski"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

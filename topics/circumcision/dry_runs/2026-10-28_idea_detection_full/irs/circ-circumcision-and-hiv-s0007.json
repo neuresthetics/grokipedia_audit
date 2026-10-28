@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0007",
+  "source_text": "Controversies persist, including critiques of trial methodologies\u2014such as early termination potentially inflating efficacy estimates and inadequate controls for viral load or partner HIV status\u2014but these have been rebutted by reanalyses and subsequent programmatic evaluations showing sustained population-level impacts without methodological collapse. [9] [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Controversies persist, including critiques of trial methodologies\u2014such as early termination potentially inflating efficacy estimates and ina"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Controversies persist, including critiques of trial methodologies\u2014such as early termination potentially inflating efficacy estimates and inadequate controls for.",
+      "span": {
+        "quote": "Controversies persist, including critiques of trial methodologies\u2014such as early termination potentially inflating efficacy estimates and inadequate controls for"
+      },
+      "role": "report",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

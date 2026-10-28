@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0255",
+  "source_text": "Intent to subject daughters to FGM is driven by extended family pressures, community hubs dubbed \"Small Sudan\" that connect families to practitioners, and perceptions of it as protection against sexual violence in unstable environments. [56] [57]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intent to subject daughters to FGM is driven by extended family pressures, community hubs dubbed \"Small Sudan\" that connect families to prac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Intent to subject daughters to FGM is driven by extended family pressures, community hubs dubbed \"Small Sudan\" that connect families to practitioners, and perce.",
+      "span": {
+        "quote": "Intent to subject daughters to FGM is driven by extended family pressures, community hubs dubbed \"Small Sudan\" that connect families to practitioners, and perce"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

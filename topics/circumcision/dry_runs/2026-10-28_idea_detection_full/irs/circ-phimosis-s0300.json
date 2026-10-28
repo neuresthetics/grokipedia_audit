@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-phimosis-s0300",
+  "source_text": "Empirical data indicate that in uncircumcised cohorts, self-resolved or conservatively managed cases predominate, challenging claims of universal medical necessity and highlighting how cultural biases\u2014such as parental expectations of early retraction by age 1 in 66% of surveyed families\u2014drive unnecessary interventions despite evidence of natural resolution. [91] [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data indicate that in uncircumcised cohorts, self-resolved or conservatively managed cases predominate, challenging claims of univ"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of universal medical necessity and highlighting how cultural biases\u2014such as parental expectations of early retraction by age 1 in 66% of surveyed families\u2014drive.",
+      "span": {
+        "quote": "of universal medical necessity and highlighting how cultural biases\u2014such as parental expectations of early retraction by age 1 in 66% of surveyed families\u2014drive"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical data indicate that in uncircumcised cohorts, self-resolved or conservatively managed cases predominate, challenging.",
+      "span": {
+        "quote": "Empirical data indicate that in uncircumcised cohorts, self-resolved or conservatively managed cases predominate, challenging"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

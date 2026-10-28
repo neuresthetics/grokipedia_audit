@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-infibulation-s0173",
+  "source_text": "This practice infringes upon core human rights principles enshrined in international instruments, including the right to physical and mental integrity under Article 24 of the United Nations Convention on the Rights of the Child (CRC), which obligates states to protect children from harmful traditional practices affecting health. [83]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This practice infringes upon core human rights principles enshrined in international instruments, including the right to physical and mental"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This practice infringes upon core human rights principles enshrined in international instruments, including the right to physical and mental integrity under Art.",
+      "span": {
+        "quote": "This practice infringes upon core human rights principles enshrined in international instruments, including the right to physical and mental integrity under Art"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

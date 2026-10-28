@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0126",
+  "source_text": "Brit Shalom signifies a shift toward secular reinterpretations of Jewish ritual, enabling families to maintain covenantal symbolism\u2014rooted in Genesis 17\u2014without physical alteration, thereby prioritizing bodily autonomy and ethical consent in an era of heightened scrutiny over infant medical procedures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Brit Shalom signifies a shift toward secular reinterpretations of Jewish ritual, enabling families to maintain covenantal symbolism\u2014rooted i"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Brit Shalom signifies a shift toward secular reinterpretations of Jewish ritual, enabling families to maintain covenantal symbolism\u2014rooted in Genesis 17\u2014without.",
+      "span": {
+        "quote": "Brit Shalom signifies a shift toward secular reinterpretations of Jewish ritual, enabling families to maintain covenantal symbolism\u2014rooted in Genesis 17\u2014without"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Prioritizing bodily autonomy and ethical consent in an era of heightened scrutiny over infant medical procedures.",
+      "span": {
+        "quote": "prioritizing bodily autonomy and ethical consent in an era of heightened scrutiny over infant medical procedures."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0274",
+  "source_text": "In South Africa, where over 3 million VMMCs were performed by 2016, program costs averaged $120 per procedure, yielding net financial returns through reduced HIV-related healthcare expenditures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In South Africa, where over 3 million VMMCs were performed by 2016, program costs averaged $120 per procedure, yielding net financial return"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In South Africa, where over 3 million VMMCs were performed by 2016, program costs averaged $120 per procedure, yielding net financial returns through reduced HI.",
+      "span": {
+        "quote": "In South Africa, where over 3 million VMMCs were performed by 2016, program costs averaged $120 per procedure, yielding net financial returns through reduced HI"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per procedure.",
+      "span": {
+        "quote": "per procedure"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per procedure"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

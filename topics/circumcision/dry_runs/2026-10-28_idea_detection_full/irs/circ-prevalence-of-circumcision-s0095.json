@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0095",
+  "source_text": "These initiatives have prioritized medical safety and HIV counseling, averting an estimated 340,000 HIV infections by 2020 through direct protective effects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These initiatives have prioritized medical safety and HIV counseling, averting an estimated 340,000 HIV infections by 2020 through direct pr"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These initiatives have prioritized medical safety and HIV counseling, averting an estimated 340,000 HIV infections by 2020 through direct protective effects.",
+      "span": {
+        "quote": "These initiatives have prioritized medical safety and HIV counseling, averting an estimated 340,000 HIV infections by 2020 through direct protective effects."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

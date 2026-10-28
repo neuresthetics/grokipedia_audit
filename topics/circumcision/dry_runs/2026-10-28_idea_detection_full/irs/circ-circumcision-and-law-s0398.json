@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0398",
+  "source_text": "A concurrent 2022 analysis advocated evidence-based support for voluntary medical male circumcision, citing 60% risk reduction for heterosexual HIV acquisition, influencing state-level Medicaid coverage but not altering national legal frameworks permitting parental consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A concurrent 2022 analysis advocated evidence-based support for voluntary medical male circumcision, citing 60% risk reduction for heterosex"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A concurrent 2022 analysis advocated evidence-based support for voluntary medical male circumcision, citing 60% risk reduction for heterosexual HIV acquisition,.",
+      "span": {
+        "quote": "A concurrent 2022 analysis advocated evidence-based support for voluntary medical male circumcision, citing 60% risk reduction for heterosexual HIV acquisition,"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Citing 60% risk reduction for heterosexual HIV acquisition.",
+      "span": {
+        "quote": "citing 60% risk reduction for heterosexual HIV acquisition"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "citing 60% risk reduction for heterosexual HIV acquisition"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

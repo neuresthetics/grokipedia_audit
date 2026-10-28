@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-man-s0012",
+  "source_text": "As founder of MGMbill\u2014a group pushing nationwide for legal restrictions on such procedures\u2014Hess employed the superhero format to dramatize his position that circumcision constitutes an unethical violation of children's rights, independent of religious or cultural rationales.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "As founder of MGMbill\u2014a group pushing nationwide for legal restrictions on such procedures\u2014Hess employed the superhero format to dramatize h"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "As founder of MGMbill\u2014a group pushing nationwide for legal restrictions on such procedures\u2014Hess employed the superhero format to dramatize his position that cir.",
+      "span": {
+        "quote": "As founder of MGMbill\u2014a group pushing nationwide for legal restrictions on such procedures\u2014Hess employed the superhero format to dramatize his position that cir"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

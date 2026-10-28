@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0068",
+  "source_text": "These benefits include a 90% reduction in urinary tract infections (UTIs) during the first year of life, a 3- to 10-fold decrease in penile cancer risk over the lifetime, and lowered transmission of heterosexual HIV (by 50-60% based on randomized trials), human papillomavirus, and herpes simplex virus type 2. [1] [44]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These benefits include a 90% reduction in urinary tract infections (UTIs) during the first year of life, a 3- to 10-fold decrease in penile"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These benefits include a 90% reduction in urinary tract infections (UTIs) during the first year of life, a 3- to 10-fold decrease in penile cancer risk over the.",
+      "span": {
+        "quote": "These benefits include a 90% reduction in urinary tract infections (UTIs) during the first year of life, a 3- to 10-fold decrease in penile cancer risk over the"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

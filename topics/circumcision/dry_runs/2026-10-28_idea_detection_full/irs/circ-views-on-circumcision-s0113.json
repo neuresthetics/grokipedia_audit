@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0113",
+  "source_text": "The American Urological Association (AUA), in its policy reaffirmed as of 2018, recognizes both potential medical benefits (e.g., reduced balanitis and phimosis risks) and disadvantages (e.g., surgical complications) of neonatal circumcision, rejecting routine bans and affirming parental decision-making after informed discussion of evidence-based pros and cons. [71]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Urological Association (AUA), in its policy reaffirmed as of 2018, recognizes both potential medical benefits (e.g., reduced ba"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The American Urological Association (AUA), in its policy reaffirmed as of 2018, recognizes both potential medical benefits (e.g., reduced balanitis and phimosis.",
+      "span": {
+        "quote": "The American Urological Association (AUA), in its policy reaffirmed as of 2018, recognizes both potential medical benefits (e.g., reduced balanitis and phimosis"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

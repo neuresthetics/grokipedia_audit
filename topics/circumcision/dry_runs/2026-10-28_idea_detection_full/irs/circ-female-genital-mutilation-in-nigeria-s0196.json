@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0196",
+  "source_text": "Opposing viewpoints from FGM survivors and health researchers emphasize verifiable net harms, including elevated maternal mortality from obstructed labor, documented in prospective Nigerian hospital data showing cut women 1.3-2 times more likely to require emergency cesareans. [67]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opposing viewpoints from FGM survivors and health researchers emphasize verifiable net harms, including elevated maternal mortality from obs"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "researchers"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Verifiable net harms, including elevated maternal mortality from obstructed labor, documented in prospective Nigerian hospital data showing cut women 1.3-2 time.",
+      "span": {
+        "quote": "verifiable net harms, including elevated maternal mortality from obstructed labor, documented in prospective Nigerian hospital data showing cut women 1.3-2 time"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "researchers",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opposing viewpoints from FGM survivors and health researchers.",
+      "span": {
+        "quote": "Opposing viewpoints from FGM survivors and health researchers"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "researchers"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

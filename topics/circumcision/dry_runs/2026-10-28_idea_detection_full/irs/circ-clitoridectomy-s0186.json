@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0186",
+  "source_text": "Claims of aesthetic or ritual benefits lack quantitative validation, as qualitative accounts from practitioners emphasize subjective cultural value over measurable health or social outcomes, while quantitative data consistently document adverse effects like dyspareunia and reduced clitoral sensitivity without offsetting gains. [89] [88]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Claims of aesthetic or ritual benefits lack quantitative validation, as qualitative accounts from practitioners emphasize subjective cultura"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of aesthetic or ritual benefits lack quantitative validation, as qualitative accounts from practitioners emphasize subjective cultural value over measurable hea.",
+      "span": {
+        "quote": "of aesthetic or ritual benefits lack quantitative validation, as qualitative accounts from practitioners emphasize subjective cultural value over measurable hea"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

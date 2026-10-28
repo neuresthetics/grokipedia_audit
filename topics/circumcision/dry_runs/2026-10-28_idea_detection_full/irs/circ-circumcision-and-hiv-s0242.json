@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0242",
+  "source_text": "Ethical critiques further highlight consent issues in resource-limited settings, where community pressures or inadequate counseling may coerce participation, and argue that promoting surgery ignores bodily autonomy and potential complications like infection or pain, especially when alternatives exist. [121]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical critiques further highlight consent issues in resource-limited settings, where community pressures or inadequate counseling may coer"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Promoting surgery ignores bodily autonomy and potential complications like infection or pain, especially when alternatives exist.",
+      "span": {
+        "quote": "promoting surgery ignores bodily autonomy and potential complications like infection or pain, especially when alternatives exist."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ethical critiques further highlight consent issues in resource-limited settings, where community pressures or inadequate counseling may coerce participation, an.",
+      "span": {
+        "quote": "Ethical critiques further highlight consent issues in resource-limited settings, where community pressures or inadequate counseling may coerce participation, an"
+      },
+      "role": "premise",
+      "hedge": "weak",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

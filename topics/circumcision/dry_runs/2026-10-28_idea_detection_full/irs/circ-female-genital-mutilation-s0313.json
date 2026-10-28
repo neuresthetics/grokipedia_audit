@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0313",
+  "source_text": "In opposition, advocates of universal human rights assert that FGM violates fundamental principles of bodily integrity and non-discrimination, as enshrined in instruments like the Universal Declaration of Human Rights (1948) and the Convention on the Elimination of All Forms of Discrimination Against Women (1979), which prioritize individual autonomy over cultural justifications for harm. [69]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In opposition, advocates of universal human rights assert that FGM violates fundamental principles of bodily integrity and non-discriminatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FGM violates fundamental principles of bodily integrity and non-discrimination, as enshrined in instruments like the Universal Declaration of Human Rights (1948.",
+      "span": {
+        "quote": "FGM violates fundamental principles of bodily integrity and non-discrimination, as enshrined in instruments like the Universal Declaration of Human Rights (1948"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In opposition, advocates of universal human rights.",
+      "span": {
+        "quote": "In opposition, advocates of universal human rights"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

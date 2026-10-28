@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0089",
+  "source_text": "Unlike Abrahamic traditions, Hindu rituals emphasize bodily integrity and purity through practices like shuddhi (purification) without surgical alteration of genitalia, viewing the natural form as divinely ordained and interference as potentially disruptive to prana (vital energy) flow. [53]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Unlike Abrahamic traditions, Hindu rituals emphasize bodily integrity and purity through practices like shuddhi (purification) without surgi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bodily integrity and purity through practices like shuddhi (purification) without surgical alteration of genitalia, viewing the natural form as divinely ordaine.",
+      "span": {
+        "quote": "bodily integrity and purity through practices like shuddhi (purification) without surgical alteration of genitalia, viewing the natural form as divinely ordaine"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unlike Abrahamic traditions, Hindu rituals.",
+      "span": {
+        "quote": "Unlike Abrahamic traditions, Hindu rituals"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

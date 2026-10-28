@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0179",
+  "source_text": "These findings suggest possible risk compensation or cultural differences in sexual health practices that could offset some protective effects of circumcision in certain populations.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings suggest possible risk compensation or cultural differences in sexual health practices that could offset some protective effec"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Possible risk compensation or cultural differences in sexual health practices that could offset some protective effects of circumcision in certain populations.",
+      "span": {
+        "quote": "possible risk compensation or cultural differences in sexual health practices that could offset some protective effects of circumcision in certain populations."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0197",
+  "source_text": "Organizations like the International Network of Involuntary Circumcision of Children frame it as a human rights infringement on bodily autonomy, akin to denying the child's agency over irreversible modifications, with empirical data showing complication rates of 0.2-2% in clinical settings but higher in traditional rites. [90] [91]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Organizations like the International Network of Involuntary Circumcision of Children frame it as a human rights infringement on bodily auton"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Organizations like the International Network of Involuntary Circumcision of Children frame it as a human rights infringement on bodily autonomy, akin to denying.",
+      "span": {
+        "quote": "Organizations like the International Network of Involuntary Circumcision of Children frame it as a human rights infringement on bodily autonomy, akin to denying"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

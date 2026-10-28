@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0063",
+  "source_text": "In contemporary public health, the World Health Organization endorsed voluntary medical male circumcision (VMMC) in 2007 for high-HIV-prevalence regions in sub-Saharan Africa, citing randomized trials showing 50\u201360% reduction in heterosexual acquisition risk, leading to over 30 million procedures by 2023 in 15 priority countries to curb epidemics where prevalence exceeds 10%. [34]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contemporary public health, the World Health Organization endorsed voluntary medical male circumcision (VMMC) in 2007 for high-HIV-preval"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In contemporary public health, the World Health Organization endorsed voluntary medical male circumcision (VMMC) in 2007 for high-HIV-prevalence regions in sub-.",
+      "span": {
+        "quote": "In contemporary public health, the World Health Organization endorsed voluntary medical male circumcision (VMMC) in 2007 for high-HIV-prevalence regions in sub-"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Citing randomized trials showing 50\u201360% reduction in heterosexual acquisition risk.",
+      "span": {
+        "quote": "citing randomized trials showing 50\u201360% reduction in heterosexual acquisition risk"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "citing randomized trials showing 50\u201360% reduction in heterosexual acquisition risk"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

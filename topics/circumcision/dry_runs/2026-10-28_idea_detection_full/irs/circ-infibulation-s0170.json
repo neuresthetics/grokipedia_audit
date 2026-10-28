@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0170",
+  "source_text": "Such defenses, articulated by anthropologists and local voices, insist that genuine change must originate internally, lest prohibitions exacerbate resistance by framing tradition as victimhood under external scrutiny.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such defenses, articulated by anthropologists and local voices, insist that genuine change must originate internally, lest prohibitions exac"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Genuine change must originate internally, lest prohibitions exacerbate resistance by framing tradition as victimhood under external scrutiny.",
+      "span": {
+        "quote": "genuine change must originate internally, lest prohibitions exacerbate resistance by framing tradition as victimhood under external scrutiny."
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Such defenses, articulated by anthropologists and local voices.",
+      "span": {
+        "quote": "Such defenses, articulated by anthropologists and local voices"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "insist"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

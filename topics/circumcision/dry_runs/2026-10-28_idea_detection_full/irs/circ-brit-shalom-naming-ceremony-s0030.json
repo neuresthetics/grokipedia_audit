@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0030",
+  "source_text": "Theologically, Brit Milah is viewed in Orthodox and Conservative Judaism as a halachic obligation with spiritual significance, including the belief that circumcision refines the child's soul and integrates the body into God's covenant, a perspective reinforced in Talmudic texts like Shabbat 132a.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Theologically, Brit Milah is viewed in Orthodox and Conservative Judaism as a halachic obligation with spiritual significance, including the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Theologically, Brit Milah is viewed in Orthodox and Conservative Judaism as a halachic obligation with spiritual significance, including the belief that circumc.",
+      "span": {
+        "quote": "Theologically, Brit Milah is viewed in Orthodox and Conservative Judaism as a halachic obligation with spiritual significance, including the belief that circumc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

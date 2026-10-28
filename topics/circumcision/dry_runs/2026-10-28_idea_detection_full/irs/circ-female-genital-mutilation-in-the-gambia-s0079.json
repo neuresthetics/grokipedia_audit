@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0079",
+  "source_text": "Religious rationales, though not explicitly mandated by the Quran, draw on select hadiths referencing \"female circumcision\" as a virtuous Islamic practice (sunna), with leaders like Imam Abdoulie Fatty and the Gambia Supreme Islamic Council framing it as essential for piety and cultural preservation against external impositions. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Religious rationales, though not explicitly mandated by the Quran, draw on select hadiths referencing \"female circumcision\" as a virtuous Is"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Religious rationales, though not explicitly mandated by the Quran, draw on select hadiths referencing \"female circumcision\" as a virtuous Islamic practice (sunn.",
+      "span": {
+        "quote": "Religious rationales, though not explicitly mandated by the Quran, draw on select hadiths referencing \"female circumcision\" as a virtuous Islamic practice (sunn"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

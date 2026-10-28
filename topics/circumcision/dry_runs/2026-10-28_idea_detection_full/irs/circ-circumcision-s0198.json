@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0198",
+  "source_text": "While some claims and individual reports suggest reduced sensitivity or pleasure post-circumcision, high-quality meta-analyses find no significant overall adverse effects.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some claims and individual reports suggest reduced sensitivity or pleasure post-circumcision, high-quality meta-analyses find no signi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nd individual reports suggest reduced sensitivity or pleasure post-circumcision, high-quality meta-analyses find no significant overall adverse effects.",
+      "span": {
+        "quote": "nd individual reports suggest reduced sensitivity or pleasure post-circumcision, high-quality meta-analyses find no significant overall adverse effects."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

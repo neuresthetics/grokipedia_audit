@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-018",
+  "source_text": "Predicates that need facts not in text consult outside_text_predicates / entry outside_text_conditions \u2192 possible issue naming the missing fact.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Predicates that need facts not in text consult outside_text_predicates / entry outside_text_conditions \u2192 possible issue naming the missing f"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Predicates that need facts not in text consult outside_text_predicates / entry outside_text_conditions \u2192 possible issue naming the missing fact.",
+      "span": {
+        "quote": "Predicates that need facts not in text consult outside_text_predicates / entry outside_text_conditions \u2192 possible issue naming the missing fact."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

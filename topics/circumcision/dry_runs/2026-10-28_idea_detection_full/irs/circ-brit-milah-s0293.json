@@ -1,0 +1,94 @@
+{
+  "passage_id": "circ-brit-milah-s0293",
+  "source_text": "These positions counter activist claims of net harm by prioritizing randomized and cohort data over anecdotal or ideological critiques, acknowledging procedure safety improves with trained practitioners. [126]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These positions counter activist claims of net harm by prioritizing randomized and cohort data over anecdotal or ideological critiques, ackn"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of net harm by prioritizing randomized and cohort data over anecdotal or ideological critiques, acknowledging procedure safety improves with trained practitione.",
+      "span": {
+        "quote": "of net harm by prioritizing randomized and cohort data over anecdotal or ideological critiques, acknowledging procedure safety improves with trained practitione"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These positions counter activist.",
+      "span": {
+        "quote": "These positions counter activist"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Activist claims of net harm by prioritizing randomized and.",
+      "span": {
+        "quote": "activist claims of net harm by prioritizing randomized and"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "attacks_person",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "activist claims of net harm by prioritizing randomized and"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent1",
+      "name_span": {
+        "quote": "These positions coun"
+      },
+      "traits": [
+        {
+          "id": "t1",
+          "label": "activist claims of net harm by prioritizing randomized and",
+          "span": {
+            "quote": "activist claims of net harm by prioritizing randomized and"
+          }
+        }
+      ]
+    }
+  ]
+}

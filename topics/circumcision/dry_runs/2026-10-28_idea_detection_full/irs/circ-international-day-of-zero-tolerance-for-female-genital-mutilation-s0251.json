@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0251",
+  "source_text": "Further debate involves cultural relativism, where some anthropologists contend that universal condemnation ignores contextual benefits communities attribute to FGM, such as enhanced marriage prospects, potentially alienating participants from reform efforts; however, empirical data consistently affirm no health benefits and severe long-term harms like obstetric fistula and psychological trauma. [95] [96]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Further debate involves cultural relativism, where some anthropologists contend that universal condemnation ignores contextual benefits comm"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Universal condemnation ignores contextual benefits communities attribute to FGM, such as enhanced marriage prospects, potentially alienating participants from r.",
+      "span": {
+        "quote": "universal condemnation ignores contextual benefits communities attribute to FGM, such as enhanced marriage prospects, potentially alienating participants from r"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Further debate involves cultural relativism, where some anthropologists.",
+      "span": {
+        "quote": "Further debate involves cultural relativism, where some anthropologists"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "contend"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

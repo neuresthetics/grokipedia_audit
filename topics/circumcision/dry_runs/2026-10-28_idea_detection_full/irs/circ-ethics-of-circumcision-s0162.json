@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0162",
+  "source_text": "In societies with high circumcision prevalence, such as those in the United States or Israel, conformity to the norm minimizes social stigma associated with deviation, as uncircumcised individuals may face peer exclusion or ridicule in contexts like military service or communal bathing. [103]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In societies with high circumcision prevalence, such as those in the United States or Israel, conformity to the norm minimizes social stigma"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In societies with high circumcision prevalence, such as those in the United States or Israel, conformity to the norm minimizes social stigma associated with dev.",
+      "span": {
+        "quote": "In societies with high circumcision prevalence, such as those in the United States or Israel, conformity to the norm minimizes social stigma associated with dev"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Associated with deviation.",
+      "span": {
+        "quote": "associated with deviation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "associated with deviation"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "associated"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "associated with deviation",
+          "span": {
+            "quote": "associated with deviation"
+          }
+        }
+      ]
+    }
+  ]
+}

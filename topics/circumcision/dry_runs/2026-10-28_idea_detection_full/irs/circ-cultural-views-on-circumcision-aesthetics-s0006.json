@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0006",
+  "source_text": "Conversely, ancient civilizations like the Greeks emphasized the beauty of the intact prepuce, viewing it as integral to physical harmony and natural integrity, in contrast to emerging practices in Jewish and Muslim traditions. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Conversely, ancient civilizations like the Greeks emphasized the beauty of the intact prepuce, viewing it as integral to physical harmony an"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E beauty of the intact prepuce, viewing it as integral to physical harmony and natural integrity, in contrast to emerging practices in Jewish and Muslim traditi.",
+      "span": {
+        "quote": "e beauty of the intact prepuce, viewing it as integral to physical harmony and natural integrity, in contrast to emerging practices in Jewish and Muslim traditi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Conversely, ancient civilizations like the Greeks.",
+      "span": {
+        "quote": "Conversely, ancient civilizations like the Greeks"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0138",
+  "source_text": "Cultural rationales often emphasize control of female sexuality, asserting that infibulation preserves virginity, discourages premarital relations, and ensures marital fidelity by reducing libido and promiscuity. [66]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural rationales often emphasize control of female sexuality, asserting that infibulation preserves virginity, discourages premarital rel"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Control of female sexuality, asserting that infibulation preserves virginity, discourages premarital relations, and ensures marital fidelity by reducing libido.",
+      "span": {
+        "quote": "control of female sexuality, asserting that infibulation preserves virginity, discourages premarital relations, and ensures marital fidelity by reducing libido "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Cultural rationales often.",
+      "span": {
+        "quote": "Cultural rationales often"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

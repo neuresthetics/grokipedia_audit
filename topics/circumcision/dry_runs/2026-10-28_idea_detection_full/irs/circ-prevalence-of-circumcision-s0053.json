@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-prevalence-of-circumcision-s0053",
+  "source_text": "These programs, supported by the U.S. President's Emergency Plan for AIDS Relief (PEPFAR) and others, aim for high coverage among adolescent and adult males to curb heterosexual HIV transmission, with three randomized controlled trials in South Africa, Kenya, and Uganda demonstrating a 50-60% reduction in female-to-male HIV acquisition risk among circumcised men compared to uncircumcised controls. [29] [30]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These programs, supported by the U.S. President's Emergency Plan for AIDS Relief (PEPFAR) and others, aim for high coverage among adolescent"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These programs, supported by the U.S. President's Emergency Plan for AIDS Relief (PEPFAR) and others, aim for high coverage among adolescent and adult males to.",
+      "span": {
+        "quote": "These programs, supported by the U.S. President's Emergency Plan for AIDS Relief (PEPFAR) and others, aim for high coverage among adolescent and adult males to "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

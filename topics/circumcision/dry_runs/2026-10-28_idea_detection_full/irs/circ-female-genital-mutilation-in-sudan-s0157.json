@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0157",
+  "source_text": "This sexual dysfunction often results in reduced libido (62.6% affected) and marital discord, as chronic pain hinders intimacy and satisfaction, leading to relational strain documented in qualitative reports from Sudanese communities.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This sexual dysfunction often results in reduced libido (62.6% affected) and marital discord, as chronic pain hinders intimacy and satisfact"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This sexual dysfunction often results in reduced libido (62.6% affected) and marital discord, as chronic pain hinders intimacy and satisfaction, leading to rela.",
+      "span": {
+        "quote": "This sexual dysfunction often results in reduced libido (62.6% affected) and marital discord, as chronic pain hinders intimacy and satisfaction, leading to rela"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

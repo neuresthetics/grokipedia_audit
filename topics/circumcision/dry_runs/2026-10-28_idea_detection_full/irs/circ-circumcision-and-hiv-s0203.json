@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0203",
+  "source_text": "Ethical concerns surrounding voluntary medical male circumcision (VMMC) for HIV prevention primarily revolve around the adequacy of informed consent processes and the potential erosion of individual autonomy in implementation settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethical concerns surrounding voluntary medical male circumcision (VMMC) for HIV prevention primarily revolve around the adequacy of informed"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethical concerns surrounding voluntary medical male circumcision (VMMC) for HIV prevention primarily revolve around the adequacy of informed consent processes a.",
+      "span": {
+        "quote": "Ethical concerns surrounding voluntary medical male circumcision (VMMC) for HIV prevention primarily revolve around the adequacy of informed consent processes a"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-clitoridectomy-s0184",
+  "source_text": "Empirical evaluations of these hygiene claims reveal no supporting evidence; studies of gynecological outcomes in affected populations indicate that clitoridectomy does not confer protective effects against infections or improve sanitation, and instead correlates with heightened risks of urinary tract infections, bacterial vaginosis, and wound complications due to tissue trauma and scarring. [89] [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical evaluations of these hygiene claims reveal no supporting evidence; studies of gynecological outcomes in affected populations indic"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reveal no supporting evidence;.",
+      "span": {
+        "quote": "reveal no supporting evidence;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical evaluations of these hygiene.",
+      "span": {
+        "quote": "Empirical evaluations of these hygiene"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "due to"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

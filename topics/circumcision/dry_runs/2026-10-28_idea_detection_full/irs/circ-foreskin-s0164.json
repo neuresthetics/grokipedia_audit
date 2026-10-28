@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-foreskin-s0164",
+  "source_text": "The condition is nearly absent in circumcised populations, underscoring the foreskin's role in harboring oncogenic factors like high-risk HPV strains, which are 32-43% less prevalent post-circumcision per systematic reviews.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The condition is nearly absent in circumcised populations, underscoring the foreskin's role in harboring oncogenic factors like high-risk HP"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The condition is nearly absent in circumcised populations, underscoring the foreskin's role in harboring oncogenic factors like high-risk HPV strains, which are.",
+      "span": {
+        "quote": "The condition is nearly absent in circumcised populations, underscoring the foreskin's role in harboring oncogenic factors like high-risk HPV strains, which are"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per systematic reviews.",
+      "span": {
+        "quote": "per systematic reviews"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per systematic reviews"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0196",
+  "source_text": "Trial protocols addressed this via stratified randomization and intention-to-treat analyses, though attrition rates of 10\u201315% (higher in control arms awaiting circumcision) introduced further imbalance.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Trial protocols addressed this via stratified randomization and intention-to-treat analyses, though attrition rates of 10\u201315% (higher in con"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Trial protocols addressed this via stratified randomization and intention-to-treat analyses, though attrition rates of 10\u201315% (higher in control arms awaiting c.",
+      "span": {
+        "quote": "Trial protocols addressed this via stratified randomization and intention-to-treat analyses, though attrition rates of 10\u201315% (higher in control arms awaiting c"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

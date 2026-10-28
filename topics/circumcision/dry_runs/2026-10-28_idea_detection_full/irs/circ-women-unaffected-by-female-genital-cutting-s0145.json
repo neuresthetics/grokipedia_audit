@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0145",
+  "source_text": "This agency manifests in women selecting practitioners\u2014typically other women\u2014and insisting on the procedure for their daughters to align with communal norms, challenging the narrative of unidirectional male imposition.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This agency manifests in women selecting practitioners\u2014typically other women\u2014and insisting on the procedure for their daughters to align wit"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This agency manifests in women selecting practitioners\u2014typically other women\u2014and insisting on the procedure for their daughters to align with communal norms, ch.",
+      "span": {
+        "quote": "This agency manifests in women selecting practitioners\u2014typically other women\u2014and insisting on the procedure for their daughters to align with communal norms, ch"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

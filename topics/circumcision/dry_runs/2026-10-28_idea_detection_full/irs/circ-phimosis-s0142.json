@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0142",
+  "source_text": "Over time, phimosis elevates the risk of urinary tract infections (UTIs), particularly in males, as incomplete foreskin retraction impedes hygiene and allows bacterial colonization under the prepuce, with studies indicating a protective effect from circumcision reducing UTI incidence by factors of 6.6- to 10-fold in affected age groups. [36] [37]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Over time, phimosis elevates the risk of urinary tract infections (UTIs), particularly in males, as incomplete foreskin retraction impedes h"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Over time, phimosis elevates the risk of urinary tract infections (UTIs), particularly in males, as incomplete foreskin retraction impedes hygiene and allows ba.",
+      "span": {
+        "quote": "Over time, phimosis elevates the risk of urinary tract infections (UTIs), particularly in males, as incomplete foreskin retraction impedes hygiene and allows ba"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

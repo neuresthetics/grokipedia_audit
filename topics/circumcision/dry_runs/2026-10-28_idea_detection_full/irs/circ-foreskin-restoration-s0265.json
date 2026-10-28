@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0265",
+  "source_text": "This positions restoration as a harm-reduction strategy rather than endorsement of circumcision, emphasizing prevention through informed parental education on risks like reduced penile sensitivity documented in studies.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This positions restoration as a harm-reduction strategy rather than endorsement of circumcision, emphasizing prevention through informed par"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This positions restoration as a harm-reduction strategy rather than endorsement of circumcision, emphasizing prevention through informed parental education on r.",
+      "span": {
+        "quote": "This positions restoration as a harm-reduction strategy rather than endorsement of circumcision, emphasizing prevention through informed parental education on r"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

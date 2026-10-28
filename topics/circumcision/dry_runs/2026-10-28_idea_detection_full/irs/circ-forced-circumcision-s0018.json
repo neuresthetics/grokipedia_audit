@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0018",
+  "source_text": "Empirical data from regions like eastern Africa highlight procedural complications in up to 10-20% of coerced initiations, underscoring the causal link between non-consent and adverse outcomes.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data from regions like eastern Africa highlight procedural complications in up to 10-20% of coerced initiations, underscoring the"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data from regions like eastern Africa highlight procedural complications in up to 10-20% of coerced initiations, underscoring the causal link between.",
+      "span": {
+        "quote": "Empirical data from regions like eastern Africa highlight procedural complications in up to 10-20% of coerced initiations, underscoring the causal link between "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

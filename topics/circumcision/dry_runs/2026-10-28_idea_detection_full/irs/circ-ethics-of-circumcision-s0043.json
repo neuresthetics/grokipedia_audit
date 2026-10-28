@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0043",
+  "source_text": "In circumcised populations, the incidence is estimated at 1 in 50,000 to 1 in 12 million, compared to higher rates among uncircumcised men, where relative risks can exceed threefold. [29]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In circumcised populations, the incidence is estimated at 1 in 50,000 to 1 in 12 million, compared to higher rates among uncircumcised men,"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In circumcised populations, the incidence is estimated at 1 in 50,000 to 1 in 12 million, compared to higher rates among uncircumcised men, where relative risks.",
+      "span": {
+        "quote": "In circumcised populations, the incidence is estimated at 1 in 50,000 to 1 in 12 million, compared to higher rates among uncircumcised men, where relative risks"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

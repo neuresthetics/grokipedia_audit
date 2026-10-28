@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0283",
+  "source_text": "A 2018 U.S. federal ruling striking down parts of the 1996 FGM ban on free exercise grounds\u2014applied to a ritual \"nicking\" case\u2014exposed this inconsistency, as similar minimal interventions on males face no such scrutiny, prompting scholarly calls for unified standards based on consent rather than sex-specific harm thresholds. [131]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2018 U.S. federal ruling striking down parts of the 1996 FGM ban on free exercise grounds\u2014applied to a ritual \"nicking\" case\u2014exposed this"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2018 U.S. federal ruling striking down parts of the 1996 FGM ban on free exercise grounds\u2014applied to a ritual \"nicking\" case\u2014exposed this inconsistency, as si.",
+      "span": {
+        "quote": "A 2018 U.S. federal ruling striking down parts of the 1996 FGM ban on free exercise grounds\u2014applied to a ritual \"nicking\" case\u2014exposed this inconsistency, as si"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

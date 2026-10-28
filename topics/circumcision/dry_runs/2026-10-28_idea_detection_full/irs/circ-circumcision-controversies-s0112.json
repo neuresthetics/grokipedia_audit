@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0112",
+  "source_text": "From a causal standpoint, the primary trade-off of neonatal circumcision involves a low-probability acute harm against probabilistic long-term reductions in infection risks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "From a causal standpoint, the primary trade-off of neonatal circumcision involves a low-probability acute harm against probabilistic long-te"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "From a causal standpoint, the primary trade-off of neonatal circumcision involves a low-probability acute harm against probabilistic long-term reductions in inf.",
+      "span": {
+        "quote": "From a causal standpoint, the primary trade-off of neonatal circumcision involves a low-probability acute harm against probabilistic long-term reductions in inf"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

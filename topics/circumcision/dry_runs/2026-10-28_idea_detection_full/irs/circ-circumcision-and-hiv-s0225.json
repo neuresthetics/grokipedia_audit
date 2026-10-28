@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0225",
+  "source_text": "In the ANRS 1265 trial, circumcised participants showed no increase in sexual activity or partner numbers compared to controls over 21 months, with even slight reductions in reported unprotected sex in some subgroups. [109]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the ANRS 1265 trial, circumcised participants showed no increase in sexual activity or partner numbers compared to controls over 21 month"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the ANRS 1265 trial, circumcised participants showed no increase in sexual activity or partner numbers compared to controls over 21 months, with even slight.",
+      "span": {
+        "quote": "In the ANRS 1265 trial, circumcised participants showed no increase in sexual activity or partner numbers compared to controls over 21 months, with even slight "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

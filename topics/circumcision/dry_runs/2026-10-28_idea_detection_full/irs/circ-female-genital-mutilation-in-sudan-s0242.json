@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0242",
+  "source_text": "Families in unstable regions have resorted to FGM alongside child marriage, perceiving it as a safeguard against sexual assault or to preserve perceived virginity amid rampant conflict-related sexual violence perpetrated by RSF militias.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Families in unstable regions have resorted to FGM alongside child marriage, perceiving it as a safeguard against sexual assault or to preser"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Families in unstable regions have resorted to FGM alongside child marriage, perceiving it as a safeguard against sexual assault or to preserve perceived virgini.",
+      "span": {
+        "quote": "Families in unstable regions have resorted to FGM alongside child marriage, perceiving it as a safeguard against sexual assault or to preserve perceived virgini"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0113",
+  "source_text": "Countervailing community narratives, often from Bohra leaders, assert minimal psychological harm due to normalized cultural framing, yet these lack empirical validation against survivor testimonies and overlook causality debates where stigma may confound self-reported distress rather than the cutting itself. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Countervailing community narratives, often from Bohra leaders, assert minimal psychological harm due to normalized cultural framing, yet the"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Minimal psychological harm due to normalized cultural framing, yet these lack empirical validation against survivor testimonies and overlook causality debates w.",
+      "span": {
+        "quote": "minimal psychological harm due to normalized cultural framing, yet these lack empirical validation against survivor testimonies and overlook causality debates w"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Countervailing community narratives, often from Bohra leaders.",
+      "span": {
+        "quote": "Countervailing community narratives, often from Bohra leaders"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "due to"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "ignores",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "overlook"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

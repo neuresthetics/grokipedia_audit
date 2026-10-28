@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-united-states-s0156",
+  "source_text": "The 2021 Women's Health Needs Study (WHNS), surveying communities with high FGM/C prevalence, found affected women reported significantly more childbirth-related health concerns compared to unaffected peers. [70]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The 2021 Women's Health Needs Study (WHNS), surveying communities with high FGM/C prevalence, found affected women reported significantly mo"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The 2021 Women's Health Needs Study (WHNS), surveying communities with high FGM/C prevalence, found affected women reported significantly more childbirth-relate.",
+      "span": {
+        "quote": "The 2021 Women's Health Needs Study (WHNS), surveying communities with high FGM/C prevalence, found affected women reported significantly more childbirth-relate"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

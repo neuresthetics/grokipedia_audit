@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-s0209",
+  "source_text": "Revision rates for cosmetic or functional issues stand at 1-2% long-term, underscoring the procedure's generally favorable safety profile in neonates when performed by skilled clinicians, though individual risks necessitate informed consent. [108]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Revision rates for cosmetic or functional issues stand at 1-2% long-term, underscoring the procedure's generally favorable safety profile in"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Revision rates for cosmetic or functional issues stand at 1-2% long-term, underscoring the procedure's generally favorable safety profile in neonates when perfo.",
+      "span": {
+        "quote": "Revision rates for cosmetic or functional issues stand at 1-2% long-term, underscoring the procedure's generally favorable safety profile in neonates when perfo"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

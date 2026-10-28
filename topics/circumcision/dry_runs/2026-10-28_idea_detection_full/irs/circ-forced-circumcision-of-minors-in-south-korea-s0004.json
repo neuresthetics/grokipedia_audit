@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-of-minors-in-south-korea-s0004",
+  "source_text": "Parents typically drive decisions based on perceived benefits like disease prevention, despite medical consensus questioning routine necessity, with procedures sometimes conducted by non-specialists in community settings. [5] [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Parents typically drive decisions based on perceived benefits like disease prevention, despite medical consensus questioning routine necessi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parents typically drive decisions based on perceived benefits like disease prevention, despite medical consensus questioning routine necessity, with procedures.",
+      "span": {
+        "quote": "Parents typically drive decisions based on perceived benefits like disease prevention, despite medical consensus questioning routine necessity, with procedures "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

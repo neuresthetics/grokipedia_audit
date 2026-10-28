@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0156",
+  "source_text": "Critics within bioethics and public health eventually surfaced arguments against the resolution's blanket condemnation, noting disparities in procedural severity, consent implications, and long-term outcomes between male circumcision (often partial foreskin removal with low complication rates under medical settings) and female genital mutilation (frequently involving infibulation and higher risks of obstetric harm), though these critiques postdated 1996 by over a decade. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics within bioethics and public health eventually surfaced arguments against the resolution's blanket condemnation, noting disparities i"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics within bioethics and public health eventually surfaced arguments against the resolution's blanket condemnation, noting disparities in procedural severit.",
+      "span": {
+        "quote": "Critics within bioethics and public health eventually surfaced arguments against the resolution's blanket condemnation, noting disparities in procedural severit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

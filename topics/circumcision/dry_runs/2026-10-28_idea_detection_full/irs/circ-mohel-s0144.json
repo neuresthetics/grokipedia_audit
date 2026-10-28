@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0144",
+  "source_text": "Ethicists argue that proxy consent by parents cannot override this, as parents lack authority to authorize irreversible modifications to a minor's body for cultural, religious, or aesthetic reasons, particularly when the procedure carries risks of pain, infection, and reduced sensitivity without proportional benefits to the individual undergoing it.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethicists argue that proxy consent by parents cannot override this, as parents lack authority to authorize irreversible modifications to a m"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proxy consent by parents cannot override this, as parents lack authority to authorize irreversible modifications to a minor's body for cultural, religious, or a.",
+      "span": {
+        "quote": "proxy consent by parents cannot override this, as parents lack authority to authorize irreversible modifications to a minor's body for cultural, religious, or a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

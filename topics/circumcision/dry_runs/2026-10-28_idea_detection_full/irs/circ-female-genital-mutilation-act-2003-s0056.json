@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0056",
+  "source_text": "Anatomically, FGM often involves clitoridectomy or infibulation, severing the clitoris\u2014which contains over 8,000 nerve endings analogous to penile tissue but concentrated for primary sexual pleasure\u2014resulting in permanent loss of sensation, chronic pain, and dyspareunia. [18]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Anatomically, FGM often involves clitoridectomy or infibulation, severing the clitoris\u2014which contains over 8,000 nerve endings analogous to"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Anatomically, FGM often involves clitoridectomy or infibulation, severing the clitoris\u2014which contains over 8,000 nerve endings analogous to penile tissue but co.",
+      "span": {
+        "quote": "Anatomically, FGM often involves clitoridectomy or infibulation, severing the clitoris\u2014which contains over 8,000 nerve endings analogous to penile tissue but co"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0100",
+  "source_text": "Infections, facilitated by unsterilized blades and razors commonly used by traditional practitioners, include sepsis at rates of 1.4% to 7.6% and tetanus at 0.18% to 2.3%, with Nigerian case series reporting fatalities such as tetanus deaths in infants and a septic adult woman. [35]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Infections, facilitated by unsterilized blades and razors commonly used by traditional practitioners, include sepsis at rates of 1.4% to 7.6"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infections, facilitated by unsterilized blades and razors commonly used by traditional practitioners, include sepsis at rates of 1.4% to 7.6% and tetanus at 0.1.",
+      "span": {
+        "quote": "Infections, facilitated by unsterilized blades and razors commonly used by traditional practitioners, include sepsis at rates of 1.4% to 7.6% and tetanus at 0.1"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

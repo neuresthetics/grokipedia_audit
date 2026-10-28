@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0130",
+  "source_text": "Long-term complications include vaginal scarring and stenosis, which exacerbate obstetric risks in subsequent pregnancies, though specific longitudinal studies on gishiri alone remain limited compared to broader female genital cutting research.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Long-term complications include vaginal scarring and stenosis, which exacerbate obstetric risks in subsequent pregnancies, though specific l"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Long-term complications include vaginal scarring and stenosis, which exacerbate obstetric risks in subsequent pregnancies, though specific longitudinal studies.",
+      "span": {
+        "quote": "Long-term complications include vaginal scarring and stenosis, which exacerbate obstetric risks in subsequent pregnancies, though specific longitudinal studies "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Longitudinal studies.",
+      "span": {
+        "quote": "longitudinal studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "longitudinal studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

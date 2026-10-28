@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0133",
+  "source_text": "These findings, drawn from hospital-based records in high-prevalence areas like northern Nigeria, demonstrate gishiri's empirical harms outweigh any anecdotal therapeutic claims, with no controlled trials validating benefits against documented fistula induction.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings, drawn from hospital-based records in high-prevalence areas like northern Nigeria, demonstrate gishiri's empirical harms outw"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ", with no controlled trials validating benefits against documented fistula induction.",
+      "span": {
+        "quote": ", with no controlled trials validating benefits against documented fistula induction."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These findings, drawn from hospital-based records in high-prevalence areas like northern Nigeria, demonstrate gishiri's empirical harms outweigh any anecdotal t.",
+      "span": {
+        "quote": "These findings, drawn from hospital-based records in high-prevalence areas like northern Nigeria, demonstrate gishiri's empirical harms outweigh any anecdotal t"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

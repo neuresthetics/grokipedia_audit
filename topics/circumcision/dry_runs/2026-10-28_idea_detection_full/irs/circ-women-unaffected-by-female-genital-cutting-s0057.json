@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0057",
+  "source_text": "A primary rationale involves regulating female sexuality to ensure chastity and fidelity, which communities associate with preserving family honor and facilitating marriage.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A primary rationale involves regulating female sexuality to ensure chastity and fidelity, which communities associate with preserving family"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A primary rationale involves regulating female sexuality to ensure chastity and fidelity, which communities associate with preserving family honor and facilitat.",
+      "span": {
+        "quote": "A primary rationale involves regulating female sexuality to ensure chastity and fidelity, which communities associate with preserving family honor and facilitat"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

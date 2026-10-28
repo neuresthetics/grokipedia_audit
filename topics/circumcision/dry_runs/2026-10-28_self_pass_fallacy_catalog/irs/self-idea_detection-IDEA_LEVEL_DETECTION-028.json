@@ -1,0 +1,35 @@
+{
+  "passage_id": "self-idea_detection-IDEA_LEVEL_DETECTION-028",
+  "source_text": "Rewrite METHOD; replace catalog with geometric-80; motive flags; new fallacy names; MINDSPACE; claiming NLU is always correct without spans.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rewrite METHOD; replace catalog with geometric-80; motive flags; new fallacy names; MINDSPACE; claiming NLU is always correct without spans."
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Rewrite METHOD; replace catalog with geometric-80; motive flags; new fallacy names; MINDSPACE; claiming NLU is always correct without spans.",
+      "span": {
+        "quote": "Rewrite METHOD; replace catalog with geometric-80; motive flags; new fallacy names; MINDSPACE; claiming NLU is always correct without spans."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

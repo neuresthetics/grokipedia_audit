@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-milah-s0264",
+  "source_text": "This tension has surfaced in ethical analyses rejecting compulsory religious affiliation for minors, yet affirming parental discretion in low-risk cultural practices, with debates often revealing underlying cultural relativism versus universalist human rights claims. [129]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This tension has surfaced in ethical analyses rejecting compulsory religious affiliation for minors, yet affirming parental discretion in lo"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": ".",
+      "span": {
+        "quote": "."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Filiation for minors, yet affirming parental discretion in low-risk cultural practices, with debates often revealing underlying cultural relativism versus unive.",
+      "span": {
+        "quote": "filiation for minors, yet affirming parental discretion in low-risk cultural practices, with debates often revealing underlying cultural relativism versus unive"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-mohel-s0230",
+  "source_text": "Broader societal views, influenced by secular ethics and medical skepticism, often conflate mohels with infant genital alteration debates, viewing brit milah as unnecessary or harmful despite data showing complication rates under 1% for trained practitioners.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Broader societal views, influenced by secular ethics and medical skepticism, often conflate mohels with infant genital alteration debates, v"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Broader societal views, influenced by secular ethics and medical skepticism, often conflate mohels with infant genital alteration debates, viewing brit milah as.",
+      "span": {
+        "quote": "Broader societal views, influenced by secular ethics and medical skepticism, often conflate mohels with infant genital alteration debates, viewing brit milah as"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

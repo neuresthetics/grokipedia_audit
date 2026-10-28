@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-clitoridectomy-s0036",
+  "source_text": "Soranus of Ephesus, a prominent physician active around 98\u2013138 CE, detailed the procedure in his Gynaecology, advocating excision of the protruding portion of an oversized clitoris using a scalpel after cauterization to prevent hemorrhage, specifically to mitigate friction-induced discomfort or nymphomania-like symptoms. [24] [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Soranus of Ephesus, a prominent physician active around 98\u2013138 CE, detailed the procedure in his Gynaecology, advocating excision of the pro"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Soranus of Ephesus, a prominent physician active around 98\u2013138 CE, detailed the procedure in his Gynaecology, advocating excision of the protruding portion of a.",
+      "span": {
+        "quote": "Soranus of Ephesus, a prominent physician active around 98\u2013138 CE, detailed the procedure in his Gynaecology, advocating excision of the protruding portion of a"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

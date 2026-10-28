@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-infibulation-s0181",
+  "source_text": "Critics highlight infibulation's role in perpetuating gender asymmetry, as it selectively targets females to enforce chastity and marital fidelity through genital sealing, imposing functional impairments absent in male genital modifications like circumcision, which do not typically involve tissue apposition or narrowing. [85]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics highlight infibulation's role in perpetuating gender asymmetry, as it selectively targets females to enforce chastity and marital fi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Critics highlight infibulation's role in perpetuating gender asymmetry, as it selectively targets females to enforce chastity and marital fidelity through genit.",
+      "span": {
+        "quote": "Critics highlight infibulation's role in perpetuating gender asymmetry, as it selectively targets females to enforce chastity and marital fidelity through genit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

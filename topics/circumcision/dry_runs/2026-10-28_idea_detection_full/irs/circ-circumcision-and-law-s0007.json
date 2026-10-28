@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0007",
+  "source_text": "These cases highlight causal trade-offs: while religious communities argue continuity of tradition outweighs deferred consent, critics invoke first-principles of non-maleficence, noting irreversible alteration without immediate medical necessity, amid source biases in advocacy-driven research that often amplify risks or understate cultural contexts.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These cases highlight causal trade-offs: while religious communities argue continuity of tradition outweighs deferred consent, critics invok"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Continuity of tradition outweighs deferred consent, critics invoke first-principles of non-maleficence, noting irreversible alteration without immediate medical.",
+      "span": {
+        "quote": "continuity of tradition outweighs deferred consent, critics invoke first-principles of non-maleficence, noting irreversible alteration without immediate medical"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These cases highlight causal trade-offs: while religious communities.",
+      "span": {
+        "quote": "These cases highlight causal trade-offs: while religious communities"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

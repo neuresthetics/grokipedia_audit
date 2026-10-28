@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0036",
+  "source_text": "The mandate underscores FGM's incompatibility with international human rights standards, such as those in the Convention on the Elimination of All Forms of Discrimination against Women and the Convention on the Rights of the Child, ratified by most Member States.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The mandate underscores FGM's incompatibility with international human rights standards, such as those in the Convention on the Elimination"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The mandate underscores FGM's incompatibility with international human rights standards, such as those in the Convention on the Elimination of All Forms of Disc.",
+      "span": {
+        "quote": "The mandate underscores FGM's incompatibility with international human rights standards, such as those in the Convention on the Elimination of All Forms of Disc"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

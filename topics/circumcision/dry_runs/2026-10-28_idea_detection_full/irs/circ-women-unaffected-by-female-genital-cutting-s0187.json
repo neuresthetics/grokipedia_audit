@@ -1,0 +1,103 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0187",
+  "source_text": "Empirical comparisons remain scarce, but available data suggest immediate risks diminish under medical supervision\u2014e.g., tetanus cases linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural normalization may amplify indirect harms through sustained practice.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical comparisons remain scarce, but available data suggest immediate risks diminish under medical supervision\u2014e.g., tetanus cases linke"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Immediate risks diminish under medical supervision\u2014e.g., tetanus cases linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural normalization may a.",
+      "span": {
+        "quote": "immediate risks diminish under medical supervision\u2014e.g., tetanus cases linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural normalization may a"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Empirical comparisons remain scarce, but available data.",
+      "span": {
+        "quote": "Empirical comparisons remain scarce, but available data"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "Linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural.",
+      "span": {
+        "quote": "linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "suggest"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural ",
+          "span": {
+            "quote": "linked to traditional FGC dropped in medicalized cohorts\u2014yet cultural"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0074",
+  "source_text": "These findings indicate that while discomfort is expected, severe or prolonged pain is uncommon in uncomplicated cases, and outcomes are generally favorable with appropriate pain management and aftercare.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These findings indicate that while discomfort is expected, severe or prolonged pain is uncommon in uncomplicated cases, and outcomes are gen"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These findings indicate that while discomfort is expected, severe or prolonged pain is uncommon in uncomplicated cases, and outcomes are generally favorable wit.",
+      "span": {
+        "quote": "These findings indicate that while discomfort is expected, severe or prolonged pain is uncommon in uncomplicated cases, and outcomes are generally favorable wit"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0100",
+  "source_text": "This suggests that reported physical complaints in FGC-affected women may often stem from stigma or access barriers rather than the cutting procedure.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This suggests that reported physical complaints in FGC-affected women may often stem from stigma or access barriers rather than the cutting"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Reported physical complaints in FGC-affected women may often stem from stigma or access barriers rather than the cutting procedure.",
+      "span": {
+        "quote": "reported physical complaints in FGC-affected women may often stem from stigma or access barriers rather than the cutting procedure."
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

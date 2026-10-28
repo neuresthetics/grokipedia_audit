@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0005",
+  "source_text": "Empirical data from clinical studies indicate it accounts for 5 to 18 percent of vesicovaginal fistulas (VVF) in northern Nigerian fistula centers, with one analysis of 1,372 cases attributing 78 instances (5.68 percent) directly to the practice, often resulting from inadvertent damage to the urethra or bladder during incision. [1] [4] [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Empirical data from clinical studies indicate it accounts for 5 to 18 percent of vesicovaginal fistulas (VVF) in northern Nigerian fistula c"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical data from clinical studies indicate it accounts for 5 to 18 percent of vesicovaginal fistulas (VVF) in northern Nigerian fistula centers, with one ana.",
+      "span": {
+        "quote": "Empirical data from clinical studies indicate it accounts for 5 to 18 percent of vesicovaginal fistulas (VVF) in northern Nigerian fistula centers, with one ana"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

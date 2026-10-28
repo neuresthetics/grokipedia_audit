@@ -1,0 +1,73 @@
+{
+  "passage_id": "circ-forced-circumcision-s0194",
+  "source_text": "Similarly, a Turkish study reported elevated PTSD symptoms in children post-circumcision, linked to procedural trauma and perceived violation of bodily autonomy.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Similarly, a Turkish study reported elevated PTSD symptoms in children post-circumcision, linked to procedural trauma and perceived violatio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Similarly, a Turkish study reported elevated PTSD symptoms in children post-circumcision, linked to procedural trauma and perceived violation of bodily autonomy.",
+      "span": {
+        "quote": "Similarly, a Turkish study reported elevated PTSD symptoms in children post-circumcision, linked to procedural trauma and perceived violation of bodily autonomy"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Linked to procedural trauma and perceived violation of bodily autonomy.",
+      "span": {
+        "quote": "linked to procedural trauma and perceived violation of bodily autonomy"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "linked to procedural trauma and perceived violation of bodily autonomy"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "linked"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "linked to procedural trauma and perceived violation of bodily autonomy",
+          "span": {
+            "quote": "linked to procedural trauma and perceived violation of bodily autonomy"
+          }
+        }
+      ]
+    }
+  ]
+}

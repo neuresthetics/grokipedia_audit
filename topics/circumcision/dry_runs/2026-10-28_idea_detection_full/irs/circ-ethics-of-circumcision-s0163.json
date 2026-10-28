@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0163",
+  "source_text": "Studies in voluntary medical male circumcision programs in sub-Saharan Africa indicate that perceived norms favoring circumcision correlate with reduced anticipated stigma for participants, suggesting that widespread adoption aligns individuals with dominant social expectations and averts marginalization. [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Studies in voluntary medical male circumcision programs in sub-Saharan Africa indicate that perceived norms favoring circumcision correlate"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Studies in voluntary medical male circumcision programs in sub-Saharan Africa indicate that perceived norms favoring circumcision correlate with reduced anticip.",
+      "span": {
+        "quote": "Studies in voluntary medical male circumcision programs in sub-Saharan Africa indicate that perceived norms favoring circumcision correlate with reduced anticip"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

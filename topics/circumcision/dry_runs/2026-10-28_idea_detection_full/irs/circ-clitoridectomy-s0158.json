@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-clitoridectomy-s0158",
+  "source_text": "Meta-analyses link FGM/C, including clitoridectomy, to increased mental health disorders, with odds ratios for PTSD up to 1.92 and depression 1.89 in affected populations. [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses link FGM/C, including clitoridectomy, to increased mental health disorders, with odds ratios for PTSD up to 1.92 and depressio"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses link FGM/C, including clitoridectomy, to increased mental health disorders, with odds ratios for PTSD up to 1.92 and depression 1.89 in affected p.",
+      "span": {
+        "quote": "Meta-analyses link FGM/C, including clitoridectomy, to increased mental health disorders, with odds ratios for PTSD up to 1.92 and depression 1.89 in affected p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

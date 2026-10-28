@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0272",
+  "source_text": "These variations highlight how cultural and religious practices causally shape phimosis epidemiology, with empirical data from global surveys confirming lower morbidity in circumcising societies. [81]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These variations highlight how cultural and religious practices causally shape phimosis epidemiology, with empirical data from global survey"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These variations highlight how cultural and religious practices causally shape phimosis epidemiology, with empirical data from global surveys confirming lower m.",
+      "span": {
+        "quote": "These variations highlight how cultural and religious practices causally shape phimosis epidemiology, with empirical data from global surveys confirming lower m"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

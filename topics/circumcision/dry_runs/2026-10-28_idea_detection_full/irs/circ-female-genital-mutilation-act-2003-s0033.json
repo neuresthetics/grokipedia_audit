@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0033",
+  "source_text": "These norms, while culturally embedded, do not mitigate the empirically verified physical and psychological damages, which override relativistic defenses by violating innate rights to bodily integrity.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These norms, while culturally embedded, do not mitigate the empirically verified physical and psychological damages, which override relativi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These norms, while culturally embedded, do not mitigate the empirically verified physical and psychological damages, which override relativistic defenses by vio.",
+      "span": {
+        "quote": "These norms, while culturally embedded, do not mitigate the empirically verified physical and psychological damages, which override relativistic defenses by vio"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

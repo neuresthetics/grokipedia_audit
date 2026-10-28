@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0146",
+  "source_text": "In defense, Peter narrated the vision, the Spirit's directive, and the Cornelius episode, arguing that refusing baptism would oppose God's evident action. [71] [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In defense, Peter narrated the vision, the Spirit's directive, and the Cornelius episode, arguing that refusing baptism would oppose God's e"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In defense, Peter narrated the vision, the Spirit's directive, and the Cornelius episode, arguing that refusing baptism would oppose God's evident action. [71].",
+      "span": {
+        "quote": "In defense, Peter narrated the vision, the Spirit's directive, and the Cornelius episode, arguing that refusing baptism would oppose God's evident action. [71] "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

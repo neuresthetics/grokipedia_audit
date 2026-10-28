@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0005",
+  "source_text": "Complication rates in neonatal settings are low, typically under 0.5-1%, encompassing minor issues like bleeding or infection, though severe outcomes such as excessive skin removal or necrosis occur rarely when performed by trained providers. [3] [5]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Complication rates in neonatal settings are low, typically under 0.5-1%, encompassing minor issues like bleeding or infection, though severe"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Complication rates in neonatal settings are low, typically under 0.5-1%, encompassing minor issues like bleeding or infection, though severe outcomes such as ex.",
+      "span": {
+        "quote": "Complication rates in neonatal settings are low, typically under 0.5-1%, encompassing minor issues like bleeding or infection, though severe outcomes such as ex"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

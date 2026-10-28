@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-s0266",
+  "source_text": "Preservation advocates thus prioritize the intact body's natural state, arguing that ethical medicine demands evidence of net benefit surpassing the intrinsic value of unaltered anatomy and consent.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Preservation advocates thus prioritize the intact body's natural state, arguing that ethical medicine demands evidence of net benefit surpas"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Preservation advocates.",
+      "span": {
+        "quote": "Preservation advocates"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c2",
+      "text": "Prioritize the intact body's natural state, arguing that ethical medicine demands evidence of net benefit surpassing the intrinsic value of unaltered anatomy an.",
+      "span": {
+        "quote": "prioritize the intact body's natural state, arguing that ethical medicine demands evidence of net benefit surpassing the intrinsic value of unaltered anatomy an"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0109",
+  "source_text": "This view underscores that visual perceptions of genital normality need not prioritize foreskin removal, as proper care suffices to prevent smegma-related concerns.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This view underscores that visual perceptions of genital normality need not prioritize foreskin removal, as proper care suffices to prevent"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This view underscores that visual perceptions of genital normality need not prioritize foreskin removal, as proper care suffices to prevent smegma-related conce.",
+      "span": {
+        "quote": "This view underscores that visual perceptions of genital normality need not prioritize foreskin removal, as proper care suffices to prevent smegma-related conce"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

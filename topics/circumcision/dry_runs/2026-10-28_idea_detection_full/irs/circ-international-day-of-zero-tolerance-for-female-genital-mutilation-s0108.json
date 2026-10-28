@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-international-day-of-zero-tolerance-for-female-genital-mutilation-s0108",
+  "source_text": "Relativist perspectives also draw parallels to other culturally embedded modifications, such as male circumcision, to challenge selective outrage and highlight perceived inconsistencies in universalist critiques that prioritize harm thresholds unevenly across genders. [31]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Relativist perspectives also draw parallels to other culturally embedded modifications, such as male circumcision, to challenge selective ou"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Relativist perspectives also draw parallels to other culturally embedded modifications, such as male circumcision, to challenge selective outrage and highlight.",
+      "span": {
+        "quote": "Relativist perspectives also draw parallels to other culturally embedded modifications, such as male circumcision, to challenge selective outrage and highlight "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

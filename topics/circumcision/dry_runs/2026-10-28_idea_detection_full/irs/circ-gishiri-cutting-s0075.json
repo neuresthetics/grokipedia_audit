@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0075",
+  "source_text": "Practitioners hold that the procedure removes this obstructive salt layer by applying a caustic paste of rock salt mixed with herbs or by scraping the vaginal walls until bleeding occurs, thereby widening the passage and restoring normal function.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Practitioners hold that the procedure removes this obstructive salt layer by applying a caustic paste of rock salt mixed with herbs or by sc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Practitioners hold that the procedure removes this obstructive salt layer by applying a caustic paste of rock salt mixed with herbs or by scraping the vaginal w.",
+      "span": {
+        "quote": "Practitioners hold that the procedure removes this obstructive salt layer by applying a caustic paste of rock salt mixed with herbs or by scraping the vaginal w"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Widening the passage and restoring normal function.",
+      "span": {
+        "quote": "widening the passage and restoring normal function."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

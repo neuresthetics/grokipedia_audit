@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0072",
+  "source_text": "Globally, regions with low circumcision prevalence like Europe exhibit low HIV prevalence (0.2\u20130.3% among adults), contrasting with sub-Saharan Africa's higher burdens, but multivariate ecological analyses attribute part of the African disparity to circumcision status independent of socioeconomic and behavioral factors. [55]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Globally, regions with low circumcision prevalence like Europe exhibit low HIV prevalence (0.2\u20130.3% among adults), contrasting with sub-Saha"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Globally, regions with low circumcision prevalence like Europe exhibit low HIV prevalence (0.2\u20130.3% among adults), contrasting with sub-Saharan Africa's higher.",
+      "span": {
+        "quote": "Globally, regions with low circumcision prevalence like Europe exhibit low HIV prevalence (0.2\u20130.3% among adults), contrasting with sub-Saharan Africa's higher "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

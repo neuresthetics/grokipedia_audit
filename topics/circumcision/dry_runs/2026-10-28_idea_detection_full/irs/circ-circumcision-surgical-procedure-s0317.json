@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-surgical-procedure-s0317",
+  "source_text": "This perspective aligns with bioethical reviews arguing that true proxy consent requires demonstrable net benefit without alternatives, a threshold unmet by circumcision's modest, proxy-derived advantages versus certain sensory losses and psychological impacts reported in adult surveys. [142]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective aligns with bioethical reviews arguing that true proxy consent requires demonstrable net benefit without alternatives, a th"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This perspective aligns with bioethical reviews arguing that true proxy consent requires demonstrable net benefit without alternatives, a threshold unmet by cir.",
+      "span": {
+        "quote": "This perspective aligns with bioethical reviews arguing that true proxy consent requires demonstrable net benefit without alternatives, a threshold unmet by cir"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

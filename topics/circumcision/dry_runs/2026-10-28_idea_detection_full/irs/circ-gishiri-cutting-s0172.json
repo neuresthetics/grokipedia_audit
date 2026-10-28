@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-gishiri-cutting-s0172",
+  "source_text": "These initiatives emphasize empirical evidence of harms, such as increased risks of infection, hemorrhage, and chronic vaginal issues from unsterile Gishiri incisions, countering beliefs in its therapeutic value for obstructed labor.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These initiatives emphasize empirical evidence of harms, such as increased risks of infection, hemorrhage, and chronic vaginal issues from u"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Empirical evidence of harms, such as increased risks of infection, hemorrhage, and chronic vaginal issues from unsterile Gishiri incisions, countering beliefs i.",
+      "span": {
+        "quote": "empirical evidence of harms, such as increased risks of infection, hemorrhage, and chronic vaginal issues from unsterile Gishiri incisions, countering beliefs i"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

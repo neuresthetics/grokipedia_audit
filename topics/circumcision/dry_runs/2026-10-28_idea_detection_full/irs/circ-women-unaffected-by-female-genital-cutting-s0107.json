@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0107",
+  "source_text": "Type II, entailing partial or total removal of the clitoris and labia minora with or without labia majora, demonstrates marginally higher immediate risks than Type I, such as bleeding (median 32%, range 5\u201362%), but long-term physical findings remain sparse for severe outcomes, with evidence for bacterial vaginosis (AOR=1.68) graded as very low quality and not establishing direct causation. [33]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Type II, entailing partial or total removal of the clitoris and labia minora with or without labia majora, demonstrates marginally higher im"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Type II, entailing partial or total removal of the clitoris and labia minora with or without labia majora, demonstrates marginally higher immediate risks than T.",
+      "span": {
+        "quote": "Type II, entailing partial or total removal of the clitoris and labia minora with or without labia majora, demonstrates marginally higher immediate risks than T"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

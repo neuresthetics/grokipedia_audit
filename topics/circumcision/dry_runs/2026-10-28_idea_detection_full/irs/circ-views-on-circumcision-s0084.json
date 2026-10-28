@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0084",
+  "source_text": "In a review of cohort data, uncircumcised boys faced a 10\u201320% lifetime risk of pathological phimosis requiring intervention, versus negligible rates post-circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In a review of cohort data, uncircumcised boys faced a 10\u201320% lifetime risk of pathological phimosis requiring intervention, versus negligib"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In a review of cohort data, uncircumcised boys faced a 10\u201320% lifetime risk of pathological phimosis requiring intervention, versus negligible rates post-circum.",
+      "span": {
+        "quote": "In a review of cohort data, uncircumcised boys faced a 10\u201320% lifetime risk of pathological phimosis requiring intervention, versus negligible rates post-circum"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

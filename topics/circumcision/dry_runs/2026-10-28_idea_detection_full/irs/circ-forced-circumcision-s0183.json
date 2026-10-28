@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0183",
+  "source_text": "Pain during the procedure is acute and measurable via neonatal stress responses, mitigated by local anesthesia but not eliminated, with potential for adhesions or meatal stenosis in 0.1-2% of cases long-term.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Pain during the procedure is acute and measurable via neonatal stress responses, mitigated by local anesthesia but not eliminated, with pote"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pain during the procedure is acute and measurable via neonatal stress responses, mitigated by local anesthesia but not eliminated, with potential for adhesions.",
+      "span": {
+        "quote": "Pain during the procedure is acute and measurable via neonatal stress responses, mitigated by local anesthesia but not eliminated, with potential for adhesions "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

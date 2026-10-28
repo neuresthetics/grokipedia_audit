@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-infibulation-s0162",
+  "source_text": "According to data from the FGM/C Research Initiative, 72% of Somali women aged 15-49 believe female genital mutilation, including infibulation, constitutes a religious requirement, reflecting deep-rooted communal approval that sustains the practice across generations. [78]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "According to data from the FGM/C Research Initiative, 72% of Somali women aged 15-49 believe female genital mutilation, including infibulati"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "According to data from the FGM/C Research Initiative, 72% of Somali women aged 15-49 believe female genital mutilation, including infibulation, constitutes a re.",
+      "span": {
+        "quote": "According to data from the FGM/C Research Initiative, 72% of Somali women aged 15-49 believe female genital mutilation, including infibulation, constitutes a re"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "According to data from the FGM/C Research Initiative.",
+      "span": {
+        "quote": "According to data from the FGM/C Research Initiative"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "According to data from the FGM/C Research Initiative"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

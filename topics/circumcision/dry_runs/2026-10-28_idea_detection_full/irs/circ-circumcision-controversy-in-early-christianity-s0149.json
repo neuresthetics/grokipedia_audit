@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0149",
+  "source_text": "This incident bolstered the apostolic case against Judaizing demands, providing Peter\u2014initially cautious about Gentile inclusion\u2014with firsthand evidence of divine impartiality, later invoked at the Council of Jerusalem to argue that no yoke of circumcision or law observance should burden Gentile believers, as salvation came through grace as it had for Jews. [74] [72]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This incident bolstered the apostolic case against Judaizing demands, providing Peter\u2014initially cautious about Gentile inclusion\u2014with firsth"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Tered the apostolic case against Judaizing demands, providing Peter\u2014initially cautious about Gentile inclusion\u2014with firsthand evidence of divine impartiality, l.",
+      "span": {
+        "quote": "tered the apostolic case against Judaizing demands, providing Peter\u2014initially cautious about Gentile inclusion\u2014with firsthand evidence of divine impartiality, l"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "No yoke of circumcision or law observance should burden Gentile believers, as salvation came through grace as it had for Jews. [74] [72].",
+      "span": {
+        "quote": "no yoke of circumcision or law observance should burden Gentile believers, as salvation came through grace as it had for Jews. [74] [72]"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "This incident bolstered the apostolic case against Judaizing demands, providing"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

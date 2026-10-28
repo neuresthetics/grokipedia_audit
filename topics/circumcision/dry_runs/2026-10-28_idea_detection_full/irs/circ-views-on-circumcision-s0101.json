@@ -1,0 +1,144 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0101",
+  "source_text": "The American Academy of Pediatrics (AAP) issued a 2012 policy statement concluding that the health benefits of newborn male circumcision outweigh the risks, though the data were insufficient to recommend it as a routine procedure for all male newborns; instead, the AAP emphasized that parents should determine what is in the best interests of their child and have access to the procedure if desired. [6]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The American Academy of Pediatrics (AAP) issued a 2012 policy statement concluding that the health benefits of newborn male circumcision out"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "speaker": "AAP"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Parents should determine what is in the best interests of their child and have access to the procedure if desired.",
+      "span": {
+        "quote": "parents should determine what is in the best interests of their child and have access to the procedure if desired."
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "AAP",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "He health benefits of newborn male circumcision outweigh the risks, though the data were insufficient to recommend it as a routine procedure for all male newbor.",
+      "span": {
+        "quote": "he health benefits of newborn male circumcision outweigh the risks, though the data were insufficient to recommend it as a routine procedure for all male newbor"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c3",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c4",
+      "text": "AAP.",
+      "span": {
+        "quote": "AAP"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c5",
+      "text": "Policy statement.",
+      "span": {
+        "quote": "policy statement"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    },
+    {
+      "id": "c6",
+      "text": "A 2012 policy statement concluding that the health benefits of.",
+      "span": {
+        "quote": "a 2012 policy statement concluding that the health benefits of"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "AAP"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "AAP"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "policy statement"
+      }
+    },
+    {
+      "id": "e5",
+      "type": "instantiates",
+      "source": "c6",
+      "target": "c1",
+      "span": {
+        "quote": "a 2012 policy statement concluding that the health benefits"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

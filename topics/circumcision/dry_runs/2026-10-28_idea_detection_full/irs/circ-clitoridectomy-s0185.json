@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-clitoridectomy-s0185",
+  "source_text": "Regarding sexual behavior, longitudinal and cross-sectional analyses, including nationally representative surveys from regions like Ethiopia and Nigeria, find no causal link between clitoridectomy and reduced promiscuity or increased fidelity; rates of extramarital sex and orgasm achievement remain comparable between cut and uncut women, with behavioral patterns more strongly influenced by socioeconomic, educational, and normative factors than by the procedure itself. [87] [91]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Regarding sexual behavior, longitudinal and cross-sectional analyses, including nationally representative surveys from regions like Ethiopia"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Regarding sexual behavior, longitudinal and cross-sectional analyses, including nationally representative surveys from regions like Ethiopia and Nigeria, find n.",
+      "span": {
+        "quote": "Regarding sexual behavior, longitudinal and cross-sectional analyses, including nationally representative surveys from regions like Ethiopia and Nigeria, find n"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

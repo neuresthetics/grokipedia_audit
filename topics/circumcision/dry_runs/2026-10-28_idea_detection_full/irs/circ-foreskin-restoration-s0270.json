@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0270",
+  "source_text": "Restoration debates also highlight inconsistencies in applying bodily integrity standards, as analogous non-therapeutic alterations on female minors are prohibited under human rights frameworks.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Restoration debates also highlight inconsistencies in applying bodily integrity standards, as analogous non-therapeutic alterations on femal"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Restoration debates also highlight inconsistencies in applying bodily integrity standards, as analogous non-therapeutic alterations on female minors are prohibi.",
+      "span": {
+        "quote": "Restoration debates also highlight inconsistencies in applying bodily integrity standards, as analogous non-therapeutic alterations on female minors are prohibi"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

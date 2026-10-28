@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0223",
+  "source_text": "Meta-analyses find no consistent adverse effects on sexual function, sensitivity, or satisfaction post-circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Meta-analyses find no consistent adverse effects on sexual function, sensitivity, or satisfaction post-circumcision."
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Meta-analyses find no consistent adverse effects on sexual function, sensitivity, or satisfaction post-circumcision.",
+      "span": {
+        "quote": "Meta-analyses find no consistent adverse effects on sexual function, sensitivity, or satisfaction post-circumcision."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analyses.",
+      "span": {
+        "quote": "Meta-analyses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Meta-analyses"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-women-unaffected-by-female-genital-cutting-s0077",
+  "source_text": "These testimonies, drawn from in-depth interviews, highlighted perceived benefits like reduced promiscuity concerns and cultural pride, though the study noted potential underreporting of subtle effects due to social desirability bias.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These testimonies, drawn from in-depth interviews, highlighted perceived benefits like reduced promiscuity concerns and cultural pride, thou"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These testimonies, drawn from in-depth interviews, highlighted perceived benefits like reduced promiscuity concerns and cultural pride, though the study noted p.",
+      "span": {
+        "quote": "These testimonies, drawn from in-depth interviews, highlighted perceived benefits like reduced promiscuity concerns and cultural pride, though the study noted p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

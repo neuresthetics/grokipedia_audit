@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0214",
+  "source_text": "The ethical calculus of circumcision pain weighs transient, mitigable distress against documented health gains, contrasting sharply with unanesthetized female genital cutting, where severe, unmanaged nociception correlates with chronic pelvic pain and dyspareunia in up to 30-50% of cases per cohort studies. [141]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The ethical calculus of circumcision pain weighs transient, mitigable distress against documented health gains, contrasting sharply with una"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The ethical calculus of circumcision pain weighs transient, mitigable distress against documented health gains, contrasting sharply with unanesthetized female g.",
+      "span": {
+        "quote": "The ethical calculus of circumcision pain weighs transient, mitigable distress against documented health gains, contrasting sharply with unanesthetized female g"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Per cohort studies.",
+      "span": {
+        "quote": "per cohort studies"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "per cohort studies"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-religion-and-circumcision-s0181",
+  "source_text": "This perspective emphasizes that infants possess an inherent interest in future autonomy, making irreversible genital modifications ethically problematic even if motivated by tradition or faith.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This perspective emphasizes that infants possess an inherent interest in future autonomy, making irreversible genital modifications ethicall"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infants possess an inherent interest in future autonomy, making irreversible genital modifications ethically problematic even if motivated by tradition or faith.",
+      "span": {
+        "quote": "infants possess an inherent interest in future autonomy, making irreversible genital modifications ethically problematic even if motivated by tradition or faith"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

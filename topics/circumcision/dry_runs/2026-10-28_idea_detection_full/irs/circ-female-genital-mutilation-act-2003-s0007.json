@@ -1,0 +1,82 @@
+{
+  "passage_id": "circ-female-genital-mutilation-act-2003-s0007",
+  "source_text": "Critics, including a 2016 parliamentary committee, have described the absence of earlier convictions as a \"national scandal,\" pointing to systemic failures in investigation and prosecution amid rising immigration from high-prevalence regions in Africa and the Middle East, where FGM serves non-therapeutic cultural or ritual purposes often justified by unsubstantiated claims of hygiene or maturity despite empirical evidence of long-term physical and psychological harm. [7]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics, including a 2016 parliamentary committee, have described the absence of earlier convictions as a \"national scandal,\" pointing to sy"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Of hygiene or maturity despite empirical evidence of long-term physical and psychological harm.",
+      "span": {
+        "quote": "of hygiene or maturity despite empirical evidence of long-term physical and psychological harm."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Amid rising immigration from high-prevalence regions in Africa and the Middle East, where FGM serves non-therapeutic cultural or ritual purposes often justified.",
+      "span": {
+        "quote": "amid rising immigration from high-prevalence regions in Africa and the Middle East, where FGM serves non-therapeutic cultural or ritual purposes often justified"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    },
+    {
+      "id": "c3",
+      "text": "Unsubstantiated claims of hygiene or maturity despite.",
+      "span": {
+        "quote": "unsubstantiated claims of hygiene or maturity despite"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claims"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "supports",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated claims of hygiene or maturity despite"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

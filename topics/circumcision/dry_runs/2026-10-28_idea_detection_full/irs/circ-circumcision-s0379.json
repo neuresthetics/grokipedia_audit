@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0379",
+  "source_text": "European bodies, such as the Royal Dutch Medical Association's 2010 stance, advise against non-medical circumcision due to insufficient net benefits and potential rights issues, reflecting low-prevalence priorities for surgical alternatives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "European bodies, such as the Royal Dutch Medical Association's 2010 stance, advise against non-medical circumcision due to insufficient net"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "European bodies, such as the Royal Dutch Medical Association's 2010 stance, advise against non-medical circumcision due to insufficient net benefits and potenti.",
+      "span": {
+        "quote": "European bodies, such as the Royal Dutch Medical Association's 2010 stance, advise against non-medical circumcision due to insufficient net benefits and potenti"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

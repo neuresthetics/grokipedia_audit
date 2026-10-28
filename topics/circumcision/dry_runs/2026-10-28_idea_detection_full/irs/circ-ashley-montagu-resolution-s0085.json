@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0085",
+  "source_text": "RESOLVED that the genital mutilations of children violate the human rights of children, as contained in Articles 2, 3, and 5 of the United Nations Universal Declaration of Human Rights, and Articles 19, 24, and 37 of the U.N. Convention on the Rights of the Child.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "RESOLVED that the genital mutilations of children violate the human rights of children, as contained in Articles 2, 3, and 5 of the United N"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "RESOLVED that the genital mutilations of children violate the human rights of children, as contained in Articles 2, 3, and 5 of the United Nations Universal Dec.",
+      "span": {
+        "quote": "RESOLVED that the genital mutilations of children violate the human rights of children, as contained in Articles 2, 3, and 5 of the United Nations Universal Dec"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

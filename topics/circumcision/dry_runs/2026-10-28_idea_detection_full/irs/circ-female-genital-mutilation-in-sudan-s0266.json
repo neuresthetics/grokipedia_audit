@@ -1,0 +1,81 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0266",
+  "source_text": "In contrast, universal human rights advocates maintain that FGM constitutes a fundamental violation of bodily autonomy and dignity, transcending cultural boundaries, as affirmed by international frameworks Sudan has engaged with, including its 2006 ratification of the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW), which prohibits practices discriminating against women. [61]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In contrast, universal human rights advocates maintain that FGM constitutes a fundamental violation of bodily autonomy and dignity, transcen"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FGM constitutes a fundamental violation of bodily autonomy and dignity, transcending cultural boundaries, as affirmed by international frameworks Sudan has enga.",
+      "span": {
+        "quote": "FGM constitutes a fundamental violation of bodily autonomy and dignity, transcending cultural boundaries, as affirmed by international frameworks Sudan has enga"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In contrast, universal human rights advocates.",
+      "span": {
+        "quote": "In contrast, universal human rights advocates"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    },
+    {
+      "id": "c3",
+      "text": "A fundamental violation of bodily autonomy and dignity.",
+      "span": {
+        "quote": "a fundamental violation of bodily autonomy and dignity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "maintain"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "a fundamental violation of bodily autonomy and dignity"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

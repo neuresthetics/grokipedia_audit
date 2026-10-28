@@ -1,0 +1,123 @@
+{
+  "passage_id": "circ-cultural-views-on-circumcision-aesthetics-s0102",
+  "source_text": "The World Health Organization (WHO) and Centers for Disease Control and Prevention (CDC) have shaped narratives in sub-Saharan Africa through voluntary medical male circumcision (VMMC) programs aimed at HIV prevention, where hygiene benefits are emphasized alongside reduced infection risk, implicitly linking the circumcised form to a more sanitary aesthetic in public health visuals. [59]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The World Health Organization (WHO) and Centers for Disease Control and Prevention (CDC) have shaped narratives in sub-Saharan Africa throug"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Longside reduced infection risk, implicitly linking the circumcised form to a more sanitary aesthetic in public health visuals.",
+      "span": {
+        "quote": "longside reduced infection risk, implicitly linking the circumcised form to a more sanitary aesthetic in public health visuals."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Ol and Prevention (CDC) have shaped narratives in sub-Saharan Africa through voluntary medical male circumcision (VMMC) programs aimed at HIV prevention, where.",
+      "span": {
+        "quote": "ol and Prevention (CDC) have shaped narratives in sub-Saharan Africa through voluntary medical male circumcision (VMMC) programs aimed at HIV prevention, where "
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "World Health Organization.",
+      "span": {
+        "quote": "World Health Organization"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "WHO.",
+      "span": {
+        "quote": "WHO"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c5",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasized"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "World Health Organization"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "WHO"
+      }
+    },
+    {
+      "id": "e4",
+      "type": "appeals_to_source",
+      "source": "c5",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

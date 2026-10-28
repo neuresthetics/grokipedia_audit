@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-new-zealand-s0120",
+  "source_text": "However, such perspectives falter against empirical evidence of FGM's physical and psychological harms, which persist regardless of cultural framing: Types 2 and 3 involve removal of clitoral tissue and labia, leading to chronic urinary infections, pelvic pain, and obstetric complications like prolonged labor and hemorrhage, as documented in clinical cases among New Zealand's affected women.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "However, such perspectives falter against empirical evidence of FGM's physical and psychological harms, which persist regardless of cultural"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "However, such perspectives falter against empirical evidence of FGM's physical and psychological harms, which persist regardless of cultural framing: Types 2 an.",
+      "span": {
+        "quote": "However, such perspectives falter against empirical evidence of FGM's physical and psychological harms, which persist regardless of cultural framing: Types 2 an"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

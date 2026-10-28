@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0096",
+  "source_text": "Rabbi Eliezer Melamed emphasizes that brit milah embodies an eternal, indelible bond between the Jewish soul and divine purpose, etched into the body itself, rendering any ceremony omitting circumcision theologically deficient and a rejection of this core covenantal element.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Rabbi Eliezer Melamed emphasizes that brit milah embodies an eternal, indelible bond between the Jewish soul and divine purpose, etched into"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Brit milah embodies an eternal, indelible bond between the Jewish soul and divine purpose, etched into the body itself, rendering any ceremony omitting circumci.",
+      "span": {
+        "quote": "brit milah embodies an eternal, indelible bond between the Jewish soul and divine purpose, etched into the body itself, rendering any ceremony omitting circumci"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Rabbi Eliezer Melamed.",
+      "span": {
+        "quote": "Rabbi Eliezer Melamed"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasizes"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

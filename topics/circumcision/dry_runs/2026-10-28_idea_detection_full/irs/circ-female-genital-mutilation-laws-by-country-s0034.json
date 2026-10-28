@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-laws-by-country-s0034",
+  "source_text": "Peer-reviewed analyses highlight that softening language correlates with tolerance for continuation, contrasting with data showing no health benefits across any variant.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Peer-reviewed analyses highlight that softening language correlates with tolerance for continuation, contrasting with data showing no health"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Peer-reviewed analyses highlight that softening language correlates with tolerance for continuation, contrasting with data showing no health benefits across any.",
+      "span": {
+        "quote": "Peer-reviewed analyses highlight that softening language correlates with tolerance for continuation, contrasting with data showing no health benefits across any"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

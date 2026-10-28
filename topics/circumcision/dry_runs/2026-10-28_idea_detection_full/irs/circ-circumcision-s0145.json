@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-s0145",
+  "source_text": "This stems from the foreskin acting as a bacterial reservoir that promotes ascent into the urinary tract as well as false-positive UTI test results, especially with poor hygiene; cohort studies link higher rates to foreskin presence over confounders like hygiene alone. [26] [78]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This stems from the foreskin acting as a bacterial reservoir that promotes ascent into the urinary tract as well as false-positive UTI test"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This stems from the foreskin acting as a bacterial reservoir that promotes ascent into the urinary tract as well as false-positive UTI test results, especially.",
+      "span": {
+        "quote": "This stems from the foreskin acting as a bacterial reservoir that promotes ascent into the urinary tract as well as false-positive UTI test results, especially "
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-brit-milah-s0232",
+  "source_text": "Further incidents reported in 2012 and 2014 underscore ongoing hazards, with public health authorities recommending alternatives like sterile pipettes to mitigate this preventable vector. [117] [10]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Further incidents reported in 2012 and 2014 underscore ongoing hazards, with public health authorities recommending alternatives like steril"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Further incidents reported in 2012 and 2014 underscore ongoing hazards, with public health authorities recommending alternatives like sterile pipettes to mitiga.",
+      "span": {
+        "quote": "Further incidents reported in 2012 and 2014 underscore ongoing hazards, with public health authorities recommending alternatives like sterile pipettes to mitiga"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

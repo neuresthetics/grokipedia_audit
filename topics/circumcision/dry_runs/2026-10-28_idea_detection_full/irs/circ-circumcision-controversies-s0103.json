@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0103",
+  "source_text": "Societal utility further bolsters parental discretion in circumcision, as the procedure contributes to population-level reductions in sexually transmitted infections, analogous to herd immunity dynamics observed in vaccination programs.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Societal utility further bolsters parental discretion in circumcision, as the procedure contributes to population-level reductions in sexual"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Societal utility further bolsters parental discretion in circumcision, as the procedure contributes to population-level reductions in sexually transmitted infec.",
+      "span": {
+        "quote": "Societal utility further bolsters parental discretion in circumcision, as the procedure contributes to population-level reductions in sexually transmitted infec"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

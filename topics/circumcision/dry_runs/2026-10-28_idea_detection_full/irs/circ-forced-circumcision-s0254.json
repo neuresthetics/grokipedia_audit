@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-forced-circumcision-s0254",
+  "source_text": "Intactivists argue primarily from ethical first principles, contending that performing irreversible surgery on a healthy, non-consenting infant violates autonomy rights akin to prohibitions on female genital cutting, as both involve altering functional genital tissue without therapeutic necessity. [16] [111]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Intactivists argue primarily from ethical first principles, contending that performing irreversible surgery on a healthy, non-consenting inf"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "intactivists"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Primarily from ethical first principles, contending that performing irreversible surgery on a healthy, non-consenting infant violates autonomy rights akin to pr.",
+      "span": {
+        "quote": "primarily from ethical first principles, contending that performing irreversible surgery on a healthy, non-consenting infant violates autonomy rights akin to pr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "intactivists",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

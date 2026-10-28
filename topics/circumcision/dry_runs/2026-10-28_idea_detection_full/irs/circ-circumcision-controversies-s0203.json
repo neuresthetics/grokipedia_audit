@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0203",
+  "source_text": "Core arguments advanced by these groups center on the procedure's irreversibility, as the foreskin cannot be restored post-removal, leading to permanent loss of nerve endings and potential impacts on sexual function. [58]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Core arguments advanced by these groups center on the procedure's irreversibility, as the foreskin cannot be restored post-removal, leading"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Core arguments advanced by these groups center on the procedure's irreversibility, as the foreskin cannot be restored post-removal, leading to permanent loss of.",
+      "span": {
+        "quote": "Core arguments advanced by these groups center on the procedure's irreversibility, as the foreskin cannot be restored post-removal, leading to permanent loss of"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

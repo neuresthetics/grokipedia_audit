@@ -1,0 +1,101 @@
+{
+  "passage_id": "circ-khitan-circumcision-s0156",
+  "source_text": "The U.S. Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP) have reviewed this body of evidence, concluding that preventive benefits\u2014encompassing reduced HIV/STI acquisition, UTIs, penile cancer, and balanitis\u2014outweigh procedural risks when performed neonatally or under medical conditions. [69] [3]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP) have reviewed this body of evidence, conc"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "CDC"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The U.S. Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP) have reviewed this body of evidence, concluding that preventi.",
+      "span": {
+        "quote": "The U.S. Centers for Disease Control and Prevention (CDC) and American Academy of Pediatrics (AAP) have reviewed this body of evidence, concluding that preventi"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Centers for Disease Control.",
+      "span": {
+        "quote": "Centers for Disease Control"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c3",
+      "text": "CDC.",
+      "span": {
+        "quote": "CDC"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    },
+    {
+      "id": "c4",
+      "text": "American Academy of Pediatrics.",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "CDC"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Centers for Disease Control"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "CDC"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "appeals_to_source",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "American Academy of Pediatrics"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

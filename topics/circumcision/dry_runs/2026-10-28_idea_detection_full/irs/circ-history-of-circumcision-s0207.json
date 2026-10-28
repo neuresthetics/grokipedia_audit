@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-history-of-circumcision-s0207",
+  "source_text": "Critics argue it contravenes core medical ethics principles, including respect for autonomy, non-maleficence, and justice, given documented risks such as infection, excessive skin removal, and rare but severe complications like penile amputation, with complication rates estimated at 1-10% depending on setting and performer. [97] [98]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Critics argue it contravenes core medical ethics principles, including respect for autonomy, non-maleficence, and justice, given documented"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "critics"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It contravenes core medical ethics principles, including respect for autonomy, non-maleficence, and justice, given documented risks such as infection, excessive.",
+      "span": {
+        "quote": "it contravenes core medical ethics principles, including respect for autonomy, non-maleficence, and justice, given documented risks such as infection, excessive"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "critics",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0125",
+  "source_text": "This aligns with broader anthropological observations that such modifications consolidate family alliances by signaling female \"purity\" to prospective in-laws, thereby facilitating bridewealth exchanges and kinship ties.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This aligns with broader anthropological observations that such modifications consolidate family alliances by signaling female \"purity\" to p"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This aligns with broader anthropological observations that such modifications consolidate family alliances by signaling female \"purity\" to prospective in-laws.",
+      "span": {
+        "quote": "This aligns with broader anthropological observations that such modifications consolidate family alliances by signaling female \"purity\" to prospective in-laws"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Facilitating bridewealth exchanges and kinship ties.",
+      "span": {
+        "quote": "facilitating bridewealth exchanges and kinship ties."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

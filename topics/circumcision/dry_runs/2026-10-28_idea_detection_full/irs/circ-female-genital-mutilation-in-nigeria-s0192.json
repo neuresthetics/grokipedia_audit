@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-nigeria-s0192",
+  "source_text": "Cultural relativist claims that FGM's harms are context-dependent overlook objective physiological data, including universal indicators of acute pain and tissue damage during procedures performed without anesthesia.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural relativist claims that FGM's harms are context-dependent overlook objective physiological data, including universal indicators of a"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FGM's harms are context-dependent overlook objective physiological data, including universal indicators of acute pain and tissue damage during procedures perfor.",
+      "span": {
+        "quote": "FGM's harms are context-dependent overlook objective physiological data, including universal indicators of acute pain and tissue damage during procedures perfor"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

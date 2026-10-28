@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0309",
+  "source_text": "Cultural relativists contend that FGM constitutes a longstanding tradition embedded in social structures of certain communities, particularly in parts of Africa and the Middle East, where it serves functions such as marking rites of passage, ensuring chastity, or fostering group identity, and thus should not be condemned through external moral lenses that risk ethnocentrism. [66]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cultural relativists contend that FGM constitutes a longstanding tradition embedded in social structures of certain communities, particularl"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Structures of certain communities, particularly in parts of Africa and the Middle East, where it serves functions such as marking rites of passage, ensuring cha.",
+      "span": {
+        "quote": "structures of certain communities, particularly in parts of Africa and the Middle East, where it serves functions such as marking rites of passage, ensuring cha"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Should not be condemned through external moral lenses that risk ethnocentrism. [66].",
+      "span": {
+        "quote": "should not be condemned through external moral lenses that risk ethnocentrism. [66]"
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thus"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

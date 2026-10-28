@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-penile-subincision-s0123",
+  "source_text": "Proponents of cultural preservation argue that prohibiting the practice undermines indigenous self-determination and erodes intangible heritage, as evidenced by ethnographic studies emphasizing its role in maintaining kinship systems and cosmological beliefs amid historical colonization pressures.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of cultural preservation argue that prohibiting the practice undermines indigenous self-determination and erodes intangible herit"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Prohibiting the practice undermines indigenous self-determination and erodes intangible heritage, as evidenced by ethnographic studies emphasizing its role in m.",
+      "span": {
+        "quote": "prohibiting the practice undermines indigenous self-determination and erodes intangible heritage, as evidenced by ethnographic studies emphasizing its role in m"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of cultural preservation.",
+      "span": {
+        "quote": "Proponents of cultural preservation"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

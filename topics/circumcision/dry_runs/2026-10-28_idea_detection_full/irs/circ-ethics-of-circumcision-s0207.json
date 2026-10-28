@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0207",
+  "source_text": "Acute pain in newborns triggers physiological stress responses, including cortisol surges and behavioral indicators, but neonatal brains lack mature declarative memory pathways, precluding formation of explicit, retrievable recollections of the event. [135]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Acute pain in newborns triggers physiological stress responses, including cortisol surges and behavioral indicators, but neonatal brains lac"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Acute pain in newborns triggers physiological stress responses, including cortisol surges and behavioral indicators, but neonatal brains lack mature declarative.",
+      "span": {
+        "quote": "Acute pain in newborns triggers physiological stress responses, including cortisol surges and behavioral indicators, but neonatal brains lack mature declarative"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0291",
+  "source_text": "Proponents argue it addresses iatrogenic harm from medically unsubstantiated infant surgeries, aligning with bodily integrity principles, yet faces pushback from institutions upholding circumcision's cultural entrenchment, including religious traditions accounting for over 70% of global cases. [53]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents argue it addresses iatrogenic harm from medically unsubstantiated infant surgeries, aligning with bodily integrity principles, ye"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "It addresses iatrogenic harm from medically unsubstantiated infant surgeries, aligning with bodily integrity principles, yet faces pushback from institutions up.",
+      "span": {
+        "quote": "it addresses iatrogenic harm from medically unsubstantiated infant surgeries, aligning with bodily integrity principles, yet faces pushback from institutions up"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Unsubstantiated infant surgeries.",
+      "span": {
+        "quote": "unsubstantiated infant surgeries"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "unsubstantiated infant surgeries"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

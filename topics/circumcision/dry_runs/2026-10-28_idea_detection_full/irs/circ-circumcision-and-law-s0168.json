@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-law-s0168",
+  "source_text": "Italy allows male circumcision privately for religious motives, as public hospitals do not cover ritual procedures under national health services, prompting reliance on paid clinics amid risks from unregulated home rituals, including a 2018 toddler death from hemorrhage. [98] [99]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Italy allows male circumcision privately for religious motives, as public hospitals do not cover ritual procedures under national health ser"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Italy allows male circumcision privately for religious motives, as public hospitals do not cover ritual procedures under national health services, prompting rel.",
+      "span": {
+        "quote": "Italy allows male circumcision privately for religious motives, as public hospitals do not cover ritual procedures under national health services, prompting rel"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

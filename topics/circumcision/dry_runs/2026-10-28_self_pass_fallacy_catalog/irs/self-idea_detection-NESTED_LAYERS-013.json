@@ -1,0 +1,37 @@
+{
+  "passage_id": "self-idea_detection-NESTED_LAYERS-013",
+  "source_text": "check_nested returns a tree. Each node has layer (L0), layer_path (L0\u2192L1\u2192L2), peel_path (cite:e_auth \u2192 premise:p1), the flat report, and children under the peel they came from.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "check_nested returns a tree. Each node has layer (L0), layer_path (L0\u2192L1\u2192L2), peel_path (cite:e_auth \u2192 premise:p1), the flat report, and chi"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "they",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Check_nested returns a tree. Each node has layer (L0), layer_path (L0\u2192L1\u2192L2), peel_path (cite:e_auth \u2192 premise:p1), the flat report, and children under the peel.",
+      "span": {
+        "quote": "check_nested returns a tree. Each node has layer (L0), layer_path (L0\u2192L1\u2192L2), peel_path (cite:e_auth \u2192 premise:p1), the flat report, and children under the peel"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "they"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

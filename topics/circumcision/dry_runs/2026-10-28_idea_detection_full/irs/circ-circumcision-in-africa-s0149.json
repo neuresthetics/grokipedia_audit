@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0149",
+  "source_text": "Kikuyu ceremonies similarly involve public endurance tests, reinforcing social bonds but occasionally leading to botched outcomes that have prompted shifts toward medical alternatives. [1]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Kikuyu ceremonies similarly involve public endurance tests, reinforcing social bonds but occasionally leading to botched outcomes that have"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Kikuyu ceremonies similarly involve public endurance tests, reinforcing social bonds but occasionally leading to botched outcomes that have prompted shifts towa.",
+      "span": {
+        "quote": "Kikuyu ceremonies similarly involve public endurance tests, reinforcing social bonds but occasionally leading to botched outcomes that have prompted shifts towa"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

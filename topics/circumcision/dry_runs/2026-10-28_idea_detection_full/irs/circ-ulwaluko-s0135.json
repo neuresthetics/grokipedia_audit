@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-ulwaluko-s0135",
+  "source_text": "The safety of Ulwaluko varies significantly based on the expertise of traditional surgeons, with inexperienced or untrained practitioners employing unsterilized instruments on multiple initiates, thereby elevating risks of sepsis and genital mutilation. [38]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The safety of Ulwaluko varies significantly based on the expertise of traditional surgeons, with inexperienced or untrained practitioners em"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The safety of Ulwaluko varies significantly based on the expertise of traditional surgeons, with inexperienced or untrained practitioners employing unsterilized.",
+      "span": {
+        "quote": "The safety of Ulwaluko varies significantly based on the expertise of traditional surgeons, with inexperienced or untrained practitioners employing unsterilized"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Elevating risks of sepsis and genital mutilation. [38].",
+      "span": {
+        "quote": "elevating risks of sepsis and genital mutilation. [38]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

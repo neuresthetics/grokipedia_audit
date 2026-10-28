@@ -1,0 +1,118 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0076",
+  "source_text": "This stance, articulated in Acts 15:1 by visitors from Judea who declared, \"Unless you are circumcised according to the custom of Moses, you cannot be saved,\" positioned circumcision not as optional but as a salvific necessity tied to covenantal fidelity. [40]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This stance, articulated in Acts 15:1 by visitors from Judea who declared, \"Unless you are circumcised according to the custom of Moses, you"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This stance, articulated in Acts 15:1 by visitors from Judea who declared, \"Unless you are circumcised according to the custom of Moses, you cannot be saved,\" p.",
+      "span": {
+        "quote": "This stance, articulated in Acts 15:1 by visitors from Judea who declared, \"Unless you are circumcised according to the custom of Moses, you cannot be saved,\" p"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c3",
+      "text": "According to the custom of Moses.",
+      "span": {
+        "quote": "according to the custom of Moses"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    },
+    {
+      "id": "c4",
+      "text": "Tied to covenantal fidelity.",
+      "span": {
+        "quote": "tied to covenantal fidelity"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "appeals_to_source",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "according to the custom of Moses"
+      }
+    },
+    {
+      "id": "e3",
+      "type": "supports",
+      "source": "c4",
+      "target": "c1",
+      "span": {
+        "quote": "tied to covenantal fidelity"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  },
+  "agents": [
+    {
+      "id": "agent_assoc",
+      "name_span": {
+        "quote": "tied"
+      },
+      "traits": [
+        {
+          "id": "assoc1",
+          "label": "tied to covenantal fidelity",
+          "span": {
+            "quote": "tied to covenantal fidelity"
+          }
+        }
+      ]
+    }
+  ]
+}

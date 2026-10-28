@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0132",
+  "source_text": "In the American Medical Association Journal of Ethics, contributors have asserted that proxy consent for non-therapeutic infant circumcision is ethically flawed, as it imposes iatrogenic injury\u2014defined as harm from medical intervention without offsetting medical imperative\u2014on a non-autonomous patient, advocating postponement to adulthood to respect bodily integrity. [4]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In the American Medical Association Journal of Ethics, contributors have asserted that proxy consent for non-therapeutic infant circumcision"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Proxy consent for non-therapeutic infant circumcision is ethically flawed, as it imposes iatrogenic injury\u2014defined as harm from medical intervention without off.",
+      "span": {
+        "quote": "proxy consent for non-therapeutic infant circumcision is ethically flawed, as it imposes iatrogenic injury\u2014defined as harm from medical intervention without off"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "In the American Medical Association Journal of Ethics, contributors have.",
+      "span": {
+        "quote": "In the American Medical Association Journal of Ethics, contributors have"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "asserted"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Association"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

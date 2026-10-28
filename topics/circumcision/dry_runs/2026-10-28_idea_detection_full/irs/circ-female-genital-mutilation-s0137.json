@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-s0137",
+  "source_text": "While some advocacy sources frame FGM as empowering within local contexts, empirical data counters this by linking it to reduced female bargaining power in marriages and heightened vulnerability to domestic control, with no verifiable evidence of net social benefits for women.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "While some advocacy sources frame FGM as empowering within local contexts, empirical data counters this by linking it to reduced female barg"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "While some advocacy sources frame FGM as empowering within local contexts, empirical data counters this by linking it to reduced female bargaining power in marr.",
+      "span": {
+        "quote": "While some advocacy sources frame FGM as empowering within local contexts, empirical data counters this by linking it to reduced female bargaining power in marr"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

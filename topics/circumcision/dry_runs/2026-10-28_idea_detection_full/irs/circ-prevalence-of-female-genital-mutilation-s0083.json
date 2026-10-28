@@ -1,0 +1,66 @@
+{
+  "passage_id": "circ-prevalence-of-female-genital-mutilation-s0083",
+  "source_text": "Ethnographic research in African societies reveals that the procedure is often framed as a prerequisite for marriageability, with uncut women stigmatized as promiscuous or undesirable, thereby reducing their eligibility for unions and associated bride wealth exchanges. [26]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Ethnographic research in African societies reveals that the procedure is often framed as a prerequisite for marriageability, with uncut wome"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ethnographic research in African societies reveals that the procedure is often framed as a prerequisite for marriageability, with uncut women stigmatized as pro.",
+      "span": {
+        "quote": "Ethnographic research in African societies reveals that the procedure is often framed as a prerequisite for marriageability, with uncut women stigmatized as pro"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c2",
+      "text": "Reducing their eligibility for unions and associated bride wealth exchanges. [26].",
+      "span": {
+        "quote": "reducing their eligibility for unions and associated bride wealth exchanges. [26]"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "thereby"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "correlates",
+      "source": "c1",
+      "target": "c2",
+      "span": {
+        "quote": "associated"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

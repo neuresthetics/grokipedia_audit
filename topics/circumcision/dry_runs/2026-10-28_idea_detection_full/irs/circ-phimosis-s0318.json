@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-phimosis-s0318",
+  "source_text": "Routine preputial biopsy in pathological cases confirms secondary skin changes like fibrosis, supporting targeted management over blanket circumcision. [101]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Routine preputial biopsy in pathological cases confirms secondary skin changes like fibrosis, supporting targeted management over blanket ci"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Routine preputial biopsy in pathological cases confirms secondary skin changes like fibrosis, supporting targeted management over blanket circumcision. [101].",
+      "span": {
+        "quote": "Routine preputial biopsy in pathological cases confirms secondary skin changes like fibrosis, supporting targeted management over blanket circumcision. [101]"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0208",
+  "source_text": "In countries like Tanzania and Eswatini, national policies often require parental or guardian consent for minors under 18, alongside adolescent assent, yet studies reveal frequent lapses: up to 10% of procedures on Kenyan youth aged 15-19 occurred without documented parental approval, including instances of forged signatures or absent forms. [104]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In countries like Tanzania and Eswatini, national policies often require parental or guardian consent for minors under 18, alongside adolesc"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In countries like Tanzania and Eswatini, national policies often require parental or guardian consent for minors under 18, alongside adolescent assent, yet stud.",
+      "span": {
+        "quote": "In countries like Tanzania and Eswatini, national policies often require parental or guardian consent for minors under 18, alongside adolescent assent, yet stud"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

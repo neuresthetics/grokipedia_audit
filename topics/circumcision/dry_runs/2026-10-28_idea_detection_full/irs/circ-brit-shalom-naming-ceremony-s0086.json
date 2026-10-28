@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0086",
+  "source_text": "In interfaith or secular Jewish families, these issues are compounded by discomfort from non-Jewish partners who may view the ritual cutting as akin to genital modification practices scrutinized in human rights contexts, prompting a search for inclusive alternatives that avoid such elements.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In interfaith or secular Jewish families, these issues are compounded by discomfort from non-Jewish partners who may view the ritual cutting"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In interfaith or secular Jewish families, these issues are compounded by discomfort from non-Jewish partners who may view the ritual cutting as akin to genital.",
+      "span": {
+        "quote": "In interfaith or secular Jewish families, these issues are compounded by discomfort from non-Jewish partners who may view the ritual cutting as akin to genital "
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

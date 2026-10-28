@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-brit-milah-s0276",
+  "source_text": "These voices, amplified by figures like Ronald Goldman, author of Circumcision: The Hidden Trauma, claim the ritual perpetuates intergenerational trauma and urge reform akin to historical abandonments of practices like animal sacrifice. [138]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These voices, amplified by figures like Ronald Goldman, author of Circumcision: The Hidden Trauma, claim the ritual perpetuates intergenerat"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "author"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E ritual perpetuates intergenerational trauma and urge reform akin to historical abandonments of practices like animal sacrifice.",
+      "span": {
+        "quote": "e ritual perpetuates intergenerational trauma and urge reform akin to historical abandonments of practices like animal sacrifice."
+      },
+      "role": "recommendation",
+      "hedge": "none",
+      "scope": "action",
+      "speaker": "author",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "These voices, amplified by figures like Ronald Goldman, author of Circumcision: The Hidden Trauma.",
+      "span": {
+        "quote": "These voices, amplified by figures like Ronald Goldman, author of Circumcision: The Hidden Trauma"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "author"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "claim"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

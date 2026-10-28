@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-circumcision-controversy-in-early-christianity-s0106",
+  "source_text": "Drawing from prophetic calls for heart circumcision (Deuteronomy 10:16; Jeremiah 4:4), he argued in Romans, composed circa 57 CE, that a true Jew is one inwardly, with praise from God rather than men, achieved by the Spirit's work rather than literal cutting (Romans 2:28-29).",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Drawing from prophetic calls for heart circumcision (Deuteronomy 10:16; Jeremiah 4:4), he argued in Romans, composed circa 57 CE, that a tru"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "he"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Romans, composed circa 57 CE, that a true Jew is one inwardly, with praise from God rather than men, achieved by the Spirit's work rather than literal cuttin.",
+      "span": {
+        "quote": "in Romans, composed circa 57 CE, that a true Jew is one inwardly, with praise from God rather than men, achieved by the Spirit's work rather than literal cuttin"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Drawing from prophetic calls for heart circumcision (Deuteronomy 10:16; Jeremiah 4:4), he.",
+      "span": {
+        "quote": "Drawing from prophetic calls for heart circumcision (Deuteronomy 10:16; Jeremiah 4:4), he"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "he"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argued"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

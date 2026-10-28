@@ -1,0 +1,59 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-the-gambia-s0124",
+  "source_text": "Cutters, typically respected elderly women, derive social status from performing the procedure, which is passed down generationally and reinforces community bonds, as evidenced by statements from practitioners who refuse to abandon it despite incentives.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Cutters, typically respected elderly women, derive social status from performing the procedure, which is passed down generationally and rein"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "WHO"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cutters, typically respected elderly women, derive social status from performing the procedure, which is passed down generationally and reinforces community bon.",
+      "span": {
+        "quote": "Cutters, typically respected elderly women, derive social status from performing the procedure, which is passed down generationally and reinforces community bon"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Who.",
+      "span": {
+        "quote": "who"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "WHO"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "who"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

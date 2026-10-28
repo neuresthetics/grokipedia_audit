@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-controversies-s0067",
+  "source_text": "Multivariate analyses of observational data from the region further indicate that circumcision retains protective associations against HIV after adjusting for variables such as age, marital status, and sexual partnerships, supporting causal inferences from trial outcomes in real-world contexts. [50]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Multivariate analyses of observational data from the region further indicate that circumcision retains protective associations against HIV a"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Multivariate analyses of observational data from the region further indicate that circumcision retains protective associations against HIV after adjusting for v.",
+      "span": {
+        "quote": "Multivariate analyses of observational data from the region further indicate that circumcision retains protective associations against HIV after adjusting for v"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

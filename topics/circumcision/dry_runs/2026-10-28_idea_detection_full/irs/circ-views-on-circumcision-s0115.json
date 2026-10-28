@@ -1,0 +1,60 @@
+{
+  "passage_id": "circ-views-on-circumcision-s0115",
+  "source_text": "Opponents of infant male circumcision argue that the procedure constitutes a non-therapeutic violation of the child's inherent right to bodily autonomy and physical integrity, as infants cannot provide informed consent for permanent genital modification.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Opponents of infant male circumcision argue that the procedure constitutes a non-therapeutic violation of the child's inherent right to bodi"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "opponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "E procedure constitutes a non-therapeutic violation of the child's inherent right to bodily autonomy and physical integrity, as infants cannot provide informed.",
+      "span": {
+        "quote": "e procedure constitutes a non-therapeutic violation of the child's inherent right to bodily autonomy and physical integrity, as infants cannot provide informed "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Opponents of infant male circumcision.",
+      "span": {
+        "quote": "Opponents of infant male circumcision"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "opponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "argue"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

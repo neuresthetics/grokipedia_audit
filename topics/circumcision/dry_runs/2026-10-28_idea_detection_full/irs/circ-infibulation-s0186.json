@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-infibulation-s0186",
+  "source_text": "Randomized controlled trials in high-HIV-prevalence African settings, including studies in South Africa, Kenya, and Uganda, demonstrated that male circumcision reduces heterosexual HIV acquisition risk by 51-60% in men, with protective effects persisting up to seven years post-procedure. [89] [90]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Randomized controlled trials in high-HIV-prevalence African settings, including studies in South Africa, Kenya, and Uganda, demonstrated tha"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Randomized controlled trials in high-HIV-prevalence African settings, including studies in South Africa, Kenya, and Uganda, demonstrated that male circumcision.",
+      "span": {
+        "quote": "Randomized controlled trials in high-HIV-prevalence African settings, including studies in South Africa, Kenya, and Uganda, demonstrated that male circumcision "
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true,
+      "asserts_cause": true
+    },
+    {
+      "id": "c2",
+      "text": "Randomized controlled trials.",
+      "span": {
+        "quote": "Randomized controlled trials"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "Randomized controlled trials"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

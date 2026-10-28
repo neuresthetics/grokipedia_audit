@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-sudan-s0227",
+  "source_text": "In Sudan, community resistance to FGM eradication efforts often stems from entrenched socio-cultural norms associating the practice with family honor, marriageability, and perceived hygiene benefits, leading to opposition against comprehensive bans.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "In Sudan, community resistance to FGM eradication efforts often stems from entrenched socio-cultural norms associating the practice with fam"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In Sudan, community resistance to FGM eradication efforts often stems from entrenched socio-cultural norms associating the practice with family honor, marriagea.",
+      "span": {
+        "quote": "In Sudan, community resistance to FGM eradication efforts often stems from entrenched socio-cultural norms associating the practice with family honor, marriagea"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

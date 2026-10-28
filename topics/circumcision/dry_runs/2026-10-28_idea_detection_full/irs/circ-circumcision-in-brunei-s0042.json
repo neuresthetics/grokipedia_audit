@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-brunei-s0042",
+  "source_text": "Such non-sterile practices in the pre-modern era carried inherent risks, including potential infections from unsterilized instruments and environments.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Such non-sterile practices in the pre-modern era carried inherent risks, including potential infections from unsterilized instruments and en"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Such non-sterile practices in the pre-modern era carried inherent risks, including potential infections from unsterilized instruments and environments.",
+      "span": {
+        "quote": "Such non-sterile practices in the pre-modern era carried inherent risks, including potential infections from unsterilized instruments and environments."
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

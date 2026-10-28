@@ -1,0 +1,57 @@
+{
+  "passage_id": "circ-brit-shalom-naming-ceremony-s0038",
+  "source_text": "Orthodox authorities, such as those in traditional halachic responsa, emphasize that failure to circumcise on the eighth day incurs severe spiritual consequences, including karet (excision from the community), and no alternative ritual can fulfill this obligation.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Orthodox authorities, such as those in traditional halachic responsa, emphasize that failure to circumcise on the eighth day incurs severe s"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Failure to circumcise on the eighth day incurs severe spiritual consequences, including karet (excision from the community), and no alternative ritual can fulfi.",
+      "span": {
+        "quote": "failure to circumcise on the eighth day incurs severe spiritual consequences, including karet (excision from the community), and no alternative ritual can fulfi"
+      },
+      "role": "conclusion",
+      "hedge": "weak",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Orthodox authorities, such as those in traditional halachic responsa.",
+      "span": {
+        "quote": "Orthodox authorities, such as those in traditional halachic responsa"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "emphasize"
+      },
+      "warrant": "asserted"
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

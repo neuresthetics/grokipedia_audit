@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-ethics-of-circumcision-s0014",
+  "source_text": "Historical records indicate that when executed by experienced practitioners in these ceremonial contexts, complication rates remain comparable to modern clinical procedures, typically below 1\u20132%, underscoring the procedure's empirical viability in traditional settings.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Historical records indicate that when executed by experienced practitioners in these ceremonial contexts, complication rates remain comparab"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Historical records indicate that when executed by experienced practitioners in these ceremonial contexts, complication rates remain comparable to modern clinica.",
+      "span": {
+        "quote": "Historical records indicate that when executed by experienced practitioners in these ceremonial contexts, complication rates remain comparable to modern clinica"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

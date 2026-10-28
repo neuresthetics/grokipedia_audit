@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0279",
+  "source_text": "This disparity fuels accusations of a double standard, as evidenced by surveys in Sweden where 38% of medical students viewed the practices as comparable in ethical terms, challenging institutional narratives that separate them into \"mutilation\" for females and \"procedure\" for males.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "This disparity fuels accusations of a double standard, as evidenced by surveys in Sweden where 38% of medical students viewed the practices"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "This disparity fuels accusations of a double standard, as evidenced by surveys in Sweden where 38% of medical students viewed the practices as comparable in eth.",
+      "span": {
+        "quote": "This disparity fuels accusations of a double standard, as evidenced by surveys in Sweden where 38% of medical students viewed the practices as comparable in eth"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

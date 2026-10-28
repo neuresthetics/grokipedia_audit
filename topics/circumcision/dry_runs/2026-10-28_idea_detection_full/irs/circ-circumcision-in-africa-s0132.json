@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-circumcision-in-africa-s0132",
+  "source_text": "These ceremonies, often performed by non-medical practitioners during adolescence, carry risks of infection and complications due to unsterile conditions, contrasting with medical approaches in urban areas.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These ceremonies, often performed by non-medical practitioners during adolescence, carry risks of infection and complications due to unsteri"
+      },
+      "claim_ids": [
+        "c1"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These ceremonies, often performed by non-medical practitioners during adolescence, carry risks of infection and complications due to unsterile conditions, contr.",
+      "span": {
+        "quote": "These ceremonies, often performed by non-medical practitioners during adolescence, carry risks of infection and complications due to unsterile conditions, contr"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

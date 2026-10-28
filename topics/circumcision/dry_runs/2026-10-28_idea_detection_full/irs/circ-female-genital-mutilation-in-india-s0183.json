@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-female-genital-mutilation-in-india-s0183",
+  "source_text": "These campaigns prioritize survivor testimonies to underscore long-term physical and psychological effects, such as pain, infections, and diminished sexual function, over religious rationales.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "These campaigns prioritize survivor testimonies to underscore long-term physical and psychological effects, such as pain, infections, and di"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "These campaigns prioritize survivor testimonies to underscore long-term physical and psychological effects, such as pain, infections, and diminished sexual func.",
+      "span": {
+        "quote": "These campaigns prioritize survivor testimonies to underscore long-term physical and psychological effects, such as pain, infections, and diminished sexual func"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

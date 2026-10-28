@@ -1,0 +1,69 @@
+{
+  "passage_id": "circ-foreskin-restoration-s0172",
+  "source_text": "Proponents of foreskin restoration assert that glans desensitization typically results from prolonged exposure post-circumcision, causing keratinization that reduces sensitivity; the process reverses this glans penis keratinization through coverage and protection under newly grown skin, promoting dekeratinization and moisture restoration to regain a softer, more responsive texture akin to that in uncircumcised men. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Proponents of foreskin restoration assert that glans desensitization typically results from prolonged exposure post-circumcision, causing ke"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "speaker": "proponents"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Glans desensitization typically results from prolonged exposure post-circumcision, causing keratinization that reduces sensitivity;.",
+      "span": {
+        "quote": "glans desensitization typically results from prolonged exposure post-circumcision, causing keratinization that reduces sensitivity;"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Proponents of foreskin restoration.",
+      "span": {
+        "quote": "Proponents of foreskin restoration"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "proponents"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "supports",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "assert"
+      },
+      "warrant": "asserted"
+    },
+    {
+      "id": "e2",
+      "type": "causes",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "causing"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

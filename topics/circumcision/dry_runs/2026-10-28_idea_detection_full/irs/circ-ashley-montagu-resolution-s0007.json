@@ -1,0 +1,37 @@
+{
+  "passage_id": "circ-ashley-montagu-resolution-s0007",
+  "source_text": "The resolution demands that governments legislate outright bans, petition the ICJ for an advisory opinion, and launch public education campaigns to counter cultural myths and highlight documented risks such as infection, sexual dysfunction, and trauma, while endorsing broader UN treaty enforcement. [2]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The resolution demands that governments legislate outright bans, petition the ICJ for an advisory opinion, and launch public education campa"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "speaker": "resolution",
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The resolution demands that governments legislate outright bans, petition the ICJ for an advisory opinion, and launch public education campaigns to counter cult.",
+      "span": {
+        "quote": "The resolution demands that governments legislate outright bans, petition the ICJ for an advisory opinion, and launch public education campaigns to counter cult"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth",
+      "speaker": "resolution"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

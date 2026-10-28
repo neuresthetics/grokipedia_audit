@@ -1,0 +1,76 @@
+{
+  "passage_id": "circ-circumcision-and-hiv-s0039",
+  "source_text": "A 2025 preprint meta-analysis reinforced protection specifically for PI-MSM (OR 0.57), supporting circumcision as a potential adjunctive strategy in this subgroup, but cautioned against broad extrapolation to all MSM given predominant receptive anal intercourse risks. [25]",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "A 2025 preprint meta-analysis reinforced protection specifically for PI-MSM (OR 0.57), supporting circumcision as a potential adjunctive str"
+      },
+      "claim_ids": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A 2025 preprint meta-analysis reinforced protection specifically for PI-MSM (OR 0.57), supporting circumcision as a potential adjunctive strategy in this subgro.",
+      "span": {
+        "quote": "A 2025 preprint meta-analysis reinforced protection specifically for PI-MSM (OR 0.57), supporting circumcision as a potential adjunctive strategy in this subgro"
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "Meta-analysis.",
+      "span": {
+        "quote": "meta-analysis"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    },
+    {
+      "id": "c3",
+      "text": "A 2025 preprint meta-analysis reinforced protection specifical.",
+      "span": {
+        "quote": "A 2025 preprint meta-analysis reinforced protection specifical"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "meta-analysis"
+      }
+    },
+    {
+      "id": "e2",
+      "type": "instantiates",
+      "source": "c3",
+      "target": "c1",
+      "span": {
+        "quote": "A 2025 preprint meta-analysis reinforced protection specific"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

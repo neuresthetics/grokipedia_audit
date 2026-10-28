@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-penile-subincision-s0090",
+  "source_text": "Overall, the absence of controlled studies underscores reliance on case reports from body modification contexts, where complication rates exceed those of supervised urological interventions.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Overall, the absence of controlled studies underscores reliance on case reports from body modification contexts, where complication rates ex"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Overall, the absence of controlled studies underscores reliance on case reports from body modification contexts, where complication rates exceed those of superv.",
+      "span": {
+        "quote": "Overall, the absence of controlled studies underscores reliance on case reports from body modification contexts, where complication rates exceed those of superv"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

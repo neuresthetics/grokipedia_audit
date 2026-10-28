@@ -1,0 +1,56 @@
+{
+  "passage_id": "circ-circumcision-s0448",
+  "source_text": "Over 30 studies, including RCTs and surveys, find no major negative effects on penile sensitivity, erectile function, or satisfaction after circumcision.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "Over 30 studies, including RCTs and surveys, find no major negative effects on penile sensitivity, erectile function, or satisfaction after"
+      },
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Over 30 studies, including RCTs and surveys, find no major negative effects on penile sensitivity, erectile function, or satisfaction after circumcision.",
+      "span": {
+        "quote": "Over 30 studies, including RCTs and surveys, find no major negative effects on penile sensitivity, erectile function, or satisfaction after circumcision."
+      },
+      "role": "conclusion",
+      "hedge": "none",
+      "scope": "truth",
+      "is_argument_or_proposal": true
+    },
+    {
+      "id": "c2",
+      "text": "RCTs.",
+      "span": {
+        "quote": "RCTs"
+      },
+      "role": "premise",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "type": "appeals_to_source",
+      "source": "c2",
+      "target": "c1",
+      "span": {
+        "quote": "RCTs"
+      }
+    }
+  ],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}

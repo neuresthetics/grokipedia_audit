@@ -1,0 +1,35 @@
+{
+  "passage_id": "circ-forced-circumcision-s0065",
+  "source_text": "The procedure is frequently executed informally by community elders or peers using unsterilized tools like knives or bottle caps, without anesthesia, heightening risks of hemorrhage, infection, and incomplete healing.",
+  "excerpt": true,
+  "steps": [
+    {
+      "id": "s1",
+      "span": {
+        "quote": "The procedure is frequently executed informally by community elders or peers using unsterilized tools like knives or bottle caps, without an"
+      },
+      "claim_ids": [
+        "c1"
+      ],
+      "no_argument": true
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The procedure is frequently executed informally by community elders or peers using unsterilized tools like knives or bottle caps, without anesthesia, heightenin.",
+      "span": {
+        "quote": "The procedure is frequently executed informally by community elders or peers using unsterilized tools like knives or bottle caps, without anesthesia, heightenin"
+      },
+      "role": "report",
+      "hedge": "none",
+      "scope": "truth"
+    }
+  ],
+  "edges": [],
+  "extractor": {
+    "kind": "llm",
+    "model": "cue-extractor-v1",
+    "charity_applied": true
+  }
+}
