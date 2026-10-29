@@ -2,11 +2,15 @@
 
 # Grokipedia Audit
 
-This repo checks Grokipedia articles against the sources they cite. Grokipedia is xAI's AI-written encyclopedia. Its articles look well sourced, but an AI writer can attach a citation that doesn't say what the sentence claims, or let the numbering slip so that a footnote points to the wrong source. This repo looks for those problems one claim at a time and keeps the evidence next to every finding, so a reader can check the work without having to trust it.
+**Overview.** This repo checks Grokipedia articles against the sources they cite. Grokipedia is xAI's AI-written encyclopedia. Its articles look well sourced, but an AI writer can attach a citation that doesn't say what the sentence claims, or let the numbering slip so that a footnote points to the wrong source. This repo looks for those problems one claim at a time and keeps the evidence next to every finding, so a reader can check the work without having to trust it.
+
+## Contents
+
+[Current results](#current-results) · [Work in progress](#work-in-progress) · [How it works](#how-it-works) · [Limitations](#limitations) · [Layout](#layout) · [Older files](#older-files)
 
 ## Current results
 
-| Topic | Run | In one sentence |
+| Topic | Run | Summary |
 |---|---|---|
 | Circumcision | [fallacy_catalog benchmark, 2026-10-08](topics/circumcision/runs/2026-10-08_fallacy_catalog/README.md) ([walkthrough](topics/circumcision/runs/2026-10-08_fallacy_catalog/WALKTHROUGH.md)) | 58 articles checked for fallacies by three AI reviewers; flags are leads, not verdicts. |
 | Spinoza | [citation and fact check of Baruch Spinoza, 2026-10-15](topics/spinoza/articles/baruch-spinoza/analyses/2026-10-15/README.md) ([topic update](topics/spinoza/README.md#update-2026-10-15)) | 401 sentences checked against their linked sources; 30 are supported as linked and 135 once the footnote shift is undone. |
@@ -14,6 +18,13 @@ This repo checks Grokipedia articles against the sources they cite. Grokipedia i
 ![Spinoza headline chart: same 401 sentences, citations as linked vs with the footnote shift undone](docs/img/spinoza/2026-10-15/headline_content_vs_citations.png)
 
 "Mostly accurate content" in the chart title is the assistant's reading of the bottom bar, not a measured label.
+
+## Work in progress
+
+| Topic | Status | Summary |
+|---|---|---|
+| Circumcision | [idea_detection dry runs, 2026-10-27/28](topics/circumcision/dry_runs/README.md) (commits [`368a337`](https://github.com/neuresthetics/grokipedia_audit/commit/368a337), [`1ade5c1`](https://github.com/neuresthetics/grokipedia_audit/commit/1ade5c1)) | Automated pass of fallacy_catalog's `idea_detection` checker over 2,616 argument passages: 0 hard flags and 452 `possible_issue` leads on 450 passages ([flat summary](topics/circumcision/dry_runs/2026-10-28_idea_detection_full/out/RUN_SUMMARY.md), catalog `bfcbc8b`). A nested re-check of the 450 with wider context: 1 survives, 449 break, of which 25 closed as hard flags and 424 remain open ([nested summary](topics/circumcision/dry_runs/2026-10-28_idea_detection_full/nested_out/RUN_SUMMARY.md), catalog `f304b80`). Assist leads, not verdicts. |
+| Consciousness | [snapshots, 2026-10-17](topics/consciousness/README.md) (commit [`2a4faea`](https://github.com/neuresthetics/grokipedia_audit/commit/2a4faea)) | 18 Grokipedia pages saved with an article list and snapshot log. No checks run yet. |
 
 ## How it works
 
@@ -29,6 +40,13 @@ Each audit is done by a general-purpose AI agent that follows plain written inst
 8. **What-if checks.** The medical arguments from step 7 are tagged by whether their point rests on the HIV/STI protection claim, and (for those near a cancer keyword) on the cancer-prevention claim. About two in five rest on one of the two. A tag means "depends on the claim", not that the claim is wrong; the audit does not check either claim. The tags are AI-tagged, one tag per sentence, and not blind. See the circumcision benchmark's [what-if counts](topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/cancer_dependence/CANCER_DEPENDENCE.md). Added up over all 971 pro arguments, with those premises taken as true, 38% are flagged by the audit or set aside and 62% are left ([total what-if](topics/circumcision/runs/2026-10-08_fallacy_catalog/flagged_pro/whatif_total/TOTAL_WHATIF.md)); this is conditional on the premises, the first of which contradicts the trials the articles cite.
 
 Every finding records the date and the model that made the judgment. Nothing is presented as a human expert's ruling, and citations or quotes are never filled in from memory.
+
+## Limitations
+
+- All judgments are made by AI models following written steps; none is a human expert's ruling.
+- A fallacy flag or `possible_issue` marks a passage worth checking. It does not show the claim is false, and an unflagged passage is not shown to be sound.
+- The idea_detection checker has 13 pilot patterns; most catalog entries cannot fire yet.
+- Snapshots record a page on one day; Grokipedia pages change.
 
 ## Why it's built this way
 
