@@ -1,11 +1,13 @@
 # RUN_SUMMARY — idea_detection full circ inventory (2026-10-28)
 
+**Published:** 2026-10-28 on grokipedia_audit `main` in commits [`368a337`](https://github.com/neuresthetics/grokipedia_audit/commit/368a337) and [`1ade5c1`](https://github.com/neuresthetics/grokipedia_audit/commit/1ade5c1). Artifact text below is the run record as produced; leads are assists, not hand verdicts.
+
 **Date:** 2026-10-28 (America/Los_Angeles)
 **Tip commit:** `bfcbc8b` (`fallacy_catalog` main; PR #7 squash-merged)
 **Passages:** `topics/circumcision/dry_runs/2026-10-28_idea_detection_full/passages_from_inventory.jsonl` (2616 lines; symlinked as `passages.jsonl`)
 **Source:** Oct 8 survival `argument_inventory.csv` (pro/anti), not a raw snapshot carve
 **Package:** not modified (read-only check + render)
-**Git:** local only under gta_repo; **not pushed**; tree left untracked/dirty as found
+**Git:** ~~local only under gta_repo; not pushed~~ (superseded: published, see note above); tree left untracked/dirty as found
 
 ## Pilot coverage caveat
 

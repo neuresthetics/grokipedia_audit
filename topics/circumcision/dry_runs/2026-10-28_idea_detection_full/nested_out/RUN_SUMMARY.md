@@ -1,9 +1,11 @@
 # Nested peel run summary — circ leads
 
+**Published:** 2026-10-28 on grokipedia_audit `main` in commits [`368a337`](https://github.com/neuresthetics/grokipedia_audit/commit/368a337) and [`1ade5c1`](https://github.com/neuresthetics/grokipedia_audit/commit/1ade5c1). Artifact text below is the run record as produced; leads are assists, not hand verdicts.
+
 **Package tip:** `f304b80` (`f304b807d945c708be21d0495bc56c4076931dcd`)  
 **Dry-run:** `/workspace/gta_repo/topics/circumcision/dry_runs/2026-10-28_idea_detection_full`  
 **Output:** `/workspace/gta_repo/topics/circumcision/dry_runs/2026-10-28_idea_detection_full/nested_out`  
-**Local only — not pushed.**
+~~Local only — not pushed.~~ (superseded: published, see note above)
 
 ## Input
 - Lead seeds: **450** unique passage_ids from `out/leads.json` (0 flags + 452 possible_issues → 450 unique)

@@ -1,5 +1,7 @@
 # Nested METHOD assist records (index)
 
+**Published:** 2026-10-28 on grokipedia_audit `main` in commits [`368a337`](https://github.com/neuresthetics/grokipedia_audit/commit/368a337) and [`1ade5c1`](https://github.com/neuresthetics/grokipedia_audit/commit/1ade5c1). Artifact text below is the run record as produced; leads are assists, not hand verdicts.
+
 Tip `f304b80`. Assist / lead-to-check only — not hand METHOD.
 
 Seeds: 450. METHOD records: 1295. Full JSONL: `method_records.jsonl`.
@@ -43,5 +45,5 @@ Stress: survives=1 breaks=449. Outcome: {'open': 424, 'flagged': 25, 'survives':
 - empty_expander peels: 590 across 220 trees
 - peels with checked child: 1013
 - MISSING cite context lines: 24 (16 unique passage_ids)
-- Local only; not pushed.
+- ~~Local only; not pushed.~~ (superseded: published, see note above)
 

@@ -1,5 +1,7 @@
 # Context map — circ idea_detection nested (2026-10-28)
 
+**Published:** 2026-10-28 on grokipedia_audit `main` in commits [`368a337`](https://github.com/neuresthetics/grokipedia_audit/commit/368a337) and [`1ade5c1`](https://github.com/neuresthetics/grokipedia_audit/commit/1ade5c1). Artifact text below is the run record as produced; leads are assists, not hand verdicts.
+
 Built for the 452 `possible_issue` rows in `out/leads.json` (**450 unique** `passage_id`s; 2 duplicate lead ids collapsed: `['circ-circumcision-and-hiv-s0170', 'circ-circumcision-in-africa-s0005']`).
 
 Use with fallacy_catalog nested CLI (tip **f304b80**):
@@ -23,7 +25,7 @@ python3 -m idea_detection.nested --context-map \
 5. Extract `[n]` markers; look up `ref_number` in `2026-10-01_sources.csv` (`title` / `url` / `raw_text`).
 6. Emit `kind=cite` records: if the IR has `appeals_to_source` edges, set `target_id` to the edge id (`e1`, …); otherwise `target_id=ref-{n}`. Missing CSV refs still get a cite record noting `MISSING`.
 
-No invented expert/trust facts — expand text is snapshot body and CSV fields only. Local only; not committed.
+No invented expert/trust facts — expand text is snapshot body and CSV fields only. ~~Local only; not committed.~~ (superseded: published, see note above)
 
 ## Counts
 

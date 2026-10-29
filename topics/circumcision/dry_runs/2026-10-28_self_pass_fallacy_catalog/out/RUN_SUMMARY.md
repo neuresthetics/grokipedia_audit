@@ -1,12 +1,14 @@
 # RUN_SUMMARY — fallacy_catalog doctrine self-pass (flat) 2026-10-28
 
+**Published:** 2026-10-28 on grokipedia_audit `main` in commits [`368a337`](https://github.com/neuresthetics/grokipedia_audit/commit/368a337) and [`1ade5c1`](https://github.com/neuresthetics/grokipedia_audit/commit/1ade5c1). Artifact text below is the run record as produced; leads are assists, not hand verdicts.
+
 **Date:** 2026-10-28 (America/Los_Angeles)
 **Tip commit:** `bfcbc8b` (`fallacy_catalog` main; METHOD record renderer from #7)
 **Passages:** `topics/circumcision/dry_runs/2026-10-28_self_pass_fallacy_catalog/passages.jsonl` (98 lines)
 **Source:** claim-bearing doctrine from METHOD / IDEA_DETECTION / IDEA_LEVEL / NESTED_LAYERS / EXTRACTOR_PROMPT (+ sparse pilot prose)
 **Checker:** flat only (`python3 -m idea_detection`); nested NOT used (PR #8 not merged)
 **Package:** not modified (read-only extract + check + render)
-**Git:** local only under gta_repo; **not pushed**
+**Git:** ~~local only under gta_repo; not pushed~~ (superseded: published, see note above)
 
 ## Pilot coverage caveat
 
